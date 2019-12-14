@@ -8,7 +8,7 @@
     "build": "next build",
     "start": "NODE_ENV=production node server.js -p $PORT",
     "export": "next export",
-    "deploy": "rimraf node_modules/.cache && rimraf out && next build && next export && nodetouch out/.nojekyll && git add out/ && git commit -m \"Deploy to master from source\" && git subtree push --prefix out origin master"
+    "deploy": "rimraf node_modules/.cache && rimraf out && next build && next export && nodetouch out/.nojekyll && git add out/ && git commit -m \"Deploy to master from source\" && git subtree push --prefix out origin Master"
   },
   "repository": {
     "type": "git",
