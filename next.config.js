@@ -5,41 +5,40 @@ const withFonts = require('next-fonts');
 const withPlugins = require('next-compose-plugins');
 const optimizedImages = require('next-optimized-images');
 
-// const isProd = (process.env.NODE_ENV || 'production') === 'production'
+const isProd = (process.env.NODE_ENV || 'production') === 'production'
 
-// const assetPrefix = isProd ? '/oldbaynewfoundlands' : ''
+const assetPrefix = isProd ? '/oldbaynewfoundlands' : ''
 
-const assetPrefix = '/oldbaynewfoundlands'
-module.exports = {
-  exportPathMap: () => ({
-    '/': { page: '/' },
-  }),
-  assetPrefix: assetPrefix,
-  webpack: config => {
-    config.plugins.push(
-      new webpack.DefinePlugin({
-        'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix),
-      }),
-    )
+// module.exports = {
+//   exportPathMap: () => ({
+//     '/': { page: '/' },
+//   }),
+//   assetPrefix: assetPrefix,
+//   webpack: config => {
+//     config.plugins.push(
+//       new webpack.DefinePlugin({
+//         'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix),
+//       }),
+//     )
 
-    return config
-  },
-}
+//     return config
+//   },
+// }
 
-// const nextConfig =  {
-//     exportPathMap: () => ({
-//       '/': { page: '/' },
-//     }),
-//     assetPrefix: assetPrefix,
-//     webpack: config => {
-//       config.plugins.push(
-//         new webpack.DefinePlugin({
-//           'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix),
-//         }),
-//       )
+const nextConfig =  {
+    exportPathMap: () => ({
+      '/': { page: '/' },
+    }),
+    assetPrefix: assetPrefix,
+    webpack: config => {
+      config.plugins.push(
+        new webpack.DefinePlugin({
+          'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix),
+        }),
+      )
   
-//       return config
-//     },
-//   }
+      return config
+    },
+  }
 
-//   module.exports = withPlugins([withSass],[withCSS], [withFonts], [optimizedImages], (nextConfig))
+  module.exports = withPlugins([withSass, nextConfig],[withCSS], [withFonts], [optimizedImages], (nextConfig))
