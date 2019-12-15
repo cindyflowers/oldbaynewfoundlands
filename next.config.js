@@ -25,8 +25,32 @@ const assetPrefix = isProd ? '/oldbaynewfoundlands' : ''
 //   },
 // }
 
+/* const optimizeImagesConfig = {
+  inlineImageLimit: 8192,
+  imagesFolder: 'images',
+  imagesName: '[name]-[hash].[ext]',
+  handleImages: ['jpeg', 'jpg', 'png', 'svg', 'webp', 'gif', 'ico'],
+  optimizeImages: true,
+  optimizeImagesInDev: false,
+  mozjpeg: {
+      quality: 80,
+  },
+  optipng: {
+      optimizationLevel: 3,
+  },
+  pngquant: false,
+  gifsicle: {
+      interlaced: true,
+      optimizationLevel: 3,
+  },
+  webp: {
+      preset: 'default',
+      quality: 75,
+  },
+} */
+
 const nextConfig =  {
-    exportPathMap: () => ({
+      exportPathMap: () => ({
       '/': { page: '/' },
     }),
     assetPrefix: assetPrefix,
@@ -36,9 +60,12 @@ const nextConfig =  {
           'process.env.ASSET_PREFIX': JSON.stringify(assetPrefix),
         }),
       )
-  
       return config
     },
   }
 
-  module.exports = withPlugins([withSass, nextConfig],[withCSS], [withFonts], [optimizedImages], (nextConfig))
+  module.exports = withCSS(withSass(optimizedImages(withFonts(nextConfig))));
+
+  // module.exports = withPlugins([optimizedImages, nextConfig],[withSass], 
+  //    [withCSS], [withFonts], 
+  //   (nextConfig))
