@@ -10297,7 +10297,7 @@ var Home = function Home() {
 
 /***/ }),
 
-/***/ 0:
+/***/ 1:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CProjects%5CPortfolio%5Coldbaynewfoundlands%5Cpages%5Cindex.js ***!
   \*************************************************************************************************************************************/
@@ -10320,5 +10320,5 @@ module.exports = dll_5f137288facb1107b491;
 
 /***/ })
 
-},[[0,"static/runtime/webpack.js"]]]);
+},[[1,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
