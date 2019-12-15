@@ -13,7 +13,7 @@ const Nav = () => (
   <nav>
     <ul>
       <li>
-        <Link href="/">
+        <Link href="/" as={`${process.env.ASSET_PREFIX}/`}>
           <a>Home2</a>
         </Link>
       </li>
