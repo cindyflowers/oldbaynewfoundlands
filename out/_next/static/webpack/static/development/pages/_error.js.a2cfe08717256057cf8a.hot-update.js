@@ -700,7 +700,7 @@ function (_Component) {
           lineNumber: 69
         },
         __self: this
-      }, "Copyrite @ 2019 Novine. All Rights Reserved")), __jsx("div", {
+      }, "Copyrite @ 2019 Old Bay Newfoundlands. All Rights Reserved")), __jsx("div", {
         className: "col-lg-6 col-md-6",
         __source: {
           fileName: _jsxFileName,
@@ -7414,4 +7414,4 @@ module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2F_error
 /***/ })
 
 })
-//# sourceMappingURL=_error.js.868d7d8aefdde669f089.hot-update.js.map
+//# sourceMappingURL=_error.js.a2cfe08717256057cf8a.hot-update.js.map
