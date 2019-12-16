@@ -1444,18 +1444,18 @@ Main Banner Area CSS
   height: 600px;
   position: relative;
   z-index: 1;
-  background-color: #f1f1f1;
+  background-color: #959595;
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center center;
 }
 
 .main-banner.item-bg1 {
-  background-image: url(/_next/static/images/main-banner1-f8f20a3f26b347cc3e5a568f8d1bce6c.jpg);
+  background-image: url(/_next/static/images/main-banner1-2669875429c1a273fc9b5138918fc63e.jpg);
 }
 
 .main-banner.item-bg2 {
-  background-image: url(/_next/static/images/main-banner2-f8f20a3f26b347cc3e5a568f8d1bce6c.jpg);
+  background-image: url(/_next/static/images/main-banner2-7fc7103840035f5abae92a4be115cb98.jpg);
 }
 
 .main-banner.item-bg3 {
@@ -1472,7 +1472,7 @@ Main Banner Area CSS
 
 .main-banner-content span {
   font-size: 14px;
-  color: #666666;
+  color: #eeeeee;
   display: block;
 }
 
@@ -1482,12 +1482,13 @@ Main Banner Area CSS
   text-transform: uppercase;
   margin-top: 8px;
   margin-bottom: 15px;
+  color: #eeeeee;
 }
 
 .main-banner-content p {
   line-height: initial;
   font-size: 18px;
-  color: #222222;
+  color: #eeeeee;
   margin-bottom: 35px;
 }
 
@@ -1496,21 +1497,21 @@ Main Banner Area CSS
 }
 
 .main-banner-content.white-color span {
-  color: #ffffff;
+  color: #222222;
 }
 
 .main-banner-content.white-color h1 {
-  color: #ffffff;
+  color: #222222;
 }
 
 .main-banner-content.white-color p {
-  color: #ffffff;
+  color: #222222;
 }
 
 .main-banner-content.white-color .btn-primary:hover, .main-banner-content.white-color .btn-primary:focus {
-  background-color: #ffffff;
-  color: #222222;
-  border-color: #ffffff;
+  background-color: #222222;
+  color: #ffffff;
+  border-color: #222222;
 }
 
 .home-slides.owl-theme .owl-nav {
