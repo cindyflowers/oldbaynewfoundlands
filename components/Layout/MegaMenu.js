@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import Link from 'next/link';
-//import Cart from '../Modal/Cart';
 
 class MegaMenu extends Component {
 
@@ -10,14 +9,6 @@ class MegaMenu extends Component {
         searchForm: false,
         collapsed: true
     };
-
-    // handleCart = () => {
-    //     this.setState( prevState => {
-    //         return {
-    //             display: !prevState.display
-    //         };
-    //     });
-    // }
 
     handleSearchForm = () => {
         this.setState( prevState => {
@@ -118,6 +109,12 @@ class MegaMenu extends Component {
                                                                 </li>
 
                                                                 <li>
+                                                                    <Link href="/cart">
+                                                                        <a>Top Twenty</a>
+                                                                    </Link>
+                                                                </li>
+
+                                                                <li>
                                                                     <Link href="/checkout">
                                                                         <a>Register of Merit</a>
                                                                     </Link>
@@ -125,7 +122,7 @@ class MegaMenu extends Component {
 
                                                                 <li>
                                                                     <Link href="/compare">
-                                                                        <a>Versitle Newfoundland</a>
+                                                                        <a>Versatile Newfoundland</a>
                                                                     </Link>
                                                                 </li>
 
@@ -144,7 +141,7 @@ class MegaMenu extends Component {
                                                         </div>
 
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Top Brands</h6>
+                                                            <h6 className="submenu-title">NCA Top Twenty</h6>
 
                                                             <ul className="megamenu-submenu top-brands">
                                                                 <li>
@@ -187,13 +184,6 @@ class MegaMenu extends Component {
                                                                     </Link>
                                                                 </li>
 
-                                                                <li>
-                                                                    <Link href="#">
-                                                                        <a>
-                                                                            <img src={require("../../images/partner6.png")} alt="image" />
-                                                                        </a>
-                                                                    </Link>
-                                                                </li>
                                                             </ul>
                                                         </div>
                                                     </div>
@@ -213,146 +203,29 @@ class MegaMenu extends Component {
                                                 <div className="container">
                                                     <div className="row">
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Clothing</h6>
+                                                            <h6 className="submenu-title">Co-owned by Old Bay</h6>
 
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Coats</a>
+                                                                        <a>Flash</a>
                                                                     </Link>
                                                                 </li>
 
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Jackets</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Blazers</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Dresses</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Trousers</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar-with-block">
-                                                                        <a>Jeans</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Sweatshirts</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>T-Shirts</a>
-                                                                    </Link>
-                                                                </li>
                                                             </ul>
                                                         </div>
 
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Shoes</h6>
+                                                            <h6 className="submenu-title">Owned By Old Bay</h6>
 
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Trainers</a>
+                                                                        <a>Rolex</a>
                                                                     </Link>
                                                                 </li>
 
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Boots</a>
-                                                                    </Link>
-                                                                </li>
-                                                                
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Heels</a>
-                                                                    </Link>
-                                                                </li>
 
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Flats</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar-with-block">
-                                                                        <a>Heeled Sandals</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Platforms</a>
-                                                                    </Link>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
-
-                                                        <div className="col">
-                                                            <h6 className="submenu-title">Accessories</h6>
-
-                                                            <ul className="megamenu-submenu">
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Bags</a>
-                                                                    </Link>
-                                                                </li>
-                                                                
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Glasses</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar-with-block">
-                                                                        <a>Jewellery</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>iPhone Cases</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Gadgets</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Hats & Beanie</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Purses</a>
-                                                                    </Link>
-                                                                </li>
                                                             </ul>
                                                         </div>
 
@@ -360,20 +233,20 @@ class MegaMenu extends Component {
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <div className="aside-trending-products">
-                                                                        <img src={require("../../images/category-products-img2.jpg")} alt="image" />
+                                                                        <img src={require("../../images/rolex.jpg")} alt="image" />
 
                                                                         <div className="category">
-                                                                            <h4>Top Trending</h4>
+                                                                            <h4>Rolex</h4>
                                                                         </div>
 
                                                                         <a href="#"></a>
                                                                     </div>
 
                                                                     <div className="aside-trending-products">
-                                                                        <img src={require("../../images/category-products-img3.jpg")} alt="image" />
+                                                                        <img src={require("../../images/maestro.jpg")} alt="image" />
 
                                                                         <div className="category">
-                                                                            <h4>Popular Products</h4>
+                                                                            <h4>Maestro</h4>
                                                                         </div>
 
                                                                         <a href="#"></a>
@@ -396,163 +269,41 @@ class MegaMenu extends Component {
                                                 <div className="container">
                                                     <div className="row">
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Clothing</h6>
+                                                            <h6 className="submenu-title">Co-owned by old bay</h6>
 
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <Link href="/category-left-sidebar">
-                                                                        <a>Coats</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Jackets</a>
-                                                                    </Link>
-                                                                </li>
-                                                                
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Jeans</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar-with-block">
-                                                                        <a>T-Shirts</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Sweatshirts</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Knitwear</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Shirts</a>
+                                                                        <a>Snowball</a>
                                                                     </Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
 
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Shoes</h6>
+                                                            <h6 className="submenu-title">Owned by old bay</h6>
 
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Trainers</a>
+                                                                        <a>Kiss</a>
                                                                     </Link>
                                                                 </li>
 
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Boots</a>
-                                                                    </Link>
-                                                                </li>
 
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Heels</a>
-                                                                    </Link>
-                                                                </li>
 
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Flats</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Heeled Sandals</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar-with-block">
-                                                                        <a>Sandals</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Platforms</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Heeled Sandals</a>
-                                                                    </Link>
-                                                                </li>
                                                             </ul>
                                                         </div>
 
-                                                        <div className="col">
-                                                            <h6 className="submenu-title">Accessories</h6>
-
-                                                            <ul className="megamenu-submenu">
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Bags</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Backpacks</a>
-                                                                    </Link>
-                                                                </li>
-                                                                
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Glasses</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Earrings</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>iPhone Cases</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Mobile Accessories</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Socks</a>
-                                                                    </Link>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
 
                                                         <div className="col">
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <div className="aside-trending-products">
-                                                                        <img src={require("../../images/category-products-img2.jpg")} alt="image" />
+                                                                        <img src={require("../../images/kiss.jpg")} alt="image" />
 
                                                                         <div className="category">
-                                                                            <h4>Top Trending</h4>
+                                                                            <h4>Kiss</h4>
                                                                         </div>
                                                                         <Link href="#">
                                                                             <a></a>
@@ -560,10 +311,10 @@ class MegaMenu extends Component {
                                                                     </div>
 
                                                                     <div className="aside-trending-products">
-                                                                        <img src={require("../../images/category-products-img3.jpg")} alt="image" />
+                                                                        <img src={require("../../images/snowball.jpg")} alt="image" />
 
                                                                         <div className="category">
-                                                                            <h4>Popular Products</h4>
+                                                                            <h4>Snowball</h4>
                                                                         </div>
 
                                                                         <Link href="#">
@@ -588,154 +339,29 @@ class MegaMenu extends Component {
                                                 <div className="container">
                                                     <div className="row">
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Clothing</h6>
+                                                            <h6 className="submenu-title">Litters</h6>
 
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <Link href="/category-left-sidebar">
-                                                                        <a>Coats</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Jackets</a>
-                                                                    </Link>
-                                                                </li>
-                                                                
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Jeans</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar-with-block">
-                                                                        <a>T-Shirts</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Sweatshirts</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Knitwear</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Shirts</a>
+                                                                        <a>Rhône and Kiss</a>
                                                                     </Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
 
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Shoes</h6>
+                                                            <h6 className="submenu-title">Future</h6>
 
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Trainers</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>Boots</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Heels</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Flats</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Heeled Sandals</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar-with-block">
-                                                                        <a>Sandals</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Platforms</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Heeled Sandals</a>
+                                                                        <a>Powder Ridge Newfs - Late 2019</a>
                                                                     </Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
 
-                                                        <div className="col">
-                                                            <h6 className="submenu-title">Accessories</h6>
-
-                                                            <ul className="megamenu-submenu">
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Bags</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Backpacks</a>
-                                                                    </Link>
-                                                                </li>
-                                                                
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Glasses</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Earrings</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>iPhone Cases</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Mobile Accessories</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Socks</a>
-                                                                    </Link>
-                                                                </li>
-                                                            </ul>
-                                                        </div>
 
                                                         <div className="col">
                                                             <ul className="megamenu-submenu">
@@ -744,7 +370,7 @@ class MegaMenu extends Component {
                                                                         <img src={require("../../images/category-products-img2.jpg")} alt="image" />
 
                                                                         <div className="category">
-                                                                            <h4>Top Trending</h4>
+                                                                            <h4>Rhône and Kiss</h4>
                                                                         </div>
                                                                         <Link href="#">
                                                                             <a></a>
@@ -755,7 +381,7 @@ class MegaMenu extends Component {
                                                                         <img src={require("../../images/category-products-img3.jpg")} alt="image" />
 
                                                                         <div className="category">
-                                                                            <h4>Popular Products</h4>
+                                                                            <h4>Crosby and</h4>
                                                                         </div>
 
                                                                         <Link href="#">
@@ -781,181 +407,20 @@ class MegaMenu extends Component {
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
                                                 <Link href="/about">
-                                                    <a className="nav-link">About Us</a>
+                                                    <a className="nav-link">Carson</a>
                                                 </Link>
                                             </li>
 
-                                            <li className="nav-item">
-                                                <Link href="/sizing-guide">
-                                                    <a className="nav-link">Sizing Guide</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/gallery">
-                                                    <a className="nav-link">Gallery</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item"><a href="#" className="nav-link">Account</a>
-                                                <ul className="dropdown-menu">
-                                                    <li className="nav-item">
-                                                        <Link href="/login">
-                                                            <a className="nav-link">Login</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link href="/signup">
-                                                            <a className="nav-link">Signup</a>
-                                                        </Link>
-                                                    </li>
-
-                                                    <li className="nav-item">
-                                                        <Link href="/cart">
-                                                            <a className="nav-link">Cart</a>
-                                                        </Link>
-                                                    </li>
-                                                </ul>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/cart">
-                                                    <a className="nav-link">Cart</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/checkout">
-                                                    <a className="nav-link">Checkout</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/compare">
-                                                    <a className="nav-link">Compare</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/customer-service">
-                                                    <a className="nav-link">Customer Service</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/login">
-                                                    <a className="nav-link">Login</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/signup">
-                                                    <a className="nav-link">Signup</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/faq">
-                                                    <a className="nav-link">FAQs</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/error">
-                                                    <a className="nav-link">Error 404</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/contact-us">
-                                                    <a className="nav-link">Contact Us</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
-                                    </li>
-
-                                    <li className="nav-item p-relative">
-                                        <Link href="#">
-                                            <a className="nav-link">Blog <i className="fas fa-chevron-down"></i></a>
-                                        </Link>
-                                        <ul className="dropdown-menu">
-
-                                            <li className="nav-item">
-                                                <Link href="/blog">
-                                                    <a className="nav-link">Blog</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/blog-details">
-                                                    <a className="nav-link">Blog Details</a>
-                                                </Link>
-                                            </li>
 
                                         </ul>
                                     </li>
                                 </ul>
 
-                                {/* <div className="others-option"> 
-
-                                    <div className="option-item">
-                                        
-                                        <i 
-                                            onClick={this.handleSearchForm} 
-                                            className="search-btn fas fa-search"
-                                            style={{
-                                                display: this.state.searchForm ? 'none' : 'block'
-                                            }}
-                                        ></i>
-
-                                        <i 
-                                            onClick={this.handleSearchForm} 
-                                            className={`close-btn fas fa-times ${this.state.searchForm ? 'active' : ''}`}
-                                        ></i>
-                                        
-                                        <div 
-                                            className="search-overlay search-popup"
-                                            style={{
-                                                display: this.state.searchForm ? 'block' : 'none'
-                                            }}
-                                        >
-                                            <div className='search-box'>
-                                                <form className="search-form">
-                                                    <input className="search-input" name="search" placeholder="Search" type="text" />
-
-                                                    <button className="search-button" type="submit"><i className="fas fa-search"></i></button>
-                                                </form>
-                                            </div>
-                                        </div>
-                                    </div>
-
-                                    <div className="option-item">
-                                        <Link href="/login">
-                                            <a>Login</a>
-                                        </Link>
-                                    </div>
-
-                                    <div className="option-item">
-                                        <Link href="#">
-                                            <a
-                                                // onClick={(e) => {
-                                                //     e.preventDefault();
-                                                //     this.handleCart()
-                                                // }}
-                                            >
-                                                Cart({products.length}) <i className="fas fa-shopping-bag"></i> 
-                                            </a>
-                                        </Link>
-                                    </div>
-
-                                </div>*/}
                             </div>
                         </nav>
                     </div>
                 </div>
             </div>
-            {/* {this.state.display ? <Cart onClick={this.handleCart} /> : ''} */}
             </React.Fragment>
         );
     }
