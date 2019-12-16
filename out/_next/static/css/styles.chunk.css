@@ -1451,7 +1451,7 @@ Main Banner Area CSS
 }
 
 .main-banner.item-bg1 {
-  background-image: url(/_next/static/images/main-banner1-2669875429c1a273fc9b5138918fc63e.jpg);
+  background-image: url(/_next/static/images/main-banner1-796673c6b997704f4c4c18b39c160bce.jpg);
 }
 
 .main-banner.item-bg2 {
@@ -1459,7 +1459,7 @@ Main Banner Area CSS
 }
 
 .main-banner.item-bg3 {
-  background-image: url(/_next/static/images/main-banner3-f8f20a3f26b347cc3e5a568f8d1bce6c.jpg);
+  background-image: url(/_next/static/images/main-banner3-74583fe38b994b38d661c06fc4c1a010.jpg);
 }
 
 .main-banner.item-bg4 {
@@ -1472,8 +1472,14 @@ Main Banner Area CSS
 
 .main-banner-content span {
   font-size: 14px;
-  color: #eeeeee;
+  color: #dadada;
   display: block;
+}
+
+.main-banner-d-table {
+  position: absolute;
+  top: 50px;
+  left: 30px;
 }
 
 .main-banner-content h1 {
