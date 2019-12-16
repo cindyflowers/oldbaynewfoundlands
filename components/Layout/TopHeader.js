@@ -25,8 +25,6 @@ class TopHeader extends Component {
                             <div className="col-lg-7 col-md-6">
                                 <ul className="top-header-nav">
                                     <li><Link href="/"><a>About</a></Link></li>
-                                    <li><Link href="/"><a>Our Stores</a></Link></li>
-                                    <li><Link href="/"><a>FAQ's</a></Link></li>
                                     <li><Link href="/"><a>Contact</a></Link></li>
                                 </ul>
                             </div>
@@ -34,32 +32,24 @@ class TopHeader extends Component {
                             <div className="col-lg-5 col-md-6">
                                 <ul className="top-header-right-nav">
                                     <li>
-                                        <Link href="#">
-                                            <a 
-                                                data-toggle="modal" 
-                                                data-target="#shoppingWishlistModal"
-                                                onClick={e => {
-                                                    e.preventDefault();
-                                                    this.handleWishlist()
-                                                }}
-                                            >
-                                                Wishlist <i className="far fa-heart"></i>
-                                            </a>
+                                        <Link href="https://www.akc.org/dog-breeds/newfoundland/" >
+                                                <a target="_blank">AKC <i className="fas fa-dog"></i></a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="/compare">
-                                            <a>Compare <i className="fas fa-balance-scale"></i></a>
+                                        <Link href="http://www.ncanewfs.org/">
+                                            <a target="_blank">NCA <i className="fas fa-paw"></i></a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <div className="languages-list">
-                                            <select>
-                                                <option value="1">Eng</option>
-                                                <option value="2">Ger</option>
-                                                <option value="3">Span</option>
-                                            </select>
-                                        </div>
+                                        <Link href="http://cncnewfs.com/">
+                                            <a target="_blank">CNC <i className="fas fa-dog"></i></a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link href="http://www.middleburgkc.com/index.html/">
+                                            <a target="_blank">MKC <i className="fas fa-paw"></i></a>
+                                        </Link>
                                     </li>
                                 </ul>
                             </div>

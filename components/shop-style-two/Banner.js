@@ -35,8 +35,8 @@ class Banner extends Component {
                 {...options}
             >
                 <div className="main-banner item-bg2">
-                    <div className="d-table">
-                        <div className="d-table-cell">
+                    <div className="main-banner-d-table">
+                        <div className="main-banner-d-table-cell">
                             <div className="container">
                                 <VisibilitySensor>
                                     {({ isVisible }) => (
@@ -46,21 +46,21 @@ class Banner extends Component {
                                                     isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                 }
                                             >
-                                                New Inspiration 2019
+                                                Established in 1988
                                             </span>
                                             <h1
                                                 className={
                                                     isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                 }
                                             >
-                                                CLOTHING MADE FOR YOU!
+                                                OLD BAY NEWFOUNDLANDS
                                             </h1>
                                             <p
                                                 className={
                                                     isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                 }
                                             >
-                                                Trending from men and women style collection
+                                                Dedicated to perserving the future of purebred Newfoundlands
                                             </p>
                                             
                                             <Link href="#">
@@ -69,17 +69,17 @@ class Banner extends Component {
                                                         `btn btn-primary ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
                                                     }
                                                 >
-                                                    Shop Women's
+                                                    THE BOYS
                                                 </a>
                                             </Link>
 
                                             <Link href="#">
                                                 <a 
                                                     className={
-                                                        `btn btn-light ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
+                                                        `btn btn-primary ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
                                                     }
                                                 >
-                                                    Shop Men's
+                                                    THE GIRLS
                                                 </a>
                                             </Link>
                                         </div>
@@ -91,8 +91,8 @@ class Banner extends Component {
                 </div>
 
                 <div className="main-banner item-bg1">
-                    <div className="d-table">
-                        <div className="d-table-cell">
+                    <div className="main-banner-d-table">
+                        <div className="main-banner-d-table-cell">
                             <div className="container">
                                 <VisibilitySensor>
                                     {({ isVisible }) => (
@@ -102,21 +102,21 @@ class Banner extends Component {
                                                     isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
                                                 }
                                             >
-                                                New Inspiration 2019
+                                                Established in 1988
                                             </span>
                                             <h1
                                                 className={
                                                     isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
                                                 }
                                             >
-                                                CLOTHING MADE FOR YOU!
+                                                OLD BAY NEWFOUNDLANDS
                                             </h1>
                                             <p
                                                 className={
                                                     isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
                                                 }
                                             >
-                                                Trending from men and women style collection
+                                                Dedicated to perserving the future of purebred Newfoundlands
                                             </p>
                                             
                                             <Link href="#">
@@ -125,17 +125,17 @@ class Banner extends Component {
                                                         `btn btn-primary ${isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'}`
                                                     }
                                                 >
-                                                    Shop Women's
+                                                    THE BOYS
                                                 </a>
                                             </Link>
 
                                             <Link href="#">
                                                 <a 
                                                     className={
-                                                        `btn btn-light ${isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'}`
+                                                        `btn btn-primary ${isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'}`
                                                     }
                                                 >
-                                                    Shop Men's
+                                                    THE GIRLS
                                                 </a>
                                             </Link>
                                         </div>
@@ -147,8 +147,8 @@ class Banner extends Component {
                 </div>
 
                 <div className="main-banner item-bg3">
-                    <div className="d-table">
-                        <div className="d-table-cell">
+                    <div className="main-banner-d-table">
+                        <div className="main-banner-d-table-cell">
                             <div className="container">
                                 <VisibilitySensor>
                                     {({ isVisible }) => (
@@ -158,21 +158,21 @@ class Banner extends Component {
                                                     isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                 }
                                             >
-                                                New Inspiration 2019
+                                                Established in 1988
                                             </span>
                                             <h1
                                                 className={
                                                     isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                 }
                                             >
-                                                CLOTHING MADE FOR YOU!
+                                                OLD BAY NEWFOUNDLANDS
                                             </h1>
                                             <p
                                                 className={
                                                     isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
                                                 }
                                             >
-                                                Trending from men and women style collection
+                                                Dedicated to perserving the future of purebred Newfoundlands
                                             </p>
                                             
                                             <Link href="#">
@@ -181,17 +181,17 @@ class Banner extends Component {
                                                         `btn btn-primary ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
                                                     }
                                                 >
-                                                    Shop Women's
+                                                    THE BOYS
                                                 </a>
                                             </Link>
 
                                             <Link href="#">
                                                 <a 
                                                     className={
-                                                        `btn btn-light ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
+                                                        `btn btn-primary ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
                                                     }
                                                 >
-                                                    Shop Men's
+                                                    THE GIRLS
                                                 </a>
                                             </Link>
                                         </div>

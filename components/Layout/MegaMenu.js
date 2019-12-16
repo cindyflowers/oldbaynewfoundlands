@@ -59,7 +59,7 @@ class MegaMenu extends Component {
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
                                 <a className="navbar-brand">
-                                    {/* <img src={require("../../images/logo.png")} alt="logo" /> */}
+                                    <img src={require("../../images/logo.jpg")} alt="Old Bay Newfoundlands" />
                                 </a>
                             </Link>
 
@@ -78,42 +78,17 @@ class MegaMenu extends Component {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item p-relative">
-                                        <Link href="#">
+                                        <Link href="/#">
                                             <a className="nav-link active">
-                                                Home <i className="fas fa-chevron-down"></i>
+                                                Home 
                                             </a>
                                         </Link>
-                                        <ul className="dropdown-menu">
-                                            <li className="nav-item">
-                                                <Link href="/">
-                                                    <a className="nav-link active">Home One</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/shop-style-two">
-                                                    <a className="nav-link">Home Two</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/shop-style-three">
-                                                    <a className="nav-link">Home Three</a>
-                                                </Link>
-                                            </li>
-
-                                            <li className="nav-item">
-                                                <Link href="/shop-style-four">
-                                                    <a className="nav-link">Home Four</a>
-                                                </Link>
-                                            </li>
-                                        </ul>
                                     </li>
                                     
                                     <li className="nav-item megamenu">
                                         <Link href="#">
                                             <a className="nav-link">
-                                                Shop <i className="fas fa-chevron-down"></i>
+                                                Awards <i className="fas fa-chevron-down"></i>
                                             </a>
                                         </Link>
                                         <ul className="dropdown-menu">
@@ -121,102 +96,48 @@ class MegaMenu extends Component {
                                                 <div className="container">
                                                     <div className="row">
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Collection Layouts</h6>
+                                                            <h6 className="submenu-title">Over the Years</h6>
 
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <Link href="/collections-style-one">
-                                                                        <a>Collections Type 1</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/collections-style-two">
-                                                                        <a>Collections Type 2</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Left Sidebar</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar-with-block">
-                                                                        <a>Left Sidebar With HTML Block</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar">
-                                                                        <a>Right Sidebar</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-right-sidebar-with-block">
-                                                                        <a>Right Sidebar With HTML Block</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar">
-                                                                        <a>Without Sidebar</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/category-sidebar-fullwidth">
-                                                                        <a>With Sidebar Full Width</a>
-                                                                    </Link>
-                                                                </li>
-                                                                
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Without Sidebar Full Width</a>
+                                                                        <a>2019</a>
                                                                     </Link>
                                                                 </li>
                                                             </ul>
                                                         </div>
 
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Other Pages</h6>
+                                                            <h6 className="submenu-title">Award Type</h6>
 
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <Link href="/cart">
-                                                                        <a>Cart</a>
+                                                                        <a>Specialties</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
                                                                     <Link href="/checkout">
-                                                                        <a>Checkout</a>
+                                                                        <a>Register of Merit</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
                                                                     <Link href="/compare">
-                                                                        <a>Compare</a>
+                                                                        <a>Versitle Newfoundland</a>
+                                                                    </Link>
+                                                                </li>
+
+                                                                <li>
+                                                                    <Link href="/compare">
+                                                                        <a>Champions</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
                                                                     <Link href="/login">
-                                                                        <a>Login</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/signup">
-                                                                        <a>Signup</a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="/customer-service">
-                                                                        <a>Customer Service</a>
+                                                                        <a>Working</a>
                                                                     </Link>
                                                                 </li>
                                                             </ul>
@@ -229,7 +150,7 @@ class MegaMenu extends Component {
                                                                 <li>
                                                                     <Link href="#">
                                                                         <a>
-                                                                            {/* <img src={require("../../images/partner1.png")} alt="image" /> */}
+                                                                            <img src={require("../../images/partner1.png")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
@@ -237,7 +158,7 @@ class MegaMenu extends Component {
                                                                 <li>
                                                                     <Link href="#">
                                                                         <a>
-                                                                            {/* <img src={require("../../images/partner2.png")} alt="image" /> */}
+                                                                            <img src={require("../../images/partner2.png")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
@@ -245,7 +166,7 @@ class MegaMenu extends Component {
                                                                 <li>
                                                                     <Link href="#">
                                                                         <a>
-                                                                            {/* <img src={require("../../images/partner3.png")} alt="image" /> */}
+                                                                            <img src={require("../../images/partner3.png")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
@@ -253,7 +174,7 @@ class MegaMenu extends Component {
                                                                 <li>
                                                                     <Link href="#">
                                                                         <a>
-                                                                            {/* <img src={require("../../images/partner4.png")} alt="image" /> */}
+                                                                            <img src={require("../../images/partner4.png")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
@@ -261,7 +182,7 @@ class MegaMenu extends Component {
                                                                 <li>
                                                                     <Link href="#">
                                                                         <a>
-                                                                            {/* <img src={require("../../images/partner5.png")} alt="image" /> */}
+                                                                            <img src={require("../../images/partner5.png")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
@@ -269,7 +190,7 @@ class MegaMenu extends Component {
                                                                 <li>
                                                                     <Link href="#">
                                                                         <a>
-                                                                            {/* <img src={require("../../images/partner6.png")} alt="image" /> */}
+                                                                            <img src={require("../../images/partner6.png")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
@@ -284,7 +205,7 @@ class MegaMenu extends Component {
                                     <li className="nav-item megamenu">
                                         <Link href="#">
                                             <a className="nav-link">
-                                                Women's <i className="fas fa-chevron-down"></i>
+                                                The Boys <i className="fas fa-chevron-down"></i>
                                             </a>
                                         </Link>
                                         <ul className="dropdown-menu">
@@ -468,7 +389,7 @@ class MegaMenu extends Component {
 
                                     <li className="nav-item megamenu">
                                         <Link href="#">
-                                            <a className="nav-link">Men's <i className="fas fa-chevron-down"></i></a>
+                                            <a className="nav-link">The Girls <i className="fas fa-chevron-down"></i></a>
                                         </Link>
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
@@ -660,7 +581,7 @@ class MegaMenu extends Component {
 
                                     <li className="nav-item megamenu">
                                         <Link href="#">
-                                            <a className="nav-link">Today's Deals <i className="fas fa-chevron-down"></i></a>
+                                            <a className="nav-link">Puppies <i className="fas fa-chevron-down"></i></a>
                                         </Link>
                                         <ul className="dropdown-menu">
                                             <li className="nav-item">
@@ -853,7 +774,7 @@ class MegaMenu extends Component {
                                     <li className="nav-item p-relative">
                                         <Link href="#">
                                             <a className="nav-link">
-                                                Pages <i className="fas fa-chevron-down"></i>
+                                                Our Past <i className="fas fa-chevron-down"></i>
                                             </a>
                                         </Link>
 
@@ -976,7 +897,7 @@ class MegaMenu extends Component {
                                     </li>
                                 </ul>
 
-                                <div className="others-option">
+                                {/* <div className="others-option"> 
 
                                     <div className="option-item">
                                         
@@ -1023,12 +944,12 @@ class MegaMenu extends Component {
                                                 //     this.handleCart()
                                                 // }}
                                             >
-                                                {/* Cart({products.length}) <i className="fas fa-shopping-bag"></i> */}
+                                                Cart({products.length}) <i className="fas fa-shopping-bag"></i> 
                                             </a>
                                         </Link>
                                     </div>
 
-                                </div>
+                                </div>*/}
                             </div>
                         </nav>
                     </div>
