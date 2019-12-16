@@ -1,21 +1,24 @@
 import React, { Component } from 'react';
 import Head from 'next/head'
-import Nav from '../components/nav'
+import Banner from '../components/shop-style-two/Banner';
 import Navbar from '../components/Layout/Navbar';
+import Footer from '../components/Layout/Footer';
 
 
-class Home extends Component {
+class Index extends Component {
   render() {
       return (
           <React.Fragment>
-              <Head>
+              {/* <Head>
                 <title>Old Bay Newfoundlands</title>
                 <link rel="icon" href="/favicon.ico" />
-              </Head> 
-              <Nav/>
+              </Head>  */}
+              <Navbar></Navbar>
+              <Banner />
+              <Footer />
           </React.Fragment>
       );
   }
 }
 
-export default Home
+export default Index

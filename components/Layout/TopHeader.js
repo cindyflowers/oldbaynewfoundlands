@@ -8,13 +8,13 @@ class TopHeader extends Component {
         display: false
     };
 
-    // handleWishlist = () => {
-    //     this.setState( prevState => {
-    //         return {
-    //             display: !prevState.display
-    //         };
-    //     });
-    // }
+    handleWishlist = () => {
+        this.setState( prevState => {
+            return {
+                display: !prevState.display
+            };
+        });
+    }
 
     render() {
         return (
@@ -35,7 +35,7 @@ class TopHeader extends Component {
                                 <ul className="top-header-right-nav">
                                     <li>
                                         <Link href="#">
-                                            {/* <a 
+                                            <a 
                                                 data-toggle="modal" 
                                                 data-target="#shoppingWishlistModal"
                                                 onClick={e => {
@@ -44,7 +44,7 @@ class TopHeader extends Component {
                                                 }}
                                             >
                                                 Wishlist <i className="far fa-heart"></i>
-                                            </a> */}
+                                            </a>
                                         </Link>
                                     </li>
                                     <li>
@@ -67,7 +67,7 @@ class TopHeader extends Component {
                     </div>
                 </div>
 
-                {/* {this.state.display ? <Wishlist onClick={this.handleWishlist} /> : ''} */}
+                {this.state.display ? <Wishlist onClick={this.handleWishlist} /> : ''}
             </React.Fragment>
         );
     }
