@@ -381,7 +381,7 @@ class MegaMenu extends Component {
                                                                         <img src={require("../../images/category-products-img3.jpg")} alt="image" />
 
                                                                         <div className="category">
-                                                                            <h4>Crosby and</h4>
+                                                                            <h4>Crosby and Kiss</h4>
                                                                         </div>
 
                                                                         <Link href="#">
