@@ -950,50 +950,53 @@ function (_Component) {
           lineNumber: 229
         },
         __self: this
-      }, __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 230
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        href: "/category-without-sidebar-fullwidth",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 231
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 232
-        },
-        __self: this
-      }, "Rolex"))))), __jsx("div", {
+      }, products.map(function (data, idx) {
+        return __jsx("li", {
+          key: idx,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 236
+          },
+          __self: this
+        }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+          href: "/category-without-sidebar-fullwidth",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 237
+          },
+          __self: this
+        }, __jsx("a", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 238
+          },
+          __self: this
+        }, data.title)));
+      }))), __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 240
+          lineNumber: 246
         },
         __self: this
       }, __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241
+          lineNumber: 247
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 242
+          lineNumber: 248
         },
         __self: this
       }, __jsx("div", {
         className: "aside-trending-products",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 243
+          lineNumber: 249
         },
         __self: this
       }, __jsx("img", {
@@ -1001,34 +1004,34 @@ function (_Component) {
         alt: "image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 244
+          lineNumber: 250
         },
         __self: this
       }), __jsx("div", {
         className: "category",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 246
+          lineNumber: 252
         },
         __self: this
       }, __jsx("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 247
+          lineNumber: 253
         },
         __self: this
       }, "Rolex")), __jsx("a", {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 250
+          lineNumber: 256
         },
         __self: this
       })), __jsx("div", {
         className: "aside-trending-products",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 253
+          lineNumber: 259
         },
         __self: this
       }, __jsx("img", {
@@ -1036,190 +1039,190 @@ function (_Component) {
         alt: "image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 254
+          lineNumber: 260
         },
         __self: this
       }), __jsx("div", {
         className: "category",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 256
+          lineNumber: 262
         },
         __self: this
       }, __jsx("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 257
+          lineNumber: 263
         },
         __self: this
       }, "Maestro")), __jsx("a", {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 260
+          lineNumber: 266
         },
         __self: this
       })))))))))), __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 271
+          lineNumber: 277
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 272
+          lineNumber: 278
         },
         __self: this
       }, __jsx("a", {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 273
+          lineNumber: 279
         },
         __self: this
       }, "The Girls ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 273
+          lineNumber: 279
         },
         __self: this
       }))), __jsx("ul", {
         className: "dropdown-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 275
+          lineNumber: 281
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 276
+          lineNumber: 282
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 277
+          lineNumber: 283
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 278
+          lineNumber: 284
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 279
+          lineNumber: 285
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 280
+          lineNumber: 286
         },
         __self: this
       }, "Co-owned by old bay"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 282
+          lineNumber: 288
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 283
+          lineNumber: 289
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/category-left-sidebar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 284
+          lineNumber: 290
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 285
+          lineNumber: 291
         },
         __self: this
       }, "Snowball"))))), __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 291
+          lineNumber: 297
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 292
+          lineNumber: 298
         },
         __self: this
       }, "Owned by old bay"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 294
+          lineNumber: 300
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 295
+          lineNumber: 301
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/category-without-sidebar-fullwidth",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 296
+          lineNumber: 302
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 297
+          lineNumber: 303
         },
         __self: this
       }, "Kiss"))))), __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 307
+          lineNumber: 313
         },
         __self: this
       }, __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 308
+          lineNumber: 314
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 309
+          lineNumber: 315
         },
         __self: this
       }, __jsx("div", {
         className: "aside-trending-products",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 310
+          lineNumber: 316
         },
         __self: this
       }, __jsx("img", {
@@ -1227,40 +1230,40 @@ function (_Component) {
         alt: "image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 311
+          lineNumber: 317
         },
         __self: this
       }), __jsx("div", {
         className: "category",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 313
+          lineNumber: 319
         },
         __self: this
       }, __jsx("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 314
+          lineNumber: 320
         },
         __self: this
       }, "Kiss")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 316
+          lineNumber: 322
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 317
+          lineNumber: 323
         },
         __self: this
       }))), __jsx("div", {
         className: "aside-trending-products",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 321
+          lineNumber: 327
         },
         __self: this
       }, __jsx("img", {
@@ -1268,196 +1271,196 @@ function (_Component) {
         alt: "image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 322
+          lineNumber: 328
         },
         __self: this
       }), __jsx("div", {
         className: "category",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 324
+          lineNumber: 330
         },
         __self: this
       }, __jsx("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 325
+          lineNumber: 331
         },
         __self: this
       }, "Snowball")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 328
+          lineNumber: 334
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 329
+          lineNumber: 335
         },
         __self: this
       }))))))))))), __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 341
+          lineNumber: 347
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 342
+          lineNumber: 348
         },
         __self: this
       }, __jsx("a", {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 343
+          lineNumber: 349
         },
         __self: this
       }, "Puppies ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 343
+          lineNumber: 349
         },
         __self: this
       }))), __jsx("ul", {
         className: "dropdown-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 345
+          lineNumber: 351
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 346
+          lineNumber: 352
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 347
+          lineNumber: 353
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 348
+          lineNumber: 354
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 349
+          lineNumber: 355
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 350
+          lineNumber: 356
         },
         __self: this
       }, "Litters"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 352
+          lineNumber: 358
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 353
+          lineNumber: 359
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/category-left-sidebar",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 354
+          lineNumber: 360
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 355
+          lineNumber: 361
         },
         __self: this
       }, "Rh\xF4ne and Kiss"))))), __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 361
+          lineNumber: 367
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 362
+          lineNumber: 368
         },
         __self: this
       }, "Future"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 364
+          lineNumber: 370
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 365
+          lineNumber: 371
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/category-without-sidebar-fullwidth",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 366
+          lineNumber: 372
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 367
+          lineNumber: 373
         },
         __self: this
       }, "Powder Ridge Newfs - Late 2019"))))), __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 374
+          lineNumber: 380
         },
         __self: this
       }, __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 375
+          lineNumber: 381
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 376
+          lineNumber: 382
         },
         __self: this
       }, __jsx("div", {
         className: "aside-trending-products",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 377
+          lineNumber: 383
         },
         __self: this
       }, __jsx("img", {
@@ -1465,40 +1468,40 @@ function (_Component) {
         alt: "image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 378
+          lineNumber: 384
         },
         __self: this
       }), __jsx("div", {
         className: "category",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 380
+          lineNumber: 386
         },
         __self: this
       }, __jsx("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 381
+          lineNumber: 387
         },
         __self: this
       }, "Rh\xF4ne and Kiss")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 383
+          lineNumber: 389
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 384
+          lineNumber: 390
         },
         __self: this
       }))), __jsx("div", {
         className: "aside-trending-products",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 388
+          lineNumber: 394
         },
         __self: this
       }, __jsx("img", {
@@ -1506,89 +1509,89 @@ function (_Component) {
         alt: "image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 389
+          lineNumber: 395
         },
         __self: this
       }), __jsx("div", {
         className: "category",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 391
+          lineNumber: 397
         },
         __self: this
       }, __jsx("h4", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 392
+          lineNumber: 398
         },
         __self: this
       }, "Crosby and Kiss")), __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 395
+          lineNumber: 401
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 396
+          lineNumber: 402
         },
         __self: this
       }))))))))))), __jsx("li", {
         className: "nav-item p-relative",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 408
+          lineNumber: 414
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 409
+          lineNumber: 415
         },
         __self: this
       }, __jsx("a", {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 410
+          lineNumber: 416
         },
         __self: this
       }, "Our Past ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 411
+          lineNumber: 417
         },
         __self: this
       }))), __jsx("ul", {
         className: "dropdown-menu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 415
+          lineNumber: 421
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 416
+          lineNumber: 422
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "/about",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 417
+          lineNumber: 423
         },
         __self: this
       }, __jsx("a", {
         className: "nav-link",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 418
+          lineNumber: 424
         },
         __self: this
       }, "Carson"))))))))))));
@@ -1600,7 +1603,7 @@ function (_Component) {
 
 var mapStateToProps = function mapStateToProps(state) {
   return {
-    products: state.addedItems
+    products: state.products
   };
 };
 
