@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import Link from 'next/link';
+import ReactTooltip from 'react-tooltip'
 
 class MegaMenu extends Component {
 
@@ -45,6 +46,7 @@ class MegaMenu extends Component {
         return (
             <React.Fragment>
             <div className="navbar-area">
+                <ReactTooltip  />
                 <div id="navbar" className="comero-nav">
                     <div className="container">
                         <nav className="navbar navbar-expand-md navbar-light">
@@ -146,40 +148,46 @@ class MegaMenu extends Component {
                                                             <ul className="megamenu-submenu top-brands">
                                                                 <li>
                                                                     <Link href="#">
-                                                                        <a>
-                                                                            <img src={require("../../images/partner1.png")} alt="image" />
+                                                                        <a data-tip="Flash (2018)" data-place="left">
+                                                                            <img src={require("../../images/20-Flash.jpg")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
                                                                     <Link href="#">
-                                                                        <a>
-                                                                            <img src={require("../../images/partner2.png")} alt="image" />
+                                                                        <a data-tip="Kiss (2018)">
+                                                                            <img src={require("../../images/20-Kiss.jpg")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
                                                                 
                                                                 <li>
                                                                     <Link href="#">
-                                                                        <a>
-                                                                            <img src={require("../../images/partner3.png")} alt="image" />
+                                                                        <a data-tip="Rolex (2017)">
+                                                                            <img src={require("../../images/20-Rolex.jpg")} alt="image" />
+                                                                        </a>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link href="#">
+                                                                        <a  data-tip="Spice (2010, 2012)">
+                                                                            <img src={require("../../images/20-Spice.jpg")} alt="image" />
+                                                                        </a>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link href="#">
+                                                                        <a data-tip="Rocky (2006)">
+                                                                            <img src={require("../../images/20-Rocky.jpg")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
                                                                     <Link href="#">
-                                                                        <a>
-                                                                            <img src={require("../../images/partner4.png")} alt="image" />
-                                                                        </a>
-                                                                    </Link>
-                                                                </li>
-
-                                                                <li>
-                                                                    <Link href="#">
-                                                                        <a>
-                                                                            <img src={require("../../images/partner5.png")} alt="image" />
+                                                                        <a  data-tip="Opie (2004, 2005)">
+                                                                            <img src={require("../../images/20-Opie.jpg")} alt="image" />
                                                                         </a>
                                                                     </Link>
                                                                 </li>
@@ -367,7 +375,7 @@ class MegaMenu extends Component {
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <div className="aside-trending-products">
-                                                                        <img src={require("../../images/category-products-img2.jpg")} alt="image" />
+                                                                        <img src={require("../../images/Sing.jpg")} alt="image" />
 
                                                                         <div className="category">
                                                                             <h4>Rhône and Kiss</h4>
@@ -378,7 +386,7 @@ class MegaMenu extends Component {
                                                                     </div>
 
                                                                     <div className="aside-trending-products">
-                                                                        <img src={require("../../images/category-products-img3.jpg")} alt="image" />
+                                                                        <img src={require("../../images/CrosbyAndKissPuppies.jpg")} alt="image" />
 
                                                                         <div className="category">
                                                                             <h4>Crosby and Kiss</h4>
