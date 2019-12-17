@@ -6,8 +6,17 @@ import {
     ADD_QUANTITY_WITH_NUMBER,
     RESET_CART,
     ADD_TO_COMPARE,
-    REMOVE_ITEM_FROM_COMPARE
+    REMOVE_ITEM_FROM_COMPARE,
+    SET_CURRENT_DOG
 } from './action-types/cart-actions'
+
+//add cart action
+export const setCurrentDog = (id) => {
+    return {
+        type: SET_CURRENT_DOG,
+        id
+    }
+}
 
 //add cart action
 export const addToCart = (id) => {

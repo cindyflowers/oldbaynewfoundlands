@@ -1,5 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
+import { setCurrentDog } from '../../store/actions/cartActions';
 import Link from 'next/link';
 import ReactTooltip from 'react-tooltip'
 
@@ -10,6 +11,10 @@ class MegaMenu extends Component {
         searchForm: false,
         collapsed: true
     };
+
+    handleSetCurrentDog = (id) => {
+        this.props.setCurrentDog(id); 
+    }
 
     handleSearchForm = () => {
         this.setState( prevState => {
@@ -42,7 +47,9 @@ class MegaMenu extends Component {
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
 
-        let { products } = this.props;
+        let boys = this.props.dogs.filter(dog => dog.sex == "male" && dog.rip == ""  );
+        let girls = this.props.dogs.filter(dog => dog.sex == "female" && dog.rip == "" );
+        let past = this.props.dogs.filter(dog =>  dog.rip != "" );
         return (
             <React.Fragment>
             <div className="navbar-area">
@@ -227,12 +234,20 @@ class MegaMenu extends Component {
                                                             <h6 className="submenu-title">Owned By Old Bay</h6>
 
                                                             <ul className="megamenu-submenu">
-                                                                <li>
+                                                                {/* <li>
                                                                     <Link href="/category-without-sidebar-fullwidth">
                                                                         <a>Rolex</a>
                                                                     </Link>
-                                                                </li>
-
+                                                                </li> */}
+                                                                {boys.map((data, idx) => (
+                                                                    <Link href="/about">
+                                                                        <li key={idx}>
+                                                                            <a onClick={(e) => {
+                                                                                this.handleSetCurrentDog(data.id)
+                                                                            }}>{data.call}</a>
+                                                                        </li>
+                                                                    </Link>
+                                                                ))}
 
                                                             </ul>
                                                         </div>
@@ -436,8 +451,18 @@ class MegaMenu extends Component {
 
 const mapStateToProps = (state)=>{
     return{
-        products: state.addedItems
+        products: state.products,
+        dogs: state.dogs
     }
 }
 
-export default connect(mapStateToProps)(MegaMenu)
+const mapDispatchToProps= (dispatch) => {
+    return {
+        setCurrentDog: (id) => { dispatch(setCurrentDog(id)) }
+    }
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps)
+    (MegaMenu)

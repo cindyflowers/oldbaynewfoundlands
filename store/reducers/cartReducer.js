@@ -3,6 +3,7 @@ import { composeWithDevTools } from 'redux-devtools-extension';
 import thunkMiddleware from 'redux-thunk';
 
 import { 
+    SET_CURRENT_DOG,
     ADD_TO_CART,
     REMOVE_ITEM,
     SUB_QUANTITY,
@@ -32,126 +33,64 @@ const initState = {
             imageHover: require("../../images/img-hover2.jpg"),
             quickView: require("../../images/quick-view-img.jpg")
         },
-        {
-            id: 3,
-            title: "Belted chino trousers polo",
-            price: 160,
-            image: require("../../images/img3.jpg"),
-            imageHover: require("../../images/img-hover3.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 4,
-            title: "Belted chino trousers polo",
-            price: 130,
-            image: require("../../images/img4.jpg"),
-            imageHover: require("../../images/img-hover4.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 5,
-            title: "Belted chino trousers polo",
-            price: 90,
-            image: require("../../images/img5.jpg"),
-            imageHover: require("../../images/img-hover5.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 6,
-            title: "Belted chino trousers polo",
-            price: 180,
-            image: require("../../images/img6.jpg"),
-            imageHover: require("../../images/img-hover6.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 7,
-            title: "Belted chino trousers polo",
-            price: 330,
-            image: require("../../images/img7.jpg"),
-            imageHover: require("../../images/img-hover7.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 8,
-            title: "Belted chino trousers polo",
-            price: 140,
-            image: require("../../images/img8.jpg"),
-            imageHover: require("../../images/img-hover8.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 9,
-            title: "Belted chino trousers polo",
-            price: 430,
-            image: require("../../images/img1.jpg"),
-            imageHover: require("../../images/img-hover1.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 10,
-            title: "Belted chino trousers polo",
-            price: 650,
-            image: require("../../images/img2.jpg"),
-            imageHover: require("../../images/img-hover2.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 11,
-            title: "Belted chino trousers polo",
-            price: 230,
-            image: require("../../images/img3.jpg"),
-            imageHover: require("../../images/img-hover3.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 12,
-            title: "Belted chino trousers polo",
-            price: 670,
-            image: require("../../images/img4.jpg"),
-            imageHover: require("../../images/img-hover4.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 13,
-            title: "Belted chino trousers polo",
-            price: 120,
-            image: require("../../images/img5.jpg"),
-            imageHover: require("../../images/img-hover5.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 14,
-            title: "Belted chino trousers polo",
-            price: 540,
-            image: require("../../images/img6.jpg"),
-            imageHover: require("../../images/img-hover6.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 15,
-            title: "Belted chino trousers polo",
-            price: 230,
-            image: require("../../images/img7.jpg"),
-            imageHover: require("../../images/img-hover7.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        },
-        {
-            id: 16,
-            title: "Belted chino trousers polo",
-            price: 530,
-            image: require("../../images/img8.jpg"),
-            imageHover: require("../../images/img-hover8.jpg"),
-            quickView: require("../../images/quick-view-img.jpg")
-        }
     ],
     addedItems:[],
     addedItemsToCompare:[],
     total: 0,
-    shipping: 0
+    shipping: 0,
+    currentDog: 1,
+    dogs: [
+        {
+            id: 1,
+            call: "Sirius",
+            sex: "male",
+            name: "GCH Old Bay's Let's Get Sirius CGC, TDI",
+            sire: "",
+            dam: "",
+            dob: "10/26/2010",
+            living: true,
+            rip: "",
+            owner: "Cindy and John Flowers",
+            aka: "Seriously Cute, Serial",
+            lives: "Cindy and John Flowers",
+            health: "",
+            image: require("../../images/info/Sirius.jpg"),
+            Titles: [
+                "AKC Champion",
+                "AKC Grand Champion",
+                "Canine Good Citizen",
+                "Therapy Dog International"
+            ],
+        },
+        {
+            id: 2,
+            call: "Bennie",
+            sex: "male",
+            name: "OLD BAY'S BUMBLE BENNIE",
+            sire: "GCH Bear N Mind's Stand Up And Cheer, RN, DD",
+            dam: "GCH Old Bay's Lucy Fur",
+            dob: "12/9/2012",
+            neutered: true,
+            rip: "",
+            owner: "Cindy and John Flowers",
+            aka: "	Bennie Boo Boo Bear",
+            lives: "Kathy Hamilton",
+            health: "http://www.offa.org/display.html?appnum=1565055#animal",
+            image: require("../../images/info/Bennie.jpg"),
+            Titles: [
+            ],
+        },
+    ]
 }
 
 const cartReducer = (state = initState, action) => {
+
+    if(action.type === SET_CURRENT_DOG){
+        return {
+            ...state,
+            currentDog : action.id
+        }
+    }
    
     if(action.type === ADD_TO_CART){
         let addedItem = state.products.find(item => item.id === action.id)
