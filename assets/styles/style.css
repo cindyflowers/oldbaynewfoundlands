@@ -642,6 +642,11 @@ Navbar Area CSS
   padding-bottom: 20px;
 }
 
+.comero-nav-hide {
+  opacity: 0;
+  visibility: hidden;
+}
+
 .comero-nav .navbar .navbar-nav .nav-item .dropdown-menu li {
   position: relative;
   padding: 0;

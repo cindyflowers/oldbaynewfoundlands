@@ -14,6 +14,12 @@ class MegaMenu extends Component {
 
     handleSetCurrentDog = (id) => {
         this.props.setCurrentDog(id); 
+        window.scrollTo(0, 0);
+        // var divsToHide = document.getElementsByClassName("dropdown-menu"); //divsToHide is an array
+        // for(var i = 0; i < divsToHide.length; i++){
+        //     divsToHide[i].style.visibility = "hidden"; 
+        //     divsToHide[i].style.opacity = 0;
+        // }
     }
 
     handleSearchForm = () => {
@@ -50,6 +56,9 @@ class MegaMenu extends Component {
         let boys = this.props.dogs.filter(dog => dog.sex == "male" && dog.rip == ""  );
         let girls = this.props.dogs.filter(dog => dog.sex == "female" && dog.rip == "" );
         let past = this.props.dogs.filter(dog =>  dog.rip != "" );
+        let litters1to10 = this.props.litters.filter(litter => litter.id < 11);
+        let litters11to20 = this.props.litters.filter(litter => litter.id >10 && litter.id < 21);
+        let litters21andOver = this.props.litters.filter(litter => litter.id >20);
         return (
             <React.Fragment>
             <div className="navbar-area">
@@ -70,8 +79,7 @@ class MegaMenu extends Component {
                                 data-toggle="collapse" 
                                 data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" 
                                 aria-expanded="false" 
-                                aria-label="Toggle navigation"
-                            >
+                                aria-label="Toggle navigation">
                                 <span className="navbar-toggler-icon"></span>
                             </button>
 
@@ -84,6 +92,7 @@ class MegaMenu extends Component {
                                             </a>
                                         </Link>
                                     </li>
+
                                     
                                     <li className="nav-item megamenu">
                                         <Link href="#">
@@ -362,31 +371,54 @@ class MegaMenu extends Component {
                                                 <div className="container">
                                                     <div className="row">
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Litters</h6>
+                                                            <h6 className="submenu-title">Past Litters </h6>
 
                                                             <ul className="megamenu-submenu">
-                                                                <li>
-                                                                    <Link href="/category-left-sidebar">
-                                                                        <a>Rhône and Kiss</a>
+                                                                {litters1to10.map((data, idx) => (
+                                                                    <Link href="/litter">
+                                                                        <li key={idx}>
+                                                                            <a onClick={(e) => {
+                                                                                this.handleSetCurrentLitter(data.id)
+                                                                            }}>{data.parents}</a>
+                                                                        </li>
                                                                     </Link>
-                                                                </li>
+                                                                ))}
                                                             </ul>
                                                         </div>
 
                                                         <div className="col">
-                                                            <h6 className="submenu-title">Future</h6>
+                                                            <h6 className="submenu-title">Past Litters</h6>
 
                                                             <ul className="megamenu-submenu">
-                                                                <li>
-                                                                    <Link href="/category-without-sidebar-fullwidth">
-                                                                        <a>Powder Ridge Newfs - Late 2019</a>
-                                                                    </Link>
-                                                                </li>
+                                                                {litters11to20.map((data, idx) => (
+                                                                        <Link href="/litter">
+                                                                            <li key={idx}>
+                                                                                <a onClick={(e) => {
+                                                                                    this.handleSetCurrentLitter(data.id)
+                                                                                }}>{data.parents}</a>
+                                                                            </li>
+                                                                        </Link>
+                                                                    ))}
                                                             </ul>
                                                         </div>
 
-
                                                         <div className="col">
+                                                            <h6 className="submenu-title">Past Litters</h6>
+
+                                                            <ul className="megamenu-submenu">
+                                                                {litters21andOver.map((data, idx) => (
+                                                                    <Link href="/litter">
+                                                                        <li key={idx}>
+                                                                            <a onClick={(e) => {
+                                                                                this.handleSetCurrentLitter(data.id)
+                                                                            }}>{data.parents}</a>
+                                                                        </li>
+                                                                    </Link>
+                                                                ))}
+                                                            </ul>
+                                                        </div>
+
+                                                        {/* <div className="col">
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <div className="aside-trending-products">
@@ -413,7 +445,7 @@ class MegaMenu extends Component {
                                                                     </div>
                                                                 </li>
                                                             </ul>
-                                                        </div>
+                                                        </div> */}
                                                     </div>
                                                 </div>
                                             </li>
@@ -452,13 +484,15 @@ class MegaMenu extends Component {
 const mapStateToProps = (state)=>{
     return{
         products: state.products,
-        dogs: state.dogs
+        dogs: state.dogs,
+        litters: state.litters
     }
 }
 
 const mapDispatchToProps= (dispatch) => {
     return {
-        setCurrentDog: (id) => { dispatch(setCurrentDog(id)) }
+        setCurrentDog: (id) => { dispatch(setCurrentDog(id)) },
+        // setCurrentLitter: (id) => { dispatch(setCurrentLitter(id)) }
     }
 }
 
