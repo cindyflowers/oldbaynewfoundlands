@@ -152,31 +152,9 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAMCAgI
 
 /***/ }),
 
-/***/ "./images/img-hover2.jpg":
-/*!*******************************!*\
-  !*** ./images/img-hover2.jpg ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,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"
-
-/***/ }),
-
 /***/ "./images/img1.jpg":
 /*!*************************!*\
   !*** ./images/img1.jpg ***!
-  \*************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAMCAgICAgMCAgIDAwMDBAYEBAQEBAgGBgUGCQgKCgkICQkKDA8MCgsOCwkJDRENDg8QEBEQCgwSExIQEw8QEBD/wAALCAFAAQYBAREA/8QAGgABAQEBAQEBAAAAAAAAAAAAAAcIBgUDBP/EADUQAAEDBAEDAgQEBAcBAAAAAAABAgMEBQYRBwgSIRMxFCJBUQkVMkIjUmGBGCQzWGKU1Bb/2gAIAQEAAD8A1AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACV879RWF8DUFubeqSvvF8vciw2my22NJKqrftE3r9re5zU35VVXTUcu0JXWda2XYYtLdeYOmXMMPxyqlbEt29f4pIVd+n1GLFH2L/xV3d4XSKvg0pb8ox26Y1BmVBeaWWx1FGlwjr/AFESFaZWd/qq5fZvb5VV1r6mcV61b7ltZXzcH9POV59YrbK6Ca8RzLSQyub7+k30nq/xpUaunaVNtTZT+BeofDufbRcJ7HR11pvNkmSnu1muDEbU0ci7RN6/U1Va5EXwu2qioi+DluVOrW1YZnjuKePOP75yJmMEaS1dvtXyRUjdIupZe12lRHNVdNVE2m1RfB5uGdY8E+eW/jbmXiq/cZ3q8uay2OuMqT0lU9V7WtSbsZpVcqNRUardrpVRdb0cDmuReRMU4qw64Z1mlx+DtVtYjpHI3ufI5V0yNjf3Pc5URE/r50iKqZ3b1sZ1JZ1zqLpVzV2Doz4j86+JT1fhvf1/Q9LXZrz3ep26892vJoXjTknEuWsNoM6wq4LV2y4NXt729kkT2rp8cjf2vavhU/uiqioqxfLOshjs3ufH/CvEmQcmXKxvWK5z2+VKejp5EVWq31ux+9ORybVEaqovarj1uJOrSzZ7nTuKc7wW9cfZqrFlp7XdvmZVNRqu1FJ2tVV7Uc5NtRFRPlVfKHY8589YZwJjdPe8oZVVtbcpvhbXaqJqPqa6bxtrEX2am29zl9tonlVRFkjetm94rcba/mzp7yvAbBdZmwQXmeVamKNzvKeqz0mKzxtVaiq7SLpq6NQU1TT1lPFV0k8c0E7GyRSRuRzXsVNo5FTwqKi7RT6AAAAAAAAmd74DxHIObrJzvc7jdJr1YKFaCjonvidRMaqSoj0YrO9Hosz133++l14OX60c/wARwnp+ymhyV8EtTkdDLabXRO0sk9TI3TXtb9otpIrvp2p9VRFhvIjMt4e/Des+LXpZ6S73WOGimY/aSQw1VXJUrC5F8ovor6bmr7bVD38G6mVwXBLTg/AXT5lPIFixWiioa68W9r4KSWqaxFndE5sUizOV6ucq6TaqqptFRVpHTLmfA/LV4yXlLjzFpLFmlY5tPk9LUyPSpY5VTSuZ3LGrXLGuntaiqrXbRFVUOz4r4DxHiXK8yzKyXG6XC55vXfH181xfFI6N3fI9WRqxjVRiulVdLv2b5XRnvr8uNDyJf+POBcNa2tzirvcdciwfNJb4Fjczb1TyxHdySr9mwdy6TSrSOrjLuc+KbbZ+W+Mb6tTjtknjTJbA+ip5Gz0/ei+skqxrKxF32P7XfKitciJpynPc29WlTccRwvHenOqbcc45JbDLa9RRyut1OrlR75WPRzEej2PjVHIrW+nK5f0JusZFwXauUuMLLgXOV2q8sq6B8VbV10T0ofXrWtcivRlOjGdiJI9rWq320q7d5OO596veJ+BVrcHraKquWQ09Axae0U9LqDtexfTbJI7TGs1raJtUT9qn4OhHjO5YF0+MguV7paibJq+e7sdbquOoZSskijia1sjFcxXokXculVEVde6KUngrgjEOn/Fq3FcQrLjWw19e+4T1VxfG+oe9zGtRrnMYxFREZ48fVfuZ253uNFyx1p8T4Zx+jaq6YHV/mOQ11P5bTwMmimdBI9P5WxuTS+O6oRvuqoejmrW5z+Irh9iuiJNQYdjzq+Cnf5YlQrJZEk1/Mjnwrv7xN+xcupvGqDK+n7kC1XCnZK2OwVlbCjk32z08TponJ9lR8bfJzXRHklbk/TFhVXcJnSz0cFRbu5y7/h09RJFEn9o2sT+xcwAAAAAAASjqE6hcY4CxmGur6aS7ZBdnrT2SyU6/xq2bwn0RVaxFc3btKvlERFVUQl3DvTpm2f5lT9QPVJOyvyNO2WyY1r/KWaPfczuZtU7090Z50vzPVz/0+t+IPjlbf+mm7VNFE6RbLcKO4yNam19NH+m5dfZEl2v2RFX6FJ6bX41JwHgLsSSBLb+QUiIkWtJMkaJP3a/f6vqd3/LuIFxRDSr+IlydNiCMS1ssSJdVg/0fi1Sk70XXjv8AVR6r9e5JP6nb9QHUpkVoyqLgngOzpkPJNybqV6IjqezRuTfqyqvy96NVHad8rUVFdvaNd7/Tr0zWzhxKzMcquz8n5Dvu5LvfahVeqK5duihV3lGb93L8z9JvSaa3tecORcP4t4vv2W5zDFVWyOlfTrQSaX8wkkarW0yIvhe/aovhURvcq+EUwP0psl6dOW8Wy3ljC6a02flC2SMsFykc5UtayS/I1Veq9iPasaKq7cjJY3K5EV6G7ObueMP4CslsyHNqC7zUN0r225ktBTskSGVWq5Fk7nt03ta5fG1+VdIdrcLPjmUWmajultt91ttyiT1Y5omTQ1Eat8KqKio5FT2/oZE6BJG23PuacQxSrkqcGtV+T8nX1FfEzc1QxqxuX9XdFHHtfqjGL9TouYOoDP8AkzOKvp66XomzXmHcOQ5Sq6prOzfa9rHoioj08or02qKitYiu8tq/AHTzh/AONyW6zOfcr3cVSW8Xqpb/AJiul8r917WIqrpm191VVc5VVYpmaswf8RXEb5dHJDQ5hjjqGCoeumLUIyViR7/mV0cSa+8rfuXHqbyWgxTp+5AutwqGRNksFZRQq5dd09RE6GJqfdVfI3wc10SY5WYx0xYVSV8To56ynqLirXJr+HUVEksS/wB43sX+5cwAAAAAAAZf5x6Ncp5g5dbyzbudazGamjhp4LVBT2d0slvSNvlY5kqWLtZHSP2jUVFfrzrZ5f8Ag66gf98eb/8AUqf/AHF74644uOM8YQcdcg5dUZ7KsVVT19yukTu+uimke7ska+SRVRGPSPSuXw36eyRKPonyPEZ66h4X6jsuwfHbhK6WSzsiWqZErv1elJ6sasXXhHaV+kTbl1srXBXAGE8B2CrteMPq664XWVKi63auej6qtlTelcqJpGp3O01PbuVVVVVVXP1D0Cck2fJ7xmNg6rr1aLvfppJ7hV0FkkglnV71e5HOZWIqp3LvXsez/g66gf8AfHm//Uqf/cUXmTpqm5wz3FL1mWdufiGMSNqFxhlu+Wun/c+Wf1fPdprden4Z3Iior1cdPz1wfjfPXHNVgN6lShf3Mnt1eyBJHUNQzw2RrNt7k7Vc1W7TbXKm0XSp+an4Npch4Ug4a5hvyZrFDTtpnXP4RaOdyRr/AAZP9SRUlYiInf3fNr5kXbtyOPoo5BpLR/8AE23quzSnwvtWBto+G3I2mXx6KTpMiI3XjtRnbr9uvBaMH4Rxjiri2t404umksbqmlqGMukjfXqPjJI1YlXJ5b6j2r2rpFammo1O1Nazjif4fnJOBxVMGE9Wl/sMdbIktS23WeWnSZ6JpHP7K1O5U2vv91OzxTpR5ysGU2e/XXrJzG8UVtuFPV1NunpahI6yKORrnwOVaxyI16IrV21U0vsvsVXnXgPC+fcbprLlD6qirbbMtTa7rRORtTRTLratVfCtXTe5q+/aippURUkzOia+ZTcLZHzb1CZVn9gtMzZ4LNPCtNFI5vhPVf6r1f42iu0jtKunJs1BTU1PR08VJSQRwQQMbHFFG1GsYxqaRrUTwiIiaRD6AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA/9k="
-
-/***/ }),
-
-/***/ "./images/img2.jpg":
-/*!*************************!*\
-  !*** ./images/img2.jpg ***!
   \*************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
@@ -196,6 +174,226 @@ module.exports = "/_next/static/images/Bennie-6bdf0b7365b2be32b500348be7264b1a.j
 
 /***/ }),
 
+/***/ "./images/info/Betty.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Betty.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Betty-c441171740dd25e96645030f3397a78d.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Burnie.jpg":
+/*!********************************!*\
+  !*** ./images/info/Burnie.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Burnie-c4164ca1767d0d6f7949c123c957e3a4.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Carson.jpg":
+/*!********************************!*\
+  !*** ./images/info/Carson.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Carson-d7620b1b468ffa12013f60a7b9694fc1.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Chilly.jpg":
+/*!********************************!*\
+  !*** ./images/info/Chilly.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Chilly-382230506c759ed93e185d4512f6d714.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Daisy.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Daisy.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Daisy-f6d3fd1b0c8b571b5e29e39671218ef9.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Dasher.jpg":
+/*!********************************!*\
+  !*** ./images/info/Dasher.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Dasher-a1e5b49ce6e996db8762b9944a51e1a8.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Dexter.jpg":
+/*!********************************!*\
+  !*** ./images/info/Dexter.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Dexter-33bc0e7e1a38c4024d7b3c44d3bc4e0b.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Flash.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Flash.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Flash-26bba553ff78dbcce0fba5c1229aab6c.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Flyer.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Flyer.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Flyer-fb58f664e1da2523572497d3bd58c506.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Katie.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Katie.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Katie-5b43d75566b5084bcd24be3628f3a252.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Kiss.jpg":
+/*!******************************!*\
+  !*** ./images/info/Kiss.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Kiss-7dc2159e3946fc79e388f9b1461763f0.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Lucy.jpg":
+/*!******************************!*\
+  !*** ./images/info/Lucy.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Lucy-d7fb4c587346f61711a4301de9d96767.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Maestro.jpg":
+/*!*********************************!*\
+  !*** ./images/info/Maestro.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Maestro-523dcaf51333a5b8a858a9630b11f57d.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Metro.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Metro.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Metro-215243b0ecbee12c620302ed1761d87e.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Nemo.jpg":
+/*!******************************!*\
+  !*** ./images/info/Nemo.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Nemo-dc15a3fb80ffdbfe8f803b4cce998c44.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Opie.jpg":
+/*!******************************!*\
+  !*** ./images/info/Opie.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Opie-d57de45558ca2d24fbc40aaeea13c941.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Raisin.jpg":
+/*!********************************!*\
+  !*** ./images/info/Raisin.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Raisin-2323c6c610a9c51a3366f7917825538f.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Rocky.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Rocky.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Rocky-5eb1d8660c4d627008bacd2fb5996cb4.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Rolex.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Rolex.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Rolex-3067e3ed94885bc946e0a43020f085e5.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Simon.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Simon.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Simon-d4d64d62b7e686f06df935c1c43345c7.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Sirius.jpg":
 /*!********************************!*\
   !*** ./images/info/Sirius.jpg ***!
@@ -204,6 +402,94 @@ module.exports = "/_next/static/images/Bennie-6bdf0b7365b2be32b500348be7264b1a.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Sirius-38e8270b35fca1cae126c3b6e0c717d9.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Snoopy.jpg":
+/*!********************************!*\
+  !*** ./images/info/Snoopy.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Snoopy-30aa628733fd0ca99d8739fcd6415c9e.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Snowball.jpg":
+/*!**********************************!*\
+  !*** ./images/info/Snowball.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Snowball-e3276706e3ad178526f26e1816602e2a.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Sparkle.jpg":
+/*!*********************************!*\
+  !*** ./images/info/Sparkle.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sparkle-93c01bc829d37a00f763dbad55e4d44d.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Spice.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Spice.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Spice-f30cf7cb558191fc3587cf7083874a6c.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Sporty.jpg":
+/*!********************************!*\
+  !*** ./images/info/Sporty.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sporty-debde57e2da80f9356ad4e5f0e634c14.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Sunny.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Sunny.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sunny-11b4e8dd5cdd75d596c8ecc4ab80165f.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Tommy.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Tommy.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Tommy-c1b4e07935ccf06e22275ab2635fc3b6.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Yogi.jpg":
+/*!******************************!*\
+  !*** ./images/info/Yogi.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Yogi-d2fbddaae24f3d80da4c333174fb7d80.jpg";
 
 /***/ }),
 
@@ -11511,13 +11797,6 @@ var initState = {
     image: __webpack_require__(/*! ../../images/img1.jpg */ "./images/img1.jpg"),
     imageHover: __webpack_require__(/*! ../../images/img-hover1.jpg */ "./images/img-hover1.jpg"),
     quickView: __webpack_require__(/*! ../../images/quick-view-img.jpg */ "./images/quick-view-img.jpg")
-  }, {
-    id: 2,
-    title: "Belted chino trousers polo",
-    price: 120,
-    image: __webpack_require__(/*! ../../images/img2.jpg */ "./images/img2.jpg"),
-    imageHover: __webpack_require__(/*! ../../images/img-hover2.jpg */ "./images/img-hover2.jpg"),
-    quickView: __webpack_require__(/*! ../../images/quick-view-img.jpg */ "./images/quick-view-img.jpg")
   }],
   addedItems: [],
   addedItemsToCompare: [],
@@ -11527,27 +11806,33 @@ var initState = {
   dogs: [{
     id: 1,
     call: "Sirius",
+    toptwenty: "",
+    ours: true,
     sex: "male",
+    stud: true,
     name: "GCH Old Bay's Let's Get Sirius CGC, TDI",
     sire: "",
     dam: "",
     dob: "10/26/2010",
-    living: true,
+    neutered: false,
     rip: "",
     owner: "Cindy and John Flowers",
     aka: "Seriously Cute, Serial",
     lives: "Cindy and John Flowers",
-    health: "",
+    health: "http://www.offa.org/display.html?appnum=1497430#animal",
     image: __webpack_require__(/*! ../../images/info/Sirius.jpg */ "./images/info/Sirius.jpg"),
     Titles: ["AKC Champion", "AKC Grand Champion", "Canine Good Citizen", "Therapy Dog International"]
   }, {
     id: 2,
     call: "Bennie",
+    toptwenty: "",
+    ours: true,
     sex: "male",
+    stud: false,
     name: "OLD BAY'S BUMBLE BENNIE",
     sire: "GCH Bear N Mind's Stand Up And Cheer, RN, DD",
     dam: "GCH Old Bay's Lucy Fur",
-    dob: "12/9/2012",
+    dob: "December 9, 2012",
     neutered: true,
     rip: "",
     owner: "Cindy and John Flowers",
@@ -11556,6 +11841,563 @@ var initState = {
     health: "http://www.offa.org/display.html?appnum=1565055#animal",
     image: __webpack_require__(/*! ../../images/info/Bennie.jpg */ "./images/info/Bennie.jpg"),
     Titles: []
+  }, {
+    id: 3,
+    call: "Sunny",
+    toptwenty: "",
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "Old Bay's Seriously Charming Son",
+    sire: "GCH Old Bay's Let's Get Sirius",
+    dam: "GCH Old Bay's Please Don't Squeeze The Charm'n",
+    dob: "December 5, 2013",
+    neutered: true,
+    rip: "",
+    owner: "Cindy and John Flowers",
+    aka: "Sonnora",
+    lives: "Cindy and John Flowers",
+    health: "https://www.ofa.org/advanced-search?f=sr&appnum=1718393",
+    image: __webpack_require__(/*! ../../images/info/Sunny.jpg */ "./images/info/Sunny.jpg"),
+    Titles: []
+  }, {
+    id: 4,
+    call: "Rolex",
+    toptwenty: "2017",
+    ours: true,
+    sex: "male",
+    stud: true,
+    name: "GCHB Old Bay's Perfect Timing",
+    sire: "CH Old Bay's Lead Me To Temptation ",
+    dam: "Old Bay's Seasoned with Spice ROM",
+    dob: "February 23, 2014",
+    neutered: false,
+    rip: "",
+    owner: "Cindy Flowers and Kathy Hamilton",
+    aka: "Rollie-Pollie-Bear",
+    lives: "Cindy and John Flowers",
+    health: "http://www.offa.org/display.html?appnum=1718399#animal",
+    image: __webpack_require__(/*! ../../images/info/Rolex.jpg */ "./images/info/Rolex.jpg"),
+    Titles: ["AKC Champion", "AKC Grand Champion", "AKC Bronze Grand Champion", "NCA Select Dog 2018", "NCA Top Twenty 2017"]
+  }, {
+    id: 5,
+    call: "Metronome",
+    toptwenty: "",
+    ours: false,
+    sex: "male",
+    stud: true,
+    name: "CH Old Bay's Keeping Time With Sun Valley",
+    sire: "GCHB Old Bay's Perfect Timing",
+    dam: "GCHB Old Bay's Keep It Simple ROM",
+    dob: "June 23, 2017",
+    neutered: false,
+    rip: "",
+    owner: "Cindy and John Flowers",
+    aka: "Metro",
+    lives: "Mike and Kathy Paxton",
+    health: "https://www.ofa.org/advanced-search?f=sr&appnum=2027902",
+    image: __webpack_require__(/*! ../../images/info/Metro.jpg */ "./images/info/Metro.jpg"),
+    Titles: ["AKC Champion", "NCA National Best of Opposite in Sweepstakes 2018", "NCA National 1st 9-12 Dog 2018"]
+  }, {
+    id: 6,
+    call: "Maestro",
+    toptwenty: "",
+    ours: true,
+    sex: "male",
+    stud: true,
+    name: "CH Old Bay's Master of Time in Dreamhaven",
+    sire: "GCHB Old Bay's Perfect Timing",
+    dam: "GCHB Old Bay's Snowball's Chance",
+    dob: "January 11, 2018",
+    neutered: false,
+    rip: "",
+    owner: "Cindy and John Flowers and Andrea Jung and Kathy Hamilton",
+    aka: "Maestro :-)",
+    lives: "Cindy and John Flowers",
+    health: "https://www.ofa.org/advanced-search?f=sr&appnum=2027902",
+    image: __webpack_require__(/*! ../../images/info/Maestro.jpg */ "./images/info/Maestro.jpg"),
+    Titles: ["AKC Champion"]
+  }, {
+    id: 7,
+    call: "Nemo",
+    toptwenty: "",
+    ours: false,
+    stud: false,
+    sex: "male",
+    name: "CH Old Bay's Finding BluWater",
+    sire: "GCHB Old Bay's Perfect Timing",
+    dam: "GCHB Old Bay's Keep It Simple ROM",
+    dob: "February 23, 2015",
+    neutered: true,
+    rip: "",
+    owner: "Cindy and John Flowers and Joan Locker-Thuring",
+    aka: "Metro",
+    lives: "Jenni and David Arnett",
+    health: "https://www.ofa.org/advanced-search?f=sr&appnum=1955991",
+    image: __webpack_require__(/*! ../../images/info/Nemo.jpg */ "./images/info/Nemo.jpg"),
+    Titles: ["AKC Champion"]
+  }, {
+    id: 8,
+    call: "Raisin",
+    toptwenty: "",
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "CH Old Bay's Ragin' Infurno",
+    sire: "CH CYPRESS BAY IMAT CORNERBROOK",
+    dam: "GCH Old Bay's Lucy Fur ROM",
+    dob: "September 10, 2011",
+    neutered: true,
+    rip: "",
+    owner: "Kathy Hamilton, John Borklund and Cindy Flowers",
+    aka: "Rasinette, Rasie",
+    lives: "Kathy Hamilton",
+    health: "http://www.offa.org/display.html?appnum=1522576#animal",
+    image: __webpack_require__(/*! ../../images/info/Raisin.jpg */ "./images/info/Raisin.jpg"),
+    Titles: ["AKC Champion"]
+  }, {
+    id: 9,
+    call: "Kiss",
+    toptwenty: "2018",
+    rom: true,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "GCHB Old Bay's Keep It Simple",
+    sire: "GCH Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
+    dam: "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA) ",
+    dob: "November 25, 2014",
+    neutered: false,
+    rip: "",
+    owner: "Cindy Flowers and Kathy Hamilton",
+    aka: "Kissy",
+    lives: "Cindy and John Flowers",
+    health: "http://www.offa.org/display.html?appnum=1698851#animal",
+    image: __webpack_require__(/*! ../../images/info/Kiss.jpg */ "./images/info/Kiss.jpg"),
+    Titles: ["AKC Champion", "AKC Grand Champion", "AKC Bronze Grand Champion", "NCA Top Twenty 2018", "NCA Register of Merit"]
+  }, {
+    id: 10,
+    call: "Snowball",
+    toptwenty: "",
+    ours: false,
+    stud: false,
+    sex: "female",
+    name: "GCH Old Bay's Snowballs Chance CD ",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
+    dob: "February 4, 2014",
+    neutered: false,
+    rip: "",
+    owner: "Andrea Jung and Cindy Flowers and Kathy Hamilton",
+    aka: "SnowBeast",
+    lives: "Andrea Jung",
+    health: "http://www.offa.org/display.html?appnum=1718388#animal",
+    image: __webpack_require__(/*! ../../images/info/Snowball.jpg */ "./images/info/Snowball.jpg"),
+    Titles: ["AKC Companion Dog", "AKC Champion", "AKC Grand Champion"]
+  }, {
+    id: 11,
+    call: "Flash",
+    toptwenty: "2018",
+    ours: false,
+    stud: false,
+    sex: "male",
+    name: "GCHB Old Bay's Big Bang ",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
+    dob: "February 4, 2014",
+    neutered: false,
+    rip: "",
+    owner: "Anne and David Nored and Cindy Flowers",
+    aka: "Flash Man",
+    lives: "Anne and David Nored",
+    health: "https://www.ofa.org/advanced-search?f=sr&appnum=1876590",
+    image: __webpack_require__(/*! ../../images/info/Flash.jpg */ "./images/info/Flash.jpg"),
+    Titles: ["AKC Champion", "AKC Grand Champion", "AKC Bronze Grand Champion", "NCA Top Twenty 2018"]
+  }, {
+    id: 12,
+    call: "Carson",
+    toptwenty: "",
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "CH PORICIA'S STRAIGHT TO THE TOP",
+    sire: "",
+    dam: "",
+    dob: "September 7, 2005",
+    neutered: false,
+    rip: "December 11, 2019",
+    owner: "Kathy Hamilton and Pat Hall",
+    aka: "Carson-ova",
+    lives: "Kathy Hamilton ",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Carson.jpg */ "./images/info/Carson.jpg"),
+    Titles: ["AKC Champion", "National Best of Breed"]
+  }, {
+    id: 13,
+    call: "Sparkle",
+    toptwenty: "",
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "CH Old Bay's Sparks Are Flyin', RN, WD",
+    sire: "CH Top Shelf's Troubles A Brewin, DD",
+    dam: "GCH TOP SHELF SPICED WITH OLD BAY, NJP",
+    dob: "December 3, 2008",
+    neutered: false,
+    rip: "January 2018",
+    owner: "Cindy and John Flowers and Rose Miller",
+    aka: "Spark, Sparky, Sparkly, Sparkly-Darkly-Dog",
+    lives: "Cindy and John Flowers",
+    health: "http://www.offa.org/display.html?appnum=1370314#animal",
+    image: __webpack_require__(/*! ../../images/info/Sparkle.jpg */ "./images/info/Sparkle.jpg"),
+    Titles: ["AKC Champion", "AKC Rally Novice", "NCA Water Dog"]
+  }, {
+    id: 14,
+    call: "Lucy",
+    toptwenty: "",
+    rom: true,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "GCH CH OLD BAY'S LUCY FUR CGC, TDI, THDN, ROM",
+    sire: "",
+    dam: "",
+    dob: "June 9, 2009",
+    neutered: false,
+    rip: "April 29, 2017",
+    owner: "Kathy Hamilton & Cindy Flowers",
+    aka: "Lou Lou, Lucy I'm Home, LucyFur",
+    lives: "Kathy Hamilton",
+    health: "http://www.offa.org/display.html?appnum=1429095#animal",
+    image: __webpack_require__(/*! ../../images/info/Lucy.jpg */ "./images/info/Lucy.jpg"),
+    Titles: ["AKC Champion", "AKC Grand Champion", "Canine Good Citizen", "Therapy Dog international", "AKC Therapy Dog Novice", "NCA Register of Merit"]
+  }, {
+    id: 15,
+    call: "Spice",
+    toptwenty: "2010, 2012",
+    rom: true,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    sire: "CH Pouch Coves Too Close To Call",
+    dam: "Top Shelfs Something Different ROM",
+    dob: "April 29, 2005",
+    neutered: false,
+    rip: "April 2017",
+    owner: "Cindy and John Flowers",
+    aka: "	Spicy, Spice Girl, Licky, Licky Mill, Spice Cake, Cakes",
+    lives: "Cindy and John Flowers",
+    health: "http://www.offa.org/display.html?appnum=1240326#animal",
+    image: __webpack_require__(/*! ../../images/info/Spice.jpg */ "./images/info/Spice.jpg"),
+    Titles: ["AKC Champion", "AKC Grand Champion", "AKC Novice Jumpers Preferred", "AKC Rally Novice", "NCA Draft Dog", "NCA Register of Merit", "2010 and 2012 NCA Top Twenty", "2010 NCA Top Show Bitch"]
+  }, {
+    id: 15,
+    call: "Dexter",
+    toptwenty: "",
+    rom: false,
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "CH ALLEGIANCE ROCK THE BOAT OLD BAY",
+    sire: "CH Top Shelfs On The Rocks",
+    dam: "CH Darbydales Zoo Two",
+    dob: "September 14, 2006",
+    neutered: false,
+    rip: "September 18, 2014",
+    owner: "Kathy Hamilton",
+    aka: "	Dex, Dexi, Dex-a-trim, Walking Head",
+    lives: "Kathy Hamilton",
+    health: "http://www.offa.org/display.html?appnum=1240326#animal",
+    image: __webpack_require__(/*! ../../images/info/Dexter.jpg */ "./images/info/Dexter.jpg"),
+    Titles: ["AKC Champion"]
+  }, {
+    id: 16,
+    call: "Simon",
+    toptwenty: "",
+    rom: false,
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "CH TOP SHELF'S SIMPLY IRRESISTIBLE, DD, WD, OAP, AJP",
+    sire: "BISS, CH NUMA'S HAD TO BE POUCH COVE, DD",
+    dam: "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ",
+    dob: "May 16, 2002",
+    neutered: false,
+    rip: "September 2, 2014",
+    owner: "Katie Amundson & Cindy Flowers",
+    aka: "Simonator, Simatraitor, Tater, Tater Tot, Tate",
+    lives: "Katie Amundson & Cindy Flowers",
+    health: "http://www.offa.org/display.html?appnum=1096035#animal",
+    image: __webpack_require__(/*! ../../images/info/Simon.jpg */ "./images/info/Simon.jpg"),
+    Titles: ["AKC Champion", "AKC Excellent Jumpers w/ Weaves Preferred (AJP)", "AKC Open Jumpers w/ Weaves Preferred (OJP)", "AKC Novice Jumpers w Weaves Preferred (NJP)", "AKC Open Agility Preferred (OAP)", "AKC Novice Agility Preferred (NAP)", "NCA Draft Dog", "NCA Water Dog"]
+  }, {
+    id: 17,
+    call: "Chilly",
+    toptwenty: "",
+    rom: true,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "CH OLD BAY'S HELLFROZOVER TOPSHELF",
+    sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
+    dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
+    dob: "September 26, 2005",
+    neutered: false,
+    rip: "August 2014",
+    owner: "Nancy Beres and Kathy Hamilton",
+    aka: "Chillster, Chinchilla, The Arsonist, Fire Starter",
+    lives: "Nancy Beres ",
+    health: "http://www.offa.org/display.html?appnum=1240358#animal",
+    image: __webpack_require__(/*! ../../images/info/Chilly.jpg */ "./images/info/Chilly.jpg"),
+    Titles: ["AKC Champion"]
+  }, {
+    id: 18,
+    call: "Katie",
+    toptwenty: "",
+    rom: false,
+    vn: true,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "VN CH TOP SHELF'S JUMP UP N KISS ME, CD, DD1, WRD2, NAP, RN, CGC, TDI",
+    sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
+    dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
+    dob: "March 5, 2002",
+    neutered: false,
+    rip: "May 18, 2012",
+    owner: "Cindy and John Flowers",
+    aka: "Kate, Kaitlin, Katydid, Katie-Did-It",
+    lives: "Cindy and John Flowers",
+    health: "http://www.offa.org/display.html?appnum=1096033#animal",
+    image: __webpack_require__(/*! ../../images/info/Katie.jpg */ "./images/info/Katie.jpg"),
+    Titles: ["NCA Versatile Newfoundland", "AKC Champion", "AKC Companion Dog", "AKC Novice Agility Preferred", "NCA Draft Dog - requalified 1 time", "NCA Water Rescue Dog - requalified 2 times", "AKC Canine Good Citizen", "AKC Rally Novice", "Therapy Dog Internaltional"]
+  }, {
+    id: 18,
+    call: "Dasher",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "Old Bay's Dash of Spice",
+    sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
+    dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
+    dob: "December 25, 2010",
+    neutered: false,
+    rip: "February 24, 2011",
+    owner: "Cindy and John Flowers",
+    aka: "Dash, Dashing",
+    lives: "Cindy and John Flowers",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Dasher.jpg */ "./images/info/Dasher.jpg"),
+    Titles: []
+  }, {
+    id: 18,
+    call: "Daisy",
+    toptwenty: "",
+    rom: true,
+    vn: true,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "VN CH TOP SHELF'S STAR DAISY CD, TDD, WRD, ROM ",
+    sire: "CH Darbydales Keep´M Guess´N",
+    dam: "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
+    dob: "February 17, 1999",
+    neutered: false,
+    rip: "September 29, 2011",
+    owner: "Cindy and John Flowers",
+    aka: "Daisy Dukes, Dukes, Dukey, Daisy May, Dazed",
+    lives: "Cindy and John Flowers",
+    health: "http://www.offa.org/display.html?appnum=830863#animal",
+    image: __webpack_require__(/*! ../../images/info/Daisy.jpg */ "./images/info/Daisy.jpg"),
+    Titles: ["NCA Versatile Newfoundland", "AKC Champion", "AKC Companion Dog", "NCA Draft Dog", "NCA Water Rescue Dog", "NCA Register of Merit"]
+  }, {
+    id: 19,
+    call: "Flyer",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "MUDDY CREEKS FREQUENT FLYER",
+    sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
+    dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
+    dob: "2000",
+    neutered: false,
+    rip: "September 28, 2010",
+    owner: "Kathy Hamilton",
+    aka: "	Fly, Fly Paper, Fly me to the moon",
+    lives: "Kathy Hamilton",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Flyer.jpg */ "./images/info/Flyer.jpg"),
+    Titles: []
+  }, {
+    id: 18,
+    call: "Tommy",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "CH TOP SHELF TOM COLINS, DD, WRD2",
+    sire: "CH Darbydales Keep´M Guess´N",
+    dam: "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
+    dob: "March 8, 2001",
+    neutered: false,
+    rip: "September 16, 2010",
+    owner: "Cindy and John Flowers",
+    aka: "Tom, Thomas The Train, Taahhh-me",
+    lives: "Cindy and John Flowers",
+    health: "http://www.offa.org/display.html?appnum=1041710#animal",
+    image: __webpack_require__(/*! ../../images/info/Tommy.jpg */ "./images/info/Tommy.jpg"),
+    Titles: ["AKC Champion",, "NCA Draft Dog", "NCA Water Rescue Dog2"]
+  }, {
+    id: 19,
+    call: "Opie",
+    toptwenty: "2004, 2005",
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "BISS CH TOP SHELF'S SMOOTH OPERATOR, CGC, TDI",
+    sire: "BISS, CH NUMA'S HAD TO BE POUCH COVE, DD",
+    dam: "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ",
+    dob: "May 16, 2002",
+    neutered: false,
+    rip: "September 20, 2006",
+    owner: "Kathy Hamilton and Cindy and John Flowers",
+    aka: "RRRRRRRocky",
+    lives: "Kathy Hamilton",
+    health: "http://www.offa.org/display.html?appnum=1096214#animal",
+    image: __webpack_require__(/*! ../../images/info/Opie.jpg */ "./images/info/Opie.jpg"),
+    Titles: ["AKC Champion", "NCA Top Twenty 2006"]
+  }, {
+    id: 19,
+    call: "Yogi",
+    toptwenty: "",
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "SHADRACK'S MIDNITE MAGIC CD, NAP, RE, TDD, WRD6",
+    sire: "CH Shadracks Midnite Habit",
+    dam: "CH Midnite Startin´ Over W Shadrack ",
+    dob: "June 30, 1999",
+    neutered: false,
+    rip: "March 15, 2009",
+    owner: "Cindy & John Flowers",
+    aka: "ogi-Bear, Yogity-Bogity-Bear, Yoggers, Yogi Beara, Smarter Than the Average Bear, Best Puppy in the Whole World",
+    lives: "Cindy & John Flowers",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Yogi.jpg */ "./images/info/Yogi.jpg"),
+    Titles: ["AKC Companion Dog", "AKC Novice Agility Preferred", "AKC Rally Novice", "AKC Rally Advanced", "AKC Rally Excellent", "NCA Draft Dog", "NCA Team Draft Dog", "NCA Water Dog", "NCA Water Rescue Dog - requalified 6 times!"]
+  }, {
+    id: 20,
+    call: "Sporty",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "CH. OLD BAY'S SPORTIN' A SPICY ATTITUDE",
+    sire: "CH Skippers Eminence King of Helluland",
+    dam: "CH Top Shelfs Spiced With Old Bay ROM",
+    dob: "April 10, 2008",
+    neutered: false,
+    rip: "August 10, 2009",
+    owner: "Cindy and John Flowers",
+    aka: "Sporty Spice, Good Sport, Bad Sport, Sportscaster, Sport-Zilla",
+    lives: "Cindy and John Flowers",
+    health: "http://www.offa.org/display.html?appnum=1370494#animal",
+    image: __webpack_require__(/*! ../../images/info/Sporty.jpg */ "./images/info/Sporty.jpg"),
+    Titles: ["AKC Champion"]
+  }, {
+    id: 21,
+    call: "Burnie",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "OLD BAY'S SITTIN ON THE BACK BURNER",
+    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ROM",
+    dob: "May 10, 2008",
+    neutered: false,
+    rip: "July 27, 2009",
+    owner: "Cindy Flowers and Kathy Hamiltons",
+    aka: "Bernardo, Burn, Burnard, Burn Pile, Fat Face",
+    lives: "Cindy Flowers and Kathy Hamilton",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Burnie.jpg */ "./images/info/Burnie.jpg"),
+    Titles: []
+  }, {
+    id: 21,
+    call: "Snoopy",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "MUDDY CREEK OLD BAYS MOONBEAM ",
+    sire: "Ledgelights Muddy Creek Caruso",
+    dam: "	Muddy Creeks Mercedes",
+    dob: "",
+    neutered: false,
+    rip: "2007",
+    owner: "Kathy Hamiltons",
+    aka: "Moon, Snoop",
+    lives: "Kathy Hamilton",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Snoopy.jpg */ "./images/info/Snoopy.jpg"),
+    Titles: []
+  }, {
+    id: 22,
+    call: "RRRocky",
+    toptwenty: "2006",
+    rom: true,
+    ours: true,
+    stud: false,
+    sex: "male",
+    name: "CH Top Shelf's On The Rocks",
+    sire: "BISS, CH NUMA'S HAD TO BE POUCH COVE, DD",
+    dam: "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ",
+    dob: "May 16, 2002",
+    neutered: false,
+    rip: "September 15, 2006",
+    owner: "Kathy Hamilton and Cindy and John Flowers",
+    aka: "RRRRRRRocky",
+    lives: "Kathy Hamilton",
+    health: "http://www.offa.org/display.html?appnum=1096214#animal",
+    image: __webpack_require__(/*! ../../images/info/Rocky.jpg */ "./images/info/Rocky.jpg"),
+    Titles: ["AKC Champion", "NCA Top Twenty 2006"]
+  }, {
+    id: 23,
+    call: "Betty",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "BROAD RUN'S BLACK BETTY, CD, TDD, WRD",
+    sire: "",
+    dam: "Shadracks Babylon Beauty",
+    dob: "May 30, 1992",
+    neutered: false,
+    rip: "May 19, 2006",
+    owner: "Cindy & John Flowers",
+    aka: "Betty Boop",
+    lives: "Cindy & John Flowers",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Betty.jpg */ "./images/info/Betty.jpg"),
+    Titles: ["AKC Companion Dog", "NCA Water Rescue Dog", "NCA Draft Dog", "NCA Team Draft Dog"]
   }],
   litters: [{
     id: 1,
@@ -11626,7 +12468,7 @@ var initState = {
     dob: "February 24, 2014",
     boys: 3,
     girls: 2,
-    puppies: ["Jet - lime boy - Lezli and Bennett Alford", "Karma - raspberry girl - Rose Miller", "Thunder - red boy - Jolene Maschuck Smith (PA)", "Torben- silver boy - Ardys & Lincoln (MD)", "Nessie - purple girl - Rose Miller (VA)"],
+    puppies: ["Jet - lime boy - Lezli and Bennett Alford", "Karma - raspberry girl - Rose Miller", "Thunder - red boy - Jolene Maschuck Smith (PA)", "Torben- silver boy - Ardys and Lincoln (MD)", "Nessie - purple girl - Rose Miller (VA)"],
     sireimg: __webpack_require__(/*! ../../images/litters/Sirius.jpg */ "./images/litters/Sirius.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Raisin.jpg */ "./images/litters/Raisin.jpg")
   }, {
@@ -11656,7 +12498,7 @@ var initState = {
   }, {
     id: 9,
     parents: "Todd and Charm",
-    breeders: "Cindy & John Flowers & Rose Miller",
+    breeders: "Cindy and John Flowers and Rose Miller",
     sire: "GCH Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
     dam: "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA)",
     dob: "November 25, 2014",
@@ -11668,7 +12510,7 @@ var initState = {
   }, {
     id: 10,
     parents: "Brodie and Nutmeg",
-    breeders: "Cindy Flowers & Julia and Don Sharkey & Sue Faulkner",
+    breeders: "Cindy Flowers and Julia and Don Sharkey and Sue Faulkner",
     sire: "Powder Ridge's Dreams Come True, WD (HG/L/P/DNA)",
     dam: "Old Bay's Seasoned with Spice (HG/L/HrC/P/Eyes/DNA) ",
     dob: "June 1, 2014",
@@ -11680,7 +12522,7 @@ var initState = {
   }, {
     id: 11,
     parents: "Raisin and Todd",
-    breeders: "Kathy Hamilton & John Borklund & Cindy Flowers",
+    breeders: "Kathy Hamilton and John Borklund and Cindy Flowers",
     sire: "G.Ch. Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
     dam: "Old Bay's Ragin' Infurno (HG/L/HrC/P/DNA)",
     dob: "April 17, 2014",
@@ -11692,7 +12534,7 @@ var initState = {
   }, {
     id: 12,
     parents: "Charm and Sirius",
-    breeders: "Cindy & John Flowers & Rose Miller",
+    breeders: "Cindy and John Flowers and Rose Miller",
     sire: "CH Old Bay's Let's Get Sirius",
     dam: "GCH CH Old Bay's Please Don't Squeeze The Charm'n ",
     dob: "December 5, 2013",
@@ -11704,7 +12546,7 @@ var initState = {
   }, {
     id: 13,
     parents: "Miss Flash and Atlas",
-    breeders: "Celtic Cross - Rose Miller & Cindy Flowers & Barbara Plasse",
+    breeders: "Celtic Cross - Rose Miller and Cindy Flowers and Barbara Plasse",
     sire: "CH Old Bay's Here At Last, WRD",
     dam: "Celtic Cross Mischief Managed At Old Bay, RN",
     dob: "October 17, 2013",
@@ -11728,7 +12570,7 @@ var initState = {
   }, {
     id: 15,
     parents: "Lucy and Bravo",
-    breeders: " Kathy Hamilton & Cindy Flowers",
+    breeders: " Kathy Hamilton and Cindy Flowers",
     sire: "GCH CH Bear N Mind's Stand Up and Cheer",
     dam: "GCH CH Old Bay's Lucy Fur ",
     dob: "December 9, 2012",
@@ -11740,7 +12582,7 @@ var initState = {
   }, {
     id: 16,
     parents: "Lucy and Mick",
-    breeders: "Kathy Hamilton & John Borkland & Cindy Flowers",
+    breeders: "Kathy Hamilton and John Borkland and Cindy Flowers",
     sire: "Ch. Cypress Bay Imat Cornerbrook CGC, TDI",
     dam: "CH Old Bay's Lucy Fur ",
     dob: "September 10, 2011",
@@ -11752,7 +12594,7 @@ var initState = {
   }, {
     id: 17,
     parents: "Sparkle and Potter",
-    breeders: "Cindy & John Flowers & Rose Miller",
+    breeders: "Cindy and John Flowers and Rose Miller",
     sire: "GCH Old Bay's 'Potter As In Harry'",
     dam: "CH Old Bay's Sparks Are Flyin', RN",
     dob: "September 6, 2011",
@@ -11764,7 +12606,7 @@ var initState = {
   }, {
     id: 18,
     parents: "Allie x Lincoln",
-    breeders: "Powder Ridge Newfs - Julia & Don Sharkey & Kathy Hamilton",
+    breeders: "Powder Ridge Newfs - Julia and Don Sharkey and Kathy Hamilton",
     sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND",
     dam: "CH Old Bay Get My Drift At Powder Ridge  ",
     dob: "June 24, 2011",
@@ -11788,7 +12630,7 @@ var initState = {
   }, {
     id: 20,
     parents: "Pharrah and Travis",
-    breeders: "Cindy Flowers & Dirk Daelmans",
+    breeders: "Cindy Flowers and Dirk Daelmans",
     sire: "CH Bear N Mind's Maritime Traveler, CD",
     dam: "CH Waterford FrontPage",
     dob: "October 26, 2010",
