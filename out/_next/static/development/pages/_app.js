@@ -207,6 +207,248 @@ module.exports = "/_next/static/images/Sirius-38e8270b35fca1cae126c3b6e0c717d9.j
 
 /***/ }),
 
+/***/ "./images/litters/Allie.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Allie.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Allie-76e75f313148e194e4d4e9bcec46aa0c.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Bravo.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Bravo.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Bravo-16f1b2bbd7502a0e1d0e51f6cf40d2d7.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Charm.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Charm.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Charm-2fc4280ef3c5980411edf40c52090dda.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Chilly.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Chilly.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Chilly-9ce2999968783deee8b9f245bc703062.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Cosmo.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Cosmo.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Cosmo-670dc9f50208e920e32ade12c5202ad2.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Crosby.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Crosby.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Crosby-47e1ddef870b21f26473edeca026d27b.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Daisy.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Daisy.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Daisy-162004ecbcaee19f6a3c162c73a7d9ad.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Dexter.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Dexter.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Dexter-ba84507d462e7d4fcd4443edc474d6eb.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Kiss.jpg":
+/*!*********************************!*\
+  !*** ./images/litters/Kiss.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Kiss-2331e9bf32a4afb0430d5ef79ef8f224.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Lucy.jpg":
+/*!*********************************!*\
+  !*** ./images/litters/Lucy.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Lucy-d7fb4c587346f61711a4301de9d96767.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Nutmeg.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Nutmeg.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Nutmeg-16729fd37766339e495b05a7428d6b7b.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Pharrah.jpg":
+/*!************************************!*\
+  !*** ./images/litters/Pharrah.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Pharrah-3e8d8bb06fb584430a6eff197b4bf26d.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Potter.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Potter.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Potter-dd9473e086f768ee4fad418a2e443e47.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Raisin.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Raisin.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Raisin-2323c6c610a9c51a3366f7917825538f.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Rolex.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Rolex.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Rolex-7b6843cf2bdf24b9d9411c00c5bbb1c4.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Sirius.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Sirius.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sirius-97ea214f0ae9c932c2623452e51a0535.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Snowball.jpg":
+/*!*************************************!*\
+  !*** ./images/litters/Snowball.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Snowball-e3276706e3ad178526f26e1816602e2a.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Sparkle.jpg":
+/*!************************************!*\
+  !*** ./images/litters/Sparkle.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sparkle-93c01bc829d37a00f763dbad55e4d44d.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Spice.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Spice.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Spice-f30cf7cb558191fc3587cf7083874a6c.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Tate.jpg":
+/*!*********************************!*\
+  !*** ./images/litters/Tate.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Tate-fdffb668fa532b0251b82942caf46326.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/dam.jpg":
+/*!********************************!*\
+  !*** ./images/litters/dam.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/jpeg;base64,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"
+
+/***/ }),
+
+/***/ "./images/litters/sire.jpg":
+/*!*********************************!*\
+  !*** ./images/litters/sire.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/jpeg;base64,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"
+
+/***/ }),
+
 /***/ "./images/quick-view-img.jpg":
 /*!***********************************!*\
   !*** ./images/quick-view-img.jpg ***!
@@ -5155,6 +5397,17 @@ function _objectWithoutPropertiesLoose(source, excluded) {
 
 /***/ }),
 
+/***/ "./node_modules/constants-browserify/constants.json":
+/*!**********************************************************!*\
+  !*** ./node_modules/constants-browserify/constants.json ***!
+  \**********************************************************/
+/*! exports provided: O_RDONLY, O_WRONLY, O_RDWR, S_IFMT, S_IFREG, S_IFDIR, S_IFCHR, S_IFBLK, S_IFIFO, S_IFLNK, S_IFSOCK, O_CREAT, O_EXCL, O_NOCTTY, O_TRUNC, O_APPEND, O_DIRECTORY, O_NOFOLLOW, O_SYNC, O_SYMLINK, O_NONBLOCK, S_IRWXU, S_IRUSR, S_IWUSR, S_IXUSR, S_IRWXG, S_IRGRP, S_IWGRP, S_IXGRP, S_IRWXO, S_IROTH, S_IWOTH, S_IXOTH, E2BIG, EACCES, EADDRINUSE, EADDRNOTAVAIL, EAFNOSUPPORT, EAGAIN, EALREADY, EBADF, EBADMSG, EBUSY, ECANCELED, ECHILD, ECONNABORTED, ECONNREFUSED, ECONNRESET, EDEADLK, EDESTADDRREQ, EDOM, EDQUOT, EEXIST, EFAULT, EFBIG, EHOSTUNREACH, EIDRM, EILSEQ, EINPROGRESS, EINTR, EINVAL, EIO, EISCONN, EISDIR, ELOOP, EMFILE, EMLINK, EMSGSIZE, EMULTIHOP, ENAMETOOLONG, ENETDOWN, ENETRESET, ENETUNREACH, ENFILE, ENOBUFS, ENODATA, ENODEV, ENOENT, ENOEXEC, ENOLCK, ENOLINK, ENOMEM, ENOMSG, ENOPROTOOPT, ENOSPC, ENOSR, ENOSTR, ENOSYS, ENOTCONN, ENOTDIR, ENOTEMPTY, ENOTSOCK, ENOTSUP, ENOTTY, ENXIO, EOPNOTSUPP, EOVERFLOW, EPERM, EPIPE, EPROTO, EPROTONOSUPPORT, EPROTOTYPE, ERANGE, EROFS, ESPIPE, ESRCH, ESTALE, ETIME, ETIMEDOUT, ETXTBSY, EWOULDBLOCK, EXDEV, SIGHUP, SIGINT, SIGQUIT, SIGILL, SIGTRAP, SIGABRT, SIGIOT, SIGBUS, SIGFPE, SIGKILL, SIGUSR1, SIGSEGV, SIGUSR2, SIGPIPE, SIGALRM, SIGTERM, SIGCHLD, SIGCONT, SIGSTOP, SIGTSTP, SIGTTIN, SIGTTOU, SIGURG, SIGXCPU, SIGXFSZ, SIGVTALRM, SIGPROF, SIGWINCH, SIGIO, SIGSYS, SSL_OP_ALL, SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION, SSL_OP_CIPHER_SERVER_PREFERENCE, SSL_OP_CISCO_ANYCONNECT, SSL_OP_COOKIE_EXCHANGE, SSL_OP_CRYPTOPRO_TLSEXT_BUG, SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS, SSL_OP_EPHEMERAL_RSA, SSL_OP_LEGACY_SERVER_CONNECT, SSL_OP_MICROSOFT_BIG_SSLV3_BUFFER, SSL_OP_MICROSOFT_SESS_ID_BUG, SSL_OP_MSIE_SSLV2_RSA_PADDING, SSL_OP_NETSCAPE_CA_DN_BUG, SSL_OP_NETSCAPE_CHALLENGE_BUG, SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG, SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG, SSL_OP_NO_COMPRESSION, SSL_OP_NO_QUERY_MTU, SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION, SSL_OP_NO_SSLv2, SSL_OP_NO_SSLv3, SSL_OP_NO_TICKET, SSL_OP_NO_TLSv1, SSL_OP_NO_TLSv1_1, SSL_OP_NO_TLSv1_2, SSL_OP_PKCS1_CHECK_1, SSL_OP_PKCS1_CHECK_2, SSL_OP_SINGLE_DH_USE, SSL_OP_SINGLE_ECDH_USE, SSL_OP_SSLEAY_080_CLIENT_DH_BUG, SSL_OP_SSLREF2_REUSE_CERT_TYPE_BUG, SSL_OP_TLS_BLOCK_PADDING_BUG, SSL_OP_TLS_D5_BUG, SSL_OP_TLS_ROLLBACK_BUG, ENGINE_METHOD_DSA, ENGINE_METHOD_DH, ENGINE_METHOD_RAND, ENGINE_METHOD_ECDH, ENGINE_METHOD_ECDSA, ENGINE_METHOD_CIPHERS, ENGINE_METHOD_DIGESTS, ENGINE_METHOD_STORE, ENGINE_METHOD_PKEY_METHS, ENGINE_METHOD_PKEY_ASN1_METHS, ENGINE_METHOD_ALL, ENGINE_METHOD_NONE, DH_CHECK_P_NOT_SAFE_PRIME, DH_CHECK_P_NOT_PRIME, DH_UNABLE_TO_CHECK_GENERATOR, DH_NOT_SUITABLE_GENERATOR, NPN_ENABLED, RSA_PKCS1_PADDING, RSA_SSLV23_PADDING, RSA_NO_PADDING, RSA_PKCS1_OAEP_PADDING, RSA_X931_PADDING, RSA_PKCS1_PSS_PADDING, POINT_CONVERSION_COMPRESSED, POINT_CONVERSION_UNCOMPRESSED, POINT_CONVERSION_HYBRID, F_OK, R_OK, W_OK, X_OK, UV_UDP_REUSEADDR, default */
+/***/ (function(module) {
+
+module.exports = JSON.parse("{\"O_RDONLY\":0,\"O_WRONLY\":1,\"O_RDWR\":2,\"S_IFMT\":61440,\"S_IFREG\":32768,\"S_IFDIR\":16384,\"S_IFCHR\":8192,\"S_IFBLK\":24576,\"S_IFIFO\":4096,\"S_IFLNK\":40960,\"S_IFSOCK\":49152,\"O_CREAT\":512,\"O_EXCL\":2048,\"O_NOCTTY\":131072,\"O_TRUNC\":1024,\"O_APPEND\":8,\"O_DIRECTORY\":1048576,\"O_NOFOLLOW\":256,\"O_SYNC\":128,\"O_SYMLINK\":2097152,\"O_NONBLOCK\":4,\"S_IRWXU\":448,\"S_IRUSR\":256,\"S_IWUSR\":128,\"S_IXUSR\":64,\"S_IRWXG\":56,\"S_IRGRP\":32,\"S_IWGRP\":16,\"S_IXGRP\":8,\"S_IRWXO\":7,\"S_IROTH\":4,\"S_IWOTH\":2,\"S_IXOTH\":1,\"E2BIG\":7,\"EACCES\":13,\"EADDRINUSE\":48,\"EADDRNOTAVAIL\":49,\"EAFNOSUPPORT\":47,\"EAGAIN\":35,\"EALREADY\":37,\"EBADF\":9,\"EBADMSG\":94,\"EBUSY\":16,\"ECANCELED\":89,\"ECHILD\":10,\"ECONNABORTED\":53,\"ECONNREFUSED\":61,\"ECONNRESET\":54,\"EDEADLK\":11,\"EDESTADDRREQ\":39,\"EDOM\":33,\"EDQUOT\":69,\"EEXIST\":17,\"EFAULT\":14,\"EFBIG\":27,\"EHOSTUNREACH\":65,\"EIDRM\":90,\"EILSEQ\":92,\"EINPROGRESS\":36,\"EINTR\":4,\"EINVAL\":22,\"EIO\":5,\"EISCONN\":56,\"EISDIR\":21,\"ELOOP\":62,\"EMFILE\":24,\"EMLINK\":31,\"EMSGSIZE\":40,\"EMULTIHOP\":95,\"ENAMETOOLONG\":63,\"ENETDOWN\":50,\"ENETRESET\":52,\"ENETUNREACH\":51,\"ENFILE\":23,\"ENOBUFS\":55,\"ENODATA\":96,\"ENODEV\":19,\"ENOENT\":2,\"ENOEXEC\":8,\"ENOLCK\":77,\"ENOLINK\":97,\"ENOMEM\":12,\"ENOMSG\":91,\"ENOPROTOOPT\":42,\"ENOSPC\":28,\"ENOSR\":98,\"ENOSTR\":99,\"ENOSYS\":78,\"ENOTCONN\":57,\"ENOTDIR\":20,\"ENOTEMPTY\":66,\"ENOTSOCK\":38,\"ENOTSUP\":45,\"ENOTTY\":25,\"ENXIO\":6,\"EOPNOTSUPP\":102,\"EOVERFLOW\":84,\"EPERM\":1,\"EPIPE\":32,\"EPROTO\":100,\"EPROTONOSUPPORT\":43,\"EPROTOTYPE\":41,\"ERANGE\":34,\"EROFS\":30,\"ESPIPE\":29,\"ESRCH\":3,\"ESTALE\":70,\"ETIME\":101,\"ETIMEDOUT\":60,\"ETXTBSY\":26,\"EWOULDBLOCK\":35,\"EXDEV\":18,\"SIGHUP\":1,\"SIGINT\":2,\"SIGQUIT\":3,\"SIGILL\":4,\"SIGTRAP\":5,\"SIGABRT\":6,\"SIGIOT\":6,\"SIGBUS\":10,\"SIGFPE\":8,\"SIGKILL\":9,\"SIGUSR1\":30,\"SIGSEGV\":11,\"SIGUSR2\":31,\"SIGPIPE\":13,\"SIGALRM\":14,\"SIGTERM\":15,\"SIGCHLD\":20,\"SIGCONT\":19,\"SIGSTOP\":17,\"SIGTSTP\":18,\"SIGTTIN\":21,\"SIGTTOU\":22,\"SIGURG\":16,\"SIGXCPU\":24,\"SIGXFSZ\":25,\"SIGVTALRM\":26,\"SIGPROF\":27,\"SIGWINCH\":28,\"SIGIO\":23,\"SIGSYS\":12,\"SSL_OP_ALL\":2147486719,\"SSL_OP_ALLOW_UNSAFE_LEGACY_RENEGOTIATION\":262144,\"SSL_OP_CIPHER_SERVER_PREFERENCE\":4194304,\"SSL_OP_CISCO_ANYCONNECT\":32768,\"SSL_OP_COOKIE_EXCHANGE\":8192,\"SSL_OP_CRYPTOPRO_TLSEXT_BUG\":2147483648,\"SSL_OP_DONT_INSERT_EMPTY_FRAGMENTS\":2048,\"SSL_OP_EPHEMERAL_RSA\":0,\"SSL_OP_LEGACY_SERVER_CONNECT\":4,\"SSL_OP_MICROSOFT_BIG_SSLV3_BUFFER\":32,\"SSL_OP_MICROSOFT_SESS_ID_BUG\":1,\"SSL_OP_MSIE_SSLV2_RSA_PADDING\":0,\"SSL_OP_NETSCAPE_CA_DN_BUG\":536870912,\"SSL_OP_NETSCAPE_CHALLENGE_BUG\":2,\"SSL_OP_NETSCAPE_DEMO_CIPHER_CHANGE_BUG\":1073741824,\"SSL_OP_NETSCAPE_REUSE_CIPHER_CHANGE_BUG\":8,\"SSL_OP_NO_COMPRESSION\":131072,\"SSL_OP_NO_QUERY_MTU\":4096,\"SSL_OP_NO_SESSION_RESUMPTION_ON_RENEGOTIATION\":65536,\"SSL_OP_NO_SSLv2\":16777216,\"SSL_OP_NO_SSLv3\":33554432,\"SSL_OP_NO_TICKET\":16384,\"SSL_OP_NO_TLSv1\":67108864,\"SSL_OP_NO_TLSv1_1\":268435456,\"SSL_OP_NO_TLSv1_2\":134217728,\"SSL_OP_PKCS1_CHECK_1\":0,\"SSL_OP_PKCS1_CHECK_2\":0,\"SSL_OP_SINGLE_DH_USE\":1048576,\"SSL_OP_SINGLE_ECDH_USE\":524288,\"SSL_OP_SSLEAY_080_CLIENT_DH_BUG\":128,\"SSL_OP_SSLREF2_REUSE_CERT_TYPE_BUG\":0,\"SSL_OP_TLS_BLOCK_PADDING_BUG\":512,\"SSL_OP_TLS_D5_BUG\":256,\"SSL_OP_TLS_ROLLBACK_BUG\":8388608,\"ENGINE_METHOD_DSA\":2,\"ENGINE_METHOD_DH\":4,\"ENGINE_METHOD_RAND\":8,\"ENGINE_METHOD_ECDH\":16,\"ENGINE_METHOD_ECDSA\":32,\"ENGINE_METHOD_CIPHERS\":64,\"ENGINE_METHOD_DIGESTS\":128,\"ENGINE_METHOD_STORE\":256,\"ENGINE_METHOD_PKEY_METHS\":512,\"ENGINE_METHOD_PKEY_ASN1_METHS\":1024,\"ENGINE_METHOD_ALL\":65535,\"ENGINE_METHOD_NONE\":0,\"DH_CHECK_P_NOT_SAFE_PRIME\":2,\"DH_CHECK_P_NOT_PRIME\":1,\"DH_UNABLE_TO_CHECK_GENERATOR\":4,\"DH_NOT_SUITABLE_GENERATOR\":8,\"NPN_ENABLED\":1,\"RSA_PKCS1_PADDING\":1,\"RSA_SSLV23_PADDING\":2,\"RSA_NO_PADDING\":3,\"RSA_PKCS1_OAEP_PADDING\":4,\"RSA_X931_PADDING\":5,\"RSA_PKCS1_PSS_PADDING\":6,\"POINT_CONVERSION_COMPRESSED\":2,\"POINT_CONVERSION_UNCOMPRESSED\":4,\"POINT_CONVERSION_HYBRID\":6,\"F_OK\":0,\"R_OK\":4,\"W_OK\":2,\"X_OK\":1,\"UV_UDP_REUSEADDR\":4}");
+
+/***/ }),
+
 /***/ "./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js":
 /*!**********************************************************************************!*\
   !*** ./node_modules/hoist-non-react-statics/dist/hoist-non-react-statics.cjs.js ***!
@@ -6527,6 +6780,72 @@ function createUrl(router) {
     }
   };
 }
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/webpack/buildin/global.js":
+/*!***********************************!*\
+  !*** (webpack)/buildin/global.js ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+var g;
+
+// This works in non-strict mode
+g = (function() {
+	return this;
+})();
+
+try {
+	// This works if eval is allowed (see CSP)
+	g = g || new Function("return this")();
+} catch (e) {
+	// This works if the window reference is available
+	if (typeof window === "object") g = window;
+}
+
+// g can still be undefined, but nothing to do about it...
+// We return undefined, instead of nothing here, so it's
+// easier to handle this case. if(!global) { ...}
+
+module.exports = g;
+
+
+/***/ }),
+
+/***/ "./node_modules/next/node_modules/webpack/buildin/harmony-module.js":
+/*!*******************************************!*\
+  !*** (webpack)/buildin/harmony-module.js ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = function(originalModule) {
+	if (!originalModule.webpackPolyfill) {
+		var module = Object.create(originalModule);
+		// module.parent = undefined by default
+		if (!module.children) module.children = [];
+		Object.defineProperty(module, "loaded", {
+			enumerable: true,
+			get: function() {
+				return module.l;
+			}
+		});
+		Object.defineProperty(module, "id", {
+			enumerable: true,
+			get: function() {
+				return module.i;
+			}
+		});
+		Object.defineProperty(module, "exports", {
+			enumerable: true
+		});
+		module.webpackPolyfill = 1;
+	}
+	return module;
+};
+
 
 /***/ }),
 
@@ -10892,7 +11211,7 @@ if (typeof self !== 'undefined') {
 var result = Object(_ponyfill_js__WEBPACK_IMPORTED_MODULE_0__["default"])(root);
 /* harmony default export */ __webpack_exports__["default"] = (result);
 
-/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../webpack/buildin/global.js */ "./node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../webpack/buildin/harmony-module.js */ "./node_modules/webpack/buildin/harmony-module.js")(module)))
+/* WEBPACK VAR INJECTION */}.call(this, __webpack_require__(/*! ./../../next/node_modules/webpack/buildin/global.js */ "./node_modules/next/node_modules/webpack/buildin/global.js"), __webpack_require__(/*! ./../../next/node_modules/webpack/buildin/harmony-module.js */ "./node_modules/next/node_modules/webpack/buildin/harmony-module.js")(module)))
 
 /***/ }),
 
@@ -10922,72 +11241,6 @@ function symbolObservablePonyfill(root) {
 	}
 
 	return result;
-};
-
-
-/***/ }),
-
-/***/ "./node_modules/webpack/buildin/global.js":
-/*!***********************************!*\
-  !*** (webpack)/buildin/global.js ***!
-  \***********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-var g;
-
-// This works in non-strict mode
-g = (function() {
-	return this;
-})();
-
-try {
-	// This works if eval is allowed (see CSP)
-	g = g || new Function("return this")();
-} catch (e) {
-	// This works if the window reference is available
-	if (typeof window === "object") g = window;
-}
-
-// g can still be undefined, but nothing to do about it...
-// We return undefined, instead of nothing here, so it's
-// easier to handle this case. if(!global) { ...}
-
-module.exports = g;
-
-
-/***/ }),
-
-/***/ "./node_modules/webpack/buildin/harmony-module.js":
-/*!*******************************************!*\
-  !*** (webpack)/buildin/harmony-module.js ***!
-  \*******************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = function(originalModule) {
-	if (!originalModule.webpackPolyfill) {
-		var module = Object.create(originalModule);
-		// module.parent = undefined by default
-		if (!module.children) module.children = [];
-		Object.defineProperty(module, "loaded", {
-			enumerable: true,
-			get: function() {
-				return module.l;
-			}
-		});
-		Object.defineProperty(module, "id", {
-			enumerable: true,
-			get: function() {
-				return module.i;
-			}
-		});
-		Object.defineProperty(module, "exports", {
-			enumerable: true
-		});
-		module.webpackPolyfill = 1;
-	}
-	return module;
 };
 
 
@@ -11230,6 +11483,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var redux_devtools_extension__WEBPACK_IMPORTED_MODULE_9___default = /*#__PURE__*/__webpack_require__.n(redux_devtools_extension__WEBPACK_IMPORTED_MODULE_9__);
 /* harmony import */ var redux_thunk__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! redux-thunk */ "./node_modules/redux-thunk/es/index.js");
 /* harmony import */ var _actions_action_types_cart_actions__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! ../actions/action-types/cart-actions */ "./store/actions/action-types/cart-actions.js");
+/* harmony import */ var constants__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! constants */ "./node_modules/constants-browserify/constants.json");
+var constants__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_require__.t(/*! constants */ "./node_modules/constants-browserify/constants.json", 1);
 
 
 
@@ -11242,6 +11497,7 @@ __webpack_require__.r(__webpack_exports__);
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(target, key, source[key]); }); } else if (_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default.a) { _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default()(target, _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default()(source)); } else { ownKeys(Object(source)).forEach(function (key) { _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, key, _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(source, key)); }); } } return target; }
+
 
 
 
@@ -11300,6 +11556,354 @@ var initState = {
     health: "http://www.offa.org/display.html?appnum=1565055#animal",
     image: __webpack_require__(/*! ../../images/info/Bennie.jpg */ "./images/info/Bennie.jpg"),
     Titles: []
+  }],
+  litters: [{
+    id: 1,
+    parents: "Rhone and Kiss",
+    breeders: "Old Bay Newfs - Cindy Flowers and Kathy Hamilton",
+    sire: "GCH Chateaunewf'N Nakiska's Legend Of The Stones",
+    dam: "GCHB Old Bay's Keep It Simple ROM",
+    dob: "May 16, 2002",
+    boys: 0,
+    girls: 1,
+    puppies: ["Sing"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Kiss.jpg */ "./images/litters/Kiss.jpg")
+  }, {
+    id: 2,
+    parents: "Crosby and Kiss",
+    breeders: "Dreamhaven Newfs - Andrea Jung, Cindy Flowers and Kathy Hamilton",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCHB Old Bay's Keep It Simple ROM",
+    dob: "",
+    boys: 2,
+    girls: 6,
+    puppies: ["Charlie", "Cricket", "Essi", "Gossip", "Kindle", "Nash", "Tilly"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Crosby.jpg */ "./images/litters/Crosby.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Kiss.jpg */ "./images/litters/Kiss.jpg")
+  }, {
+    id: 3,
+    parents: "Rolex and Snowball",
+    breeders: "Dreamhaven Newfs - Andrea Jung, Cindy Flowers and Kathy Hamilton",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCHB Old Bay's Snowballs Chance CD",
+    dob: "January 11, 2018",
+    boys: 1,
+    girls: 2,
+    puppies: ["Ellsa", "Fable", "Maestro"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Rolex.jpg */ "./images/litters/Rolex.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Snowball.jpg */ "./images/litters/Snowball.jpg")
+  }, {
+    id: 4,
+    parents: "Jon Snow and Snowball",
+    breeders: "Dreamhaven Newfs - Andrea Jung, Cindy Flowers and Kathy Hamilton",
+    sire: "CH. GOLDCOASTS KEEPER OF THE WATCH",
+    dam: "GCHB Old Bay's Snowballs Chance CD",
+    dob: "",
+    boys: 2,
+    girls: 0,
+    puppies: ["Obi", "Finn"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Snowball.jpg */ "./images/litters/Snowball.jpg")
+  }, {
+    id: 5,
+    parents: "Rolex and Kiss",
+    breeders: "Sunvalley Newfs - Lou Ann Lenner and Cindy Flowers",
+    sire: "GCHB Old Bay's Perfect Timing",
+    dam: "GCHB Old Bay's Keep It Simple",
+    dob: "January 11, 2018",
+    boys: 7,
+    girls: 3,
+    puppies: ["Maestro", "Radar"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Rolex.jpg */ "./images/litters/Rolex.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Kiss.jpg */ "./images/litters/Kiss.jpg")
+  }, {
+    id: 6,
+    parents: "Sirius and Raisin",
+    breeders: "Kathy Hamilton and Cindy Flowers",
+    sire: "GCH Old Bay's Let's Get Sirius (HE/L/P/HrC/Cn/Cerf/DNC)",
+    dam: "CH Old Bay's Ragin' Infurno  (HG/L/HrC/P/DNA)",
+    dob: "February 24, 2014",
+    boys: 3,
+    girls: 2,
+    puppies: ["Jet - lime boy - Lezli and Bennett Alford", "Karma - raspberry girl - Rose Miller", "Thunder - red boy - Jolene Maschuck Smith (PA)", "Torben- silver boy - Ardys & Lincoln (MD)", "Nessie - purple girl - Rose Miller (VA)"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Sirius.jpg */ "./images/litters/Sirius.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Raisin.jpg */ "./images/litters/Raisin.jpg")
+  }, {
+    id: 7,
+    parents: "Tate and Nutmeg",
+    breeders: "Cindy Flowers and Sue Faulkner",
+    sire: "CH Old Bay's Lead Me To Temptation  ",
+    dam: "Old Bay's Seasoned with Spice  ROM",
+    dob: "February 23, 2014",
+    boys: 5,
+    girls: 1,
+    puppies: ["Rolex - purple boy - Cindy Flowers", "Bunbury - Rainbow boy - James Kallmerten (NY)", "Jupiter - gray boy - Colette Chipman - (VA)", "Charlie - green boy - David Leever and Sharon Yost (MD)", "Walter - gold boy - Terri Lewin Gilbert (PA)", "Gracie - Pink girl - Mary Jeanne Levitt (MN)"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Tate.jpg */ "./images/litters/Tate.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Nutmeg.jpg */ "./images/litters/Nutmeg.jpg")
+  }, {
+    id: 8,
+    parents: "Crosby and Lucy",
+    breeders: "Kathy Hamilton and Cindy Flowers",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN  ",
+    dob: "February 4, 2014",
+    boys: 4,
+    girls: 3,
+    puppies: ["Flash - purple boy - Anne Nored (NC)", "Sailer - blue boy - (VA)", "Teddy - orange boy - Shawna Rogers-Curns (VA)", "Max - burgundy boy - Jeff and Jane Brueckner Totten (VA)", "Ellie - green girl - John and Juli Paladino (MD)", "Cayenne - yellow girl - Tom and Joan Locker-Thuring (Long Island)", "Snowball - Snowball - Cindy Flowers and Andrea Jung)"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Crosby.jpg */ "./images/litters/Crosby.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Lucy.jpg */ "./images/litters/Lucy.jpg")
+  }, {
+    id: 9,
+    parents: "Todd and Charm",
+    breeders: "Cindy & John Flowers & Rose Miller",
+    sire: "GCH Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
+    dam: "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA)",
+    dob: "November 25, 2014",
+    boys: 3,
+    girls: 1,
+    puppies: ["Kiss - Cindy and John", "Soloman - black boy - Sue and Andrew", "Frankie - gray boy with white - Judith Janasik (WI)r", "Mr. Whipple - Mr. Whipple (LA)"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Charm.jpg */ "./images/litters/Charm.jpg")
+  }, {
+    id: 10,
+    parents: "Brodie and Nutmeg",
+    breeders: "Cindy Flowers & Julia and Don Sharkey & Sue Faulkner",
+    sire: "Powder Ridge's Dreams Come True, WD (HG/L/P/DNA)",
+    dam: "Old Bay's Seasoned with Spice (HG/L/HrC/P/Eyes/DNA) ",
+    dob: "June 1, 2014",
+    boys: 2,
+    girls: 0,
+    puppies: ["Vail Cruiser", "Spinnaker - blue boy - Christie Smith (VA)"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Nutmeg.jpg */ "./images/litters/Nutmeg.jpg")
+  }, {
+    id: 11,
+    parents: "Raisin and Todd",
+    breeders: "Kathy Hamilton & John Borklund & Cindy Flowers",
+    sire: "G.Ch. Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
+    dam: "Old Bay's Ragin' Infurno (HG/L/HrC/P/DNA)",
+    dob: "April 17, 2014",
+    boys: 4,
+    girls: 0,
+    puppies: ["Evan", "Hank", "Justin", "Sirius II"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Raisin.jpg */ "./images/litters/Raisin.jpg")
+  }, {
+    id: 12,
+    parents: "Charm and Sirius",
+    breeders: "Cindy & John Flowers & Rose Miller",
+    sire: "CH Old Bay's Let's Get Sirius",
+    dam: "GCH CH Old Bay's Please Don't Squeeze The Charm'n ",
+    dob: "December 5, 2013",
+    boys: 1,
+    girls: 1,
+    puppies: ["Tiffany", "Sunny"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Sirius.jpg */ "./images/litters/Sirius.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Charm.jpg */ "./images/litters/Charm.jpg")
+  }, {
+    id: 13,
+    parents: "Miss Flash and Atlas",
+    breeders: "Celtic Cross - Rose Miller & Cindy Flowers & Barbara Plasse",
+    sire: "CH Old Bay's Here At Last, WRD",
+    dam: "Celtic Cross Mischief Managed At Old Bay, RN",
+    dob: "October 17, 2013",
+    boys: 1,
+    girls: 2,
+    puppies: [],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: ""
+  }, {
+    id: 14,
+    parents: "Izzy and Nutmeg",
+    breeders: "Cindy and John Flowers",
+    sire: "CH Top Shelfs Israel Kamakawiwoole CD, DD, CGC, RN",
+    dam: "Old Bay's Seasoned with Spice ",
+    dob: "May 12, 2013",
+    boys: 2,
+    girls: 3,
+    puppies: ["Emma", "Fred", "Kasey", "Parker", "Ruby"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Nutmeg.jpg */ "./images/litters/Nutmeg.jpg")
+  }, {
+    id: 15,
+    parents: "Lucy and Bravo",
+    breeders: " Kathy Hamilton & Cindy Flowers",
+    sire: "GCH CH Bear N Mind's Stand Up and Cheer",
+    dam: "GCH CH Old Bay's Lucy Fur ",
+    dob: "December 9, 2012",
+    boys: 5,
+    girls: 3,
+    puppies: ["Tate", "Snickers"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Bravo.jpg */ "./images/litters/Bravo.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Lucy.jpg */ "./images/litters/Lucy.jpg")
+  }, {
+    id: 16,
+    parents: "Lucy and Mick",
+    breeders: "Kathy Hamilton & John Borkland & Cindy Flowers",
+    sire: "Ch. Cypress Bay Imat Cornerbrook CGC, TDI",
+    dam: "CH Old Bay's Lucy Fur ",
+    dob: "September 10, 2011",
+    boys: 2,
+    girls: 6,
+    puppies: ["Raisin"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Lucy.jpg */ "./images/litters/Lucy.jpg")
+  }, {
+    id: 17,
+    parents: "Sparkle and Potter",
+    breeders: "Cindy & John Flowers & Rose Miller",
+    sire: "GCH Old Bay's 'Potter As In Harry'",
+    dam: "CH Old Bay's Sparks Are Flyin', RN",
+    dob: "September 6, 2011",
+    boys: 4,
+    girls: 8,
+    puppies: ["General Lee", "Oliver", "Cutter", "Hagrid", "Liebe", "Luna", "Ms. Flash", "Chloe", "Sophie", "Charm", "Maggie"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Potter.jpg */ "./images/litters/Potter.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Sparkle.jpg */ "./images/litters/Sparkle.jpg")
+  }, {
+    id: 18,
+    parents: "Allie x Lincoln",
+    breeders: "Powder Ridge Newfs - Julia & Don Sharkey & Kathy Hamilton",
+    sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND",
+    dam: "CH Old Bay Get My Drift At Powder Ridge  ",
+    dob: "June 24, 2011",
+    boys: 6,
+    girls: 1,
+    puppies: [],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Allie.jpg */ "./images/litters/Allie.jpg")
+  }, {
+    id: 19,
+    parents: "Spice and Travis",
+    breeders: "Cindy and John Flowers",
+    sire: "CH Bear N Mind's Maritime Traveler",
+    dam: "GCH Top Shelf Spiced With Old Bay, NJP ",
+    dob: "December 25, 2010",
+    boys: 4,
+    girls: 4,
+    puppies: ["Blitzen", "Brenden", "Dasher", "Dory", "Nutmeg", "Gus", "Latte", "Danceer"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Spice.jpg */ "./images/litters/Spice.jpg")
+  }, {
+    id: 20,
+    parents: "Pharrah and Travis",
+    breeders: "Cindy Flowers & Dirk Daelmans",
+    sire: "CH Bear N Mind's Maritime Traveler, CD",
+    dam: "CH Waterford FrontPage",
+    dob: "October 26, 2010",
+    boys: 4,
+    girls: 1,
+    puppies: ["Atlas", "Heffalump", "Party", "Sirius", "Sonar"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Pharrah.jpg */ "./images/litters/Pharrah.jpg")
+  }, {
+    id: 21,
+    parents: "Chilly and Jimmy",
+    breeders: "Kathy Hamilton and Cindy Flowers",
+    sire: "Select Ch Council Cup's Star of Kodiak Acres RN DD CGC TDI",
+    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF",
+    dob: "April 10, 2010",
+    boys: 1,
+    girls: 0,
+    puppies: ["Guiness"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Chilly.jpg */ "./images/litters/Chilly.jpg")
+  }, {
+    id: 22,
+    parents: "Pharrah and Dexter",
+    breeders: "Cindy Flowers and Dirk Daelman",
+    sire: "CH Allegiance Rock The Boat Old Bay",
+    dam: "CH Waterford Frontpage ",
+    dob: "June 24, 2010",
+    boys: 2,
+    girls: 2,
+    puppies: ["Bridget", "Raven", "Linus", "Tyler"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Dexter.jpg */ "./images/litters/Dexter.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Pharrah.jpg */ "./images/litters/Pharrah.jpg")
+  }, {
+    id: 23,
+    parents: "Cosmo and Carson",
+    breeders: "Cindy Flowers and Deb Wigal",
+    sire: "Muddy Creek's Carson",
+    dam: "CH Top Shelf's Cosmopolitan",
+    dob: "June 2, 2009",
+    boys: 3,
+    girls: 2,
+    puppies: ["Happy", "Muddy", "Reba", "Rudd", "Miss Sunny"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Cosmo.jpg */ "./images/litters/Cosmo.jpg")
+  }, {
+    id: 24,
+    parents: "Chilly and Carson",
+    breeders: "Kathy Hamilton and Cindy Flowers",
+    sire: "Muddy Creek's Carson",
+    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ",
+    dob: "June 9, 2009",
+    boys: 2,
+    girls: 1,
+    puppies: ["Lucy", "Luke", "Tux"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Chilly.jpg */ "./images/litters/Chilly.jpg")
+  }, {
+    id: 25,
+    parents: "Spice and Bruce",
+    breeders: "John and Cindy Flowers",
+    sire: "CH Top Shelf's Troubles A Brewin, DD",
+    dam: "GCH TOP SHELF SPICED WITH OLD BAY, NJP",
+    dob: "December 3, 2008",
+    boys: 6,
+    girls: 1,
+    puppies: ["Annie", "Cormack", "Jayne", "Maximus", "Mickey", "Nanaimo", "Sparkle"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Spice.jpg */ "./images/litters/Spice.jpg")
+  }, {
+    id: 26,
+    parents: "Chilly and Christopher",
+    breeders: "Kathy Hamilton and Cindy Flowers",
+    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ",
+    dob: "April 10, 2008",
+    boys: 4,
+    girls: 1,
+    puppies: ["Allie", "Burnie", "Canyon", "Potter", "Sampson"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Chilly.jpg */ "./images/litters/Chilly.jpg")
+  }, {
+    id: 27,
+    parents: "Spice and Lincoln",
+    breeders: "John and Cindy Flowers",
+    sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND",
+    dam: "GCH TOP SHELF SPICED WITH OLD BAY, NJP",
+    dob: "March 10, 2008",
+    boys: 0,
+    girls: 1,
+    puppies: ["Sporty"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Spice.jpg */ "./images/litters/Spice.jpg")
+  }, {
+    id: 28,
+    parents: "Party and Rrrocky",
+    breeders: "Top Shelf - Deb Wigal, Cindy Flowers and Kathy Hamilton",
+    sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
+    dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
+    dob: "September 26, 2005",
+    boys: 6,
+    girls: 4,
+    puppies: ["Izzy", "Chilly", "Cosmo", "Jagger", "Ice"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/dam.jpg */ "./images/litters/dam.jpg")
+  }, {
+    id: 29,
+    breeders: " Cindy Flowers, John Flowers, Nancy Beres and Deb Wigal",
+    sire: "",
+    dam: "",
+    dob: "May 16, 2002",
+    boys: 4,
+    girls: 1,
+    puppies: ["Opie - Cindy and John", "Rocky - Kathy Hamilton", "Simon - Cindy and John", "Sid - Deb Wigal", "Frankie - Amy Lane"],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Daisy.jpg */ "./images/litters/Daisy.jpg")
   }]
 };
 
