@@ -11803,6 +11803,7 @@ var initState = {
   total: 0,
   shipping: 0,
   currentDog: 1,
+  currentLitter: 1,
   dogs: [{
     id: 1,
     call: "Sirius",

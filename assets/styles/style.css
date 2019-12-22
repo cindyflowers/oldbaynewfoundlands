@@ -778,6 +778,14 @@ Navbar Area CSS
   margin-bottom: -5px;
 }
 
+.comero-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu.top-brands img{
+  display: block;
+  max-width:100px;
+  max-height:80px;
+  width: auto;
+  height: auto;
+}
+
 .comero-nav .navbar .navbar-nav .nav-item.megamenu .dropdown-menu .megamenu-submenu.top-brands li {
   display: inline-block;
   position: relative;
@@ -1660,6 +1668,52 @@ About Area CSS
     -webkit-transform: translateY(0px);
             transform: translateY(0px);
   }
+}
+
+/*================================================
+Litter Area CSS
+=================================================*/
+.litter-area {
+  position: relative;
+  z-index: 1;
+}
+
+.litter-content h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.litter-content .signature {
+  margin-top: 35px;
+}
+
+.litter-image {
+  display: block;
+  max-height:200px;
+  width: auto;
+  height: auto;
+}
+
+.litter-image .litter-img1 {
+  position: relative;
+  right: -100px;
+  display: block;
+  width:100px;
+  max-height:80px;
+  width: auto;
+  height: auto;
+}
+
+.litter-image .litter-img2 {
+  position: absolute;
+  left: 20px;
+  bottom: 0;
+  display: block;
+  max-width:100px;
+  max-height:80px;
+  width: auto;
+  height: auto;
 }
 
 /*================================================

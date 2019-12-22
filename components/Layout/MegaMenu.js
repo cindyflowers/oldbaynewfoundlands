@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import { connect } from 'react-redux'
-import { setCurrentDog } from '../../store/actions/cartActions';
+import { setCurrentDog, setCurrentLitter } from '../../store/actions/cartActions';
 import Link from 'next/link';
 import ReactTooltip from 'react-tooltip'
 
@@ -19,6 +19,10 @@ class MegaMenu extends Component {
 
     handleSetCurrentDog = (id) => {
         this.props.setCurrentDog(id); 
+    }
+
+    handleSetCurrentLitter = (id) => {
+        this.props.setCurrentLitter(id); 
     }
 
     handleSearchForm = () => {
@@ -76,9 +80,18 @@ class MegaMenu extends Component {
         const ddPuppiesClass = `dropdown-menu${isPuppiesOpen ? " show" : ""}`;
         const ddPastClass = `dropdown-menu${isPastOpen ? " show" : ""}`;
 
-        let boys = this.props.dogs.filter(dog => dog.sex == "male" && dog.rip == ""  );
-        let girls = this.props.dogs.filter(dog => dog.sex == "female" && dog.rip == "" );
+        let boys = this.props.dogs.filter(dog => dog.sex == "male" && dog.ours == true && dog.rip == ""  );
+        let coboys = this.props.dogs.filter(dog => dog.sex == "male" && dog.ours == false && dog.rip == ""  );
+        let studs = this.props.dogs.filter(dog => dog.sex == "male" && dog.stud == true && dog.rip == ""  );
+        let girls = this.props.dogs.filter(dog => dog.sex == "female" && dog.ours == true  && dog.rip == "" );
+        let cogirls = this.props.dogs.filter(dog => dog.sex == "female" && dog.ours == false  && dog.rip == "" );
         let past = this.props.dogs.filter(dog =>  dog.rip != "" );
+        let past1to10 = this.props.dogs.filter(dog =>  dog.rip != "" && dog.id <= 20 );
+        let past10andOver = this.props.dogs.filter(dog =>  dog.rip != "" && dog.id > 20);
+        let litters1to10 = this.props.litters.filter(litter => litter.id < 11);
+        let litters11to20 = this.props.litters.filter(litter => litter.id >10 && litter.id < 21);
+        let litters21andOver = this.props.litters.filter(litter => litter.id >20);
+        let toptwenty = this.props.dogs.filter(dog => dog.toptwenty != "");
         return (
             <React.Fragment>
             <div className="navbar-area">
@@ -139,92 +152,56 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     <li>
-                                                                        <Link href="/cart">
+                                                                        <Link href="/specialties">
                                                                             <a>Specialties</a>
                                                                         </Link>
                                                                     </li>
 
                                                                     <li>
-                                                                        <Link href="/cart">
+                                                                        <Link href="/topTwenty">
                                                                             <a>Top Twenty</a>
                                                                         </Link>
                                                                     </li>
 
                                                                     <li>
-                                                                        <Link href="/checkout">
+                                                                        <Link href="/rom">
                                                                             <a>Register of Merit</a>
                                                                         </Link>
                                                                     </li>
 
                                                                     <li>
-                                                                        <Link href="/compare">
+                                                                        <Link href="/vn">
                                                                             <a>Versatile Newfoundland</a>
                                                                         </Link>
                                                                     </li>
 
                                                                     <li>
-                                                                        <Link href="/compare">
+                                                                        <Link href="/champions">
                                                                             <a>Champions</a>
                                                                         </Link>
                                                                     </li>
 
                                                                     <li>
-                                                                        <Link href="/login">
+                                                                        <Link href="/working">
                                                                             <a>Working</a>
                                                                         </Link>
                                                                     </li>
                                                                 </ul>
                                                             </div>
-
+                                                            
                                                             <div className="col">
                                                                 <h6 className="submenu-title">NCA Top Twenty</h6>
 
                                                                 <ul className="megamenu-submenu top-brands">
-                                                                    <li>
-                                                                        <Link href="#">
-                                                                            <a data-tip="Flash (2018)" data-place="left">
-                                                                                <img src={require("../../images/20-Flash.jpg")} alt="image" />
-                                                                            </a>
+                                                                    {toptwenty.map((data, idx) => (
+                                                                        <Link href="/about">
+                                                                            <li key={idx}>
+                                                                                <a data-tip={data.call + ' (' + data.toptwenty + ')'} data-place="left" onClick={(e) => {
+                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                }}><img src={data.image} alt="image" /></a>
+                                                                            </li>
                                                                         </Link>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <Link href="#">
-                                                                            <a data-tip="Kiss (2018)">
-                                                                                <img src={require("../../images/20-Kiss.jpg")} alt="image" />
-                                                                            </a>
-                                                                        </Link>
-                                                                    </li>
-                                                                    
-                                                                    <li>
-                                                                        <Link href="#">
-                                                                            <a data-tip="Rolex (2017)">
-                                                                                <img src={require("../../images/20-Rolex.jpg")} alt="image" />
-                                                                            </a>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link href="#">
-                                                                            <a  data-tip="Spice (2010, 2012)">
-                                                                                <img src={require("../../images/20-Spice.jpg")} alt="image" />
-                                                                            </a>
-                                                                        </Link>
-                                                                    </li>
-                                                                    <li>
-                                                                        <Link href="#">
-                                                                            <a data-tip="Rocky (2006)">
-                                                                                <img src={require("../../images/20-Rocky.jpg")} alt="image" />
-                                                                            </a>
-                                                                        </Link>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <Link href="#">
-                                                                            <a  data-tip="Opie (2004, 2005)">
-                                                                                <img src={require("../../images/20-Opie.jpg")} alt="image" />
-                                                                            </a>
-                                                                        </Link>
-                                                                    </li>
+                                                                    ))}
 
                                                                 </ul>
                                                             </div>
@@ -246,20 +223,23 @@ class MegaMenu extends Component {
                                                     <div className="container">
                                                         <div className="row">
                                                             <div className="col">
-                                                                <h6 className="submenu-title">Co-owned by Old Bay</h6>
+                                                                <h6 className="submenu-title">Old Bay Co-owned</h6>
 
                                                                 <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <Link href="/category-without-sidebar-fullwidth">
-                                                                            <a>Flash</a>
+                                                                    {coboys.map((data, idx) => (
+                                                                        <Link href="/about">
+                                                                            <li key={idx}>
+                                                                                <a onClick={(e) => {
+                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                }}>{data.call}</a>
+                                                                            </li>
                                                                         </Link>
-                                                                    </li>
-
+                                                                    ))}
                                                                 </ul>
                                                             </div>
 
                                                             <div className="col">
-                                                                <h6 className="submenu-title">Owned By Old Bay</h6>
+                                                                <h6 className="submenu-title">Old Bay Boys</h6>
 
                                                                 <ul className="megamenu-submenu">
                                                                     {boys.map((data, idx) => (
@@ -276,28 +256,18 @@ class MegaMenu extends Component {
                                                             </div>
 
                                                             <div className="col">
-                                                                <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <div className="aside-trending-products">
-                                                                            <img src={require("../../images/rolex.jpg")} alt="image" />
+                                                                <h6 className="submenu-title">The Studs</h6>
 
-                                                                            <div className="category">
-                                                                                <h4>Rolex</h4>
-                                                                            </div>
-
-                                                                            <a href="#"></a>
-                                                                        </div>
-
-                                                                        <div className="aside-trending-products">
-                                                                            <img src={require("../../images/maestro.jpg")} alt="image" />
-
-                                                                            <div className="category">
-                                                                                <h4>Maestro</h4>
-                                                                            </div>
-
-                                                                            <a href="#"></a>
-                                                                        </div>
-                                                                    </li>
+                                                                <ul className="megamenu-submenu top-brands">
+                                                                    {studs.map((data, idx) => (
+                                                                        <li>
+                                                                            <Link href="/about">
+                                                                                <a data-tip={data.call} data-place="left" onClick={(e) => {this.handleSetCurrentDog(data.id)}}>
+                                                                                    <img src={data.image} alt="image" />
+                                                                                </a>
+                                                                            </Link>
+                                                                        </li>
+                                                                    ))}
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -318,59 +288,51 @@ class MegaMenu extends Component {
                                                     <div className="container">
                                                         <div className="row">
                                                             <div className="col">
-                                                                <h6 className="submenu-title">Co-owned by old bay</h6>
+                                                                <h6 className="submenu-title">Old Bay Co-owned</h6>
 
                                                                 <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <Link href="/category-left-sidebar">
-                                                                            <a>Snowball</a>
+                                                                    {cogirls.map((data, idx) => (
+                                                                        <Link href="/about">
+                                                                            <li key={idx}>
+                                                                                <a onClick={(e) => {
+                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                }}>{data.call}</a>
+                                                                            </li>
                                                                         </Link>
-                                                                    </li>
+                                                                    ))}
                                                                 </ul>
                                                             </div>
 
                                                             <div className="col">
-                                                                <h6 className="submenu-title">Owned by old bay</h6>
+                                                                <h6 className="submenu-title">Old Bay Girls</h6>
 
                                                                 <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <Link href="/category-without-sidebar-fullwidth">
-                                                                            <a>Kiss</a>
+                                                                    {girls.map((data, idx) => (
+                                                                        <Link href="/about">
+                                                                            <li key={idx}>
+                                                                                <a onClick={(e) => {
+                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                }}>{data.call}</a>
+                                                                            </li>
                                                                         </Link>
-                                                                    </li>
-
-
+                                                                    ))}
 
                                                                 </ul>
                                                             </div>
 
-
                                                             <div className="col">
-                                                                <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <div className="aside-trending-products">
-                                                                            <img src={require("../../images/kiss.jpg")} alt="image" />
+                                                                <h6 className="submenu-title">The Dams</h6>
 
-                                                                            <div className="category">
-                                                                                <h4>Kiss</h4>
-                                                                            </div>
-                                                                            <Link href="#">
-                                                                                <a></a>
+                                                                <ul className="megamenu-submenu top-brands">
+                                                                    {girls.map((data, idx) => (
+                                                                        <li>
+                                                                            <Link href="/about">
+                                                                                <a data-tip={data.call} data-place="left" onClick={(e) => {this.handleSetCurrentDog(data.id)}}>
+                                                                                    <img src={data.image} alt="image" />
+                                                                                </a>
                                                                             </Link>
-                                                                        </div>
-
-                                                                        <div className="aside-trending-products">
-                                                                            <img src={require("../../images/snowball.jpg")} alt="image" />
-
-                                                                            <div className="category">
-                                                                                <h4>Snowball</h4>
-                                                                            </div>
-
-                                                                            <Link href="#">
-                                                                                <a></a>
-                                                                            </Link>
-                                                                        </div>
-                                                                    </li>
+                                                                        </li>
+                                                                    ))}
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -387,65 +349,57 @@ class MegaMenu extends Component {
                                                 </a>
                                             </Link>
                                             <ul className={ddPuppiesClass}>
-                                                <li className="nav-item">
-                                                    <div className="container">
-                                                        <div className="row">
-                                                            <div className="col">
-                                                                <h6 className="submenu-title">Litters</h6>
+                                            <div className="container">
+                                                    <div className="row">
+                                                        <div className="col">
+                                                            <h6 className="submenu-title">Past Litters </h6>
 
-                                                                <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <Link href="/category-left-sidebar">
-                                                                            <a>Rhône and Kiss</a>
+                                                            <ul className="megamenu-submenu">
+                                                                {litters1to10.map((data, idx) => (
+                                                                    <Link href="/litter">
+                                                                        <li key={idx}>
+                                                                            <a onClick={(e) => {
+                                                                                this.handleSetCurrentLitter(data.id)
+                                                                            }}>{data.parents}</a>
+                                                                        </li>
+                                                                    </Link>
+                                                                ))}
+                                                            </ul>
+                                                        </div>
+
+                                                        <div className="col">
+                                                            <h6 className="submenu-title">Past Litters (continued)</h6>
+
+                                                            <ul className="megamenu-submenu">
+                                                                {litters11to20.map((data, idx) => (
+                                                                        <Link href="/litter">
+                                                                            <li key={idx}>
+                                                                                <a onClick={(e) => {
+                                                                                    this.handleSetCurrentLitter(data.id)
+                                                                                }}>{data.parents}</a>
+                                                                            </li>
                                                                         </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                                    ))}
+                                                            </ul>
+                                                        </div>
 
-                                                            <div className="col">
-                                                                <h6 className="submenu-title">Future</h6>
+                                                        <div className="col">
+                                                            <h6 className="submenu-title">Past Litters (continued)</h6>
 
-                                                                <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <Link href="/category-without-sidebar-fullwidth">
-                                                                            <a>Powder Ridge Newfs - Late 2019</a>
-                                                                        </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-
-
-                                                            <div className="col">
-                                                                <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <div className="aside-trending-products">
-                                                                            <img src={require("../../images/Sing.jpg")} alt="image" />
-
-                                                                            <div className="category">
-                                                                                <h4>Rhône and Kiss</h4>
-                                                                            </div>
-                                                                            <Link href="#">
-                                                                                <a></a>
-                                                                            </Link>
-                                                                        </div>
-
-                                                                        <div className="aside-trending-products">
-                                                                            <img src={require("../../images/CrosbyAndKissPuppies.jpg")} alt="image" />
-
-                                                                            <div className="category">
-                                                                                <h4>Crosby and Kiss</h4>
-                                                                            </div>
-
-                                                                            <Link href="#">
-                                                                                <a></a>
-                                                                            </Link>
-                                                                        </div>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
+                                                            <ul className="megamenu-submenu">
+                                                                {litters21andOver.map((data, idx) => (
+                                                                    <Link href="/litter">
+                                                                        <li key={idx}>
+                                                                            <a onClick={(e) => {
+                                                                                this.handleSetCurrentLitter(data.id)
+                                                                            }}>{data.parents}</a>
+                                                                        </li>
+                                                                    </Link>
+                                                                ))}
+                                                            </ul>
                                                         </div>
                                                     </div>
-                                                </li>
+                                                </div>
                                             </ul>
                                         </li>
                                     </div>
@@ -464,25 +418,64 @@ class MegaMenu extends Component {
                                                                 <h6 className="submenu-title">Our Past</h6>
 
                                                                 <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <Link href="/category-without-sidebar-fullwidth">
-                                                                            <a>Carson</a>
+                                                                    {past1to10.map((data, idx) => (
+                                                                        <Link href="/about">
+                                                                            <li key={idx}>
+                                                                                <a onClick={(e) => {
+                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                }}>{data.call}</a>
+                                                                            </li>
                                                                         </Link>
-                                                                    </li>
+                                                                    ))}
+
+                                                                </ul>
+                                                            </div>
+                                                            <div className="col">
+                                                                <h6 className="submenu-title">Our Past</h6>
+                                                                
+                                                                <ul className="megamenu-submenu top-brands">
+                                                                    {past1to10.map((data, idx) => (
+                                                                        <Link href="/about">
+                                                                            <li key={idx}>
+                                                                                <a data-tip={data.call + ' (' + data.dob + ' - ' + data.rip + ')'} data-place="left" onClick={(e) => {
+                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                }}><img src={data.image} alt="image" /></a>
+                                                                            </li>
+                                                                        </Link>
+                                                                    ))}
 
                                                                 </ul>
                                                             </div>
                                                             <div className="col">
                                                                 <h6 className="submenu-title">Our Past</h6>
 
-                                                                <ul className="megamenu-submenu top-brands">
-                                                                    <li>
-                                                                        <Link href="#">
-                                                                            <a data-tip="Flash (2018)" data-place="left">
-                                                                                <img src={require("../../images/20-Flash.jpg")} alt="image" />
-                                                                            </a>
+                                                                <ul className="megamenu-submenu">
+                                                                    {past10andOver.map((data, idx) => (
+                                                                        <Link href="/about">
+                                                                            <li key={idx}>
+                                                                                <a onClick={(e) => {
+                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                }}>{data.call}</a>
+                                                                            </li>
                                                                         </Link>
-                                                                    </li>
+                                                                    ))}
+
+                                                                </ul>
+                                                            </div>
+                                                            <div className="col">
+                                                                <h6 className="submenu-title">Our Past</h6>
+                                                                
+                                                                <ul className="megamenu-submenu top-brands">
+                                                                    {past10andOver.map((data, idx) => (
+                                                                        <Link href="/about">
+                                                                            <li key={idx}>
+                                                                                <a data-tip={data.call + ' (' + data.dob + ' - ' + data.rip + ')'} data-place="left" onClick={(e) => {
+                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                }}><img src={data.image} alt="image" /></a>
+                                                                            </li>
+                                                                        </Link>
+                                                                    ))}
+
                                                                 </ul>
                                                             </div>
                                                         </div>
@@ -506,13 +499,15 @@ class MegaMenu extends Component {
 const mapStateToProps = (state)=>{
     return{
         products: state.products,
-        dogs: state.dogs
+        dogs: state.dogs,
+        litters: state.litters
     }
 }
 
 const mapDispatchToProps= (dispatch) => {
     return {
-        setCurrentDog: (id) => { dispatch(setCurrentDog(id)) }
+        setCurrentDog: (id) => { dispatch(setCurrentDog(id)) },
+        setCurrentLitter: (id) => { dispatch(setCurrentLitter(id)) }
     }
 }
 

@@ -37,7 +37,7 @@ class Index extends Component {
                     <div className="container">
                         <div className="row align-items-center">
 
-                                <div className="col-xxl-6 col-md-8" key={dog[0].id}>
+                                <div className="col-xxl-4 col-md-6" key={dog[0].id}>
                                     <div className="about-content">
                                     <h2><b>{dog[0].call}</b> - {dog[0].name}</h2>
                                     <div className="table-responsive">
@@ -82,7 +82,7 @@ class Index extends Component {
                                 </div>
                             </div>
 
-                            <div className="col-xxl-6 col-md-4">
+                            <div className="col-xxl-8 col-md-6">
                                     <img src={dog[0].image} className="about-img2" alt="image" />
                             </div>
                         </div>
