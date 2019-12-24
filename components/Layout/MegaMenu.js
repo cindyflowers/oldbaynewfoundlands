@@ -293,7 +293,7 @@ class MegaMenu extends Component {
                                                                 <ul className="megamenu-submenu">
                                                                     {cogirls.map((data, idx) => (
                                                                         <Link href="/about">
-                                                                            <li key={idx}>
+                                                                            <li key={data.id}>
                                                                                 <a onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
                                                                                 }}>{data.call}</a>
@@ -309,7 +309,7 @@ class MegaMenu extends Component {
                                                                 <ul className="megamenu-submenu">
                                                                     {girls.map((data, idx) => (
                                                                         <Link href="/about">
-                                                                            <li key={idx}>
+                                                                            <li key={data.id}>
                                                                                 <a onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
                                                                                 }}>{data.call}</a>
@@ -356,9 +356,10 @@ class MegaMenu extends Component {
 
                                                             <ul className="megamenu-submenu">
                                                                 {litters1to10.map((data, idx) => (
+                                                                    
                                                                     <Link href="/litter">
                                                                         <li key={idx}>
-                                                                            <a onClick={(e) => {
+                                                                            <a data-tip={data.parents + ' Born: ' + data.dob} data-place="left" onClick={(e) => {
                                                                                 this.handleSetCurrentLitter(data.id)
                                                                             }}>{data.parents}</a>
                                                                         </li>
@@ -374,7 +375,7 @@ class MegaMenu extends Component {
                                                                 {litters11to20.map((data, idx) => (
                                                                         <Link href="/litter">
                                                                             <li key={idx}>
-                                                                                <a onClick={(e) => {
+                                                                                <a data-tip={data.parents + ' Born: ' + data.dob} data-place="left" onClick={(e) => {
                                                                                     this.handleSetCurrentLitter(data.id)
                                                                                 }}>{data.parents}</a>
                                                                             </li>
@@ -390,7 +391,7 @@ class MegaMenu extends Component {
                                                                 {litters21andOver.map((data, idx) => (
                                                                     <Link href="/litter">
                                                                         <li key={idx}>
-                                                                            <a onClick={(e) => {
+                                                                            <a data-tip={data.parents + ' Born: ' + data.dob} data-place="left" onClick={(e) => {
                                                                                 this.handleSetCurrentLitter(data.id)
                                                                             }}>{data.parents}</a>
                                                                         </li>

@@ -3,6 +3,8 @@ import { connect } from 'react-redux'
 import Navbar from '../components/Layout/Navbar';
 import Footer from '../components/Layout/Footer';
 import Breadcrumb from '../components/Common/Breadcrumb';
+import dynamic from 'next/dynamic';
+const OwlCarousel = dynamic(import('react-owl-carousel3'));
 
 // id: 1,
 // parents: "Rhone and Kiss",
@@ -19,48 +21,67 @@ import Breadcrumb from '../components/Common/Breadcrumb';
 // damimg: require('../../images/litters/Kiss.jpg'),
 // pupimg: require('../../images/info/Sing.jpg'),
 
+const options = {
+    nav: true,
+    dots: true,
+    items: 1,
+    smartSpeed: 750,
+    navText: [
+        "<i class='fas fa-arrow-left'></i>",
+        "<i class='fas fa-arrow-right'></i>"
+    ]
+}
+
 class Index extends Component {
+    state = { 
+        display: false,
+    };
+
+    componentDidMount(){ 
+        this.setState({ display: true}) 
+    }
     render() {
-        let litter = this.props.litters.filter(litter => litter.id == this.props.currentLitter );
+        options.startPosition = this.props.currentLitter - 1;
         return (
             
             <React.Fragment>
                 <Navbar />
-                <Breadcrumb title={litter[0].parents} />
+                <Breadcrumb title="Litters" />
                 <section className="litter-area ptb-60">
-                    <div className="container">
-                        <div className="row align-items-center">
-
-                                <div className="col-xxl-4 col-md-6" key={litter[0].id}>
+                    {this.state.display ? <OwlCarousel className="litter-slides owl-carousel owl-theme" {...options} >
+                    {this.props.litters.map((data, idx) => (
+                        <div className="container">
+                            <div className="row">                         
+                                <div className="col-xxl-4 col-md-6" key={data.id}>
                                     <div className="litter-content">
-                                    <h2><b>{litter[0].parents}</b></h2>
+                                    <h2><b>{data.parents}</b></h2>
                                     <div className="table-responsive">
                                         <table className="table table-striped">
                                             <tr>
                                                 <td>Born</td>
-                                                <td>{litter[0].dob}</td>
+                                                <td>{data.dob}</td>
                                             </tr>
                                             
                                             <tr>
                                                 <td>Sire</td>
-                                                <td>{litter[0].sire}</td>
+                                                <td>{data.sire}</td>
                                             </tr>
                                             <tr>
                                                 <td>Dam</td>
-                                                <td>{litter[0].dam}</td>
+                                                <td>{data.dam}</td>
                                             </tr>
                                             <tr>
                                                 <td>Boys</td>
-                                                <td>{litter[0].boys}</td>
+                                                <td>{data.boys}</td>
                                             </tr>
                                             <tr>
                                                 <td>Girls</td>
-                                                <td>{litter[0].girls}</td>
+                                                <td>{data.girls}</td>
                                             </tr> 
                                             <tr>
                                                 <td>Puppies</td>
                                                 <td>
-                                                    {litter[0].puppies.map((data, idx) => (
+                                                    {data.puppies.map((data, idx) => (
                                                         <div>
                                                             {data}
                                                         </div>
@@ -75,19 +96,20 @@ class Index extends Component {
 
                             <div className="col-xxl-4 col-md-3">
                                     <h2><b>Sire</b></h2>
-                                    <img src={litter[0].sireimg} className="litter-image" alt="image" />
+                                    <img src={data.sireimg} className="litter-image" alt="image" />
                             </div>
                             <div className="col-xxl-4 col-md-3">
                                     <h2><b>Dam</b></h2>
-                                    <img src={litter[0].damimg} className="litter-image" alt="image" />
+                                    <img src={data.damimg} className="litter-image" alt="image" />
                             </div>
-
                         </div>
                         <div className="col-xxl-8 col-md-6">
                             <h2><b>Puppies</b></h2>
-                            <img src={litter[0].pupimg} className="litter-img2" alt="image" />
+                            <img src={data.pupimg} className="litter-img2" alt="image" />
                         </div>
                     </div>
+                    ))}
+                    </OwlCarousel> : ''}
                 </section>
                 <Footer />
             </React.Fragment>

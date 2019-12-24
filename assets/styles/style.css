@@ -1634,10 +1634,40 @@ About Area CSS
   right: -100px;
 }
 
-.about-image .about-img2 {
-  position: absolute;
+.about-img2 {
+  position: relative;
   left: 20px;
+  max-width: 400px;
   bottom: 0;
+}
+
+.about-slides.owl-theme .owl-nav [class*=owl-]:hover, .about-slides.owl-theme .owl-nav [class*=owl-]:focus {
+  background-color: #222222;
+}
+
+.about-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+  left: auto;
+  right: 160px;
+}
+
+.about-slides.owl-theme:hover .owl-nav [class*=owl-] {
+  opacity: 1;
+  visibility: visible;
+  left: 140px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.about-slides.owl-theme:hover .owl-nav [class*=owl-].owl-next {
+  left: auto;
+  right: 140px;
+}
+
+.about-slides.owl-theme .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -30px;
 }
 
 @-webkit-keyframes movebounce {
@@ -1690,7 +1720,6 @@ Litter Area CSS
 
 .litter-image {
   display: block;
-  max-height:200px;
   width: auto;
   height: auto;
 }
@@ -1715,6 +1744,60 @@ Litter Area CSS
   width: auto;
   height: auto;
 }
+
+.litter-slides.owl-theme .owl-nav {
+  margin-top: 0;
+}
+
+.litter-slides.owl-theme .owl-nav [class*=owl-] {
+  position: absolute;
+  left: 160px;
+  top: 20%;
+  -webkit-transform: translateY(-20%);
+          transform: translateY(-20%);
+  margin: 0;
+  outline: 0;
+  width: 45px;
+  height: 45px;
+  line-height: 39px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+  background-color: #959595;
+  color: #ffffff;
+  border-radius: 50%;
+  opacity: 1;
+  visibility: hidden;
+}
+
+.litter-slides.owl-theme .owl-nav [class*=owl-]:hover, .litter-slides.owl-theme .owl-nav [class*=owl-]:focus {
+  background-color: #222222;
+}
+
+.litter-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+  left: auto;
+  right: 160px;
+}
+
+.litter-slides.owl-theme:hover .owl-nav [class*=owl-] {
+  opacity: 1;
+  visibility: visible;
+  left: 140px;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.litter-slides.owl-theme:hover .owl-nav [class*=owl-].owl-next {
+  left: auto;
+  right: 140px;
+}
+
+.litter-slides.owl-theme .owl-dots {
+  position: absolute;
+  left: 0;
+  right: 0;
+  top: -30px;
+}
+
 
 /*================================================
 Offer Area CSS

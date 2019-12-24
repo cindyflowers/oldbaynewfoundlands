@@ -350,8 +350,8 @@ const initState = {
             stud: false,
             sex: "female",
             name: "GCH CH OLD BAY'S LUCY FUR CGC, TDI, THDN, ROM",
-            sire: "",
-            dam: "",
+            sire: "Muddy Creek's Carson",
+            dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ROM",
             dob: "June 9, 2009",
             neutered: false,
             rip: "April 29, 2017",
@@ -400,7 +400,7 @@ const initState = {
             ],
         },
         {
-            id: 15,
+            id: 16,
             call: "Dexter",
             toptwenty: "",
             rom: false,
@@ -423,7 +423,7 @@ const initState = {
             ],
         },
         {
-            id: 16,
+            id: 17,
             call: "Simon",
             toptwenty: "",
             rom: false,
@@ -453,7 +453,7 @@ const initState = {
             ],
         },
         {
-            id: 17,
+            id: 18,
             call: "Chilly",
             toptwenty: "",
             rom: true,
@@ -476,7 +476,7 @@ const initState = {
             ],
         },
         {
-            id: 18,
+            id: 19,
             call: "Katie",
             toptwenty: "",
             rom: false,
@@ -508,7 +508,7 @@ const initState = {
             ],
         },
         {
-            id: 19,
+            id: 20,
             call: "Dasher",
             toptwenty: "",
             rom: false,
@@ -531,7 +531,7 @@ const initState = {
             ],
         },
         {
-            id: 20,
+            id: 21,
             call: "Daisy",
             toptwenty: "",
             rom: true,
@@ -560,7 +560,7 @@ const initState = {
             ],
         },
         {
-            id: 21,
+            id: 22,
             call: "Flyer",
             toptwenty: "",
             rom: false,
@@ -583,7 +583,7 @@ const initState = {
             ],
         },
         {
-            id: 22,
+            id: 23,
             call: "Tommy",
             toptwenty: "",
             rom: false,
@@ -609,7 +609,7 @@ const initState = {
             ],
         },
         {
-            id: 23,
+            id: 24,
             call: "Opie",
             toptwenty: "2004, 2005",
             ours: true,
@@ -632,7 +632,7 @@ const initState = {
             ],
         },
         {
-            id: 24,
+            id: 25,
             call: "Yogi",
             toptwenty: "",
             ours: true,
@@ -662,7 +662,7 @@ const initState = {
             ],
         },
         {
-            id: 25,
+            id: 26,
             call: "Sporty",
             toptwenty: "",
             rom: false,
@@ -686,7 +686,7 @@ const initState = {
             ],
         },
         {
-            id: 26,
+            id: 27,
             call: "Burnie",
             toptwenty: "",
             rom: false,
@@ -710,7 +710,7 @@ const initState = {
             ],
         },
         {
-            id: 27,
+            id: 28,
             call: "Snoopy",
             toptwenty: "",
             rom: false,
@@ -734,7 +734,7 @@ const initState = {
             ],
         },
         {
-            id: 28,
+            id: 29,
             call: "RRRocky",
             toptwenty: "2006",
             rom: true,
@@ -758,7 +758,7 @@ const initState = {
             ],
         },
         {
-            id: 29,
+            id: 30,
             call: "Betty",
             toptwenty: "",
             rom: false,
@@ -782,7 +782,31 @@ const initState = {
             ],
         },
         {
-            id: 30,
+            id: 31,
+            call: "Kindle",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: true,
+            stud: false,
+            sex: "female",
+            name: "Old Bay's Light My Fire With Dreamhaven",
+            sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+            dam: "GCHB Old Bay's Keep It Simple ROM",
+            dob: "November 10, 2018",
+            neutered: false,
+            rip: "",
+            owner: "Kathy Hamilton, Andrea Jung and Cindy Flowers",
+            aka: "Singleton",
+            lives: "Kathy Hamilton",
+            health: "",
+            image: require('../../images/info/Kindle.jpg'),
+            Titles: [
+                ""
+            ],
+        },
+        {
+            id: 32,
             call: "Sing",
             toptwenty: "",
             rom: false,
@@ -793,7 +817,7 @@ const initState = {
             name: "Old Bay's I Put The Sing In Single",
             sire: "GCH Chateaunewf'N Nakiska's Legend Of The Stones",
             dam: "GCHB Old Bay's Keep It Simple",
-            dob: "May 30, 1992",
+            dob: "November 8, 2019",
             neutered: false,
             rip: "",
             owner: "Cindy & John Flowers",
@@ -1032,8 +1056,8 @@ const initState = {
             girls: 2,
             puppies: [
             ],
-            sireimg: require('../../images/litters/sire.jpg'),
-            damimg: "",
+            sireimg: require('../../images/litters/Atlas.jpg'),
+            damimg: require('../../images/litters/Dam.jpg'),
         },
         {
             id: 14,
@@ -1247,7 +1271,7 @@ const initState = {
             puppies: [
                 "Annie","Cormack","Jayne","Maximus","Mickey","Nanaimo","Sparkle"
             ],
-            sireimg: require('../../images/litters/sire.jpg'),
+            sireimg: require('../../images/litters/Bruce.jpg'),
             damimg: require('../../images/litters/Spice.jpg'),
         },
         {
@@ -1292,7 +1316,7 @@ const initState = {
             puppies: [
                 "Izzy", "Chilly", "Cosmo", "Jagger", "Ice"
             ],
-            sireimg: require('../../images/litters/sire.jpg'),
+            sireimg: require('../../images/litters/Rocky.jpg'),
             damimg: require('../../images/litters/dam.jpg'),
         },
         {
@@ -1313,7 +1337,27 @@ const initState = {
             sireimg: require('../../images/litters/sire.jpg'),
             damimg: require('../../images/litters/Daisy.jpg'),
         }
-    ]
+    ],
+    awards: [{
+        year: 2019,
+        specialties: [
+        ],
+        toptwenty: [
+        ],
+        rom: [
+        ],
+        vn: [
+        ],
+        champions: [
+            {
+                call: "Kindle"
+            }            
+
+        ],
+        working: [
+        ],
+    }],
+
 }
 
 const cartReducer = (state = initState, action) => {

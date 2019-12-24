@@ -10,7 +10,7 @@ const options = {
     dots: true,
     autoplayHoverPause: true,
     items: 1,
-    smartSpeed: 750,
+    navSpeed: 750,
     autoplay: true,
     navText: [
         "<i class='fas fa-arrow-left'></i>",
