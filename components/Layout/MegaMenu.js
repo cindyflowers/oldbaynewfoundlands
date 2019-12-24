@@ -128,11 +128,11 @@ class MegaMenu extends Component {
                                     <div onClick={(e) => {this.toggleAwardsOpen()}}>
                                         <li className="nav-item megamenu">
                                             <Link href="#">
-                                                <a class="nav-link" type="button" id="ddAwards" data-toggle="dropdown" >
+                                                <a className="nav-link" type="button" id="ddAwards" data-toggle="dropdown" >
                                                     Awards <i className="fas fa-chevron-down"></i>
                                                 </a>
                                             </Link>
-                                            <ul class={ddAwardClass} 
+                                            <ul className={ddAwardClass} 
                                             role="menu" aria-labelledby="ddAwards">
                                                 <li className="nav-item" role="presentation">
                                                     <div className="container">
@@ -214,7 +214,7 @@ class MegaMenu extends Component {
                                     <div onClick={(e) => {this.toggleBoysOpen()}}>    
                                         <li className="nav-item megamenu">
                                             <Link href="#">
-                                                <a class="nav-link" type="button" id="ddBoys" data-toggle="dropdown" >
+                                                <a className="nav-link" type="button" id="ddBoys" data-toggle="dropdown" >
                                                     The Boys <i className="fas fa-chevron-down"></i>
                                                 </a>
                                             </Link>
@@ -279,7 +279,7 @@ class MegaMenu extends Component {
                                     <div onClick={(e) => {this.toggleGirlsOpen()}}>    
                                         <li className="nav-item megamenu">
                                             <Link href="#">
-                                                <a class="nav-link" type="button" id="ddAwards" data-toggle="dropdown" >
+                                                <a className="nav-link" type="button" id="ddAwards" data-toggle="dropdown" >
                                                     The Girls <i className="fas fa-chevron-down"></i>
                                                     </a>
                                             </Link>
@@ -344,7 +344,7 @@ class MegaMenu extends Component {
                                     <div onClick={(e) => {this.togglePuppiesOpen()}}>  
                                         <li className="nav-item megamenu">
                                             <Link href="#">
-                                                <a class="nav-link" type="button" id="ddPuppies" data-toggle="dropdown" >
+                                                <a className="nav-link" type="button" id="ddPuppies" data-toggle="dropdown" >
                                                     Puppies <i className="fas fa-chevron-down"></i>
                                                 </a>
                                             </Link>
@@ -407,7 +407,7 @@ class MegaMenu extends Component {
                                     <div onClick={(e) => {this.togglePastOpen()}}>  
                                         <li className="nav-item megamenu">
                                             <Link href="#">
-                                                <a class="nav-link" type="button" id="ddPast" data-toggle="dropdown" >
+                                                <a className="nav-link" type="button" id="ddPast" data-toggle="dropdown" >
                                                     Our Past <i className="fas fa-chevron-down"></i>
                                                 </a>
                                             </Link>
