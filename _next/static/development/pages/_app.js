@@ -170,7 +170,7 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAMCAgI
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Bennie-6bdf0b7365b2be32b500348be7264b1a.jpg";
+module.exports = "/_next/static/images/Bennie-bf2da59399b5500c7012a7fb28c236ae.jpg";
 
 /***/ }),
 
@@ -394,6 +394,17 @@ module.exports = "/_next/static/images/Simon-d4d64d62b7e686f06df935c1c43345c7.jp
 
 /***/ }),
 
+/***/ "./images/info/Sing.jpg":
+/*!******************************!*\
+  !*** ./images/info/Sing.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sing-588305e18e3950eb68e5377935511b14.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Sirius.jpg":
 /*!********************************!*\
   !*** ./images/info/Sirius.jpg ***!
@@ -500,7 +511,18 @@ module.exports = "/_next/static/images/Yogi-d2fbddaae24f3d80da4c333174fb7d80.jpg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Allie-76e75f313148e194e4d4e9bcec46aa0c.jpg";
+module.exports = "/_next/static/images/Allie-0a4535b6dd9c9367af23cf01564459b5.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Atlas.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Atlas.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Atlas-33492e6d07fad730f1f652d9bce33190.jpg";
 
 /***/ }),
 
@@ -511,7 +533,18 @@ module.exports = "/_next/static/images/Allie-76e75f313148e194e4d4e9bcec46aa0c.jp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Bravo-16f1b2bbd7502a0e1d0e51f6cf40d2d7.jpg";
+module.exports = "/_next/static/images/Bravo-4252d8c54cef5c80824716da4b3d9730.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Bruce.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Bruce.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Bruce-12b55702c41e507fe252757e676e4711.jpg";
 
 /***/ }),
 
@@ -522,7 +555,7 @@ module.exports = "/_next/static/images/Bravo-16f1b2bbd7502a0e1d0e51f6cf40d2d7.jp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Charm-2fc4280ef3c5980411edf40c52090dda.jpg";
+module.exports = "/_next/static/images/Charm-170355cd0d79bf89d083452a98d89e5a.jpg";
 
 /***/ }),
 
@@ -533,7 +566,7 @@ module.exports = "/_next/static/images/Charm-2fc4280ef3c5980411edf40c52090dda.jp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Chilly-9ce2999968783deee8b9f245bc703062.jpg";
+module.exports = "/_next/static/images/Chilly-a8ca32744e5a3e5fdbbc1a1af32a8b3e.jpg";
 
 /***/ }),
 
@@ -544,7 +577,7 @@ module.exports = "/_next/static/images/Chilly-9ce2999968783deee8b9f245bc703062.j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Cosmo-670dc9f50208e920e32ade12c5202ad2.jpg";
+module.exports = "/_next/static/images/Cosmo-da95cb1bba343d4eeecfe236146b5cc5.jpg";
 
 /***/ }),
 
@@ -555,7 +588,7 @@ module.exports = "/_next/static/images/Cosmo-670dc9f50208e920e32ade12c5202ad2.jp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Crosby-47e1ddef870b21f26473edeca026d27b.jpg";
+module.exports = "/_next/static/images/Crosby-ce059d465416efc48b25f83ac72ea7bc.jpg";
 
 /***/ }),
 
@@ -566,7 +599,18 @@ module.exports = "/_next/static/images/Crosby-47e1ddef870b21f26473edeca026d27b.j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Daisy-162004ecbcaee19f6a3c162c73a7d9ad.jpg";
+module.exports = "/_next/static/images/Daisy-a3ed67a128fcd278f3975578535debe4.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Dam.jpg":
+/*!********************************!*\
+  !*** ./images/litters/Dam.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/jpeg;base64,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"
 
 /***/ }),
 
@@ -577,7 +621,7 @@ module.exports = "/_next/static/images/Daisy-162004ecbcaee19f6a3c162c73a7d9ad.jp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Dexter-ba84507d462e7d4fcd4443edc474d6eb.jpg";
+module.exports = "/_next/static/images/Dexter-c06721c81c5117cf20f7e696e0e575ad.jpg";
 
 /***/ }),
 
@@ -588,7 +632,7 @@ module.exports = "/_next/static/images/Dexter-ba84507d462e7d4fcd4443edc474d6eb.j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Kiss-2331e9bf32a4afb0430d5ef79ef8f224.jpg";
+module.exports = "/_next/static/images/Kiss-268810f5b03cf0423915e7ed40672c2a.jpg";
 
 /***/ }),
 
@@ -599,7 +643,7 @@ module.exports = "/_next/static/images/Kiss-2331e9bf32a4afb0430d5ef79ef8f224.jpg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Lucy-d7fb4c587346f61711a4301de9d96767.jpg";
+module.exports = "/_next/static/images/Lucy-9ae50483c08b45e5ca951aca16d8c3fd.jpg";
 
 /***/ }),
 
@@ -610,7 +654,7 @@ module.exports = "/_next/static/images/Lucy-d7fb4c587346f61711a4301de9d96767.jpg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Nutmeg-16729fd37766339e495b05a7428d6b7b.jpg";
+module.exports = "/_next/static/images/Nutmeg-51b631a9eebfab2ce7fd7ac9f2b35378.jpg";
 
 /***/ }),
 
@@ -621,7 +665,7 @@ module.exports = "/_next/static/images/Nutmeg-16729fd37766339e495b05a7428d6b7b.j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Pharrah-3e8d8bb06fb584430a6eff197b4bf26d.jpg";
+module.exports = "/_next/static/images/Pharrah-f42e36d3f7c7ef9a0c27926504d19f36.jpg";
 
 /***/ }),
 
@@ -632,7 +676,7 @@ module.exports = "/_next/static/images/Pharrah-3e8d8bb06fb584430a6eff197b4bf26d.
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Potter-dd9473e086f768ee4fad418a2e443e47.jpg";
+module.exports = "/_next/static/images/Potter-62d833ab4adf648b3f608f70ec2e1a91.jpg";
 
 /***/ }),
 
@@ -643,7 +687,18 @@ module.exports = "/_next/static/images/Potter-dd9473e086f768ee4fad418a2e443e47.j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Raisin-2323c6c610a9c51a3366f7917825538f.jpg";
+module.exports = "/_next/static/images/Raisin-18001bf2fba1d369457fb5d586d1f232.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Rocky.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Rocky.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Rocky-a8b3407f6672f756aaf40e4ecd6d34ac.jpg";
 
 /***/ }),
 
@@ -654,7 +709,7 @@ module.exports = "/_next/static/images/Raisin-2323c6c610a9c51a3366f7917825538f.j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Rolex-7b6843cf2bdf24b9d9411c00c5bbb1c4.jpg";
+module.exports = "/_next/static/images/Rolex-1d8ab68652108ada5978d4bcaccc18d4.jpg";
 
 /***/ }),
 
@@ -665,7 +720,7 @@ module.exports = "/_next/static/images/Rolex-7b6843cf2bdf24b9d9411c00c5bbb1c4.jp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Sirius-97ea214f0ae9c932c2623452e51a0535.jpg";
+module.exports = "/_next/static/images/Sirius-1b87d10415f70f2765003946ebe1baf5.jpg";
 
 /***/ }),
 
@@ -676,7 +731,7 @@ module.exports = "/_next/static/images/Sirius-97ea214f0ae9c932c2623452e51a0535.j
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Snowball-e3276706e3ad178526f26e1816602e2a.jpg";
+module.exports = "/_next/static/images/Snowball-0afc5a4114a65aed01357c0ad9237bd3.jpg";
 
 /***/ }),
 
@@ -687,7 +742,7 @@ module.exports = "/_next/static/images/Snowball-e3276706e3ad178526f26e1816602e2a
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Sparkle-93c01bc829d37a00f763dbad55e4d44d.jpg";
+module.exports = "/_next/static/images/Sparkle-dbcd51c4d5edeb0a96b72f009d01a670.jpg";
 
 /***/ }),
 
@@ -698,7 +753,7 @@ module.exports = "/_next/static/images/Sparkle-93c01bc829d37a00f763dbad55e4d44d.
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Spice-f30cf7cb558191fc3587cf7083874a6c.jpg";
+module.exports = "/_next/static/images/Spice-ec494ec40665575a7cf36c604a0c14c8.jpg";
 
 /***/ }),
 
@@ -709,7 +764,7 @@ module.exports = "/_next/static/images/Spice-f30cf7cb558191fc3587cf7083874a6c.jp
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Tate-fdffb668fa532b0251b82942caf46326.jpg";
+module.exports = "/_next/static/images/Tate-68ca94d824a226153813e97561344a82.jpg";
 
 /***/ }),
 
@@ -11707,7 +11762,7 @@ function (_App) {
 /*!****************************************************!*\
   !*** ./store/actions/action-types/cart-actions.js ***!
   \****************************************************/
-/*! exports provided: ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING, ADD_QUANTITY_WITH_NUMBER, ORDER_FORM, CHECKOUT_CHARGE, RESET_CART, ADD_TO_COMPARE, REMOVE_ITEM_FROM_COMPARE, SET_CURRENT_DOG */
+/*! exports provided: ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING, ADD_QUANTITY_WITH_NUMBER, ORDER_FORM, CHECKOUT_CHARGE, RESET_CART, ADD_TO_COMPARE, REMOVE_ITEM_FROM_COMPARE, SET_CURRENT_DOG, SET_CURRENT_LITTER */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -11724,6 +11779,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "ADD_TO_COMPARE", function() { return ADD_TO_COMPARE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "REMOVE_ITEM_FROM_COMPARE", function() { return REMOVE_ITEM_FROM_COMPARE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SET_CURRENT_DOG", function() { return SET_CURRENT_DOG; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SET_CURRENT_LITTER", function() { return SET_CURRENT_LITTER; });
 //Types should be in const to avoid typos and duplication since it's a string and could be easily miss spelled
 var ADD_TO_CART = 'ADD_TO_CART';
 var REMOVE_ITEM = 'REMOVE_ITEM';
@@ -11737,6 +11793,7 @@ var RESET_CART = 'RESET_CART';
 var ADD_TO_COMPARE = 'ADD_TO_COMPARE';
 var REMOVE_ITEM_FROM_COMPARE = 'REMOVE_ITEM_FROM_COMPARE';
 var SET_CURRENT_DOG = 'SET_CURRENT_DOG';
+var SET_CURRENT_LITTER = 'SET_CURRENT_LITTER';
 
 /***/ }),
 
@@ -12061,8 +12118,8 @@ var initState = {
     stud: false,
     sex: "female",
     name: "GCH CH OLD BAY'S LUCY FUR CGC, TDI, THDN, ROM",
-    sire: "",
-    dam: "",
+    sire: "Muddy Creek's Carson",
+    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ROM",
     dob: "June 9, 2009",
     neutered: false,
     rip: "April 29, 2017",
@@ -12093,7 +12150,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Spice.jpg */ "./images/info/Spice.jpg"),
     Titles: ["AKC Champion", "AKC Grand Champion", "AKC Novice Jumpers Preferred", "AKC Rally Novice", "NCA Draft Dog", "NCA Register of Merit", "2010 and 2012 NCA Top Twenty", "2010 NCA Top Show Bitch"]
   }, {
-    id: 15,
+    id: 16,
     call: "Dexter",
     toptwenty: "",
     rom: false,
@@ -12113,7 +12170,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Dexter.jpg */ "./images/info/Dexter.jpg"),
     Titles: ["AKC Champion"]
   }, {
-    id: 16,
+    id: 17,
     call: "Simon",
     toptwenty: "",
     rom: false,
@@ -12133,7 +12190,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Simon.jpg */ "./images/info/Simon.jpg"),
     Titles: ["AKC Champion", "AKC Excellent Jumpers w/ Weaves Preferred (AJP)", "AKC Open Jumpers w/ Weaves Preferred (OJP)", "AKC Novice Jumpers w Weaves Preferred (NJP)", "AKC Open Agility Preferred (OAP)", "AKC Novice Agility Preferred (NAP)", "NCA Draft Dog", "NCA Water Dog"]
   }, {
-    id: 17,
+    id: 18,
     call: "Chilly",
     toptwenty: "",
     rom: true,
@@ -12153,7 +12210,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Chilly.jpg */ "./images/info/Chilly.jpg"),
     Titles: ["AKC Champion"]
   }, {
-    id: 18,
+    id: 19,
     call: "Katie",
     toptwenty: "",
     rom: false,
@@ -12174,7 +12231,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Katie.jpg */ "./images/info/Katie.jpg"),
     Titles: ["NCA Versatile Newfoundland", "AKC Champion", "AKC Companion Dog", "AKC Novice Agility Preferred", "NCA Draft Dog - requalified 1 time", "NCA Water Rescue Dog - requalified 2 times", "AKC Canine Good Citizen", "AKC Rally Novice", "Therapy Dog Internaltional"]
   }, {
-    id: 18,
+    id: 20,
     call: "Dasher",
     toptwenty: "",
     rom: false,
@@ -12195,7 +12252,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Dasher.jpg */ "./images/info/Dasher.jpg"),
     Titles: []
   }, {
-    id: 18,
+    id: 21,
     call: "Daisy",
     toptwenty: "",
     rom: true,
@@ -12216,7 +12273,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Daisy.jpg */ "./images/info/Daisy.jpg"),
     Titles: ["NCA Versatile Newfoundland", "AKC Champion", "AKC Companion Dog", "NCA Draft Dog", "NCA Water Rescue Dog", "NCA Register of Merit"]
   }, {
-    id: 19,
+    id: 22,
     call: "Flyer",
     toptwenty: "",
     rom: false,
@@ -12237,7 +12294,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Flyer.jpg */ "./images/info/Flyer.jpg"),
     Titles: []
   }, {
-    id: 18,
+    id: 23,
     call: "Tommy",
     toptwenty: "",
     rom: false,
@@ -12258,7 +12315,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Tommy.jpg */ "./images/info/Tommy.jpg"),
     Titles: ["AKC Champion",, "NCA Draft Dog", "NCA Water Rescue Dog2"]
   }, {
-    id: 19,
+    id: 24,
     call: "Opie",
     toptwenty: "2004, 2005",
     ours: true,
@@ -12277,7 +12334,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Opie.jpg */ "./images/info/Opie.jpg"),
     Titles: ["AKC Champion", "NCA Top Twenty 2006"]
   }, {
-    id: 19,
+    id: 25,
     call: "Yogi",
     toptwenty: "",
     ours: true,
@@ -12296,7 +12353,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Yogi.jpg */ "./images/info/Yogi.jpg"),
     Titles: ["AKC Companion Dog", "AKC Novice Agility Preferred", "AKC Rally Novice", "AKC Rally Advanced", "AKC Rally Excellent", "NCA Draft Dog", "NCA Team Draft Dog", "NCA Water Dog", "NCA Water Rescue Dog - requalified 6 times!"]
   }, {
-    id: 20,
+    id: 26,
     call: "Sporty",
     toptwenty: "",
     rom: false,
@@ -12317,7 +12374,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Sporty.jpg */ "./images/info/Sporty.jpg"),
     Titles: ["AKC Champion"]
   }, {
-    id: 21,
+    id: 27,
     call: "Burnie",
     toptwenty: "",
     rom: false,
@@ -12338,7 +12395,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Burnie.jpg */ "./images/info/Burnie.jpg"),
     Titles: []
   }, {
-    id: 21,
+    id: 28,
     call: "Snoopy",
     toptwenty: "",
     rom: false,
@@ -12359,7 +12416,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Snoopy.jpg */ "./images/info/Snoopy.jpg"),
     Titles: []
   }, {
-    id: 22,
+    id: 29,
     call: "RRRocky",
     toptwenty: "2006",
     rom: true,
@@ -12379,7 +12436,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/info/Rocky.jpg */ "./images/info/Rocky.jpg"),
     Titles: ["AKC Champion", "NCA Top Twenty 2006"]
   }, {
-    id: 23,
+    id: 30,
     call: "Betty",
     toptwenty: "",
     rom: false,
@@ -12399,6 +12456,27 @@ var initState = {
     health: "",
     image: __webpack_require__(/*! ../../images/info/Betty.jpg */ "./images/info/Betty.jpg"),
     Titles: ["AKC Companion Dog", "NCA Water Rescue Dog", "NCA Draft Dog", "NCA Team Draft Dog"]
+  }, {
+    id: 31,
+    call: "Sing",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: true,
+    stud: false,
+    sex: "female",
+    name: "Old Bay's I Put The Sing In Single",
+    sire: "GCH Chateaunewf'N Nakiska's Legend Of The Stones",
+    dam: "GCHB Old Bay's Keep It Simple",
+    dob: "May 30, 1992",
+    neutered: false,
+    rip: "",
+    owner: "Cindy & John Flowers",
+    aka: "Singleton",
+    lives: "Cindy & John Flowers",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Sing.jpg */ "./images/info/Sing.jpg"),
+    Titles: [""]
   }],
   litters: [{
     id: 1,
@@ -12406,12 +12484,13 @@ var initState = {
     breeders: "Old Bay Newfs - Cindy Flowers and Kathy Hamilton",
     sire: "GCH Chateaunewf'N Nakiska's Legend Of The Stones",
     dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "May 16, 2002",
+    dob: "November 8, 2019",
     boys: 0,
     girls: 1,
     puppies: ["Sing"],
     sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
-    damimg: __webpack_require__(/*! ../../images/litters/Kiss.jpg */ "./images/litters/Kiss.jpg")
+    damimg: __webpack_require__(/*! ../../images/litters/Kiss.jpg */ "./images/litters/Kiss.jpg"),
+    pupimg: __webpack_require__(/*! ../../images/info/Sing.jpg */ "./images/info/Sing.jpg")
   }, {
     id: 2,
     parents: "Crosby and Kiss",
@@ -12554,8 +12633,8 @@ var initState = {
     boys: 1,
     girls: 2,
     puppies: [],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
-    damimg: ""
+    sireimg: __webpack_require__(/*! ../../images/litters/Atlas.jpg */ "./images/litters/Atlas.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Dam.jpg */ "./images/litters/Dam.jpg")
   }, {
     id: 14,
     parents: "Izzy and Nutmeg",
@@ -12698,7 +12777,7 @@ var initState = {
     boys: 6,
     girls: 1,
     puppies: ["Annie", "Cormack", "Jayne", "Maximus", "Mickey", "Nanaimo", "Sparkle"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Bruce.jpg */ "./images/litters/Bruce.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Spice.jpg */ "./images/litters/Spice.jpg")
   }, {
     id: 26,
@@ -12734,7 +12813,7 @@ var initState = {
     boys: 6,
     girls: 4,
     puppies: ["Izzy", "Chilly", "Cosmo", "Jagger", "Ice"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Rocky.jpg */ "./images/litters/Rocky.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/dam.jpg */ "./images/litters/dam.jpg")
   }, {
     id: 29,
@@ -12757,6 +12836,12 @@ var cartReducer = function cartReducer() {
   if (action.type === _actions_action_types_cart_actions__WEBPACK_IMPORTED_MODULE_11__["SET_CURRENT_DOG"]) {
     return _objectSpread({}, state, {
       currentDog: action.id
+    });
+  }
+
+  if (action.type === _actions_action_types_cart_actions__WEBPACK_IMPORTED_MODULE_11__["SET_CURRENT_LITTER"]) {
+    return _objectSpread({}, state, {
+      currentLitter: action.id
     });
   }
 
