@@ -378,22 +378,18 @@ function (_Component) {
       var ddPastClass = "dropdown-menu".concat(isPastOpen ? " show" : "");
       var boys = this.props.dogs.filter(function (dog) {
         return dog.sex == "male" && dog.ours == true && dog.rip == "";
-      });
-      var coboys = this.props.dogs.filter(function (dog) {
-        return dog.sex == "male" && dog.ours == false && dog.rip == "";
-      });
+      }); //let coboys = this.props.dogs.filter(dog => dog.sex == "male" && dog.coown == true && dog.rip == ""  );
+
       var studs = this.props.dogs.filter(function (dog) {
         return dog.sex == "male" && dog.stud == true && dog.rip == "";
       });
       var girls = this.props.dogs.filter(function (dog) {
         return dog.sex == "female" && dog.ours == true && dog.rip == "";
       });
-      var cogirls = this.props.dogs.filter(function (dog) {
-        return dog.sex == "female" && dog.ours == false && dog.rip == "";
-      });
-      var past = this.props.dogs.filter(function (dog) {
-        return dog.rip != "";
-      });
+      var dams = this.props.dogs.filter(function (dog) {
+        return dog.sex == "female" && dog.dams == true && dog.rip == "";
+      }); //let cogirls = this.props.dogs.filter(dog => dog.sex == "female" && dog.coown == true  && dog.rip == "" );
+
       var past1to10 = this.props.dogs.filter(function (dog) {
         return dog.rip != "" && dog.id <= 20;
       });
@@ -412,23 +408,26 @@ function (_Component) {
       var toptwenty = this.props.dogs.filter(function (dog) {
         return dog.toptwenty != "";
       });
+      var rom = this.props.dogs.filter(function (dog) {
+        return dog.rom == true;
+      });
       return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 96
+          lineNumber: 97
         },
         __self: this
       }, __jsx("div", {
         className: "navbar-area",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 97
+          lineNumber: 98
         },
         __self: this
       }, __jsx(react_tooltip__WEBPACK_IMPORTED_MODULE_11___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 98
+          lineNumber: 99
         },
         __self: this
       }), __jsx("div", {
@@ -436,35 +435,35 @@ function (_Component) {
         className: "comero-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 100
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 101
         },
         __self: this
       }, __jsx("nav", {
         className: "navbar navbar-expand-md navbar-light",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 102
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 103
         },
         __self: this
       }, __jsx("a", {
         className: "navbar-brand",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 104
         },
         __self: this
       }, __jsx("img", {
@@ -472,7 +471,7 @@ function (_Component) {
         alt: "Old Bay Newfoundlands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 105
         },
         __self: this
       }))), __jsx("button", {
@@ -486,49 +485,49 @@ function (_Component) {
         "aria-label": "Toggle navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 108
+          lineNumber: 109
         },
         __self: this
       }, __jsx("span", {
         className: "navbar-toggler-icon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 116
+          lineNumber: 117
         },
         __self: this
       })), __jsx("div", {
         id: "navbarSupportedContent",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 120
         },
         __self: this
       }, __jsx("ul", {
         className: "navbar-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 120
+          lineNumber: 121
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item p-relative",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 121
+          lineNumber: 122
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122
+          lineNumber: 123
         },
         __self: this
       }, __jsx("a", {
         className: "nav-link active",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 124
         },
         __self: this
       }, "Home"))), __jsx("div", {
@@ -537,47 +536,47 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 128
+          lineNumber: 129
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 129
+          lineNumber: 130
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 130
+          lineNumber: 131
         },
         __self: this
       }, __jsx("a", {
-        "class": "nav-link",
+        className: "nav-link",
         type: "button",
         id: "ddAwards",
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131
+          lineNumber: 132
         },
         __self: this
       }, "Awards ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 133
         },
         __self: this
       }))), __jsx("ul", {
-        "class": ddAwardClass,
+        className: ddAwardClass,
         role: "menu",
         "aria-labelledby": "ddAwards",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 136
         },
         __self: this
       }, __jsx("li", {
@@ -585,217 +584,233 @@ function (_Component) {
         role: "presentation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 137
+          lineNumber: 138
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138
+          lineNumber: 139
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 139
+          lineNumber: 140
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140
+          lineNumber: 141
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 141
-        },
-        __self: this
-      }, "Over the Years"), __jsx("ul", {
-        className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 142
         },
         __self: this
-      }, __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 143
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/about",
+      }, "Register of Merit"), __jsx("ul", {
+        className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 144
         },
         __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 145
-        },
-        __self: this
-      }, "2019"))))), __jsx("div", {
+      }, rom.map(function (data, idx) {
+        return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+          href: "/about",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 146
+          },
+          __self: this
+        }, __jsx("li", {
+          key: data.id,
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 147
+          },
+          __self: this
+        }, __jsx("a", {
+          "data-tip": data.call,
+          "data-place": "left",
+          onClick: function onClick(e) {
+            _this2.handleSetCurrentDog(data.id);
+          },
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 148
+          },
+          __self: this
+        }, __jsx("img", {
+          src: data.image,
+          alt: "image",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 150
+          },
+          __self: this
+        }))));
+      }))), __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150
+          lineNumber: 157
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 151
+          lineNumber: 158
         },
         __self: this
       }, "Award Type"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 153
+          lineNumber: 160
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154
+          lineNumber: 161
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/specialties",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 162
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156
+          lineNumber: 163
         },
         __self: this
       }, "Specialties"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 167
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/topTwenty",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 168
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 162
+          lineNumber: 169
         },
         __self: this
       }, "Top Twenty"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 173
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/rom",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 167
+          lineNumber: 174
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 168
+          lineNumber: 175
         },
         __self: this
       }, "Register of Merit"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 172
+          lineNumber: 179
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/vn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173
+          lineNumber: 180
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 174
+          lineNumber: 181
         },
         __self: this
       }, "Versatile Newfoundland"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 178
+          lineNumber: 185
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/champions",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 179
+          lineNumber: 186
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 180
+          lineNumber: 187
         },
         __self: this
       }, "Champions"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 184
+          lineNumber: 191
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/working",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 185
+          lineNumber: 192
         },
         __self: this
       }, __jsx("a", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 186
+          lineNumber: 193
         },
         __self: this
       }, "Working"))))), __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 192
+          lineNumber: 199
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 193
+          lineNumber: 200
         },
         __self: this
       }, "NCA Top Twenty"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 195
+          lineNumber: 202
         },
         __self: this
       }, toptwenty.map(function (data, idx) {
@@ -803,14 +818,14 @@ function (_Component) {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 197
+            lineNumber: 204
           },
           __self: this
         }, __jsx("li", {
-          key: idx,
+          key: data.id,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 198
+            lineNumber: 205
           },
           __self: this
         }, __jsx("a", {
@@ -821,7 +836,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 199
+            lineNumber: 206
           },
           __self: this
         }, __jsx("img", {
@@ -829,7 +844,7 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 201
+            lineNumber: 208
           },
           __self: this
         }))));
@@ -839,133 +854,87 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 214
+          lineNumber: 221
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 215
+          lineNumber: 222
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 216
+          lineNumber: 223
         },
         __self: this
       }, __jsx("a", {
-        "class": "nav-link",
+        className: "nav-link",
         type: "button",
         id: "ddBoys",
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 217
+          lineNumber: 224
         },
         __self: this
       }, "The Boys ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 218
+          lineNumber: 225
         },
         __self: this
       }))), __jsx("ul", {
         className: ddBoysClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 221
+          lineNumber: 228
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 222
+          lineNumber: 229
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 223
+          lineNumber: 230
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 224
+          lineNumber: 231
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 225
+          lineNumber: 248
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 226
-        },
-        __self: this
-      }, "Old Bay Co-owned"), __jsx("ul", {
-        className: "megamenu-submenu",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 228
-        },
-        __self: this
-      }, coboys.map(function (data, idx) {
-        return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-          href: "/about",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 230
-          },
-          __self: this
-        }, __jsx("li", {
-          key: idx,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 231
-          },
-          __self: this
-        }, __jsx("a", {
-          onClick: function onClick(e) {
-            _this2.handleSetCurrentDog(data.id);
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 232
-          },
-          __self: this
-        }, data.call)));
-      }))), __jsx("div", {
-        className: "col",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 241
-        },
-        __self: this
-      }, __jsx("h6", {
-        className: "submenu-title",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 242
+          lineNumber: 249
         },
         __self: this
       }, "Old Bay Boys"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 244
+          lineNumber: 251
         },
         __self: this
       }, boys.map(function (data, idx) {
@@ -973,14 +942,14 @@ function (_Component) {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 246
+            lineNumber: 253
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 247
+            lineNumber: 254
           },
           __self: this
         }, __jsx("a", {
@@ -989,7 +958,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 248
+            lineNumber: 255
           },
           __self: this
         }, data.call)));
@@ -997,35 +966,35 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 258
+          lineNumber: 265
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 259
+          lineNumber: 266
         },
         __self: this
       }, "The Studs"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 261
+          lineNumber: 268
         },
         __self: this
       }, studs.map(function (data, idx) {
         return __jsx("li", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 263
+            lineNumber: 270
           },
           __self: this
         }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 264
+            lineNumber: 271
           },
           __self: this
         }, __jsx("a", {
@@ -1036,7 +1005,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 265
+            lineNumber: 272
           },
           __self: this
         }, __jsx("img", {
@@ -1044,7 +1013,7 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 266
+            lineNumber: 273
           },
           __self: this
         }))));
@@ -1054,133 +1023,87 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 279
+          lineNumber: 286
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 280
+          lineNumber: 287
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 281
+          lineNumber: 288
         },
         __self: this
       }, __jsx("a", {
-        "class": "nav-link",
+        className: "nav-link",
         type: "button",
         id: "ddAwards",
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 282
+          lineNumber: 289
         },
         __self: this
       }, "The Girls ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 283
+          lineNumber: 290
         },
         __self: this
       }))), __jsx("ul", {
         className: ddGirlsClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 286
+          lineNumber: 293
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 287
+          lineNumber: 294
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 288
+          lineNumber: 295
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 289
+          lineNumber: 296
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 290
+          lineNumber: 313
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 291
-        },
-        __self: this
-      }, "Old Bay Co-owned"), __jsx("ul", {
-        className: "megamenu-submenu",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 293
-        },
-        __self: this
-      }, cogirls.map(function (data, idx) {
-        return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-          href: "/about",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 295
-          },
-          __self: this
-        }, __jsx("li", {
-          key: data.id,
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 296
-          },
-          __self: this
-        }, __jsx("a", {
-          onClick: function onClick(e) {
-            _this2.handleSetCurrentDog(data.id);
-          },
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 297
-          },
-          __self: this
-        }, data.call)));
-      }))), __jsx("div", {
-        className: "col",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 306
-        },
-        __self: this
-      }, __jsx("h6", {
-        className: "submenu-title",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 307
+          lineNumber: 314
         },
         __self: this
       }, "Old Bay Girls"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 309
+          lineNumber: 316
         },
         __self: this
       }, girls.map(function (data, idx) {
@@ -1188,14 +1111,14 @@ function (_Component) {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 311
+            lineNumber: 318
           },
           __self: this
         }, __jsx("li", {
           key: data.id,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 312
+            lineNumber: 319
           },
           __self: this
         }, __jsx("a", {
@@ -1204,7 +1127,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 313
+            lineNumber: 320
           },
           __self: this
         }, data.call)));
@@ -1212,35 +1135,35 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 323
+          lineNumber: 330
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 324
+          lineNumber: 331
         },
         __self: this
       }, "The Dams"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 326
+          lineNumber: 333
         },
         __self: this
-      }, girls.map(function (data, idx) {
+      }, dams.map(function (data, idx) {
         return __jsx("li", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 328
+            lineNumber: 335
           },
           __self: this
         }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 329
+            lineNumber: 336
           },
           __self: this
         }, __jsx("a", {
@@ -1251,7 +1174,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 330
+            lineNumber: 337
           },
           __self: this
         }, __jsx("img", {
@@ -1259,7 +1182,7 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 331
+            lineNumber: 338
           },
           __self: this
         }))));
@@ -1269,80 +1192,80 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 344
+          lineNumber: 351
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 345
+          lineNumber: 352
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 346
+          lineNumber: 353
         },
         __self: this
       }, __jsx("a", {
-        "class": "nav-link",
+        className: "nav-link",
         type: "button",
         id: "ddPuppies",
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 347
+          lineNumber: 354
         },
         __self: this
       }, "Puppies ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 348
+          lineNumber: 355
         },
         __self: this
       }))), __jsx("ul", {
         className: ddPuppiesClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 351
+          lineNumber: 358
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 352
+          lineNumber: 359
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 353
+          lineNumber: 360
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 354
+          lineNumber: 361
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 355
+          lineNumber: 362
         },
         __self: this
       }, "Past Litters "), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 357
+          lineNumber: 364
         },
         __self: this
       }, litters1to10.map(function (data, idx) {
@@ -1350,14 +1273,14 @@ function (_Component) {
           href: "/litter",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 360
+            lineNumber: 367
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 361
+            lineNumber: 368
           },
           __self: this
         }, __jsx("a", {
@@ -1368,7 +1291,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 362
+            lineNumber: 369
           },
           __self: this
         }, data.parents)));
@@ -1376,21 +1299,21 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 371
+          lineNumber: 378
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 372
+          lineNumber: 379
         },
         __self: this
       }, "Past Litters (continued)"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 374
+          lineNumber: 381
         },
         __self: this
       }, litters11to20.map(function (data, idx) {
@@ -1398,14 +1321,14 @@ function (_Component) {
           href: "/litter",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 376
+            lineNumber: 383
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 377
+            lineNumber: 384
           },
           __self: this
         }, __jsx("a", {
@@ -1416,7 +1339,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 378
+            lineNumber: 385
           },
           __self: this
         }, data.parents)));
@@ -1424,21 +1347,21 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 387
+          lineNumber: 394
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 388
+          lineNumber: 395
         },
         __self: this
       }, "Past Litters (continued)"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 390
+          lineNumber: 397
         },
         __self: this
       }, litters21andOver.map(function (data, idx) {
@@ -1446,14 +1369,14 @@ function (_Component) {
           href: "/litter",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 392
+            lineNumber: 399
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 393
+            lineNumber: 400
           },
           __self: this
         }, __jsx("a", {
@@ -1464,7 +1387,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 394
+            lineNumber: 401
           },
           __self: this
         }, data.parents)));
@@ -1474,87 +1397,87 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 407
+          lineNumber: 414
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 408
+          lineNumber: 415
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 409
+          lineNumber: 416
         },
         __self: this
       }, __jsx("a", {
-        "class": "nav-link",
+        className: "nav-link",
         type: "button",
         id: "ddPast",
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 410
+          lineNumber: 417
         },
         __self: this
       }, "Our Past ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 411
+          lineNumber: 418
         },
         __self: this
       }))), __jsx("ul", {
         className: ddPastClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 414
+          lineNumber: 421
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 415
+          lineNumber: 422
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 416
+          lineNumber: 423
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 417
+          lineNumber: 424
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 418
+          lineNumber: 425
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 419
+          lineNumber: 426
         },
         __self: this
       }, "Our Past"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 421
+          lineNumber: 428
         },
         __self: this
       }, past1to10.map(function (data, idx) {
@@ -1562,14 +1485,14 @@ function (_Component) {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 423
+            lineNumber: 430
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 424
+            lineNumber: 431
           },
           __self: this
         }, __jsx("a", {
@@ -1578,7 +1501,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 425
+            lineNumber: 432
           },
           __self: this
         }, data.call)));
@@ -1586,21 +1509,21 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 434
+          lineNumber: 441
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 435
+          lineNumber: 442
         },
         __self: this
       }, "Our Past"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 437
+          lineNumber: 444
         },
         __self: this
       }, past1to10.map(function (data, idx) {
@@ -1608,14 +1531,14 @@ function (_Component) {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 439
+            lineNumber: 446
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 440
+            lineNumber: 447
           },
           __self: this
         }, __jsx("a", {
@@ -1626,7 +1549,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 441
+            lineNumber: 448
           },
           __self: this
         }, __jsx("img", {
@@ -1634,7 +1557,7 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 443
+            lineNumber: 450
           },
           __self: this
         }))));
@@ -1642,21 +1565,21 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 450
+          lineNumber: 457
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 451
+          lineNumber: 458
         },
         __self: this
       }, "Our Past"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 453
+          lineNumber: 460
         },
         __self: this
       }, past10andOver.map(function (data, idx) {
@@ -1664,14 +1587,14 @@ function (_Component) {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 455
+            lineNumber: 462
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 456
+            lineNumber: 463
           },
           __self: this
         }, __jsx("a", {
@@ -1680,7 +1603,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 457
+            lineNumber: 464
           },
           __self: this
         }, data.call)));
@@ -1688,36 +1611,36 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 466
+          lineNumber: 473
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 467
+          lineNumber: 474
         },
         __self: this
       }, "Our Past"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 469
+          lineNumber: 476
         },
         __self: this
       }, past10andOver.map(function (data, idx) {
-        return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        return data.image != "" ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 471
+            lineNumber: 479
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 472
+            lineNumber: 480
           },
           __self: this
         }, __jsx("a", {
@@ -1728,7 +1651,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 473
+            lineNumber: 481
           },
           __self: this
         }, __jsx("img", {
@@ -1736,10 +1659,10 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 475
+            lineNumber: 483
           },
           __self: this
-        }))));
+        })))) : "";
       }))))))))))))))));
     }
   }]);
@@ -2283,7 +2206,7 @@ function (_Component) {
         },
         __self: this
       }, "SING has arrived!"), " born on November 8, 2019 ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        href: "#",
+        href: "litter",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 43
@@ -2315,7 +2238,7 @@ function (_Component) {
         },
         __self: this
       }, "SING has arrived!"), " born on November 8 2019 ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        href: "#",
+        href: "litter",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
@@ -2347,7 +2270,7 @@ function (_Component) {
         },
         __self: this
       }, "SING has arrived!"), " born on November 8 2019 ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-        href: "#",
+        href: "litter",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
