@@ -43,7 +43,7 @@ const initState = {
             sex: "male",
             stud: true,
             name: "GCH Old Bay's Let's Get Sirius CGC, TDI",
-            sire: "CH Bear N Mind's Maritime Traveler",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
             dam: "CH Waterford FrontPage",
             dob: "10/26/2010",
             neutered: false,
@@ -54,10 +54,21 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1497430#animal",
             image: require('../../images/info/Sirius.jpg'),
             Titles: [
-                "AKC Champion",
-                "AKC Grand Champion",
-                "Canine Good Citizen",
-                "Therapy Dog International"
+                {
+                    "title": "CGC",
+                    "date": "03/23/2015",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "02/18/2012",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "01/17/2014",
+                    "org": "AKC"
+                  }
             ],
         },
         {
@@ -68,8 +79,8 @@ const initState = {
             sex: "male",
             stud: false,
             name: "OLD BAY'S BUMBLE BENNIE",
-            sire: "GCH Bear N Mind's Stand Up And Cheer, RN, DD",
-            dam: "GCH Old Bay's Lucy Fur",
+            sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+            dam: "GCH Old Bay's Lucy Fur ROM",
             dob: "December 9, 2012",
             neutered: true,
             rip: "",
@@ -89,7 +100,7 @@ const initState = {
             stud: false,
             sex: "male",
             name: "Old Bay's Seriously Charming Son",
-            sire: "GCH Old Bay's Let's Get Sirius",
+            sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
             dam: "GCH Old Bay's Please Don't Squeeze The Charm'n",
             dob: "December 5, 2013",
             neutered: true,
@@ -121,18 +132,40 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1718399#animal",
             image: require('../../images/info/Rolex.jpg'),
             Titles: [
-                "AKC Champion",
-                "AKC Grand Champion",
-                "AKC Bronze Grand Champion",
-                "NCA Select Dog 2018",
-                "NCA Top Twenty 2017"
+                {
+                    "title": "CH",
+                    "date": "01/15/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "05/21/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "NCA Select",
+                    "date": "2018",
+                    "org": "AKC"
+                  }
             ],
+            Awards: [
+                {
+                    "award": "NCA Select",
+                    "date": "2018",
+                    "show": "National Specialty"
+                  },
+                  {
+                    "award": "NCA Top Twenty",
+                    "date": "2017",
+                    "show": "National Specialty"
+                  }
+            ]
         },
         {
             id: 5,
             call: "Metronome",
             toptwenty: "",
-            ours: false,
+            ours: true,
             sex: "male",
             stud: true,
             name: "CH Old Bay's Keeping Time With Sun Valley",
@@ -147,10 +180,29 @@ const initState = {
             health: "https://www.ofa.org/advanced-search?f=sr&appnum=2027902",
             image: require('../../images/info/Metro.jpg'),
             Titles: [
-                "AKC Champion",
-                "NCA National Best of Opposite in Sweepstakes 2018",
-                "NCA National 1st 9-12 Dog 2018"
+                {
+                    "title": "CH",
+                    "date": "05/26/2018",
+                    "org": "AKC"
+                  }
             ],
+            Awards: [
+                {
+                    "award": "1st 9-12 Dog",
+                    "date": "2018",
+                    "show": "National Specialty"
+                  },
+                  {
+                    "award": "1st 9-12 Puppy Sweeps",
+                    "date": "2018",
+                    "show": "National Specialty"
+                  },
+                  {
+                    "award": "Best of Opposite in Sweepstakes",
+                    "date": "2018",
+                    "show": "National Specialty"
+                  }
+            ]
         },
         {
             id: 6,
@@ -161,7 +213,7 @@ const initState = {
             stud: true,
             name: "CH Old Bay's Master of Time in Dreamhaven",
             sire: "GCHB Old Bay's Perfect Timing",
-            dam: "GCHB Old Bay's Snowball's Chance",
+            dam: "GCH Old Bay's Snowball's Chance CD",
             dob: "January 11, 2018",
             neutered: false,
             rip: "",
@@ -171,7 +223,11 @@ const initState = {
             health: "https://www.ofa.org/advanced-search?f=sr&appnum=2027902",
             image: require('../../images/info/Maestro.jpg'),
             Titles: [
-                "AKC Champion",
+                {
+                    "title": "CH",
+                    "date": "09/23/2018",
+                    "org": "AKC"
+                  }
             ],
         },
         {
@@ -179,11 +235,12 @@ const initState = {
             call: "Nemo",
             toptwenty: "",
             ours: false,
+            coown: true,
             stud: false,
             sex: "male",
             name: "CH Old Bay's Finding BluWater",
             sire: "GCHB Old Bay's Perfect Timing",
-            dam: "OLD BAY'S SPICIN' IT UP AT BLUWATER",
+            dam: "CH OLD BAY'S SPICIN' IT UP AT BLUWATER",
             dob: "12/21/2017",
             neutered: true,
             rip: "",
@@ -206,8 +263,9 @@ const initState = {
             toptwenty: "",
             ours: true,
             stud: false,
+            dams: true,
             sex: "female",
-            name: "CH Old Bay's Ragin' Infurno",
+            name: "CH Old Bay's Raging Infurno",
             sire: "CH CYPRESS BAY IMAT CORNERBROOK",
             dam: "GCH Old Bay's Lucy Fur ROM",
             dob: "September 10, 2011",
@@ -219,7 +277,11 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1522576#animal",
             image: require('../../images/info/Raisin.jpg'),
             Titles: [
-                "AKC Champion",
+                {
+                    "title": "CH",
+                    "date": "07/29/2016",
+                    "org": "AKC"
+                  }
             ],
         },
         {
@@ -228,35 +290,65 @@ const initState = {
             toptwenty: "2018",
             rom: true,
             ours: true,
+            dams: true,
             stud: false,
             sex: "female",
-            name: "GCHB Old Bay's Keep It Simple",
-            sire: "GCH Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
+            name: "GCHB Old Bay's Keep It Simple ROM",
+            sire: "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
             dam: "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA) ",
             dob: "November 25, 2014",
             neutered: false,
             rip: "",
-            owner: "Cindy Flowers and Kathy Hamilton",
+            owner: "Cindy Flowers & Kathy Hamilton & John Flowers",
             aka: "Kissy",
             lives: "Cindy and John Flowers",
             health: "http://www.offa.org/display.html?appnum=1698851#animal",
             image: require('../../images/info/Kiss.jpg'),
             Titles: [
-                "AKC Champion",
-                "AKC Grand Champion",
-                "AKC Bronze Grand Champion",
-                "NCA Top Twenty 2018",
-                "NCA Register of Merit"     
+                {
+                    "title": "CH",
+                    "date": "02/20/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "10/30/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCHB",
+                    "date": "04/21/2018",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "Register of Merit",
+                    "date": "12/31/2019",
+                    "org": "AKC"
+                  }
+    
             ],
+            Awards: [
+                {
+                    "award": "Top Twenty",
+                    "date": "2018",
+                    "show": "National Specialty"
+                  },
+                  {
+                    "award": "NCA Register of Merit",
+                    "date": "2019",
+                    "show": "National Specialty"
+                  }
+            ]
         },
         {
             id: 10,
             call: "Snowball",
             toptwenty: "",
             ours: false,
+            coown: true,
             stud: false,
             sex: "female",
-            name: "GCH CH Old Bay's Snowball's Chance CD",
+            name: "GCH Old Bay's Snowball's Chance CD",
             sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
             dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
             dob: "February 4, 2014",
@@ -268,16 +360,29 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1718388#animal",
             image: require('../../images/info/Snowball.jpg'),
             Titles: [
-                "AKC Companion Dog",
-                "AKC Champion",
-                "AKC Grand Champion",
-            ],
+                {
+                    "title": "CD",
+                    "date": "03/05/2017",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "04/23/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "07/28/2018",
+                    "org": "AKC"
+                  }
+            ]
         },
         {
             id: 11,
             call: "Flash",
             toptwenty: "2018",
             ours: false,
+            coown: true,
             stud: false,
             sex: "male",
             name: "GCHS CH Old Bay's Big Bang CGC",
@@ -318,12 +423,20 @@ const initState = {
                     "org": "AKC"
                   }
             ],
+            Awards: [
+                {
+                    "award": "Top Twenty",
+                    "date": "2018",
+                    "show": "National Specialty"
+                  },
+            ]
         },
         {
             id: 12,
             call: "Carson",
             toptwenty: "",
             ours: true,
+            rom: true,
             stud: false,
             sex: "male",
             name: "BISS GCH PORICIA'S STRAIGHT TO THE TOP CGC, TDI, ROM, HOF",
@@ -338,12 +451,34 @@ const initState = {
             health: "",
             image: require('../../images/info/Carson.jpg'),
             Titles: [
-                "AKC Champion",
-                "National Best of Breed",
-                "Register of Merit",
-                "Hall of Fame",
-                "Canine Good Citizen",
+                {
+                    "title": "CGC",
+                    "date": "05/03/2015",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "10/16/210",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "Hall of Fame",
+                    "date": "04/07/2015",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "Register of Merit",
+                    "date": "04/07/2015",
+                    "org": "AKC"
+                  },
             ],
+            Awards: [
+                {
+                    "award": "Best of Breed",
+                    "date": "2015",
+                    "show": "National Specialty"
+                  },
+            ]
         },
         {
             id: 13,
@@ -353,8 +488,8 @@ const initState = {
             stud: false,
             sex: "female",
             name: "CH Old Bay's Sparks Are Flyin', RN, WD",
-            sire: "CH Top Shelf's Troubles A Brewin, DD",
-            dam: "GCH TOP SHELF SPICED WITH OLD BAY, NJP",
+            sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
             dob: "December 3, 2008",
             neutered: false,
             rip: "January 2018",
@@ -364,9 +499,21 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1370314#animal",
             image: require('../../images/info/Sparkle.jpg'),
             Titles: [
-                "AKC Champion",
-                "AKC Rally Novice",
-                "NCA Water Dog"
+                {
+                    "title": "CH",
+                    "date": "03/18/2010",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RN",
+                    "date": "03/17/2011",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "08/24/2013",
+                    "org": "NCA"
+                  }
             ],
         },
         {
@@ -379,22 +526,36 @@ const initState = {
             sex: "female",
             name: "GCH CH OLD BAY'S LUCY FUR CGC, TDI, THDN, ROM",
             sire: "Muddy Creek's Carson",
-            dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ROM",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
             dob: "June 9, 2009",
             neutered: false,
             rip: "April 29, 2017",
-            owner: "Kathy Hamilton & Cindy Flowers",
+            owner: "Kathy Hamilton & John Borklund & Cindy Flower",
             aka: "Lou Lou, Lucy I'm Home, LucyFur",
             lives: "Kathy Hamilton",
             health: "http://www.offa.org/display.html?appnum=1429095#animal",
             image: require('../../images/info/Lucy.jpg'),
             Titles: [
-                "AKC Champion",
-                "AKC Grand Champion",
-                "Canine Good Citizen",
-                "Therapy Dog international",
-                "AKC Therapy Dog Novice",
-                "NCA Register of Merit"
+                {
+                    "title": "CH",
+                    "date": "03/18/2011",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "07/07/2012",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "THDN",
+                    "date": "01/28/2015",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "Register of Merit",
+                    "date": "12/31/2016",
+                    "org": "NCA"
+                  }
             ],
         },
         {
@@ -406,7 +567,7 @@ const initState = {
             stud: false,
             sex: "female",
             name: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-            sire: "CH Pouch Coves Too Close To Call",
+            sire: "CH Pouch Cove's Too Close To Call CD, RA, DD1",
             dam: "Top Shelfs Something Different ROM",
             dob: "April 29, 2005",
             neutered: false,
@@ -417,15 +578,54 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1240326#animal",
             image: require('../../images/info/Spice.jpg'),
             Titles: [
-                "AKC Champion",
-                "AKC Grand Champion",
-                "AKC Novice Jumpers Preferred",
-                "AKC Rally Novice",
-                "NCA Draft Dog",
-                "NCA Register of Merit",
-                "2010 and 2012 NCA Top Twenty",
-                "2010 NCA Top Show Bitch",
+                {
+                    "title": "CH",
+                    "date": "04/28/2006",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "07/17/2010",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "NJP",
+                    "date": "09/05/2009",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RN",
+                    "date": "06/29/2012",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "03/24/2013",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "Register of Merit",
+                    "date": "12/31/2016",
+                    "org": "NCA"
+                  }
             ],
+            Awards: [
+                {
+                    "award": "Top Twenty",
+                    "date": "2010",
+                    "show": "National Specialty"
+                  },
+                  {
+                    "award": "Top Show Bitch",
+                    "date": "2010",
+                    "show": "NCA"
+                  },
+                  {
+                    "award": "Top Twenty",
+                    "date": "2012",
+                    "show": "National Specialty"
+                  },
+            ]
         },
         {
             id: 16,
@@ -435,8 +635,8 @@ const initState = {
             ours: true,
             stud: false,
             sex: "male",
-            name: "CH ALLEGIANCE ROCK THE BOAT OLD BAY",
-            sire: "CH Top Shelfs On The Rocks",
+            name: "GCH Allegiance Rock The Boat OldBay",
+            sire: "CH Top Shelf's On The Rocks ROM",
             dam: "CH Darbydales Zoo Two",
             dob: "September 14, 2006",
             neutered: false,
@@ -447,7 +647,16 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1240326#animal",
             image: require('../../images/info/Dexter.jpg'),
             Titles: [
-                "AKC Champion",
+                {
+                    "title": "CH",
+                    "date": "07/29/2007",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "11/29/2010",
+                    "org": "AKC"
+                  }
             ],
         },
         {
@@ -470,14 +679,46 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1096035#animal",
             image: require('../../images/info/Simon.jpg'),
             Titles: [
-                "AKC Champion",
-                "AKC Excellent Jumpers w/ Weaves Preferred (AJP)",
-                "AKC Open Jumpers w/ Weaves Preferred (OJP)",
-                "AKC Novice Jumpers w Weaves Preferred (NJP)",
-                "AKC Open Agility Preferred (OAP)",
-                "AKC Novice Agility Preferred (NAP)",
-                "NCA Draft Dog",
-                "NCA Water Dog",
+                {
+                    "title": "AJP",
+                    "date": "12/07/2007",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "02/06/2005",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "NAP",
+                    "date": "10/30/2004",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "NJP",
+                    "date": "12/10/2004",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "OAP",
+                    "date": "10/22/2005",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "OJP",
+                    "date": "02/25/2007",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "03/28/2004",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "08/12/2006",
+                    "org": "NCA"
+                  }
             ],
         },
         {
@@ -488,19 +729,33 @@ const initState = {
             ours: true,
             stud: false,
             sex: "female",
-            name: "CH OLD BAY'S HELLFROZOVER TOPSHELF",
+            name: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
             sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
             dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
             dob: "September 26, 2005",
             neutered: false,
             rip: "August 2014",
-            owner: "Nancy Beres and Kathy Hamilton",
+            owner: "Nancy Beres & Cindy Flowers",
             aka: "Chillster, Chinchilla, The Arsonist, Fire Starter",
             lives: "Nancy Beres ",
             health: "http://www.offa.org/display.html?appnum=1240358#animal",
             image: require('../../images/info/Chilly.jpg'),
             Titles: [
-                "AKC Champion",
+                {
+                    "title": "CH",
+                    "date": "02/24/2007",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RN",
+                    "date": "04/21/2012",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "Register of Merit",
+                    "date": "12/31/2012",
+                    "org": "NCA"
+                  }
             ],
         },
         {
@@ -524,15 +779,61 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1096033#animal",
             image: require('../../images/info/Katie.jpg'),
             Titles: [
-                "NCA Versatile Newfoundland",
-                "AKC Champion",
-                "AKC Companion Dog",
-                "AKC Novice Agility Preferred",
-                "NCA Draft Dog - requalified 1 time",
-                "NCA Water Rescue Dog - requalified 2 times",
-                "AKC Canine Good Citizen",
-                "AKC Rally Novice",
-                "Therapy Dog Internaltional",
+                {
+                    "title": "VN - Versitile Newfoundland",
+                    "date": "04/28/2009",
+                    "org": "NCA"
+                  },
+                {
+                    "title": "CD",
+                    "date": "04/28/2009",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "11/15/2003",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "NAP",
+                    "date": "10/30/2004",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RN",
+                    "date": "03/18/2011",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "03/21/2004",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "03/28/2004",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "10/02/2004",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "08/07/2005",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "10/01/2005",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "10/02/2005",
+                    "org": "NCA"
+                  }
             ],
         },
         {
@@ -545,8 +846,8 @@ const initState = {
             stud: false,
             sex: "male",
             name: "Old Bay's Dash of Spice",
-            sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
-            dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
             dob: "December 25, 2010",
             neutered: false,
             rip: "February 24, 2011",
@@ -567,8 +868,8 @@ const initState = {
             ours: true,
             stud: false,
             sex: "female",
-            name: "VN CH TOP SHELF'S STAR DAISY CD, TDD, WRD, ROM ",
-            sire: "CH Darbydales Keep´M Guess´N",
+            name: "VN CH TOP SHELF'S STAR DAISY CD, TDD, WD1, WRD, ROM ",
+            sire: "CH Darbydale's Keep´M Guess´N ROM",
             dam: "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
             dob: "February 17, 1999",
             neutered: false,
@@ -579,12 +880,51 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=830863#animal",
             image: require('../../images/info/Daisy.jpg'),
             Titles: [
-                "NCA Versatile Newfoundland",
-                "AKC Champion",
-                "AKC Companion Dog",
-                "NCA Draft Dog",
-                "NCA Water Rescue Dog",
-                "NCA Register of Merit"
+                {
+                    "title": "Register of Merit",
+                    "date": "12/31/2016",
+                    "org": "NCA"
+                  },
+                {
+                    "title": "VN - Versatile Newfoundland",
+                    "date": "04/17/2002",
+                    "org": "NCA"
+                  },
+                {
+                    "title": "CD",
+                    "date": "04/17/2002",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "06/30/2001",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "04/09/2000",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "TDD",
+                    "date": "05/06/2001",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "10/01/2005",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "10/02/2005",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "08/25/2001",
+                    "org": "NCA"
+                  }
             ],
         },
         {
@@ -619,8 +959,8 @@ const initState = {
             ours: true,
             stud: false,
             sex: "male",
-            name: "CH TOP SHELF TOM COLINS, DD, WRD2",
-            sire: "CH Darbydales Keep´M Guess´N",
+            name: "CH TOP SHELF TOM COLINS, DD, WRD3",
+            sire: "CH Darbydale's Keep´M Guess´N ROM",
             dam: "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
             dob: "March 8, 2001",
             neutered: false,
@@ -631,9 +971,41 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1041710#animal",
             image: require('../../images/info/Tommy.jpg'),
             Titles: [
-                "AKC Champion",,
-                "NCA Draft Dog",
-                "NCA Water Rescue Dog2",
+                {
+                    "title": "CH",
+                    "date": "11/29/2002",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "04/07/2002",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "04/07/2002",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "08/17/2003",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "08/08/2004",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "10/01/2005",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "10/02/2005",
+                    "org": "NCA"
+                  }
             ],
         },
         {
@@ -655,9 +1027,25 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1096214#animal",
             image: require('../../images/info/Opie.jpg'),
             Titles: [
-                "AKC Champion",
-                "NCA Top Twenty 2006",
+                {
+                    "title": "CH",
+                    "date": "10/26/2003",
+                    "org": "AKC"
+                  }
             ],
+            Awards: [
+                {
+                    "award": "Top Twenty",
+                    "date": "2004",
+                    "show": "Honored at the 2005 National"
+                  },
+
+                  {
+                    "award": "Top Twenty",
+                    "date": "2005",
+                    "show": "Honored at the 2006 National"
+                  },
+            ]
         },
         {
             id: 25,
@@ -666,7 +1054,7 @@ const initState = {
             ours: true,
             stud: false,
             sex: "male",
-            name: "SHADRACK'S MIDNITE MAGIC CD, NAP, RE, TDD, WRD6",
+            name: "SHADRACK'S MIDNITE MAGIC CD, NAP, RE, TDD, WRD4",
             sire: "CH Shadracks Midnite Habit",
             dam: "CH Midnite Startin´ Over W Shadrack ",
             dob: "June 30, 1999",
@@ -678,15 +1066,71 @@ const initState = {
             health: "",
             image: require('../../images/info/Yogi.jpg'),
             Titles: [
-                "AKC Companion Dog",
-                "AKC Novice Agility Preferred",
-                "AKC Rally Novice",
-                "AKC Rally Advanced",
-                "AKC Rally Excellent",
-                "NCA Draft Dog",
-                "NCA Team Draft Dog",
-                "NCA Water Dog",
-                "NCA Water Rescue Dog - requalified 6 times!",
+                {
+                    "title": "CD",
+                    "date": "11/30/2002",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "NAP",
+                    "date": "12/05/2004",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RA",
+                    "date": "12/15/2005",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RE",
+                    "date": "12/18/2005",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RN",
+                    "date": "10/15/2005",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "11/12/2000",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "TDD",
+                    "date": "05/06/2001",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "09/10/2000",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "10/01/2000",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "10/01/2000",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "10/01/2005",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "09/29/2007",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "09/30/2007",
+                    "org": "NCA"
+                  }
             ],
         },
         {
@@ -698,8 +1142,8 @@ const initState = {
             ours: true,
             stud: false,
             sex: "female",
-            name: "CH. OLD BAY'S SPORTIN' A SPICY ATTITUDE",
-            sire: "CH Skippers Eminence King of Helluland",
+            name: "CH OLD BAY'S SPORTIN' A SPICY ATTITUDE",
+            sire: "GCH Skipper's Eminence King of Helluland ROM",
             dam: "CH Top Shelfs Spiced With Old Bay ROM",
             dob: "April 10, 2008",
             neutered: false,
@@ -710,7 +1154,11 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1370494#animal",
             image: require('../../images/info/Sporty.jpg'),
             Titles: [
-                "AKC Champion",
+                {
+                    "title": "CH",
+                    "date": "04/19/2009",
+                    "org": "AKC"
+                  }
             ],
         },
         {
@@ -724,7 +1172,7 @@ const initState = {
             sex: "male",
             name: "OLD BAY'S SITTIN ON THE BACK BURNER",
             sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
-            dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ROM",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
             dob: "May 10, 2008",
             neutered: false,
             rip: "July 27, 2009",
@@ -781,9 +1229,24 @@ const initState = {
             health: "http://www.offa.org/display.html?appnum=1096214#animal",
             image: require('../../images/info/Rocky.jpg'),
             Titles: [
-                "AKC Champion",
-                "NCA Top Twenty 2006",
+                {
+                    "title": "CH",
+                    "date": "11/16/2003",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "Register of Merit",
+                    "date": "12/31/2009",
+                    "org": "NCA"
+                  }
             ],
+            Awards: [
+                {
+                    "award": "Top Twenty",
+                    "date": "2006",
+                    "show": "Honored at the 2007 National"
+                  }
+            ]
         },
         {
             id: 30,
@@ -806,7 +1269,31 @@ const initState = {
             health: "",
             image: require('../../images/info/Betty.jpg'),
             Titles: [
-                "AKC Companion Dog", "NCA Water Rescue Dog", "NCA Draft Dog",  "NCA Team Draft Dog"
+                {
+                    "title": "CD",
+                    "date": "11/07/1993",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "11/07/1993",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "11/07/1993",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "11/07/1993",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "TDD",
+                    "date": "11/07/1993",
+                    "org": "NCA"
+                  }
             ],
         },
         {
@@ -818,7 +1305,7 @@ const initState = {
             ours: true,
             stud: false,
             sex: "female",
-            name: "Old Bay's Light My Fire With Dreamhaven",
+            name: "CH Old Bay's Light My Fire With Dreamhaven",
             sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
             dam: "GCHB Old Bay's Keep It Simple ROM",
             dob: "November 10, 2018",
@@ -830,7 +1317,11 @@ const initState = {
             health: "",
             image: require('../../images/info/Kindle.jpg'),
             Titles: [
-                ""
+                {
+                    "title": "CH",
+                    "date": "10/30/2019",
+                    "org": "AKC"
+                  },
             ],
         },
         {
@@ -844,7 +1335,7 @@ const initState = {
             sex: "female",
             name: "Old Bay's I Put The Sing In Single",
             sire: "GCH Chateaunewf'N Nakiska's Legend Of The Stones",
-            dam: "GCHB Old Bay's Keep It Simple",
+            dam: "GCHB Old Bay's Keep It Simple ROM",
             dob: "November 8, 2019",
             neutered: false,
             rip: "",
@@ -854,21 +1345,21 @@ const initState = {
             health: "",
             image: require('../../images/info/Sing.jpg'),
             Titles: [
-                ""
             ],
         },
         {
-            id: 32,
+            id: 33,
             call: "Miss Flash",
             toptwenty: "",
             rom: false,
             vn: false,
             ours: false,
+            coown: true,
             stud: false,
             sex: "female",
             name: "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
-            sire: "GCH Old Bay's Potter As In Harry",
-            dam: "CH Old Bay's Sparks Are Flyin'",
+            sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+            dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
             dob: "09/06/2011",
             neutered: true,
             rip: "",
@@ -906,17 +1397,18 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 34,
             call: "Jack",
             toptwenty: "",
             rom: false,
             vn: false,
             ours: false,
+            coown: true,
             stud: false,
-            sex: "female",
+            sex: "male",
             name: "CH Celtic Cross Skipjack At Old Bay CGC",
             sire: "GCH 	Old Bay's Here At Last",
-            dam: "CH Celtic Cross Mischief Managed At Old Bay'",
+            dam: "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
             dob: "10/17/2013",
             neutered: true,
             rip: "",
@@ -939,7 +1431,7 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 35,
             call: "Tilly",
             toptwenty: "",
             rom: false,
@@ -948,8 +1440,8 @@ const initState = {
             stud: false,
             sex: "female",
             name: "CH Dreamhaven's Cascading Waterfalls At Old Bay CGC",
-            sire: "Southwind's Pouch Cove Dark Star",
-            dam: "CH Old Bay's Keep It Simple'",
+            sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+            dam: "GCHB Old Bay's Keep It Simple ROM'",
             dob: "11/10/2018",
             neutered: false,
             rip: "",
@@ -972,12 +1464,13 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 36,
             call: "Elsa",
             toptwenty: "",
             rom: false,
             vn: false,
             ours: false,
+            coown: true,
             stud: false,
             sex: "female",
             name: "CH Dreamhaven's Frozen In Time With Old Bay",
@@ -1000,7 +1493,7 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 37,
             call: "Nash",
             toptwenty: "",
             rom: false,
@@ -1009,8 +1502,8 @@ const initState = {
             stud: false,
             sex: "male",
             name: "CH Dreamhaven's Sum It Up With Old Bay WD, CGC",
-            sire: "Southwind's Pouch Cove Dark Star",
-            dam: "GCHB Old Bay's Keep It Simple",
+            sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+            dam: "GCHB Old Bay's Keep It Simple ROM",
             dob: "11/10/2018",
             neutered: false,
             rip: "",
@@ -1038,17 +1531,18 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 38,
             call: "Essi",
             toptwenty: "",
             rom: false,
             vn: false,
             ours: false,
+            coown: true,
             stud: false,
             sex: "female",
             name: "Dreamhaven's Old Bay Bright Star Over Brandywine CGC",
-            sire: "Southwind's Pouch Cove Dark Star",
-            dam: "GCHB Old Bay's Keep It Simple",
+            sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+            dam: "GCHB Old Bay's Keep It Simple ROM",
             dob: "11/10/2018",
             neutered: false,
             rip: "",
@@ -1066,17 +1560,18 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 39,
             call: "Fable",
             toptwenty: "",
             rom: false,
             vn: false,
             ours: false,
+            coown: true,
             stud: false,
             sex: "female",
             name: "CH Dreamhaven's Once Upon A Time At Old Bay CGC",
             sire: "GCHB Old Bay's Perfect Timing",
-            dam: "GCH Old Bay's Snowball's Chance",
+            dam: "GCH Old Bay's Snowball's Chance CD",
             dob: "01/11/2018",
             neutered: false,
             rip: "",
@@ -1099,17 +1594,18 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 40,
             call: "Emma",
             toptwenty: "",
             rom: false,
             vn: false,
             ours: false,
+            coown: true,
             stud: false,
             sex: "female",
             name: "GCHB Emalani Of Old Bay CGC, RN, WD",
             sire: "Topshelfs Israel Kamakawiwoole",
-            dam: "Old Bay's Seasoned With Spice",
+            dam: "Old Bay's Seasoned With Spice ROM",
             dob: "05/12/2013",
             neutered: false,
             rip: "",
@@ -1152,7 +1648,7 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 41,
             call: "Sigi",
             toptwenty: "",
             rom: false,
@@ -1161,8 +1657,8 @@ const initState = {
             stud: false,
             sex: "male",
             name: "CH Old Bay Because I Can",
-            sire: "CH Top Shelf Troubles A Brewin",
-            dam: "CH Top Shelf Spiced With Old Bay",
+            sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
             dob: "12/03/2008",
             neutered: false,
             rip: "",
@@ -1180,7 +1676,7 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 42,
             call: "Sampson",
             toptwenty: "",
             rom: false,
@@ -1189,8 +1685,8 @@ const initState = {
             stud: false,
             sex: "male",
             name: "CH Old Bay Forged In Flames RN, WD",
-            sire: "CH Sunvalley Petitions Pouch Cove",
-            dam: "CH Old Bay's Hellfrozover Topshelf",
+            sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
             dob: "04/10/2008",
             neutered: false,
             rip: "",
@@ -1201,19 +1697,24 @@ const initState = {
             image: "",
             Titles: [
                 {
-                    "title": "CGC",
-                    "date": "10/05/2018",
+                    "title": "CH",
+                    "date": "	11/22/2009",
                     "org": "AKC"
                   },
                   {
-                    "title": "CGCA",
-                    "date": "09/29/2018",
+                    "title": "RN",
+                    "date": "05/05/2015",
                     "org": "AKC"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "08/26/2012",
+                    "org": "NCA"
                   }
             ],
         },
         {
-            id: 32,
+            id: 43,
             call: "Brenden",
             toptwenty: "",
             rom: false,
@@ -1222,8 +1723,8 @@ const initState = {
             stud: false,
             sex: "male",
             name: "	Old Bay Irish Maritime Navigator CGC, CGCA",
-            sire: "CH Bear N Mind's Maritime Traveler",
-            dam: "CH Top Shelf Spiced With Old Bay",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
             dob: "12/25/2010",
             neutered: false,
             rip: "",
@@ -1246,7 +1747,7 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 44,
             call: "Rudd",
             toptwenty: "",
             rom: false,
@@ -1274,7 +1775,7 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 45,
             call: "Sonar",
             toptwenty: "",
             rom: false,
@@ -1284,7 +1785,7 @@ const initState = {
             stud: false,
             sex: "male",
             name: "WA Old Bay Sonic Wave AXP, CD, CDX, NAP, NJP, OAP, OJP, UD, DD, DDX, TDD3, TDDX, WD, WRD5, WRDX ",
-            sire: "Bear N Mind's Maritime Traveler",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
             dam: "CH Waterford Frontpage",
             dob: "06/02/2009",
             neutered: false,
@@ -1403,7 +1904,7 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 46,
             call: "Spinnaker",
             toptwenty: "",
             rom: false,
@@ -1412,15 +1913,15 @@ const initState = {
             ours: false,
             stud: false,
             sex: "male",
-            name: "Old Bay Spinnaker Flyin",
-            sire: "Powder Ridge's Dreams Come True",
-            dam: "Old Bay's Seasoned With Spice",
+            name: "WA Old Bay Spinnaker Flyin CD, CDX, RA, RN, DD, DDX, TDD, TDDX, WD, WRD3",
+            sire: "CH Powder Ridge's Dreams Come True",
+            dam: "Old Bay's Seasoned With Spice ROM",
             dob: "06/01/2014",
             neutered: true,
             rip: "",
-            owner: "Mollie Standish & Carlton Standish",
+            owner: "Christie Smith",
             aka: "",
-            lives: "Mollie Standish & Carlton Standish",
+            lives: "Christie",
             health: "",
             image: "",
             Titles: [
@@ -1492,7 +1993,7 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 47,
             call: "Annie",
             toptwenty: "",
             rom: false,
@@ -1501,14 +2002,14 @@ const initState = {
             stud: false,
             sex: "female",
             name: "Old Bay's Brewed To Perfection RN",
-            sire: "CH Top Shelf Troubles A Brewin",
-            dam: "CH Top Shelf Spiced With Old Bay",
+            sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
             dob: "12/03/2008",
             neutered: false,
             rip: "",
             owner: "Jaclyn Lobur & Rose Miller & Cindy Flowers",
             aka: "",
-            lives: "Jaclyn Lobur & Rose Miller & Cindy Flowers",
+            lives: "Jaclyn Lobur",
             health: "",
             image: "",
             Titles: [
@@ -1520,16 +2021,17 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 48,
             call: "Tiffany",
             toptwenty: "",
             rom: false,
             vn: false,
             ours: false,
+            coown: true,
             stud: false,
             sex: "female",
             name: "CH Old Bay's Charming Gift",
-            sire: "CH Old Bay's Let's Get Sirius",
+            sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
             dam: "CH Old Bay's Please Don't Squeeze The Charm'n",
             dob: "12/05/2013",
             neutered: false,
@@ -1548,17 +2050,18 @@ const initState = {
             ],
         },
         {
-            id: 32,
+            id: 49,
             call: "Luke",
             toptwenty: "",
             rom: false,
             vn: false,
+            coown: true,
             ours: false,
             stud: false,
             sex: "female",
             name: "GCH Old Bay's Cool Hand Luke At Belle Harbour",
             sire: "Muddy Creek's Carson",
-            dam: "CH Old Bay's Hellfrozover Topshelf",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
             dob: "06/09/2009",
             neutered: false,
             rip: "",
@@ -1580,6 +2083,1580 @@ const initState = {
                   }
             ],
         },
+        {
+            id: 50,
+            call: "Jayne",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "Old Bay's Finest Hour THD",
+            sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+            dob: "12/03/2008",
+            neutered: false,
+            rip: "",
+            owner: "Bruce Thaeler & Marty Thaeler",
+            aka: "",
+            lives: " Bruce Thaeler & Marty Thaeler",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "THD",
+                    "date": "03/10/2012",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 51,
+            call: "Evan",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "Old Bay's Fur Heaven's Sake CGCA",
+            sire: "GCHS Sunvalley's Its As Simple As Abc ROM",
+            dam: "CH Old Bay's Raging Infurno",
+            dob: "04/17/2014",
+            neutered: true,
+            rip: "",
+            owner: "Sherry Schaech & Charles Schaech",
+            aka: "",
+            lives: "Sherry Schaech & Charles Schaech",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CGC",
+                    "date": "10/03/2015",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CGCA",
+                    "date": "09/30/2017",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 52,
+            call: "Snickers",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Fursnickity",
+            sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+            dam: "GCH Old Bay's Lucy Fur ROM",
+            dob: "12/09/2012",
+            neutered: true,
+            rip: "",
+            owner: "Kathleen Hamilton & Cindy Flowers",
+            aka: "",
+            lives: "Cheryl Bandel Wingate",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "06/08/2014",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 53,
+            call: "Allie",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "female",
+            name: "GCH Old Bay's Get My Drift At Powder Ridge",
+            sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+            dob: "04/10/2008",
+            neutered: true,
+            rip: "",
+            owner: "Julia Sharkey & Donald Sharkeys",
+            aka: "",
+            lives: "Julia Sharkey & Donald Sharkey",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "01/21/2011",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "07/05/2013",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 54,
+            call: "Max",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Good To The Last Drop",
+            sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+            dam: "GCH Old Bay's Lucy Fur ROM",
+            dob: "02/04/2015",
+            neutered: true,
+            rip: "",
+            owner: "Jeffrey Totten & Jane Totten",
+            aka: "",
+            lives: "Jeffrey Totten & Jane Totten",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "05/22/2016",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 55,
+            call: "Canyon",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Grand Canyon",
+            sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+            dob: "04/10/2008",
+            neutered: true,
+            rip: "",
+            owner: "Linda Boswell & Raymond Boswell",
+            aka: "",
+            lives: "Linda Boswell & Raymond Boswell",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "01/16/2010",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 56,
+            call: "Hagrid",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            coown: true,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "Old Bay's Hagrid Keeper Of Magical Creatures CGC",
+            sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+            dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
+            dob: "09/06/2011",
+            neutered: true,
+            rip: "",
+            owner: "Mollie Standish & Cindy Flowers",
+            aka: "",
+            lives: "Mollie Standish",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CGC",
+                    "date": "10/28/2013",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 57,
+            call: "Maggie",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "female",
+            name: "CH Old Bay's Handful Of Magic Sparkles",
+            sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+            dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
+            dob: "09/06/2011",
+            neutered: true,
+            rip: "",
+            owner: "Karen Steinrock & Cindy Flowers",
+            aka: "",
+            lives: "Karen Steinrock",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "11/23/2013",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 58,
+            call: "Heffalump",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "Old Bay's Helpful Fun-Loving Marine Panda CGC",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+            dam: "CH Waterford Frontpage'",
+            dob: "10/26/2010",
+            neutered: true,
+            rip: "",
+            owner: "Ms. Marisol Ravicz & Rev. David Wayne Rapier",
+            aka: "",
+            lives: "Ms. Marisol Ravicz & Rev. David Wayne Rapier",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CGC",
+                    "date": "02/24/2013",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 59,
+            call: "Atlas",
+            toptwenty: "",
+            rom: false,
+            vn: true,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "VN Old Bay's Here At Last CD, DD, WRD",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+            dam: "CH Waterford Frontpage'",
+            dob: "10/26/2010",
+            neutered: true,
+            rip: "",
+            owner: "Karin M Bystol & Cindy Flowers & Adam Bystol",
+            aka: "",
+            lives: "Karin and Adam",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "VN",
+                    "date": "04/29/2016",
+                    "org": "AKC"
+                  },
+                {
+                    "title": "CD",
+                    "date": "04/29/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "07/07/2013",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "05/04/2014",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "09/11/2011",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "09/08/2013",
+                    "org": "NCA"
+                  }
+            ],
+        },
+        {
+            id: 60,
+            call: "Jet",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's It's Night Before It's Afternoon",
+            sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
+            dam: "CH Old Bay's Raging Infurno",
+            dob: "10/26/2010",
+            neutered: true,
+            rip: "",
+            owner: "Lezli Alford & Cindy Flowers & Bennett Alford",
+            aka: "",
+            lives: "Lezli Alford & Bennett Alford",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "04/15/2016",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 61,
+            call: "Justin",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "Old Bay's Just Like Heaven@Mystic Ridge CGC",
+            sire: "GCHS Sunvalley's Its As Simple As Abc ROM",
+            dam: "CH Old Bay's Raging Infurno",
+            dob: "10/26/2010",
+            neutered: true,
+            rip: "",
+            owner: "Dorothy E Rich",
+            aka: "",
+            lives: "Dorothy E Rich",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "GCG",
+                    "date": "09/09/2016",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 62,
+            call: "Tate",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Lead Me To Temptation",
+            sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+            dam: "GCH Old Bay's Lucy Fur ROM",
+            dob: "12/09/2012",
+            neutered: true,
+            rip: "",
+            owner: "Karen Steinrock & Cindy Flowers",
+            aka: "",
+            lives: "Karen Steinrock",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "10/25/2014",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 63,
+            call: "Gracie",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "female",
+            name: "GCH Old Bay's Maroon And Gold Graceful Northern Star BN, CD, CGC, TKN",
+            sire: "CH Old Bay's Lead Me To Temptation",
+            dam: "Old Bay's Seasoned With Spice ROM",
+            dob: "12/09/2012",
+            neutered: true,
+            rip: "",
+            owner: "Mary Jeanne Levitt & Cindy Flowers & Laci Peterson",
+            aka: "",
+            lives: "Mary Jeanne",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "BN",
+                    "date": "04/30/2019",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CD",
+                    "date": "05/01/2019",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CGC",
+                    "date": "11/04/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "12/16/2017",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "01/06/2019",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "TKN",
+                    "date": "06/03/2019",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 64,
+            call: "Muddy",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Muddy Waters",
+            sire: "	Muddy Creek's Carson",
+            dam: "CH Top Shelfs Cosmopolitan",
+            dob: "12/09/2012",
+            neutered: true,
+            rip: "",
+            owner: "Kara Osborne & Cindy Flowers & Bill Osborne",
+            aka: "",
+            lives: "Kara & Bill",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "10/18/2010",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 65,
+            call: "Cosmo",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: true,
+            stud: false,
+            sex: "female",
+            name: "CH Top Shelfs Cosmopolitan",
+            sire: "CH Top Shelf's On The Rocks ROM",
+            dam: "CH Top Shelfs Wild Night Out ROM",
+            dob: "12/09/2012",
+            neutered: true,
+            rip: "10/9/2016",
+            owner: "Cindy Flowers",
+            aka: "",
+            lives: "Cindy",
+            health: "",
+            image: require('../../images/info/Cosmo.jpg'),
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "01/06/2008",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 66,
+            call: "Fred",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Oahu Astaire N At",
+            sire: "CH Topshelfs Israel Kamakawiwoole",
+            dam: "Old Bay's Seasoned With Spice ROM",
+            dob: "12/09/2012",
+            neutered: true,
+            rip: "",
+            owner: "Cindy Flowers & Kathy Hamilton & John Flowers",
+            aka: "",
+            lives: "Palidino's",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "03/16/2014",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 67,
+            call: "Parker",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Paniolo Bruddah At Ohana",
+            sire: "CH Topshelfs Israel Kamakawiwoole",
+            dam: "Old Bay's Seasoned With Spice ROM",
+            dob: "12/09/2012",
+            neutered: true,
+            rip: "",
+            owner: "Vic Strunk & Cindy Flowers & Candi Strunk",
+            aka: "",
+            lives: "Vic & Candi",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "05/24/2015",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "08/09/2014",
+                    "org": "NCA"
+                  }
+            ],
+        },
+        {
+            id: 68,
+            call: "Charm",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "female",
+            name: "GCH Old Bay's Please Don't Squeeze The Charm'n",
+            sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+            dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
+            dob: "09/06/2011",
+            neutered: true,
+            rip: "",
+            owner: "Cindy Flowers & John Flowers & Rosemary S Miller",
+            aka: "",
+            lives: "Nancy Beres",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "01/18/2013",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "08/02/2013",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 70,
+            call: "Potter",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+            sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+            dob: "04/10/2008",
+            neutered: true,
+            rip: "",
+            owner: "CAROL STULTZ & Kathy Hamilton & Cindy Flowers & DANIEL STULTZ",
+            aka: "",
+            lives: "Carol & Dan",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "BN",
+                    "date": "04/22/2013",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CD",
+                    "date": "03/20/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CGC",
+                    "date": "06/04/2014",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "03/15/2009",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "11/28/2010",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RA",
+                    "date": "04/20/2014",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RN",
+                    "date": "04/23/2012",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 71,
+            call: "Hank",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Potters Friend Hank",
+            sire: "GCHS Sunvalley's Its As Simple As Abc ROM",
+            dam: "CH Old Bay's Raging Infurno",
+            dob: "04/10/2008",
+            neutered: true,
+            rip: "",
+            owner: "Carol Dan & Sandy Stultz & Cindy Flowers",
+            aka: "",
+            lives: "Carol & Sandy",
+            health: "",
+            image: "",
+            Titles: [
+                  {
+                    "title": "CH",
+                    "date": "10/14/2016",
+                    "org": "AKC"
+                  },
+
+            ],
+        },
+        {
+            id: 72,
+            call: "Raven",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "female",
+            name: "CH Old Bay's Raven Evermore",
+            sire: "CH Allegiance Rock The Boat Oldbay",
+            dam: "CH Waterford Frontpage",
+            dob: "01/08/2010",
+            neutered: true,
+            rip: "",
+            owner: "Sandra Strassman-Sundy & Cindy Flowers",
+            aka: "",
+            lives: "Sandra",
+            health: "",
+            image: "",
+            Titles: [
+                  {
+                    "title": "CH",
+                    "date": "07/04/2013",
+                    "org": "AKC"
+                  },
+
+            ],
+        },
+        {
+            id: 73,
+            call: "Ruby",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "female",
+            name: "CH Old Bay's Raven Evermore",
+            sire: "CH Topshelfs Israel Kamakawiwoole",
+            dam: "Old Bay's Seasoned With Spice ROM",
+            dob: "05/12/2013",
+            neutered: true,
+            rip: "",
+            owner: "Caollyn Malinowski & Cindy Flowers",
+            aka: "",
+            lives: "Caollyn",
+            health: "",
+            image: "",
+            Titles: [
+                  {
+                    "title": "CH",
+                    "date": "01/13/2016",
+                    "org": "AKC"
+                  },
+
+            ],
+        },
+        {
+            id: 74,
+            call: "Nutmeg",
+            toptwenty: "",
+            rom: true,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "female",
+            name: "Old Bay's Seasoned With Spice ROM",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+            dob: "December 25, 2010",
+            neutered: true,
+            rip: "",
+            owner: "Sue Faulkner & Cindy Flowers",
+            aka: "",
+            lives: "Sue",
+            health: "",
+            image: require('../../images/info/Nutmeg.jpg'),
+            Titles: [
+                  {
+                    "title": "Register of Merit",
+                    "date": "12/31/2016",
+                    "org": "NCA"
+                  },
+
+            ],
+        },
+        {
+            id: 76,
+            call: "Sailor",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "GCH Old Bay's Son Of The Sea",
+            sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+            dam: "GCH Old Bay's Lucy Fur ROM",
+            dob: "02/04/2015",
+            neutered: true,
+            rip: "",
+            owner: "Cindy Flowers & Kathy Hamilton",
+            aka: "",
+            lives: "Cindy",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "04/01/2017",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "09/23/2017",
+                    "org": "AKC"
+                  }
+
+            ],
+        },
+        {
+            id: 77,
+            call: "Cayenne",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "female",
+            name: "CH OLD BAY'S SPICIN' IT UP AT BLUWATER",
+            sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+            dam: "GCH Old Bay's Lucy Fur ROM",
+            dob: "02/04/2015",
+            neutered: false,
+            rip: "",
+            owner: "Joan Locker-Thuring & Cindy Flowers & Tom Locker-Thuring",
+            aka: "",
+            lives: "Joan & Tom",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "10/20/2017",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 78,
+            call: "Obi",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            coown: true,
+            ours: false,
+            stud: false,
+            sex: "female",
+            name: "CH Old Bay's The Force Is Strong At Dreamhaven CGC",
+            sire: "CH Goldcoast's Keeper Of The Watch",
+            dam: "GCH Old Bay's Snowball's Chance CD",
+            dob: "07/29/2017",
+            neutered: false,
+            rip: "",
+            owner: "Karin Bystol & Cindy Flowers & Andrea Jung",
+            aka: "",
+            lives: "Karin & Adam",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CGC",
+                    "date": "05/03/2019",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "10/27/2018",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 79,
+            call: "Dory",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "GCH Old Bay's Theodorable Spicy Altatude BN, CD, RA, RN, DD, WD",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+            dob: "12/25/2010",
+            neutered: false,
+            rip: "",
+            owner: "Stephanie Magid & Cindy Flowers",
+            aka: "",
+            lives: "Stephanie",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "BN",
+                    "date": "01/18/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CD",
+                    "date": "08/19/2017",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "09/21/2014",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "08/18/2018",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RA",
+                    "date": "05/04/2019",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "RN",
+                    "date": "05/05/2012",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "02/21/2015",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "09/16/2016",
+                    "org": "NCA"
+                  }
+            ],
+        },
+        {
+            id: 80,
+            call: "Sophie",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "female",
+            name: "GCH Old Bays Voyage To Nitestar BN, CGC, CGCA, TKI, TKN, DD, WD",
+            sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+            dam: "GCH Old Bay's Lucy Fur ROM",
+            dob: "12/09/2012",
+            neutered: true,
+            rip: "",
+            owner: "Perri Graf",
+            aka: "",
+            lives: "Perri",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "BN",
+                    "date": "04/04/2015",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CGC",
+                    "date": "06/24/2014",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CGCA",
+                    "date": "05/28/2016",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "01/04/2015",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "GCH",
+                    "date": "07/31/2015",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "TKI",
+                    "date": "07/12/2018",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "TKN",
+                    "date": "07/11/2018",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "11/04/2018",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "08/08/2015",
+                    "org": "NCA"
+                  }
+            ],
+        },
+        {
+            id: 81,
+            call: "Smudge",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay Nightwatch",
+            sire: "Peter Kagan Of Pouch Cove",
+            dam: "Spillway Enuf-M-Ocean",
+            dob: "01/02/1990",
+            neutered: true,
+            rip: "",
+            owner: "Jill M Smithson",
+            aka: "",
+            lives: "Jill",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "05/17/1992",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 82,
+            call: "Finn",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "Sun Valley's Swimming With Finns In Old Bay CGC",
+            sire: "GCHB Old Bay's Perfect Timing",
+            dam: "GCHB Old Bay's Keep It Simple ROM",
+            dob: "06/23/2017",
+            neutered: true,
+            rip: "",
+            owner: " Dr. Lori Siracuse-Parker",
+            aka: "",
+            lives: "Lori",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CGC",
+                    "date": "11/12/2018",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 83,
+            call: "Annie",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Annie Of Fairview CD",
+            sire: "Peter Kagan Of Pouch Cove",
+            dam: "Spillway Enuf-M-Ocean",
+            dob: "02/19/1989",
+            neutered: true,
+            rip: "",
+            owner: "Arlene J Dodson & Kathleen Hamilton",
+            aka: "",
+            lives: "Arlene",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CD",
+                    "date": "04/24/1994",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "02/15/1992",
+                    "org": "AKC"
+                  }
+            ],
+        },
+        {
+            id: 84,
+            call: "Chimp",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "female",
+            name: "Old Bay's Atlanta's Burning CD",
+            sire: "Sherwoods Rosh Of Newton-Ark",
+            dam: "Old Bay's Georgia On My Mind",
+            dob: "	08/11/1993",
+            neutered: true,
+            rip: "",
+            owner: "Kathleen Hamilton & Pat Tilson",
+            aka: "",
+            lives: "Kathy & Pat",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CD",
+                    "date": "05/03/2000",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 85,
+            call: "Bearie",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: true,
+            stud: false,
+            sex: "female",
+            name: "CH Old Bay's Bear Essentials",
+            sire: "Peter Kagan Of Pouch Cove",
+            dam: "Spillway Enuf-M-Ocean",
+            dob: "	08/11/1993",
+            neutered: true,
+            rip: "11/02/2003",
+            owner: "Kathleen Hamilton",
+            aka: "",
+            lives: "Kathy",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "11/04/1990",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 86,
+            call: "Charlotte",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "female",
+            name: "CH Old Bay's Charlotte Amalie",
+            sire: "Peppertree's Gem Of Abbyacre",
+            dam: "Muddy Creeks Savannah",
+            dob: "08/11/1993",
+            neutered: true,
+            rip: "",
+            owner: "Margaret A & Kenneth I Speth",
+            aka: "",
+            lives: "Margie & Kenny",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "05/22/1994",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 87,
+            call: "Gambler",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "Old Bay's Gambling Man CD",
+            sire: "Topmast's Muddy Creek Crocker",
+            dam: "Muddy Creeks Savannah",
+            dob: "04/05/1988",
+            neutered: true,
+            rip: "",
+            owner: "Louie Mays",
+            aka: "",
+            lives: "Louie",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CD",
+                    "date": "04/18/1990",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 88,
+            call: "Louie",
+            toptwenty: "",
+            rom: false,
+            vn: true,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "VN CH Old Bay's Never Enuf-M-Ocean CD, DD, WRD",
+            sire: "Pouch Cove Muddycreek Chance",
+            dam: "Spillway Enuf-M-Ocean",
+            dob: "	08/11/1993",
+            neutered: true,
+            rip: "",
+            owner: "Trish Castell",
+            aka: "",
+            lives: "Trish",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "VN - Versitile Newfoundland",
+                    "date": "10/23/1993",
+                    "org": "NCA"
+                  },
+                {
+                    "title": "CD",
+                    "date": "03/25/1993",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "10/23/1993",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "10/23/1993",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "10/23/1993",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "10/23/1993",
+                    "org": "NCA"
+                  }
+            ],
+        },
+        {
+            id: 89,
+            call: "Carrie",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: true,
+            stud: false,
+            sex: "female",
+            name: "CH Old Bay's On A Carousel",
+            sire: "Benhil's Stillwater Gulliverr",
+            dam: "Old Bay's Bear Essentials",
+            dob: "09/25/1991",
+            neutered: true,
+            rip: "09/25/2001",
+            owner: "Kathleen M Hamilton",
+            aka: "",
+            lives: "Kathy",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "07/03/1993",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 90,
+            call: "Henry",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: true,
+            stud: false,
+            sex: "male",
+            name: "CH Old Bay's Rorshack",
+            sire: "Topmast's Muddy Creek Crocker",
+            dam: "Muddy Creeks Savannah",
+            dob: "04/05/1988",
+            neutered: true,
+            rip: "09/25/2000",
+            owner: "Kathleen M Hamilton",
+            aka: "",
+            lives: "Kathy",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "03/08/1992",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 91,
+            call: "Chaser",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "female",
+            name: "CH Old Bay's Seabreeze Chaser",
+            sire: "Benhil's Stillwater Gulliver",
+            dam: "Old Bay's Bear Essentials",
+            dob: "04/05/1988",
+            neutered: true,
+            rip: "",
+            owner: "Pat Tilson",
+            aka: "",
+            lives: "Pat",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "11/06/1994",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 92,
+            call: "Mischief",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "female",
+            name: "CH Old Bay's Start Of Mischief CD",
+            sire: "Benhil's Stillwater Gulliver",
+            dam: "Old Bay's Bear Essentials",
+            dob: "04/05/1988",
+            neutered: true,
+            rip: "",
+            owner: "Cheryl Reed",
+            aka: "",
+            lives: "Cheryl",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CH",
+                    "date": "12/18/1994",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CD",
+                    "date": "12/11/1994",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 93,
+            call: "Bacardi",
+            toptwenty: "",
+            rom: false,
+            vn: true,
+            ours: false,
+            stud: false,
+            sex: "female",
+            name: "VN CH Old Bays Bacardi Of Top Shelf CD, CDX, DD, TDD, WD, WRD",
+            sire: "Pouch Cove's All American Amity",
+            dam: "Old Bay's Bear Essentials",
+            dob: "06/14/1993",
+            neutered: true,
+            rip: "",
+            owner: "Debra Wigal",
+            aka: "",
+            lives: "Debra",
+            health: "",
+            image: "",
+            Titles: [
+                {
+                    "title": "CD",
+                    "date": "07/16/1994",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CDX",
+                    "date": "12/01/1996",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "CH",
+                    "date": "01/21/1996",
+                    "org": "AKC"
+                  },
+                  {
+                    "title": "Can. CH",
+                    "date": "01/21/1996",
+                    "org": "CKC"
+                  },
+                  {
+                    "title": "DD",
+                    "date": "03/25/1997",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "TDD",
+                    "date": "10/10/1999",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "TDD",
+                    "date": "04/09/2000",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WD",
+                    "date": "09/07/1997",
+                    "org": "NCA"
+                  },
+                  {
+                    "title": "WRD",
+                    "date": "09/07/1997",
+                    "org": "NCA"
+                  }
+            ],
+        },
+        {
+            id: 94,
+            call: "Bret",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "Old Bays Bret Harte CD",
+            sire: "Muddycrk Miles Of Sunvalley",
+            dam: "Muddycreek Old Bays Moonbeam",
+            dob: "11/04/1997",
+            neutered: true,
+            rip: "",
+            owner: "Dr. Lawrence S Lerner & Dr. Narcinda R Lerner",
+            aka: "",
+            lives: "Dr. Lawrence S Lerner & Dr. Narcinda R Lerner",
+            health: "",
+            image: "",
+            Titles: [
+                  {
+                    "title": "CD",
+                    "date": "08/19/2000",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 95,
+            call: "Bentley",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            stud: false,
+            sex: "male",
+            name: "CH Sir Bentley Of Old Bay",
+            sire: "Pouch Cove's Statesman",
+            dam: "Old Bay's On A Carousel",
+            dob: "11/02/1993",
+            neutered: true,
+            rip: "",
+            owner: "Steven & Mary Stein",
+            aka: "",
+            lives: "Steven",
+            health: "",
+            image: "",
+            Titles: [
+                  {
+                    "title": "CH",
+                    "date": "02/17/1996",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 96,
+            call: "Tai-Tai",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: true,
+            stud: false,
+            sex: "male",
+            name: "CH Top Shelf Mai-Tai Of Old Bay",
+            sire: "Blackstone's Percyful James",
+            dam: "Old Bays Bacardi Of Top Shelf",
+            dob: "11/02/1993",
+            neutered: true,
+            rip: "11/02/2003",
+            owner: "Kathleen Hamilton & Pat Tilson",
+            aka: "",
+            lives: "Kathy & Pat",
+            health: "",
+            image: "",
+            Titles: [
+                  {
+                    "title": "CH",
+                    "date": "02/20/2000",
+                    "org": "AKC"
+                  },
+            ],
+        },
+        {
+            id: 97,
+            call: "Mason",
+            toptwenty: "",
+            rom: false,
+            vn: false,
+            ours: false,
+            coown: true,
+            stud: false,
+            sex: "male",
+            name: "CH Allegiance Carved N Stone Oldbay",
+            sire: "CH Top Shelf's On The Rocks ROM",
+            dam: "CH Darbydales Zoo Two",
+            dob: "	09/14/2006",
+            neutered: true,
+            rip: "",
+            owner: "Kathleen Hamilton",
+            aka: "",
+            lives: "Jim",
+            health: "",
+            image: "",
+            Titles: [
+                  {
+                    "title": "CH",
+                    "date": "07/06/2008",
+                    "org": "AKC"
+                  },
+            ],
+        }
     ],
     litters: [
         {
@@ -1657,7 +3734,7 @@ const initState = {
             parents: "Rolex and Kiss",
             breeders: "Sunvalley Newfs - Lou Ann Lenner and Cindy Flowers",
             sire: "GCHB Old Bay's Perfect Timing",
-            dam: "GCHB Old Bay's Keep It Simple",
+            dam: "GCHB Old Bay's Keep It Simple ROM",
             dob: "January 11, 2018",
             boys: 7,
             girls: 3,
@@ -1672,7 +3749,7 @@ const initState = {
             id: 6,
             parents: "Sirius and Raisin",
             breeders: "Kathy Hamilton and Cindy Flowers",
-            sire: "GCH Old Bay's Let's Get Sirius (HE/L/P/HrC/Cn/Cerf/DNC)",
+            sire: "GCH Old Bay's Let's Get Sirius CGC, TDI (HE/L/P/HrC/Cn/Cerf/DNC)",
             dam: "CH Old Bay's Ragin' Infurno  (HG/L/HrC/P/DNA)",
             dob: "February 24, 2014",
             boys: 3,
@@ -1732,7 +3809,7 @@ const initState = {
             id: 9,
             parents: "Todd and Charm",
             breeders: "Cindy and John Flowers and Rose Miller",
-            sire: "GCH Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
+            sire: "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
             dam: "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA)",
             dob: "November 25, 2014",
             boys: 3,
@@ -1766,7 +3843,7 @@ const initState = {
             id: 11,
             parents: "Raisin and Todd",
             breeders: "Kathy Hamilton and John Borklund and Cindy Flowers",
-            sire: "G.Ch. Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
+            sire: "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
             dam: "CH Old Bay's Ragin' Infurno (HG/L/HrC/P/DNA)",
             dob: "April 17, 2014",
             boys: 4,
@@ -1784,7 +3861,7 @@ const initState = {
             id: 12,
             parents: "Charm and Sirius",
             breeders: "Cindy and John Flowers and Rose Miller",
-            sire: "CH Old Bay's Let's Get Sirius",
+            sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
             dam: "GCH CH Old Bay's Please Don't Squeeze The Charm'n ",
             dob: "December 5, 2013",
             boys: 1,
@@ -1801,7 +3878,7 @@ const initState = {
             parents: "Miss Flash and Atlas",
             breeders: "Celtic Cross - Rose Miller and Cindy Flowers and Barbara Plasse",
             sire: "CH Old Bay's Here At Last, WRD",
-            dam: "Celtic Cross Mischief Managed At Old Bay, RN",
+            dam: "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
             dob: "October 17, 2013",
             boys: 1,
             girls: 2,
@@ -1833,7 +3910,7 @@ const initState = {
             id: 15,
             parents: "Lucy and Bravo",
             breeders: " Kathy Hamilton and Cindy Flowers",
-            sire: "GCH CH Bear N Mind's Stand Up and Cheer",
+            sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
             dam: "GCH CH Old Bay's Lucy Fur ",
             dob: "December 9, 2012",
             boys: 5,
@@ -1853,7 +3930,7 @@ const initState = {
             parents: "Lucy and Mick",
             breeders: "Kathy Hamilton and John Borkland and Cindy Flowers",
             sire: "Ch. Cypress Bay Imat Cornerbrook CGC, TDI",
-            dam: "CH Old Bay's Lucy Fur ",
+            dam: "GCH Old Bay's Lucy Fur ROM ",
             dob: "September 10, 2011",
             boys: 2,
             girls: 6,
@@ -1867,8 +3944,8 @@ const initState = {
             id: 17,
             parents: "Sparkle and Potter",
             breeders: "Cindy and John Flowers and Rose Miller",
-            sire: "GCH Old Bay's 'Potter As In Harry'",
-            dam: "CH Old Bay's Sparks Are Flyin', RN",
+            sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA'",
+            dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
             dob: "September 6, 2011",
             boys: 4,
             girls: 8,
@@ -1892,7 +3969,7 @@ const initState = {
             id: 18,
             parents: "Allie x Lincoln",
             breeders: "Powder Ridge Newfs - Julia and Don Sharkey and Kathy Hamilton",
-            sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND",
+            sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND ROM",
             dam: "CH Old Bay Get My Drift At Powder Ridge  ",
             dob: "June 24, 2011",
             boys: 6,
@@ -1907,8 +3984,8 @@ const initState = {
             id: 19,
             parents: "Spice and Travis",
             breeders: "Cindy and John Flowers",
-            sire: "CH Bear N Mind's Maritime Traveler",
-            dam: "GCH Top Shelf Spiced With Old Bay, NJP ",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
             dob: "December 25, 2010",
             boys: 4,
             girls: 4,
@@ -1929,7 +4006,7 @@ const initState = {
             id: 20,
             parents: "Pharrah and Travis",
             breeders: "Cindy Flowers and Dirk Daelmans",
-            sire: "CH Bear N Mind's Maritime Traveler, CD",
+            sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
             dam: "CH Waterford FrontPage",
             dob: "October 26, 2010",
             boys: 4,
@@ -1949,7 +4026,7 @@ const initState = {
             parents: "Chilly and Jimmy",
             breeders: "Kathy Hamilton and Cindy Flowers",
             sire: "Select Ch Council Cup's Star of Kodiak Acres RN DD CGC TDI",
-            dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
             dob: "April 10, 2010",
             boys: 1,
             girls: 0,
@@ -2001,7 +4078,7 @@ const initState = {
             parents: "Chilly and Carson",
             breeders: "Kathy Hamilton and Cindy Flowers",
             sire: "Muddy Creek's Carson",
-            dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
             dob: "June 9, 2009",
             boys: 2,
             girls: 1,
@@ -2017,11 +4094,11 @@ const initState = {
             id: 25,
             parents: "Spice and Bruce",
             breeders: "John and Cindy Flowers",
-            sire: "CH Top Shelf's Troubles A Brewin, DD",
-            dam: "GCH TOP SHELF SPICED WITH OLD BAY, NJP",
+            sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
             dob: "December 3, 2008",
-            boys: 6,
-            girls: 1,
+            boys: 5,
+            girls: 2,
             puppies: [
                 "Annie","Cormack","Jayne","Maximus","Mickey","Nanaimo","Sparkle"
             ],
@@ -2033,7 +4110,7 @@ const initState = {
             parents: "Chilly and Christopher",
             breeders: "Kathy Hamilton and Cindy Flowers",
             sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
-            dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ",
+            dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
             dob: "April 10, 2008",
             boys: 4,
             girls: 1,
@@ -2047,8 +4124,8 @@ const initState = {
             id: 27,
             parents: "Spice and Lincoln",
             breeders: "John and Cindy Flowers",
-            sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND",
-            dam: "GCH TOP SHELF SPICED WITH OLD BAY, NJP",
+            sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND ROM",
+            dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
             dob: "March 10, 2008",
             boys: 0,
             girls: 1,
@@ -2092,249 +4169,1332 @@ const initState = {
             damimg: require('../../images/litters/Daisy.jpg'),
         }
     ],
-    awards: [{
-        year: 2019,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [
-            {
-                call: "Kindle",
-                title: "CH",
-                date: "10-20-2019"
-            },
-            {
-                call: "Gracie",
-                title: "GCH",
-                date: "01-06-2019"
-            }           
-
-        ],
-        working: [
-        ],
-    },
-    {
-        year: 2018,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [
-            {
-                call: "Flash",
-                title: "GCHS",
-                date: "04-07-2018"
-            }, 
-            {
-                call: "Snowball",
-                title: "GCH",
-                date: "04-07-2018"
-            }, 
-            {
-                call: "Dory",
-                title: "GCHS",
-                date: "08-18-2018"
-            },        
-
-        ],
-        working: [
-        ],
-    },
-    {
-        year: 2017,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [
-            {
-                call: "Sailor",
-                title: "GCH",
-                date: "09-23-2017"
-            }, 
-          
-        ],
-        working: [
-        ],
-    },
-    {
-        year: 2016,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [
-            {
-                call: "Rolex",
-                title: "GCHB",
-                date: "05-21-2016"
-            }, 
-            {
-                call: "Kiss",
-                title: "GCHB",
-                date: "10-30-2016"
-            },           
-        ],
-        working: [
-        ],
-    },
-    {
-        year: 2015,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [
-            {
-                call: "Sophie",
-                title: "GCH",
-                date: "07-31-2015"
-            },           
-        ],
-        working: [
-        ],
-    },
-    {
-        year: 2014,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [
-            {
-                call: "Sirius",
-                title: "GCH",
-                date: "01-17-2014"
-            }, 
-            {
-                call: "Luke",
-                title: "GCH",
-                date: "10-24-2014"
-            }, 
-            {
-                call: "Emma",
-                title: "GCH",
-                date: "10-25-2014"
-            },           
-        ],
-        working: [
-        ],
-    },
-    {
-        year: 2013,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [
-            {
-                call: "Allie",
-                title: "GCH",
-                date: "07-05-2013"
-            }, 
-            {
-                call: "Charm",
-                title: "GCH",
-                date: "08-02-2013"
-            },           
-        ],
-        working: [
-        ],
-    },
-    {
-        year: 2012,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [
-            {
-                call: "Lucy",
-                title: "GCH",
-                date: "07-07-2012"
-            }, 
-            {
-                call: "Charm",
-                title: "GCH",
-                date: "08-02-2013"
-            },           
-        ],
-        working: [
-        ],
-    },
-    {
-        year: 2011,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [           
-        ],
-        working: [
-        ],
-    },
-    {
-        year: 2010,
-        specialties: [
-        ],
-        toptwenty: [
-        ],
-        rom: [
-        ],
-        vn: [
-        ],
-        champions: [
-            {
-                call: "Spice",
-                title: "GCH",
-                date: "07-17-2010"
-            }, 
-            {
-                call: "Potter",
-                title: "GCH",
-                date: "11-28-2010"
-            },           
-        ],
-        working: [
-        ],
-    }]
+    awards: [
+      {
+        award: "Award of Merit",
+        show: "AKC Royal Canin Show",
+        date: "December 15, 2019",  
+        dog: "Flash",
+      },
+      {
+        award: "Best of Winners, 1st 12-18 dog",
+        show: " AKC Royal Canin Show",
+        date: "December 15, 2019",  
+        dog: "Nash",
+      },
+      {
+        award: "Best Newf Puppy",
+        show: "Central Florida Working Group",
+        date: "December 13, 2019",  
+        dog: "Nash",
+      },
+      ,
+      {
+        award: "Best of Breed",
+        show: "Central Florida Working Group",
+        date: "December 13, 2019",  
+        dog: "Flash",
+      },
+      {
+        award: "Best of Winners",
+        show: "Central Florida Working Group",
+        date: "December 13, 2019",  
+        dog: "Nash",
+      },
+      {
+        award: "BOS",
+        show: "CNC Regional",
+        date: "October 27, 2019",  
+        dog: "Kindle",
+      },
+      {
+        award: "RWB, 1st 9-12 bitch",
+        show: "CNC Regional",
+        date: "October 27, 2019",  
+        dog: "Cricket",
+      },
+      {
+        award: "Best in Sweepstakes",
+        show: "CNC Regional",
+        date: "October 27, 2019",  
+        dog: "Kindle",
+      },
+      {
+        award: "Winners Bitch, 1st 9-12 bitch",
+        show: "CNC Regional",
+        date: "October 26, 2019",  
+        dog: "Kindle",
+      },
+      {
+        award: "2nd 9-12 bitch",
+        show: "CNC Regional",
+        date: "October 26, 2019",  
+        dog: "Cricket",
+      },
+      {
+        award: "Best in Sweepstakes",
+        show: "CNC Regional",
+        date: "October 26, 2019",  
+        dog: "Kindle",
+      },
+      {
+        award: "Best in Sweepstakes",
+        show: "CNC Supported Entry",
+        date: "October 25, 2019",  
+        dog: "Kindle",
+      },
+      {
+        award: "BOS",
+        show: "SENC Regional",
+        date: "July 27, 2019",  
+        dog: "Flash",
+      },
+      {
+        award: "BOB",
+        show: "SENC Regional",
+        date: "July 27, 2019",  
+        dog: "Flash",
+      },
+      {
+        award: "2nd Brood Bitch",
+        show: "National",
+        date: "May 3, 2019",  
+        dog: "Snowball",
+      },
+      {
+        award: "Best Baby Puppy",
+        show: "National",
+        date: "April 30, 2019",  
+        dog: "Kindle",
+      },
+      {
+        award: "Best Baby Puppy",
+        show: "National",
+        date: "April 30, 2019",  
+        dog: "Kindle",
+      },
+      {
+        award: "Best Opposite Sex Baby Puppy",
+        show: "National",
+        date: "April 30, 2019",  
+        dog: "Nash",
+      },
+      {
+        award: "2nd Beginner Novice A",
+        show: "National",
+        date: "April 30, 2019",  
+        dog: "Gracie",
+      },
+      {
+        award: "2nd Novice A",
+        show: "National",
+        date: "April 30, 2019",  
+        dog: "Gracie",
+      },
+      {
+        award: "3rd Novice A",
+        show: "National",
+        date: "May 1, 2019",  
+        dog: "Gracie",
+      },
+      {
+        award: "1st Beginner Novice A",
+        show: "National",
+        date: "May 1, 2019",  
+        dog: "Gracie",
+      },
+      {
+        award: "BOS",
+        show: "NewPenDel Regional",
+        date: "March 16, 2019",  
+        dog: "Flash",
+      },
+      {
+        award: "Best Opposite Sex Sweepstakes, 14 months old",
+        show: "NewPenDel Regional",
+        date: "March 17, 2019",  
+        dog: "Maestro",
+      },
+      {
+        award: "WB, 1st Bred By",
+        show: "NewPenDel Regional",
+        date: "March 16, 2019",  
+        dog: "Fable",
+      },
+      {
+        award: "Best Opposite Sex Sweepstakes, 14 months old",
+        show: "NewPenDel Regional",
+        date: "March 16, 2019",  
+        dog: "Maestro",
+      },
+      {
+        award: "Select",
+        show: "NCNE Supported Entry - morning",
+        date: "March 3, 2018",  
+        dog: "Kiss",
+      },
+      {
+        award: "5 point major, BOW/WD, Best in Sweepstakes’s, BOBOH, and Best Puppy",
+        show: "NCNE Supported Entry - afternoon",
+        date: "March 3, 2018",  
+        dog: "Metronome",
+      },
+      {
+        award: "3 point major, WD",
+        show: "NCNE Supported Entry - morning",
+        date: "March 3, 2018",  
+        dog: "Radar",
+      },
+      {
+        award: "Select",
+        show: "NCNE Supported Entry - afternoon",
+        date: "March 3, 2018",  
+        dog: "Kiss",
+      },
+      {
+        award: "Award of Merit",
+        show: "NCNE Supported Entry",
+        date: "March 4, 2018",  
+        dog: "Kiss",
+      },
+      {
+        award: "4 point major, BOW/WD",
+        show: "NCNE Supported Entry",
+        date: "March 4, 2018",  
+        dog: "Radar",
+      },
+      {
+        award: "Select",
+        show: "New Pen Del Regional ",
+        date: "March 17, 2018",  
+        dog: "Kiss",
+      },
+      {
+        award: "Select",
+        show: "New Pen Del Regional ",
+        date: "March 18, 2018",  
+        dog: "Flash",
+      }, 
+      {
+        award: "NCA Select Dog",
+        show: "2018 National",
+        date: "May 5, 2018",  
+        dog: "Rolex",
+      }, 
+      {
+        award: "Best of Opposite in Sweepstakes & 1st in Regular Classes 9-12 puppy dog",
+        show: "2018 National",
+        date: "May 5, 2018",  
+        dog: "Metronome",
+      },
+      {
+        award: "1st in Brood Bitch",
+        show: "2018 National",
+        date: "May 5, 2018",  
+        dog: "Kiss",
+      },
+      {
+        award: "1st Team",
+        show: "2018 National",
+        date: "May 5, 2018",  
+        dog: "Kiss, Metro, Rolex, Radar",
+      },
+      {
+        award: "4th Stud Dog",
+        show: "2018 National",
+        date: "May 5, 2018",  
+        dog: "Rolex",
+      },
+      {
+        award: "3rd in 9-12 Sweepstakes",
+        show: "2018 National",
+        date: "May 5, 2018",  
+        dog: "Obi",
+      },
+      {
+        award: "BOS Sweepstakes / 1st 6-9 puppy dog",
+        show: "Bear Mountain Supported Entry",
+        date: "June 22, 2018",  
+        dog: "Nemo",
+      },
+      {
+        award: "1st 6-9 puppy dog sweeps and regular",
+        show: "Bear Mountain Regional Specialty",
+        date: "June 23, 2018",  
+        dog: "Nemo",
+      },
+      {
+        award: "BOBOH",
+        show: "Bear Mountain Regional Specialty",
+        date: "June 23, 2018",  
+        dog: "Kiss",
+      },
+      {
+        award: "RWD / 1st 6-9 puppy dog sweeps and regular",
+        show: "Bear Mountain Regional Specialty",
+        date: "June 24, 2018",  
+        dog: "Nemo",
+      },
+      {
+        award: "BOBOH",
+        show: "Bear Mountain Regional Specialty",
+        date: "June 24, 2018",  
+        dog: "Kiss",
+      },
+      {
+        award: "BOS",
+        show: "SENC Regional",
+        date: "July 28, 2018",  
+        dog: "Snowball",
+      },
+      {
+        award: "BOS",
+        show: "SENC Regional",
+        date: " July 29, 2018",  
+        dog: "Snowball",
+      },
+      {
+        award: "1st 6-9 Sweeps",
+        show: "SENC Regional",
+        date: "July 28, 2018",  
+        dog: "Maestro",
+      },
+      {
+        award: "1st 6-9 Sweeps / 2nd 6-9 Regular",
+        show: "SENC Regional",
+        date: "July 28, 2018",  
+        dog: "Maestro",
+      },
+      {
+        award: "BOB",
+        show: "CNC Regional",
+        date: "October 27, 2018",  
+        dog: "Flash",
+      },
+      {
+        award: "Select",
+        show: "CNC Regional",
+        date: "October 26, 2018",  
+        dog: "Flash",
+      },
+      {
+        award: "BOBOH",
+        show: "CNC Regional",
+        date: "October 27, 2018",  
+        dog: "Obi",
+      },
+      {
+        award: "Best of Winners and Best in Sweeps - 14 months",
+        show: "CNC Regional",
+        date: "October 26, 2018",  
+        dog: "Obi",
+      },
+      {
+        award: "Best of Winners and Best in Sweeps - 14 months",
+        show: "CNC Supported Entry",
+        date: "October 25, 2018",  
+        dog: "Obi",
+      },
+      {
+        award: "Best of Winners, WB, 1st 9-12",
+        show: "CNC Regional",
+        date: "October 27, 2018",  
+        dog: "Fable",
+      },
+      {
+        award: "BOB",
+        show: "National Owner Handled Series Championship",
+        date: "December 15, 2018",  
+        dog: "Flash",
+      },
+      {
+        award: "Best Bred-By Exhibitor",
+        show: "AKC National Championship",
+        date: "December 15, 2018",  
+        dog: "Maestro",
+      },
+      {
+        award: "BOB",
+        show: "AKC National Puppy & Junior Stakes",
+        date: "December 15, 2018",  
+        dog: "Maestro",
+      },
+      {
+        award: "Best Opposite Veteran Sweeps, 1st 7-9 Veteran Sweeps",
+        show: "CNC Regional ",
+        date: "October 29, 2017",  
+        dog: "Sparkle",
+      },
+      {
+        award: "Best Opposite Veteran Sweeps, 1st 7-9 Veteran Sweeps",
+        show: "CNC Regional ",
+        date: "October 30, 2017",  
+        dog: "Sparkle",
+      },
+      {
+        award: "Select Dog",
+        show: "CNC Supported Entry ",
+        date: "October 28, 2017",  
+        dog: "Sirius",
+      },
+      {
+        award: "Best Veteran Female ",
+        show: "Canadian Regional Specialty",
+        date: "September 3, 2017",  
+        dog: "Sparkle",
+      },
+      {
+        award: "2nd Open Dog",
+        show: "Canadian Regional Specialty",
+        date: "September 3, 2017",  
+        dog: "Rolex",
+      },
+      {
+        award: "Best Veteran Female ",
+        show: "Canadian National Specialty ",
+        date: "September 2, 2017",  
+        dog: "Sparkle",
+      },
+      {
+        award: "Reserve Winners Dog/1st Open Dog",
+        show: "Canadian National Specialty ",
+        date: "September 2, 2017",  
+        dog: "Rolex",
+      },
+      {
+        award: "BOS/BOBOH",
+        show: "New Pen Del Supported",
+        date: "March 17, 2017",  
+        dog: "Kiss",
+      },
+      {
+        award: "BOS/BOBOH/OHG4 ",
+        show: "SENC Supported Entry",
+        date: "February 3, 2017",  
+        dog: "Kiss",
+      },
+      {
+        award: "1st 7-9 Veteran Sweeps ",
+        show: "SENC Supported Entry",
+        date: "February 3, 2017",  
+        dog: "Sparkle",
+      },
+      {
+        award: "Select/BOBOH/OHG3 ",
+        show: "SENC Regional Specialty",
+        date: "February 4, 2017",  
+        dog: "Kiss",
+      },
+      {
+        award: "1st 7-9 Veteran Sweeps ",
+        show: "SENC Regional Specialty",
+        date: "February 4, 2017",  
+        dog: "Sparkle",
+      },
+      {
+        award: "SECOND 7-9 Veteran Sweeps",
+        show: "CNC Supported Entry",
+        date: "October 30, 2016",  
+        dog: "Sparkle",
+      },
+      {
+        award: "AKC Select ",
+        show: "CNC Supported Entry",
+        date: "October 30, 2016",  
+        dog: "Kiss",
+      },
+      {
+        award: "BOS",
+        show: "CNC Supported Entry",
+        date: "October 30, 2016",  
+        dog: "Snowball",
+      },
+      ,
+      {
+        award: "SECOND 7-9 Veteran Sweeps",
+        show: "CNC Supported Entry",
+        date: "October 29, 2016",  
+        dog: "Sparkle",
+      },
+      {
+        award: "BOS",
+        show: "CNC Supported Entry",
+        date: "October 29, 2016",  
+        dog: "Kiss",
+      },
+      {
+        award: "Select",
+        show: "SENC Regional Specialty",
+        date: "June 11, 2016",  
+        dog: "Kiss",
+      },
+      {
+        award: "BEST IN SWEEPS/ 1st 15-18 Sweeps",
+        show: "SENC Regional Specialty",
+        date: "June 11, 2016",  
+        dog: "Rolex",
+      },
+      {
+        award: "BEST IN VETERAN SWEEPS",
+        show: "SENC Regional Specialty",
+        date: "June 11, 2016",  
+        dog: "Sparkle",
+      },
+      {
+        award: "RWD / FIRST 15-18 dog",
+        show: "SENC Regional Specialty",
+        date: "June 11, 2016",  
+        dog: "Flash",
+      },
+      {
+        award: "FIRST Bred By",
+        show: "SENC Regional Specialty",
+        date: "June 11, 2016",  
+        dog: "Raisin",
+      },
+      {
+        award: "FIRST 12-18 Sweeps",
+        show: "SENC Regional Specialty",
+        date: "June 11, 2016",  
+        dog: "Snowball",
+      },
+      {
+        award: "FIRST 15-18 dog, 4th 15-18 sweeps",
+        show: "2016 National",
+        date: "May 7, 2016",  
+        dog: "Flash",
+      },
+      {
+        award: "FIRST Amatuer Owner Handled bitch",
+        show: "2016 National",
+        date: "May 7, 2016",  
+        dog: "Raisin",
+      },
+      {
+        award: "NCA - Top Producing Dam",
+        show: "2016",
+        date: "December 31, 2016",  
+        dog: "Lucy",
+      },
+      {
+        award: "SECOND 12-15 Sweeps",
+        show: "2016 National",
+        date: "May 7, 2016",  
+        dog: "Rolex",
+      },
+      {
+        award: "SECOND 7-8 Veteran Sweeps",
+        show: "2016 National",
+        date: "May 7, 2016",  
+        dog: "Sparkle",
+      },
+      {
+        award: "SECOND 15-18 dog ",
+        show: "2016 National",
+        date: "May 7, 2016",  
+        dog: "Sailor",
+      },
+      {
+        award: "FORTH Working Dog",
+        show: "2016 National",
+        date: "May 7, 2016",  
+        dog: "Atlas",
+      },
+      {
+        award: "FORTH 15-18 Sweeps",
+        show: "2016 National",
+        date: "May 7, 2016",  
+        dog: "Kiss",
+      },
+      {
+        award: "1st leg in Rally Advanced",
+        show: "2016 National",
+        date: "May 7, 2016",  
+        dog: "Emma",
+      },
+      {
+        award: "Reserve Winners Bitch / 1st Bred-by / 1st 12-15 Sweeps",
+        show: "NewPenDel Regional Specialty",
+        date: "March 20, 2016",  
+        dog: "Snowball",
+      },
+      {
+        award: "Best in Sweepstakes / 1st 12-15 Sweeps",
+        show: "NewPenDel Regional Specialty",
+        date: "March 20, 2016",  
+        dog: "Rolex",
+      },
+      {
+        award: "1st 15-18 Sweeps",
+        show: "NewPenDel Regional Specialty",
+        date: "March 20, 2016",  
+        dog: "Kiss",
+      },
+      {
+        award: "2nd 12-15 Sweeps / 1st 12-18 Dog",
+        show: "NewPenDel Regional Specialty",
+        date: "March 20, 2016",  
+        dog: "Jet",
+      },
+      {
+        award: "1st 12-15 Sweeps",
+        show: "NewPenDel Regional Specialty",
+        date: "March 19, 2016",  
+        dog: "Snowball",
+      },
+      {
+        award: "1st 12-15 Sweeps",
+        show: "NewPenDel Regional Specialty",
+        date: "March 19, 2016",  
+        dog: "Rolex",
+      },
+      {
+        award: "1st 15-18 Sweeps",
+        show: "NewPenDel Regional Specialty",
+        date: "March 19, 2016",  
+        dog: "Kiss",
+      },
+      {
+        award: "2nd 12-15 Sweeps / 1st 12-18 Dog",
+        show: "NewPenDel Regional Specialty",
+        date: "March 19, 2016",  
+        dog: "Jet",
+      },
+      {
+        award: "Best of Opposite in Sweepstakes / 1st 9-12 Sweeps / 4th 9-12 Puppy Bitch",
+        show: "NewPenDel Regional Specialty - Morris & Essex",
+        date: "October 1, 2015",  
+        dog: "Kiss",
+      },
+      {
+        award: "1st 6-9 Sweeps / 2nd 6-9 Puppy Dog",
+        show: "NewPenDel Regional Specialty - Morris & Essex",
+        date: "October 1, 2015",   
+        dog: "Rolex",
+      },
+      {
+        award: "2nd 6-9 Sweeps / 3rd 6-9 Puppy Dog ",
+        show: "NewPenDel Regional Specialty - Morris & Essex",
+        date: "October 1, 2015",   
+        dog: "Jet",
+      },
+      {
+        award: "WB/1st 9-12 - 4 points",
+        show: "CNC Supported Entry",
+        date: "October 26, 2014",   
+        dog: "Tiffany",
+      },
+      {
+        award: "1st 6-9",
+        show: "CNC Supported Entry",
+        date: "October 26, 2014",   
+        dog: "Justin",
+      },
+      {
+        award: "2nd 12-18",
+        show: "CNC Supported Entry",
+        date: "October 26, 2014",   
+        dog: "Jack",
+      },
+      {
+        award: "2nd 9-12 Sweeps/Regular ",
+        show: "CNC Regional",
+        date: "October 25, 2014",   
+        dog: "Tiffany",
+      },
+      {
+        award: "1st 6-9 Sweeps/Regular",
+        show: "CNC Regional",
+        date: "October 25, 2014",   
+        dog: "Justin",
+      },
+      {
+        award: "1st 12-18 Regular / 2nd 12-15 Sweeps",
+        show: "CNC Regional",
+        date: "October 25, 2014",   
+        dog: "Jack",
+      },
+      {
+        award: "Best Veteran Bitch in Sweeps / 1st 9+",
+        show: "CNC Regional",
+        date: "October 25, 2014",   
+        dog: "Spice",
+      },
+      {
+        award: "New Grand Champion! SEL/AOM",
+        show: "CNC Regional",
+        date: "October 25, 2014",   
+        dog: "Emma",
+      },
+      {
+        award: "New Champion! WD/1st Open - 5 points",
+        show: "CNC Regional",
+        date: "October 25, 2014",   
+        dog: "Tate",
+      },
+      {
+        award: "Winners Dog, 1st 15-18",
+        show: "2014 National",
+        date: "April 5, 2014",   
+        dog: "Tate",
+      },
+      {
+        award: "Best in Sweeps - 1st 9-12 Sweeps",
+        show: "2014 National",
+        date: "April 5, 2014",   
+        dog: "Fred",
+      },
+      {
+        award: "1st 9-12 Bitch",
+        show: "2014 National",
+        date: "April 5, 2014",   
+        dog: "Emma",
+      },
+      {
+        award: "2nd 7-9 Veteran Bitch / 3rd 8-9 Sweeps",
+        show: "2014 National",
+        date: "April 5, 2014",   
+        dog: "Spice",
+      },
+      {
+        award: "3rd 9-12 dog",
+        show: "2014 National",
+        date: "April 5, 2014",   
+        dog: "Parker",
+      },
+      {
+        award: "2nd Brace",
+        show: "2014 National",
+        date: "April 5, 2014",   
+        dog: "Sampson, Atlas",
+      },
+      {
+        award: "2nd 9-12",
+        show: "NewPenDel Supported Entry",
+        date: "March 16, 2014",   
+        dog: "Ruby",
+      },
+      {
+        award: "BOW/WD/1st 9-12 - 5 points and BOS Sweeps",
+        show: "NewPenDel Supported Entry",
+        date: "March 16, 2014",   
+        dog: "Fred",
+      },
+      {
+        award: "1st 12-18",
+        show: "NewPenDel Supported Entry",
+        date: "March 16, 2014",   
+        dog: "Snickers",
+      },
+      {
+        award: "2nd 12-18",
+        show: "NewPenDel Supported Entry",
+        date: "March 16, 2014",   
+        dog: "Tate",
+      },
+      {
+        award: "1st 9-12",
+        show: "NewPenDel Supported Entry",
+        date: "March 16, 2014",   
+        dog: "Emma",
+      },
+      {
+        award: "RWB/1st 9-12",
+        show: "NewPenDel Supported Entry",
+        date: "March 15, 2014",   
+        dog: "Emma",
+      },
+      {
+        award: "RWD/1st 9-12 and BOS Sweeps",
+        show: "NewPenDel Supported Entry",
+        date: "March 15, 2014",   
+        dog: "Fred",
+      },
+      {
+        award: "2nd 9-12",
+        show: "NewPenDel Supported Entry",
+        date: "March 15, 2014",   
+        dog: "Ruby",
+      }, 
+      {
+        award: "1st 9-12",
+        show: "NewPenDel Supported Entry",
+        date: "March 14, 2014",   
+        dog: "Emma",
+      },
+      {
+        award: "1st 9-12",
+        show: "NewPenDel Supported Entry",
+        date: "March 14, 2014",   
+        dog: "Fred",
+      },
+      {
+        award: "Best Veteran Bitch in Sweeps",
+        show: "NewPenDel Supported Entry",
+        date: "March 14, 2014",   
+        dog: "Spice",
+      },
+      {
+        award: "RWD/1st Open Dog",
+        show: "HCNC Regional Specialty",
+        date: "February 13, 2014",   
+        dog: "Dory",
+      },
+      {
+        award: "RWD/2nd Open Dog",
+        show: "HCNC Regional Specialty",
+        date: "February 12, 2014",   
+        dog: "Dory",
+      },
+      {
+        award: "2nd 6-9 - 1st 6-9 Sweeps",
+        show: "NC of New England Regional Specialty",
+        date: "December 8, 2013",   
+        dog: "Ruby",
+      },
+      {
+        award: "1/BP/Puppy Group 2 6-9 - 1st 6-9 Sweeps",
+        show: "NC of New England Supported Entry",
+        date: "December 7, 2013",   
+        dog: "Ruby",
+      },  
+      {
+        award: "BOW/WB/1st Open - 5 points",
+        show: "CNC Supported Entry",
+        date: "October 27, 2013",   
+        dog: "Maggie",
+      },    
+      {
+        award: "RWD/1st 9-12 Sweeps - 2nd 9-12",
+        show: "CNC Supported Entry",
+        date: "October 27, 2013",   
+        dog: "Snickers",
+      },   
+      {
+        award: "3rd 9-12",
+        show: "CNC Supported Entry",
+        date: "October 27, 2013",   
+        dog: "Tate",
+      }, 
+ 
+      {
+        award: "4th Am-Bred",
+        show: "CNC  Regional",
+        date: "October 27, 2013",   
+        dog: "Maggie",
+      },    
+      {
+        award: "1st 9-12 Sweeps - 1st 9-12",
+        show: "CNC  Regional",
+        date: "October 27, 2013",   
+        dog: "Snickers",
+      },   
+      {
+        award: "3rd 9-12 Sweeps - 2nd 9-12",
+        show: "CNC  Regional",
+        date: "October 27, 2013",   
+        dog: "Tate",
+      },   
+      {
+        award: "2nd 7-9 Veteran Sweeps",
+        show: "CNC  Regional",
+        date: "October 27, 2013",   
+        dog: "Dexter",
+      }, 
+      {
+        award: "2nd 7-9 Veteran Sweeps",
+        show: "CNC  Regional",
+        date: "October 27, 2013",   
+        dog: "Spice",
+      },
+      
+      {
+        award: "3rd - 7-9 Veteran Bitch",
+        show: "2013 National",
+        date: "April 5, 2013",   
+        dog: "Spice",
+      },
+      {
+        award: "1st AOH, 1st Stud Dog 'Team Travis' ",
+        show: "2013 National",
+        date: "April 5, 2013",   
+        dog: "Atlas",
+      },
+      {
+        award: "4th - 7-9 Veteran Bitch ",
+        show: "2013 National",
+        date: "April 5, 2013",   
+        dog: "Chilly",
+      },
+      {
+        award: "2nd - Novice A  ",
+        show: "2013 National",
+        date: "April 5, 2013",   
+        dog: "Atlas",
+      },
+      {
+        award: "Best Veteran in Sweeps",
+        show: "NewPenDel Supported Entry",
+        date: "March 17, 2013",   
+        dog: "Spice",
+      },
+      {
+        award: "1st Open",
+        show: "NewPenDel Supported Entry",
+        date: "March 17, 2013",   
+        dog: "Atlas",
+      },
+      {
+        award: "Best Veteran in Sweeps",
+        show: "NewPenDel Regional",
+        date: "March 16, 2013",   
+        dog: "Spice",
+      },
+      {
+        award: "BOW, WD, 1st Open (5 pts)",
+        show: "NewPenDel Regional",
+        date: "March 16, 2013",   
+        dog: "Atlas",
+      },
+      {
+        award: "Best Veteran in Sweeps",
+        show: "SENC Regional",
+        date: "February 16, 2013",   
+        dog: "Spice",
+      },
+      {
+        award: "Select Dog",
+        show: "SENC Regional",
+        date: "February 16, 2013",   
+        dog: "Sirius",
+      },
+      {
+        award: "Best Veteran Bitch in Sweeps",
+        show: "CNC Regional",
+        date: "October 27, 2012",   
+        dog: "Spice",
+      },
+      {
+        award: "2nd 12-15 Bitch, 1st 12-15 Bitch Sweeps",
+        show: "CNC Regional",
+        date: "October 27, 2012",   
+        dog: "Charm",
+      },
+      {
+        award: "1st Maturity - 'Team Travis'",
+        show: "2012 National",
+        date: "May 5, 2012",   
+        dog: "Atlas",
+      },
+      {
+        award: "3rd 9+ Veteran Dog Sweeps/Regular",
+        show: "2012 National",
+        date: "May 5, 2012",   
+        dog: "Simon",
+      },
+      {
+        award: "3rd 7 - 9 Veteran Bitch Sweeps/Regular",
+        show: "2012 National",
+        date: "May 5, 2012",   
+        dog: "Spice",
+      },
+      {
+        award: "BOB, 1st 7 - 9 Veteran Bitch",
+        show: "NewPenDel Regional",
+        date: "April 29, 2012",   
+        dog: "Spice",
+      },
+      {
+        award: "2nd 9+ Veteran Dog",
+        show: "NewPenDel Regional",
+        date: "April 29, 2012",   
+        dog: "Simon",
+      },
+      {
+        award: "2nd 15-18 Bitch",
+        show: "NewPenDel Regional",
+        date: "April 29, 2012",   
+        dog: "Latte",
+      },
+      {
+        award: "2nd 9-12 Bitch",
+        show: "NewPenDel Regional",
+        date: "April 29, 2012",   
+        dog: "Charm",
+      },
+      {
+        award: "1st AOH Dog",
+        show: "2011 National",
+        date: "April 5, 2011",   
+        dog: "Luke",
+      },
+      {
+        award: "2nd 9 and over sweeps / 4th 9 and over:",
+        show: "2011 National",
+        date: "April 5, 2011",   
+        dog: "Katie",
+      },
+      {
+        award: "2nd Maturity - Team Travis and Katie",
+        show: "2011 National",
+        date: "April 5, 2011",   
+        dog: "Atlas",
+      },
+      {
+        award: "4th Brood Bitch",
+        show: "2011 National",
+        date: "April 5, 2011",   
+        dog: "Chilly",
+      },
+      {
+        award: "Best of Opposite in Sweeps, 1st 9-12 Sweeps, RWD, 1st 9-12 puppy",
+        show: "Penn Ohio Regional",
+        date: "December 17, 2011",   
+        dog: "Dash",
+      },
+      {
+        award: "1st 9-12 Puppy Bitch, 1st 9-12 sweeps",
+        show: "Penn Ohio Regional",
+        date: "December 17, 2011",   
+        dog: "Nutmeg",
+      },
+      {
+        award: "2nd 12-15 Sweeps 3rd 12-18 Dog",
+        show: "Penn Ohio Regional",
+        date: "December 17, 2011",   
+        dog: "Sirius",
+      },
+      {
+        award: "1st 9-12 Puppy Dog, 1st 9-12 sweeps",
+        show: "Penn Ohio Regional",
+        date: "December 18, 2011",   
+        dog: "Dash",
+      },
+      {
+        award: "1st 9-12 Puppy Bitch, 1st 9-12 sweeps",
+        show: "Penn Ohio Regional",
+        date: "December 18, 2011",   
+        dog: "Nutmeg",
+      },
+      {
+        award: "3rd 12-15 Sweeps 2nd 12-18 Dog",
+        show: "Penn Ohio Regional",
+        date: "December 18, 2011",   
+        dog: "Sirius",
+      },
+      {
+        award: "Highest Scoring Rally Novice B",
+        show: "Penn Ohio Supported Entry",
+        date: "December 16, 2011",   
+        dog: "Chilly",
+      },
+      {
+        award: "Highest Scoring Rally Novice B",
+        show: "Penn Ohio Regional",
+        date: "December 18, 2011",   
+        dog: "Chilly",
+      },
+      {
+        award: "Best of Opposite Veteran in Sweeps",
+        show: "NewPenDel Regional",
+        date: "March 17, 2011",   
+        dog: "Katie",
+      },
+      {
+        award: "Best Veteran in Sweeps",
+        show: "NewPenDel Supported Entry",
+        date: "March 18, 2011",   
+        dog: "Katie",
+      },
+      {
+        award: "Award of Merit/Selec",
+        show: "SENC Regional",
+        date: "July 18, 2011",   
+        dog: "Sparkle",
+      },
+      {
+        award: "1st AOH",
+        show: "SENC Regional",
+        date: "July 18, 2011",   
+        dog: "Annie",
+      },
+      {
+        award: "1st Bred By",
+        show: "SENC Regional",
+        date: "July 18, 2011",   
+        dog: "Lucy",
+      },
+      {
+        award: "2010 Top Show Bitch",
+        show: "NCA",
+        date: "December 31, 2010",   
+        dog: "Spice",
+      },
+      {
+        award: "BOS",
+        show: "New Pen Del Regional",
+        date: "April 4, 2010",   
+        dog: "Spice",
+      },
+      {
+        award: "Award of Merit",
+        show: "New Pen Del - Morris & Essex",
+        date: "October 4, 2010",   
+        dog: "Potter",
+      },
+      {
+        award: "Best of Opposite in Sweeps/ 1st 6-9 Sweeps / 1st 6-9 Dog",
+        show: "New Pen Del - Morris & Essex",
+        date: "October 4, 2010",   
+        dog: "Linus",
+      },
+      {
+        award: "1st 6-9 Sweeps / 2nd 6-9 Bitch",
+        show: "New Pen Del - Morris & Essex",
+        date: "October 4, 2010",   
+        dog: "Bridget",
+      },
+      {
+        award: "Best Of Opposite Sweeps/ 1st 9-12",
+        show: "CNC Regional",
+        date: "October 31, 2010",   
+        dog: "Tyler",
+      },
+      {
+        award: "2nd 12-18 Sweeps",
+        show: "CNC Regional",
+        date: "October 31, 2010",   
+        dog: "Lucy",
+      },
+      {
+        award: "2nd 12-18 Sweeps",
+        show: "2009 National",
+        date: "April 5, 2009",   
+        dog: "Potter",
+      },
+      {
+        award: "4th Novice B Obedience",
+        show: "2009 National",
+        date: "April 5, 2009",   
+        dog: "Katie",
+      },
+      {
+        award: "1/W/BW ",
+        show: "CNC Regional",
+        date: "October 27, 2009",   
+        dog: "Sampson",
+      },
+      {
+        award: "1st Bred-by Bitch",
+        show: "NewPenDel Regional",
+        date: "March 17, 2009",   
+        dog: "Sporty",
+      },
+      {
+        award: "Best of Opp Veterans Sweeps",
+        show: "NewPenDel Regional",
+        date: "March 17, 2009",   
+        dog: "Katie",
+      },
+      {
+        award: "1st 8-9 Veteran Sweeps",
+        show: "2008 National",
+        date: "April 17, 2008",   
+        dog: "Daisy",
+      },
+      {
+        award: "BOS",
+        show: "CNC Regional",
+        date: "October 27, 2008",   
+        dog: "Spice",
+      },
+      {
+        award: "Award of Merit",
+        show: "CNC Regional",
+        date: "October 27, 2008",   
+        dog: "Cosmo",
+      },
+      {
+        award: "RWB/1st 6-9 regular/Best of Opp Sweeps/1st 6-9 Sweeps",
+        show: "CNC Regional",
+        date: "October 27, 2008",   
+        dog: "Sporty",
+      },
+      {
+        award: "",
+        show: "SENC Regional",
+        date: "July 15, 2008",   
+        dog: "",
+      },
+      {
+        award: "1/W/BW 6-9 puppy bitch, Best Puppy in Sweeps 6-9 puppy",
+        show: "SENC Regional",
+        date: "July 15, 2008",   
+        dog: "Sporty",
+      },
+      {
+        award: "1/W 6-9 puppy dog",
+        show: "SENC Regional",
+        date: "July 15, 2008",   
+        dog: "Potter",
+      },
+      {
+        award: "1st Brood Bitch",
+        show: "SENC Regional",
+        date: "July 15, 2008",   
+        dog: "Chilly",
+      },
+      {
+        award: "BOS",
+        show: "SENC Regional",
+        date: "July 15, 2008",   
+        dog: "Cosmo",
+      },
+      {
+        award: "1st 8-9 Veteran Sweeps",
+        show: "2007 National",
+        date: "April 15, 2007",   
+        dog: "Daisy",
+      },
+      {
+        award: "2nd Working Dog",
+        show: "2007 National",
+        date: "April 15, 2007",   
+        dog: "Simon",
+      },
+      {
+        award: "4th 6-9 Sweeps, 4th 6-9 Puppy Dog",
+        show: "2007 National",
+        date: "April 15, 2007",   
+        dog: "Mason",
+      },
+      {
+        award: "3rd 6-9 Puppy Dog",
+        show: "2007 National",
+        date: "April 15, 2007",   
+        dog: "Dexter",
+      },
+      {
+        award: "Best of Opposite Sex in Puppy Sweepstake, 1st 9-12 Sweepstakes, 3rd 9-12",
+        show: "2006 National",
+        date: "April 15, 2006",   
+        dog: "",
+      },
+      {
+        award: "1st Brood Bitch, 1st Maturity",
+        show: "2006 National",
+        date: "April 15, 2006",   
+        dog: "Daisy",
+      },
+      {
+        award: "1st Junior Showmanship - Kelsey Miller",
+        show: "2006 National",
+        date: "April 15, 2006",   
+        dog: "Simon",
+      },
+      {
+        award: "Award of Merit ",
+        show: "2006 Westminster ",
+        date: "February 15, 2006",   
+        dog: "Opie",
+      },
+      {
+        award: "Award of Merit ",
+        show: "Penn-Ohio Regional ",
+        date: "February 15, 2005",   
+        dog: "Opie",
+      },
+      {
+        award: "Award of Merit ",
+        show: "CNC Regional ",
+        date: "October 25, 2005",   
+        dog: "Opie",
+      },
+      {
+        award: "Award of Excellence",
+        show: "Eukanuba AKC National Championships",
+        date: "December 15, 2005",   
+        dog: "Opie",
+      },
+      {
+        award: "BOB/Group 1",
+        show: "SENC Regional",
+        date: "July 15, 2004",   
+        dog: "Opie",
+      },
+      {
+        award: "1st Am Bred",
+        show: "CNC Regional",
+        date: "October 27, 2004",   
+        dog: "Simon",
+      },
+      {
+        award: "4th Brood Bitch",
+        show: "2004 National",
+        date: "March 27, 2004",   
+        dog: "Daisy",
+      },
+      {
+        award: "2nd Team Obedience",
+        show: "2004 National",
+        date: "March 27, 2004",   
+        dog: "Daisy",
+      },
+      {
+        award: "4th Working Bitch",
+        show: "2003 National",
+        date: "March 27, 2003",   
+        dog: "Daisy",
+      },
+      {
+        award: "1st 9-12 Sweeps -",
+        show: "NCNE Regional",
+        date: "March 27, 2003",   
+        dog: "Opie",
+      },
+      {
+        award: "BOB/Group 3",
+        show: "NEWF-FLA Regional",
+        date: "June 27, 2003",   
+        dog: "Opie",
+      },
+      {
+        award: "Best of Opp in Sweeps",
+        show: "GRNC Regional",
+        date: "November 27, 2003",   
+        dog: "Rocky",
+      },
+      {
+        award: "1/W/BOS",
+        show: "CNC Regional",
+        date: "October 27, 2003",   
+        dog: "Katie",
+      },
+      {
+        award: "1st Working Bitch, 2nd Novice B, 4th Novice B",
+        show: "2002 National",
+        date: "March 27, 2002",   
+        dog: "Daisy",
+      },
+      {
+        award: "BOS",
+        show: "NewfFla Regional",
+        date: "June 27, 2002",   
+        dog: "Daisy",
+      },
+      {
+        award: "1st Working Bitch",
+        show: "2001 National",
+        date: "April 27, 2001",   
+        dog: "Daisy",
+      },
+      {
+        award: "4th 12-15 Sweeps",
+        show: "2000 National",
+        date: "April 27, 2000",   
+        dog: "Daisy",
+      },
+  ]
 }
 //GCH CH Old Bay's Theodorable Spicy Altatude CD BN RA CGC
 //GCH CH Old Bay's Son Of The Sea

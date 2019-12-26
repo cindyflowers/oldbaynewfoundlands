@@ -40,15 +40,15 @@ class TopPanel extends Component {
                             {...options}
                         >
                             <div className="single-item-box">
-                                <p><strong>SING has arrived!</strong> born on November 8, 2019 <Link href="#"><a>Read More</a></Link></p>
+                                <p><strong>SING has arrived!</strong> born on November 8, 2019 <Link href="litter"><a>Read More</a></Link></p>
                             </div>
 
                             <div className="single-item-box">
-                                <p><strong>SING has arrived!</strong> born on November 8 2019 <Link href="#"><a>Read More</a></Link></p>
+                                <p><strong>SING has arrived!</strong> born on November 8 2019 <Link href="litter"><a>Read More</a></Link></p>
                             </div>
 
                             <div className="single-item-box">
-                                <p><strong>SING has arrived!</strong> born on November 8 2019 <Link href="#"><a>Read More</a></Link></p>
+                                <p><strong>SING has arrived!</strong> born on November 8 2019 <Link href="litter"><a>Read More</a></Link></p>
                             </div>
                         </OwlCarousel> : ''}
 

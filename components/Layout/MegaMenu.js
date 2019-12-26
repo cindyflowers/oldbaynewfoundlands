@@ -81,17 +81,18 @@ class MegaMenu extends Component {
         const ddPastClass = `dropdown-menu${isPastOpen ? " show" : ""}`;
 
         let boys = this.props.dogs.filter(dog => dog.sex == "male" && dog.ours == true && dog.rip == ""  );
-        let coboys = this.props.dogs.filter(dog => dog.sex == "male" && dog.ours == false && dog.rip == ""  );
+        //let coboys = this.props.dogs.filter(dog => dog.sex == "male" && dog.coown == true && dog.rip == ""  );
         let studs = this.props.dogs.filter(dog => dog.sex == "male" && dog.stud == true && dog.rip == ""  );
         let girls = this.props.dogs.filter(dog => dog.sex == "female" && dog.ours == true  && dog.rip == "" );
-        let cogirls = this.props.dogs.filter(dog => dog.sex == "female" && dog.ours == false  && dog.rip == "" );
-        let past = this.props.dogs.filter(dog =>  dog.rip != "" );
+        let dams = this.props.dogs.filter(dog => dog.sex == "female" && dog.dams == true  && dog.rip == "" );
+        //let cogirls = this.props.dogs.filter(dog => dog.sex == "female" && dog.coown == true  && dog.rip == "" );
         let past1to10 = this.props.dogs.filter(dog =>  dog.rip != "" && dog.id <= 20 );
         let past10andOver = this.props.dogs.filter(dog =>  dog.rip != "" && dog.id > 20);
         let litters1to10 = this.props.litters.filter(litter => litter.id < 11);
         let litters11to20 = this.props.litters.filter(litter => litter.id >10 && litter.id < 21);
         let litters21andOver = this.props.litters.filter(litter => litter.id >20);
         let toptwenty = this.props.dogs.filter(dog => dog.toptwenty != "");
+        let rom = this.props.dogs.filter(dog => dog.rom == true);
         return (
             <React.Fragment>
             <div className="navbar-area">
@@ -137,14 +138,20 @@ class MegaMenu extends Component {
                                                 <li className="nav-item" role="presentation">
                                                     <div className="container">
                                                         <div className="row">
-                                                            <div className="col">
-                                                                <h6 className="submenu-title">Over the Years</h6>
-                                                                <ul className="megamenu-submenu">
-                                                                    <li>
+                                                        <div className="col">
+                                                                <h6 className="submenu-title">Register of Merit</h6>
+
+                                                                <ul className="megamenu-submenu top-brands">
+                                                                    {rom.map((data, idx) => (
                                                                         <Link href="/about">
-                                                                            <a>2019</a>
+                                                                            <li key={data.id}>
+                                                                                <a data-tip={data.call} data-place="left" onClick={(e) => {
+                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                }}><img src={data.image} alt="image" /></a>
+                                                                            </li>
                                                                         </Link>
-                                                                    </li>
+                                                                    ))}
+
                                                                 </ul>
                                                             </div>
                                                             <div className="col">
@@ -195,7 +202,7 @@ class MegaMenu extends Component {
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {toptwenty.map((data, idx) => (
                                                                         <Link href="/about">
-                                                                            <li key={idx}>
+                                                                            <li key={data.id}>
                                                                                 <a data-tip={data.call + ' (' + data.toptwenty + ')'} data-place="left" onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
                                                                                 }}><img src={data.image} alt="image" /></a>
@@ -222,7 +229,7 @@ class MegaMenu extends Component {
                                                 <li className="nav-item">
                                                     <div className="container">
                                                         <div className="row">
-                                                            <div className="col">
+                                                            {/* <div className="col">
                                                                 <h6 className="submenu-title">Old Bay Co-owned</h6>
 
                                                                 <ul className="megamenu-submenu">
@@ -236,7 +243,7 @@ class MegaMenu extends Component {
                                                                         </Link>
                                                                     ))}
                                                                 </ul>
-                                                            </div>
+                                                            </div> */}
 
                                                             <div className="col">
                                                                 <h6 className="submenu-title">Old Bay Boys</h6>
@@ -287,7 +294,7 @@ class MegaMenu extends Component {
                                                 <li className="nav-item">
                                                     <div className="container">
                                                         <div className="row">
-                                                            <div className="col">
+                                                            {/* <div className="col">
                                                                 <h6 className="submenu-title">Old Bay Co-owned</h6>
 
                                                                 <ul className="megamenu-submenu">
@@ -301,7 +308,7 @@ class MegaMenu extends Component {
                                                                         </Link>
                                                                     ))}
                                                                 </ul>
-                                                            </div>
+                                                            </div> */}
 
                                                             <div className="col">
                                                                 <h6 className="submenu-title">Old Bay Girls</h6>
@@ -324,7 +331,7 @@ class MegaMenu extends Component {
                                                                 <h6 className="submenu-title">The Dams</h6>
 
                                                                 <ul className="megamenu-submenu top-brands">
-                                                                    {girls.map((data, idx) => (
+                                                                    {dams.map((data, idx) => (
                                                                         <li>
                                                                             <Link href="/about">
                                                                                 <a data-tip={data.call} data-place="left" onClick={(e) => {this.handleSetCurrentDog(data.id)}}>
@@ -468,6 +475,7 @@ class MegaMenu extends Component {
                                                                 
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {past10andOver.map((data, idx) => (
+                                                                        data.image != "" ? (
                                                                         <Link href="/about">
                                                                             <li key={idx}>
                                                                                 <a data-tip={data.call + ' (' + data.dob + ' - ' + data.rip + ')'} data-place="left" onClick={(e) => {
@@ -475,6 +483,7 @@ class MegaMenu extends Component {
                                                                                 }}><img src={data.image} alt="image" /></a>
                                                                             </li>
                                                                         </Link>
+                                                                        ) : ""
                                                                     ))}
 
                                                                 </ul>

@@ -50,9 +50,9 @@ class Index extends Component {
         let dog = this.props.dogs.filter(dog => dog.id == this.props.currentDog);
         let dogs;
         if (dog[0].rip == "" )
-            dogs = this.props.dogs.filter(d => dog[0].sex == d.sex && d.rip == "");
+            dogs = this.props.dogs.filter(d => dog[0].sex == d.sex && d.ours == true && d.rip == "");
         else
-            dogs = this.props.dogs.filter(d => d.rip != "");
+            dogs = this.props.dogs.filter(d => d.ours == true && d.rip != "");
         let startPosition =  dogs.findIndex(d => d.id == this.props.currentDog);
         options.startPosition = startPosition;
         return (
@@ -70,6 +70,7 @@ class Index extends Component {
                                             <h2><b>{data.call}</b> - {data.name}</h2>
                                             <div className="table-responsive">
                                                 <table className="table table-striped">
+                                                    <tbody>
                                                     <tr>
                                                         <td>Born</td>
                                                         <td>{data.dob}</td>
@@ -90,21 +91,33 @@ class Index extends Component {
                                                         <td>Lives With</td>
                                                         <td>{data.lives}</td>
                                                     </tr> 
-                                                    <tr>
-                                                        <td>Titles</td>
-                                                        <td>
-                                                            {data.Titles.map((data, idx) => (
-                                                                <div>
-                                                                    {data}
-                                                                </div>
-                                                            ))} 
-                                                        </td>
-                                                    </tr> 
+                                                         
                                                     <tr>
                                                         <td>AKA</td>
                                                         <td>{data.aka}</td>
                                                     </tr>
+                                                    </tbody>
                                                 </table>
+                                                {this.state.display && data.Titles.length > 0 ? (
+                                                    <div className="table-responsive">
+                                                       <table className="table table-striped">
+                                                        <thead>
+                                                            <tr>
+                                                                <th>Title</th><th>Date</th><th>Organization</th>
+                                                            </tr>
+                                                        </thead>
+                                                        <tbody>
+                                                            {data.Titles.map((data, idx) => (
+                                                                <tr>
+                                                                    <td>{data.title}</td>
+                                                                    <td>{data.date}</td>
+                                                                    <td>{data.org}</td> 
+                                                                </tr>
+                                                            ))} 
+                                                        </tbody>
+                                                        </table>
+                                                    </div>
+                                                ) : ""}
                                             </div>
                                         </div>
                                     </div>
