@@ -1611,6 +1611,7 @@ About Area CSS
 =================================================*/
 .about-area {
   position: relative;
+  text-transform: uppercase;
   z-index: 1;
 }
 
@@ -1701,11 +1702,39 @@ About Area CSS
 }
 
 /*================================================
+Specialty Area CSS
+=================================================*/
+.specialty-area {
+  position: relative;
+  z-index: 1;
+  text-transform: uppercase;
+}
+
+.specialty-content h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.specialty-content .signature {
+  margin-top: 35px;
+}
+
+.specialty-image {
+  display: block;
+  max-height: 250px;
+  width: auto;
+  height: auto;
+}
+
+
+/*================================================
 Litter Area CSS
 =================================================*/
 .litter-area {
   position: relative;
   z-index: 1;
+  text-transform: uppercase;
 }
 
 .litter-content h2 {

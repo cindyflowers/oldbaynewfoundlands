@@ -5,6 +5,7 @@ import Footer from '../components/Layout/Footer';
 import Breadcrumb from '../components/Common/Breadcrumb';
 import dynamic from 'next/dynamic';
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
+import ReactTooltip from 'react-tooltip'
 
 // id: 1,
 // parents: "Rhone and Kiss",
@@ -46,8 +47,10 @@ class Index extends Component {
             
             <React.Fragment>
                 <Navbar />
+                
                 <Breadcrumb title="Litters" />
                 <section className="litter-area ptb-60">
+                    <ReactTooltip />
                     {this.state.display ? <OwlCarousel className="litter-slides owl-carousel owl-theme" {...options} >
                     {this.props.litters.map((data, idx) => (
                         <div className="container">
@@ -96,11 +99,11 @@ class Index extends Component {
 
                             <div className="col-xxl-4 col-md-3">
                                     <h2><b>Sire</b></h2>
-                                    <img src={data.sireimg} className="litter-image" alt="image" />
+                                    <img data-tip={data.sire} data-place="left"  src={data.sireimg} className="litter-image" alt="image" />
                             </div>
                             <div className="col-xxl-4 col-md-3">
                                     <h2><b>Dam</b></h2>
-                                    <img src={data.damimg} className="litter-image" alt="image" />
+                                    <img data-tip={data.dam} data-place="left"  src={data.damimg} className="litter-image" alt="image" />
                             </div>
                         </div>
                         <div className="col-xxl-8 col-md-6">
