@@ -27,7 +27,7 @@ class Index extends Component {
                 <section className="products-collections-area ptb-60">
                     <div className="container">
                         <div className="section-title">
-                            <h2><span className="dot"></span> Without Sidebar Full Width</h2>
+                            <h2>Specialties</h2>
                         </div>
                     </div>
 

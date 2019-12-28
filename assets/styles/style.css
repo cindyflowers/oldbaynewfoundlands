@@ -1722,7 +1722,6 @@ Specialty Area CSS
 
 .specialty-image {
   display: block;
-  max-height: 250px;
   width: auto;
   height: auto;
 }

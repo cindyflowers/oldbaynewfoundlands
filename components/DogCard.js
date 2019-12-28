@@ -42,7 +42,7 @@ class DogCard extends Component {
                         <div className="single-product-box">
                             <div className="product-image">
                                 <a href="#">
-                                    <img src={data.image} alt="image" />
+                                    <img className="specialty-image" src={data.image} alt="image" />
                                 </a>
 
                                 <ul>
