@@ -823,6 +823,2129 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAMCAgI
 
 /***/ }),
 
+/***/ "./images/specialties/2018NationalTeam.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/2018NationalTeam.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/2018NationalTeam-331d4283b1fdeef15112df152dfded83.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Annie.JPG":
+/*!**************************************!*\
+  !*** ./images/specialties/Annie.JPG ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Annie-4497a918036427e701bc08d252415120.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/Atlas.jpg":
+/*!**************************************!*\
+  !*** ./images/specialties/Atlas.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Atlas-94e95e86924e13165ccbf86255e4770e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Atlas1.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Atlas1.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Atlas1-8742200362c62e7fb5f64df217fc0f0a.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Atlas2.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Atlas2.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Atlas2-f6f30670be1733b824fca5d0ebe6b66c.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Atlas2013Natioanl.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/Atlas2013Natioanl.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Atlas2013Natioanl-724f25b4917a88f636c9b347914086f2.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/AtlasMaturity2012.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/AtlasMaturity2012.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/AtlasMaturity2012-71dd41dc4628e58d915eed9ff853ddb0.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Bridget.JPG":
+/*!****************************************!*\
+  !*** ./images/specialties/Bridget.JPG ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Bridget-74fd073c54fdf0e205b44b337800c3a5.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/Charm.jpg":
+/*!**************************************!*\
+  !*** ./images/specialties/Charm.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Charm-9f3314f6c9f2dc7ebd465b9cdd9ae594.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Charm2.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Charm2.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Charm2-4fe35df7f623aed847cafcbd6fc8fc4e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Chilly 2011 National.jpg":
+/*!*****************************************************!*\
+  !*** ./images/specialties/Chilly 2011 National.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Chilly 2011 National-578c496fbfae2d4200098e59bc87b0f1.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Chilly.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Chilly.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Chilly-20231913b60e4b23a271f6e043b93b73.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/ChillyBroodBitchSENC.jpg":
+/*!*****************************************************!*\
+  !*** ./images/specialties/ChillyBroodBitchSENC.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ChillyBroodBitchSENC-6eb4a6cca5a4cf964a76bb81e9e12a10.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/ChillyMoving.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/ChillyMoving.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ChillyMoving-4d4425dafb4e8738ca5416881fff52be.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/CosmoAOM.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/CosmoAOM.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/CosmoAOM-670dc9f50208e920e32ade12c5202ad2.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/CosmoBOS.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/CosmoBOS.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/CosmoBOS-b3a4798e0d8421b4fe7815fcf95c0b44.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Cricket.jpg":
+/*!****************************************!*\
+  !*** ./images/specialties/Cricket.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Cricket-d438c9ac8aa09b7524b25d227f8235b9.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Cricket2019CNCRegional.jpg":
+/*!*******************************************************!*\
+  !*** ./images/specialties/Cricket2019CNCRegional.jpg ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Cricket2019CNCRegional-6f9534385c4e7d161b9e26b234e2374c.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Daisy 009.jpg":
+/*!******************************************!*\
+  !*** ./images/specialties/Daisy 009.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Daisy 009-4d23c0ef72bc2c489faebf6ac1661ad9.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Daisy-Opie-Rocky-National-2.jpg":
+/*!************************************************************!*\
+  !*** ./images/specialties/Daisy-Opie-Rocky-National-2.jpg ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Daisy-Opie-Rocky-National-2-d26ed38bc55337a0a0ba3ea1be25e040.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Daisy2000.jpg":
+/*!******************************************!*\
+  !*** ./images/specialties/Daisy2000.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Daisy2000-37fe579915aa2e460c6f98188a17e451.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Daisy2001.jpg":
+/*!******************************************!*\
+  !*** ./images/specialties/Daisy2001.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Daisy2001-85e22f178083e0707e3cd15859806088.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Daisy2007National.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/Daisy2007National.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Daisy2007National-514178d628cad9d87614dc6a8f9b5421.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/DaisyBroodBitch.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/DaisyBroodBitch.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/DaisyBroodBitch-596a29c27c257247f929db567d5f2828.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/DaisyFloridaSweeps.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/DaisyFloridaSweeps.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/DaisyFloridaSweeps-0e68584fdc69cedb6131dfd95b8e4599.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/DaisyMaturity.jpg":
+/*!**********************************************!*\
+  !*** ./images/specialties/DaisyMaturity.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/DaisyMaturity-3d0d28f53cf1d8b71a65981d45a10a07.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/DaisyVeteran.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/DaisyVeteran.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/DaisyVeteran-3a6a9c91520f59402e462f12e2049f23.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Dasher.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Dasher.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Dasher-c68bb73fbf8c208ac263b9244e91cbcb.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Dexter.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Dexter.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Dexter-e12c1e22b18240c1142d94817f956681.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Dexter3.jpg":
+/*!****************************************!*\
+  !*** ./images/specialties/Dexter3.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Dexter3-203e8169af3ad03c80fba8fcb60507d6.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Dory2014.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/Dory2014.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Dory2014-fcea2453df72e910b481c34104b50f65.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Dory3.jpg":
+/*!**************************************!*\
+  !*** ./images/specialties/Dory3.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Dory3-1c306eaa359a675f3a00845a97167c92.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Emma (2).jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/Emma (2).jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Emma (2)-3cee059545d47a3ae0f11c633bf28141.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Emma.jpg":
+/*!*************************************!*\
+  !*** ./images/specialties/Emma.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Emma-fdc93cf3d4090c6adcb48d21995cf481.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/EmmaCNCRegional.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/EmmaCNCRegional.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/EmmaCNCRegional-4cc013c64a500fbf9de4b26a999e2db9.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/EmmaNational.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/EmmaNational.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/EmmaNational-79f76c7284db70f536d98019c119a9f6.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FableBestofWinners.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/FableBestofWinners.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FableBestofWinners-4ed9190faa57ff8c08e071ad21e0dd62.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FableNewPenDelWB.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/FableNewPenDelWB.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FableNewPenDelWB-a4653f761fc8db4d4c09d15fe4ea40d6.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Flash2018AKCBestNOAH.jpg":
+/*!*****************************************************!*\
+  !*** ./images/specialties/Flash2018AKCBestNOAH.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Flash2018AKCBestNOAH-4a7de0b4fb6db7b09e9f150ea7aee430.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Flash2019AKCChampionship.jpg":
+/*!*********************************************************!*\
+  !*** ./images/specialties/Flash2019AKCChampionship.jpg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Flash2019AKCChampionship-9a7eb15dd71779c061ddd09092fc5fd2.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Flash2019Florida.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/Flash2019Florida.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Flash2019Florida-22d7be61694eb849da817e46eef5c09a.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FlashAKCjam.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/FlashAKCjam.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FlashAKCjam-7cf39074c7524a0bfbdf851559f8e7a8.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FlashBOB2019SENC.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/FlashBOB2019SENC.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FlashBOB2019SENC-e26021d3bfcb73540336397bb810ac14.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FlashBOS2019SENC.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/FlashBOS2019SENC.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FlashBOS2019SENC-508705c048190b9d878c39a11a0b4348.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FlashCNCBestofBreed.jpg":
+/*!****************************************************!*\
+  !*** ./images/specialties/FlashCNCBestofBreed.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FlashCNCBestofBreed-e1e3c38aec3b1cb2d6ff9aee2493eeff.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FlashNC.jpg":
+/*!****************************************!*\
+  !*** ./images/specialties/FlashNC.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FlashNC-8d84e37522db6fb801681ac81014df24.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FlashNational2016.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/FlashNational2016.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FlashNational2016-6c98ef3c00d11f02c6018d1118ec027d.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FlashNewPenDelBOS.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/FlashNewPenDelBOS.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FlashNewPenDelBOS-7ccdda7f001bbcb712ae1e592a772f3b.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FlashSelectNewPenDel.jpg":
+/*!*****************************************************!*\
+  !*** ./images/specialties/FlashSelectNewPenDel.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FlashSelectNewPenDel-5e99ef00ab30b5d144cbaa826a24c48f.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FredBOWNewPenDel.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/FredBOWNewPenDel.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FredBOWNewPenDel-c9efcbbcbc2b7a6110b66b9c172704ad.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/FredBestInSweeps.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/FredBestInSweeps.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/FredBestInSweeps-83f1105e5d16e837428b8eb4a24f5691.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/GracieObedience.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/GracieObedience.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/GracieObedience-03f7583d707fbfe758b65bdadafaf8bb.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Jack12-18.jpg":
+/*!******************************************!*\
+  !*** ./images/specialties/Jack12-18.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Jack12-18-83e5bfefa3553b9873468cd1146c898f.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/JackNational.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/JackNational.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/JackNational-3bba0ccdf0a11e74033794fe6c4a86ca.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Jet.jpg":
+/*!************************************!*\
+  !*** ./images/specialties/Jet.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Jet-9b64802bc09a8be531e0840073026b36.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/JetFirst.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/JetFirst.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/JetFirst-1f34047af507a9d40c2bb84983183333.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Justin.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Justin.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Justin-498be9b91124d42f3f7db956c7092e43.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Justin2.jpg":
+/*!****************************************!*\
+  !*** ./images/specialties/Justin2.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Justin2-be3fc416210bce887268a7cfafbc2a15.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Katie Best Veteran Bitch 2.jpg":
+/*!***********************************************************!*\
+  !*** ./images/specialties/Katie Best Veteran Bitch 2.jpg ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Katie Best Veteran Bitch 2-7f494f8ee8cea01db28bf8d3eb173827.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Katie Best Veteran Bitch.jpg":
+/*!*********************************************************!*\
+  !*** ./images/specialties/Katie Best Veteran Bitch.jpg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Katie Best Veteran Bitch-610e869fb290bfdea1e740e3dbdc3435.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Katie New VN - Forth Place Nov B.jpg":
+/*!*****************************************************************!*\
+  !*** ./images/specialties/Katie New VN - Forth Place Nov B.jpg ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Katie New VN - Forth Place Nov B-ec09ce81cee07c3a246932a38769e051.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KatieBOS2003.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/KatieBOS2003.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KatieBOS2003-f0cfef7ca2499c11147484950c446611.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KatieBOSNewfFla2003.jpg":
+/*!****************************************************!*\
+  !*** ./images/specialties/KatieBOSNewfFla2003.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KatieBOSNewfFla2003-1bb44891363438626bea416bce50cb6a.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KatieVeteranSweeps2011.jpg":
+/*!*******************************************************!*\
+  !*** ./images/specialties/KatieVeteranSweeps2011.jpg ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KatieVeteranSweeps2011-90a0be3d303114eb80219dfd0c984fde.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Kindle.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Kindle.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Kindle-bb3b35e3827615c356681488cdd27e3e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Kindle2019CNCRegional.jpg":
+/*!******************************************************!*\
+  !*** ./images/specialties/Kindle2019CNCRegional.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Kindle2019CNCRegional-c725e9dee677b9650769fa2d8c6059b9.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Kindle7Months.jpg":
+/*!**********************************************!*\
+  !*** ./images/specialties/Kindle7Months.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Kindle7Months-ee5a2ebc075bed43df64364111cfc501.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KindleBestPuppy.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/KindleBestPuppy.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KindleBestPuppy-783e81962b176e658aed811957250309.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KindleCNC2019BOS.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/KindleCNC2019BOS.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KindleCNC2019BOS-85bd8150c7a117445ac9247c8671efb8.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Kiss.jpg":
+/*!*************************************!*\
+  !*** ./images/specialties/Kiss.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Kiss-5dd233da4444d97ccdda4d2d63b14c96.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissCNCSupportedEntry.jpg":
+/*!******************************************************!*\
+  !*** ./images/specialties/KissCNCSupportedEntry.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissCNCSupportedEntry-3e78257bbb59f640b7e294018ad5cdeb.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissFB.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/KissFB.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissFB-3cc341423268015c010d06453959b3b8.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissFamily.jpg":
+/*!*******************************************!*\
+  !*** ./images/specialties/KissFamily.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissFamily-5ebf641ae0c1e88ce3595bca4d2fde22.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissFirstBroodBitch.jpg":
+/*!****************************************************!*\
+  !*** ./images/specialties/KissFirstBroodBitch.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissFirstBroodBitch-4e32e329f0b98afc02165487cdb0df7e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissFirstSweeps.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/KissFirstSweeps.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissFirstSweeps-2b80204afd0a88ee681b99e1e34ba06c.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissFlorida.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/KissFlorida.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissFlorida-e8dbe3db869507d2ab2f79fa8e63c0e7.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissForthSweeps.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/KissForthSweeps.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissForthSweeps-a2ab74fa3e60282ef47642b500324d2e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissGroup4.jpg":
+/*!*******************************************!*\
+  !*** ./images/specialties/KissGroup4.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissGroup4-338d94fb00c5dd4f0f5bbed6ae45a0ee.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissGroupFirst.jpg":
+/*!***********************************************!*\
+  !*** ./images/specialties/KissGroupFirst.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissGroupFirst-a62612c80b692f079f50271f5c35624f.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissMorrisAndEssex.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/KissMorrisAndEssex.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissMorrisAndEssex-45a79ca7cd9f62e2ac8a9f2a5f1d4309.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissMoving.jpg":
+/*!*******************************************!*\
+  !*** ./images/specialties/KissMoving.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissMoving-28857b9bdf958f0e4c86254ea1714363.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissSENCSelect.jpg":
+/*!***********************************************!*\
+  !*** ./images/specialties/KissSENCSelect.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissSENCSelect-d46b141bf50459f6e215d147a0938890.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissSelect (2).jpg":
+/*!***********************************************!*\
+  !*** ./images/specialties/KissSelect (2).jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissSelect (2)-27f5bcf9d2f0558cf4313956ac2ea638.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/KissSelect.jpg":
+/*!*******************************************!*\
+  !*** ./images/specialties/KissSelect.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/KissSelect-ec971cdfa818d331db6d43c094282387.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Latte.jpg":
+/*!**************************************!*\
+  !*** ./images/specialties/Latte.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Latte-4830fb0d4dc9c6ea3cdaca5bcc78593b.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Linus.jpg":
+/*!**************************************!*\
+  !*** ./images/specialties/Linus.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Linus-2a8e94b1c5fa93c47464198955bc11f8.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Lucy.JPG":
+/*!*************************************!*\
+  !*** ./images/specialties/Lucy.JPG ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Lucy-d7fb4c587346f61711a4301de9d96767.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/LucyTopDam2.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/LucyTopDam2.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/LucyTopDam2-bcb868a24abc34abb456f9d78e319395.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Luke.jpg":
+/*!*************************************!*\
+  !*** ./images/specialties/Luke.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Luke-5ff02a6ff0aae36a93ab57673428ab2f.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Maestro 2019 National.jpg":
+/*!******************************************************!*\
+  !*** ./images/specialties/Maestro 2019 National.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Maestro 2019 National-523dcaf51333a5b8a858a9630b11f57d.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Maestro2018BOSinSweeps.jpg":
+/*!*******************************************************!*\
+  !*** ./images/specialties/Maestro2018BOSinSweeps.jpg ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Maestro2018BOSinSweeps-805c9e99e77c9151ccf6fcea93d279a6.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/MaestroBIS4-6Puppy.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/MaestroBIS4-6Puppy.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/MaestroBIS4-6Puppy-0c0e1927d2c11905c737a4ae174b5cd8.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/MaestroBestOppInSweeps.jpg":
+/*!*******************************************************!*\
+  !*** ./images/specialties/MaestroBestOppInSweeps.jpg ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/MaestroBestOppInSweeps-c0d3d53122b4e9e77bf9540756321ee1.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/MaestroSarah.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/MaestroSarah.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/MaestroSarah-aa97068e011a7ced67f9edde9fb0649e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Maggie first major win.jpg":
+/*!*******************************************************!*\
+  !*** ./images/specialties/Maggie first major win.jpg ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Maggie first major win-ff71017296e22a1e8e312940e10420bf.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Maggie second major 10-27-13.jpg":
+/*!*************************************************************!*\
+  !*** ./images/specialties/Maggie second major 10-27-13.jpg ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Maggie second major 10-27-13-65ca9537489139970000dfea7b8ba7d8.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/MetroBestOppSweeps.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/MetroBestOppSweeps.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/MetroBestOppSweeps-b4a1884d8e3e1abfae56f9b6f16e6a01.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/MetroFirstNational.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/MetroFirstNational.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/MetroFirstNational-25b44364d63e0ee3a35a30c8eb5f1f2b.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/MetroNCNE.jpg":
+/*!******************************************!*\
+  !*** ./images/specialties/MetroNCNE.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/MetroNCNE-35b69a556234ff8501bdba5a922f95b3.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Nash2019AKCChampionship.jpg":
+/*!********************************************************!*\
+  !*** ./images/specialties/Nash2019AKCChampionship.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Nash2019AKCChampionship-51fb537396bac6f017de1cb596fbf7dd.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Nash2019AKCChampionship2.jpg":
+/*!*********************************************************!*\
+  !*** ./images/specialties/Nash2019AKCChampionship2.jpg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Nash2019AKCChampionship2-ccbe1998d09ead75f3c08f4e8d65cbc2.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Nash2019NationalBOSPuppy.jpg":
+/*!*********************************************************!*\
+  !*** ./images/specialties/Nash2019NationalBOSPuppy.jpg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Nash2019NationalBOSPuppy-bb865986eb184ee20ea4c61c2be9e9b6.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Nash8Months.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/Nash8Months.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Nash8Months-f6b43c6014ce87c8bfec1b921713709f.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/NemoBearMountainSweepsBOS.jpg":
+/*!**********************************************************!*\
+  !*** ./images/specialties/NemoBearMountainSweepsBOS.jpg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/NemoBearMountainSweepsBOS-6f00e13d857bf448f9a34a4f2d52d909.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/NemoTenn.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/NemoTenn.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/NemoTenn-a1b4f30ec69187bfb8f486cf2c378b9b.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/NutmegPenOhio.jpg":
+/*!**********************************************!*\
+  !*** ./images/specialties/NutmegPenOhio.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/NutmegPenOhio-39e87998625230b5315657c5a950553e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/ObiBestInSweeps.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/ObiBestInSweeps.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ObiBestInSweeps-b2d91e08ff49ac37f6a2f921485ce5b7.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/ObiBestInSweeps2.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/ObiBestInSweeps2.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ObiBestInSweeps2-391c7726be22670b3a5ddd6ca22eb4e3.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/ObiBestofWinners.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/ObiBestofWinners.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ObiBestofWinners-efe75e92ab42167daf16f70b8881f26c.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/ObiNationals.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/ObiNationals.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ObiNationals-9cedd88fbae37bb14efa18f043ff7090.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Opie2005Eukanuba.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/Opie2005Eukanuba.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Opie2005Eukanuba-74878a4846185bb0b5acd7d14f2f19c5.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/OpieBISSNewfFla.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/OpieBISSNewfFla.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/OpieBISSNewfFla-fb9cf0f7a0b7572b34c2caa1d6f17cc2.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/OpieGroupFirstBISS.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/OpieGroupFirstBISS.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/OpieGroupFirstBISS-9399cf3d5f0bd868e133deefb8e631e0.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/OpieSENCBISS.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/OpieSENCBISS.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/OpieSENCBISS-3b12f73d2a23360fdb5fa77647aeaa64.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/OpieSENCSupportedBOB.jpg":
+/*!*****************************************************!*\
+  !*** ./images/specialties/OpieSENCSupportedBOB.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/OpieSENCSupportedBOB-ed51f6fc4c825ead5ba45a2a349afbeb.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/OpieWestminster.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/OpieWestminster.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/OpieWestminster-f82e6b8cc8a687f8230c0267847538da.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/ParkerNational.jpg":
+/*!***********************************************!*\
+  !*** ./images/specialties/ParkerNational.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ParkerNational-45ac39db794700f86887226a10e8fa65.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Potter.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Potter.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Potter-b9882bf588f1dc75309d2090a75a2df6.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/PotterAOM.jpg":
+/*!******************************************!*\
+  !*** ./images/specialties/PotterAOM.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/PotterAOM-d72d1a037b7bb02c8afc46706cb72333.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Radar.jpg":
+/*!**************************************!*\
+  !*** ./images/specialties/Radar.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Radar-cd9e7c7d4a8b059a2e2934c869b61e30.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/RadarPuppy.jpg":
+/*!*******************************************!*\
+  !*** ./images/specialties/RadarPuppy.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RadarPuppy-13b7062c0ce023ae49c54f20f145fe60.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/RaisinShow.jpg":
+/*!*******************************************!*\
+  !*** ./images/specialties/RaisinShow.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RaisinShow-25f4ba8b048bb530ecd70c8a30e27ac5.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Rocky Group2 Chambersburg.jpg":
+/*!**********************************************************!*\
+  !*** ./images/specialties/Rocky Group2 Chambersburg.jpg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Rocky Group2 Chambersburg-5eb1d8660c4d627008bacd2fb5996cb4.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Rolex.jpg":
+/*!**************************************!*\
+  !*** ./images/specialties/Rolex.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Rolex-f5b708d5259f03653ab9afb764da6821.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Rolex2016National.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/Rolex2016National.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Rolex2016National-7d61c03695206dedc6c882134e218c5c.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/RolexBestInSweeps.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/RolexBestInSweeps.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RolexBestInSweeps-7852b88c9816221ac56ab0016675989a.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/RolexBestOppSweeps.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/RolexBestOppSweeps.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RolexBestOppSweeps-dec63f1bb1f78ecda10cfa48d234e10f.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/RolexCanada.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/RolexCanada.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RolexCanada-bdaa3c2bf86f15e1f506df83f0c85552.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/RolexCanada2.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/RolexCanada2.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RolexCanada2-67cf2ca21414c971572b515be7a2e3ab.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/RolexNationalSelect.jpg":
+/*!****************************************************!*\
+  !*** ./images/specialties/RolexNationalSelect.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RolexNationalSelect-2995dfe0d5801601596e57c9d276342c.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/RolexNationalStudDog.jpg":
+/*!*****************************************************!*\
+  !*** ./images/specialties/RolexNationalStudDog.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RolexNationalStudDog-2ce24a86d4af28978d1919556c051269.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/RolexSENCBestInSweeps.jpg":
+/*!******************************************************!*\
+  !*** ./images/specialties/RolexSENCBestInSweeps.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/RolexSENCBestInSweeps-d6923f14fe38989c81692121223c0ee3.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Ruby.jpg":
+/*!*************************************!*\
+  !*** ./images/specialties/Ruby.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Ruby-6a0201a737dfcbc8929e6a732e3c257d.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Sailor.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/Sailor.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sailor-321229a4ba80ce947f946310d0fa7012.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SampsonAndAtlas.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/SampsonAndAtlas.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SampsonAndAtlas-c877b6748935dba8c3036fa6d7abb30b.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SampsonCNCRegional2.JPG":
+/*!****************************************************!*\
+  !*** ./images/specialties/SampsonCNCRegional2.JPG ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SampsonCNCRegional2-44d4f1521c9ba60119b3193595135e74.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/Simon-Middleburg.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/Simon-Middleburg.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Simon-Middleburg-bc5824e447a2b33c33360a53f723f958.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Simon4thWorkingNational2006.JPG":
+/*!************************************************************!*\
+  !*** ./images/specialties/Simon4thWorkingNational2006.JPG ***!
+  \************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Simon4thWorkingNational2006-fab5f25fe6cf467461d39d10634f7b02.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/SimonKelseyJuniors2006.jpg":
+/*!*******************************************************!*\
+  !*** ./images/specialties/SimonKelseyJuniors2006.jpg ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SimonKelseyJuniors2006-5d822722b976e8c56c5a51a9461a7f04.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SimonNational.jpg":
+/*!**********************************************!*\
+  !*** ./images/specialties/SimonNational.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SimonNational-7eb9a0a21d94504aa58720f32a315c9f.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Sirius.JPG":
+/*!***************************************!*\
+  !*** ./images/specialties/Sirius.JPG ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sirius-0a247ffe635b0b091eccdbd8f0d956c7.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/Sirius2.jpg":
+/*!****************************************!*\
+  !*** ./images/specialties/Sirius2.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sirius2-af69a10a4edc8887ed1013625ffe1d34.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Sirius2013.jpg":
+/*!*******************************************!*\
+  !*** ./images/specialties/Sirius2013.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sirius2013-97ea214f0ae9c932c2623452e51a0535.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SiriusWD.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/SiriusWD.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SiriusWD-ad1e2420c7b953eb3ecf0b4e4421a54d.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Snickers.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/Snickers.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Snickers-7bbbbd30c4023a30909b81610d71d464.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Snowball2016National.jpg":
+/*!*****************************************************!*\
+  !*** ./images/specialties/Snowball2016National.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Snowball2016National-bb294925c65c6b6cb001c4c2f2a828df.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Snowball2019National2ndBroodBitch.jpg":
+/*!******************************************************************!*\
+  !*** ./images/specialties/Snowball2019National2ndBroodBitch.jpg ***!
+  \******************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Snowball2019National2ndBroodBitch-389e986fb260c155b591bbdd3b91d415.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SnowballBOS2018July28.jpg":
+/*!******************************************************!*\
+  !*** ./images/specialties/SnowballBOS2018July28.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SnowballBOS2018July28-7aec0ee75ac13cb42e7aacb73779f7aa.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SnowballBOS2018July29.jpg":
+/*!******************************************************!*\
+  !*** ./images/specialties/SnowballBOS2018July29.jpg ***!
+  \******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SnowballBOS2018July29-5ed6a511948769feb4945a27b2737a5e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SnowballCNCSupportedEntry.jpg":
+/*!**********************************************************!*\
+  !*** ./images/specialties/SnowballCNCSupportedEntry.jpg ***!
+  \**********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SnowballCNCSupportedEntry-5712c70444f931dccb426807614f700d.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SnowballMoving.jpg":
+/*!***********************************************!*\
+  !*** ./images/specialties/SnowballMoving.jpg ***!
+  \***********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SnowballMoving-713b77d7493ac9cc1c6d3971bc07cf8f.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SnowballRWB.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/SnowballRWB.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SnowballRWB-4803d9dbf0348bcf0e31645278e4001e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Sparkle2011AOMSelectSENC.jpg":
+/*!*********************************************************!*\
+  !*** ./images/specialties/Sparkle2011AOMSelectSENC.jpg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sparkle2011AOMSelectSENC-a85dcd4bffdcf4b53ffc6c380d775597.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Sparkle2016National2ndveterans.jpg":
+/*!***************************************************************!*\
+  !*** ./images/specialties/Sparkle2016National2ndveterans.jpg ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sparkle2016National2ndveterans-182b55478fcf39972dd7501bb90e11fd.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Sparkle5.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/Sparkle5.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sparkle5-d761e14886a5c58e8983911a706d33a2.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SparkleCNCRegional.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/SparkleCNCRegional.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SparkleCNCRegional-18644a66d3ca6378bcca592f97ac2483.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SparkleCNCVeteran.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/SparkleCNCVeteran.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SparkleCNCVeteran-05eb711bbd445dcd62fe697fe7fe604a.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SparkleCNCVeterans.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/SparkleCNCVeterans.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SparkleCNCVeterans-5d6d32f356d8e28fbb45d1cc1378d7c5.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SparkleCanada (2).jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/SparkleCanada (2).jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SparkleCanada (2)-0a78d2f43854dbcbaaddd3dc34b02c8d.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SparkleCanada.jpg":
+/*!**********************************************!*\
+  !*** ./images/specialties/SparkleCanada.jpg ***!
+  \**********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SparkleCanada-4d98c7919f4d4afaa1c842ef793a07ec.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SparkleCanadaMoving.jpg":
+/*!****************************************************!*\
+  !*** ./images/specialties/SparkleCanadaMoving.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SparkleCanadaMoving-b57c11d2455177700f670c38a36fa4a7.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SparkleSENCBestVeteran.jpg":
+/*!*******************************************************!*\
+  !*** ./images/specialties/SparkleSENCBestVeteran.jpg ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SparkleSENCBestVeteran-53e8f5c3251ae3065abdea4f51d2d83d.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Spice 2013 National.jpg":
+/*!****************************************************!*\
+  !*** ./images/specialties/Spice 2013 National.jpg ***!
+  \****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Spice 2013 National-6c92c210072231775f32020e61da7104.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Spice Best of Opposite MKC.jpg":
+/*!***********************************************************!*\
+  !*** ./images/specialties/Spice Best of Opposite MKC.jpg ***!
+  \***********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Spice Best of Opposite MKC-055870e1ecc17327f1e04759f5fa5c26.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Spice2013National.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/Spice2013National.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Spice2013National-f24101e76e6bfb260bcbe76e66b4dc8a.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceBISS.jpg":
+/*!******************************************!*\
+  !*** ./images/specialties/SpiceBISS.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceBISS-cf30222f983c21effb698f353f2a7d60.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceBOB.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/SpiceBOB.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceBOB-cdbd868461fe27e14a88140d19569fda.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceBOSSweeps2006.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/SpiceBOSSweeps2006.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceBOSSweeps2006-7b08b478077fa35ea36eb9d6fecc8424.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceFlowers-B&W.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/SpiceFlowers-B&W.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceFlowers-B&W-bc8deee4220d0ea0eb65ab35534db5c3.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceFlowersMed.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/SpiceFlowersMed.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceFlowersMed-001c823cab560b81b1c87946c479457d.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceHead.JPG":
+/*!******************************************!*\
+  !*** ./images/specialties/SpiceHead.JPG ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceHead-225c44e8be1ff9b2573c387a5d7c5813.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceMaco2012CNC.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/SpiceMaco2012CNC.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceMaco2012CNC-2c908b328b2170cf635924ddc769382b.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceNewPenDelBOS.JPG":
+/*!**************************************************!*\
+  !*** ./images/specialties/SpiceNewPenDelBOS.JPG ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceNewPenDelBOS-ea741d28da336bf5fefdc9fd175f3fb7.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceVeteran.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/SpiceVeteran.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceVeteran-7fb6e2581d8a021375d6aad7c99933f5.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SpiceYounger.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/SpiceYounger.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SpiceYounger-db199a1f9678f57182cb649f61d2cd59.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Team-2004-National.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/Team-2004-National.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Team-2004-National-b42a6ec97c8163a965fc3aef4e480aca.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/TiffanyCNCRegional.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/TiffanyCNCRegional.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/TiffanyCNCRegional-60de68c1bbeb6a47f35c50c2cb7bda86.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Tyler.JPG":
+/*!**************************************!*\
+  !*** ./images/specialties/Tyler.JPG ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Tyler-a871a6170160ca1a02500bf4568c3efd.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/daisy_002.jpg":
+/*!******************************************!*\
+  !*** ./images/specialties/daisy_002.jpg ***!
+  \******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/daisy_002-8bcef76aff32af08f7773213a2908fc0.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/emma2014national2.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/emma2014national2.jpg ***!
+  \**************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/emma2014national2-0ad6b3552749e37604c3ac121f4bc2ce.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/emmach.jpg":
+/*!***************************************!*\
+  !*** ./images/specialties/emmach.jpg ***!
+  \***************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/emmach-92344a0880e27f741d05252efd702043.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/fred2014nationalbestinsweeps.jpg":
+/*!*************************************************************!*\
+  !*** ./images/specialties/fred2014nationalbestinsweeps.jpg ***!
+  \*************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/fred2014nationalbestinsweeps-dc46babd41e05e08fc78b2284bbc0867.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/maestro4-6GroupFirst.jpg":
+/*!*****************************************************!*\
+  !*** ./images/specialties/maestro4-6GroupFirst.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/maestro4-6GroupFirst-848f2d2c8784ffddd0dfa1b421bbba76.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/mason.jpg":
+/*!**************************************!*\
+  !*** ./images/specialties/mason.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/mason-dfc20e4e211fc668b45c3e8d88533896.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/nancychilly6.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/nancychilly6.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/nancychilly6-0aac2ad9fb53a0e1656036690c11f87a.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/opie_006.jpg":
+/*!*****************************************!*\
+  !*** ./images/specialties/opie_006.jpg ***!
+  \*****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/opie_006-6b2bcc45e3cc448199fae2229e6d842e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/simon-show2.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/simon-show2.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/simon-show2-34d1cc90bc4864b7cc798f4ddfc1727e.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/sporty_1st_bred_by.jpg":
+/*!***************************************************!*\
+  !*** ./images/specialties/sporty_1st_bred_by.jpg ***!
+  \***************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/sporty_1st_bred_by-94a825ed2448b2f3946563d3468eaee9.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/sporty_regional_best_in_sweeps.jpg":
+/*!***************************************************************!*\
+  !*** ./images/specialties/sporty_regional_best_in_sweeps.jpg ***!
+  \***************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/sporty_regional_best_in_sweeps-ea10bed78acb914168d944a06a58c920.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/sporty_regional_best_of_winners.jpg":
+/*!****************************************************************!*\
+  !*** ./images/specialties/sporty_regional_best_of_winners.jpg ***!
+  \****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/sporty_regional_best_of_winners-e8b7813ee794301dca7211b86390e6a2.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/tate2014national.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/tate2014national.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/tate2014national-d320608ea1a2e941f3bc5314faa8cd9c.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/tate_show_1.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/tate_show_1.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/tate_show_1-35769bb819c6fba5ace0cf289008a81a.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/tiffanycncmoving.jpg":
+/*!*************************************************!*\
+  !*** ./images/specialties/tiffanycncmoving.jpg ***!
+  \*************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/tiffanycncmoving-d628e4c1a173fcfb45fd766ff8e3714c.jpg";
+
+/***/ }),
+
 /***/ "./node_modules/@babel/runtime-corejs2/core-js/array/from.js":
 /*!*******************************************************************!*\
   !*** ./node_modules/@babel/runtime-corejs2/core-js/array/from.js ***!
@@ -11891,7 +14014,7 @@ var initState = {
     sex: "male",
     stud: true,
     name: "GCH Old Bay's Let's Get Sirius CGC, TDI",
-    sire: "CH Bear N Mind's Maritime Traveler",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
     dam: "CH Waterford FrontPage",
     dob: "10/26/2010",
     neutered: false,
@@ -11922,8 +14045,8 @@ var initState = {
     sex: "male",
     stud: false,
     name: "OLD BAY'S BUMBLE BENNIE",
-    sire: "GCH Bear N Mind's Stand Up And Cheer, RN, DD",
-    dam: "GCH Old Bay's Lucy Fur",
+    sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+    dam: "GCH Old Bay's Lucy Fur ROM",
     dob: "December 9, 2012",
     neutered: true,
     rip: "",
@@ -11941,7 +14064,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "Old Bay's Seriously Charming Son",
-    sire: "GCH Old Bay's Let's Get Sirius",
+    sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
     dam: "GCH Old Bay's Please Don't Squeeze The Charm'n",
     dob: "December 5, 2013",
     neutered: true,
@@ -12037,7 +14160,7 @@ var initState = {
     stud: true,
     name: "CH Old Bay's Master of Time in Dreamhaven",
     sire: "GCHB Old Bay's Perfect Timing",
-    dam: "GCHB Old Bay's Snowball's Chance",
+    dam: "GCH Old Bay's Snowball's Chance CD",
     dob: "January 11, 2018",
     neutered: false,
     rip: "",
@@ -12061,7 +14184,7 @@ var initState = {
     sex: "male",
     name: "CH Old Bay's Finding BluWater",
     sire: "GCHB Old Bay's Perfect Timing",
-    dam: "OLD BAY'S SPICIN' IT UP AT BLUWATER",
+    dam: "CH OLD BAY'S SPICIN' IT UP AT BLUWATER",
     dob: "12/21/2017",
     neutered: true,
     rip: "",
@@ -12109,7 +14232,7 @@ var initState = {
     stud: false,
     sex: "female",
     name: "GCHB Old Bay's Keep It Simple ROM",
-    sire: "GCH Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
+    sire: "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
     dam: "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA) ",
     dob: "November 25, 2014",
     neutered: false,
@@ -12132,7 +14255,7 @@ var initState = {
       "date": "04/21/2018",
       "org": "AKC"
     }, {
-      "title": "ROM",
+      "title": "Register of Merit",
       "date": "12/31/2019",
       "org": "AKC"
     }],
@@ -12153,7 +14276,7 @@ var initState = {
     coown: true,
     stud: false,
     sex: "female",
-    name: "GCH CH Old Bay's Snowball's Chance CD",
+    name: "GCH Old Bay's Snowball's Chance CD",
     sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
     dob: "February 4, 2014",
@@ -12227,6 +14350,7 @@ var initState = {
     call: "Carson",
     toptwenty: "",
     ours: true,
+    rom: true,
     stud: false,
     sex: "male",
     name: "BISS GCH PORICIA'S STRAIGHT TO THE TOP CGC, TDI, ROM, HOF",
@@ -12270,8 +14394,8 @@ var initState = {
     stud: false,
     sex: "female",
     name: "CH Old Bay's Sparks Are Flyin', RN, WD",
-    sire: "CH Top Shelf's Troubles A Brewin, DD",
-    dam: "GCH TOP SHELF SPICED WITH OLD BAY, NJP",
+    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "December 3, 2008",
     neutered: false,
     rip: "January 2018",
@@ -12303,7 +14427,7 @@ var initState = {
     sex: "female",
     name: "GCH CH OLD BAY'S LUCY FUR CGC, TDI, THDN, ROM",
     sire: "Muddy Creek's Carson",
-    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ROM",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "June 9, 2009",
     neutered: false,
     rip: "April 29, 2017",
@@ -12338,7 +14462,7 @@ var initState = {
     stud: false,
     sex: "female",
     name: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    sire: "CH Pouch Coves Too Close To Call",
+    sire: "CH Pouch Cove's Too Close To Call CD, RA, DD1",
     dam: "Top Shelfs Something Different ROM",
     dob: "April 29, 2005",
     neutered: false,
@@ -12395,7 +14519,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "GCH Allegiance Rock The Boat OldBay",
-    sire: "CH Top Shelfs On The Rocks",
+    sire: "CH Top Shelf's On The Rocks ROM",
     dam: "CH Darbydales Zoo Two",
     dob: "September 14, 2006",
     neutered: false,
@@ -12474,7 +14598,7 @@ var initState = {
     ours: true,
     stud: false,
     sex: "female",
-    name: "CH OLD BAY'S HELLFROZOVER TOPSHELF RN ROM",
+    name: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
     dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
     dob: "September 26, 2005",
@@ -12573,8 +14697,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "Old Bay's Dash of Spice",
-    sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
-    dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "December 25, 2010",
     neutered: false,
     rip: "February 24, 2011",
@@ -12594,7 +14718,7 @@ var initState = {
     stud: false,
     sex: "female",
     name: "VN CH TOP SHELF'S STAR DAISY CD, TDD, WD1, WRD, ROM ",
-    sire: "CH Darbydales Keep´M Guess´N",
+    sire: "CH Darbydale's Keep´M Guess´N ROM",
     dam: "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
     dob: "February 17, 1999",
     neutered: false,
@@ -12672,7 +14796,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH TOP SHELF TOM COLINS, DD, WRD3",
-    sire: "CH Darbydales Keep´M Guess´N",
+    sire: "CH Darbydale's Keep´M Guess´N ROM",
     dam: "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
     dob: "March 8, 2001",
     neutered: false,
@@ -12823,9 +14947,9 @@ var initState = {
     ours: true,
     stud: false,
     sex: "female",
-    name: "CH. OLD BAY'S SPORTIN' A SPICY ATTITUDE",
-    sire: "CH Skippers Eminence King of Helluland",
-    dam: "CH Top Shelfs Spiced With Old Bay ROM",
+    name: "CH OLD BAY'S SPORTIN' A SPICY ATTITUDE",
+    sire: "BISS GCH Skipper's Eminence King of Helluland ROM",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "April 10, 2008",
     neutered: false,
     rip: "August 10, 2009",
@@ -12850,7 +14974,7 @@ var initState = {
     sex: "male",
     name: "OLD BAY'S SITTIN ON THE BACK BURNER",
     sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
-    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ROM",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "May 10, 2008",
     neutered: false,
     rip: "July 27, 2009",
@@ -13012,8 +15136,8 @@ var initState = {
     stud: false,
     sex: "female",
     name: "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
-    sire: "GCH Old Bay's Potter As In Harry",
-    dam: "CH Old Bay's Sparks Are Flyin'",
+    sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+    dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
     dob: "09/06/2011",
     neutered: true,
     rip: "",
@@ -13055,7 +15179,7 @@ var initState = {
     sex: "male",
     name: "CH Celtic Cross Skipjack At Old Bay CGC",
     sire: "GCH 	Old Bay's Here At Last",
-    dam: "CH Celtic Cross Mischief Managed At Old Bay'",
+    dam: "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
     dob: "10/17/2013",
     neutered: true,
     rip: "",
@@ -13083,7 +15207,7 @@ var initState = {
     stud: false,
     sex: "female",
     name: "CH Dreamhaven's Cascading Waterfalls At Old Bay CGC",
-    sire: "Southwind's Pouch Cove Dark Star",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCHB Old Bay's Keep It Simple ROM'",
     dob: "11/10/2018",
     neutered: false,
@@ -13138,7 +15262,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Dreamhaven's Sum It Up With Old Bay WD, CGC",
-    sire: "Southwind's Pouch Cove Dark Star",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCHB Old Bay's Keep It Simple ROM",
     dob: "11/10/2018",
     neutered: false,
@@ -13172,7 +15296,7 @@ var initState = {
     stud: false,
     sex: "female",
     name: "Dreamhaven's Old Bay Bright Star Over Brandywine CGC",
-    sire: "Southwind's Pouch Cove Dark Star",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCHB Old Bay's Keep It Simple ROM",
     dob: "11/10/2018",
     neutered: false,
@@ -13199,7 +15323,7 @@ var initState = {
     sex: "female",
     name: "CH Dreamhaven's Once Upon A Time At Old Bay CGC",
     sire: "GCHB Old Bay's Perfect Timing",
-    dam: "GCH Old Bay's Snowball's Chance",
+    dam: "GCH Old Bay's Snowball's Chance CD",
     dob: "01/11/2018",
     neutered: false,
     rip: "",
@@ -13273,8 +15397,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Old Bay Because I Can",
-    sire: "CH Top Shelf Troubles A Brewin",
-    dam: "CH Top Shelf Spiced With Old Bay",
+    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "12/03/2008",
     neutered: false,
     rip: "",
@@ -13298,8 +15422,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Old Bay Forged In Flames RN, WD",
-    sire: "CH Sunvalley Petitions Pouch Cove",
-    dam: "CH Old Bay's Hellfrozover Topshelf",
+    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "04/10/2008",
     neutered: false,
     rip: "",
@@ -13309,13 +15433,17 @@ var initState = {
     health: "",
     image: "",
     Titles: [{
-      "title": "CGC",
-      "date": "10/05/2018",
+      "title": "CH",
+      "date": "	11/22/2009",
       "org": "AKC"
     }, {
-      "title": "CGCA",
-      "date": "09/29/2018",
+      "title": "RN",
+      "date": "05/05/2015",
       "org": "AKC"
+    }, {
+      "title": "WD",
+      "date": "08/26/2012",
+      "org": "NCA"
     }]
   }, {
     id: 43,
@@ -13327,8 +15455,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "	Old Bay Irish Maritime Navigator CGC, CGCA",
-    sire: "CH Bear N Mind's Maritime Traveler",
-    dam: "CH Top Shelf Spiced With Old Bay",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "12/25/2010",
     neutered: false,
     rip: "",
@@ -13382,7 +15510,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "WA Old Bay Sonic Wave AXP, CD, CDX, NAP, NJP, OAP, OJP, UD, DD, DDX, TDD3, TDDX, WD, WRD5, WRDX ",
-    sire: "Bear N Mind's Maritime Traveler",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
     dam: "CH Waterford Frontpage",
     dob: "06/02/2009",
     neutered: false,
@@ -13561,8 +15689,8 @@ var initState = {
     stud: false,
     sex: "female",
     name: "Old Bay's Brewed To Perfection RN",
-    sire: "CH Top Shelf Troubles A Brewin",
-    dam: "CH Top Shelf Spiced With Old Bay",
+    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "12/03/2008",
     neutered: false,
     rip: "",
@@ -13587,7 +15715,7 @@ var initState = {
     stud: false,
     sex: "female",
     name: "CH Old Bay's Charming Gift",
-    sire: "CH Old Bay's Let's Get Sirius",
+    sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
     dam: "CH Old Bay's Please Don't Squeeze The Charm'n",
     dob: "12/05/2013",
     neutered: false,
@@ -13614,7 +15742,7 @@ var initState = {
     sex: "female",
     name: "GCH Old Bay's Cool Hand Luke At Belle Harbour",
     sire: "Muddy Creek's Carson",
-    dam: "CH Old Bay's Hellfrozover Topshelf",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "06/09/2009",
     neutered: false,
     rip: "",
@@ -13641,9 +15769,9 @@ var initState = {
     ours: false,
     stud: false,
     sex: "male",
-    name: "	Old Bay's Finest Hour THD",
-    sire: "CH Top Shelf Troubles A Brewin",
-    dam: "CH Top Shelf Spiced With Old Bay",
+    name: "Old Bay's Finest Hour THD",
+    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "12/03/2008",
     neutered: false,
     rip: "",
@@ -13667,7 +15795,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "Old Bay's Fur Heaven's Sake CGCA",
-    sire: "CH Sunvalley's Its As Simple As Abc",
+    sire: "GCHS Sunvalley's Its As Simple As Abc ROM",
     dam: "CH Old Bay's Raging Infurno",
     dob: "04/17/2014",
     neutered: true,
@@ -13697,8 +15825,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Old Bay's Fursnickity",
-    sire: "CH Bear N Mind's Stand Up And Cheer",
-    dam: "CH Old Bay's Lucy Fur",
+    sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+    dam: "GCH Old Bay's Lucy Fur ROM",
     dob: "12/09/2012",
     neutered: true,
     rip: "",
@@ -13721,9 +15849,9 @@ var initState = {
     ours: false,
     stud: false,
     sex: "female",
-    name: "CH Old Bay's Get My Drift At Powder Ridge",
-    sire: "CH Sunvalley Petitions Pouch Cove",
-    dam: "CH Old Bay's Hellfrozover Topshelf",
+    name: "GCH Old Bay's Get My Drift At Powder Ridge",
+    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "04/10/2008",
     neutered: true,
     rip: "",
@@ -13751,8 +15879,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Old Bay's Good To The Last Drop",
-    sire: "CH Southwind's Pouch Cove Dark Star",
-    dam: "CH Old Bay's Lucy Fur",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCH Old Bay's Lucy Fur ROM",
     dob: "02/04/2015",
     neutered: true,
     rip: "",
@@ -13776,8 +15904,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Old Bay's Grand Canyon",
-    sire: "CH Sunvalley Petitions Pouch Cove",
-    dam: "CH Old Bay's Hellfrozover Topshelf",
+    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "04/10/2008",
     neutered: true,
     rip: "",
@@ -13802,8 +15930,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "Old Bay's Hagrid Keeper Of Magical Creatures CGC",
-    sire: "GCH	Old Bay's Potter As In Harry",
-    dam: "CH Old Bay's Sparks Are Flyin'",
+    sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+    dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
     dob: "09/06/2011",
     neutered: true,
     rip: "",
@@ -13819,7 +15947,7 @@ var initState = {
     }]
   }, {
     id: 57,
-    call: "Maggie Moo",
+    call: "Maggie",
     toptwenty: "",
     rom: false,
     vn: false,
@@ -13828,8 +15956,8 @@ var initState = {
     stud: false,
     sex: "female",
     name: "CH Old Bay's Handful Of Magic Sparkles",
-    sire: "GCH	Old Bay's Potter As In Harry",
-    dam: "CH Old Bay's Sparks Are Flyin'",
+    sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+    dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
     dob: "09/06/2011",
     neutered: true,
     rip: "",
@@ -13853,7 +15981,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "Old Bay's Helpful Fun-Loving Marine Panda CGC",
-    sire: "GCH	Bear N Mind's Maritime Traveler",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
     dam: "CH Waterford Frontpage'",
     dob: "10/26/2010",
     neutered: true,
@@ -13879,7 +16007,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "VN Old Bay's Here At Last CD, DD, WRD",
-    sire: "GCH	Bear N Mind's Maritime Traveler",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
     dam: "CH Waterford Frontpage'",
     dob: "10/26/2010",
     neutered: true,
@@ -13925,7 +16053,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Old Bay's It's Night Before It's Afternoon",
-    sire: "GCH	Old Bay's Let's Get Sirius",
+    sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
     dam: "CH Old Bay's Raging Infurno",
     dob: "10/26/2010",
     neutered: true,
@@ -13950,7 +16078,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "Old Bay's Just Like Heaven@Mystic Ridge CGC",
-    sire: "GCH	Sunvalley's Its As Simple As Abc",
+    sire: "GCHS Sunvalley's Its As Simple As Abc ROM",
     dam: "CH Old Bay's Raging Infurno",
     dob: "10/26/2010",
     neutered: true,
@@ -13976,8 +16104,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Old Bay's Lead Me To Temptation",
-    sire: "CH Bear N Mind's Stand Up And Cheer",
-    dam: "CH Old Bay's Lucy Fur",
+    sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+    dam: "GCH Old Bay's Lucy Fur ROM",
     dob: "12/09/2012",
     neutered: true,
     rip: "",
@@ -14073,8 +16201,8 @@ var initState = {
     stud: false,
     sex: "female",
     name: "CH Top Shelfs Cosmopolitan",
-    sire: "CH Top Shelf's On The Rocks",
-    dam: "CH Top Shelfs Wild Night Out",
+    sire: "CH Top Shelf's On The Rocks ROM",
+    dam: "CH Top Shelfs Wild Night Out ROM",
     dob: "12/09/2012",
     neutered: true,
     rip: "10/9/2016",
@@ -14100,7 +16228,7 @@ var initState = {
     sex: "male",
     name: "CH Old Bay's Oahu Astaire N At",
     sire: "CH Topshelfs Israel Kamakawiwoole",
-    dam: "CH Old Bay's Seasoned With Spice",
+    dam: "Old Bay's Seasoned With Spice ROM",
     dob: "12/09/2012",
     neutered: true,
     rip: "",
@@ -14126,7 +16254,7 @@ var initState = {
     sex: "male",
     name: "CH Old Bay's Paniolo Bruddah At Ohana",
     sire: "CH Topshelfs Israel Kamakawiwoole",
-    dam: "CH Old Bay's Seasoned With Spice",
+    dam: "Old Bay's Seasoned With Spice ROM",
     dob: "12/09/2012",
     neutered: true,
     rip: "",
@@ -14155,8 +16283,8 @@ var initState = {
     stud: false,
     sex: "female",
     name: "GCH Old Bay's Please Don't Squeeze The Charm'n",
-    sire: "CH Old Bay's Potter As In Harry",
-    dam: "CH Old Bay's Sparks Are Flyin'",
+    sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+    dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
     dob: "09/06/2011",
     neutered: true,
     rip: "",
@@ -14185,8 +16313,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
-    sire: "CH Sunvalley Petitions Pouch Cove",
-    dam: "CH Old Bay's Hellfrozover Topshelf",
+    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "04/10/2008",
     neutered: true,
     rip: "",
@@ -14235,7 +16363,7 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Old Bay's Potters Friend Hank",
-    sire: "CH Sunvalley's Its As Simple As Abc",
+    sire: "GCHS Sunvalley's Its As Simple As Abc ROM",
     dam: "CH Old Bay's Raging Infurno",
     dob: "04/10/2008",
     neutered: true,
@@ -14286,9 +16414,9 @@ var initState = {
     coown: true,
     stud: false,
     sex: "female",
-    name: "CH Old Bay's Raven Evermore",
+    name: "CH Old Bay's RUBY RELAX N WITH OHANA",
     sire: "CH Topshelfs Israel Kamakawiwoole",
-    dam: "	Old Bay's Seasoned With Spice",
+    dam: "Old Bay's Seasoned With Spice ROM",
     dob: "05/12/2013",
     neutered: true,
     rip: "",
@@ -14313,9 +16441,9 @@ var initState = {
     stud: false,
     sex: "female",
     name: "Old Bay's Seasoned With Spice ROM",
-    sire: "CH Bear N Mind's Maritime Traveler",
-    dam: "CH Top Shelf Spiced With Old Bay",
-    dob: "05/12/2013",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    dob: "December 25, 2010",
     neutered: true,
     rip: "",
     owner: "Sue Faulkner & Cindy Flowers",
@@ -14338,9 +16466,9 @@ var initState = {
     coown: true,
     stud: false,
     sex: "male",
-    name: "GCH	Old Bay's Son Of The Sea",
-    sire: "CH Southwind's Pouch Cove Dark Star",
-    dam: "CH Old Bay's Lucy Fur",
+    name: "GCH Old Bay's Son Of The Sea",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCH Old Bay's Lucy Fur ROM",
     dob: "02/04/2015",
     neutered: true,
     rip: "",
@@ -14368,9 +16496,9 @@ var initState = {
     coown: true,
     stud: false,
     sex: "female",
-    name: "GCH	Old Bay's Son Of The Sea",
-    sire: "CH Southwind's Pouch Cove Dark Star",
-    dam: "CH Old Bay's Lucy Fur",
+    name: "CH OLD BAY'S SPICIN' IT UP AT BLUWATER",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCH Old Bay's Lucy Fur ROM",
     dob: "02/04/2015",
     neutered: false,
     rip: "",
@@ -14396,7 +16524,7 @@ var initState = {
     sex: "female",
     name: "CH Old Bay's The Force Is Strong At Dreamhaven CGC",
     sire: "CH Goldcoast's Keeper Of The Watch",
-    dam: "CH Old Bay's Snowball's Chance",
+    dam: "GCH Old Bay's Snowball's Chance CD",
     dob: "07/29/2017",
     neutered: false,
     rip: "",
@@ -14425,8 +16553,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "GCH Old Bay's Theodorable Spicy Altatude BN, CD, RA, RN, DD, WD",
-    sire: "CH Bear N Mind's Maritime Traveler",
-    dam: "CH Top Shelf Spiced With Old Bay",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "12/25/2010",
     neutered: false,
     rip: "",
@@ -14478,8 +16606,8 @@ var initState = {
     stud: false,
     sex: "female",
     name: "GCH Old Bays Voyage To Nitestar BN, CGC, CGCA, TKI, TKN, DD, WD",
-    sire: "CH Bear N Mind's Stand Up And Cheer",
-    dam: "CH Old Bay's Lucy Fur",
+    sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+    dam: "GCH Old Bay's Lucy Fur ROM",
     dob: "12/09/2012",
     neutered: true,
     rip: "",
@@ -14996,8 +17124,8 @@ var initState = {
     stud: false,
     sex: "male",
     name: "CH Allegiance Carved N Stone Oldbay",
-    sire: "Top Shelf's On The Rocks",
-    dam: "Darbydales Zoo Two",
+    sire: "CH Top Shelf's On The Rocks ROM",
+    dam: "CH Darbydales Zoo Two",
     dob: "	09/14/2006",
     neutered: true,
     rip: "",
@@ -15077,7 +17205,7 @@ var initState = {
     id: 6,
     parents: "Sirius and Raisin",
     breeders: "Kathy Hamilton and Cindy Flowers",
-    sire: "GCH Old Bay's Let's Get Sirius (HE/L/P/HrC/Cn/Cerf/DNC)",
+    sire: "GCH Old Bay's Let's Get Sirius CGC, TDI (HE/L/P/HrC/Cn/Cerf/DNC)",
     dam: "CH Old Bay's Ragin' Infurno  (HG/L/HrC/P/DNA)",
     dob: "February 24, 2014",
     boys: 3,
@@ -15113,7 +17241,7 @@ var initState = {
     id: 9,
     parents: "Todd and Charm",
     breeders: "Cindy and John Flowers and Rose Miller",
-    sire: "GCH Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
+    sire: "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
     dam: "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA)",
     dob: "November 25, 2014",
     boys: 3,
@@ -15137,7 +17265,7 @@ var initState = {
     id: 11,
     parents: "Raisin and Todd",
     breeders: "Kathy Hamilton and John Borklund and Cindy Flowers",
-    sire: "G.Ch. Sun Valley's It's As Simple As A.B.C (HG/L/P/HrC/Cn/Cerf)",
+    sire: "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
     dam: "CH Old Bay's Ragin' Infurno (HG/L/HrC/P/DNA)",
     dob: "April 17, 2014",
     boys: 4,
@@ -15149,7 +17277,7 @@ var initState = {
     id: 12,
     parents: "Charm and Sirius",
     breeders: "Cindy and John Flowers and Rose Miller",
-    sire: "CH Old Bay's Let's Get Sirius",
+    sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
     dam: "GCH CH Old Bay's Please Don't Squeeze The Charm'n ",
     dob: "December 5, 2013",
     boys: 1,
@@ -15162,7 +17290,7 @@ var initState = {
     parents: "Miss Flash and Atlas",
     breeders: "Celtic Cross - Rose Miller and Cindy Flowers and Barbara Plasse",
     sire: "CH Old Bay's Here At Last, WRD",
-    dam: "Celtic Cross Mischief Managed At Old Bay, RN",
+    dam: "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
     dob: "October 17, 2013",
     boys: 1,
     girls: 2,
@@ -15185,7 +17313,7 @@ var initState = {
     id: 15,
     parents: "Lucy and Bravo",
     breeders: " Kathy Hamilton and Cindy Flowers",
-    sire: "GCH CH Bear N Mind's Stand Up and Cheer",
+    sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
     dam: "GCH CH Old Bay's Lucy Fur ",
     dob: "December 9, 2012",
     boys: 5,
@@ -15198,7 +17326,7 @@ var initState = {
     parents: "Lucy and Mick",
     breeders: "Kathy Hamilton and John Borkland and Cindy Flowers",
     sire: "Ch. Cypress Bay Imat Cornerbrook CGC, TDI",
-    dam: "CH Old Bay's Lucy Fur ",
+    dam: "GCH Old Bay's Lucy Fur ROM ",
     dob: "September 10, 2011",
     boys: 2,
     girls: 6,
@@ -15209,8 +17337,8 @@ var initState = {
     id: 17,
     parents: "Sparkle and Potter",
     breeders: "Cindy and John Flowers and Rose Miller",
-    sire: "GCH Old Bay's 'Potter As In Harry'",
-    dam: "CH Old Bay's Sparks Are Flyin', RN",
+    sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA'",
+    dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
     dob: "September 6, 2011",
     boys: 4,
     girls: 8,
@@ -15221,7 +17349,7 @@ var initState = {
     id: 18,
     parents: "Allie x Lincoln",
     breeders: "Powder Ridge Newfs - Julia and Don Sharkey and Kathy Hamilton",
-    sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND",
+    sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND ROM",
     dam: "CH Old Bay Get My Drift At Powder Ridge  ",
     dob: "June 24, 2011",
     boys: 6,
@@ -15233,8 +17361,8 @@ var initState = {
     id: 19,
     parents: "Spice and Travis",
     breeders: "Cindy and John Flowers",
-    sire: "CH Bear N Mind's Maritime Traveler",
-    dam: "GCH Top Shelf Spiced With Old Bay, NJP ",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "December 25, 2010",
     boys: 4,
     girls: 4,
@@ -15245,7 +17373,7 @@ var initState = {
     id: 20,
     parents: "Pharrah and Travis",
     breeders: "Cindy Flowers and Dirk Daelmans",
-    sire: "CH Bear N Mind's Maritime Traveler, CD",
+    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
     dam: "CH Waterford FrontPage",
     dob: "October 26, 2010",
     boys: 4,
@@ -15258,7 +17386,7 @@ var initState = {
     parents: "Chilly and Jimmy",
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "Select Ch Council Cup's Star of Kodiak Acres RN DD CGC TDI",
-    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "April 10, 2010",
     boys: 1,
     girls: 0,
@@ -15294,7 +17422,7 @@ var initState = {
     parents: "Chilly and Carson",
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "Muddy Creek's Carson",
-    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "June 9, 2009",
     boys: 2,
     girls: 1,
@@ -15305,11 +17433,11 @@ var initState = {
     id: 25,
     parents: "Spice and Bruce",
     breeders: "John and Cindy Flowers",
-    sire: "CH Top Shelf's Troubles A Brewin, DD",
-    dam: "GCH TOP SHELF SPICED WITH OLD BAY, NJP",
+    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "December 3, 2008",
-    boys: 6,
-    girls: 1,
+    boys: 5,
+    girls: 2,
     puppies: ["Annie", "Cormack", "Jayne", "Maximus", "Mickey", "Nanaimo", "Sparkle"],
     sireimg: __webpack_require__(/*! ../../images/litters/Bruce.jpg */ "./images/litters/Bruce.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Spice.jpg */ "./images/litters/Spice.jpg")
@@ -15318,7 +17446,7 @@ var initState = {
     parents: "Chilly and Christopher",
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
-    dam: "CH OLD BAY'S HELLFROZOVER TOPSHELF ",
+    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
     dob: "April 10, 2008",
     boys: 4,
     girls: 1,
@@ -15329,8 +17457,8 @@ var initState = {
     id: 27,
     parents: "Spice and Lincoln",
     breeders: "John and Cindy Flowers",
-    sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND",
-    dam: "GCH TOP SHELF SPICED WITH OLD BAY, NJP",
+    sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND ROM",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     dob: "March 10, 2008",
     boys: 0,
     girls: 1,
@@ -15362,1104 +17490,1336 @@ var initState = {
     damimg: __webpack_require__(/*! ../../images/litters/Daisy.jpg */ "./images/litters/Daisy.jpg")
   }],
   awards: [{
+    image: __webpack_require__(/*! ../../images/specialties/Flash2019AKCChampionship.jpg */ "./images/specialties/Flash2019AKCChampionship.jpg"),
     award: "Award of Merit",
-    show: "AKC Royal Canin Show",
-    date: "December 15, 2019",
+    show: "AKC Royal Canin National Dog Show",
+    date: "2019-12-15T00:00:00-08:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Nash2019AKCChampionship.jpg */ "./images/specialties/Nash2019AKCChampionship.jpg"),
     award: "Best of Winners, 1st 12-18 dog",
-    show: " AKC Royal Canin Show",
-    date: "December 15, 2019",
+    show: " AKC Royal Canin National Dog Show",
+    date: "2019-12-15T00:00:00-08:00",
     dog: "Nash"
   }, {
-    award: "Best Newf Puppy",
-    show: "Central Florida Working Group",
-    date: "December 13, 2019",
+    image: __webpack_require__(/*! ../../images/specialties/Nash2019AKCChampionship2.jpg */ "./images/specialties/Nash2019AKCChampionship2.jpg"),
+    award: "Best of Breed",
+    show: "AKC/Royal Canin National All-Breed Puppy & Junior Stakes",
+    date: "2019-12-13T00:00:00-08:00",
     dog: "Nash"
-  },, {
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/Flash2019Florida.jpg */ "./images/specialties/Flash2019Florida.jpg"),
     award: "Best of Breed",
     show: "Central Florida Working Group",
-    date: "December 13, 2019",
+    date: "2019-12-13T00:00:00-08:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Nash8Months.jpg */ "./images/specialties/Nash8Months.jpg"),
     award: "Best of Winners",
     show: "Central Florida Working Group",
-    date: "December 13, 2019",
+    date: "2019-12-13T00:00:00-08:00",
     dog: "Nash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KindleCNC2019BOS.jpg */ "./images/specialties/KindleCNC2019BOS.jpg"),
     award: "BOS",
     show: "CNC Regional",
-    date: "October 27, 2019",
+    date: "2019-10-27T00:00:00-07:00",
     dog: "Kindle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Cricket.jpg */ "./images/specialties/Cricket.jpg"),
     award: "RWB, 1st 9-12 bitch",
     show: "CNC Regional",
-    date: "October 27, 2019",
+    date: "2019-10-27T00:00:00-07:00",
     dog: "Cricket"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Kindle.jpg */ "./images/specialties/Kindle.jpg"),
     award: "Best in Sweepstakes",
     show: "CNC Regional",
-    date: "October 27, 2019",
+    date: "2019-10-27T00:00:00-07:00",
     dog: "Kindle"
   }, {
-    award: "Winners Bitch, 1st 9-12 bitch",
+    image: __webpack_require__(/*! ../../images/specialties/Kindle2019CNCRegional.jpg */ "./images/specialties/Kindle2019CNCRegional.jpg"),
+    award: "Winners Bitch, 1st 9-12 bitch and Best in Sweepstakes",
     show: "CNC Regional",
-    date: "October 26, 2019",
+    date: "2019-10-26T00:00:00-07:00",
     dog: "Kindle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Cricket2019CNCRegional.jpg */ "./images/specialties/Cricket2019CNCRegional.jpg"),
     award: "2nd 9-12 bitch",
     show: "CNC Regional",
-    date: "October 26, 2019",
+    date: "2019-10-26T00:00:00-07:00",
     dog: "Cricket"
   }, {
-    award: "Best in Sweepstakes",
-    show: "CNC Regional",
-    date: "October 26, 2019",
-    dog: "Kindle"
-  }, {
+    image: __webpack_require__(/*! ../../images/specialties/Kindle7Months.jpg */ "./images/specialties/Kindle7Months.jpg"),
     award: "Best in Sweepstakes",
     show: "CNC Supported Entry",
-    date: "October 25, 2019",
+    date: "2019-10-25T00:00:00-07:00",
     dog: "Kindle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FlashBOS2019SENC.jpg */ "./images/specialties/FlashBOS2019SENC.jpg"),
     award: "BOS",
     show: "SENC Regional",
-    date: "July 27, 2019",
+    date: "2019-07-27T00:00:00-04:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FlashBOB2019SENC.jpg */ "./images/specialties/FlashBOB2019SENC.jpg"),
     award: "BOB",
     show: "SENC Regional",
-    date: "July 27, 2019",
+    date: "2019-07-27T00:00:00-04:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Snowball2019National2ndBroodBitch.jpg */ "./images/specialties/Snowball2019National2ndBroodBitch.jpg"),
     award: "2nd Brood Bitch",
-    show: "National",
+    show: "2019 National",
     date: "May 3, 2019",
     dog: "Snowball"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KindleBestPuppy.jpg */ "./images/specialties/KindleBestPuppy.jpg"),
     award: "Best Baby Puppy",
-    show: "National",
-    date: "April 30, 2019",
+    show: "2019 National",
+    date: "2019-04-30T00:00:00-04:00",
     dog: "Kindle"
   }, {
-    award: "Best Baby Puppy",
-    show: "National",
-    date: "April 30, 2019",
-    dog: "Kindle"
-  }, {
+    image: __webpack_require__(/*! ../../images/specialties/Nash2019NationalBOSPuppy.jpg */ "./images/specialties/Nash2019NationalBOSPuppy.jpg"),
     award: "Best Opposite Sex Baby Puppy",
-    show: "National",
-    date: "April 30, 2019",
+    show: "2019 National",
+    date: "2019-04-30T00:00:00-04:00",
     dog: "Nash"
   }, {
-    award: "2nd Beginner Novice A",
-    show: "National",
-    date: "April 30, 2019",
+    image: __webpack_require__(/*! ../../images/specialties/GracieObedience.jpg */ "./images/specialties/GracieObedience.jpg"),
+    award: "2nd Beginner Novice A, 2nd Novice A, 3rd Novice A, 1st Beginner Novice A",
+    show: "2019 National",
+    date: "2019-04-30T00:00:00-04:00",
     dog: "Gracie"
   }, {
-    award: "2nd Novice A",
-    show: "National",
-    date: "April 30, 2019",
-    dog: "Gracie"
-  }, {
-    award: "3rd Novice A",
-    show: "National",
-    date: "May 1, 2019",
-    dog: "Gracie"
-  }, {
-    award: "1st Beginner Novice A",
-    show: "National",
-    date: "May 1, 2019",
-    dog: "Gracie"
-  }, {
+    image: __webpack_require__(/*! ../../images/specialties/FlashNewPenDelBOS.jpg */ "./images/specialties/FlashNewPenDelBOS.jpg"),
     award: "BOS",
     show: "NewPenDel Regional",
-    date: "March 16, 2019",
+    date: "2019-03-16T00:00:00-04:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Maestro2018BOSinSweeps.jpg */ "./images/specialties/Maestro2018BOSinSweeps.jpg"),
     award: "Best Opposite Sex Sweepstakes, 14 months old",
     show: "NewPenDel Regional",
-    date: "March 17, 2019",
+    date: "2019-03-17T00:00:00-04:00",
     dog: "Maestro"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FableNewPenDelWB.jpg */ "./images/specialties/FableNewPenDelWB.jpg"),
     award: "WB, 1st Bred By",
     show: "NewPenDel Regional",
-    date: "March 16, 2019",
+    date: "2019-03-16T00:00:00-04:00",
     dog: "Fable"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/MaestroBestOppInSweeps.jpg */ "./images/specialties/MaestroBestOppInSweeps.jpg"),
     award: "Best Opposite Sex Sweepstakes, 14 months old",
     show: "NewPenDel Regional",
-    date: "March 16, 2019",
+    date: "2019-03-16T00:00:00-04:00",
     dog: "Maestro"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissGroupFirst.jpg */ "./images/specialties/KissGroupFirst.jpg"),
     award: "Select",
     show: "NCNE Supported Entry - morning",
-    date: "March 3, 2018",
+    date: "2018-03-03T00:00:00-05:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/MetroNCNE.jpg */ "./images/specialties/MetroNCNE.jpg"),
     award: "5 point major, BOW/WD, Best in Sweepstakes’s, BOBOH, and Best Puppy",
     show: "NCNE Supported Entry - afternoon",
-    date: "March 3, 2018",
+    date: "2018-03-03T00:00:00-05:00",
     dog: "Metronome"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Radar.jpg */ "./images/specialties/Radar.jpg"),
     award: "3 point major, WD",
     show: "NCNE Supported Entry - morning",
-    date: "March 3, 2018",
+    date: "2018-03-03T00:00:00-05:00",
     dog: "Radar"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissGroup4.jpg */ "./images/specialties/KissGroup4.jpg"),
     award: "Select",
     show: "NCNE Supported Entry - afternoon",
-    date: "March 3, 2018",
+    date: "2018-03-03T00:00:00-05:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissFamily.jpg */ "./images/specialties/KissFamily.jpg"),
     award: "Award of Merit",
     show: "NCNE Supported Entry",
-    date: "March 4, 2018",
+    date: "2018-03-04T00:00:00-05:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RadarPuppy.jpg */ "./images/specialties/RadarPuppy.jpg"),
     award: "4 point major, BOW/WD",
     show: "NCNE Supported Entry",
-    date: "March 4, 2018",
+    date: "2018-03-04T00:00:00-05:00",
     dog: "Radar"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissSelect (2).jpg */ "./images/specialties/KissSelect (2).jpg"),
     award: "Select",
     show: "New Pen Del Regional ",
-    date: "March 17, 2018",
+    date: "2018-03-17T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FlashSelectNewPenDel.jpg */ "./images/specialties/FlashSelectNewPenDel.jpg"),
     award: "Select",
     show: "New Pen Del Regional ",
-    date: "March 18, 2018",
+    date: "2018-03-18T00:00:00-04:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RolexNationalSelect.jpg */ "./images/specialties/RolexNationalSelect.jpg"),
     award: "NCA Select Dog",
     show: "2018 National",
-    date: "May 5, 2018",
+    date: "2018-05-05T00:00:00-04:00",
     dog: "Rolex"
   }, {
-    award: "Best of Opposite in Sweepstakes & 1st in Regular Classes 9-12 puppy dog",
+    image: __webpack_require__(/*! ../../images/specialties/MetroBestOppSweeps.jpg */ "./images/specialties/MetroBestOppSweeps.jpg"),
+    award: "Best of Opposite in Sweepstakes from 9-12 puppy",
     show: "2018 National",
-    date: "May 5, 2018",
+    date: "2018-05-05T00:00:00-04:00",
     dog: "Metronome"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/MetroFirstNational.jpg */ "./images/specialties/MetroFirstNational.jpg"),
+    award: "1st in Regular Classes 9-12 puppy dog",
+    show: "2018 National",
+    date: "2018-05-05T00:00:00-04:00",
+    dog: "Metronome"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissFirstBroodBitch.jpg */ "./images/specialties/KissFirstBroodBitch.jpg"),
     award: "1st in Brood Bitch",
     show: "2018 National",
-    date: "May 5, 2018",
+    date: "2018-05-05T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/2018NationalTeam.jpg */ "./images/specialties/2018NationalTeam.jpg"),
     award: "1st Team",
     show: "2018 National",
-    date: "May 5, 2018",
+    date: "2018-05-05T00:00:00-04:00",
     dog: "Kiss, Metro, Rolex, Radar"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RolexNationalStudDog.jpg */ "./images/specialties/RolexNationalStudDog.jpg"),
     award: "4th Stud Dog",
     show: "2018 National",
-    date: "May 5, 2018",
+    date: "2018-05-05T00:00:00-04:00",
     dog: "Rolex"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/ObiNationals.jpg */ "./images/specialties/ObiNationals.jpg"),
     award: "3rd in 9-12 Sweepstakes",
     show: "2018 National",
-    date: "May 5, 2018",
+    date: "2018-05-05T00:00:00-04:00",
     dog: "Obi"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/NemoBearMountainSweepsBOS.jpg */ "./images/specialties/NemoBearMountainSweepsBOS.jpg"),
     award: "BOS Sweepstakes / 1st 6-9 puppy dog",
     show: "Bear Mountain Supported Entry",
-    date: "June 22, 2018",
+    date: "2018-06-22T00:00:00-04:00",
     dog: "Nemo"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/NemoTenn.jpg */ "./images/specialties/NemoTenn.jpg"),
     award: "1st 6-9 puppy dog sweeps and regular",
     show: "Bear Mountain Regional Specialty",
-    date: "June 23, 2018",
+    date: "2018-06-23T00:00:00-04:00",
     dog: "Nemo"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Kiss.jpg */ "./images/specialties/Kiss.jpg"),
     award: "BOBOH",
     show: "Bear Mountain Regional Specialty",
-    date: "June 23, 2018",
+    date: "2018-06-23T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/NemoTenn.jpg */ "./images/specialties/NemoTenn.jpg"),
     award: "RWD / 1st 6-9 puppy dog sweeps and regular",
     show: "Bear Mountain Regional Specialty",
-    date: "June 24, 2018",
+    date: "2018-06-24T00:00:00-04:00",
     dog: "Nemo"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissFB.jpg */ "./images/specialties/KissFB.jpg"),
     award: "BOBOH",
     show: "Bear Mountain Regional Specialty",
-    date: "June 24, 2018",
+    date: "2018-06-24T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SnowballBOS2018July28.jpg */ "./images/specialties/SnowballBOS2018July28.jpg"),
     award: "BOS",
     show: "SENC Regional",
-    date: "July 28, 2018",
+    date: "2018-07-28T00:00:00-04:00",
     dog: "Snowball"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SnowballBOS2018July29.jpg */ "./images/specialties/SnowballBOS2018July29.jpg"),
     award: "BOS",
     show: "SENC Regional",
-    date: " July 29, 2018",
+    date: "2018-07-29T00:00:00-04:00",
     dog: "Snowball"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/maestro4-6GroupFirst.jpg */ "./images/specialties/maestro4-6GroupFirst.jpg"),
     award: "1st 6-9 Sweeps",
     show: "SENC Regional",
-    date: "July 28, 2018",
+    date: "2018-07-28T00:00:00-04:00",
     dog: "Maestro"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/MaestroBIS4-6Puppy.jpg */ "./images/specialties/MaestroBIS4-6Puppy.jpg"),
     award: "1st 6-9 Sweeps / 2nd 6-9 Regular",
     show: "SENC Regional",
-    date: "July 28, 2018",
+    date: "2018-07-28T00:00:00-04:00",
     dog: "Maestro"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FlashCNCBestofBreed.jpg */ "./images/specialties/FlashCNCBestofBreed.jpg"),
     award: "BOB",
     show: "CNC Regional",
-    date: "October 27, 2018",
+    date: "2018-10-27T00:00:00-04:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FlashSelectNewPenDel.jpg */ "./images/specialties/FlashSelectNewPenDel.jpg"),
     award: "Select",
     show: "CNC Regional",
-    date: "October 26, 2018",
+    date: "2018-10-26T00:00:00-04:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/ObiBestInSweeps2.jpg */ "./images/specialties/ObiBestInSweeps2.jpg"),
     award: "BOBOH",
     show: "CNC Regional",
-    date: "October 27, 2018",
+    date: "2018-10-27T00:00:00-04:00",
     dog: "Obi"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/ObiBestofWinners.jpg */ "./images/specialties/ObiBestofWinners.jpg"),
     award: "Best of Winners and Best in Sweeps - 14 months",
     show: "CNC Regional",
-    date: "October 26, 2018",
+    date: "2018-10-26T00:00:00-04:00",
     dog: "Obi"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/ObiBestInSweeps.jpg */ "./images/specialties/ObiBestInSweeps.jpg"),
     award: "Best of Winners and Best in Sweeps - 14 months",
     show: "CNC Supported Entry",
-    date: "October 25, 2018",
+    date: "2018-10-25T00:00:00-04:00",
     dog: "Obi"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FableBestofWinners.jpg */ "./images/specialties/FableBestofWinners.jpg"),
     award: "Best of Winners, WB, 1st 9-12",
     show: "CNC Regional",
-    date: "October 27, 2018",
+    date: "2018-10-27T00:00:00-04:00",
     dog: "Fable"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Flash2018AKCBestNOAH.jpg */ "./images/specialties/Flash2018AKCBestNOAH.jpg"),
     award: "BOB",
-    show: "National Owner Handled Series Championship",
-    date: "December 15, 2018",
+    show: "National Owner Handled Series Finals",
+    date: "2018-12-15T00:00:00-05:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Maestro 2019 National.jpg */ "./images/specialties/Maestro 2019 National.jpg"),
     award: "Best Bred-By Exhibitor",
     show: "AKC National Championship",
-    date: "December 15, 2018",
+    date: "2018-12-15T00:00:00-05:00",
     dog: "Maestro"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FlashAKCjam.jpg */ "./images/specialties/FlashAKCjam.jpg"),
+    award: "Award of Exellence",
+    show: "2018 AKC National Championship",
+    date: "2018-12-15T00:00:00-05:00",
+    dog: "Flash"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/MaestroSarah.jpg */ "./images/specialties/MaestroSarah.jpg"),
     award: "BOB",
     show: "AKC National Puppy & Junior Stakes",
-    date: "December 15, 2018",
+    date: "2018-12-15T00:00:00-05:00",
     dog: "Maestro"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SparkleCNCVeteran.jpg */ "./images/specialties/SparkleCNCVeteran.jpg"),
     award: "Best Opposite Veteran Sweeps, 1st 7-9 Veteran Sweeps",
     show: "CNC Regional ",
-    date: "October 29, 2017",
+    date: "2017-10-29T00:00:00-04:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SparkleCNCRegional.jpg */ "./images/specialties/SparkleCNCRegional.jpg"),
     award: "Best Opposite Veteran Sweeps, 1st 7-9 Veteran Sweeps",
     show: "CNC Regional ",
-    date: "October 30, 2017",
+    date: "2017-10-30T00:00:00-04:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Sirius.JPG */ "./images/specialties/Sirius.JPG"),
     award: "Select Dog",
     show: "CNC Supported Entry ",
-    date: "October 28, 2017",
+    date: "2017-10-28T00:00:00-04:00",
     dog: "Sirius"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SparkleCanada.jpg */ "./images/specialties/SparkleCanada.jpg"),
     award: "Best Veteran Female ",
     show: "Canadian Regional Specialty",
-    date: "September 3, 2017",
+    date: "2017-09-03T00:00:00-04:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RolexCanada.jpg */ "./images/specialties/RolexCanada.jpg"),
     award: "2nd Open Dog",
     show: "Canadian Regional Specialty",
-    date: "September 3, 2017",
+    date: "2017-09-03T00:00:00-04:00",
     dog: "Rolex"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SparkleCanada (2).jpg */ "./images/specialties/SparkleCanada (2).jpg"),
     award: "Best Veteran Female ",
     show: "Canadian National Specialty ",
-    date: "September 2, 2017",
+    date: "2017-09-02T00:00:00-04:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RolexCanada2.jpg */ "./images/specialties/RolexCanada2.jpg"),
     award: "Reserve Winners Dog/1st Open Dog",
     show: "Canadian National Specialty ",
-    date: "September 2, 2017",
+    date: "2017-09-02T00:00:00-04:00",
     dog: "Rolex"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissFB.jpg */ "./images/specialties/KissFB.jpg"),
     award: "BOS/BOBOH",
     show: "New Pen Del Supported",
-    date: "March 17, 2017",
+    date: "2017-03-17T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissSENCSelect.jpg */ "./images/specialties/KissSENCSelect.jpg"),
     award: "BOS/BOBOH/OHG4 ",
     show: "SENC Supported Entry",
-    date: "February 3, 2017",
+    date: "2017-02-03T00:00:00-05:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SparkleSENCBestVeteran.jpg */ "./images/specialties/SparkleSENCBestVeteran.jpg"),
     award: "1st 7-9 Veteran Sweeps ",
     show: "SENC Supported Entry",
-    date: "February 3, 2017",
+    date: "2017-02-03T00:00:00-05:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissSelect.jpg */ "./images/specialties/KissSelect.jpg"),
     award: "Select/BOBOH/OHG3 ",
     show: "SENC Regional Specialty",
-    date: "February 4, 2017",
+    date: "2017-02-04T00:00:00-05:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SparkleCanadaMoving.jpg */ "./images/specialties/SparkleCanadaMoving.jpg"),
     award: "1st 7-9 Veteran Sweeps ",
     show: "SENC Regional Specialty",
-    date: "February 4, 2017",
+    date: "2017-02-04T00:00:00-05:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Sparkle5.jpg */ "./images/specialties/Sparkle5.jpg"),
     award: "SECOND 7-9 Veteran Sweeps",
     show: "CNC Supported Entry",
-    date: "October 30, 2016",
+    date: "2016-10-30T00:00:00-04:00",
     dog: "Sparkle"
   }, {
-    award: "AKC Select ",
+    image: __webpack_require__(/*! ../../images/specialties/KissCNCSupportedEntry.jpg */ "./images/specialties/KissCNCSupportedEntry.jpg"),
+    award: "AKC Select / BOBOH ",
     show: "CNC Supported Entry",
-    date: "October 30, 2016",
+    date: "2016-10-30T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SnowballCNCSupportedEntry.jpg */ "./images/specialties/SnowballCNCSupportedEntry.jpg"),
     award: "BOS",
     show: "CNC Supported Entry",
-    date: "October 30, 2016",
+    date: "2016-10-30T00:00:00-04:00",
     dog: "Snowball"
-  },, {
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/SparkleCNCVeterans.jpg */ "./images/specialties/SparkleCNCVeterans.jpg"),
     award: "SECOND 7-9 Veteran Sweeps",
     show: "CNC Supported Entry",
-    date: "October 29, 2016",
+    date: "2016-02-03T00:00:00-04:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissFlorida.jpg */ "./images/specialties/KissFlorida.jpg"),
     award: "BOS",
     show: "CNC Supported Entry",
-    date: "October 29, 2016",
+    date: "2016-02-03T00:00:00-04:00",
     dog: "Kiss"
   }, {
-    award: "Select",
+    image: __webpack_require__(/*! ../../images/specialties/KissSENCSelect.jpg */ "./images/specialties/KissSENCSelect.jpg"),
+    award: "Select / BOBOH",
     show: "SENC Regional Specialty",
-    date: "June 11, 2016",
+    date: "2016-02-04T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RolexSENCBestInSweeps.jpg */ "./images/specialties/RolexSENCBestInSweeps.jpg"),
     award: "BEST IN SWEEPS/ 1st 15-18 Sweeps",
     show: "SENC Regional Specialty",
-    date: "June 11, 2016",
+    date: "2016-02-04T00:00:00-04:00",
     dog: "Rolex"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SparkleSENCBestVeteran.jpg */ "./images/specialties/SparkleSENCBestVeteran.jpg"),
     award: "BEST IN VETERAN SWEEPS",
     show: "SENC Regional Specialty",
-    date: "June 11, 2016",
+    date: "2016-02-04T00:00:00-04:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FlashNC.jpg */ "./images/specialties/FlashNC.jpg"),
     award: "RWD / FIRST 15-18 dog",
     show: "SENC Regional Specialty",
-    date: "June 11, 2016",
+    date: "2016-02-04T00:00:00-04:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RaisinShow.jpg */ "./images/specialties/RaisinShow.jpg"),
     award: "FIRST Bred By",
     show: "SENC Regional Specialty",
-    date: "June 11, 2016",
+    date: "2016-02-04T00:00:00-04:00",
     dog: "Raisin"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SnowballMoving.jpg */ "./images/specialties/SnowballMoving.jpg"),
     award: "FIRST 12-18 Sweeps",
     show: "SENC Regional Specialty",
-    date: "June 11, 2016",
+    date: "2016-02-04T00:00:00-04:00",
     dog: "Snowball"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FlashNational2016.jpg */ "./images/specialties/FlashNational2016.jpg"),
     award: "FIRST 15-18 dog, 4th 15-18 sweeps",
     show: "2016 National",
-    date: "May 7, 2016",
+    date: "2016-05-07T00:00:00-04:00",
     dog: "Flash"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RaisinShow.jpg */ "./images/specialties/RaisinShow.jpg"),
     award: "FIRST Amatuer Owner Handled bitch",
     show: "2016 National",
-    date: "May 7, 2016",
+    date: "2016-05-07T00:00:00-04:00",
     dog: "Raisin"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/LucyTopDam2.jpg */ "./images/specialties/LucyTopDam2.jpg"),
     award: "NCA - Top Producing Dam",
     show: "2016",
     date: "December 31, 2016",
     dog: "Lucy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Rolex2016National.jpg */ "./images/specialties/Rolex2016National.jpg"),
     award: "SECOND 12-15 Sweeps",
     show: "2016 National",
-    date: "May 7, 2016",
+    date: "2016-05-07T00:00:00-04:00",
     dog: "Rolex"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Sparkle2016National2ndveterans.jpg */ "./images/specialties/Sparkle2016National2ndveterans.jpg"),
     award: "SECOND 7-8 Veteran Sweeps",
     show: "2016 National",
-    date: "May 7, 2016",
+    date: "2016-05-07T00:00:00-04:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Sailor.jpg */ "./images/specialties/Sailor.jpg"),
     award: "SECOND 15-18 dog ",
     show: "2016 National",
-    date: "May 7, 2016",
+    date: "2016-05-07T00:00:00-04:00",
     dog: "Sailor"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Atlas.jpg */ "./images/specialties/Atlas.jpg"),
     award: "FORTH Working Dog",
     show: "2016 National",
-    date: "May 7, 2016",
+    date: "2016-05-07T00:00:00-04:00",
     dog: "Atlas"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissForthSweeps.jpg */ "./images/specialties/KissForthSweeps.jpg"),
     award: "FORTH 15-18 Sweeps",
     show: "2016 National",
-    date: "May 7, 2016",
+    date: "2016-05-07T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Emma.jpg */ "./images/specialties/Emma.jpg"),
     award: "1st leg in Rally Advanced",
     show: "2016 National",
-    date: "May 7, 2016",
+    date: "2016-05-07T00:00:00-04:00",
     dog: "Emma"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SnowballRWB.jpg */ "./images/specialties/SnowballRWB.jpg"),
     award: "Reserve Winners Bitch / 1st Bred-by / 1st 12-15 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "March 20, 2016",
+    date: "2016-03-20T00:00:00-04:00",
     dog: "Snowball"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RolexBestInSweeps.jpg */ "./images/specialties/RolexBestInSweeps.jpg"),
     award: "Best in Sweepstakes / 1st 12-15 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "March 20, 2016",
+    date: "2016-03-20T00:00:00-04:00",
     dog: "Rolex"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissFirstSweeps.jpg */ "./images/specialties/KissFirstSweeps.jpg"),
     award: "1st 15-18 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "March 20, 2016",
+    date: "2016-03-20T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/JetFirst.jpg */ "./images/specialties/JetFirst.jpg"),
     award: "2nd 12-15 Sweeps / 1st 12-18 Dog",
     show: "NewPenDel Regional Specialty",
-    date: "March 20, 2016",
+    date: "2016-03-20T00:00:00-04:00",
     dog: "Jet"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Snowball2016National.jpg */ "./images/specialties/Snowball2016National.jpg"),
     award: "1st 12-15 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "March 19, 2016",
+    date: "2016-03-19T00:00:00-04:00",
     dog: "Snowball"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Rolex.jpg */ "./images/specialties/Rolex.jpg"),
     award: "1st 12-15 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "March 19, 2016",
+    date: "2016-03-19T00:00:00-04:00",
     dog: "Rolex"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissMoving.jpg */ "./images/specialties/KissMoving.jpg"),
     award: "1st 15-18 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "March 19, 2016",
+    date: "2016-03-19T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Jet.jpg */ "./images/specialties/Jet.jpg"),
     award: "2nd 12-15 Sweeps / 1st 12-18 Dog",
     show: "NewPenDel Regional Specialty",
-    date: "March 19, 2016",
+    date: "2016-03-19T00:00:00-04:00",
     dog: "Jet"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/JackNational.jpg */ "./images/specialties/JackNational.jpg"),
+    award: "3rd Open",
+    show: "2015 National",
+    date: "2015-05-07T00:00:00-04:00",
+    dog: "Jack"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/KissMorrisAndEssex.jpg */ "./images/specialties/KissMorrisAndEssex.jpg"),
     award: "Best of Opposite in Sweepstakes / 1st 9-12 Sweeps / 4th 9-12 Puppy Bitch",
     show: "NewPenDel Regional Specialty - Morris & Essex",
-    date: "October 1, 2015",
+    date: "2015-10-01T00:00:00-04:00",
     dog: "Kiss"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/RolexBestOppSweeps.jpg */ "./images/specialties/RolexBestOppSweeps.jpg"),
     award: "1st 6-9 Sweeps / 2nd 6-9 Puppy Dog",
     show: "NewPenDel Regional Specialty - Morris & Essex",
-    date: "October 1, 2015",
+    date: "2015-10-01T00:00:00-04:00",
     dog: "Rolex"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/JetFirst.jpg */ "./images/specialties/JetFirst.jpg"),
     award: "2nd 6-9 Sweeps / 3rd 6-9 Puppy Dog ",
     show: "NewPenDel Regional Specialty - Morris & Essex",
-    date: "October 1, 2015",
+    date: "2015-10-01T00:00:00-04:00",
     dog: "Jet"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/TiffanyCNCRegional.jpg */ "./images/specialties/TiffanyCNCRegional.jpg"),
     award: "WB/1st 9-12 - 4 points",
     show: "CNC Supported Entry",
-    date: "October 26, 2014",
+    date: "2014-10-26T00:00:00-04:00",
     dog: "Tiffany"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Justin.jpg */ "./images/specialties/Justin.jpg"),
     award: "1st 6-9",
     show: "CNC Supported Entry",
-    date: "October 26, 2014",
+    date: "2014-10-26T00:00:00-04:00",
     dog: "Justin"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Jack12-18.jpg */ "./images/specialties/Jack12-18.jpg"),
     award: "2nd 12-18",
     show: "CNC Supported Entry",
-    date: "October 26, 2014",
+    date: "2014-10-26T00:00:00-04:00",
     dog: "Jack"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/tiffanycncmoving.jpg */ "./images/specialties/tiffanycncmoving.jpg"),
     award: "2nd 9-12 Sweeps/Regular ",
     show: "CNC Regional",
-    date: "October 25, 2014",
+    date: "2014-10-25T00:00:00-04:00",
     dog: "Tiffany"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Justin2.jpg */ "./images/specialties/Justin2.jpg"),
     award: "1st 6-9 Sweeps/Regular",
     show: "CNC Regional",
-    date: "October 25, 2014",
+    date: "2014-10-25T00:00:00-04:00",
     dog: "Justin"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/JackNational.jpg */ "./images/specialties/JackNational.jpg"),
     award: "1st 12-18 Regular / 2nd 12-15 Sweeps",
     show: "CNC Regional",
-    date: "October 25, 2014",
+    date: "2014-10-25T00:00:00-04:00",
     dog: "Jack"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SpiceBOB.jpg */ "./images/specialties/SpiceBOB.jpg"),
     award: "Best Veteran Bitch in Sweeps / 1st 9+",
     show: "CNC Regional",
-    date: "October 25, 2014",
+    date: "2014-10-25T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/EmmaCNCRegional.jpg */ "./images/specialties/EmmaCNCRegional.jpg"),
     award: "New Grand Champion! SEL/AOM",
     show: "CNC Regional",
-    date: "October 25, 2014",
+    date: "2014-10-25T00:00:00-04:00",
     dog: "Emma"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/tate_show_1.jpg */ "./images/specialties/tate_show_1.jpg"),
     award: "New Champion! WD/1st Open - 5 points",
     show: "CNC Regional",
-    date: "October 25, 2014",
+    date: "2014-10-25T00:00:00-04:00",
     dog: "Tate"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/tate2014national.jpg */ "./images/specialties/tate2014national.jpg"),
     award: "Winners Dog, 1st 15-18",
     show: "2014 National",
-    date: "April 5, 2014",
+    date: "2014-04-05T00:00:00-04:00",
     dog: "Tate"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FredBestInSweeps.jpg */ "./images/specialties/FredBestInSweeps.jpg"),
     award: "Best in Sweeps - 1st 9-12 Sweeps",
     show: "2014 National",
-    date: "April 5, 2014",
+    date: "2014-04-05T00:00:00-04:00",
     dog: "Fred"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/EmmaNational.jpg */ "./images/specialties/EmmaNational.jpg"),
     award: "1st 9-12 Bitch",
     show: "2014 National",
-    date: "April 5, 2014",
+    date: "2014-04-05T00:00:00-04:00",
     dog: "Emma"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SpiceFlowersMed.jpg */ "./images/specialties/SpiceFlowersMed.jpg"),
     award: "2nd 7-9 Veteran Bitch / 3rd 8-9 Sweeps",
     show: "2014 National",
-    date: "April 5, 2014",
+    date: "2014-04-05T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/ParkerNational.jpg */ "./images/specialties/ParkerNational.jpg"),
     award: "3rd 9-12 dog",
     show: "2014 National",
-    date: "April 5, 2014",
+    date: "2014-04-05T00:00:00-04:00",
     dog: "Parker"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SampsonAndAtlas.jpg */ "./images/specialties/SampsonAndAtlas.jpg"),
     award: "2nd Brace",
     show: "2014 National",
-    date: "April 5, 2014",
+    date: "2014-04-05T00:00:00-04:00",
     dog: "Sampson, Atlas"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Ruby.jpg */ "./images/specialties/Ruby.jpg"),
     award: "2nd 9-12",
     show: "NewPenDel Supported Entry",
-    date: "March 16, 2014",
+    date: "2014-03-16T00:00:00-04:00",
     dog: "Ruby"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/FredBOWNewPenDel.jpg */ "./images/specialties/FredBOWNewPenDel.jpg"),
     award: "BOW/WD/1st 9-12 - 5 points and BOS Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "March 16, 2014",
+    date: "2014-03-16T00:00:00-04:00",
     dog: "Fred"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Snickers.jpg */ "./images/specialties/Snickers.jpg"),
     award: "1st 12-18",
     show: "NewPenDel Supported Entry",
-    date: "March 16, 2014",
+    date: "2014-03-16T00:00:00-04:00",
     dog: "Snickers"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/tate_show_1.jpg */ "./images/specialties/tate_show_1.jpg"),
     award: "2nd 12-18",
     show: "NewPenDel Supported Entry",
-    date: "March 16, 2014",
+    date: "2014-03-16T00:00:00-04:00",
     dog: "Tate"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Emma (2).jpg */ "./images/specialties/Emma (2).jpg"),
     award: "1st 9-12",
     show: "NewPenDel Supported Entry",
-    date: "March 16, 2014",
+    date: "2014-03-16T00:00:00-04:00",
     dog: "Emma"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/emmach.jpg */ "./images/specialties/emmach.jpg"),
     award: "RWB/1st 9-12",
     show: "NewPenDel Supported Entry",
-    date: "March 15, 2014",
+    date: "2014-03-15T00:00:00-04:00",
     dog: "Emma"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/fred2014nationalbestinsweeps.jpg */ "./images/specialties/fred2014nationalbestinsweeps.jpg"),
     award: "RWD/1st 9-12 and BOS Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "March 15, 2014",
+    date: "2014-03-15T00:00:00-04:00",
     dog: "Fred"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Ruby.jpg */ "./images/specialties/Ruby.jpg"),
     award: "2nd 9-12",
     show: "NewPenDel Supported Entry",
-    date: "March 15, 2014",
+    date: "2014-03-15T00:00:00-04:00",
     dog: "Ruby"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/emma2014national2.jpg */ "./images/specialties/emma2014national2.jpg"),
     award: "1st 9-12",
     show: "NewPenDel Supported Entry",
-    date: "March 14, 2014",
+    date: "2014-03-14T00:00:00-04:00",
     dog: "Emma"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/fred2014nationalbestinsweeps.jpg */ "./images/specialties/fred2014nationalbestinsweeps.jpg"),
     award: "1st 9-12",
     show: "NewPenDel Supported Entry",
-    date: "March 14, 2014",
+    date: "2014-03-14T00:00:00-04:00",
     dog: "Fred"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SpiceFlowers-B&W.jpg */ "./images/specialties/SpiceFlowers-B&W.jpg"),
     award: "Best Veteran Bitch in Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "March 14, 2014",
+    date: "2014-03-14T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Dory2014.jpg */ "./images/specialties/Dory2014.jpg"),
     award: "RWD/1st Open Dog",
     show: "HCNC Regional Specialty",
-    date: "February 13, 2014",
+    date: "2014-02-13T00:00:00-05:00",
     dog: "Dory"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Dory3.jpg */ "./images/specialties/Dory3.jpg"),
     award: "RWD/2nd Open Dog",
     show: "HCNC Regional Specialty",
-    date: "February 12, 2014",
+    date: "2014-02-12T00:00:00-05:00",
     dog: "Dory"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Ruby.jpg */ "./images/specialties/Ruby.jpg"),
     award: "2nd 6-9 - 1st 6-9 Sweeps",
     show: "NC of New England Regional Specialty",
-    date: "December 8, 2013",
+    date: "2013-12-08T00:00:00-05:00",
     dog: "Ruby"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Ruby.jpg */ "./images/specialties/Ruby.jpg"),
     award: "1/BP/Puppy Group 2 6-9 - 1st 6-9 Sweeps",
     show: "NC of New England Supported Entry",
-    date: "December 7, 2013",
+    date: "2013-12-07T00:00:00-05:00",
     dog: "Ruby"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Maggie second major 10-27-13.jpg */ "./images/specialties/Maggie second major 10-27-13.jpg"),
     award: "BOW/WB/1st Open - 5 points",
     show: "CNC Supported Entry",
-    date: "October 27, 2013",
+    date: "2013-10-27T00:00:00-04:00",
     dog: "Maggie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Snickers.jpg */ "./images/specialties/Snickers.jpg"),
     award: "RWD/1st 9-12 Sweeps - 2nd 9-12",
     show: "CNC Supported Entry",
-    date: "October 27, 2013",
+    date: "2013-10-27T00:00:00-04:00",
     dog: "Snickers"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/tate_show_1.jpg */ "./images/specialties/tate_show_1.jpg"),
     award: "3rd 9-12",
     show: "CNC Supported Entry",
-    date: "October 27, 2013",
+    date: "2013-10-27T00:00:00-04:00",
     dog: "Tate"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Maggie first major win.jpg */ "./images/specialties/Maggie first major win.jpg"),
     award: "4th Am-Bred",
     show: "CNC  Regional",
-    date: "October 27, 2013",
+    date: "2013-10-27T00:00:00-04:00",
     dog: "Maggie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Snickers.jpg */ "./images/specialties/Snickers.jpg"),
     award: "1st 9-12 Sweeps - 1st 9-12",
     show: "CNC  Regional",
-    date: "October 27, 2013",
+    date: "2013-10-27T00:00:00-04:00",
     dog: "Snickers"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/tate_show_1.jpg */ "./images/specialties/tate_show_1.jpg"),
     award: "3rd 9-12 Sweeps - 2nd 9-12",
     show: "CNC  Regional",
-    date: "October 27, 2013",
+    date: "2013-10-27T00:00:00-04:00",
     dog: "Tate"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Dexter3.jpg */ "./images/specialties/Dexter3.jpg"),
     award: "2nd 7-9 Veteran Sweeps",
     show: "CNC  Regional",
-    date: "October 27, 2013",
+    date: "2013-10-27T00:00:00-04:00",
     dog: "Dexter"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SpiceVeteran.jpg */ "./images/specialties/SpiceVeteran.jpg"),
     award: "2nd 7-9 Veteran Sweeps",
     show: "CNC  Regional",
-    date: "October 27, 2013",
+    date: "2013-10-27T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Spice2013National.jpg */ "./images/specialties/Spice2013National.jpg"),
     award: "3rd - 7-9 Veteran Bitch",
     show: "2013 National",
-    date: "April 5, 2013",
+    date: "2013-04-05T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Atlas2013Natioanl.jpg */ "./images/specialties/Atlas2013Natioanl.jpg"),
     award: "1st AOH, 1st Stud Dog 'Team Travis' ",
     show: "2013 National",
-    date: "April 5, 2013",
+    date: "2013-04-05T00:00:00-04:00",
     dog: "Atlas"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Chilly.jpg */ "./images/specialties/Chilly.jpg"),
     award: "4th - 7-9 Veteran Bitch ",
     show: "2013 National",
-    date: "April 5, 2013",
+    date: "2013-04-05T00:00:00-04:00",
     dog: "Chilly"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Atlas2.jpg */ "./images/specialties/Atlas2.jpg"),
     award: "2nd - Novice A  ",
     show: "2013 National",
-    date: "April 5, 2013",
+    date: "2013-04-05T00:00:00-04:00",
     dog: "Atlas"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Spice 2013 National.jpg */ "./images/specialties/Spice 2013 National.jpg"),
     award: "Best Veteran in Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "March 17, 2013",
+    date: "2013-03-17T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Atlas.jpg */ "./images/specialties/Atlas.jpg"),
     award: "1st Open",
     show: "NewPenDel Supported Entry",
-    date: "March 17, 2013",
+    date: "2013-03-17T00:00:00-04:00",
     dog: "Atlas"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SpiceYounger.jpg */ "./images/specialties/SpiceYounger.jpg"),
     award: "Best Veteran in Sweeps",
     show: "NewPenDel Regional",
-    date: "March 16, 2013",
+    date: "2013-03-16T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Atlas2.jpg */ "./images/specialties/Atlas2.jpg"),
     award: "BOW, WD, 1st Open (5 pts)",
     show: "NewPenDel Regional",
-    date: "March 16, 2013",
+    date: "2013-03-16T00:00:00-04:00",
     dog: "Atlas"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SpiceVeteran.jpg */ "./images/specialties/SpiceVeteran.jpg"),
     award: "Best Veteran in Sweeps",
     show: "SENC Regional",
-    date: "February 16, 2013",
+    date: "2013-02-16T00:00:00-05:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Sirius2013.jpg */ "./images/specialties/Sirius2013.jpg"),
     award: "Select Dog",
     show: "SENC Regional",
-    date: "February 16, 2013",
+    date: "2013-02-16T00:00:00-05:00",
     dog: "Sirius"
   }, {
-    award: "Best Veteran Bitch in Sweeps",
+    image: __webpack_require__(/*! ../../images/specialties/SpiceMaco2012CNC.jpg */ "./images/specialties/SpiceMaco2012CNC.jpg"),
+    award: "Best Veterans in Sweeps",
     show: "CNC Regional",
-    date: "October 27, 2012",
-    dog: "Spice"
+    date: "2012-10-27T00:00:00-04:00",
+    dog: "Spice, Macco"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Charm.jpg */ "./images/specialties/Charm.jpg"),
     award: "2nd 12-15 Bitch, 1st 12-15 Bitch Sweeps",
     show: "CNC Regional",
-    date: "October 27, 2012",
+    date: "2012-10-27T00:00:00-04:00",
     dog: "Charm"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/AtlasMaturity2012.jpg */ "./images/specialties/AtlasMaturity2012.jpg"),
     award: "1st Maturity - 'Team Travis'",
     show: "2012 National",
-    date: "May 5, 2012",
+    date: "2012-05-05T00:00:00-04:00",
     dog: "Atlas"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SimonNational.jpg */ "./images/specialties/SimonNational.jpg"),
     award: "3rd 9+ Veteran Dog Sweeps/Regular",
     show: "2012 National",
-    date: "May 5, 2012",
+    date: "2012-05-05T00:00:00-04:00",
     dog: "Simon"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Spice 2013 National.jpg */ "./images/specialties/Spice 2013 National.jpg"),
     award: "3rd 7 - 9 Veteran Bitch Sweeps/Regular",
     show: "2012 National",
-    date: "May 5, 2012",
+    date: "2012-05-05T00:00:00-04:00",
     dog: "Spice"
   }, {
-    award: "BOB, 1st 7 - 9 Veteran Bitch",
+    image: __webpack_require__(/*! ../../images/specialties/SpiceBISS.jpg */ "./images/specialties/SpiceBISS.jpg"),
+    award: "BISS, 1st 7 - 9 Veteran Bitch",
     show: "NewPenDel Regional",
-    date: "April 29, 2012",
+    date: "2012-04-29T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/simon-show2.jpg */ "./images/specialties/simon-show2.jpg"),
     award: "2nd 9+ Veteran Dog",
     show: "NewPenDel Regional",
-    date: "April 29, 2012",
+    date: "2012-04-29T00:00:00-04:00",
     dog: "Simon"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Latte.jpg */ "./images/specialties/Latte.jpg"),
     award: "2nd 15-18 Bitch",
     show: "NewPenDel Regional",
-    date: "April 29, 2012",
+    date: "2012-04-29T00:00:00-04:00",
     dog: "Latte"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Charm2.jpg */ "./images/specialties/Charm2.jpg"),
     award: "2nd 9-12 Bitch",
     show: "NewPenDel Regional",
-    date: "April 29, 2012",
+    date: "2012-04-29T00:00:00-04:00",
     dog: "Charm"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Luke.jpg */ "./images/specialties/Luke.jpg"),
     award: "1st AOH Dog",
     show: "2011 National",
-    date: "April 5, 2011",
+    date: "2011-04-05T00:00:00-04:00",
     dog: "Luke"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KatieVeteranSweeps2011.jpg */ "./images/specialties/KatieVeteranSweeps2011.jpg"),
     award: "2nd 9 and over sweeps / 4th 9 and over:",
     show: "2011 National",
-    date: "April 5, 2011",
+    date: "2011-04-05T00:00:00-04:00",
     dog: "Katie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Atlas1.jpg */ "./images/specialties/Atlas1.jpg"),
     award: "2nd Maturity - Team Travis and Katie",
     show: "2011 National",
-    date: "April 5, 2011",
+    date: "2011-04-05T00:00:00-04:00",
     dog: "Atlas"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Chilly 2011 National.jpg */ "./images/specialties/Chilly 2011 National.jpg"),
     award: "4th Brood Bitch",
     show: "2011 National",
-    date: "April 5, 2011",
+    date: "2011-04-05T00:00:00-04:00",
     dog: "Chilly"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Dasher.jpg */ "./images/specialties/Dasher.jpg"),
     award: "Best of Opposite in Sweeps, 1st 9-12 Sweeps, RWD, 1st 9-12 puppy",
     show: "Penn Ohio Regional",
-    date: "December 17, 2011",
-    dog: "Dash"
+    date: "2011-12-17T00:00:00-05:00",
+    dog: "Dasher"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/NutmegPenOhio.jpg */ "./images/specialties/NutmegPenOhio.jpg"),
     award: "1st 9-12 Puppy Bitch, 1st 9-12 sweeps",
     show: "Penn Ohio Regional",
-    date: "December 17, 2011",
+    date: "2011-12-17T00:00:00-05:00",
     dog: "Nutmeg"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Sirius2.jpg */ "./images/specialties/Sirius2.jpg"),
     award: "2nd 12-15 Sweeps 3rd 12-18 Dog",
     show: "Penn Ohio Regional",
-    date: "December 17, 2011",
+    date: "2011-12-17T00:00:00-05:00",
     dog: "Sirius"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Dasher.jpg */ "./images/specialties/Dasher.jpg"),
     award: "1st 9-12 Puppy Dog, 1st 9-12 sweeps",
     show: "Penn Ohio Regional",
-    date: "December 18, 2011",
-    dog: "Dash"
+    date: "2011-12-18T00:00:00-05:00",
+    dog: "Dasher"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/NutmegPenOhio.jpg */ "./images/specialties/NutmegPenOhio.jpg"),
     award: "1st 9-12 Puppy Bitch, 1st 9-12 sweeps",
     show: "Penn Ohio Regional",
-    date: "December 18, 2011",
+    date: "2011-12-18T00:00:00-05:00",
     dog: "Nutmeg"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SiriusWD.jpg */ "./images/specialties/SiriusWD.jpg"),
     award: "3rd 12-15 Sweeps 2nd 12-18 Dog",
     show: "Penn Ohio Regional",
-    date: "December 18, 2011",
+    date: "2011-12-18T00:00:00-05:00",
     dog: "Sirius"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/ChillyMoving.jpg */ "./images/specialties/ChillyMoving.jpg"),
     award: "Highest Scoring Rally Novice B",
     show: "Penn Ohio Supported Entry",
     date: "December 16, 2011",
     dog: "Chilly"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/nancychilly6.jpg */ "./images/specialties/nancychilly6.jpg"),
     award: "Highest Scoring Rally Novice B",
     show: "Penn Ohio Regional",
-    date: "December 18, 2011",
+    date: "2011-12-18T00:00:00-05:00",
     dog: "Chilly"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Katie Best Veteran Bitch 2.jpg */ "./images/specialties/Katie Best Veteran Bitch 2.jpg"),
     award: "Best of Opposite Veteran in Sweeps",
     show: "NewPenDel Regional",
-    date: "March 17, 2011",
+    date: "2011-03-17T00:00:00-04:00",
     dog: "Katie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/KatieVeteranSweeps2011.jpg */ "./images/specialties/KatieVeteranSweeps2011.jpg"),
     award: "Best Veteran in Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "March 18, 2011",
+    date: "2011-03-18T00:00:00-04:00",
     dog: "Katie"
   }, {
-    award: "Award of Merit/Selec",
+    image: __webpack_require__(/*! ../../images/specialties/Sparkle2011AOMSelectSENC.jpg */ "./images/specialties/Sparkle2011AOMSelectSENC.jpg"),
+    award: "Award of Merit/Select",
     show: "SENC Regional",
-    date: "July 18, 2011",
+    date: "2011-07-18T00:00:00-04:00",
     dog: "Sparkle"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Annie.JPG */ "./images/specialties/Annie.JPG"),
     award: "1st AOH",
     show: "SENC Regional",
-    date: "July 18, 2011",
+    date: "2011-07-18T00:00:00-04:00",
     dog: "Annie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Lucy.JPG */ "./images/specialties/Lucy.JPG"),
     award: "1st Bred By",
     show: "SENC Regional",
-    date: "July 18, 2011",
+    date: "2011-07-18T00:00:00-04:00",
     dog: "Lucy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SpiceHead.JPG */ "./images/specialties/SpiceHead.JPG"),
     award: "2010 Top Show Bitch",
     show: "NCA",
-    date: "December 31, 2010",
+    date: "2010-12-31T00:00:00-05:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SpiceNewPenDelBOS.JPG */ "./images/specialties/SpiceNewPenDelBOS.JPG"),
     award: "BOS",
     show: "New Pen Del Regional",
-    date: "April 4, 2010",
+    date: "2010-04-04T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/PotterAOM.jpg */ "./images/specialties/PotterAOM.jpg"),
     award: "Award of Merit",
     show: "New Pen Del - Morris & Essex",
-    date: "October 4, 2010",
+    date: "2010-10-04T00:00:00-04:00",
     dog: "Potter"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Linus.jpg */ "./images/specialties/Linus.jpg"),
     award: "Best of Opposite in Sweeps/ 1st 6-9 Sweeps / 1st 6-9 Dog",
     show: "New Pen Del - Morris & Essex",
-    date: "October 4, 2010",
+    date: "2010-10-04T00:00:00-04:00",
     dog: "Linus"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Bridget.JPG */ "./images/specialties/Bridget.JPG"),
     award: "1st 6-9 Sweeps / 2nd 6-9 Bitch",
     show: "New Pen Del - Morris & Essex",
-    date: "October 4, 2010",
+    date: "2010-10-04T00:00:00-04:00",
     dog: "Bridget"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Tyler.JPG */ "./images/specialties/Tyler.JPG"),
     award: "Best Of Opposite Sweeps/ 1st 9-12",
     show: "CNC Regional",
-    date: "October 31, 2010",
+    date: "2010-10-31T00:00:00-04:00",
     dog: "Tyler"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Lucy.JPG */ "./images/specialties/Lucy.JPG"),
     award: "2nd 12-18 Sweeps",
     show: "CNC Regional",
-    date: "October 31, 2010",
+    date: "2010-10-31T00:00:00-04:00",
     dog: "Lucy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Potter.jpg */ "./images/specialties/Potter.jpg"),
     award: "2nd 12-18 Sweeps",
     show: "2009 National",
-    date: "April 5, 2009",
+    date: "2009-04-05T00:00:00-04:00",
     dog: "Potter"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Katie New VN - Forth Place Nov B.jpg */ "./images/specialties/Katie New VN - Forth Place Nov B.jpg"),
     award: "4th Novice B Obedience",
     show: "2009 National",
-    date: "April 5, 2009",
+    date: "2009-04-05T00:00:00-04:00",
     dog: "Katie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/SampsonCNCRegional2.JPG */ "./images/specialties/SampsonCNCRegional2.JPG"),
     award: "1/W/BW ",
     show: "CNC Regional",
-    date: "October 27, 2009",
+    date: "2009-10-27T00:00:00-04:00",
     dog: "Sampson"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/sporty_1st_bred_by.jpg */ "./images/specialties/sporty_1st_bred_by.jpg"),
     award: "1st Bred-by Bitch",
     show: "NewPenDel Regional",
-    date: "March 17, 2009",
+    date: "2009-03-17T00:00:00-04:00",
     dog: "Sporty"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Katie Best Veteran Bitch.jpg */ "./images/specialties/Katie Best Veteran Bitch.jpg"),
     award: "Best of Opp Veterans Sweeps",
     show: "NewPenDel Regional",
-    date: "March 17, 2009",
+    date: "2009-03-17T00:00:00-04:00",
     dog: "Katie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/DaisyFloridaSweeps.jpg */ "./images/specialties/DaisyFloridaSweeps.jpg"),
+    award: "Best in Veterans Sweeps",
+    show: "NewfFla Regional",
+    date: "2009-05-29T00:00:00-04:00",
+    dog: "Daisy"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/DaisyVeteran.jpg */ "./images/specialties/DaisyVeteran.jpg"),
     award: "1st 8-9 Veteran Sweeps",
     show: "2008 National",
-    date: "April 17, 2008",
+    date: "2008-04-17T00:00:00-04:00",
     dog: "Daisy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Spice Best of Opposite MKC.jpg */ "./images/specialties/Spice Best of Opposite MKC.jpg"),
     award: "BOS",
     show: "CNC Regional",
-    date: "October 27, 2008",
+    date: "2008-10-27T00:00:00-04:00",
     dog: "Spice"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/CosmoAOM.jpg */ "./images/specialties/CosmoAOM.jpg"),
     award: "Award of Merit",
     show: "CNC Regional",
-    date: "October 27, 2008",
+    date: "2008-10-26T00:00:00-04:00",
     dog: "Cosmo"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/sporty_regional_best_of_winners.jpg */ "./images/specialties/sporty_regional_best_of_winners.jpg"),
     award: "RWB/1st 6-9 regular/Best of Opp Sweeps/1st 6-9 Sweeps",
     show: "CNC Regional",
-    date: "October 27, 2008",
+    date: "2008-10-27T00:00:00-04:00",
     dog: "Sporty"
   }, {
-    award: "",
-    show: "SENC Regional",
-    date: "July 15, 2008",
-    dog: ""
-  }, {
+    image: __webpack_require__(/*! ../../images/specialties/sporty_regional_best_in_sweeps.jpg */ "./images/specialties/sporty_regional_best_in_sweeps.jpg"),
     award: "1/W/BW 6-9 puppy bitch, Best Puppy in Sweeps 6-9 puppy",
     show: "SENC Regional",
-    date: "July 15, 2008",
+    date: "2008-07-15T00:00:00-04:00",
     dog: "Sporty"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Potter.jpg */ "./images/specialties/Potter.jpg"),
     award: "1/W 6-9 puppy dog",
     show: "SENC Regional",
-    date: "July 15, 2008",
+    date: "2008-07-15T00:00:00-04:00",
     dog: "Potter"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/ChillyBroodBitchSENC.jpg */ "./images/specialties/ChillyBroodBitchSENC.jpg"),
     award: "1st Brood Bitch",
     show: "SENC Regional",
-    date: "July 15, 2008",
+    date: "2008-07-15T00:00:00-04:00",
     dog: "Chilly"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/CosmoBOS.jpg */ "./images/specialties/CosmoBOS.jpg"),
     award: "BOS",
     show: "SENC Regional",
-    date: "July 15, 2008",
+    date: "2008-07-15T00:00:00-04:00",
     dog: "Cosmo"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Daisy2007National.jpg */ "./images/specialties/Daisy2007National.jpg"),
     award: "1st 8-9 Veteran Sweeps",
     show: "2007 National",
-    date: "April 15, 2007",
+    date: "2007-04-15T00:00:00-04:00",
     dog: "Daisy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/simon-show2.jpg */ "./images/specialties/simon-show2.jpg"),
     award: "2nd Working Dog",
     show: "2007 National",
-    date: "April 15, 2007",
+    date: "2007-04-15T00:00:00-04:00",
     dog: "Simon"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/mason.jpg */ "./images/specialties/mason.jpg"),
     award: "4th 6-9 Sweeps, 4th 6-9 Puppy Dog",
     show: "2007 National",
-    date: "April 15, 2007",
+    date: "2007-04-15T00:00:00-04:00",
     dog: "Mason"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Dexter.jpg */ "./images/specialties/Dexter.jpg"),
     award: "3rd 6-9 Puppy Dog",
     show: "2007 National",
-    date: "April 15, 2007",
+    date: "2007-04-15T00:00:00-04:00",
     dog: "Dexter"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Simon4thWorkingNational2006.JPG */ "./images/specialties/Simon4thWorkingNational2006.JPG"),
+    award: "3nd Working Dog",
+    show: "2006 National",
+    date: "2006-04-15T00:00:00-04:00",
+    dog: "Simon"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/SpiceBOSSweeps2006.jpg */ "./images/specialties/SpiceBOSSweeps2006.jpg"),
     award: "Best of Opposite Sex in Puppy Sweepstake, 1st 9-12 Sweepstakes, 3rd 9-12",
     show: "2006 National",
-    date: "April 15, 2006",
-    dog: ""
+    date: "2006-04-15T00:00:00-04:00",
+    dog: "Spice"
   }, {
-    award: "1st Brood Bitch, 1st Maturity",
+    image: __webpack_require__(/*! ../../images/specialties/DaisyMaturity.jpg */ "./images/specialties/DaisyMaturity.jpg"),
+    award: "1st Maturity",
     show: "2006 National",
-    date: "April 15, 2006",
+    date: "2006-04-15T00:00:00-04:00",
     dog: "Daisy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/DaisyBroodBitch.jpg */ "./images/specialties/DaisyBroodBitch.jpg"),
+    award: "1st Brood Bitch",
+    show: "2006 National",
+    date: "2006-04-15T00:00:00-04:00",
+    dog: "Daisy"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/SimonKelseyJuniors2006.jpg */ "./images/specialties/SimonKelseyJuniors2006.jpg"),
     award: "1st Junior Showmanship - Kelsey Miller",
     show: "2006 National",
-    date: "April 15, 2006",
+    date: "2006-04-15T00:00:00-04:00",
     dog: "Simon"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/OpieWestminster.jpg */ "./images/specialties/OpieWestminster.jpg"),
     award: "Award of Merit ",
     show: "2006 Westminster ",
-    date: "February 15, 2006",
+    date: "2006-02-15T00:00:00-05:00",
     dog: "Opie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/OpieGroupFirstBISS.jpg */ "./images/specialties/OpieGroupFirstBISS.jpg"),
     award: "Award of Merit ",
     show: "Penn-Ohio Regional ",
-    date: "February 15, 2005",
+    date: "2005-02-15T00:00:00-05:00",
     dog: "Opie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/OpieSENCSupportedBOB.jpg */ "./images/specialties/OpieSENCSupportedBOB.jpg"),
+    award: "Award of Merit ",
+    show: "SENC Supported Entry",
+    date: "2005-07-15T00:00:00-05:00",
+    dog: "Opie"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/OpieSENCBISS.jpg */ "./images/specialties/OpieSENCBISS.jpg"),
     award: "Award of Merit ",
     show: "CNC Regional ",
-    date: "October 25, 2005",
+    date: "2005-10-25T00:00:00-04:00",
     dog: "Opie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Opie2005Eukanuba.jpg */ "./images/specialties/Opie2005Eukanuba.jpg"),
     award: "Award of Excellence",
     show: "Eukanuba AKC National Championships",
-    date: "December 15, 2005",
+    date: "2005-1-15T00:00:00-05:00",
     dog: "Opie"
   }, {
-    award: "BOB/Group 1",
+    image: __webpack_require__(/*! ../../images/specialties/OpieSENCBISS.jpg */ "./images/specialties/OpieSENCBISS.jpg"),
+    award: "BISS/Group 1",
     show: "SENC Regional",
-    date: "July 15, 2004",
+    date: "2004-07-15T00:00:00-04:00",
     dog: "Opie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Simon-Middleburg.jpg */ "./images/specialties/Simon-Middleburg.jpg"),
     award: "1st Am Bred",
     show: "CNC Regional",
-    date: "October 27, 2004",
+    date: "2004-10-27T00:00:00-04:00",
     dog: "Simon"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Daisy-Opie-Rocky-National-2.jpg */ "./images/specialties/Daisy-Opie-Rocky-National-2.jpg"),
     award: "4th Brood Bitch",
     show: "2004 National",
-    date: "March 27, 2004",
+    date: "2004-03-27T00:00:00-05:00",
     dog: "Daisy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Team-2004-National.jpg */ "./images/specialties/Team-2004-National.jpg"),
     award: "2nd Team Obedience",
     show: "2004 National",
-    date: "March 27, 2004",
+    date: "2004-03-27T00:00:00-05:00",
     dog: "Daisy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Daisy 009.jpg */ "./images/specialties/Daisy 009.jpg"),
     award: "4th Working Bitch",
     show: "2003 National",
-    date: "March 27, 2003",
+    date: "2003-03-27T00:00:00-05:00",
     dog: "Daisy"
   }, {
-    award: "1st 9-12 Sweeps -",
+    image: __webpack_require__(/*! ../../images/specialties/opie_006.jpg */ "./images/specialties/opie_006.jpg"),
+    award: "1st 9-12 Sweeps",
     show: "NCNE Regional",
-    date: "March 27, 2003",
+    date: "2003-03-27T00:00:00-05:00",
     dog: "Opie"
   }, {
-    award: "BOB/Group 3",
+    image: __webpack_require__(/*! ../../images/specialties/OpieBISSNewfFla.jpg */ "./images/specialties/OpieBISSNewfFla.jpg"),
+    award: "BISS/Group 3",
     show: "NEWF-FLA Regional",
-    date: "June 27, 2003",
+    date: "2003-06-27T00:00:00-04:00",
     dog: "Opie"
   }, {
-    award: "Best of Opp in Sweeps",
-    show: "GRNC Regional",
-    date: "November 27, 2003",
-    dog: "Rocky"
-  }, {
-    award: "1/W/BOS",
-    show: "CNC Regional",
-    date: "October 27, 2003",
+    image: __webpack_require__(/*! ../../images/specialties/KatieBOSNewfFla2003.jpg */ "./images/specialties/KatieBOSNewfFla2003.jpg"),
+    award: "BOS",
+    show: "NEWF-FLA Regional",
+    date: "2003-06-27T00:00:00-04:00",
     dog: "Katie"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Rocky Group2 Chambersburg.jpg */ "./images/specialties/Rocky Group2 Chambersburg.jpg"),
+    award: "Best of Opp in Sweeps",
+    show: "GRNC Regional",
+    date: "2003-11-27T00:00:00-05:00",
+    dog: "Rocky"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/KatieBOS2003.jpg */ "./images/specialties/KatieBOS2003.jpg"),
+    award: "1/W/BOS",
+    show: "CNC Regional",
+    date: "2003-10-27T00:00:00-05:00",
+    dog: "Katie"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/daisy_002.jpg */ "./images/specialties/daisy_002.jpg"),
     award: "1st Working Bitch, 2nd Novice B, 4th Novice B",
     show: "2002 National",
-    date: "March 27, 2002",
+    date: "2002-03-27T00:00:00-05:00",
     dog: "Daisy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Daisy 009.jpg */ "./images/specialties/Daisy 009.jpg"),
     award: "BOS",
     show: "NewfFla Regional",
-    date: "June 27, 2002",
+    date: "2002-06-27T00:00:00-04:00",
     dog: "Daisy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Daisy2001.jpg */ "./images/specialties/Daisy2001.jpg"),
     award: "1st Working Bitch",
     show: "2001 National",
-    date: "April 27, 2001",
+    date: "2001-04-27T00:00:00-04:00",
     dog: "Daisy"
   }, {
+    image: __webpack_require__(/*! ../../images/specialties/Daisy2000.jpg */ "./images/specialties/Daisy2000.jpg"),
     award: "4th 12-15 Sweeps",
     show: "2000 National",
-    date: "April 27, 2000",
+    date: "2000-04-27T00:00:00-04:00",
     dog: "Daisy"
   }]
 }; //GCH CH Old Bay's Theodorable Spicy Altatude CD BN RA CGC
