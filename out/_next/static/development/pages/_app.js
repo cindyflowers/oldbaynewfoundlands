@@ -13935,15 +13935,7 @@ function (_App) {
           lineNumber: 43
         },
         __self: this
-      }))), __jsx(_components_Shared_GoTop__WEBPACK_IMPORTED_MODULE_20__["default"], {
-        scrollStepInPx: "50",
-        delayInMs: "16.66",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 45
-        },
-        __self: this
-      }));
+      }))));
     }
   }], [{
     key: "getInitialProps",
