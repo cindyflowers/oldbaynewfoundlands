@@ -2275,6 +2275,17 @@ module.exports = "/_next/static/images/Rolex2016National-ae8a920c5b9c5368a19c95e
 
 /***/ }),
 
+/***/ "./images/specialties/Rolex2018AKCChampionship.jpg":
+/*!*********************************************************!*\
+  !*** ./images/specialties/Rolex2018AKCChampionship.jpg ***!
+  \*********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Rolex2018AKCChampionship-6055affb65d7832b32c19038390d1989.jpg";
+
+/***/ }),
+
 /***/ "./images/specialties/RolexBestInSweeps.jpg":
 /*!**************************************************!*\
   !*** ./images/specialties/RolexBestInSweeps.jpg ***!
@@ -17403,7 +17414,7 @@ var initState = {
     dob: "",
     boys: 2,
     girls: 6,
-    puppies: ["Charlie", "Cricket", "Essi", "Gossip", "Kindle", "Nash", "Tilly"],
+    puppies: ["Charlie", "Cricket", "Essi", "Gossip", "Kindle", "Nash", "Soleil", "Tilly"],
     sireimg: __webpack_require__(/*! ../../images/litters/Crosby.jpg */ "./images/litters/Crosby.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Kiss.jpg */ "./images/litters/Kiss.jpg")
   }, {
@@ -18120,6 +18131,13 @@ var initState = {
     date: "2018-12-15T08:00:00Z",
     dog: "Flash",
     id: 11
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/Rolex2018AKCChampionship.jpg */ "./images/specialties/Rolex2018AKCChampionship.jpg"),
+    award: "Award of Excellence",
+    show: "Eukanuba AKC National Championships",
+    date: "2017-12-15T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/MaestroSarah.jpg */ "./images/specialties/MaestroSarah.jpg"),
     award: "Best of Breed",
