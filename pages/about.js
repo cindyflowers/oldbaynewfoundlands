@@ -5,6 +5,7 @@ import Footer from '../components/Layout/Footer';
 import Breadcrumb from '../components/Common/Breadcrumb';
 import dynamic from 'next/dynamic';
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
+import Moment from 'react-moment'
 
 // id: 1,
 // call: "Sirius",
@@ -40,20 +41,24 @@ let options = {
 class Index extends Component {
     state = { 
         display: false,
-
     };
 
     componentDidMount(){ 
         this.setState({ display: true}) 
     }
     render() {
-        let dog = this.props.dogs.filter(dog => dog.id == this.props.currentDog);
-        let dogs;
-        if (dog[0].rip == "" )
-            dogs = this.props.dogs.filter(d => dog[0].sex == d.sex && d.ours == true && d.rip == "");
+        let {dogs, awards, currentDog } = this.props;
+        let dog = dogs.filter(dog => dog.id == currentDog);
+        let myDogs;
+        if (dog[0].rip == "" ) 
+        {
+            myDogs = dogs.filter(d => dog[0].sex == d.sex && d.ours == true && d.rip == "");
+        }
         else
-            dogs = this.props.dogs.filter(d => d.ours == true && d.rip != "");
-        let startPosition =  dogs.findIndex(d => d.id == this.props.currentDog);
+        {
+            myDogs = dogs.filter(d => d.ours == true && d.rip != "");
+        }
+        let startPosition =  myDogs.findIndex(d => d.id == currentDog);
         options.startPosition = startPosition;
         return (
             
@@ -62,7 +67,7 @@ class Index extends Component {
                 <Breadcrumb title={dog[0].sex == "male" ? "The Boys" : "The Girls"} />
                 <section className="about-area ptb-60">
                     {this.state.display ? <OwlCarousel className="litter-slides owl-carousel owl-theme" {...options} >
-                        {dogs.map((data, idx) => (
+                        {myDogs.map((data, idx) => (
                             <div className="container">
                                 <div className="row">
                                         <div className="col-xxl-4 col-md-6" key={data.id}>
@@ -103,15 +108,15 @@ class Index extends Component {
                                                        <table className="table table-striped">
                                                         <thead>
                                                             <tr>
-                                                                <th>Title</th><th>Date</th><th>Organization</th>
+                                                                <th>Title</th><th>Organization</th><th>Date</th>
                                                             </tr>
                                                         </thead>
                                                         <tbody>
                                                             {data.Titles.map((data, idx) => (
                                                                 <tr>
                                                                     <td>{data.title}</td>
-                                                                    <td>{data.date}</td>
                                                                     <td>{data.org}</td> 
+                                                                    <td>{data.date}</td>
                                                                 </tr>
                                                             ))} 
                                                         </tbody>
@@ -125,6 +130,26 @@ class Index extends Component {
                                             <img src={data.image} className="about-img2" alt="image" />
                                     </div>
                                 </div>
+                                {this.state.display > 0 ? (
+                                    <div className="table-responsive">
+                                        <table className="table table-striped">
+                                        <thead>
+                                            <tr>
+                                                <th>Award</th><th>Show</th><th>Date</th>
+                                            </tr>
+                                        </thead>
+                                        <tbody>
+                                            {awards.filter(dog => dog.id == data.id).map((data, idx) => (
+                                                <tr>
+                                                    <td>{data.award}</td>
+                                                    <td>{data.show}</td>
+                                                    <td><Moment format="MMMM DD, YYYY">{data.date}</Moment></td>
+                                                </tr>
+                                            ))} 
+                                        </tbody>
+                                        </table>
+                                    </div>
+                                ) : ""} 
                             </div>
                         ))}
                     </OwlCarousel> : ''}
@@ -138,6 +163,7 @@ class Index extends Component {
 const mapStateToProps = (state)=>{
     return{
         dogs: state.dogs,
+        awards: state.awards,
         currentDog: state.currentDog
     }
 }

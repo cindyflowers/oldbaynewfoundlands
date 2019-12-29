@@ -10,7 +10,6 @@ class DogCard extends Component {
     state = {
         modalOpen: false,
         modalImage: '',
-        price: 0,
         idd: null
     };
    
@@ -22,41 +21,56 @@ class DogCard extends Component {
         this.setState({ modalOpen: false });
     }
 
-    handleModalData = (image, price, id) => {
+    handleModalData = (image,  id) => {
         this.setState({ 
             modalImage: image, 
-            price: price,
             idd: id
         });
     }
 
     render() {
-        let { products } = this.props;
+        let { awards } = this.props;
         const { modalOpen } = this.state;
+        // awards.sort(function(a, b) {
+        //     if (b == null) {
+        //         alert ("null found");
+        //         return -1;
+        //     }
+        //     if (a == null) {
+        //         alert ("null found");
+        //         return -1;
+        //     }
+        //     return b.date > a.date;
+        //   });
         return (
             <React.Fragment>
                 <ReactTooltip  />
                 <ToastContainer transition={Slide} />
-                {this.props.awards.map((data, idx) => (
+                {awards.map((data, idx) => (
                     <div className="col-lg-4 col-sm-6 col-md-4 col-6 products-col-item" key={idx}>
                         <div className="single-product-box">
                             <div className="product-image">
-                                <a href="#">
+                                <a onClick={e => {
+                                        e.preventDefault(); 
+                                        this.openModal();
+                                        this.handleModalData(data.image,data.id)
+                                    }}>
                                     <img className="specialty-image" src={data.image} alt="image" />
                                 </a>
-
                                 <ul>
                                     <li>
                                         <Link href="#">
-                                            <a data-tip="Add to Wishlist" data-place="left">
-                                                <i className="far fa-heart"></i>
-                                            </a>
-                                        </Link>
-                                    </li>
-                                    <li>
-                                        <Link href="#">
-                                            <a data-tip="Add to Compare" data-place="left">
-                                                <i className="fas fa-sync"></i>
+                                            <a 
+                                                data-tip="Quick View" 
+                                                data-place="left" 
+                                                onClick={e => {
+                                                        e.preventDefault(); 
+                                                        this.openModal();
+                                                        this.handleModalData(data.image,data.id)
+                                                    }
+                                                }
+                                            >
+                                                <i className="far fa-eye"></i>
                                             </a>
                                         </Link>
                                     </li>

@@ -73,6 +73,7 @@ class MegaMenu extends Component {
         const { isPuppiesOpen } = this.state;
         const { isPastOpen } = this.state;
         
+        const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
         const ddAwardClass = `dropdown-menu${isAwardsOpen ? " show" : ""}`;
         const ddBoysClass = `dropdown-menu${isBoysOpen ? " show" : ""}`;
@@ -117,7 +118,7 @@ class MegaMenu extends Component {
                                 <span className="navbar-toggler-icon"></span>
                             </button>
 
-                            <div id="navbarSupportedContent">
+                            <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item p-relative">
                                         <Link href="/#">

@@ -2,43 +2,21 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
+import Moment from 'react-moment'
 
 class QuickView extends Component {
-
-    state = {
-        qty: 1,
-        max: 10,
-        min: 1
+    state = { 
+        display: false,
     };
 
-
-
-    IncrementItem = () => {
-        this.setState(prevState => {
-            if(prevState.qty < 10) {
-                return {
-                    qty: prevState.qty + 1
-                }
-            } else {
-                return null;
-            }
-        });
+    componentDidMount(){ 
+        this.setState({ display: true}) 
     }
-
-    DecreaseItem = () => {
-        this.setState(prevState => {
-            if(prevState.qty > 1) {
-                return {
-                    qty: prevState.qty - 1
-                }
-            } else {
-                return null;
-            }
-        });
-    }
-
     render() {
         const { closeModal } = this.props;
+        let dog = this.props.dogs.filter(dog => dog.id == this.props.idd);
+        let awards = this.props.awards.filter(award => award.id == this.props.idd);
+        let data = dog[0];
         return (
             <div className="modal fade productQuickView show" style={{paddingRight: '16px', display: 'block'}}>
                 <ToastContainer />
@@ -47,90 +25,74 @@ class QuickView extends Component {
                         <button type="button" onClick={closeModal} className="close" data-dismiss="modal" aria-label="Close">
                             <span aria-hidden="true"><i className="fas fa-times"></i></span>
                         </button>
-                        <div className="row align-items-center">
+                        <div className="row">
                             <div className="col-lg-6 col-md-6">
                                 <div className="productQuickView-image">
+                                    <h2><b>{data.call}</b></h2>
                                     <img src={this.props.image} alt="image" /> 
                                 </div>
+
                             </div>
-
                             <div className="col-lg-6 col-md-6">
-                                <div className="product-content">
-                                    <h3><a href="#">Belted chino trousers polo</a></h3>
-
-                                    <div className="price">
-                                        <span className="new-price">${this.props.price}</span>
-                                    </div>
-
-                                    <div className="product-review">
-                                        <div className="rating">
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star"></i>
-                                            <i className="fas fa-star-half-alt"></i>
-                                        </div>
-                                        <a href="#" className="rating-count">3 reviews</a>
-                                    </div>
-
-                                    <ul className="product-info">
-                                        <li><span>Vendor:</span> <a href="#">Lereve</a></li>
-                                        <li><span>Availability:</span> <a href="#">In stock (7 items)</a></li>
-                                        <li><span>Product Type:</span> <a href="#">T-Shirt</a></li>
-                                    </ul>
-
-                                    <div className="product-color-switch">
-                                        <h4>Color:</h4>
-
-                                        <ul>
-                                            <li><a href="#" title="Black" className="color-black"></a></li>
-                                            <li><a href="#" title="White" className="color-white"></a></li>
-                                            <li className="active"><a href="#" title="Green" className="color-green"></a></li>
-                                            <li><a href="#" title="Yellow Green" className="color-yellowgreen"></a></li>
-                                            <li><a href="#" title="Teal" className="color-teal"></a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="product-size-wrapper">
-                                        <h4>Size:</h4>
-
-                                        <ul>
-                                            <li><a href="#">XS</a></li>
-                                            <li className="active"><a href="#">S</a></li>
-                                            <li><a href="#">M</a></li>
-                                            <li><a href="#">XL</a></li>
-                                            <li><a href="#">XXL</a></li>
-                                        </ul>
-                                    </div>
-
-                                    <div className="product-add-to-cart">
-                                        <div className="input-counter">
-                                            <span 
-                                                className="minus-btn"
-                                                onClick={this.DecreaseItem}
-                                            >
-                                                <i className="fas fa-minus"></i>
-                                            </span>
-                                            <input 
-                                                type="text" 
-                                                value={this.state.qty}
-                                                min={this.state.min}
-                                                max={this.state.max} 
-                                                onChange={e => this.setState({ qty: e.target.value })}
-                                            />
-                                            <span 
-                                                className="plus-btn"
-                                                onClick={this.IncrementItem}
-                                            >
-                                                <i className="fas fa-plus"></i>
-                                            </span>
+                                
+                                {this.state.display ? (
+                                    <div className="about-content">
+                                        <h2>{data.name}</h2>
+                                        <div className="table-responsive">
+                                            <table className="table table-striped">
+                                                <tbody>
+                                                <tr>
+                                                    <td>Born</td>
+                                                    <td>{data.dob}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Sire</td>
+                                                    <td>{data.sire}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Dam</td>
+                                                    <td>{data.dam}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Owner</td>
+                                                    <td>{data.owner}</td>
+                                                </tr>
+                                                <tr>
+                                                    <td>Lives With</td>
+                                                    <td>{data.lives}</td>
+                                                </tr> 
+                                                        
+                                                <tr>
+                                                    <td>AKA</td>
+                                                    <td>{data.aka}</td>
+                                                </tr>
+                                                </tbody>
+                                            </table>
                                         </div>
                                     </div>
-
-                                    <a href="#" className="view-full-info">View full info</a>
-                                </div>
+                                ) : ""}
                             </div>
                         </div>
+                        {this.state.display && awards.length > 0 ? (
+                            <div className="table-responsive">
+                                <table className="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Award</th><th>Show</th><th>Date</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {awards.map((data, idx) => (
+                                        <tr>
+                                            <td>{data.award}</td>
+                                            <td>{data.show}</td>
+                                            <td><Moment format="MMMM DD, YYYY">{data.date}</Moment></td>
+                                        </tr>
+                                    ))} 
+                                </tbody>
+                                </table>
+                            </div>
+                            ) : ""}
                     </div>
                 </div>
             </div>
@@ -138,13 +100,14 @@ class QuickView extends Component {
     }
 }
 
-const mapDispatchToProps= (dispatch)=>{
-    return {
-        addQuantityWithNumber: (id, qty) => {dispatch(addQuantityWithNumber(id, qty))}
+
+const mapStateToProps = (state)=>{
+    return{
+        dogs: state.dogs,
+        awards: state.awards
     }
 }
 
 export default connect(
-    null,
-    mapDispatchToProps
-)(QuickView)
+    mapStateToProps)
+    (QuickView)
