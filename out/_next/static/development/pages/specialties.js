@@ -163,7 +163,6 @@ function (_Component) {
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
       modalOpen: false,
       modalImage: '',
-      price: 0,
       idd: null
     });
 
@@ -179,10 +178,9 @@ function (_Component) {
       });
     });
 
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleModalData", function (image, price, id) {
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleModalData", function (image, id) {
       _this.setState({
         modalImage: image,
-        price: price,
         idd: id
       });
     });
@@ -193,55 +191,68 @@ function (_Component) {
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(DogCard, [{
     key: "render",
     value: function render() {
-      var products = this.props.products;
-      var modalOpen = this.state.modalOpen;
+      var _this2 = this;
+
+      var awards = this.props.awards;
+      var modalOpen = this.state.modalOpen; // awards.sort(function(a, b) {
+      //     if (b == null) {
+      //         alert ("null found");
+      //         return -1;
+      //     }
+      //     if (a == null) {
+      //         alert ("null found");
+      //         return -1;
+      //     }
+      //     return b.date > a.date;
+      //   });
+
       return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 37
+          lineNumber: 46
         },
         __self: this
       }, __jsx(react_tooltip__WEBPACK_IMPORTED_MODULE_10___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 38
+          lineNumber: 47
         },
         __self: this
       }), __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_11__["ToastContainer"], {
         transition: react_toastify__WEBPACK_IMPORTED_MODULE_11__["Slide"],
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 39
+          lineNumber: 48
         },
         __self: this
-      }), this.props.awards.map(function (data, idx) {
+      }), awards.map(function (data, idx) {
         return __jsx("div", {
           className: "col-lg-4 col-sm-6 col-md-4 col-6 products-col-item",
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 41
+            lineNumber: 50
           },
           __self: this
         }, __jsx("div", {
           className: "single-product-box",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 42
+            lineNumber: 51
           },
           __self: this
         }, __jsx("div", {
           className: "product-image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 43
+            lineNumber: 52
           },
           __self: this
         }, __jsx("a", {
           href: "#",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 44
+            lineNumber: 53
           },
           __self: this
         }, __jsx("img", {
@@ -250,108 +261,87 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 45
+            lineNumber: 54
           },
           __self: this
         })), __jsx("ul", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 48
+            lineNumber: 56
           },
           __self: this
         }, __jsx("li", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 49
-          },
-          __self: this
-        }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-          href: "#",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 50
-          },
-          __self: this
-        }, __jsx("a", {
-          "data-tip": "Add to Wishlist",
-          "data-place": "left",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 51
-          },
-          __self: this
-        }, __jsx("i", {
-          className: "far fa-heart",
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 52
-          },
-          __self: this
-        })))), __jsx("li", {
-          __source: {
-            fileName: _jsxFileName,
-            lineNumber: 56
-          },
-          __self: this
-        }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
-          href: "#",
-          __source: {
-            fileName: _jsxFileName,
             lineNumber: 57
           },
           __self: this
-        }, __jsx("a", {
-          "data-tip": "Add to Compare",
-          "data-place": "left",
+        }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
+          href: "#",
           __source: {
             fileName: _jsxFileName,
             lineNumber: 58
           },
           __self: this
-        }, __jsx("i", {
-          className: "fas fa-sync",
+        }, __jsx("a", {
+          "data-tip": "Quick View",
+          "data-place": "left",
+          onClick: function onClick(e) {
+            e.preventDefault();
+
+            _this2.openModal();
+
+            _this2.handleModalData(data.image, data.id);
+          },
           __source: {
             fileName: _jsxFileName,
             lineNumber: 59
+          },
+          __self: this
+        }, __jsx("i", {
+          className: "far fa-eye",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 69
           },
           __self: this
         })))))), __jsx("div", {
           className: "product-content",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 66
+            lineNumber: 76
           },
           __self: this
         }, __jsx("h3", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 68
+            lineNumber: 78
           },
           __self: this
         }, __jsx("a", {
           href: "awards",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 68
+            lineNumber: 78
           },
           __self: this
         }, data.dog)), data.award, __jsx("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 70
+            lineNumber: 80
           },
           __self: this
         }), data.show, __jsx("br", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 71
+            lineNumber: 81
           },
           __self: this
         }), __jsx(react_moment__WEBPACK_IMPORTED_MODULE_13___default.a, {
           format: "MMMM DD, YYYY",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 71
+            lineNumber: 81
           },
           __self: this
         }, data.date))));
@@ -362,7 +352,7 @@ function (_Component) {
         price: this.state.price,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 76
+          lineNumber: 86
         },
         __self: this
       }) : '');
@@ -4650,6 +4640,8 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var react_toastify__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! react-toastify */ "./node_modules/react-toastify/esm/react-toastify.js");
 /* harmony import */ var react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! react-toastify/dist/ReactToastify.css */ "./node_modules/react-toastify/dist/ReactToastify.css");
 /* harmony import */ var react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(react_toastify_dist_ReactToastify_css__WEBPACK_IMPORTED_MODULE_10__);
+/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-moment */ "./node_modules/react-moment/dist/index.js");
+/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_moment__WEBPACK_IMPORTED_MODULE_11__);
 
 
 
@@ -4659,6 +4651,7 @@ __webpack_require__.r(__webpack_exports__);
 
 var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\Modal\\QuickView.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
 
 
 
@@ -4683,44 +4676,32 @@ function (_Component) {
     _this = Object(_babel_runtime_corejs2_helpers_esm_possibleConstructorReturn__WEBPACK_IMPORTED_MODULE_2__["default"])(this, (_getPrototypeOf2 = Object(_babel_runtime_corejs2_helpers_esm_getPrototypeOf__WEBPACK_IMPORTED_MODULE_3__["default"])(QuickView)).call.apply(_getPrototypeOf2, [this].concat(args)));
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "state", {
-      qty: 1,
-      max: 10,
-      min: 1
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "IncrementItem", function () {
-      _this.setState(function (prevState) {
-        if (prevState.qty < 10) {
-          return {
-            qty: prevState.qty + 1
-          };
-        } else {
-          return null;
-        }
-      });
-    });
-
-    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "DecreaseItem", function () {
-      _this.setState(function (prevState) {
-        if (prevState.qty > 1) {
-          return {
-            qty: prevState.qty - 1
-          };
-        } else {
-          return null;
-        }
-      });
+      display: false
     });
 
     return _this;
   }
 
   Object(_babel_runtime_corejs2_helpers_esm_createClass__WEBPACK_IMPORTED_MODULE_1__["default"])(QuickView, [{
+    key: "componentDidMount",
+    value: function componentDidMount() {
+      this.setState({
+        display: true
+      });
+    }
+  }, {
     key: "render",
     value: function render() {
       var _this2 = this;
 
       var closeModal = this.props.closeModal;
+      var dog = this.props.dogs.filter(function (dog) {
+        return dog.id == _this2.props.idd;
+      });
+      var awards = this.props.awards.filter(function (award) {
+        return award.id == _this2.props.idd;
+      });
+      var data = dog[0];
       return __jsx("div", {
         className: "modal fade productQuickView show",
         style: {
@@ -4729,13 +4710,13 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 43
+          lineNumber: 21
         },
         __self: this
       }, __jsx(react_toastify__WEBPACK_IMPORTED_MODULE_9__["ToastContainer"], {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 44
+          lineNumber: 22
         },
         __self: this
       }), __jsx("div", {
@@ -4743,14 +4724,14 @@ function (_Component) {
         role: "document",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 45
+          lineNumber: 23
         },
         __self: this
       }, __jsx("div", {
         className: "modal-content",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 46
+          lineNumber: 24
         },
         __self: this
       }, __jsx("button", {
@@ -4761,487 +4742,310 @@ function (_Component) {
         "aria-label": "Close",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 47
+          lineNumber: 25
         },
         __self: this
       }, __jsx("span", {
         "aria-hidden": "true",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 26
         },
         __self: this
       }, __jsx("i", {
         className: "fas fa-times",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 48
+          lineNumber: 26
         },
         __self: this
       }))), __jsx("div", {
-        className: "row align-items-center",
+        className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 50
+          lineNumber: 28
         },
         __self: this
       }, __jsx("div", {
         className: "col-lg-6 col-md-6",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 51
+          lineNumber: 29
         },
         __self: this
       }, __jsx("div", {
         className: "productQuickView-image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 52
+          lineNumber: 30
         },
         __self: this
-      }, __jsx("img", {
+      }, __jsx("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, __jsx("b", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 31
+        },
+        __self: this
+      }, data.call)), __jsx("img", {
         src: this.props.image,
         alt: "image",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 53
+          lineNumber: 32
         },
         __self: this
       }))), __jsx("div", {
         className: "col-lg-6 col-md-6",
         __source: {
           fileName: _jsxFileName,
+          lineNumber: 36
+        },
+        __self: this
+      }, this.state.display ? __jsx("div", {
+        className: "about-content",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 39
+        },
+        __self: this
+      }, __jsx("h2", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 40
+        },
+        __self: this
+      }, data.name), __jsx("div", {
+        className: "table-responsive",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 41
+        },
+        __self: this
+      }, __jsx("table", {
+        className: "table table-striped",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 42
+        },
+        __self: this
+      }, __jsx("tbody", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 43
+        },
+        __self: this
+      }, __jsx("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 44
+        },
+        __self: this
+      }, __jsx("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 45
+        },
+        __self: this
+      }, "Born"), __jsx("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 46
+        },
+        __self: this
+      }, data.dob)), __jsx("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 48
+        },
+        __self: this
+      }, __jsx("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 49
+        },
+        __self: this
+      }, "Sire"), __jsx("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 50
+        },
+        __self: this
+      }, data.sire)), __jsx("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 52
+        },
+        __self: this
+      }, __jsx("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 53
+        },
+        __self: this
+      }, "Dam"), __jsx("td", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 54
+        },
+        __self: this
+      }, data.dam)), __jsx("tr", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 56
+        },
+        __self: this
+      }, __jsx("td", {
+        __source: {
+          fileName: _jsxFileName,
           lineNumber: 57
         },
         __self: this
-      }, __jsx("div", {
-        className: "product-content",
+      }, "Owner"), __jsx("td", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 58
         },
         __self: this
-      }, __jsx("h3", {
+      }, data.owner)), __jsx("tr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 59
+          lineNumber: 60
         },
         __self: this
-      }, __jsx("a", {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 59
-        },
-        __self: this
-      }, "Belted chino trousers polo")), __jsx("div", {
-        className: "price",
+      }, __jsx("td", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 61
         },
         __self: this
-      }, __jsx("span", {
-        className: "new-price",
+      }, "Lives With"), __jsx("td", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 62
         },
         __self: this
-      }, "$", this.props.price)), __jsx("div", {
-        className: "product-review",
+      }, data.lives)), __jsx("tr", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 65
         },
         __self: this
-      }, __jsx("div", {
-        className: "rating",
+      }, __jsx("td", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 66
         },
         __self: this
-      }, __jsx("i", {
-        className: "fas fa-star",
+      }, "AKA"), __jsx("td", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 67
         },
         __self: this
-      }), __jsx("i", {
-        className: "fas fa-star",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 68
-        },
-        __self: this
-      }), __jsx("i", {
-        className: "fas fa-star",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 69
-        },
-        __self: this
-      }), __jsx("i", {
-        className: "fas fa-star",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 70
-        },
-        __self: this
-      }), __jsx("i", {
-        className: "fas fa-star-half-alt",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 71
-        },
-        __self: this
-      })), __jsx("a", {
-        href: "#",
-        className: "rating-count",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 73
-        },
-        __self: this
-      }, "3 reviews")), __jsx("ul", {
-        className: "product-info",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 76
-        },
-        __self: this
-      }, __jsx("li", {
+      }, data.aka)))))) : "")), this.state.display && awards.length > 0 ? __jsx("div", {
+        className: "table-responsive",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 77
         },
         __self: this
-      }, __jsx("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
-      }, "Vendor:"), " ", __jsx("a", {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 77
-        },
-        __self: this
-      }, "Lereve")), __jsx("li", {
+      }, __jsx("table", {
+        className: "table table-striped",
         __source: {
           fileName: _jsxFileName,
           lineNumber: 78
         },
         __self: this
-      }, __jsx("span", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
-      }, "Availability:"), " ", __jsx("a", {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 78
-        },
-        __self: this
-      }, "In stock (7 items)")), __jsx("li", {
+      }, __jsx("thead", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 79
         },
         __self: this
-      }, __jsx("span", {
+      }, __jsx("tr", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 80
         },
         __self: this
-      }, "Product Type:"), " ", __jsx("a", {
-        href: "#",
+      }, __jsx("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 79
+          lineNumber: 81
         },
         __self: this
-      }, "T-Shirt"))), __jsx("div", {
-        className: "product-color-switch",
+      }, "Award"), __jsx("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 82
+          lineNumber: 81
         },
         __self: this
-      }, __jsx("h4", {
+      }, "Show"), __jsx("th", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 83
+          lineNumber: 81
         },
         __self: this
-      }, "Color:"), __jsx("ul", {
+      }, "Date"))), __jsx("tbody", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 85
+          lineNumber: 84
         },
         __self: this
-      }, __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        title: "Black",
-        className: "color-black",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 86
-        },
-        __self: this
-      })), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        title: "White",
-        className: "color-white",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 87
-        },
-        __self: this
-      })), __jsx("li", {
-        className: "active",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        title: "Green",
-        className: "color-green",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 88
-        },
-        __self: this
-      })), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        title: "Yellow Green",
-        className: "color-yellowgreen",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 89
-        },
-        __self: this
-      })), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        title: "Teal",
-        className: "color-teal",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 90
-        },
-        __self: this
-      })))), __jsx("div", {
-        className: "product-size-wrapper",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 94
-        },
-        __self: this
-      }, __jsx("h4", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 95
-        },
-        __self: this
-      }, "Size:"), __jsx("ul", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 97
-        },
-        __self: this
-      }, __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 98
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 98
-        },
-        __self: this
-      }, "XS")), __jsx("li", {
-        className: "active",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 99
-        },
-        __self: this
-      }, "S")), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 100
-        },
-        __self: this
-      }, "M")), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 101
-        },
-        __self: this
-      }, "XL")), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        },
-        __self: this
-      }, __jsx("a", {
-        href: "#",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 102
-        },
-        __self: this
-      }, "XXL")))), __jsx("div", {
-        className: "product-add-to-cart",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 106
-        },
-        __self: this
-      }, __jsx("div", {
-        className: "input-counter",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 107
-        },
-        __self: this
-      }, __jsx("span", {
-        className: "minus-btn",
-        onClick: this.DecreaseItem,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 108
-        },
-        __self: this
-      }, __jsx("i", {
-        className: "fas fa-minus",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 112
-        },
-        __self: this
-      })), __jsx("input", {
-        type: "text",
-        value: this.state.qty,
-        min: this.state.min,
-        max: this.state.max,
-        onChange: function onChange(e) {
-          return _this2.setState({
-            qty: e.target.value
-          });
-        },
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 114
-        },
-        __self: this
-      }), __jsx("span", {
-        className: "plus-btn",
-        onClick: this.IncrementItem,
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 121
-        },
-        __self: this
-      }, __jsx("i", {
-        className: "fas fa-plus",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 125
-        },
-        __self: this
-      })))), __jsx("a", {
-        href: "#",
-        className: "view-full-info",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 130
-        },
-        __self: this
-      }, "View full info")))))));
+      }, awards.map(function (data, idx) {
+        return __jsx("tr", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 86
+          },
+          __self: this
+        }, __jsx("td", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 87
+          },
+          __self: this
+        }, data.award), __jsx("td", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 88
+          },
+          __self: this
+        }, data.show), __jsx("td", {
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 89
+          },
+          __self: this
+        }, __jsx(react_moment__WEBPACK_IMPORTED_MODULE_11___default.a, {
+          format: "MMMM DD, YYYY",
+          __source: {
+            fileName: _jsxFileName,
+            lineNumber: 89
+          },
+          __self: this
+        }, data.date)));
+      })))) : "")));
     }
   }]);
 
   return QuickView;
 }(react__WEBPACK_IMPORTED_MODULE_7__["Component"]);
 
-var mapDispatchToProps = function mapDispatchToProps(dispatch) {
+var mapStateToProps = function mapStateToProps(state) {
   return {
-    addQuantityWithNumber: function (_addQuantityWithNumber) {
-      function addQuantityWithNumber(_x, _x2) {
-        return _addQuantityWithNumber.apply(this, arguments);
-      }
-
-      addQuantityWithNumber.toString = function () {
-        return _addQuantityWithNumber.toString();
-      };
-
-      return addQuantityWithNumber;
-    }(function (id, qty) {
-      dispatch(addQuantityWithNumber(id, qty));
-    })
+    dogs: state.dogs,
+    awards: state.awards
   };
 };
 
-/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_8__["connect"])(null, mapDispatchToProps)(QuickView));
+/* harmony default export */ __webpack_exports__["default"] = (Object(react_redux__WEBPACK_IMPORTED_MODULE_8__["connect"])(mapStateToProps)(QuickView));
 
 /***/ }),
 
@@ -44097,7 +43901,7 @@ var removeItemFromCompare = function removeItemFromCompare(id) {
 
 /***/ }),
 
-/***/ 9:
+/***/ 8:
 /*!******************************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5CPortfolio%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js ***!
   \******************************************************************************************************************************************************/
@@ -44120,5 +43924,5 @@ module.exports = dll_1d49248b1ae4b0ff3f2c;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=specialties.js.map
