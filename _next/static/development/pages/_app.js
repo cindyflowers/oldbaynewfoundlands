@@ -185,6 +185,17 @@ module.exports = "/_next/static/images/Betty-c441171740dd25e96645030f3397a78d.jp
 
 /***/ }),
 
+/***/ "./images/info/Bridget.jpg":
+/*!*********************************!*\
+  !*** ./images/info/Bridget.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Bridget-74fd073c54fdf0e205b44b337800c3a5.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Burnie.jpg":
 /*!********************************!*\
   !*** ./images/info/Burnie.jpg ***!
@@ -317,6 +328,28 @@ module.exports = "/_next/static/images/Kiss-7dc2159e3946fc79e388f9b1461763f0.jpg
 
 /***/ }),
 
+/***/ "./images/info/Latte.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Latte.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Latte-4830fb0d4dc9c6ea3cdaca5bcc78593b.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Linus.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Linus.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Linus-2a8e94b1c5fa93c47464198955bc11f8.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Lucy.jpg":
 /*!******************************!*\
   !*** ./images/info/Lucy.jpg ***!
@@ -380,6 +413,17 @@ module.exports = "/_next/static/images/Nutmeg-d742d174f11ff01a6604e827e6a41a73.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Opie-d57de45558ca2d24fbc40aaeea13c941.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Radar.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Radar.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Radar-cd9e7c7d4a8b059a2e2934c869b61e30.jpg";
 
 /***/ }),
 
@@ -523,6 +567,17 @@ module.exports = "/_next/static/images/Sunny-11b4e8dd5cdd75d596c8ecc4ab80165f.jp
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Tommy-c1b4e07935ccf06e22275ab2635fc3b6.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Tyler.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Tyler.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Tyler-a90d2ad5a64203d155a16ae1fae43264.jpg";
 
 /***/ }),
 
@@ -889,6 +944,17 @@ module.exports = "/_next/static/images/Atlas2013Natioanl-724f25b4917a88f636c9b34
 
 /***/ }),
 
+/***/ "./images/specialties/AtlasAndObiBrace2019.jpg":
+/*!*****************************************************!*\
+  !*** ./images/specialties/AtlasAndObiBrace2019.jpg ***!
+  \*****************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/AtlasAndObiBrace2019-3147d58eebb22ef1346d434b03d00b90.jpg";
+
+/***/ }),
+
 /***/ "./images/specialties/AtlasMaturity2012.jpg":
 /*!**************************************************!*\
   !*** ./images/specialties/AtlasMaturity2012.jpg ***!
@@ -1175,6 +1241,17 @@ module.exports = "/_next/static/images/Dory3-1c306eaa359a675f3a00845a97167c92.jp
 
 /***/ }),
 
+/***/ "./images/specialties/DoryVeteran.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/DoryVeteran.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/DoryVeteran-e3d42f07470e38a45670660363a00e41.jpg";
+
+/***/ }),
+
 /***/ "./images/specialties/Emma (2).jpg":
 /*!*****************************************!*\
   !*** ./images/specialties/Emma (2).jpg ***!
@@ -1263,14 +1340,14 @@ module.exports = "/_next/static/images/Flash2019AKCChampionship-9a7eb15dd71779c0
 
 /***/ }),
 
-/***/ "./images/specialties/Flash2019Florida.jpg":
-/*!*************************************************!*\
-  !*** ./images/specialties/Flash2019Florida.jpg ***!
-  \*************************************************/
+/***/ "./images/specialties/Flash2019WorkingSpecialty.jpg":
+/*!**********************************************************!*\
+  !*** ./images/specialties/Flash2019WorkingSpecialty.jpg ***!
+  \**********************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Flash2019Florida-22d7be61694eb849da817e46eef5c09a.jpg";
+module.exports = "/_next/static/images/Flash2019WorkingSpecialty-c901485551535e05dd8099e2abdb8156.jpg";
 
 /***/ }),
 
@@ -1769,14 +1846,14 @@ module.exports = "/_next/static/images/Linus-2a8e94b1c5fa93c47464198955bc11f8.jp
 
 /***/ }),
 
-/***/ "./images/specialties/Lucy.JPG":
+/***/ "./images/specialties/Lucy.jpg":
 /*!*************************************!*\
-  !*** ./images/specialties/Lucy.JPG ***!
+  !*** ./images/specialties/Lucy.jpg ***!
   \*************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Lucy-d7fb4c587346f61711a4301de9d96767.JPG";
+module.exports = "/_next/static/images/Lucy-d7fb4c587346f61711a4301de9d96767.jpg";
 
 /***/ }),
 
@@ -2297,14 +2374,14 @@ module.exports = "/_next/static/images/Sailor-321229a4ba80ce947f946310d0fa7012.j
 
 /***/ }),
 
-/***/ "./images/specialties/SampsonAndAtlas.jpg":
-/*!************************************************!*\
-  !*** ./images/specialties/SampsonAndAtlas.jpg ***!
-  \************************************************/
+/***/ "./images/specialties/SampsonAtlasBrace.jpg":
+/*!**************************************************!*\
+  !*** ./images/specialties/SampsonAtlasBrace.jpg ***!
+  \**************************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/SampsonAndAtlas-c877b6748935dba8c3036fa6d7abb30b.jpg";
+module.exports = "/_next/static/images/SampsonAtlasBrace-fc2e8fa35b5cc7fe878c91469c04e9a0.jpg";
 
 /***/ }),
 
@@ -14257,7 +14334,7 @@ var initState = {
     }, {
       "title": "Register of Merit",
       "date": "12/31/2019",
-      "org": "AKC"
+      "org": "NCA"
     }],
     Awards: [{
       "award": "Top Twenty",
@@ -15095,8 +15172,8 @@ var initState = {
     neutered: false,
     rip: "",
     owner: "Kathy Hamilton, Andrea Jung and Cindy Flowers",
-    aka: "Singleton",
-    lives: "Kathy Hamilton",
+    aka: "Ken Doll",
+    lives: "Cindy and John",
     health: "",
     image: __webpack_require__(/*! ../../images/info/Kindle.jpg */ "./images/info/Kindle.jpg"),
     Titles: [{
@@ -17139,9 +17216,161 @@ var initState = {
       "date": "07/06/2008",
       "org": "AKC"
     }]
+  }, {
+    id: 98,
+    call: "Nash",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: false,
+    coown: false,
+    stud: false,
+    sex: "male",
+    name: "CH Dreamhavens Sum It Up With Old Bay WD",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCHB Old Bay's Keep It Simple ROM",
+    dob: "	11/10/2018",
+    neutered: false,
+    rip: "",
+    owner: "Sue Lynn Morton and Robin Love",
+    aka: "",
+    lives: "Sue Lynn and Robin",
+    health: "",
+    image: "",
+    Titles: [{
+      "title": "CH",
+      "date": "07/06/2008",
+      "org": "AKC"
+    }]
+  }, {
+    id: 99,
+    call: "Cricket",
+    toptwenty: "",
+    rom: false,
+    vn: false,
+    ours: false,
+    coown: false,
+    stud: false,
+    sex: "female",
+    name: "Dreamhavens Wish Upon A Star With Old Bay",
+    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    dam: "GCHB Old Bay's Keep It Simple ROM",
+    dob: "	11/10/2018",
+    neutered: false,
+    rip: "",
+    owner: "Andrea Jung and Cindy Flowers",
+    aka: "",
+    lives: "Andrea",
+    health: "",
+    image: "",
+    Titles: [{
+      "title": "CH",
+      "date": "07/06/2008",
+      "org": "AKC"
+    }]
+  }, {
+    id: 100,
+    call: "Radar",
+    toptwenty: "",
+    ours: false,
+    coown: true,
+    sex: "male",
+    stud: false,
+    name: "CH Sun Valley's Steady Beacon",
+    sire: "GCHB Old Bay's Perfect Timing",
+    dam: "GCHB Old Bay's Keep It Simple ROM",
+    dob: "June 23, 2017",
+    neutered: false,
+    rip: "",
+    owner: "Kathy and Mike Holshey and Cindy Flowers",
+    aka: "",
+    lives: "Mike and Kathy",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Radar.jpg */ "./images/info/Radar.jpg"),
+    Titles: [{
+      "title": "CH",
+      "date": "03/11/2018",
+      "org": "AKC"
+    }]
+  }, {
+    id: 101,
+    call: "Latte",
+    toptwenty: "",
+    ours: false,
+    stud: false,
+    sex: "female",
+    name: "Old Bay's A Whole Lotta Latte at Starbucks ",
+    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    dob: "December 3, 2008",
+    neutered: false,
+    rip: "January 2018",
+    owner: "	The Speck Family",
+    aka: "Spark, Sparky, Sparkly, Sparkly-Darkly-Dog",
+    lives: "	The Speck Family",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Latte.jpg */ "./images/info/Latte.jpg"),
+    Titles: []
+  }, {
+    id: 102,
+    call: "Linus",
+    toptwenty: "",
+    ours: false,
+    stud: false,
+    sex: "female",
+    name: "OLD BAY MAKE N HEAD LINES",
+    sire: "CH Allegiance Rock The Boat Old Bay",
+    dam: "CH Waterford Frontpage ",
+    dob: "June 24, 2010",
+    neutered: false,
+    rip: "January 2018",
+    owner: "The Speck Family",
+    aka: "",
+    lives: "The Speck Family",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Linus.jpg */ "./images/info/Linus.jpg"),
+    Titles: []
+  }, {
+    id: 103,
+    call: "Bridget",
+    toptwenty: "",
+    ours: false,
+    stud: false,
+    sex: "female",
+    name: "Old BAY BRIDGE TO WATERFORD",
+    sire: "CH Allegiance Rock The Boat Old Bay",
+    dam: "CH Waterford Frontpage ",
+    dob: "June 24, 2010",
+    neutered: false,
+    rip: "January 2018",
+    owner: "Jenni and David Arnett",
+    aka: "",
+    lives: "Jenni and David Arnett",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Bridget.jpg */ "./images/info/Bridget.jpg"),
+    Titles: []
+  }, {
+    id: 104,
+    call: "Tyler",
+    toptwenty: "",
+    ours: false,
+    stud: false,
+    sex: "female",
+    name: "Old Bays Tip A Canoe And Tyler Too",
+    sire: "CH Allegiance Rock The Boat Old Bay",
+    dam: "CH Waterford Frontpage ",
+    dob: "June 24, 2010",
+    neutered: false,
+    rip: "January 2018",
+    owner: "Ray & Linda Boswell & Cindy Flowers",
+    aka: "",
+    lives: "Ray & Linda",
+    health: "",
+    image: __webpack_require__(/*! ../../images/info/Tyler.jpg */ "./images/info/Tyler.jpg"),
+    Titles: []
   }],
   litters: [{
-    id: 1,
+    id: 0,
     parents: "Rhone and Kiss",
     breeders: "Old Bay Newfs - Cindy Flowers and Kathy Hamilton",
     sire: "GCH Chateaunewf'N Nakiska's Legend Of The Stones",
@@ -17153,6 +17382,18 @@ var initState = {
     sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Kiss.jpg */ "./images/litters/Kiss.jpg"),
     pupimg: __webpack_require__(/*! ../../images/info/Sing.jpg */ "./images/info/Sing.jpg")
+  }, {
+    id: 1,
+    parents: "Xander and Snowball",
+    breeders: "",
+    sire: "",
+    dam: "",
+    dob: "",
+    boys: 3,
+    girls: 0,
+    puppies: [],
+    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    damimg: __webpack_require__(/*! ../../images/litters/Snowball.jpg */ "./images/litters/Snowball.jpg")
   }, {
     id: 2,
     parents: "Crosby and Kiss",
@@ -17207,7 +17448,7 @@ var initState = {
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "GCH Old Bay's Let's Get Sirius CGC, TDI (HE/L/P/HrC/Cn/Cerf/DNC)",
     dam: "CH Old Bay's Ragin' Infurno  (HG/L/HrC/P/DNA)",
-    dob: "February 24, 2014",
+    dob: "February 24, 2015",
     boys: 3,
     girls: 2,
     puppies: ["Jet - lime boy - Lezli and Bennett Alford", "Karma - raspberry girl - Rose Miller", "Thunder - red boy - Jolene Maschuck Smith (PA)", "Torben- silver boy - Ardys and Lincoln (MD)", "Nessie - purple girl - Rose Miller (VA)"],
@@ -17219,10 +17460,10 @@ var initState = {
     breeders: "Cindy Flowers and Sue Faulkner",
     sire: "CH Old Bay's Lead Me To Temptation  ",
     dam: "Old Bay's Seasoned with Spice  ROM",
-    dob: "February 23, 2014",
+    dob: "February 23, 2015",
     boys: 5,
     girls: 1,
-    puppies: ["Rolex - purple boy - Cindy Flowers", "Bunbury - Rainbow boy - James Kallmerten (NY)", "Jupiter - gray boy - Colette Chipman - (VA)", "Charlie - green boy - David Leever and Sharon Yost (MD)", "Walter - gold boy - Terri Lewin Gilbert (PA)", "Gracie - Pink girl - Mary Jeanne Levitt (MN)"],
+    puppies: ["Rolex - purple boy - Cindy Flowers", "Bunbury - RainBest of Winners boy - James Kallmerten (NY)", "Jupiter - gray boy - Colette Chipman - (VA)", "Charlie - green boy - David Leever and Sharon Yost (MD)", "Walter - gold boy - Terri Lewin Gilbert (PA)", "Gracie - Pink girl - Mary Jeanne Levitt (MN)"],
     sireimg: __webpack_require__(/*! ../../images/litters/Tate.jpg */ "./images/litters/Tate.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Nutmeg.jpg */ "./images/litters/Nutmeg.jpg")
   }, {
@@ -17231,7 +17472,7 @@ var initState = {
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN  ",
-    dob: "February 4, 2014",
+    dob: "February 4, 2015",
     boys: 4,
     girls: 3,
     puppies: ["Flash - purple boy - Anne Nored (NC)", "Sailor - blue boy - (VA)", "Teddy - orange boy - Shawna Rogers-Curns (VA)", "Max - burgundy boy - Jeff and Jane Brueckner Totten (VA)", "Ellie - green girl - John and Juli Paladino (MD)", "Cayenne - yellow girl - Tom and Joan Locker-Thuring (Long Island)", "Snowball - Snowball - Cindy Flowers and Andrea Jung)"],
@@ -17491,1336 +17732,1568 @@ var initState = {
   }],
   awards: [{
     image: __webpack_require__(/*! ../../images/specialties/Flash2019AKCChampionship.jpg */ "./images/specialties/Flash2019AKCChampionship.jpg"),
-    award: "Award of Merit",
+    award: "Award of Exellence",
     show: "AKC Royal Canin National Dog Show",
-    date: "2019-12-15T00:00:00-08:00",
-    dog: "Flash"
+    date: "2019-12-15T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Nash2019AKCChampionship.jpg */ "./images/specialties/Nash2019AKCChampionship.jpg"),
     award: "Best of Winners, 1st 12-18 dog",
     show: " AKC Royal Canin National Dog Show",
-    date: "2019-12-15T00:00:00-08:00",
-    dog: "Nash"
+    date: "2019-12-15T08:00:00Z",
+    dog: "Nash",
+    id: 98
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Nash2019AKCChampionship2.jpg */ "./images/specialties/Nash2019AKCChampionship2.jpg"),
     award: "Best of Breed",
     show: "AKC/Royal Canin National All-Breed Puppy & Junior Stakes",
-    date: "2019-12-13T00:00:00-08:00",
-    dog: "Nash"
+    date: "2019-12-13T08:00:00Z",
+    dog: "Nash",
+    id: 98
   }, {
-    image: __webpack_require__(/*! ../../images/specialties/Flash2019Florida.jpg */ "./images/specialties/Flash2019Florida.jpg"),
+    image: __webpack_require__(/*! ../../images/specialties/Flash2019WorkingSpecialty.jpg */ "./images/specialties/Flash2019WorkingSpecialty.jpg"),
     award: "Best of Breed",
     show: "Central Florida Working Group",
-    date: "2019-12-13T00:00:00-08:00",
-    dog: "Flash"
+    date: "2019-12-13T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Nash8Months.jpg */ "./images/specialties/Nash8Months.jpg"),
     award: "Best of Winners",
     show: "Central Florida Working Group",
-    date: "2019-12-13T00:00:00-08:00",
-    dog: "Nash"
+    date: "2019-12-13T08:00:00Z",
+    dog: "Nash",
+    id: 98
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KindleCNC2019BOS.jpg */ "./images/specialties/KindleCNC2019BOS.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "CNC Regional",
-    date: "2019-10-27T00:00:00-07:00",
-    dog: "Kindle"
+    date: "2019-10-27T08:00:00Z",
+    dog: "Kindle",
+    id: 31
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Cricket.jpg */ "./images/specialties/Cricket.jpg"),
     award: "RWB, 1st 9-12 bitch",
     show: "CNC Regional",
-    date: "2019-10-27T00:00:00-07:00",
-    dog: "Cricket"
+    date: "2019-10-27T08:00:00Z",
+    dog: "Cricket",
+    id: 99
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Kindle.jpg */ "./images/specialties/Kindle.jpg"),
     award: "Best in Sweepstakes",
     show: "CNC Regional",
-    date: "2019-10-27T00:00:00-07:00",
-    dog: "Kindle"
+    date: "2019-10-27T08:00:00Z",
+    dog: "Kindle",
+    id: 31
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Kindle2019CNCRegional.jpg */ "./images/specialties/Kindle2019CNCRegional.jpg"),
     award: "Winners Bitch, 1st 9-12 bitch and Best in Sweepstakes",
     show: "CNC Regional",
-    date: "2019-10-26T00:00:00-07:00",
-    dog: "Kindle"
+    date: "2019-10-26T08:00:00Z",
+    dog: "Kindle",
+    id: 31
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Cricket2019CNCRegional.jpg */ "./images/specialties/Cricket2019CNCRegional.jpg"),
     award: "2nd 9-12 bitch",
     show: "CNC Regional",
-    date: "2019-10-26T00:00:00-07:00",
-    dog: "Cricket"
+    date: "2019-10-26T08:00:00Z",
+    dog: "Cricket",
+    id: 99
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Kindle7Months.jpg */ "./images/specialties/Kindle7Months.jpg"),
     award: "Best in Sweepstakes",
     show: "CNC Supported Entry",
-    date: "2019-10-25T00:00:00-07:00",
-    dog: "Kindle"
+    date: "2019-10-25T08:00:00Z",
+    dog: "Kindle",
+    id: 31
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FlashBOS2019SENC.jpg */ "./images/specialties/FlashBOS2019SENC.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "SENC Regional",
-    date: "2019-07-27T00:00:00-04:00",
-    dog: "Flash"
+    date: "2019-07-27T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FlashBOB2019SENC.jpg */ "./images/specialties/FlashBOB2019SENC.jpg"),
-    award: "BOB",
+    award: "Best of Breed",
     show: "SENC Regional",
-    date: "2019-07-27T00:00:00-04:00",
-    dog: "Flash"
+    date: "2019-07-27T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Snowball2019National2ndBroodBitch.jpg */ "./images/specialties/Snowball2019National2ndBroodBitch.jpg"),
     award: "2nd Brood Bitch",
     show: "2019 National",
-    date: "May 3, 2019",
-    dog: "Snowball"
+    date: "2019-05-03T08:00:00Z",
+    dog: "Snowball",
+    id: 10
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KindleBestPuppy.jpg */ "./images/specialties/KindleBestPuppy.jpg"),
     award: "Best Baby Puppy",
     show: "2019 National",
-    date: "2019-04-30T00:00:00-04:00",
-    dog: "Kindle"
+    date: "2019-04-30T08:00:00Z",
+    dog: "Kindle",
+    id: 31
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Nash2019NationalBOSPuppy.jpg */ "./images/specialties/Nash2019NationalBOSPuppy.jpg"),
     award: "Best Opposite Sex Baby Puppy",
     show: "2019 National",
-    date: "2019-04-30T00:00:00-04:00",
-    dog: "Nash"
+    date: "2019-04-30T08:00:00Z",
+    dog: "Nash",
+    id: 98
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/AtlasAndObiBrace2019.jpg */ "./images/specialties/AtlasAndObiBrace2019.jpg"),
+    award: "3rd Brace",
+    show: "2019 National",
+    date: "2014-04-05T08:00:00Z",
+    dog: "Atlas and Obi"
   }, {
     image: __webpack_require__(/*! ../../images/specialties/GracieObedience.jpg */ "./images/specialties/GracieObedience.jpg"),
     award: "2nd Beginner Novice A, 2nd Novice A, 3rd Novice A, 1st Beginner Novice A",
     show: "2019 National",
-    date: "2019-04-30T00:00:00-04:00",
-    dog: "Gracie"
+    date: "2019-04-30T08:00:00Z",
+    dog: "Gracie",
+    id: 63
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FlashNewPenDelBOS.jpg */ "./images/specialties/FlashNewPenDelBOS.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "NewPenDel Regional",
-    date: "2019-03-16T00:00:00-04:00",
-    dog: "Flash"
+    date: "2019-03-16T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Maestro2018BOSinSweeps.jpg */ "./images/specialties/Maestro2018BOSinSweeps.jpg"),
     award: "Best Opposite Sex Sweepstakes, 14 months old",
     show: "NewPenDel Regional",
-    date: "2019-03-17T00:00:00-04:00",
-    dog: "Maestro"
+    date: "2019-03-17T08:00:00Z",
+    dog: "Maestro",
+    id: 6
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FableNewPenDelWB.jpg */ "./images/specialties/FableNewPenDelWB.jpg"),
-    award: "WB, 1st Bred By",
+    award: "Winners Bitch, 1st Bred By",
     show: "NewPenDel Regional",
-    date: "2019-03-16T00:00:00-04:00",
-    dog: "Fable"
+    date: "2019-03-16T08:00:00Z",
+    dog: "Fable",
+    id: 39
   }, {
     image: __webpack_require__(/*! ../../images/specialties/MaestroBestOppInSweeps.jpg */ "./images/specialties/MaestroBestOppInSweeps.jpg"),
     award: "Best Opposite Sex Sweepstakes, 14 months old",
     show: "NewPenDel Regional",
-    date: "2019-03-16T00:00:00-04:00",
-    dog: "Maestro"
+    date: "2019-03-16T08:00:00Z",
+    dog: "Maestro",
+    id: 6
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/DoryVeteran.jpg */ "./images/specialties/DoryVeteran.jpg"),
+    award: "Best Veteran",
+    show: "High County Newfoundland Club",
+    date: "2018-11-08T08:00:00Z",
+    dog: "Dory",
+    id: 79
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissGroupFirst.jpg */ "./images/specialties/KissGroupFirst.jpg"),
     award: "Select",
     show: "NCNE Supported Entry - morning",
-    date: "2018-03-03T00:00:00-05:00",
-    dog: "Kiss"
+    date: "2018-03-03T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/MetroNCNE.jpg */ "./images/specialties/MetroNCNE.jpg"),
-    award: "5 point major, BOW/WD, Best in Sweepstakes’s, BOBOH, and Best Puppy",
+    award: "5 point major, Best of Winners/WD, Best in Sweeps, BOBOH, and Best Puppy",
     show: "NCNE Supported Entry - afternoon",
-    date: "2018-03-03T00:00:00-05:00",
-    dog: "Metronome"
+    date: "2018-03-03T08:00:00Z",
+    dog: "Metronome",
+    id: 5
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Radar.jpg */ "./images/specialties/Radar.jpg"),
     award: "3 point major, WD",
     show: "NCNE Supported Entry - morning",
-    date: "2018-03-03T00:00:00-05:00",
-    dog: "Radar"
+    date: "2018-03-03T08:00:00Z",
+    dog: "Radar",
+    id: 100
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissGroup4.jpg */ "./images/specialties/KissGroup4.jpg"),
     award: "Select",
     show: "NCNE Supported Entry - afternoon",
-    date: "2018-03-03T00:00:00-05:00",
-    dog: "Kiss"
+    date: "2018-03-03T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissFamily.jpg */ "./images/specialties/KissFamily.jpg"),
     award: "Award of Merit",
     show: "NCNE Supported Entry",
-    date: "2018-03-04T00:00:00-05:00",
-    dog: "Kiss"
+    date: "2018-03-04T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RadarPuppy.jpg */ "./images/specialties/RadarPuppy.jpg"),
-    award: "4 point major, BOW/WD",
+    award: "4 point major, Best of Winners/WD",
     show: "NCNE Supported Entry",
-    date: "2018-03-04T00:00:00-05:00",
-    dog: "Radar"
+    date: "2018-03-04T08:00:00Z",
+    dog: "Radar",
+    id: 100
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissSelect (2).jpg */ "./images/specialties/KissSelect (2).jpg"),
     award: "Select",
     show: "New Pen Del Regional ",
-    date: "2018-03-17T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2018-03-17T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FlashSelectNewPenDel.jpg */ "./images/specialties/FlashSelectNewPenDel.jpg"),
     award: "Select",
     show: "New Pen Del Regional ",
-    date: "2018-03-18T00:00:00-04:00",
-    dog: "Flash"
+    date: "2018-03-18T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RolexNationalSelect.jpg */ "./images/specialties/RolexNationalSelect.jpg"),
     award: "NCA Select Dog",
     show: "2018 National",
-    date: "2018-05-05T00:00:00-04:00",
-    dog: "Rolex"
+    date: "2018-05-05T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/MetroBestOppSweeps.jpg */ "./images/specialties/MetroBestOppSweeps.jpg"),
     award: "Best of Opposite in Sweepstakes from 9-12 puppy",
     show: "2018 National",
-    date: "2018-05-05T00:00:00-04:00",
-    dog: "Metronome"
+    date: "2018-05-05T08:00:00Z",
+    dog: "Metronome",
+    id: 5
   }, {
     image: __webpack_require__(/*! ../../images/specialties/MetroFirstNational.jpg */ "./images/specialties/MetroFirstNational.jpg"),
     award: "1st in Regular Classes 9-12 puppy dog",
     show: "2018 National",
-    date: "2018-05-05T00:00:00-04:00",
-    dog: "Metronome"
+    date: "2018-05-05T08:00:00Z",
+    dog: "Metronome",
+    id: 5
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissFirstBroodBitch.jpg */ "./images/specialties/KissFirstBroodBitch.jpg"),
     award: "1st in Brood Bitch",
     show: "2018 National",
-    date: "2018-05-05T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2018-05-05T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/2018NationalTeam.jpg */ "./images/specialties/2018NationalTeam.jpg"),
     award: "1st Team",
     show: "2018 National",
-    date: "2018-05-05T00:00:00-04:00",
+    date: "2018-05-05T08:00:00Z",
     dog: "Kiss, Metro, Rolex, Radar"
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RolexNationalStudDog.jpg */ "./images/specialties/RolexNationalStudDog.jpg"),
     award: "4th Stud Dog",
     show: "2018 National",
-    date: "2018-05-05T00:00:00-04:00",
-    dog: "Rolex"
+    date: "2018-05-05T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/ObiNationals.jpg */ "./images/specialties/ObiNationals.jpg"),
     award: "3rd in 9-12 Sweepstakes",
     show: "2018 National",
-    date: "2018-05-05T00:00:00-04:00",
-    dog: "Obi"
+    date: "2018-05-05T08:00:00Z",
+    dog: "Obi",
+    id: 78
   }, {
     image: __webpack_require__(/*! ../../images/specialties/NemoBearMountainSweepsBOS.jpg */ "./images/specialties/NemoBearMountainSweepsBOS.jpg"),
     award: "BOS Sweepstakes / 1st 6-9 puppy dog",
     show: "Bear Mountain Supported Entry",
-    date: "2018-06-22T00:00:00-04:00",
-    dog: "Nemo"
+    date: "2018-06-22T08:00:00Z",
+    dog: "Nemo",
+    id: 7
   }, {
     image: __webpack_require__(/*! ../../images/specialties/NemoTenn.jpg */ "./images/specialties/NemoTenn.jpg"),
     award: "1st 6-9 puppy dog sweeps and regular",
     show: "Bear Mountain Regional Specialty",
-    date: "2018-06-23T00:00:00-04:00",
-    dog: "Nemo"
+    date: "2018-06-23T08:00:00Z",
+    dog: "Nemo",
+    id: 7
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Kiss.jpg */ "./images/specialties/Kiss.jpg"),
     award: "BOBOH",
     show: "Bear Mountain Regional Specialty",
-    date: "2018-06-23T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2018-06-23T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/NemoTenn.jpg */ "./images/specialties/NemoTenn.jpg"),
     award: "RWD / 1st 6-9 puppy dog sweeps and regular",
     show: "Bear Mountain Regional Specialty",
-    date: "2018-06-24T00:00:00-04:00",
-    dog: "Nemo"
+    date: "2018-06-24T08:00:00Z",
+    dog: "Nemo",
+    id: 7
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissFB.jpg */ "./images/specialties/KissFB.jpg"),
     award: "BOBOH",
     show: "Bear Mountain Regional Specialty",
-    date: "2018-06-24T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2018-06-24T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SnowballBOS2018July28.jpg */ "./images/specialties/SnowballBOS2018July28.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "SENC Regional",
-    date: "2018-07-28T00:00:00-04:00",
-    dog: "Snowball"
+    date: "2018-07-28T08:00:00Z",
+    dog: "Snowball",
+    id: 10
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SnowballBOS2018July29.jpg */ "./images/specialties/SnowballBOS2018July29.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "SENC Regional",
-    date: "2018-07-29T00:00:00-04:00",
-    dog: "Snowball"
+    date: "2018-07-29T08:00:00Z",
+    dog: "Snowball",
+    id: 10
   }, {
     image: __webpack_require__(/*! ../../images/specialties/maestro4-6GroupFirst.jpg */ "./images/specialties/maestro4-6GroupFirst.jpg"),
     award: "1st 6-9 Sweeps",
     show: "SENC Regional",
-    date: "2018-07-28T00:00:00-04:00",
-    dog: "Maestro"
+    date: "2018-07-28T08:00:00Z",
+    dog: "Maestro",
+    id: 6
   }, {
     image: __webpack_require__(/*! ../../images/specialties/MaestroBIS4-6Puppy.jpg */ "./images/specialties/MaestroBIS4-6Puppy.jpg"),
     award: "1st 6-9 Sweeps / 2nd 6-9 Regular",
     show: "SENC Regional",
-    date: "2018-07-28T00:00:00-04:00",
-    dog: "Maestro"
+    date: "2018-07-28T08:00:00Z",
+    dog: "Maestro",
+    id: 6
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FlashCNCBestofBreed.jpg */ "./images/specialties/FlashCNCBestofBreed.jpg"),
-    award: "BOB",
+    award: "Best of Breed",
     show: "CNC Regional",
-    date: "2018-10-27T00:00:00-04:00",
-    dog: "Flash"
+    date: "2018-10-27T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FlashSelectNewPenDel.jpg */ "./images/specialties/FlashSelectNewPenDel.jpg"),
     award: "Select",
     show: "CNC Regional",
-    date: "2018-10-26T00:00:00-04:00",
-    dog: "Flash"
+    date: "2018-10-26T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/ObiBestInSweeps2.jpg */ "./images/specialties/ObiBestInSweeps2.jpg"),
     award: "BOBOH",
     show: "CNC Regional",
-    date: "2018-10-27T00:00:00-04:00",
-    dog: "Obi"
+    date: "2018-10-27T08:00:00Z",
+    dog: "Obi",
+    id: 78
   }, {
     image: __webpack_require__(/*! ../../images/specialties/ObiBestofWinners.jpg */ "./images/specialties/ObiBestofWinners.jpg"),
     award: "Best of Winners and Best in Sweeps - 14 months",
     show: "CNC Regional",
-    date: "2018-10-26T00:00:00-04:00",
-    dog: "Obi"
+    date: "2018-10-26T08:00:00Z",
+    dog: "Obi",
+    id: 78
   }, {
     image: __webpack_require__(/*! ../../images/specialties/ObiBestInSweeps.jpg */ "./images/specialties/ObiBestInSweeps.jpg"),
     award: "Best of Winners and Best in Sweeps - 14 months",
     show: "CNC Supported Entry",
-    date: "2018-10-25T00:00:00-04:00",
-    dog: "Obi"
+    date: "2018-10-25T08:00:00Z",
+    dog: "Obi",
+    id: 78
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FableBestofWinners.jpg */ "./images/specialties/FableBestofWinners.jpg"),
     award: "Best of Winners, WB, 1st 9-12",
     show: "CNC Regional",
-    date: "2018-10-27T00:00:00-04:00",
-    dog: "Fable"
+    date: "2018-10-27T08:00:00Z",
+    dog: "Fable",
+    id: 39
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Flash2018AKCBestNOAH.jpg */ "./images/specialties/Flash2018AKCBestNOAH.jpg"),
-    award: "BOB",
+    award: "Best of Breed",
     show: "National Owner Handled Series Finals",
-    date: "2018-12-15T00:00:00-05:00",
-    dog: "Flash"
+    date: "2018-12-15T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Maestro 2019 National.jpg */ "./images/specialties/Maestro 2019 National.jpg"),
     award: "Best Bred-By Exhibitor",
     show: "AKC National Championship",
-    date: "2018-12-15T00:00:00-05:00",
-    dog: "Maestro"
+    date: "2018-12-15T08:00:00Z",
+    dog: "Maestro",
+    id: 6
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FlashAKCjam.jpg */ "./images/specialties/FlashAKCjam.jpg"),
     award: "Award of Exellence",
     show: "2018 AKC National Championship",
-    date: "2018-12-15T00:00:00-05:00",
-    dog: "Flash"
+    date: "2018-12-15T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/MaestroSarah.jpg */ "./images/specialties/MaestroSarah.jpg"),
-    award: "BOB",
+    award: "Best of Breed",
     show: "AKC National Puppy & Junior Stakes",
-    date: "2018-12-15T00:00:00-05:00",
-    dog: "Maestro"
+    date: "2018-12-15T08:00:00Z",
+    dog: "Maestro",
+    id: 6
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SparkleCNCVeteran.jpg */ "./images/specialties/SparkleCNCVeteran.jpg"),
     award: "Best Opposite Veteran Sweeps, 1st 7-9 Veteran Sweeps",
     show: "CNC Regional ",
-    date: "2017-10-29T00:00:00-04:00",
-    dog: "Sparkle"
+    date: "2017-10-29T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SparkleCNCRegional.jpg */ "./images/specialties/SparkleCNCRegional.jpg"),
     award: "Best Opposite Veteran Sweeps, 1st 7-9 Veteran Sweeps",
     show: "CNC Regional ",
-    date: "2017-10-30T00:00:00-04:00",
-    dog: "Sparkle"
+    date: "2017-10-30T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Sirius.JPG */ "./images/specialties/Sirius.JPG"),
     award: "Select Dog",
     show: "CNC Supported Entry ",
-    date: "2017-10-28T00:00:00-04:00",
-    dog: "Sirius"
+    date: "2017-10-28T08:00:00Z",
+    dog: "Sirius",
+    id: 1
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SparkleCanada.jpg */ "./images/specialties/SparkleCanada.jpg"),
     award: "Best Veteran Female ",
     show: "Canadian Regional Specialty",
-    date: "2017-09-03T00:00:00-04:00",
-    dog: "Sparkle"
+    date: "2017-09-03T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RolexCanada.jpg */ "./images/specialties/RolexCanada.jpg"),
     award: "2nd Open Dog",
     show: "Canadian Regional Specialty",
-    date: "2017-09-03T00:00:00-04:00",
-    dog: "Rolex"
+    date: "2017-09-03T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SparkleCanada (2).jpg */ "./images/specialties/SparkleCanada (2).jpg"),
     award: "Best Veteran Female ",
     show: "Canadian National Specialty ",
-    date: "2017-09-02T00:00:00-04:00",
-    dog: "Sparkle"
+    date: "2017-09-02T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RolexCanada2.jpg */ "./images/specialties/RolexCanada2.jpg"),
     award: "Reserve Winners Dog/1st Open Dog",
     show: "Canadian National Specialty ",
-    date: "2017-09-02T00:00:00-04:00",
-    dog: "Rolex"
+    date: "2017-09-02T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissFB.jpg */ "./images/specialties/KissFB.jpg"),
     award: "BOS/BOBOH",
     show: "New Pen Del Supported",
-    date: "2017-03-17T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2017-03-17T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissSENCSelect.jpg */ "./images/specialties/KissSENCSelect.jpg"),
     award: "BOS/BOBOH/OHG4 ",
     show: "SENC Supported Entry",
-    date: "2017-02-03T00:00:00-05:00",
-    dog: "Kiss"
+    date: "2017-02-03T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SparkleSENCBestVeteran.jpg */ "./images/specialties/SparkleSENCBestVeteran.jpg"),
     award: "1st 7-9 Veteran Sweeps ",
     show: "SENC Supported Entry",
-    date: "2017-02-03T00:00:00-05:00",
-    dog: "Sparkle"
+    date: "2017-02-03T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissSelect.jpg */ "./images/specialties/KissSelect.jpg"),
     award: "Select/BOBOH/OHG3 ",
     show: "SENC Regional Specialty",
-    date: "2017-02-04T00:00:00-05:00",
-    dog: "Kiss"
+    date: "2017-02-04T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SparkleCanadaMoving.jpg */ "./images/specialties/SparkleCanadaMoving.jpg"),
     award: "1st 7-9 Veteran Sweeps ",
     show: "SENC Regional Specialty",
-    date: "2017-02-04T00:00:00-05:00",
-    dog: "Sparkle"
+    date: "2017-02-04T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Sparkle5.jpg */ "./images/specialties/Sparkle5.jpg"),
     award: "SECOND 7-9 Veteran Sweeps",
     show: "CNC Supported Entry",
-    date: "2016-10-30T00:00:00-04:00",
-    dog: "Sparkle"
+    date: "2016-10-30T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissCNCSupportedEntry.jpg */ "./images/specialties/KissCNCSupportedEntry.jpg"),
     award: "AKC Select / BOBOH ",
     show: "CNC Supported Entry",
-    date: "2016-10-30T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2016-10-30T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SnowballCNCSupportedEntry.jpg */ "./images/specialties/SnowballCNCSupportedEntry.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "CNC Supported Entry",
-    date: "2016-10-30T00:00:00-04:00",
-    dog: "Snowball"
+    date: "2016-10-30T08:00:00Z",
+    dog: "Snowball",
+    id: 10
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SparkleCNCVeterans.jpg */ "./images/specialties/SparkleCNCVeterans.jpg"),
     award: "SECOND 7-9 Veteran Sweeps",
     show: "CNC Supported Entry",
-    date: "2016-02-03T00:00:00-04:00",
-    dog: "Sparkle"
+    date: "2016-02-03T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissFlorida.jpg */ "./images/specialties/KissFlorida.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "CNC Supported Entry",
-    date: "2016-02-03T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2016-02-03T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissSENCSelect.jpg */ "./images/specialties/KissSENCSelect.jpg"),
     award: "Select / BOBOH",
     show: "SENC Regional Specialty",
-    date: "2016-02-04T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2016-02-04T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RolexSENCBestInSweeps.jpg */ "./images/specialties/RolexSENCBestInSweeps.jpg"),
     award: "BEST IN SWEEPS/ 1st 15-18 Sweeps",
     show: "SENC Regional Specialty",
-    date: "2016-02-04T00:00:00-04:00",
-    dog: "Rolex"
+    date: "2016-02-04T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SparkleSENCBestVeteran.jpg */ "./images/specialties/SparkleSENCBestVeteran.jpg"),
     award: "BEST IN VETERAN SWEEPS",
     show: "SENC Regional Specialty",
-    date: "2016-02-04T00:00:00-04:00",
-    dog: "Sparkle"
+    date: "2016-02-04T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FlashNC.jpg */ "./images/specialties/FlashNC.jpg"),
     award: "RWD / FIRST 15-18 dog",
     show: "SENC Regional Specialty",
-    date: "2016-02-04T00:00:00-04:00",
-    dog: "Flash"
+    date: "2016-02-04T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RaisinShow.jpg */ "./images/specialties/RaisinShow.jpg"),
     award: "FIRST Bred By",
     show: "SENC Regional Specialty",
-    date: "2016-02-04T00:00:00-04:00",
-    dog: "Raisin"
+    date: "2016-02-04T08:00:00Z",
+    dog: "Raisin",
+    id: 8
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SnowballMoving.jpg */ "./images/specialties/SnowballMoving.jpg"),
     award: "FIRST 12-18 Sweeps",
     show: "SENC Regional Specialty",
-    date: "2016-02-04T00:00:00-04:00",
-    dog: "Snowball"
+    date: "2016-02-04T08:00:00Z",
+    dog: "Snowball",
+    id: 10
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FlashNational2016.jpg */ "./images/specialties/FlashNational2016.jpg"),
     award: "FIRST 15-18 dog, 4th 15-18 sweeps",
     show: "2016 National",
-    date: "2016-05-07T00:00:00-04:00",
-    dog: "Flash"
+    date: "2016-05-07T08:00:00Z",
+    dog: "Flash",
+    id: 11
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RaisinShow.jpg */ "./images/specialties/RaisinShow.jpg"),
     award: "FIRST Amatuer Owner Handled bitch",
     show: "2016 National",
-    date: "2016-05-07T00:00:00-04:00",
-    dog: "Raisin"
+    date: "2016-05-07T08:00:00Z",
+    dog: "Raisin",
+    id: 8
   }, {
     image: __webpack_require__(/*! ../../images/specialties/LucyTopDam2.jpg */ "./images/specialties/LucyTopDam2.jpg"),
     award: "NCA - Top Producing Dam",
     show: "2016",
-    date: "December 31, 2016",
-    dog: "Lucy"
+    date: "2016-12-31T08:00:00Z",
+    dog: "Lucy",
+    id: 14
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Rolex2016National.jpg */ "./images/specialties/Rolex2016National.jpg"),
     award: "SECOND 12-15 Sweeps",
     show: "2016 National",
-    date: "2016-05-07T00:00:00-04:00",
-    dog: "Rolex"
+    date: "2016-05-07T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Sparkle2016National2ndveterans.jpg */ "./images/specialties/Sparkle2016National2ndveterans.jpg"),
     award: "SECOND 7-8 Veteran Sweeps",
     show: "2016 National",
-    date: "2016-05-07T00:00:00-04:00",
-    dog: "Sparkle"
+    date: "2016-05-07T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Sailor.jpg */ "./images/specialties/Sailor.jpg"),
     award: "SECOND 15-18 dog ",
     show: "2016 National",
-    date: "2016-05-07T00:00:00-04:00",
-    dog: "Sailor"
+    date: "2016-05-07T08:00:00Z",
+    dog: "Sailor",
+    id: 76
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Atlas.jpg */ "./images/specialties/Atlas.jpg"),
     award: "FORTH Working Dog",
     show: "2016 National",
-    date: "2016-05-07T00:00:00-04:00",
-    dog: "Atlas"
+    date: "2016-05-07T08:00:00Z",
+    dog: "Atlas",
+    id: 59
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissForthSweeps.jpg */ "./images/specialties/KissForthSweeps.jpg"),
     award: "FORTH 15-18 Sweeps",
     show: "2016 National",
-    date: "2016-05-07T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2016-05-07T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Emma.jpg */ "./images/specialties/Emma.jpg"),
     award: "1st leg in Rally Advanced",
     show: "2016 National",
-    date: "2016-05-07T00:00:00-04:00",
-    dog: "Emma"
+    date: "2016-05-07T08:00:00Z",
+    dog: "Emma",
+    id: 40
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SnowballRWB.jpg */ "./images/specialties/SnowballRWB.jpg"),
     award: "Reserve Winners Bitch / 1st Bred-by / 1st 12-15 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "2016-03-20T00:00:00-04:00",
-    dog: "Snowball"
+    date: "2016-03-20T08:00:00Z",
+    dog: "Snowball",
+    id: 10
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RolexBestInSweeps.jpg */ "./images/specialties/RolexBestInSweeps.jpg"),
     award: "Best in Sweepstakes / 1st 12-15 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "2016-03-20T00:00:00-04:00",
-    dog: "Rolex"
+    date: "2016-03-20T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissFirstSweeps.jpg */ "./images/specialties/KissFirstSweeps.jpg"),
     award: "1st 15-18 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "2016-03-20T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2016-03-20T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/JetFirst.jpg */ "./images/specialties/JetFirst.jpg"),
     award: "2nd 12-15 Sweeps / 1st 12-18 Dog",
     show: "NewPenDel Regional Specialty",
-    date: "2016-03-20T00:00:00-04:00",
-    dog: "Jet"
+    date: "2016-03-20T08:00:00Z",
+    dog: "Jet",
+    id: 60
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Snowball2016National.jpg */ "./images/specialties/Snowball2016National.jpg"),
     award: "1st 12-15 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "2016-03-19T00:00:00-04:00",
-    dog: "Snowball"
+    date: "2016-03-19T08:00:00Z",
+    dog: "Snowball",
+    id: 10
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Rolex.jpg */ "./images/specialties/Rolex.jpg"),
     award: "1st 12-15 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "2016-03-19T00:00:00-04:00",
-    dog: "Rolex"
+    date: "2016-03-19T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissMoving.jpg */ "./images/specialties/KissMoving.jpg"),
     award: "1st 15-18 Sweeps",
     show: "NewPenDel Regional Specialty",
-    date: "2016-03-19T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2016-03-19T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Jet.jpg */ "./images/specialties/Jet.jpg"),
     award: "2nd 12-15 Sweeps / 1st 12-18 Dog",
     show: "NewPenDel Regional Specialty",
-    date: "2016-03-19T00:00:00-04:00",
-    dog: "Jet"
+    date: "2016-03-19T08:00:00Z",
+    dog: "Jet",
+    id: 60
   }, {
     image: __webpack_require__(/*! ../../images/specialties/JackNational.jpg */ "./images/specialties/JackNational.jpg"),
     award: "3rd Open",
     show: "2015 National",
-    date: "2015-05-07T00:00:00-04:00",
-    dog: "Jack"
+    date: "2015-05-07T08:00:00Z",
+    dog: "Jack",
+    id: 34
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KissMorrisAndEssex.jpg */ "./images/specialties/KissMorrisAndEssex.jpg"),
     award: "Best of Opposite in Sweepstakes / 1st 9-12 Sweeps / 4th 9-12 Puppy Bitch",
     show: "NewPenDel Regional Specialty - Morris & Essex",
-    date: "2015-10-01T00:00:00-04:00",
-    dog: "Kiss"
+    date: "2015-10-01T08:00:00Z",
+    dog: "Kiss",
+    id: 9
   }, {
     image: __webpack_require__(/*! ../../images/specialties/RolexBestOppSweeps.jpg */ "./images/specialties/RolexBestOppSweeps.jpg"),
     award: "1st 6-9 Sweeps / 2nd 6-9 Puppy Dog",
     show: "NewPenDel Regional Specialty - Morris & Essex",
-    date: "2015-10-01T00:00:00-04:00",
-    dog: "Rolex"
+    date: "2015-10-01T08:00:00Z",
+    dog: "Rolex",
+    id: 4
   }, {
     image: __webpack_require__(/*! ../../images/specialties/JetFirst.jpg */ "./images/specialties/JetFirst.jpg"),
     award: "2nd 6-9 Sweeps / 3rd 6-9 Puppy Dog ",
     show: "NewPenDel Regional Specialty - Morris & Essex",
-    date: "2015-10-01T00:00:00-04:00",
-    dog: "Jet"
+    date: "2015-10-01T08:00:00Z",
+    dog: "Jet",
+    id: 60
   }, {
     image: __webpack_require__(/*! ../../images/specialties/TiffanyCNCRegional.jpg */ "./images/specialties/TiffanyCNCRegional.jpg"),
-    award: "WB/1st 9-12 - 4 points",
+    award: "Winners Bitch/1st 9-12 - 4 points",
     show: "CNC Supported Entry",
-    date: "2014-10-26T00:00:00-04:00",
-    dog: "Tiffany"
+    date: "2014-10-26T08:00:00Z",
+    dog: "Tiffany",
+    id: 48
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Justin.jpg */ "./images/specialties/Justin.jpg"),
     award: "1st 6-9",
     show: "CNC Supported Entry",
-    date: "2014-10-26T00:00:00-04:00",
-    dog: "Justin"
+    date: "2014-10-26T08:00:00Z",
+    dog: "Justin",
+    id: 61
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Jack12-18.jpg */ "./images/specialties/Jack12-18.jpg"),
     award: "2nd 12-18",
     show: "CNC Supported Entry",
-    date: "2014-10-26T00:00:00-04:00",
-    dog: "Jack"
+    date: "2014-10-26T08:00:00Z",
+    dog: "Jack",
+    id: 34
   }, {
     image: __webpack_require__(/*! ../../images/specialties/tiffanycncmoving.jpg */ "./images/specialties/tiffanycncmoving.jpg"),
     award: "2nd 9-12 Sweeps/Regular ",
     show: "CNC Regional",
-    date: "2014-10-25T00:00:00-04:00",
-    dog: "Tiffany"
+    date: "2014-10-25T08:00:00Z",
+    dog: "Tiffany",
+    id: 48
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Justin2.jpg */ "./images/specialties/Justin2.jpg"),
     award: "1st 6-9 Sweeps/Regular",
     show: "CNC Regional",
-    date: "2014-10-25T00:00:00-04:00",
-    dog: "Justin"
+    date: "2014-10-25T08:00:00Z",
+    dog: "Justin",
+    id: 61
   }, {
     image: __webpack_require__(/*! ../../images/specialties/JackNational.jpg */ "./images/specialties/JackNational.jpg"),
     award: "1st 12-18 Regular / 2nd 12-15 Sweeps",
     show: "CNC Regional",
-    date: "2014-10-25T00:00:00-04:00",
-    dog: "Jack"
+    date: "2014-10-25T08:00:00Z",
+    dog: "Jack",
+    id: 34
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceBOB.jpg */ "./images/specialties/SpiceBOB.jpg"),
     award: "Best Veteran Bitch in Sweeps / 1st 9+",
     show: "CNC Regional",
-    date: "2014-10-25T00:00:00-04:00",
-    dog: "Spice"
+    date: "2014-10-25T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/EmmaCNCRegional.jpg */ "./images/specialties/EmmaCNCRegional.jpg"),
     award: "New Grand Champion! SEL/AOM",
     show: "CNC Regional",
-    date: "2014-10-25T00:00:00-04:00",
-    dog: "Emma"
+    date: "2014-10-25T08:00:00Z",
+    dog: "Emma",
+    id: 40
   }, {
     image: __webpack_require__(/*! ../../images/specialties/tate_show_1.jpg */ "./images/specialties/tate_show_1.jpg"),
     award: "New Champion! WD/1st Open - 5 points",
     show: "CNC Regional",
-    date: "2014-10-25T00:00:00-04:00",
-    dog: "Tate"
+    date: "2014-10-25T08:00:00Z",
+    dog: "Tate",
+    id: 62
   }, {
     image: __webpack_require__(/*! ../../images/specialties/tate2014national.jpg */ "./images/specialties/tate2014national.jpg"),
     award: "Winners Dog, 1st 15-18",
     show: "2014 National",
-    date: "2014-04-05T00:00:00-04:00",
-    dog: "Tate"
+    date: "2014-04-05T08:00:00Z",
+    dog: "Tate",
+    id: 62
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FredBestInSweeps.jpg */ "./images/specialties/FredBestInSweeps.jpg"),
     award: "Best in Sweeps - 1st 9-12 Sweeps",
     show: "2014 National",
-    date: "2014-04-05T00:00:00-04:00",
-    dog: "Fred"
+    date: "2014-04-05T08:00:00Z",
+    dog: "Fred",
+    id: 66
   }, {
     image: __webpack_require__(/*! ../../images/specialties/EmmaNational.jpg */ "./images/specialties/EmmaNational.jpg"),
     award: "1st 9-12 Bitch",
     show: "2014 National",
-    date: "2014-04-05T00:00:00-04:00",
-    dog: "Emma"
+    date: "2014-04-05T08:00:00Z",
+    dog: "Emma",
+    id: 40
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceFlowersMed.jpg */ "./images/specialties/SpiceFlowersMed.jpg"),
     award: "2nd 7-9 Veteran Bitch / 3rd 8-9 Sweeps",
     show: "2014 National",
-    date: "2014-04-05T00:00:00-04:00",
-    dog: "Spice"
+    date: "2014-04-05T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/ParkerNational.jpg */ "./images/specialties/ParkerNational.jpg"),
     award: "3rd 9-12 dog",
     show: "2014 National",
-    date: "2014-04-05T00:00:00-04:00",
-    dog: "Parker"
+    date: "2014-04-05T08:00:00Z",
+    dog: "Parker",
+    id: 67
   }, {
-    image: __webpack_require__(/*! ../../images/specialties/SampsonAndAtlas.jpg */ "./images/specialties/SampsonAndAtlas.jpg"),
+    image: __webpack_require__(/*! ../../images/specialties/SampsonAtlasBrace.jpg */ "./images/specialties/SampsonAtlasBrace.jpg"),
     award: "2nd Brace",
     show: "2014 National",
-    date: "2014-04-05T00:00:00-04:00",
+    date: "2014-04-05T08:00:00Z",
     dog: "Sampson, Atlas"
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Ruby.jpg */ "./images/specialties/Ruby.jpg"),
     award: "2nd 9-12",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-16T00:00:00-04:00",
-    dog: "Ruby"
+    date: "2014-03-16T08:00:00Z",
+    dog: "Ruby",
+    id: 73
   }, {
     image: __webpack_require__(/*! ../../images/specialties/FredBOWNewPenDel.jpg */ "./images/specialties/FredBOWNewPenDel.jpg"),
-    award: "BOW/WD/1st 9-12 - 5 points and BOS Sweeps",
+    award: "Best of Winners/WD/1st 9-12 - 5 points and BOS Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-16T00:00:00-04:00",
-    dog: "Fred"
+    date: "2014-03-16T08:00:00Z",
+    dog: "Fred",
+    id: 66
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Snickers.jpg */ "./images/specialties/Snickers.jpg"),
     award: "1st 12-18",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-16T00:00:00-04:00",
-    dog: "Snickers"
+    date: "2014-03-16T08:00:00Z",
+    dog: "Snickers",
+    id: 52
   }, {
     image: __webpack_require__(/*! ../../images/specialties/tate_show_1.jpg */ "./images/specialties/tate_show_1.jpg"),
     award: "2nd 12-18",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-16T00:00:00-04:00",
-    dog: "Tate"
+    date: "2014-03-16T08:00:00Z",
+    dog: "Tate",
+    id: 62
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Emma (2).jpg */ "./images/specialties/Emma (2).jpg"),
     award: "1st 9-12",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-16T00:00:00-04:00",
-    dog: "Emma"
+    date: "2014-03-16T08:00:00Z",
+    dog: "Emma",
+    id: 40
   }, {
     image: __webpack_require__(/*! ../../images/specialties/emmach.jpg */ "./images/specialties/emmach.jpg"),
     award: "RWB/1st 9-12",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-15T00:00:00-04:00",
-    dog: "Emma"
+    date: "2014-03-15T08:00:00Z",
+    dog: "Emma",
+    id: 40
   }, {
     image: __webpack_require__(/*! ../../images/specialties/fred2014nationalbestinsweeps.jpg */ "./images/specialties/fred2014nationalbestinsweeps.jpg"),
     award: "RWD/1st 9-12 and BOS Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-15T00:00:00-04:00",
-    dog: "Fred"
+    date: "2014-03-15T08:00:00Z",
+    dog: "Fred",
+    id: 66
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Ruby.jpg */ "./images/specialties/Ruby.jpg"),
     award: "2nd 9-12",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-15T00:00:00-04:00",
-    dog: "Ruby"
+    date: "2014-03-15T08:00:00Z",
+    dog: "Ruby",
+    id: 73
   }, {
     image: __webpack_require__(/*! ../../images/specialties/emma2014national2.jpg */ "./images/specialties/emma2014national2.jpg"),
     award: "1st 9-12",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-14T00:00:00-04:00",
-    dog: "Emma"
+    date: "2014-03-14T08:00:00Z",
+    dog: "Emma",
+    id: 40
   }, {
     image: __webpack_require__(/*! ../../images/specialties/fred2014nationalbestinsweeps.jpg */ "./images/specialties/fred2014nationalbestinsweeps.jpg"),
     award: "1st 9-12",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-14T00:00:00-04:00",
-    dog: "Fred"
+    date: "2014-03-14T08:00:00Z",
+    dog: "Fred",
+    id: 66
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceFlowers-B&W.jpg */ "./images/specialties/SpiceFlowers-B&W.jpg"),
     award: "Best Veteran Bitch in Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "2014-03-14T00:00:00-04:00",
-    dog: "Spice"
+    date: "2014-03-14T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Dory2014.jpg */ "./images/specialties/Dory2014.jpg"),
     award: "RWD/1st Open Dog",
     show: "HCNC Regional Specialty",
-    date: "2014-02-13T00:00:00-05:00",
-    dog: "Dory"
+    date: "2014-02-13T08:00:00Z",
+    dog: "Dory",
+    id: 79
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Dory3.jpg */ "./images/specialties/Dory3.jpg"),
     award: "RWD/2nd Open Dog",
     show: "HCNC Regional Specialty",
-    date: "2014-02-12T00:00:00-05:00",
-    dog: "Dory"
+    date: "2014-02-12T08:00:00Z",
+    dog: "Dory",
+    id: 79
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Ruby.jpg */ "./images/specialties/Ruby.jpg"),
     award: "2nd 6-9 - 1st 6-9 Sweeps",
     show: "NC of New England Regional Specialty",
-    date: "2013-12-08T00:00:00-05:00",
-    dog: "Ruby"
+    date: "2013-12-08T08:00:00Z",
+    dog: "Ruby",
+    id: 73
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Ruby.jpg */ "./images/specialties/Ruby.jpg"),
     award: "1/BP/Puppy Group 2 6-9 - 1st 6-9 Sweeps",
     show: "NC of New England Supported Entry",
-    date: "2013-12-07T00:00:00-05:00",
-    dog: "Ruby"
+    date: "2013-12-07T08:00:00Z",
+    dog: "Ruby",
+    id: 73
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Maggie second major 10-27-13.jpg */ "./images/specialties/Maggie second major 10-27-13.jpg"),
-    award: "BOW/WB/1st Open - 5 points",
+    award: "Best of Winners/WB/1st Open - 5 points",
     show: "CNC Supported Entry",
-    date: "2013-10-27T00:00:00-04:00",
-    dog: "Maggie"
+    date: "2013-10-27T08:00:00Z",
+    dog: "Maggie",
+    id: 57
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Snickers.jpg */ "./images/specialties/Snickers.jpg"),
     award: "RWD/1st 9-12 Sweeps - 2nd 9-12",
     show: "CNC Supported Entry",
-    date: "2013-10-27T00:00:00-04:00",
-    dog: "Snickers"
+    date: "2013-10-27T08:00:00Z",
+    dog: "Snickers",
+    id: 52
   }, {
     image: __webpack_require__(/*! ../../images/specialties/tate_show_1.jpg */ "./images/specialties/tate_show_1.jpg"),
     award: "3rd 9-12",
     show: "CNC Supported Entry",
-    date: "2013-10-27T00:00:00-04:00",
-    dog: "Tate"
+    date: "2013-10-28T08:00:00Z",
+    dog: "Tate",
+    id: 62
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Maggie first major win.jpg */ "./images/specialties/Maggie first major win.jpg"),
     award: "4th Am-Bred",
     show: "CNC  Regional",
-    date: "2013-10-27T00:00:00-04:00",
-    dog: "Maggie"
+    date: "2013-10-27T08:00:00Z",
+    dog: "Maggie",
+    id: 57
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Snickers.jpg */ "./images/specialties/Snickers.jpg"),
     award: "1st 9-12 Sweeps - 1st 9-12",
     show: "CNC  Regional",
-    date: "2013-10-27T00:00:00-04:00",
-    dog: "Snickers"
+    date: "2013-10-27T08:00:00Z",
+    dog: "Snickers",
+    id: 52
   }, {
     image: __webpack_require__(/*! ../../images/specialties/tate_show_1.jpg */ "./images/specialties/tate_show_1.jpg"),
     award: "3rd 9-12 Sweeps - 2nd 9-12",
     show: "CNC  Regional",
-    date: "2013-10-27T00:00:00-04:00",
-    dog: "Tate"
+    date: "2013-10-27T08:00:00Z",
+    dog: "Tate",
+    id: 62
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Dexter3.jpg */ "./images/specialties/Dexter3.jpg"),
     award: "2nd 7-9 Veteran Sweeps",
     show: "CNC  Regional",
-    date: "2013-10-27T00:00:00-04:00",
-    dog: "Dexter"
+    date: "2013-10-27T08:00:00Z",
+    dog: "Dexter",
+    id: 16
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceVeteran.jpg */ "./images/specialties/SpiceVeteran.jpg"),
     award: "2nd 7-9 Veteran Sweeps",
     show: "CNC  Regional",
-    date: "2013-10-27T00:00:00-04:00",
-    dog: "Spice"
+    date: "2013-10-27T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Spice2013National.jpg */ "./images/specialties/Spice2013National.jpg"),
     award: "3rd - 7-9 Veteran Bitch",
     show: "2013 National",
-    date: "2013-04-05T00:00:00-04:00",
-    dog: "Spice"
+    date: "2013-04-05T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Atlas2013Natioanl.jpg */ "./images/specialties/Atlas2013Natioanl.jpg"),
     award: "1st AOH, 1st Stud Dog 'Team Travis' ",
     show: "2013 National",
-    date: "2013-04-05T00:00:00-04:00",
-    dog: "Atlas"
+    date: "2013-04-05T08:00:00Z",
+    dog: "Atlas",
+    id: 59
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Chilly.jpg */ "./images/specialties/Chilly.jpg"),
     award: "4th - 7-9 Veteran Bitch ",
     show: "2013 National",
-    date: "2013-04-05T00:00:00-04:00",
-    dog: "Chilly"
+    date: "2013-04-05T08:00:00Z",
+    dog: "Chilly",
+    id: 18
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Atlas2.jpg */ "./images/specialties/Atlas2.jpg"),
     award: "2nd - Novice A  ",
     show: "2013 National",
-    date: "2013-04-05T00:00:00-04:00",
-    dog: "Atlas"
+    date: "2013-04-05T08:00:00Z",
+    dog: "Atlas",
+    id: 59
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Spice 2013 National.jpg */ "./images/specialties/Spice 2013 National.jpg"),
     award: "Best Veteran in Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "2013-03-17T00:00:00-04:00",
-    dog: "Spice"
+    date: "2013-03-17T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Atlas.jpg */ "./images/specialties/Atlas.jpg"),
     award: "1st Open",
     show: "NewPenDel Supported Entry",
-    date: "2013-03-17T00:00:00-04:00",
-    dog: "Atlas"
+    date: "2013-03-17T08:00:00Z",
+    dog: "Atlas",
+    id: 59
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceYounger.jpg */ "./images/specialties/SpiceYounger.jpg"),
     award: "Best Veteran in Sweeps",
     show: "NewPenDel Regional",
-    date: "2013-03-16T00:00:00-04:00",
-    dog: "Spice"
+    date: "2013-03-16T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Atlas2.jpg */ "./images/specialties/Atlas2.jpg"),
-    award: "BOW, WD, 1st Open (5 pts)",
+    award: "Best of Winners, WD, 1st Open (5 pts)",
     show: "NewPenDel Regional",
-    date: "2013-03-16T00:00:00-04:00",
-    dog: "Atlas"
+    date: "2013-03-16T08:00:00Z",
+    dog: "Atlas",
+    id: 59
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceVeteran.jpg */ "./images/specialties/SpiceVeteran.jpg"),
     award: "Best Veteran in Sweeps",
     show: "SENC Regional",
-    date: "2013-02-16T00:00:00-05:00",
-    dog: "Spice"
+    date: "2013-02-16T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Sirius2013.jpg */ "./images/specialties/Sirius2013.jpg"),
     award: "Select Dog",
     show: "SENC Regional",
-    date: "2013-02-16T00:00:00-05:00",
-    dog: "Sirius"
+    date: "2013-02-16T08:00:00Z",
+    dog: "Sirius",
+    id: 1
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceMaco2012CNC.jpg */ "./images/specialties/SpiceMaco2012CNC.jpg"),
     award: "Best Veterans in Sweeps",
     show: "CNC Regional",
-    date: "2012-10-27T00:00:00-04:00",
+    date: "2012-10-27T08:00:00Z",
     dog: "Spice, Macco"
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Charm.jpg */ "./images/specialties/Charm.jpg"),
     award: "2nd 12-15 Bitch, 1st 12-15 Bitch Sweeps",
     show: "CNC Regional",
-    date: "2012-10-27T00:00:00-04:00",
-    dog: "Charm"
+    date: "2012-10-27T08:00:00Z",
+    dog: "Charm",
+    id: 68
   }, {
     image: __webpack_require__(/*! ../../images/specialties/AtlasMaturity2012.jpg */ "./images/specialties/AtlasMaturity2012.jpg"),
     award: "1st Maturity - 'Team Travis'",
     show: "2012 National",
-    date: "2012-05-05T00:00:00-04:00",
-    dog: "Atlas"
+    date: "2012-05-05T08:00:00Z",
+    dog: "Atlas",
+    id: 59
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SimonNational.jpg */ "./images/specialties/SimonNational.jpg"),
     award: "3rd 9+ Veteran Dog Sweeps/Regular",
     show: "2012 National",
-    date: "2012-05-05T00:00:00-04:00",
-    dog: "Simon"
+    date: "2012-05-05T08:00:00Z",
+    dog: "Simon",
+    id: 17
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Spice 2013 National.jpg */ "./images/specialties/Spice 2013 National.jpg"),
     award: "3rd 7 - 9 Veteran Bitch Sweeps/Regular",
     show: "2012 National",
-    date: "2012-05-05T00:00:00-04:00",
-    dog: "Spice"
+    date: "2012-05-05T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceBISS.jpg */ "./images/specialties/SpiceBISS.jpg"),
     award: "BISS, 1st 7 - 9 Veteran Bitch",
     show: "NewPenDel Regional",
-    date: "2012-04-29T00:00:00-04:00",
-    dog: "Spice"
+    date: "2012-04-29T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/simon-show2.jpg */ "./images/specialties/simon-show2.jpg"),
     award: "2nd 9+ Veteran Dog",
     show: "NewPenDel Regional",
-    date: "2012-04-29T00:00:00-04:00",
-    dog: "Simon"
+    date: "2012-04-29T08:00:00Z",
+    dog: "Simon",
+    id: 17
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Latte.jpg */ "./images/specialties/Latte.jpg"),
     award: "2nd 15-18 Bitch",
     show: "NewPenDel Regional",
-    date: "2012-04-29T00:00:00-04:00",
-    dog: "Latte"
+    date: "2012-04-29T08:00:00Z",
+    dog: "Latte",
+    id: 101
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Charm2.jpg */ "./images/specialties/Charm2.jpg"),
     award: "2nd 9-12 Bitch",
     show: "NewPenDel Regional",
-    date: "2012-04-29T00:00:00-04:00",
-    dog: "Charm"
+    date: "2012-04-29T08:00:00Z",
+    dog: "Charm",
+    id: 68
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Luke.jpg */ "./images/specialties/Luke.jpg"),
     award: "1st AOH Dog",
     show: "2011 National",
-    date: "2011-04-05T00:00:00-04:00",
-    dog: "Luke"
+    date: "2011-04-05T08:00:00Z",
+    dog: "Luke",
+    id: 49
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KatieVeteranSweeps2011.jpg */ "./images/specialties/KatieVeteranSweeps2011.jpg"),
     award: "2nd 9 and over sweeps / 4th 9 and over:",
     show: "2011 National",
-    date: "2011-04-05T00:00:00-04:00",
-    dog: "Katie"
+    date: "2011-04-05T08:00:00Z",
+    dog: "Katie",
+    id: 19
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Atlas1.jpg */ "./images/specialties/Atlas1.jpg"),
     award: "2nd Maturity - Team Travis and Katie",
     show: "2011 National",
-    date: "2011-04-05T00:00:00-04:00",
-    dog: "Atlas"
+    date: "2011-04-05T08:00:00Z",
+    dog: "Atlas",
+    id: 59
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Chilly 2011 National.jpg */ "./images/specialties/Chilly 2011 National.jpg"),
     award: "4th Brood Bitch",
     show: "2011 National",
-    date: "2011-04-05T00:00:00-04:00",
-    dog: "Chilly"
+    date: "2011-04-05T08:00:00Z",
+    dog: "Chilly",
+    id: 18
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Dasher.jpg */ "./images/specialties/Dasher.jpg"),
     award: "Best of Opposite in Sweeps, 1st 9-12 Sweeps, RWD, 1st 9-12 puppy",
     show: "Penn Ohio Regional",
-    date: "2011-12-17T00:00:00-05:00",
-    dog: "Dasher"
+    date: "2011-12-17T08:00:00Z",
+    dog: "Dasher",
+    id: 20
   }, {
     image: __webpack_require__(/*! ../../images/specialties/NutmegPenOhio.jpg */ "./images/specialties/NutmegPenOhio.jpg"),
     award: "1st 9-12 Puppy Bitch, 1st 9-12 sweeps",
     show: "Penn Ohio Regional",
-    date: "2011-12-17T00:00:00-05:00",
-    dog: "Nutmeg"
+    date: "2011-12-17T08:00:00Z",
+    dog: "Nutmeg",
+    id: 74
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Sirius2.jpg */ "./images/specialties/Sirius2.jpg"),
     award: "2nd 12-15 Sweeps 3rd 12-18 Dog",
     show: "Penn Ohio Regional",
-    date: "2011-12-17T00:00:00-05:00",
-    dog: "Sirius"
+    date: "2011-12-17T08:00:00Z",
+    dog: "Sirius",
+    id: 1
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Dasher.jpg */ "./images/specialties/Dasher.jpg"),
     award: "1st 9-12 Puppy Dog, 1st 9-12 sweeps",
     show: "Penn Ohio Regional",
-    date: "2011-12-18T00:00:00-05:00",
-    dog: "Dasher"
+    date: "2011-12-18T08:00:00Z",
+    dog: "Dasher",
+    id: 20
   }, {
     image: __webpack_require__(/*! ../../images/specialties/NutmegPenOhio.jpg */ "./images/specialties/NutmegPenOhio.jpg"),
     award: "1st 9-12 Puppy Bitch, 1st 9-12 sweeps",
     show: "Penn Ohio Regional",
-    date: "2011-12-18T00:00:00-05:00",
-    dog: "Nutmeg"
+    date: "2011-12-18T08:00:00Z",
+    dog: "Nutmeg",
+    id: 74
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SiriusWD.jpg */ "./images/specialties/SiriusWD.jpg"),
     award: "3rd 12-15 Sweeps 2nd 12-18 Dog",
     show: "Penn Ohio Regional",
-    date: "2011-12-18T00:00:00-05:00",
-    dog: "Sirius"
+    date: "2011-12-18T08:00:00Z",
+    dog: "Sirius",
+    id: 1
   }, {
     image: __webpack_require__(/*! ../../images/specialties/ChillyMoving.jpg */ "./images/specialties/ChillyMoving.jpg"),
     award: "Highest Scoring Rally Novice B",
     show: "Penn Ohio Supported Entry",
-    date: "December 16, 2011",
-    dog: "Chilly"
+    date: "2011-12-16T08:00:00Z",
+    dog: "Chilly",
+    id: 18
   }, {
     image: __webpack_require__(/*! ../../images/specialties/nancychilly6.jpg */ "./images/specialties/nancychilly6.jpg"),
     award: "Highest Scoring Rally Novice B",
     show: "Penn Ohio Regional",
-    date: "2011-12-18T00:00:00-05:00",
-    dog: "Chilly"
+    date: "2011-12-18T08:00:00Z",
+    dog: "Chilly",
+    id: 18
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Katie Best Veteran Bitch 2.jpg */ "./images/specialties/Katie Best Veteran Bitch 2.jpg"),
     award: "Best of Opposite Veteran in Sweeps",
     show: "NewPenDel Regional",
-    date: "2011-03-17T00:00:00-04:00",
-    dog: "Katie"
+    date: "2011-03-17T08:00:00Z",
+    dog: "Katie",
+    id: 19
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KatieVeteranSweeps2011.jpg */ "./images/specialties/KatieVeteranSweeps2011.jpg"),
     award: "Best Veteran in Sweeps",
     show: "NewPenDel Supported Entry",
-    date: "2011-03-18T00:00:00-04:00",
-    dog: "Katie"
+    date: "2011-03-18T08:00:00Z",
+    dog: "Katie",
+    id: 19
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Sparkle2011AOMSelectSENC.jpg */ "./images/specialties/Sparkle2011AOMSelectSENC.jpg"),
     award: "Award of Merit/Select",
     show: "SENC Regional",
-    date: "2011-07-18T00:00:00-04:00",
-    dog: "Sparkle"
+    date: "2011-07-18T08:00:00Z",
+    dog: "Sparkle",
+    id: 13
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Annie.JPG */ "./images/specialties/Annie.JPG"),
     award: "1st AOH",
     show: "SENC Regional",
-    date: "2011-07-18T00:00:00-04:00",
-    dog: "Annie"
+    date: "2011-07-18T08:00:00Z",
+    dog: "Annie",
+    id: 47
   }, {
-    image: __webpack_require__(/*! ../../images/specialties/Lucy.JPG */ "./images/specialties/Lucy.JPG"),
+    image: __webpack_require__(/*! ../../images/specialties/Lucy.jpg */ "./images/specialties/Lucy.jpg"),
     award: "1st Bred By",
     show: "SENC Regional",
-    date: "2011-07-18T00:00:00-04:00",
-    dog: "Lucy"
+    date: "2011-07-18T08:00:00Z",
+    dog: "Lucy",
+    id: 14
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceHead.JPG */ "./images/specialties/SpiceHead.JPG"),
     award: "2010 Top Show Bitch",
     show: "NCA",
-    date: "2010-12-31T00:00:00-05:00",
-    dog: "Spice"
+    date: "2010-12-31T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceNewPenDelBOS.JPG */ "./images/specialties/SpiceNewPenDelBOS.JPG"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "New Pen Del Regional",
-    date: "2010-04-04T00:00:00-04:00",
-    dog: "Spice"
+    date: "2010-04-04T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/PotterAOM.jpg */ "./images/specialties/PotterAOM.jpg"),
     award: "Award of Merit",
     show: "New Pen Del - Morris & Essex",
-    date: "2010-10-04T00:00:00-04:00",
-    dog: "Potter"
+    date: "2010-10-04T08:00:00Z",
+    dog: "Potter",
+    id: 70
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Linus.jpg */ "./images/specialties/Linus.jpg"),
     award: "Best of Opposite in Sweeps/ 1st 6-9 Sweeps / 1st 6-9 Dog",
     show: "New Pen Del - Morris & Essex",
-    date: "2010-10-04T00:00:00-04:00",
-    dog: "Linus"
+    date: "2010-10-04T08:00:00Z",
+    dog: "Linus",
+    id: 102
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Bridget.JPG */ "./images/specialties/Bridget.JPG"),
     award: "1st 6-9 Sweeps / 2nd 6-9 Bitch",
     show: "New Pen Del - Morris & Essex",
-    date: "2010-10-04T00:00:00-04:00",
-    dog: "Bridget"
+    date: "2010-10-04T08:00:00Z",
+    dog: "Bridget",
+    id: 103
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Tyler.JPG */ "./images/specialties/Tyler.JPG"),
     award: "Best Of Opposite Sweeps/ 1st 9-12",
     show: "CNC Regional",
-    date: "2010-10-31T00:00:00-04:00",
-    dog: "Tyler"
+    date: "2010-10-31T08:00:00Z",
+    dog: "Tyler",
+    id: 104
   }, {
-    image: __webpack_require__(/*! ../../images/specialties/Lucy.JPG */ "./images/specialties/Lucy.JPG"),
+    image: __webpack_require__(/*! ../../images/specialties/Lucy.jpg */ "./images/specialties/Lucy.jpg"),
     award: "2nd 12-18 Sweeps",
     show: "CNC Regional",
-    date: "2010-10-31T00:00:00-04:00",
-    dog: "Lucy"
+    date: "2010-10-31T08:00:00Z",
+    dog: "Lucy",
+    id: 14
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Potter.jpg */ "./images/specialties/Potter.jpg"),
     award: "2nd 12-18 Sweeps",
     show: "2009 National",
-    date: "2009-04-05T00:00:00-04:00",
-    dog: "Potter"
+    date: "2009-04-05T08:00:00Z",
+    dog: "Potter",
+    id: 70
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Katie New VN - Forth Place Nov B.jpg */ "./images/specialties/Katie New VN - Forth Place Nov B.jpg"),
     award: "4th Novice B Obedience",
     show: "2009 National",
-    date: "2009-04-05T00:00:00-04:00",
-    dog: "Katie"
+    date: "2009-04-05T08:00:00Z",
+    dog: "Katie",
+    id: 19
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SampsonCNCRegional2.JPG */ "./images/specialties/SampsonCNCRegional2.JPG"),
     award: "1/W/BW ",
     show: "CNC Regional",
-    date: "2009-10-27T00:00:00-04:00",
-    dog: "Sampson"
+    date: "2009-10-27T08:00:00Z",
+    dog: "Sampson",
+    id: 42
   }, {
     image: __webpack_require__(/*! ../../images/specialties/sporty_1st_bred_by.jpg */ "./images/specialties/sporty_1st_bred_by.jpg"),
     award: "1st Bred-by Bitch",
     show: "NewPenDel Regional",
-    date: "2009-03-17T00:00:00-04:00",
-    dog: "Sporty"
+    date: "2009-03-17T08:00:00Z",
+    dog: "Sporty",
+    id: 26
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Katie Best Veteran Bitch.jpg */ "./images/specialties/Katie Best Veteran Bitch.jpg"),
     award: "Best of Opp Veterans Sweeps",
     show: "NewPenDel Regional",
-    date: "2009-03-17T00:00:00-04:00",
-    dog: "Katie"
+    date: "2009-03-17T08:00:00Z",
+    dog: "Katie",
+    id: 19
   }, {
     image: __webpack_require__(/*! ../../images/specialties/DaisyFloridaSweeps.jpg */ "./images/specialties/DaisyFloridaSweeps.jpg"),
     award: "Best in Veterans Sweeps",
     show: "NewfFla Regional",
-    date: "2009-05-29T00:00:00-04:00",
-    dog: "Daisy"
+    date: "2009-05-29T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/DaisyVeteran.jpg */ "./images/specialties/DaisyVeteran.jpg"),
     award: "1st 8-9 Veteran Sweeps",
     show: "2008 National",
-    date: "2008-04-17T00:00:00-04:00",
-    dog: "Daisy"
+    date: "2008-04-17T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Spice Best of Opposite MKC.jpg */ "./images/specialties/Spice Best of Opposite MKC.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "CNC Regional",
-    date: "2008-10-27T00:00:00-04:00",
-    dog: "Spice"
+    date: "2008-10-27T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/CosmoAOM.jpg */ "./images/specialties/CosmoAOM.jpg"),
     award: "Award of Merit",
     show: "CNC Regional",
-    date: "2008-10-26T00:00:00-04:00",
-    dog: "Cosmo"
+    date: "2008-10-26T08:00:00Z",
+    dog: "Cosmo",
+    id: 65
   }, {
     image: __webpack_require__(/*! ../../images/specialties/sporty_regional_best_of_winners.jpg */ "./images/specialties/sporty_regional_best_of_winners.jpg"),
     award: "RWB/1st 6-9 regular/Best of Opp Sweeps/1st 6-9 Sweeps",
     show: "CNC Regional",
-    date: "2008-10-27T00:00:00-04:00",
-    dog: "Sporty"
+    date: "2008-10-27T08:00:00Z",
+    dog: "Sporty",
+    id: 26
   }, {
     image: __webpack_require__(/*! ../../images/specialties/sporty_regional_best_in_sweeps.jpg */ "./images/specialties/sporty_regional_best_in_sweeps.jpg"),
     award: "1/W/BW 6-9 puppy bitch, Best Puppy in Sweeps 6-9 puppy",
     show: "SENC Regional",
-    date: "2008-07-15T00:00:00-04:00",
-    dog: "Sporty"
+    date: "2008-07-15T08:00:00Z",
+    dog: "Sporty",
+    id: 26
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Potter.jpg */ "./images/specialties/Potter.jpg"),
     award: "1/W 6-9 puppy dog",
     show: "SENC Regional",
-    date: "2008-07-15T00:00:00-04:00",
-    dog: "Potter"
+    date: "2008-07-15T08:00:00Z",
+    dog: "Potter",
+    id: 70
   }, {
     image: __webpack_require__(/*! ../../images/specialties/ChillyBroodBitchSENC.jpg */ "./images/specialties/ChillyBroodBitchSENC.jpg"),
     award: "1st Brood Bitch",
     show: "SENC Regional",
-    date: "2008-07-15T00:00:00-04:00",
-    dog: "Chilly"
+    date: "2008-07-15T08:00:00Z",
+    dog: "Chilly",
+    id: 18
   }, {
     image: __webpack_require__(/*! ../../images/specialties/CosmoBOS.jpg */ "./images/specialties/CosmoBOS.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "SENC Regional",
-    date: "2008-07-15T00:00:00-04:00",
-    dog: "Cosmo"
+    date: "2008-07-15T08:00:00Z",
+    dog: "Cosmo",
+    id: 65
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Daisy2007National.jpg */ "./images/specialties/Daisy2007National.jpg"),
     award: "1st 8-9 Veteran Sweeps",
     show: "2007 National",
-    date: "2007-04-15T00:00:00-04:00",
-    dog: "Daisy"
+    date: "2007-04-15T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/simon-show2.jpg */ "./images/specialties/simon-show2.jpg"),
     award: "2nd Working Dog",
     show: "2007 National",
-    date: "2007-04-15T00:00:00-04:00",
-    dog: "Simon"
+    date: "2007-04-15T08:00:00Z",
+    dog: "Simon",
+    id: 17
   }, {
     image: __webpack_require__(/*! ../../images/specialties/mason.jpg */ "./images/specialties/mason.jpg"),
     award: "4th 6-9 Sweeps, 4th 6-9 Puppy Dog",
     show: "2007 National",
-    date: "2007-04-15T00:00:00-04:00",
-    dog: "Mason"
+    date: "2007-04-15T08:00:00Z",
+    dog: "Mason",
+    id: 97
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Dexter.jpg */ "./images/specialties/Dexter.jpg"),
     award: "3rd 6-9 Puppy Dog",
     show: "2007 National",
-    date: "2007-04-15T00:00:00-04:00",
-    dog: "Dexter"
+    date: "2007-04-15T08:00:00Z",
+    dog: "Dexter",
+    id: 16
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Simon4thWorkingNational2006.JPG */ "./images/specialties/Simon4thWorkingNational2006.JPG"),
     award: "3nd Working Dog",
     show: "2006 National",
-    date: "2006-04-15T00:00:00-04:00",
-    dog: "Simon"
+    date: "2006-04-15T08:00:00Z",
+    dog: "Simon",
+    id: 17
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SpiceBOSSweeps2006.jpg */ "./images/specialties/SpiceBOSSweeps2006.jpg"),
     award: "Best of Opposite Sex in Puppy Sweepstake, 1st 9-12 Sweepstakes, 3rd 9-12",
     show: "2006 National",
-    date: "2006-04-15T00:00:00-04:00",
-    dog: "Spice"
+    date: "2006-04-15T08:00:00Z",
+    dog: "Spice",
+    id: 15
   }, {
     image: __webpack_require__(/*! ../../images/specialties/DaisyMaturity.jpg */ "./images/specialties/DaisyMaturity.jpg"),
     award: "1st Maturity",
     show: "2006 National",
-    date: "2006-04-15T00:00:00-04:00",
-    dog: "Daisy"
+    date: "2006-04-15T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/DaisyBroodBitch.jpg */ "./images/specialties/DaisyBroodBitch.jpg"),
     award: "1st Brood Bitch",
     show: "2006 National",
-    date: "2006-04-15T00:00:00-04:00",
-    dog: "Daisy"
+    date: "2006-04-15T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/SimonKelseyJuniors2006.jpg */ "./images/specialties/SimonKelseyJuniors2006.jpg"),
     award: "1st Junior Showmanship - Kelsey Miller",
     show: "2006 National",
-    date: "2006-04-15T00:00:00-04:00",
-    dog: "Simon"
+    date: "2006-04-15T08:00:00Z",
+    dog: "Simon",
+    id: 17
   }, {
     image: __webpack_require__(/*! ../../images/specialties/OpieWestminster.jpg */ "./images/specialties/OpieWestminster.jpg"),
     award: "Award of Merit ",
     show: "2006 Westminster ",
-    date: "2006-02-15T00:00:00-05:00",
-    dog: "Opie"
+    date: "2006-02-15T08:00:00Z",
+    dog: "Opie",
+    id: 24
   }, {
     image: __webpack_require__(/*! ../../images/specialties/OpieGroupFirstBISS.jpg */ "./images/specialties/OpieGroupFirstBISS.jpg"),
     award: "Award of Merit ",
     show: "Penn-Ohio Regional ",
-    date: "2005-02-15T00:00:00-05:00",
-    dog: "Opie"
+    date: "2005-02-15T08:00:00Z",
+    dog: "Opie",
+    id: 24
   }, {
     image: __webpack_require__(/*! ../../images/specialties/OpieSENCSupportedBOB.jpg */ "./images/specialties/OpieSENCSupportedBOB.jpg"),
     award: "Award of Merit ",
     show: "SENC Supported Entry",
-    date: "2005-07-15T00:00:00-05:00",
-    dog: "Opie"
+    date: "2005-07-15T08:00:00Z",
+    dog: "Opie",
+    id: 24
   }, {
     image: __webpack_require__(/*! ../../images/specialties/OpieSENCBISS.jpg */ "./images/specialties/OpieSENCBISS.jpg"),
     award: "Award of Merit ",
     show: "CNC Regional ",
-    date: "2005-10-25T00:00:00-04:00",
-    dog: "Opie"
+    date: "2005-10-25T08:00:00Z",
+    dog: "Opie",
+    id: 24
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Opie2005Eukanuba.jpg */ "./images/specialties/Opie2005Eukanuba.jpg"),
     award: "Award of Excellence",
     show: "Eukanuba AKC National Championships",
-    date: "2005-1-15T00:00:00-05:00",
-    dog: "Opie"
+    date: "2005-01-15T08:00:00Z",
+    dog: "Opie",
+    id: 24
   }, {
     image: __webpack_require__(/*! ../../images/specialties/OpieSENCBISS.jpg */ "./images/specialties/OpieSENCBISS.jpg"),
     award: "BISS/Group 1",
     show: "SENC Regional",
-    date: "2004-07-15T00:00:00-04:00",
-    dog: "Opie"
+    date: "2004-07-15T08:00:00Z",
+    dog: "Opie",
+    id: 24
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Simon-Middleburg.jpg */ "./images/specialties/Simon-Middleburg.jpg"),
     award: "1st Am Bred",
     show: "CNC Regional",
-    date: "2004-10-27T00:00:00-04:00",
-    dog: "Simon"
+    date: "2004-10-27T08:00:00Z",
+    dog: "Simon",
+    id: 17
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Daisy-Opie-Rocky-National-2.jpg */ "./images/specialties/Daisy-Opie-Rocky-National-2.jpg"),
     award: "4th Brood Bitch",
     show: "2004 National",
-    date: "2004-03-27T00:00:00-05:00",
-    dog: "Daisy"
+    date: "2004-03-27T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Team-2004-National.jpg */ "./images/specialties/Team-2004-National.jpg"),
     award: "2nd Team Obedience",
     show: "2004 National",
-    date: "2004-03-27T00:00:00-05:00",
-    dog: "Daisy"
+    date: "2004-03-27T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Daisy 009.jpg */ "./images/specialties/Daisy 009.jpg"),
     award: "4th Working Bitch",
     show: "2003 National",
-    date: "2003-03-27T00:00:00-05:00",
-    dog: "Daisy"
+    date: "2003-03-27T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/opie_006.jpg */ "./images/specialties/opie_006.jpg"),
     award: "1st 9-12 Sweeps",
     show: "NCNE Regional",
-    date: "2003-03-27T00:00:00-05:00",
-    dog: "Opie"
+    date: "2003-03-27T08:00:00Z",
+    dog: "Opie",
+    id: 24
   }, {
     image: __webpack_require__(/*! ../../images/specialties/OpieBISSNewfFla.jpg */ "./images/specialties/OpieBISSNewfFla.jpg"),
     award: "BISS/Group 3",
     show: "NEWF-FLA Regional",
-    date: "2003-06-27T00:00:00-04:00",
-    dog: "Opie"
+    date: "2003-06-27T08:00:00Z",
+    dog: "Opie",
+    id: 24
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KatieBOSNewfFla2003.jpg */ "./images/specialties/KatieBOSNewfFla2003.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "NEWF-FLA Regional",
-    date: "2003-06-27T00:00:00-04:00",
-    dog: "Katie"
+    date: "2003-06-27T08:00:00Z",
+    dog: "Katie",
+    id: 19
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Rocky Group2 Chambersburg.jpg */ "./images/specialties/Rocky Group2 Chambersburg.jpg"),
     award: "Best of Opp in Sweeps",
     show: "GRNC Regional",
-    date: "2003-11-27T00:00:00-05:00",
-    dog: "Rocky"
+    date: "2003-11-27T08:00:00Z",
+    dog: "Rocky",
+    id: 29
   }, {
     image: __webpack_require__(/*! ../../images/specialties/KatieBOS2003.jpg */ "./images/specialties/KatieBOS2003.jpg"),
     award: "1/W/BOS",
     show: "CNC Regional",
-    date: "2003-10-27T00:00:00-05:00",
-    dog: "Katie"
+    date: "2003-10-27T08:00:00Z",
+    dog: "Katie",
+    id: 19
   }, {
     image: __webpack_require__(/*! ../../images/specialties/daisy_002.jpg */ "./images/specialties/daisy_002.jpg"),
     award: "1st Working Bitch, 2nd Novice B, 4th Novice B",
     show: "2002 National",
-    date: "2002-03-27T00:00:00-05:00",
-    dog: "Daisy"
+    date: "2002-03-27T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Daisy 009.jpg */ "./images/specialties/Daisy 009.jpg"),
-    award: "BOS",
+    award: "Best of Opposite Sex",
     show: "NewfFla Regional",
-    date: "2002-06-27T00:00:00-04:00",
-    dog: "Daisy"
+    date: "2002-06-27T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Daisy2001.jpg */ "./images/specialties/Daisy2001.jpg"),
     award: "1st Working Bitch",
     show: "2001 National",
-    date: "2001-04-27T00:00:00-04:00",
-    dog: "Daisy"
+    date: "2001-04-27T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Daisy2000.jpg */ "./images/specialties/Daisy2000.jpg"),
     award: "4th 12-15 Sweeps",
     show: "2000 National",
-    date: "2000-04-27T00:00:00-04:00",
-    dog: "Daisy"
+    date: "2000-04-27T08:00:00Z",
+    dog: "Daisy",
+    id: 21
   }]
 }; //GCH CH Old Bay's Theodorable Spicy Altatude CD BN RA CGC
 //GCH CH Old Bay's Son Of The Sea
@@ -18830,6 +19303,60 @@ var initState = {
 //GCH CH Old Bay's Get My Drift At Powder Ridge
 //GCH CH Old Bay's Please Don'T Squeeze The Charm'N
 //GCH CH Old Bay's "Potter As In Harry" CD BN RA CGC
+
+Date.prototype.setISO8601 = function (string) {
+  var regexp = "([0-9]{4})(-([0-9]{2})(-([0-9]{2})" + "(T([0-9]{2}):([0-9]{2})(:([0-9]{2})(\.([0-9]+))?)?" + "(Z|(([-+])([0-9]{2}):([0-9]{2})))?)?)?)?";
+  var d = string.match(new RegExp(regexp));
+  var offset = 0;
+  var date = new Date(d[1], 0, 1);
+
+  if (d[3]) {
+    date.setMonth(d[3] - 1);
+  }
+
+  if (d[5]) {
+    date.setDate(d[5]);
+  }
+
+  if (d[7]) {
+    date.setHours(d[7]);
+  }
+
+  if (d[8]) {
+    date.setMinutes(d[8]);
+  }
+
+  if (d[10]) {
+    date.setSeconds(d[10]);
+  }
+
+  if (d[12]) {
+    date.setMilliseconds(Number("0." + d[12]) * 1000);
+  }
+
+  if (d[14]) {
+    offset = Number(d[16]) * 60 + Number(d[17]);
+    offset *= d[15] == '-' ? 1 : -1;
+  }
+
+  offset -= date.getTimezoneOffset();
+  var time = Number(date) + offset * 60 * 1000;
+  this.setTime(Number(time));
+};
+
+function sortByDate(obj1, obj2) {
+  var date1 = new Date().setISO8601(obj1.date);
+  var date2 = new Date().setISO8601(obj2.date);
+  return date2 > date1 ? 1 : -1;
+}
+
+function byDate(a, b) {
+  if (a.date < b.date) return 1;
+  if (a.date > b.date) return -1;
+  return 0;
+}
+
+initState.awards.sort(byDate);
 
 var cartReducer = function cartReducer() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initState;

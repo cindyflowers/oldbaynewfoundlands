@@ -2468,8 +2468,14 @@ All Products Area CSS
 /*================================================
 Products QuickView Modal Area CSS
 =================================================*/
+.productQuickView {
+height: 100% !important;
+overflow-y: auto !important;
+padding-right: 0 !important;
+}
+
 .productQuickView .modal-dialog {
-  max-width: 900px;
+  max-width: 1200px;
   margin: 0 auto;
 }
 
@@ -2505,6 +2511,9 @@ Products QuickView Modal Area CSS
 .productQuickView .modal-content .productQuickView-image img {
   width: 100%;
 }
+.productQuickView .modal-content .productQuickView-image h2 {
+text-align: center;
+}
 
 .productQuickView .modal-content .product-content h3 {
   font-size: 22px;
@@ -2517,33 +2526,6 @@ Products QuickView Modal Area CSS
 
 .productQuickView .modal-content .product-content h3 a:hover {
   color: #222222;
-}
-
-.productQuickView .modal-content .product-content .price {
-  margin-bottom: 5px;
-}
-
-.productQuickView .modal-content .product-content .price span {
-  display: inline-block;
-  font-size: 18px;
-  color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-review .rating {
-  display: inline-block;
-  padding-right: 10px;
-}
-
-.productQuickView .modal-content .product-content .product-review .rating i {
-  color: #ffba0a;
-  margin: 0 2px;
-}
-
-.productQuickView .modal-content .product-content .product-review .rating-count {
-  display: inline-block;
-  color: #222222;
-  border-bottom: 1px solid #222222;
-  line-height: initial;
 }
 
 .productQuickView .modal-content .product-content .product-info {
@@ -2575,232 +2557,6 @@ Products QuickView Modal Area CSS
 
 .productQuickView .modal-content .product-content .product-info li a:hover {
   color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch {
-  margin-top: 8px;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch h4 {
-  font-size: 16px;
-  color: #666666;
-  margin-bottom: 6px;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul {
-  list-style-type: none;
-  margin-bottom: 0;
-  margin-top: -4px;
-  margin-left: -4px;
-  padding-left: 0;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li {
-  display: inline-block;
-  margin-left: 4px;
-  margin-top: 4px;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a {
-  display: inline-block;
-  position: relative;
-  border: 1px solid transparent;
-  width: 25px;
-  height: 25px;
-  border-radius: 50%;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a::before {
-  position: absolute;
-  content: '';
-  left: 0;
-  right: 0;
-  top: 0;
-  bottom: 0;
-  background: #eeeeee;
-  border-radius: 50%;
-  margin: 2px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a:hover, .productQuickView .modal-content .product-content .product-color-switch ul li a:focus {
-  border-color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-white::before {
-  background: #ffffff;
-  border: 1px solid #eeeeee;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-black::before {
-  background: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-red::before {
-  background: red;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-blue::before {
-  background: blue;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-green::before {
-  background: green;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-yellow::before {
-  background: yellow;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-yellowgreen::before {
-  background: yellowgreen;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-pink::before {
-  background: pink;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-violet::before {
-  background: violet;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-teal::before {
-  background: teal;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-plum::before {
-  background: plum;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-lime::before {
-  background: lime;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li a.color-blueviolet::before {
-  background: blueviolet;
-}
-
-.productQuickView .modal-content .product-content .product-color-switch ul li.active a {
-  border-color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-size-wrapper {
-  margin-top: 8px;
-  margin-bottom: 25px;
-}
-
-.productQuickView .modal-content .product-content .product-size-wrapper h4 {
-  font-size: 16px;
-  color: #666666;
-  margin-bottom: 8px;
-}
-
-.productQuickView .modal-content .product-content .product-size-wrapper ul {
-  list-style-type: none;
-  margin-bottom: 0;
-  margin-top: -8px;
-  margin-left: -8px;
-  padding-left: 0;
-}
-
-.productQuickView .modal-content .product-content .product-size-wrapper ul li {
-  display: inline-block;
-  margin-left: 8px;
-  margin-top: 8px;
-}
-
-.productQuickView .modal-content .product-content .product-size-wrapper ul li a {
-  width: 40px;
-  height: 35px;
-  display: inline-block;
-  line-height: 35px;
-  border: 1px solid #eeeeee;
-  color: #858585;
-  text-align: center;
-}
-
-.productQuickView .modal-content .product-content .product-size-wrapper ul li a:hover, .productQuickView .modal-content .product-content .product-size-wrapper ul li a:focus {
-  border-color: #222222;
-  color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-size-wrapper ul li.active a {
-  border-color: #222222;
-  color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter {
-  max-width: 130px;
-  min-width: 130px;
-  margin-right: 10px;
-  text-align: center;
-  display: inline-block;
-  position: relative;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter span {
-  position: absolute;
-  top: 0;
-  background-color: transparent;
-  cursor: pointer;
-  color: #d0d0d0;
-  width: 40px;
-  height: 100%;
-  line-height: 50px;
-  -webkit-transition: 0.5s;
-  transition: 0.5s;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter span.minus-btn {
-  left: 0;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter span.plus-btn {
-  right: 0;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter span:hover {
-  color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter input {
-  height: 45px;
-  color: #222222;
-  outline: 0;
-  display: block;
-  border: none;
-  background-color: #f8f8f8;
-  text-align: center;
-  width: 100%;
-  font-size: 17px;
-  font-weight: 600;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter input::-webkit-input-placeholder {
-  color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter input:-ms-input-placeholder {
-  color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter input::-ms-input-placeholder {
-  color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .input-counter input::placeholder {
-  color: #222222;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .btn {
-  height: 45px;
-  top: -2px;
-  position: relative;
-}
-
-.productQuickView .modal-content .product-content .product-add-to-cart .btn i {
-  margin-right: 2px;
 }
 
 .productQuickView .modal-content .product-content .view-full-info {
