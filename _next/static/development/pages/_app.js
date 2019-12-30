@@ -163,6 +163,39 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAMCAgI
 
 /***/ }),
 
+/***/ "./images/info/Allie.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Allie.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Allie-91054c14ca786d90bdc34b5e5dd52d0d.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Atlas.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Atlas.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Atlas-7e4c99ebc1cb06bff79392606c527dd1.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Bacardi.jpg":
+/*!*********************************!*\
+  !*** ./images/info/Bacardi.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Bacardi-85d32a7ca2e685d736319a2f23944563.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Bennie.jpg":
 /*!********************************!*\
   !*** ./images/info/Bennie.jpg ***!
@@ -207,6 +240,17 @@ module.exports = "/_next/static/images/Burnie-c4164ca1767d0d6f7949c123c957e3a4.j
 
 /***/ }),
 
+/***/ "./images/info/Canyon.jpg":
+/*!********************************!*\
+  !*** ./images/info/Canyon.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Canyon-b8d2043d20355a4555dce6b857e6b974.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Carson.jpg":
 /*!********************************!*\
   !*** ./images/info/Carson.jpg ***!
@@ -215,6 +259,17 @@ module.exports = "/_next/static/images/Burnie-c4164ca1767d0d6f7949c123c957e3a4.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Carson-d7620b1b468ffa12013f60a7b9694fc1.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Charm.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Charm.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Charm-0ea395d3d769f22a0f35dc8a3ad5b32e.jpg";
 
 /***/ }),
 
@@ -237,6 +292,17 @@ module.exports = "/_next/static/images/Chilly-382230506c759ed93e185d4512f6d714.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Cosmo-b3a4798e0d8421b4fe7815fcf95c0b44.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Cricket.jpg":
+/*!*********************************!*\
+  !*** ./images/info/Cricket.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Cricket-d438c9ac8aa09b7524b25d227f8235b9.jpg";
 
 /***/ }),
 
@@ -273,6 +339,39 @@ module.exports = "/_next/static/images/Dexter-33bc0e7e1a38c4024d7b3c44d3bc4e0b.j
 
 /***/ }),
 
+/***/ "./images/info/Dory.jpg":
+/*!******************************!*\
+  !*** ./images/info/Dory.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Dory-f0a09e74c1c8b0f2355d9c2e8c2c77bd.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Emma.jpg":
+/*!******************************!*\
+  !*** ./images/info/Emma.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Emma-8b688de0ed2e53b6fe1b85dcbde20dfd.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Fable.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Fable.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Fable-9ffcc8dd9e5cfe9f0e2a2ddfd7ca033f.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Flash.jpg":
 /*!*******************************!*\
   !*** ./images/info/Flash.jpg ***!
@@ -284,6 +383,17 @@ module.exports = "/_next/static/images/Flash-26bba553ff78dbcce0fba5c1229aab6c.jp
 
 /***/ }),
 
+/***/ "./images/info/Flash1.jpg":
+/*!********************************!*\
+  !*** ./images/info/Flash1.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Flash1-4b462055650aba24e74d564fc42c737d.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Flyer.jpg":
 /*!*******************************!*\
   !*** ./images/info/Flyer.jpg ***!
@@ -292,6 +402,50 @@ module.exports = "/_next/static/images/Flash-26bba553ff78dbcce0fba5c1229aab6c.jp
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Flyer-fb58f664e1da2523572497d3bd58c506.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Fred.jpg":
+/*!******************************!*\
+  !*** ./images/info/Fred.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Fred-8931c8d2470c0dd8aa4c7fc7f22cdf03.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Gracie.jpg":
+/*!********************************!*\
+  !*** ./images/info/Gracie.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Gracie-1e6c329bc213ad405aea81f4696cd30e.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Jack.jpg":
+/*!******************************!*\
+  !*** ./images/info/Jack.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Jack-e8d922324b9a79748b7f6e00a846bf08.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Jet.jpg":
+/*!*****************************!*\
+  !*** ./images/info/Jet.jpg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Jet-9b64802bc09a8be531e0840073026b36.jpg";
 
 /***/ }),
 
@@ -361,6 +515,17 @@ module.exports = "/_next/static/images/Lucy-d7fb4c587346f61711a4301de9d96767.jpg
 
 /***/ }),
 
+/***/ "./images/info/Luke.jpg":
+/*!******************************!*\
+  !*** ./images/info/Luke.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Luke-5ff02a6ff0aae36a93ab57673428ab2f.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Maestro.jpg":
 /*!*********************************!*\
   !*** ./images/info/Maestro.jpg ***!
@@ -369,6 +534,28 @@ module.exports = "/_next/static/images/Lucy-d7fb4c587346f61711a4301de9d96767.jpg
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Maestro-523dcaf51333a5b8a858a9630b11f57d.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Maggie.jpg":
+/*!********************************!*\
+  !*** ./images/info/Maggie.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Maggie-2add76309a1ee12f83429abb739e922f.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Mason.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Mason.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Mason-d728e72c2108e0f11e6532f87ada567e.jpg";
 
 /***/ }),
 
@@ -383,6 +570,17 @@ module.exports = "/_next/static/images/Metro-215243b0ecbee12c620302ed1761d87e.jp
 
 /***/ }),
 
+/***/ "./images/info/Nash.jpg":
+/*!******************************!*\
+  !*** ./images/info/Nash.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Nash-ccbe1998d09ead75f3c08f4e8d65cbc2.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Nemo.jpg":
 /*!******************************!*\
   !*** ./images/info/Nemo.jpg ***!
@@ -391,6 +589,17 @@ module.exports = "/_next/static/images/Metro-215243b0ecbee12c620302ed1761d87e.jp
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Nemo-dc15a3fb80ffdbfe8f803b4cce998c44.jpg";
+
+/***/ }),
+
+/***/ "./images/info/NewfJump.jpg":
+/*!**********************************!*\
+  !*** ./images/info/NewfJump.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/NewfJump-8c18937c3bb3432975a7dac5bc35bcfd.jpg";
 
 /***/ }),
 
@@ -405,6 +614,17 @@ module.exports = "/_next/static/images/Nutmeg-d742d174f11ff01a6604e827e6a41a73.j
 
 /***/ }),
 
+/***/ "./images/info/Obi.jpg":
+/*!*****************************!*\
+  !*** ./images/info/Obi.jpg ***!
+  \*****************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Obi-9cedd88fbae37bb14efa18f043ff7090.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Opie.jpg":
 /*!******************************!*\
   !*** ./images/info/Opie.jpg ***!
@@ -413,6 +633,28 @@ module.exports = "/_next/static/images/Nutmeg-d742d174f11ff01a6604e827e6a41a73.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Opie-d57de45558ca2d24fbc40aaeea13c941.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Parker.jpg":
+/*!********************************!*\
+  !*** ./images/info/Parker.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Parker-45ac39db794700f86887226a10e8fa65.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Potter.jpg":
+/*!********************************!*\
+  !*** ./images/info/Potter.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Potter-b9882bf588f1dc75309d2090a75a2df6.jpg";
 
 /***/ }),
 
@@ -460,6 +702,39 @@ module.exports = "/_next/static/images/Rolex-3067e3ed94885bc946e0a43020f085e5.jp
 
 /***/ }),
 
+/***/ "./images/info/Ruby.jpg":
+/*!******************************!*\
+  !*** ./images/info/Ruby.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Ruby-6a0201a737dfcbc8929e6a732e3c257d.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Sailor.jpg":
+/*!********************************!*\
+  !*** ./images/info/Sailor.jpg ***!
+  \********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sailor-bb91234404c597c6f0cd925ac8bc6a19.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Sampson.jpg":
+/*!*********************************!*\
+  !*** ./images/info/Sampson.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Sampson-00cc55ecb46ae81a6400ab36babdd3cb.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Simon.jpg":
 /*!*******************************!*\
   !*** ./images/info/Simon.jpg ***!
@@ -490,6 +765,17 @@ module.exports = "/_next/static/images/Sing-588305e18e3950eb68e5377935511b14.jpg
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Sirius-38e8270b35fca1cae126c3b6e0c717d9.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Snickers.jpg":
+/*!**********************************!*\
+  !*** ./images/info/Snickers.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Snickers-7bbbbd30c4023a30909b81610d71d464.jpg";
 
 /***/ }),
 
@@ -556,6 +842,28 @@ module.exports = "/_next/static/images/Sporty-debde57e2da80f9356ad4e5f0e634c14.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Sunny-11b4e8dd5cdd75d596c8ecc4ab80165f.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Tate.jpg":
+/*!******************************!*\
+  !*** ./images/info/Tate.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Tate-d320608ea1a2e941f3bc5314faa8cd9c.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Tiffany.JPG":
+/*!*********************************!*\
+  !*** ./images/info/Tiffany.JPG ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Tiffany-a9bd15965ea4f91a790f711b71cc6a35.JPG";
 
 /***/ }),
 
@@ -636,6 +944,17 @@ module.exports = "/_next/static/images/Bruce-12b55702c41e507fe252757e676e4711.jp
 
 /***/ }),
 
+/***/ "./images/litters/Carson.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Carson.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/jpeg;base64,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"
+
+/***/ }),
+
 /***/ "./images/litters/Charm.jpg":
 /*!**********************************!*\
   !*** ./images/litters/Charm.jpg ***!
@@ -655,6 +974,17 @@ module.exports = "/_next/static/images/Charm-170355cd0d79bf89d083452a98d89e5a.jp
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Chilly-a8ca32744e5a3e5fdbbc1a1af32a8b3e.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Christopher.jpg":
+/*!****************************************!*\
+  !*** ./images/litters/Christopher.jpg ***!
+  \****************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Christopher-5eb125111165f11fa64d2e61b75cc029.jpg";
 
 /***/ }),
 
@@ -691,17 +1021,6 @@ module.exports = "/_next/static/images/Daisy-a3ed67a128fcd278f3975578535debe4.jp
 
 /***/ }),
 
-/***/ "./images/litters/Dam.jpg":
-/*!********************************!*\
-  !*** ./images/litters/Dam.jpg ***!
-  \********************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "data:image/jpeg;base64,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"
-
-/***/ }),
-
 /***/ "./images/litters/Dexter.jpg":
 /*!***********************************!*\
   !*** ./images/litters/Dexter.jpg ***!
@@ -710,6 +1029,61 @@ module.exports = "data:image/jpeg;base64,/9j/4AAQSkZJRgABAQEAAQABAAD/2wBDAAMCAgI
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Dexter-c06721c81c5117cf20f7e696e0e575ad.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Flash.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Flash.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Flash-4b462055650aba24e74d564fc42c737d.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Harrison.jpg":
+/*!*************************************!*\
+  !*** ./images/litters/Harrison.jpg ***!
+  \*************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Harrison-074d137139c44d02a16c48d570d4b6df.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Izzy.jpg":
+/*!*********************************!*\
+  !*** ./images/litters/Izzy.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Izzy-de1d075890d539188ea3073b057c3759.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Jimmy.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Jimmy.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Jimmy-2f40f4787b93ae89ca16d09325ba4d1e.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/JonSnow.jpg":
+/*!************************************!*\
+  !*** ./images/litters/JonSnow.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/JonSnow-517b00aef6b3c7d8228bf56a72ea2a9b.jpg";
 
 /***/ }),
 
@@ -724,6 +1098,17 @@ module.exports = "/_next/static/images/Kiss-268810f5b03cf0423915e7ed40672c2a.jpg
 
 /***/ }),
 
+/***/ "./images/litters/Lincoln.jpg":
+/*!************************************!*\
+  !*** ./images/litters/Lincoln.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Lincoln-46200750495c00f876978da8351c5e39.jpg";
+
+/***/ }),
+
 /***/ "./images/litters/Lucy.jpg":
 /*!*********************************!*\
   !*** ./images/litters/Lucy.jpg ***!
@@ -735,6 +1120,17 @@ module.exports = "/_next/static/images/Lucy-9ae50483c08b45e5ca951aca16d8c3fd.jpg
 
 /***/ }),
 
+/***/ "./images/litters/Mick.jpg":
+/*!*********************************!*\
+  !*** ./images/litters/Mick.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "data:image/jpeg;base64,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"
+
+/***/ }),
+
 /***/ "./images/litters/Nutmeg.jpg":
 /*!***********************************!*\
   !*** ./images/litters/Nutmeg.jpg ***!
@@ -743,6 +1139,17 @@ module.exports = "/_next/static/images/Lucy-9ae50483c08b45e5ca951aca16d8c3fd.jpg
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Nutmeg-51b631a9eebfab2ce7fd7ac9f2b35378.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Party.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Party.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Party-c101bad5018c94174a59f2922c5a42de.jpg";
 
 /***/ }),
 
@@ -776,6 +1183,17 @@ module.exports = "/_next/static/images/Potter-62d833ab4adf648b3f608f70ec2e1a91.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Raisin-18001bf2fba1d369457fb5d586d1f232.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Rhone.jpg":
+/*!**********************************!*\
+  !*** ./images/litters/Rhone.jpg ***!
+  \**********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Rhone-3dfe04a971b088df35c9f2ea964d2cf6.jpg";
 
 /***/ }),
 
@@ -853,6 +1271,39 @@ module.exports = "/_next/static/images/Spice-ec494ec40665575a7cf36c604a0c14c8.jp
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Tate-68ca94d824a226153813e97561344a82.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Todd.jpg":
+/*!*********************************!*\
+  !*** ./images/litters/Todd.jpg ***!
+  \*********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Todd-dc7e8f5bf2df23c705027e8844ff75bd.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Travis.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Travis.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Travis-25dcf89fd5ce353dab17d52652344fe5.jpg";
+
+/***/ }),
+
+/***/ "./images/litters/Xander.jpg":
+/*!***********************************!*\
+  !*** ./images/litters/Xander.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Xander-f8c2b461fd6d3a9e434222b8fe48bacc.jpg";
 
 /***/ }),
 
@@ -14109,24 +14560,25 @@ var initState = {
   currentDog: 1,
   currentLitter: 1,
   dogs: [{
-    id: 1,
-    call: "Sirius",
-    toptwenty: "",
-    ours: true,
-    sex: "male",
-    stud: true,
-    name: "GCH Old Bay's Let's Get Sirius CGC, TDI",
-    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
-    dam: "CH Waterford FrontPage",
-    dob: "10/26/2010",
-    neutered: false,
-    rip: "",
-    owner: "Cindy and John Flowers",
-    aka: "Seriously Cute, Serial",
-    lives: "Cindy and John Flowers",
-    health: "http://www.offa.org/display.html?appnum=1497430#animal",
-    image: __webpack_require__(/*! ../../images/info/Sirius.jpg */ "./images/info/Sirius.jpg"),
-    Titles: [{
+    "id": 1,
+    "call": "Sirius",
+    "toptwenty": "",
+    "ch": true,
+    "ours": true,
+    "sex": "male",
+    "stud": true,
+    "name": "GCH Old Bay's Let's Get Sirius CGC, TDI",
+    "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    "dam": "CH Waterford FrontPage",
+    "dob": "2010-10-26T04:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Cindy and John Flowers",
+    "aka": "Seriously Cute, Serial",
+    "lives": "Cindy and John Flowers",
+    "health": "http://www.offa.org/display.html?appnum=1497430#animal",
+    "image": __webpack_require__(/*! ../../images/info/Sirius.jpg */ "./images/info/Sirius.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "03/23/2015",
       "org": "AKC"
@@ -14140,62 +14592,63 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 2,
-    call: "Bennie",
-    toptwenty: "",
-    ours: true,
-    sex: "male",
-    stud: false,
-    name: "OLD BAY'S BUMBLE BENNIE",
-    sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
-    dam: "GCH Old Bay's Lucy Fur ROM",
-    dob: "December 9, 2012",
-    neutered: true,
-    rip: "",
-    owner: "Cindy and John Flowers",
-    aka: "	Bennie Boo Boo Bear",
-    lives: "Kathy Hamilton",
-    health: "http://www.offa.org/display.html?appnum=1565055#animal",
-    image: __webpack_require__(/*! ../../images/info/Bennie.jpg */ "./images/info/Bennie.jpg"),
-    Titles: []
+    "id": 2,
+    "call": "Bennie",
+    "toptwenty": "",
+    "ours": true,
+    "sex": "male",
+    "stud": false,
+    "name": "OLD BAY'S BUMBLE BENNIE",
+    "sire": "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+    "dam": "GCH Old Bay's Lucy Fur ROM",
+    "dob": "2012-12-09T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Cindy and John Flowers",
+    "aka": "\tBennie Boo Boo Bear",
+    "lives": "Kathy Hamilton",
+    "health": "http://www.offa.org/display.html?appnum=1565055#animal",
+    "image": __webpack_require__(/*! ../../images/info/Bennie.jpg */ "./images/info/Bennie.jpg"),
+    "Titles": []
   }, {
-    id: 3,
-    call: "Sunny",
-    toptwenty: "",
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "Old Bay's Seriously Charming Son",
-    sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
-    dam: "GCH Old Bay's Please Don't Squeeze The Charm'n",
-    dob: "December 5, 2013",
-    neutered: true,
-    rip: "",
-    owner: "Cindy and John Flowers",
-    aka: "Sonnora",
-    lives: "Cindy and John Flowers",
-    health: "https://www.ofa.org/advanced-search?f=sr&appnum=1718393",
-    image: __webpack_require__(/*! ../../images/info/Sunny.jpg */ "./images/info/Sunny.jpg"),
-    Titles: []
+    "id": 3,
+    "call": "Sunny",
+    "toptwenty": "",
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "Old Bay's Seriously Charming Son",
+    "sire": "GCH Old Bay's Let's Get Sirius CGC, TDI",
+    "dam": "GCH Old Bay's Please Don't Squeeze The Charm'n",
+    "dob": "2013-12-05T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Cindy and John Flowers",
+    "aka": "Sonnora",
+    "lives": "Cindy and John Flowers",
+    "health": "https://www.ofa.org/advanced-search?f=sr&appnum=1718393",
+    "image": __webpack_require__(/*! ../../images/info/Sunny.jpg */ "./images/info/Sunny.jpg"),
+    "Titles": []
   }, {
-    id: 4,
-    call: "Rolex",
-    toptwenty: "2017",
-    ours: true,
-    sex: "male",
-    stud: true,
-    name: "GCHB Old Bay's Perfect Timing",
-    sire: "CH Old Bay's Lead Me To Temptation ",
-    dam: "Old Bay's Seasoned with Spice ROM",
-    dob: "February 23, 2015",
-    neutered: false,
-    rip: "",
-    owner: "Cindy Flowers and Kathy Hamilton",
-    aka: "Rollie-Pollie-Bear",
-    lives: "Cindy and John Flowers",
-    health: "http://www.offa.org/display.html?appnum=1718399#animal",
-    image: __webpack_require__(/*! ../../images/info/Rolex.jpg */ "./images/info/Rolex.jpg"),
-    Titles: [{
+    "id": 4,
+    "call": "Rolex",
+    "ch": true,
+    "toptwenty": "2017",
+    "ours": true,
+    "sex": "male",
+    "stud": true,
+    "name": "GCHB Old Bay's Perfect Timing",
+    "sire": "CH Old Bay's Lead Me To Temptation ",
+    "dam": "Old Bay's Seasoned with Spice ROM",
+    "dob": "2015-02-23T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Cindy Flowers and Kathy Hamilton",
+    "aka": "Rollie-Pollie-Bear",
+    "lives": "Cindy and John Flowers",
+    "health": "http://www.offa.org/display.html?appnum=1718399#animal",
+    "image": __webpack_require__(/*! ../../images/info/Rolex.jpg */ "./images/info/Rolex.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "01/15/2016",
       "org": "AKC"
@@ -14209,120 +14662,125 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 5,
-    call: "Metronome",
-    toptwenty: "",
-    ours: true,
-    sex: "male",
-    stud: true,
-    name: "CH Old Bay's Keeping Time With Sun Valley",
-    sire: "GCHB Old Bay's Perfect Timing",
-    dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "June 23, 2017",
-    neutered: false,
-    rip: "",
-    owner: "Cindy and John Flowers",
-    aka: "Metro",
-    lives: "Mike and Kathy Paxton",
-    health: "https://www.ofa.org/advanced-search?f=sr&appnum=2027902",
-    image: __webpack_require__(/*! ../../images/info/Metro.jpg */ "./images/info/Metro.jpg"),
-    Titles: [{
+    "id": 5,
+    "ch": true,
+    "call": "Metronome",
+    "toptwenty": "",
+    "ours": true,
+    "sex": "male",
+    "stud": true,
+    "name": "CH Old Bay's Keeping Time With Sun Valley",
+    "sire": "GCHB Old Bay's Perfect Timing",
+    "dam": "GCHB Old Bay's Keep It Simple ROM",
+    "dob": "2017-06-23T04:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Cindy and John Flowers",
+    "aka": "Metro",
+    "lives": "Mike and Kathy Paxton",
+    "health": "https://www.ofa.org/advanced-search?f=sr&appnum=2027902",
+    "image": __webpack_require__(/*! ../../images/info/Metro.jpg */ "./images/info/Metro.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "05/26/2018",
       "org": "AKC"
     }]
   }, {
-    id: 6,
-    call: "Maestro",
-    toptwenty: "",
-    ours: true,
-    sex: "male",
-    stud: true,
-    name: "CH Old Bay's Master of Time in Dreamhaven",
-    sire: "GCHB Old Bay's Perfect Timing",
-    dam: "GCH Old Bay's Snowball's Chance CD",
-    dob: "January 11, 2018",
-    neutered: false,
-    rip: "",
-    owner: "Cindy and John Flowers and Andrea Jung and Kathy Hamilton",
-    aka: "Maestro :-)",
-    lives: "Cindy and John Flowers",
-    health: "https://www.ofa.org/advanced-search?f=sr&appnum=2027902",
-    image: __webpack_require__(/*! ../../images/info/Maestro.jpg */ "./images/info/Maestro.jpg"),
-    Titles: [{
+    "id": 6,
+    "ch": true,
+    "call": "Maestro",
+    "toptwenty": "",
+    "ours": true,
+    "sex": "male",
+    "stud": true,
+    "name": "CH Old Bay's Master of Time in Dreamhaven",
+    "sire": "GCHB Old Bay's Perfect Timing",
+    "dam": "GCH Old Bay's Snowball's Chance CD",
+    "dob": "2018-01-11T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Cindy and John Flowers and Andrea Jung and Kathy Hamilton",
+    "aka": "Maestro :-)",
+    "lives": "Cindy and John Flowers",
+    "health": "https://www.ofa.org/advanced-search?f=sr&appnum=2027902",
+    "image": __webpack_require__(/*! ../../images/info/Maestro.jpg */ "./images/info/Maestro.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "09/23/2018",
       "org": "AKC"
     }]
   }, {
-    id: 7,
-    call: "Nemo",
-    toptwenty: "",
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Finding BluWater",
-    sire: "GCHB Old Bay's Perfect Timing",
-    dam: "CH OLD BAY'S SPICIN' IT UP AT BLUWATER",
-    dob: "12/21/2017",
-    neutered: true,
-    rip: "",
-    owner: "Cindy and John Flowers and Joan Locker-Thuring",
-    aka: "Nemonator",
-    lives: "Jenni and David Arnett",
-    health: "https://www.ofa.org/advanced-search?f=sr&appnum=1955991",
-    image: __webpack_require__(/*! ../../images/info/Nemo.jpg */ "./images/info/Nemo.jpg"),
-    Titles: [{
+    "id": 7,
+    "call": "Nemo",
+    "ch": true,
+    "toptwenty": "",
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Finding BluWater",
+    "sire": "GCHB Old Bay's Perfect Timing",
+    "dam": "CH OLD BAY'S SPICIN' IT UP AT BLUWATER",
+    "dob": "2017-12-21T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Cindy and John Flowers and Joan Locker-Thuring",
+    "aka": "Nemonator",
+    "lives": "Jenni and David Arnett",
+    "health": "https://www.ofa.org/advanced-search?f=sr&appnum=1955991",
+    "image": __webpack_require__(/*! ../../images/info/Nemo.jpg */ "./images/info/Nemo.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "01/06/2019",
       "org": "AKC"
     }]
   }, {
-    id: 8,
-    call: "Raisin",
-    toptwenty: "",
-    ours: true,
-    stud: false,
-    dams: true,
-    sex: "female",
-    name: "CH Old Bay's Raging Infurno",
-    sire: "CH CYPRESS BAY IMAT CORNERBROOK",
-    dam: "GCH Old Bay's Lucy Fur ROM",
-    dob: "September 10, 2011",
-    neutered: true,
-    rip: "",
-    owner: "Kathy Hamilton, John Borklund and Cindy Flowers",
-    aka: "Rasinette, Rasie",
-    lives: "Kathy Hamilton",
-    health: "http://www.offa.org/display.html?appnum=1522576#animal",
-    image: __webpack_require__(/*! ../../images/info/Raisin.jpg */ "./images/info/Raisin.jpg"),
-    Titles: [{
+    "id": 8,
+    "call": "Raisin",
+    "ch": true,
+    "toptwenty": "",
+    "ours": true,
+    "stud": false,
+    "dams": true,
+    "sex": "female",
+    "name": "CH Old Bay's Raging Infurno",
+    "sire": "CH CYPRESS BAY IMAT CORNERBROOK",
+    "dam": "GCH Old Bay's Lucy Fur ROM",
+    "dob": "2011-09-10T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Kathy Hamilton, John Borklund and Cindy Flowers",
+    "aka": "Rasinette, Rasie",
+    "lives": "Kathy Hamilton",
+    "health": "http://www.offa.org/display.html?appnum=1522576#animal",
+    "image": __webpack_require__(/*! ../../images/info/Raisin.jpg */ "./images/info/Raisin.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "07/29/2016",
       "org": "AKC"
     }]
   }, {
-    id: 9,
-    call: "Kiss",
-    toptwenty: "2018",
-    rom: true,
-    ours: true,
-    dams: true,
-    stud: false,
-    sex: "female",
-    name: "GCHB Old Bay's Keep It Simple ROM",
-    sire: "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
-    dam: "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA) ",
-    dob: "November 25, 2014",
-    neutered: false,
-    rip: "",
-    owner: "Cindy Flowers & Kathy Hamilton & John Flowers",
-    aka: "Kissy",
-    lives: "Cindy and John Flowers",
-    health: "http://www.offa.org/display.html?appnum=1698851#animal",
-    image: __webpack_require__(/*! ../../images/info/Kiss.jpg */ "./images/info/Kiss.jpg"),
-    Titles: [{
+    "id": 9,
+    "call": "Kiss",
+    "ch": true,
+    "toptwenty": "2018",
+    "rom": true,
+    "ours": true,
+    "dams": true,
+    "stud": false,
+    "sex": "female",
+    "name": "GCHB Old Bay's Keep It Simple ROM",
+    "sire": "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
+    "dam": "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA) ",
+    "dob": "2014-11-25T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Cindy Flowers & Kathy Hamilton & John Flowers",
+    "aka": "Kissy",
+    "lives": "Cindy and John Flowers",
+    "health": "http://www.offa.org/display.html?appnum=1698851#animal",
+    "image": __webpack_require__(/*! ../../images/info/Kiss.jpg */ "./images/info/Kiss.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "02/20/2016",
       "org": "AKC"
@@ -14340,25 +14798,27 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 10,
-    call: "Snowball",
-    toptwenty: "",
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "GCH Old Bay's Snowball's Chance CD",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
-    dob: "February 4, 2015",
-    neutered: false,
-    rip: "",
-    owner: "Andrea Jung and Cindy Flowers and Kathy Hamilton",
-    aka: "SnowBeast",
-    lives: "Andrea Jung",
-    health: "http://www.offa.org/display.html?appnum=1718388#animal",
-    image: __webpack_require__(/*! ../../images/info/Snowball.jpg */ "./images/info/Snowball.jpg"),
-    Titles: [{
+    "id": 10,
+    "call": "Snowball",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "GCH Old Bay's Snowball's Chance CD",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
+    "dob": "2015-02-04T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Andrea Jung and Cindy Flowers and Kathy Hamilton",
+    "aka": "SnowBeast",
+    "lives": "Andrea Jung",
+    "health": "http://www.offa.org/display.html?appnum=1718388#animal",
+    "image": __webpack_require__(/*! ../../images/info/Snowball.jpg */ "./images/info/Snowball.jpg"),
+    "Titles": [{
       "title": "CD",
       "date": "03/05/2017",
       "org": "AKC"
@@ -14372,25 +14832,26 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 11,
-    call: "Flash",
-    toptwenty: "2018",
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "GCHS CH Old Bay's Big Bang CGC",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
-    dob: "February 4, 2015",
-    neutered: false,
-    rip: "",
-    owner: "Anne and David Nored and Cindy Flowers",
-    aka: "Flash Man",
-    lives: "Anne and David Nored",
-    health: "https://www.ofa.org/advanced-search?f=sr&appnum=1876590",
-    image: __webpack_require__(/*! ../../images/info/Flash.jpg */ "./images/info/Flash.jpg"),
-    Titles: [{
+    "id": 11,
+    "call": "Flash",
+    "ch": true,
+    "toptwenty": "2018",
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "GCHS CH Old Bay's Big Bang CGC",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
+    "dob": "2015-02-04T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Anne and David Nored and Cindy Flowers",
+    "aka": "Flash Man",
+    "lives": "Anne and David Nored",
+    "health": "https://www.ofa.org/advanced-search?f=sr&appnum=1876590",
+    "image": __webpack_require__(/*! ../../images/info/Flash.jpg */ "./images/info/Flash.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "05/03/2019",
       "org": "AKC"
@@ -14412,25 +14873,25 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 12,
-    call: "Carson",
-    toptwenty: "",
-    ours: true,
-    rom: true,
-    stud: false,
-    sex: "male",
-    name: "BISS GCH PORICIA'S STRAIGHT TO THE TOP CGC, TDI, ROM, HOF",
-    sire: "",
-    dam: "",
-    dob: "September 7, 2005",
-    neutered: false,
-    rip: "December 11, 2019",
-    owner: "Kathy Hamilton and Pat Hall",
-    aka: "Carson-ova",
-    lives: "Kathy Hamilton ",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Carson.jpg */ "./images/info/Carson.jpg"),
-    Titles: [{
+    "id": 12,
+    "call": "Carson",
+    "toptwenty": "",
+    "ours": true,
+    "rom": true,
+    "stud": false,
+    "sex": "male",
+    "name": "BISS GCH PORICIA'S STRAIGHT TO THE TOP CGC, TDI, ROM, HOF",
+    "sire": "",
+    "dam": "",
+    "dob": "2005-09-07T04:00:00.000Z",
+    "neutered": false,
+    "rip": "December 11, 2019",
+    "owner": "Kathy Hamilton and Pat Hall",
+    "aka": "Carson-ova",
+    "lives": "Kathy Hamilton ",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Carson.jpg */ "./images/info/Carson.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "05/03/2015",
       "org": "AKC"
@@ -14448,24 +14909,25 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 13,
-    call: "Sparkle",
-    toptwenty: "",
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's Sparks Are Flyin', RN, WD",
-    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "December 3, 2008",
-    neutered: false,
-    rip: "January 2018",
-    owner: "Cindy and John Flowers and Rose Miller",
-    aka: "Spark, Sparky, Sparkly, Sparkly-Darkly-Dog",
-    lives: "Cindy and John Flowers",
-    health: "http://www.offa.org/display.html?appnum=1370314#animal",
-    image: __webpack_require__(/*! ../../images/info/Sparkle.jpg */ "./images/info/Sparkle.jpg"),
-    Titles: [{
+    "id": 13,
+    "call": "Sparkle",
+    "ch": true,
+    "toptwenty": "",
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's Sparks Are Flyin', RN, WD",
+    "sire": "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2008-12-03T05:00:00.000Z",
+    "neutered": false,
+    "rip": "January 2018",
+    "owner": "Cindy and John Flowers and Rose Miller",
+    "aka": "Spark, Sparky, Sparkly, Sparkly-Darkly-Dog",
+    "lives": "Cindy and John Flowers",
+    "health": "http://www.offa.org/display.html?appnum=1370314#animal",
+    "image": __webpack_require__(/*! ../../images/info/Sparkle.jpg */ "./images/info/Sparkle.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "03/18/2010",
       "org": "AKC"
@@ -14479,25 +14941,26 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 14,
-    call: "Lucy",
-    toptwenty: "",
-    rom: true,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "GCH CH OLD BAY'S LUCY FUR CGC, TDI, THDN, ROM",
-    sire: "Muddy Creek's Carson",
-    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "June 9, 2009",
-    neutered: false,
-    rip: "April 29, 2017",
-    owner: "Kathy Hamilton & John Borklund & Cindy Flower",
-    aka: "Lou Lou, Lucy I'm Home, LucyFur",
-    lives: "Kathy Hamilton",
-    health: "http://www.offa.org/display.html?appnum=1429095#animal",
-    image: __webpack_require__(/*! ../../images/info/Lucy.jpg */ "./images/info/Lucy.jpg"),
-    Titles: [{
+    "id": 14,
+    "call": "Lucy",
+    "ch": true,
+    "toptwenty": "",
+    "rom": true,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "GCH CH OLD BAY'S LUCY FUR CGC, TDI, THDN, ROM",
+    "sire": "Muddy Creek's Carson",
+    "dam": "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+    "dob": "2009-06-09T04:00:00.000Z",
+    "neutered": false,
+    "rip": "April 29, 2017",
+    "owner": "Kathy Hamilton & John Borklund & Cindy Flower",
+    "aka": "Lou Lou, Lucy I'm Home, LucyFur",
+    "lives": "Kathy Hamilton",
+    "health": "http://www.offa.org/display.html?appnum=1429095#animal",
+    "image": __webpack_require__(/*! ../../images/info/Lucy.jpg */ "./images/info/Lucy.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "03/18/2011",
       "org": "AKC"
@@ -14515,25 +14978,27 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 15,
-    call: "Spice",
-    toptwenty: "2010, 2012",
-    rom: true,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    sire: "CH Pouch Cove's Too Close To Call CD, RA, DD1",
-    dam: "Top Shelfs Something Different ROM",
-    dob: "April 29, 2005",
-    neutered: false,
-    rip: "April 2017",
-    owner: "Cindy and John Flowers",
-    aka: "	Spicy, Spice Girl, Licky, Licky Mill, Spice Cake, Cakes",
-    lives: "Cindy and John Flowers",
-    health: "http://www.offa.org/display.html?appnum=1240326#animal",
-    image: __webpack_require__(/*! ../../images/info/Spice.jpg */ "./images/info/Spice.jpg"),
-    Titles: [{
+    "id": 15,
+    "call": "Spice",
+    "work": true,
+    "ch": true,
+    "toptwenty": "2010, 2012",
+    "rom": true,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "sire": "CH Pouch Cove's Too Close To Call CD, RA, DD1",
+    "dam": "Top Shelfs Something Different ROM",
+    "dob": "2005-04-29T04:00:00.000Z",
+    "neutered": false,
+    "rip": "April 2017",
+    "owner": "Cindy and John Flowers",
+    "aka": "\tSpicy, Spice Girl, Licky, Licky Mill, Spice Cake, Cakes",
+    "lives": "Cindy and John Flowers",
+    "health": "http://www.offa.org/display.html?appnum=1240326#animal",
+    "image": __webpack_require__(/*! ../../images/info/Spice.jpg */ "./images/info/Spice.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "04/28/2006",
       "org": "AKC"
@@ -14559,25 +15024,26 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 16,
-    call: "Dexter",
-    toptwenty: "",
-    rom: false,
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "GCH Allegiance Rock The Boat OldBay",
-    sire: "CH Top Shelf's On The Rocks ROM",
-    dam: "CH Darbydales Zoo Two",
-    dob: "September 14, 2006",
-    neutered: false,
-    rip: "September 18, 2014",
-    owner: "Kathy Hamilton",
-    aka: "	Dex, Dexi, Dex-a-trim, Walking Head",
-    lives: "Kathy Hamilton",
-    health: "http://www.offa.org/display.html?appnum=1240326#animal",
-    image: __webpack_require__(/*! ../../images/info/Dexter.jpg */ "./images/info/Dexter.jpg"),
-    Titles: [{
+    "id": 16,
+    "call": "Dexter",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "GCH Allegiance Rock The Boat OldBay",
+    "sire": "CH Top Shelf's On The Rocks ROM",
+    "dam": "CH Darbydales Zoo Two",
+    "dob": "2006-09-14T04:00:00.000Z",
+    "neutered": false,
+    "rip": "September 18, 2014",
+    "owner": "Kathy Hamilton",
+    "aka": "\tDex, Dexi, Dex-a-trim, Walking Head",
+    "lives": "Kathy Hamilton",
+    "health": "http://www.offa.org/display.html?appnum=1240326#animal",
+    "image": __webpack_require__(/*! ../../images/info/Dexter.jpg */ "./images/info/Dexter.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "07/29/2007",
       "org": "AKC"
@@ -14587,25 +15053,27 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 17,
-    call: "Simon",
-    toptwenty: "",
-    rom: false,
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "CH TOP SHELF'S SIMPLY IRRESISTIBLE, DD, WD, OAP, AJP",
-    sire: "BISS, CH NUMA'S HAD TO BE POUCH COVE, DD ROM",
-    dam: "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ROM",
-    dob: "May 16, 2002",
-    neutered: false,
-    rip: "September 2, 2014",
-    owner: "Katie Amundson & Cindy Flowers",
-    aka: "Simonator, Simatraitor, Tater, Tater Tot, Tate",
-    lives: "Katie Amundson & Cindy Flowers",
-    health: "http://www.offa.org/display.html?appnum=1096035#animal",
-    image: __webpack_require__(/*! ../../images/info/Simon.jpg */ "./images/info/Simon.jpg"),
-    Titles: [{
+    "id": 17,
+    "call": "Simon",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH TOP SHELF'S SIMPLY IRRESISTIBLE, DD, WD, OAP, AJP",
+    "sire": "BISS, CH NUMA'S HAD TO BE POUCH COVE, DD ROM",
+    "dam": "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ROM",
+    "dob": "2002-05-16T04:00:00.000Z",
+    "neutered": false,
+    "rip": "September 2, 2014",
+    "owner": "Katie Amundson & Cindy Flowers",
+    "aka": "Simonator, Simatraitor, Tater, Tater Tot, Tate",
+    "lives": "Katie Amundson & Cindy Flowers",
+    "health": "http://www.offa.org/display.html?appnum=1096035#animal",
+    "image": __webpack_require__(/*! ../../images/info/Simon.jpg */ "./images/info/Simon.jpg"),
+    "Titles": [{
       "title": "AJP",
       "date": "12/07/2007",
       "org": "AKC"
@@ -14639,25 +15107,26 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 18,
-    call: "Chilly",
-    toptwenty: "",
-    rom: true,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
-    dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
-    dob: "September 26, 2005",
-    neutered: false,
-    rip: "August 2014",
-    owner: "Nancy Beres & Cindy Flowers",
-    aka: "Chillster, Chinchilla, The Arsonist, Fire Starter",
-    lives: "Nancy Beres ",
-    health: "http://www.offa.org/display.html?appnum=1240358#animal",
-    image: __webpack_require__(/*! ../../images/info/Chilly.jpg */ "./images/info/Chilly.jpg"),
-    Titles: [{
+    "id": 18,
+    "call": "Chilly",
+    "ch": true,
+    "toptwenty": "",
+    "rom": true,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+    "sire": "CH TOP SHELF'S ON THE ROCKS, ROM",
+    "dam": "CH TOP SHELF'S WILD NIGHT OUT, ROM",
+    "dob": "2005-09-26T04:00:00.000Z",
+    "neutered": false,
+    "rip": "August 2014",
+    "owner": "Nancy Beres & Cindy Flowers",
+    "aka": "Chillster, Chinchilla, The Arsonist, Fire Starter",
+    "lives": "Nancy Beres ",
+    "health": "http://www.offa.org/display.html?appnum=1240358#animal",
+    "image": __webpack_require__(/*! ../../images/info/Chilly.jpg */ "./images/info/Chilly.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "02/24/2007",
       "org": "AKC"
@@ -14671,27 +15140,29 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 19,
-    call: "Katie",
-    toptwenty: "",
-    rom: false,
-    vn: true,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "VN CH TOP SHELF'S JUMP UP N KISS ME, CD, DD1, WRD2, NAP, RN, CGC, TDI",
-    sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
-    dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
-    dob: "March 5, 2002",
-    neutered: false,
-    rip: "May 18, 2012",
-    owner: "Cindy and John Flowers",
-    aka: "Kate, Kaitlin, Katydid, Katie-Did-It",
-    lives: "Cindy and John Flowers",
-    health: "http://www.offa.org/display.html?appnum=1096033#animal",
-    image: __webpack_require__(/*! ../../images/info/Katie.jpg */ "./images/info/Katie.jpg"),
-    Titles: [{
-      "title": "VN - Versitile Newfoundland",
+    "id": 19,
+    "call": "Katie",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": true,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "VN CH TOP SHELF'S JUMP UP N KISS ME, CD, DD1, WRD2, NAP, RN, CGC, TDI",
+    "sire": "CH TOP SHELF'S ON THE ROCKS, ROM",
+    "dam": "CH TOP SHELF'S WILD NIGHT OUT, ROM",
+    "dob": "2002-03-05T05:00:00.000Z",
+    "neutered": false,
+    "rip": "May 18, 2012",
+    "owner": "Cindy and John Flowers",
+    "aka": "Kate, Kaitlin, Katydid, Katie-Did-It",
+    "lives": "Cindy and John Flowers",
+    "health": "http://www.offa.org/display.html?appnum=1096033#animal",
+    "image": __webpack_require__(/*! ../../images/info/Katie.jpg */ "./images/info/Katie.jpg"),
+    "Titles": [{
+      "title": "Versatile Newfoundland",
       "date": "04/28/2009",
       "org": "NCA"
     }, {
@@ -14736,52 +15207,54 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 20,
-    call: "Dasher",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "Old Bay's Dash of Spice",
-    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "December 25, 2010",
-    neutered: false,
-    rip: "February 24, 2011",
-    owner: "Cindy and John Flowers",
-    aka: "Dash, Dashing",
-    lives: "Cindy and John Flowers",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Dasher.jpg */ "./images/info/Dasher.jpg"),
-    Titles: []
+    "id": 20,
+    "call": "Dasher",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "Old Bay's Dash of Spice",
+    "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2010-12-25T05:00:00.000Z",
+    "neutered": false,
+    "rip": "February 24, 2011",
+    "owner": "Cindy and John Flowers",
+    "aka": "Dash, Dashing",
+    "lives": "Cindy and John Flowers",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Dasher.jpg */ "./images/info/Dasher.jpg"),
+    "Titles": []
   }, {
-    id: 21,
-    call: "Daisy",
-    toptwenty: "",
-    rom: true,
-    vn: true,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "VN CH TOP SHELF'S STAR DAISY CD, TDD, WD1, WRD, ROM ",
-    sire: "CH Darbydale's Keep´M Guess´N ROM",
-    dam: "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
-    dob: "February 17, 1999",
-    neutered: false,
-    rip: "September 29, 2011",
-    owner: "Cindy and John Flowers",
-    aka: "Daisy Dukes, Dukes, Dukey, Daisy May, Dazed",
-    lives: "Cindy and John Flowers",
-    health: "http://www.offa.org/display.html?appnum=830863#animal",
-    image: __webpack_require__(/*! ../../images/info/Daisy.jpg */ "./images/info/Daisy.jpg"),
-    Titles: [{
+    "id": 21,
+    "call": "Daisy",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": true,
+    "vn": true,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "VN CH TOP SHELF'S STAR DAISY CD, TDD, WD1, WRD, ROM ",
+    "sire": "CH Darbydale's Keep´M Guess´N ROM",
+    "dam": "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
+    "dob": "1999-02-17T05:00:00.000Z",
+    "neutered": false,
+    "rip": "September 29, 2011",
+    "owner": "Cindy and John Flowers",
+    "aka": "Daisy Dukes, Dukes, Dukey, Daisy May, Dazed",
+    "lives": "Cindy and John Flowers",
+    "health": "http://www.offa.org/display.html?appnum=830863#animal",
+    "image": __webpack_require__(/*! ../../images/info/Daisy.jpg */ "./images/info/Daisy.jpg"),
+    "Titles": [{
       "title": "Register of Merit",
       "date": "12/31/2016",
       "org": "NCA"
     }, {
-      "title": "VN - Versatile Newfoundland",
+      "title": "Versatile Newfoundland",
       "date": "04/17/2002",
       "org": "NCA"
     }, {
@@ -14814,47 +15287,49 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 22,
-    call: "Flyer",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "MUDDY CREEKS FREQUENT FLYER",
-    sire: "Muddy Creeks",
-    dam: "Muddy Creek Old Bays Moonbeam",
-    dob: "2000",
-    neutered: false,
-    rip: "September 28, 2010",
-    owner: "Kathy Hamilton",
-    aka: "	Fly, Fly Paper, Fly me to the moon",
-    lives: "Kathy Hamilton",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Flyer.jpg */ "./images/info/Flyer.jpg"),
-    Titles: []
+    "id": 22,
+    "call": "Flyer",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "MUDDY CREEKS FREQUENT FLYER",
+    "sire": "Muddy Creeks",
+    "dam": "Muddy Creek Old Bays Moonbeam",
+    "dob": "2000-01-01T00:00:00.000Z",
+    "neutered": false,
+    "rip": "September 28, 2010",
+    "owner": "Kathy Hamilton",
+    "aka": "\tFly, Fly Paper, Fly me to the moon",
+    "lives": "Kathy Hamilton",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Flyer.jpg */ "./images/info/Flyer.jpg"),
+    "Titles": []
   }, {
-    id: 23,
-    call: "Tommy",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "CH TOP SHELF TOM COLINS, DD, WRD3",
-    sire: "CH Darbydale's Keep´M Guess´N ROM",
-    dam: "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
-    dob: "March 8, 2001",
-    neutered: false,
-    rip: "September 16, 2010",
-    owner: "Cindy and John Flowers",
-    aka: "Tom, Thomas The Train, Taahhh-me",
-    lives: "Cindy and John Flowers",
-    health: "http://www.offa.org/display.html?appnum=1041710#animal",
-    image: __webpack_require__(/*! ../../images/info/Tommy.jpg */ "./images/info/Tommy.jpg"),
-    Titles: [{
+    "id": 23,
+    "call": "Tommy",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH TOP SHELF TOM COLINS, DD, WRD3",
+    "sire": "CH Darbydale's Keep´M Guess´N ROM",
+    "dam": "VN CH Top Shelfs Baileys Irish Cream CDX, DD, WRD",
+    "dob": "2001-03-08T05:00:00.000Z",
+    "neutered": false,
+    "rip": "September 16, 2010",
+    "owner": "Cindy and John Flowers",
+    "aka": "Tom, Thomas The Train, Taahhh-me",
+    "lives": "Cindy and John Flowers",
+    "health": "http://www.offa.org/display.html?appnum=1041710#animal",
+    "image": __webpack_require__(/*! ../../images/info/Tommy.jpg */ "./images/info/Tommy.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "11/29/2002",
       "org": "AKC"
@@ -14884,47 +15359,49 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 24,
-    call: "Opie",
-    toptwenty: "2004, 2005",
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "BISS CH TOP SHELF'S SMOOTH OPERATOR, CGC, TDI",
-    sire: "BISS, CH NUMA'S HAD TO BE POUCH COVE, DD ROM",
-    dam: "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ROM ",
-    dob: "May 16, 2002",
-    neutered: false,
-    rip: "September 20, 2006",
-    owner: "Kathy Hamilton and Cindy and John Flowers",
-    aka: "Obi-Wan-Konobi",
-    lives: "Kathy Hamilton",
-    health: "http://www.offa.org/display.html?appnum=1096214#animal",
-    image: __webpack_require__(/*! ../../images/info/Opie.jpg */ "./images/info/Opie.jpg"),
-    Titles: [{
+    "id": 24,
+    "call": "Opie",
+    "ch": true,
+    "toptwenty": "2004, 2005",
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "BISS CH TOP SHELF'S SMOOTH OPERATOR, CGC, TDI",
+    "sire": "BISS, CH NUMA'S HAD TO BE POUCH COVE, DD ROM",
+    "dam": "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ROM ",
+    "dob": "2002-05-16T04:00:00.000Z",
+    "neutered": false,
+    "rip": "September 20, 2006",
+    "owner": "Kathy Hamilton and Cindy and John Flowers",
+    "aka": "Obi-Wan-Konobi",
+    "lives": "Kathy Hamilton",
+    "health": "http://www.offa.org/display.html?appnum=1096214#animal",
+    "image": __webpack_require__(/*! ../../images/info/Opie.jpg */ "./images/info/Opie.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "10/26/2003",
       "org": "AKC"
     }]
   }, {
-    id: 25,
-    call: "Yogi",
-    toptwenty: "",
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "SHADRACK'S MIDNITE MAGIC CD, NAP, RE, TDD, WRD4",
-    sire: "CH Shadracks Midnite Habit",
-    dam: "CH Midnite Startin´ Over W Shadrack ",
-    dob: "June 30, 1999",
-    neutered: false,
-    rip: "March 15, 2009",
-    owner: "Cindy & John Flowers",
-    aka: "Yogi-Bear, Yogity-Bogity-Bear, Yoggers, Yogi Beara, Smarter Than the Average Bear, Best Puppy in the Whole World",
-    lives: "Cindy & John Flowers",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Yogi.jpg */ "./images/info/Yogi.jpg"),
-    Titles: [{
+    "id": 25,
+    "call": "Yogi",
+    "toptwenty": "",
+    "work": true,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "SHADRACK'S MIDNITE MAGIC CD, NAP, RE, TDD, WRD4",
+    "sire": "CH Shadracks Midnite Habit",
+    "dam": "CH Midnite Startin´ Over W Shadrack ",
+    "dob": "1999-06-30T04:00:00.000Z",
+    "neutered": false,
+    "rip": "March 15, 2009",
+    "owner": "Cindy & John Flowers",
+    "aka": "Yogi-Bear, Yogity-Bogity-Bear, Yoggers, Yogi Beara, Smarter Than the Average Bear, Best Puppy in the Whole World",
+    "lives": "Cindy & John Flowers",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Yogi.jpg */ "./images/info/Yogi.jpg"),
+    "Titles": [{
       "title": "CD",
       "date": "11/30/2002",
       "org": "AKC"
@@ -14978,92 +15455,94 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 26,
-    call: "Sporty",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "CH OLD BAY'S SPORTIN' A SPICY ATTITUDE",
-    sire: "BISS GCH Skipper's Eminence King of Helluland ROM",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "April 10, 2008",
-    neutered: false,
-    rip: "August 10, 2009",
-    owner: "Cindy and John Flowers",
-    aka: "Sporty Spice, Good Sport, Bad Sport, Sportscaster, Sport-Zilla",
-    lives: "Cindy and John Flowers",
-    health: "http://www.offa.org/display.html?appnum=1370494#animal",
-    image: __webpack_require__(/*! ../../images/info/Sporty.jpg */ "./images/info/Sporty.jpg"),
-    Titles: [{
+    "id": 26,
+    "call": "Sporty",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH OLD BAY'S SPORTIN' A SPICY ATTITUDE",
+    "sire": "BISS GCH Skipper's Eminence King of Helluland ROM",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2008-04-10T04:00:00.000Z",
+    "neutered": false,
+    "rip": "August 10, 2009",
+    "owner": "Cindy and John Flowers",
+    "aka": "Sporty Spice, Good Sport, Bad Sport, Sportscaster, Sport-Zilla",
+    "lives": "Cindy and John Flowers",
+    "health": "http://www.offa.org/display.html?appnum=1370494#animal",
+    "image": __webpack_require__(/*! ../../images/info/Sporty.jpg */ "./images/info/Sporty.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "04/19/2009",
       "org": "AKC"
     }]
   }, {
-    id: 27,
-    call: "Burnie",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "OLD BAY'S SITTIN ON THE BACK BURNER",
-    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
-    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "May 10, 2008",
-    neutered: false,
-    rip: "July 27, 2009",
-    owner: "Cindy Flowers and Kathy Hamiltons",
-    aka: "Bernardo, Burn, Burnard, Burn Pile, Fat Face",
-    lives: "Cindy Flowers and Kathy Hamilton",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Burnie.jpg */ "./images/info/Burnie.jpg"),
-    Titles: []
+    "id": 27,
+    "call": "Burnie",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "OLD BAY'S SITTIN ON THE BACK BURNER",
+    "sire": "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    "dam": "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+    "dob": "2008-05-10T04:00:00.000Z",
+    "neutered": false,
+    "rip": "July 27, 2009",
+    "owner": "Cindy Flowers and Kathy Hamiltons",
+    "aka": "Bernardo, Burn, Burnard, Burn Pile, Fat Face",
+    "lives": "Cindy Flowers and Kathy Hamilton",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Burnie.jpg */ "./images/info/Burnie.jpg"),
+    "Titles": []
   }, {
-    id: 28,
-    call: "Snoopy",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "MUDDY CREEK OLD BAYS MOONBEAM ",
-    sire: "Ledgelights Muddy Creek Caruso",
-    dam: "	Muddy Creeks Mercedes",
-    dob: "",
-    neutered: false,
-    rip: "2007",
-    owner: "Kathy Hamiltons",
-    aka: "Moon, Snoop",
-    lives: "Kathy Hamilton",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Snoopy.jpg */ "./images/info/Snoopy.jpg"),
-    Titles: []
+    "id": 28,
+    "call": "Snoopy",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "MUDDY CREEK OLD BAYS MOONBEAM ",
+    "sire": "Ledgelights Muddy Creek Caruso",
+    "dam": "\tMuddy Creeks Mercedes",
+    "dob": null,
+    "neutered": false,
+    "rip": "2007",
+    "owner": "Kathy Hamiltons",
+    "aka": "Moon, Snoop",
+    "lives": "Kathy Hamilton",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Snoopy.jpg */ "./images/info/Snoopy.jpg"),
+    "Titles": []
   }, {
-    id: 29,
-    call: "RRRocky",
-    toptwenty: "2006",
-    rom: true,
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "CH Top Shelf's On The Rocks ROM",
-    sire: "BISS, CH NUMA'S HAD TO BE POUCH COVE, DD ROM",
-    dam: "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ROM",
-    dob: "May 16, 2002",
-    neutered: false,
-    rip: "September 15, 2006",
-    owner: "Kathy Hamilton and Cindy and John Flowers",
-    aka: "RRRRRRRocky",
-    lives: "Kathy Hamilton",
-    health: "http://www.offa.org/display.html?appnum=1096214#animal",
-    image: __webpack_require__(/*! ../../images/info/Rocky.jpg */ "./images/info/Rocky.jpg"),
-    Titles: [{
+    "id": 29,
+    "call": "RRRocky",
+    "ch": true,
+    "toptwenty": "2006",
+    "rom": true,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Top Shelf's On The Rocks ROM",
+    "sire": "BISS, CH NUMA'S HAD TO BE POUCH COVE, DD ROM",
+    "dam": "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ROM",
+    "dob": "2002-05-16T04:00:00.000Z",
+    "neutered": false,
+    "rip": "September 15, 2006",
+    "owner": "Kathy Hamilton and Cindy and John Flowers",
+    "aka": "RRRRRRRocky",
+    "lives": "Kathy Hamilton",
+    "health": "http://www.offa.org/display.html?appnum=1096214#animal",
+    "image": __webpack_require__(/*! ../../images/info/Rocky.jpg */ "./images/info/Rocky.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "11/16/2003",
       "org": "AKC"
@@ -15073,26 +15552,27 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 30,
-    call: "Betty",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "BROAD RUN'S BLACK BETTY, CD, TDD, WRD",
-    sire: "",
-    dam: "Shadracks Babylon Beauty",
-    dob: "May 30, 1992",
-    neutered: false,
-    rip: "May 19, 2006",
-    owner: "Cindy & John Flowers",
-    aka: "Betty Boop",
-    lives: "Cindy & John Flowers",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Betty.jpg */ "./images/info/Betty.jpg"),
-    Titles: [{
+    "id": 30,
+    "call": "Betty",
+    "work": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "BROAD RUN'S BLACK BETTY, CD, TDD, WRD",
+    "sire": "",
+    "dam": "Shadracks Babylon Beauty",
+    "dob": "1992-05-30T04:00:00.000Z",
+    "neutered": false,
+    "rip": "May 19, 2006",
+    "owner": "Cindy & John Flowers",
+    "aka": "Betty Boop",
+    "lives": "Cindy & John Flowers",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Betty.jpg */ "./images/info/Betty.jpg"),
+    "Titles": [{
       "title": "CD",
       "date": "11/07/1993",
       "org": "AKC"
@@ -15114,73 +15594,76 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 31,
-    call: "Kindle",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's Light My Fire With Dreamhaven",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "November 10, 2018",
-    neutered: false,
-    rip: "",
-    owner: "Kathy Hamilton, Andrea Jung and Cindy Flowers",
-    aka: "Ken Doll",
-    lives: "Cindy and John",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Kindle.jpg */ "./images/info/Kindle.jpg"),
-    Titles: [{
+    "id": 31,
+    "call": "Kindle",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's Light My Fire With Dreamhaven",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCHB Old Bay's Keep It Simple ROM",
+    "dob": "2018-11-10T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Kathy Hamilton, Andrea Jung and Cindy Flowers",
+    "aka": "Ken Doll",
+    "lives": "Cindy and John",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Kindle.jpg */ "./images/info/Kindle.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "10/30/2019",
       "org": "AKC"
     }]
   }, {
-    id: 32,
-    call: "Sing",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "Old Bay's I Put The Sing In Single",
-    sire: "GCH Chateaunewf'N Nakiska's Legend Of The Stones",
-    dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "November 8, 2019",
-    neutered: false,
-    rip: "",
-    owner: "Cindy & John Flowers",
-    aka: "Singleton",
-    lives: "Cindy & John Flowers",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Sing.jpg */ "./images/info/Sing.jpg"),
-    Titles: []
+    "id": 32,
+    "call": "Sing",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "Old Bay's I Put The Sing In Single",
+    "sire": "GCH Chateaunewf'N Nakiska's Legend Of The Stones",
+    "dam": "GCHB Old Bay's Keep It Simple ROM",
+    "dob": "2019-11-08T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Cindy & John Flowers",
+    "aka": "Singleton",
+    "lives": "Cindy & John Flowers",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Sing.jpg */ "./images/info/Sing.jpg"),
+    "Titles": []
   }, {
-    id: 33,
-    call: "Miss Flash",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
-    sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
-    dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
-    dob: "09/06/2011",
-    neutered: true,
-    rip: "",
-    owner: "Rosemary Miller & Cindy Flowers & Barbara Plasse",
-    aka: "",
-    lives: "Rose",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 33,
+    "call": "Miss Flash",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
+    "sire": "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+    "dam": "CH Old Bay's Sparks Are Flyin', RN, WD",
+    "dob": "2011-09-06T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Rosemary Miller & Cindy Flowers & Barbara Plasse",
+    "aka": "",
+    "lives": "Rose",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Flash1.jpg */ "./images/info/Flash1.jpg"),
+    "Titles": [{
       "title": "CD",
       "date": "11/05/2015",
       "org": "AKC"
@@ -15202,27 +15685,28 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 34,
-    call: "Jack",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Celtic Cross Skipjack At Old Bay CGC",
-    sire: "GCH 	Old Bay's Here At Last",
-    dam: "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
-    dob: "10/17/2013",
-    neutered: true,
-    rip: "",
-    owner: "Michael Acosta & Cindy Flowers & Rosemary Miller & Susan Acosta",
-    aka: "",
-    lives: "Mike and Susan",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 34,
+    "call": "Jack",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Celtic Cross Skipjack At Old Bay CGC",
+    "sire": "GCH \tOld Bay's Here At Last",
+    "dam": "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
+    "dob": "2013-10-17T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Michael Acosta & Cindy Flowers & Rosemary Miller & Susan Acosta",
+    "aka": "",
+    "lives": "Mike and Susan",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Jack.jpg */ "./images/info/Jack.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "10/26/2014",
       "org": "AKC"
@@ -15232,26 +15716,26 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 35,
-    call: "Tilly",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "CH Dreamhaven's Cascading Waterfalls At Old Bay CGC",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCHB Old Bay's Keep It Simple ROM'",
-    dob: "11/10/2018",
-    neutered: false,
-    rip: "",
-    owner: "Wendy Sparks & Andrea Jung & Harold Sparks",
-    aka: "",
-    lives: "Wendy",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 35,
+    "call": "Tilly",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Dreamhaven's Cascading Waterfalls At Old Bay CGC",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCHB Old Bay's Keep It Simple ROM'",
+    "dob": "2018-11-10T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Wendy Sparks & Andrea Jung & Harold Sparks",
+    "aka": "",
+    "lives": "Wendy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "04/09/2019",
       "org": "AKC"
@@ -15261,52 +15745,55 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 36,
-    call: "Elsa",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "CH Dreamhaven's Frozen In Time With Old Bay",
-    sire: "GCHB Old Bay's Perfect Timing",
-    dam: "GCH Old Bay's Snowball's Chance CD",
-    dob: "01/11/2018",
-    neutered: false,
-    rip: "",
-    owner: "Andrea Jung & Cindy Flowers",
-    aka: "",
-    lives: "Andrea",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 36,
+    "call": "Elsa",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Dreamhaven's Frozen In Time With Old Bay",
+    "sire": "GCHB Old Bay's Perfect Timing",
+    "dam": "GCH Old Bay's Snowball's Chance CD",
+    "dob": "2018-01-11T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Andrea Jung & Cindy Flowers",
+    "aka": "",
+    "lives": "Andrea",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "11/04/2018",
       "org": "AKCKC"
     }]
   }, {
-    id: 37,
-    call: "Nash",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "CH Dreamhaven's Sum It Up With Old Bay CGC, TKN, WD",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "11/10/2018",
-    neutered: false,
-    rip: "",
-    owner: "Sue Lynn Morton & Robin Love",
-    aka: "",
-    lives: "Sue Lynn Morton & Robin Love",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 37,
+    "ch": true,
+    "call": "Nash",
+    "work": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Dreamhaven's Sum It Up With Old Bay CGC, TKN, WD",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCHB Old Bay's Keep It Simple ROM",
+    "dob": "2018-11-10T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Sue Lynn Morton & Robin Love",
+    "aka": "",
+    "lives": "Sue Lynn Morton & Robin Love",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Nash.jpg */ "./images/info/Nash.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "07/13/2019",
       "org": "AKC"
@@ -15324,53 +15811,54 @@ var initState = {
       "org": "AKCKC"
     }]
   }, {
-    id: 38,
-    call: "Essi",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "Dreamhaven's Old Bay Bright Star Over Brandywine CGC",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "11/10/2018",
-    neutered: false,
-    rip: "",
-    owner: "Karin Bystol & Cindy Flowers & Andrea Jung & Adam Bystol",
-    aka: "",
-    lives: "Karin and Adam",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 38,
+    "call": "Essi",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "Dreamhaven's Old Bay Bright Star Over Brandywine CGC",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCHB Old Bay's Keep It Simple ROM",
+    "dob": "2018-11-10T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Karin Bystol & Cindy Flowers & Andrea Jung & Adam Bystol",
+    "aka": "",
+    "lives": "Karin and Adam",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "05/03/2019",
       "org": "AKC"
     }]
   }, {
-    id: 39,
-    call: "Fable",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "CH Dreamhaven's Once Upon A Time At Old Bay CGC",
-    sire: "GCHB Old Bay's Perfect Timing",
-    dam: "GCH Old Bay's Snowball's Chance CD",
-    dob: "01/11/2018",
-    neutered: false,
-    rip: "",
-    owner: "Rachel Teiman & Cindy Flowers & Andrea Jung & Michael Epstein",
-    aka: "",
-    lives: "Rachel and Michael",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 39,
+    "call": "Fable",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Dreamhaven's Once Upon A Time At Old Bay CGC",
+    "sire": "GCHB Old Bay's Perfect Timing",
+    "dam": "GCH Old Bay's Snowball's Chance CD",
+    "dob": "2018-01-11T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Rachel Teiman & Cindy Flowers & Andrea Jung & Michael Epstein",
+    "aka": "",
+    "lives": "Rachel and Michael",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Fable.jpg */ "./images/info/Fable.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "07/25/2018",
       "org": "AKC"
@@ -15380,27 +15868,29 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 40,
-    call: "Emma",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "GCHB Emalani Of Old Bay CGC, RN, WD",
-    sire: "Topshelfs Israel Kamakawiwoole",
-    dam: "Old Bay's Seasoned With Spice ROM",
-    dob: "05/12/2013",
-    neutered: false,
-    rip: "",
-    owner: "Kathy Holshey & Cindy Flowers",
-    aka: "",
-    lives: "Kathy Holshey",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 40,
+    "call": "Emma",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "GCHB Emalani Of Old Bay CGC, RN, WD",
+    "sire": "Topshelfs Israel Kamakawiwoole",
+    "dam": "Old Bay's Seasoned With Spice ROM",
+    "dob": "2013-05-12T04:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Kathy Holshey & Cindy Flowers",
+    "aka": "",
+    "lives": "Kathy Holshey",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Emma.jpg */ "./images/info/Emma.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "10/26/2014",
       "org": "AKC"
@@ -15426,53 +15916,56 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 41,
-    call: "Sigi",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay Because I Can",
-    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "12/03/2008",
-    neutered: false,
-    rip: "",
-    owner: "Cindy Flowers & John Flowers",
-    aka: "",
-    lives: "Cindy Flowers & John Flowers",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 41,
+    "call": "Sigi",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay Because I Can",
+    "sire": "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2008-12-03T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Cindy Flowers & John Flowers",
+    "aka": "",
+    "lives": "Cindy Flowers & John Flowers",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "05/29/2010",
       "org": "AKC"
     }]
   }, {
-    id: 42,
-    call: "Sampson",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay Forged In Flames RN, WD",
-    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
-    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "04/10/2008",
-    neutered: false,
-    rip: "",
-    owner: "Karin Bystol & Adam Bystol",
-    aka: "",
-    lives: "Karin Bystol & Adam Bystol",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 42,
+    "call": "Sampson",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay Forged In Flames RN, WD",
+    "sire": "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    "dam": "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+    "dob": "2008-04-10T04:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Karin Bystol & Adam Bystol",
+    "aka": "",
+    "lives": "Karin Bystol & Adam Bystol",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Sampson.jpg */ "./images/info/Sampson.jpg"),
+    "Titles": [{
       "title": "CH",
-      "date": "	11/22/2009",
+      "date": "\t11/22/2009",
       "org": "AKC"
     }, {
       "title": "RN",
@@ -15484,26 +15977,26 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 43,
-    call: "Brenden",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "	Old Bay Irish Maritime Navigator CGC, CGCA",
-    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "12/25/2010",
-    neutered: false,
-    rip: "",
-    owner: "Jessica Regan",
-    aka: "",
-    lives: "Jessica Regan",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 43,
+    "call": "Brenden",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "\tOld Bay Irish Maritime Navigator CGC, CGCA",
+    "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2010-12-25T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Jessica Regan",
+    "aka": "",
+    "lives": "Jessica Regan",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "10/05/2018",
       "org": "AKC"
@@ -15513,52 +16006,54 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 44,
-    call: "Rudd",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay Screerhum Rudder",
-    sire: "Muddy Creek's Carson",
-    dam: "CH Top Shelfs Cosmopolitan",
-    dob: "06/02/2009",
-    neutered: false,
-    rip: "",
-    owner: "Mollie Standish & Carlton Standish",
-    aka: "",
-    lives: "Mollie Standish & Carlton Standish",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 44,
+    "call": "Rudd",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay Screerhum Rudder",
+    "sire": "Muddy Creek's Carson",
+    "dam": "CH Top Shelfs Cosmopolitan",
+    "dob": "2009-06-02T04:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Mollie Standish & Carlton Standish",
+    "aka": "",
+    "lives": "Mollie Standish & Carlton Standish",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "01/22/2011",
       "org": "AKC"
     }]
   }, {
-    id: 45,
-    call: "Sonar",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    wa: true,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "WA Old Bay Sonic Wave AXP, CD, CDX, NAP, NJP, OAP, OJP, UD, DD, DDX, TDD3, TDDX, WD, WRD5, WRDX ",
-    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
-    dam: "CH Waterford Frontpage",
-    dob: "06/02/2009",
-    neutered: false,
-    rip: "",
-    owner: "Christie Smith",
-    aka: "",
-    lives: "Christie Smith",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 45,
+    "call": "Sonar",
+    "work": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "wa": true,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "WA Old Bay Sonic Wave AXP, CD, CDX, NAP, NJP, OAP, OJP, UD, DD, DDX, TDD3, TDDX, WD, WRD5, WRDX ",
+    "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    "dam": "CH Waterford Frontpage",
+    "dob": "2009-06-02T04:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Christie Smith",
+    "aka": "",
+    "lives": "Christie Smith",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "AXP",
       "date": "10/26/2013",
       "org": "AKC"
@@ -15644,27 +16139,28 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 46,
-    call: "Spinnaker",
-    toptwenty: "",
-    rom: false,
-    wa: true,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "WA Old Bay Spinnaker Flyin CD, CDX, RA, RN, DD, DDX, TDD, TDDX, WD, WRD3",
-    sire: "CH Powder Ridge's Dreams Come True",
-    dam: "Old Bay's Seasoned With Spice ROM",
-    dob: "06/01/2014",
-    neutered: true,
-    rip: "",
-    owner: "Christie Smith",
-    aka: "",
-    lives: "Christie",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 46,
+    "call": "Spinnaker",
+    "work": true,
+    "toptwenty": "",
+    "rom": false,
+    "wa": true,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "WA Old Bay Spinnaker Flyin CD, CDX, RA, RN, DD, DDX, TDD, TDDX, WD, WRD3",
+    "sire": "CH Powder Ridge's Dreams Come True",
+    "dam": "Old Bay's Seasoned With Spice ROM",
+    "dob": "2014-06-01T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Christie Smith",
+    "aka": "",
+    "lives": "Christie",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CD",
       "date": "03/15/2015",
       "org": "AKC"
@@ -15718,78 +16214,80 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 47,
-    call: "Annie",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "Old Bay's Brewed To Perfection RN",
-    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "12/03/2008",
-    neutered: false,
-    rip: "",
-    owner: "Jaclyn Lobur & Rose Miller & Cindy Flowers",
-    aka: "",
-    lives: "Jaclyn Lobur",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 47,
+    "call": "Annie",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "Old Bay's Brewed To Perfection RN",
+    "sire": "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2008-12-03T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Jaclyn Lobur & Rose Miller & Cindy Flowers",
+    "aka": "",
+    "lives": "Jaclyn Lobur",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "RN",
       "date": "07/30/2010",
       "org": "AKC"
     }]
   }, {
-    id: 48,
-    call: "Tiffany",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's Charming Gift",
-    sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
-    dam: "CH Old Bay's Please Don't Squeeze The Charm'n",
-    dob: "12/05/2013",
-    neutered: false,
-    rip: "",
-    owner: "Rozalin Shun",
-    aka: "",
-    lives: "Rozalin Shun",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 48,
+    "call": "Tiffany",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's Charming Gift",
+    "sire": "GCH Old Bay's Let's Get Sirius CGC, TDI",
+    "dam": "CH Old Bay's Please Don't Squeeze The Charm'n",
+    "dob": "2013-12-05T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Rozalin Shun",
+    "aka": "",
+    "lives": "Rozalin Shun",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Tiffany.JPG */ "./images/info/Tiffany.JPG"),
+    "Titles": [{
       "title": "CH",
       "date": "01/17/2015",
       "org": "AKC"
     }]
   }, {
-    id: 49,
-    call: "Luke",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    coown: true,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "GCH Old Bay's Cool Hand Luke At Belle Harbour",
-    sire: "Muddy Creek's Carson",
-    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "06/09/2009",
-    neutered: false,
-    rip: "",
-    owner: "Dawn Blaine & Cindy Flowers & Becker Reep",
-    aka: "",
-    lives: "Dawn Blaine & Cindy Flowers & Becker Reep",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 49,
+    "call": "Luke",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "coown": true,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "GCH Old Bay's Cool Hand Luke At Belle Harbour",
+    "sire": "Muddy Creek's Carson",
+    "dam": "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+    "dob": "2009-06-09T04:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Dawn Blaine & Cindy Flowers & Becker Reep",
+    "aka": "",
+    "lives": "Dawn Blaine & Cindy Flowers & Becker Reep",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Luke.jpg */ "./images/info/Luke.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "02/03/2012",
       "org": "AKC"
@@ -15799,51 +16297,51 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 50,
-    call: "Jayne",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "Old Bay's Finest Hour THD",
-    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "12/03/2008",
-    neutered: false,
-    rip: "",
-    owner: "Bruce Thaeler & Marty Thaeler",
-    aka: "",
-    lives: " Bruce Thaeler & Marty Thaeler",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 50,
+    "call": "Jayne",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "Old Bay's Finest Hour THD",
+    "sire": "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2008-12-03T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Bruce Thaeler & Marty Thaeler",
+    "aka": "",
+    "lives": " Bruce Thaeler & Marty Thaeler",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "THD",
       "date": "03/10/2012",
       "org": "AKC"
     }]
   }, {
-    id: 51,
-    call: "Evan",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "Old Bay's Fur Heaven's Sake CGCA",
-    sire: "GCHS Sunvalley's Its As Simple As Abc ROM",
-    dam: "CH Old Bay's Raging Infurno",
-    dob: "04/17/2014",
-    neutered: true,
-    rip: "",
-    owner: "Sherry Schaech & Charles Schaech",
-    aka: "",
-    lives: "Sherry Schaech & Charles Schaech",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 51,
+    "call": "Evan",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "Old Bay's Fur Heaven's Sake CGCA",
+    "sire": "GCHS Sunvalley's Its As Simple As Abc ROM",
+    "dam": "CH Old Bay's Raging Infurno",
+    "dob": "2014-04-17T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Sherry Schaech & Charles Schaech",
+    "aka": "",
+    "lives": "Sherry Schaech & Charles Schaech",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "10/03/2015",
       "org": "AKC"
@@ -15853,52 +16351,54 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 52,
-    call: "Snickers",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Fursnickity",
-    sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
-    dam: "GCH Old Bay's Lucy Fur ROM",
-    dob: "12/09/2012",
-    neutered: true,
-    rip: "",
-    owner: "Kathleen Hamilton & Cindy Flowers",
-    aka: "",
-    lives: "Cheryl Bandel Wingate",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 52,
+    "call": "Snickers",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Fursnickity",
+    "sire": "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+    "dam": "GCH Old Bay's Lucy Fur ROM",
+    "dob": "2012-12-09T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Kathleen Hamilton & Cindy Flowers",
+    "aka": "",
+    "lives": "Cheryl Bandel Wingate",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Snickers.jpg */ "./images/info/Snickers.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "06/08/2014",
       "org": "AKC"
     }]
   }, {
-    id: 53,
-    call: "Allie",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "GCH Old Bay's Get My Drift At Powder Ridge",
-    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
-    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "04/10/2008",
-    neutered: true,
-    rip: "",
-    owner: "Julia Sharkey & Donald Sharkeys",
-    aka: "",
-    lives: "Julia Sharkey & Donald Sharkey",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 53,
+    "call": "Allie",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "GCH Old Bay's Get My Drift At Powder Ridge",
+    "sire": "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    "dam": "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+    "dob": "2008-04-10T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Julia Sharkey & Donald Sharkeys",
+    "aka": "",
+    "lives": "Julia Sharkey & Donald Sharkey",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Allie.jpg */ "./images/info/Allie.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "01/21/2011",
       "org": "AKC"
@@ -15908,155 +16408,160 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 54,
-    call: "Max",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Good To The Last Drop",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCH Old Bay's Lucy Fur ROM",
-    dob: "02/04/2015",
-    neutered: true,
-    rip: "",
-    owner: "Jeffrey Totten & Jane Totten",
-    aka: "",
-    lives: "Jeffrey Totten & Jane Totten",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 54,
+    "call": "Max",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Good To The Last Drop",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCH Old Bay's Lucy Fur ROM",
+    "dob": "2015-02-04T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Jeffrey Totten & Jane Totten",
+    "aka": "",
+    "lives": "Jeffrey Totten & Jane Totten",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "05/22/2016",
       "org": "AKC"
     }]
   }, {
-    id: 55,
-    call: "Canyon",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Grand Canyon",
-    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
-    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "04/10/2008",
-    neutered: true,
-    rip: "",
-    owner: "Linda Boswell & Raymond Boswell",
-    aka: "",
-    lives: "Linda Boswell & Raymond Boswell",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 55,
+    "call": "Canyon",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Grand Canyon",
+    "sire": "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    "dam": "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+    "dob": "2008-04-10T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Linda Boswell & Raymond Boswell",
+    "aka": "",
+    "lives": "Linda Boswell & Raymond Boswell",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Canyon.jpg */ "./images/info/Canyon.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "01/16/2010",
       "org": "AKC"
     }]
   }, {
-    id: 56,
-    call: "Hagrid",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    coown: true,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "Old Bay's Hagrid Keeper Of Magical Creatures CGC",
-    sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
-    dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
-    dob: "09/06/2011",
-    neutered: true,
-    rip: "",
-    owner: "Mollie Standish & Cindy Flowers",
-    aka: "",
-    lives: "Mollie Standish",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 56,
+    "call": "Hagrid",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "coown": true,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "Old Bay's Hagrid Keeper Of Magical Creatures CGC",
+    "sire": "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+    "dam": "CH Old Bay's Sparks Are Flyin', RN, WD",
+    "dob": "2011-09-06T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Mollie Standish & Cindy Flowers",
+    "aka": "",
+    "lives": "Mollie Standish",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "10/28/2013",
       "org": "AKC"
     }]
   }, {
-    id: 57,
-    call: "Maggie",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's Handful Of Magic Sparkles",
-    sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
-    dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
-    dob: "09/06/2011",
-    neutered: true,
-    rip: "",
-    owner: "Karen Steinrock & Cindy Flowers",
-    aka: "",
-    lives: "Karen Steinrock",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 57,
+    "call": "Maggie",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's Handful Of Magic Sparkles",
+    "sire": "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+    "dam": "CH Old Bay's Sparks Are Flyin', RN, WD",
+    "dob": "2011-09-06T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Karen Steinrock & Cindy Flowers",
+    "aka": "",
+    "lives": "Karen Steinrock",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Maggie.jpg */ "./images/info/Maggie.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "11/23/2013",
       "org": "AKC"
     }]
   }, {
-    id: 58,
-    call: "Heffalump",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "Old Bay's Helpful Fun-Loving Marine Panda CGC",
-    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
-    dam: "CH Waterford Frontpage'",
-    dob: "10/26/2010",
-    neutered: true,
-    rip: "",
-    owner: "Ms. Marisol Ravicz & Rev. David Wayne Rapier",
-    aka: "",
-    lives: "Ms. Marisol Ravicz & Rev. David Wayne Rapier",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 58,
+    "call": "Heffalump",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "Old Bay's Helpful Fun-Loving Marine Panda CGC",
+    "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    "dam": "CH Waterford Frontpage'",
+    "dob": "2010-10-26T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Ms. Marisol Ravicz & Rev. David Wayne Rapier",
+    "aka": "",
+    "lives": "Ms. Marisol Ravicz & Rev. David Wayne Rapier",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "02/24/2013",
       "org": "AKC"
     }]
   }, {
-    id: 59,
-    call: "Atlas",
-    toptwenty: "",
-    rom: false,
-    vn: true,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "VN Old Bay's Here At Last CD, DD, WRD",
-    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
-    dam: "CH Waterford Frontpage'",
-    dob: "10/26/2010",
-    neutered: true,
-    rip: "",
-    owner: "Karin M Bystol & Cindy Flowers & Adam Bystol",
-    aka: "",
-    lives: "Karin and Adam",
-    health: "",
-    image: "",
-    Titles: [{
-      "title": "VN",
+    "id": 59,
+    "call": "Atlas",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": true,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "VN Old Bay's Here At Last CD, DD, WRD",
+    "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    "dam": "CH Waterford Frontpage'",
+    "dob": "2010-10-26T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Karin M Bystol & Cindy Flowers & Adam Bystol",
+    "aka": "",
+    "lives": "Karin and Adam",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Atlas.jpg */ "./images/info/Atlas.jpg"),
+    "Titles": [{
+      "title": "Versatile Newfoundland",
       "date": "04/29/2016",
       "org": "AKC"
     }, {
@@ -16081,104 +16586,108 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 60,
-    call: "Jet",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's It's Night Before It's Afternoon",
-    sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
-    dam: "CH Old Bay's Raging Infurno",
-    dob: "10/26/2010",
-    neutered: true,
-    rip: "",
-    owner: "Lezli Alford & Cindy Flowers & Bennett Alford",
-    aka: "",
-    lives: "Lezli Alford & Bennett Alford",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 60,
+    "call": "Jet",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's It's Night Before It's Afternoon",
+    "sire": "GCH Old Bay's Let's Get Sirius CGC, TDI",
+    "dam": "CH Old Bay's Raging Infurno",
+    "dob": "2010-10-26T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Lezli Alford & Cindy Flowers & Bennett Alford",
+    "aka": "",
+    "lives": "Lezli Alford & Bennett Alford",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Jet.jpg */ "./images/info/Jet.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "04/15/2016",
       "org": "AKC"
     }]
   }, {
-    id: 61,
-    call: "Justin",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "Old Bay's Just Like Heaven@Mystic Ridge CGC",
-    sire: "GCHS Sunvalley's Its As Simple As Abc ROM",
-    dam: "CH Old Bay's Raging Infurno",
-    dob: "10/26/2010",
-    neutered: true,
-    rip: "",
-    owner: "Dorothy E Rich",
-    aka: "",
-    lives: "Dorothy E Rich",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 61,
+    "call": "Justin",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "Old Bay's Just Like Heaven@Mystic Ridge CGC",
+    "sire": "GCHS Sunvalley's Its As Simple As Abc ROM",
+    "dam": "CH Old Bay's Raging Infurno",
+    "dob": "2010-10-26T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Dorothy E Rich",
+    "aka": "",
+    "lives": "Dorothy E Rich",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "GCG",
       "date": "09/09/2016",
       "org": "AKC"
     }]
   }, {
-    id: 62,
-    call: "Tate",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Lead Me To Temptation",
-    sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
-    dam: "GCH Old Bay's Lucy Fur ROM",
-    dob: "12/09/2012",
-    neutered: true,
-    rip: "",
-    owner: "Karen Steinrock & Cindy Flowers",
-    aka: "",
-    lives: "Karen Steinrock",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 62,
+    "call": "Tate",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Lead Me To Temptation",
+    "sire": "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+    "dam": "GCH Old Bay's Lucy Fur ROM",
+    "dob": "2012-12-09T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Karen Steinrock & Cindy Flowers",
+    "aka": "",
+    "lives": "Karen Steinrock",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Tate.jpg */ "./images/info/Tate.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "10/25/2014",
       "org": "AKC"
     }]
   }, {
-    id: 63,
-    call: "Gracie",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "GCH Old Bay's Maroon And Gold Graceful Northern Star BN, CD, CGC, TKN",
-    sire: "CH Old Bay's Lead Me To Temptation",
-    dam: "Old Bay's Seasoned With Spice ROM",
-    dob: "12/09/2012",
-    neutered: true,
-    rip: "",
-    owner: "Mary Jeanne Levitt & Cindy Flowers & Laci Peterson",
-    aka: "",
-    lives: "Mary Jeanne",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 63,
+    "call": "Gracie",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "GCH Old Bay's Maroon And Gold Graceful Northern Star BN, CD, CGC, TKN",
+    "sire": "CH Old Bay's Lead Me To Temptation",
+    "dam": "Old Bay's Seasoned With Spice ROM",
+    "dob": "2012-12-09T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Mary Jeanne Levitt & Cindy Flowers & Laci Peterson",
+    "aka": "",
+    "lives": "Mary Jeanne",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Gracie.jpg */ "./images/info/Gracie.jpg"),
+    "Titles": [{
       "title": "BN",
       "date": "04/30/2019",
       "org": "AKC"
@@ -16204,104 +16713,109 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 64,
-    call: "Muddy",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Muddy Waters",
-    sire: "	Muddy Creek's Carson",
-    dam: "CH Top Shelfs Cosmopolitan",
-    dob: "12/09/2012",
-    neutered: true,
-    rip: "",
-    owner: "Kara Osborne & Cindy Flowers & Bill Osborne",
-    aka: "",
-    lives: "Kara & Bill",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 64,
+    "call": "Muddy",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Muddy Waters",
+    "sire": "\tMuddy Creek's Carson",
+    "dam": "CH Top Shelfs Cosmopolitan",
+    "dob": "2012-12-09T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Kara Osborne & Cindy Flowers & Bill Osborne",
+    "aka": "",
+    "lives": "Kara & Bill",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "10/18/2010",
       "org": "AKC"
     }]
   }, {
-    id: 65,
-    call: "Cosmo",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "CH Top Shelfs Cosmopolitan",
-    sire: "CH Top Shelf's On The Rocks ROM",
-    dam: "CH Top Shelfs Wild Night Out ROM",
-    dob: "12/09/2012",
-    neutered: true,
-    rip: "10/9/2016",
-    owner: "Cindy Flowers",
-    aka: "",
-    lives: "Cindy",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Cosmo.jpg */ "./images/info/Cosmo.jpg"),
-    Titles: [{
+    "id": 65,
+    "call": "Cosmo",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Top Shelfs Cosmopolitan",
+    "sire": "CH Top Shelf's On The Rocks ROM",
+    "dam": "CH Top Shelfs Wild Night Out ROM",
+    "dob": "2012-12-09T05:00:00.000Z",
+    "neutered": true,
+    "rip": "10/9/2016",
+    "owner": "Cindy Flowers",
+    "aka": "",
+    "lives": "Cindy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Cosmo.jpg */ "./images/info/Cosmo.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "01/06/2008",
       "org": "AKC"
     }]
   }, {
-    id: 66,
-    call: "Fred",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Oahu Astaire N At",
-    sire: "CH Topshelfs Israel Kamakawiwoole",
-    dam: "Old Bay's Seasoned With Spice ROM",
-    dob: "12/09/2012",
-    neutered: true,
-    rip: "",
-    owner: "Cindy Flowers & Kathy Hamilton & John Flowers",
-    aka: "",
-    lives: "Palidino's",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 66,
+    "call": "Fred",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Oahu Astaire N At",
+    "sire": "CH Topshelfs Israel Kamakawiwoole",
+    "dam": "Old Bay's Seasoned With Spice ROM",
+    "dob": "2013-05-12T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Cindy Flowers & Kathy Hamilton & John Flowers",
+    "aka": "",
+    "lives": "Palidino's",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Fred.jpg */ "./images/info/Fred.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "03/16/2014",
       "org": "AKC"
     }]
   }, {
-    id: 67,
-    call: "Parker",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Paniolo Bruddah At Ohana",
-    sire: "CH Topshelfs Israel Kamakawiwoole",
-    dam: "Old Bay's Seasoned With Spice ROM",
-    dob: "12/09/2012",
-    neutered: true,
-    rip: "",
-    owner: "Vic Strunk & Cindy Flowers & Candi Strunk",
-    aka: "",
-    lives: "Vic & Candi",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 67,
+    "call": "Parker",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Paniolo Bruddah At Ohana",
+    "sire": "CH Topshelfs Israel Kamakawiwoole",
+    "dam": "Old Bay's Seasoned With Spice ROM",
+    "dob": "2012-12-09T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Vic Strunk & Cindy Flowers & Candi Strunk",
+    "aka": "",
+    "lives": "Vic & Candi",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Parker.jpg */ "./images/info/Parker.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "05/24/2015",
       "org": "AKC"
@@ -16311,27 +16825,28 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 68,
-    call: "Charm",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "GCH Old Bay's Please Don't Squeeze The Charm'n",
-    sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
-    dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
-    dob: "09/06/2011",
-    neutered: true,
-    rip: "",
-    owner: "Cindy Flowers & John Flowers & Rosemary S Miller",
-    aka: "",
-    lives: "Nancy Beres",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 68,
+    "call": "Charm",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "GCH Old Bay's Please Don't Squeeze The Charm'n",
+    "sire": "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+    "dam": "CH Old Bay's Sparks Are Flyin', RN, WD",
+    "dob": "2011-09-06T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Cindy Flowers & John Flowers & Rosemary S Miller",
+    "aka": "",
+    "lives": "Nancy Beres",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Charm.jpg */ "./images/info/Charm.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "01/18/2013",
       "org": "AKC"
@@ -16341,27 +16856,29 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 70,
-    call: "Potter",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
-    sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
-    dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "04/10/2008",
-    neutered: true,
-    rip: "",
-    owner: "CAROL STULTZ & Kathy Hamilton & Cindy Flowers & DANIEL STULTZ",
-    aka: "",
-    lives: "Carol & Dan",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 70,
+    "call": "Potter",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA",
+    "sire": "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
+    "dam": "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
+    "dob": "2008-04-10T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "CAROL STULTZ & Kathy Hamilton & Cindy Flowers & DANIEL STULTZ",
+    "aka": "",
+    "lives": "Carol & Dan",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Potter.jpg */ "./images/info/Potter.jpg"),
+    "Titles": [{
       "title": "BN",
       "date": "04/22/2013",
       "org": "AKC"
@@ -16391,131 +16908,135 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 71,
-    call: "Hank",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Potters Friend Hank",
-    sire: "GCHS Sunvalley's Its As Simple As Abc ROM",
-    dam: "CH Old Bay's Raging Infurno",
-    dob: "04/10/2008",
-    neutered: true,
-    rip: "",
-    owner: "Carol Dan & Sandy Stultz & Cindy Flowers",
-    aka: "",
-    lives: "Carol & Sandy",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 71,
+    "call": "Hank",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Potters Friend Hank",
+    "sire": "GCHS Sunvalley's Its As Simple As Abc ROM",
+    "dam": "CH Old Bay's Raging Infurno",
+    "dob": "2014-04-17T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Carol Dan & Sandy Stultz & Cindy Flowers",
+    "aka": "",
+    "lives": "Carol & Sandy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "10/14/2016",
       "org": "AKC"
     }]
   }, {
-    id: 72,
-    call: "Raven",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's Raven Evermore",
-    sire: "CH Allegiance Rock The Boat Oldbay",
-    dam: "CH Waterford Frontpage",
-    dob: "01/08/2010",
-    neutered: true,
-    rip: "",
-    owner: "Sandra Strassman-Sundy & Cindy Flowers",
-    aka: "",
-    lives: "Sandra",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 72,
+    "call": "Raven",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's Raven Evermore",
+    "sire": "CH Allegiance Rock The Boat Oldbay",
+    "dam": "CH Waterford Frontpage",
+    "dob": "2010-01-08T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Sandra Strassman-Sundy & Cindy Flowers",
+    "aka": "",
+    "lives": "Sandra",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "07/04/2013",
       "org": "AKC"
     }]
   }, {
-    id: 73,
-    call: "Ruby",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's RUBY RELAX N WITH OHANA",
-    sire: "CH Topshelfs Israel Kamakawiwoole",
-    dam: "Old Bay's Seasoned With Spice ROM",
-    dob: "05/12/2013",
-    neutered: true,
-    rip: "",
-    owner: "Caollyn Malinowski & Cindy Flowers",
-    aka: "",
-    lives: "Caollyn",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 73,
+    "call": "Ruby",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's RUBY RELAX N WITH OHANA",
+    "sire": "CH Topshelfs Israel Kamakawiwoole",
+    "dam": "Old Bay's Seasoned With Spice ROM",
+    "dob": "2013-05-12T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Caollyn Malinowski & Cindy Flowers",
+    "aka": "",
+    "lives": "Caollyn",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Ruby.jpg */ "./images/info/Ruby.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "01/13/2016",
       "org": "AKC"
     }]
   }, {
-    id: 74,
-    call: "Nutmeg",
-    toptwenty: "",
-    rom: true,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "Old Bay's Seasoned With Spice ROM",
-    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "December 25, 2010",
-    neutered: true,
-    rip: "",
-    owner: "Sue Faulkner & Cindy Flowers",
-    aka: "",
-    lives: "Sue",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Nutmeg.jpg */ "./images/info/Nutmeg.jpg"),
-    Titles: [{
+    "id": 74,
+    "call": "Nutmeg",
+    "toptwenty": "",
+    "rom": true,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "Old Bay's Seasoned With Spice ROM",
+    "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2010-12-25T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Sue Faulkner & Cindy Flowers",
+    "aka": "",
+    "lives": "Sue",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Nutmeg.jpg */ "./images/info/Nutmeg.jpg"),
+    "Titles": [{
       "title": "Register of Merit",
       "date": "12/31/2016",
       "org": "NCA"
     }]
   }, {
-    id: 76,
-    call: "Sailor",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "GCH Old Bay's Son Of The Sea",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCH Old Bay's Lucy Fur ROM",
-    dob: "02/04/2015",
-    neutered: true,
-    rip: "",
-    owner: "Cindy Flowers & Kathy Hamilton",
-    aka: "",
-    lives: "Cindy",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 76,
+    "call": "Sailor",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "GCH Old Bay's Son Of The Sea",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCH Old Bay's Lucy Fur ROM",
+    "dob": "2015-02-04T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Cindy Flowers & Kathy Hamilton",
+    "aka": "",
+    "lives": "Cindy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Sailor.jpg */ "./images/info/Sailor.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "04/01/2017",
       "org": "AKC"
@@ -16525,53 +17046,55 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 77,
-    call: "Cayenne",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "female",
-    name: "CH OLD BAY'S SPICIN' IT UP AT BLUWATER",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCH Old Bay's Lucy Fur ROM",
-    dob: "02/04/2015",
-    neutered: false,
-    rip: "",
-    owner: "Joan Locker-Thuring & Cindy Flowers & Tom Locker-Thuring",
-    aka: "",
-    lives: "Joan & Tom",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 77,
+    "call": "Cayenne",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH OLD BAY'S SPICIN' IT UP AT BLUWATER",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCH Old Bay's Lucy Fur ROM",
+    "dob": "2015-02-04T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Joan Locker-Thuring & Cindy Flowers & Tom Locker-Thuring",
+    "aka": "",
+    "lives": "Joan & Tom",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "10/20/2017",
       "org": "AKC"
     }]
   }, {
-    id: 78,
-    call: "Obi",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    coown: true,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's The Force Is Strong At Dreamhaven CGC",
-    sire: "CH Goldcoast's Keeper Of The Watch",
-    dam: "GCH Old Bay's Snowball's Chance CD",
-    dob: "07/29/2017",
-    neutered: false,
-    rip: "",
-    owner: "Karin Bystol & Cindy Flowers & Andrea Jung",
-    aka: "",
-    lives: "Karin & Adam",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 78,
+    "call": "Obi",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "coown": true,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's The Force Is Strong At Dreamhaven CGC",
+    "sire": "CH Goldcoast's Keeper Of The Watch",
+    "dam": "GCH Old Bay's Snowball's Chance CD",
+    "dob": "2017-07-29T04:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Karin Bystol & Cindy Flowers & Andrea Jung",
+    "aka": "",
+    "lives": "Karin & Adam",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Obi.jpg */ "./images/info/Obi.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "05/03/2019",
       "org": "AKC"
@@ -16581,27 +17104,29 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 79,
-    call: "Dory",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "GCH Old Bay's Theodorable Spicy Altatude BN, CD, RA, RN, DD, WD",
-    sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "12/25/2010",
-    neutered: false,
-    rip: "",
-    owner: "Stephanie Magid & Cindy Flowers",
-    aka: "",
-    lives: "Stephanie",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 79,
+    "call": "Dory",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "GCH Old Bay's Theodorable Spicy Altatude BN, CD, RA, RN, DD, WD",
+    "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2010-12-25T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Stephanie Magid & Cindy Flowers",
+    "aka": "",
+    "lives": "Stephanie",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Dory.jpg */ "./images/info/Dory.jpg"),
+    "Titles": [{
       "title": "BN",
       "date": "01/18/2016",
       "org": "AKC"
@@ -16635,26 +17160,28 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 80,
-    call: "Sophie",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "GCH Old Bays Voyage To Nitestar BN, CGC, CGCA, TKI, TKN, DD, WD",
-    sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
-    dam: "GCH Old Bay's Lucy Fur ROM",
-    dob: "12/09/2012",
-    neutered: true,
-    rip: "",
-    owner: "Perri Graf",
-    aka: "",
-    lives: "Perri",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 80,
+    "call": "Sophie",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "GCH Old Bays Voyage To Nitestar BN, CGC, CGCA, TKI, TKN, DD, WD",
+    "sire": "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
+    "dam": "GCH Old Bay's Lucy Fur ROM",
+    "dob": "2012-12-09T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Perri Graf",
+    "aka": "",
+    "lives": "Perri",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "BN",
       "date": "04/04/2015",
       "org": "AKC"
@@ -16692,76 +17219,79 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 81,
-    call: "Smudge",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay Nightwatch",
-    sire: "Peter Kagan Of Pouch Cove",
-    dam: "Spillway Enuf-M-Ocean",
-    dob: "01/02/1990",
-    neutered: true,
-    rip: "",
-    owner: "Jill M Smithson",
-    aka: "",
-    lives: "Jill",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 81,
+    "call": "Smudge",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay Nightwatch",
+    "sire": "Peter Kagan Of Pouch Cove",
+    "dam": "Spillway Enuf-M-Ocean",
+    "dob": "1990-01-02T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Jill M Smithson",
+    "aka": "",
+    "lives": "Jill",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "05/17/1992",
       "org": "AKC"
     }]
   }, {
-    id: 82,
-    call: "Finn",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "Sun Valley's Swimming With Finns In Old Bay CGC",
-    sire: "GCHB Old Bay's Perfect Timing",
-    dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "06/23/2017",
-    neutered: true,
-    rip: "",
-    owner: " Dr. Lori Siracuse-Parker",
-    aka: "",
-    lives: "Lori",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 82,
+    "call": "Finn",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "Sun Valley's Swimming With Finns In Old Bay CGC",
+    "sire": "GCHB Old Bay's Perfect Timing",
+    "dam": "GCHB Old Bay's Keep It Simple ROM",
+    "dob": "2017-06-23T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": " Dr. Lori Siracuse-Parker",
+    "aka": "",
+    "lives": "Lori",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CGC",
       "date": "11/12/2018",
       "org": "AKC"
     }]
   }, {
-    id: 83,
-    call: "Annie",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Annie Of Fairview CD",
-    sire: "Peter Kagan Of Pouch Cove",
-    dam: "Spillway Enuf-M-Ocean",
-    dob: "02/19/1989",
-    neutered: true,
-    rip: "",
-    owner: "Arlene J Dodson & Kathleen Hamilton",
-    aka: "",
-    lives: "Arlene",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 83,
+    "call": "Annie",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Annie Of Fairview CD",
+    "sire": "Peter Kagan Of Pouch Cove",
+    "dam": "Spillway Enuf-M-Ocean",
+    "dob": "1989-02-19T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Arlene J Dodson & Kathleen Hamilton",
+    "aka": "",
+    "lives": "Arlene",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CD",
       "date": "04/24/1994",
       "org": "AKC"
@@ -16771,127 +17301,132 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 84,
-    call: "Chimp",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "Old Bay's Atlanta's Burning CD",
-    sire: "Sherwoods Rosh Of Newton-Ark",
-    dam: "Old Bay's Georgia On My Mind",
-    dob: "	08/11/1993",
-    neutered: true,
-    rip: "",
-    owner: "Kathleen Hamilton & Pat Tilson",
-    aka: "",
-    lives: "Kathy & Pat",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 84,
+    "call": "Chimp",
+    "work": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "Old Bay's Atlanta's Burning CD",
+    "sire": "Sherwoods Rosh Of Newton-Ark",
+    "dam": "Old Bay's Georgia On My Mind",
+    "dob": "1993-08-11T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Kathleen Hamilton & Pat Tilson",
+    "aka": "",
+    "lives": "Kathy & Pat",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CD",
       "date": "05/03/2000",
       "org": "AKC"
     }]
   }, {
-    id: 85,
-    call: "Bearie",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's Bear Essentials",
-    sire: "Peter Kagan Of Pouch Cove",
-    dam: "Spillway Enuf-M-Ocean",
-    dob: "	08/11/1993",
-    neutered: true,
-    rip: "11/02/2003",
-    owner: "Kathleen Hamilton",
-    aka: "",
-    lives: "Kathy",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 85,
+    "call": "Bearie",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's Bear Essentials",
+    "sire": "Peter Kagan Of Pouch Cove",
+    "dam": "Spillway Enuf-M-Ocean",
+    "dob": "1993-08-11T04:00:00.000Z",
+    "neutered": true,
+    "rip": "11/02/2003",
+    "owner": "Kathleen Hamilton",
+    "aka": "",
+    "lives": "Kathy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "11/04/1990",
       "org": "AKC"
     }]
   }, {
-    id: 86,
-    call: "Charlotte",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's Charlotte Amalie",
-    sire: "Peppertree's Gem Of Abbyacre",
-    dam: "Muddy Creeks Savannah",
-    dob: "08/11/1993",
-    neutered: true,
-    rip: "",
-    owner: "Margaret A & Kenneth I Speth",
-    aka: "",
-    lives: "Margie & Kenny",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 86,
+    "call": "Charlotte",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's Charlotte Amalie",
+    "sire": "Peppertree's Gem Of Abbyacre",
+    "dam": "Muddy Creeks Savannah",
+    "dob": "1993-08-11T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Margaret A & Kenneth I Speth",
+    "aka": "",
+    "lives": "Margie & Kenny",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "05/22/1994",
       "org": "AKC"
     }]
   }, {
-    id: 87,
-    call: "Gambler",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "Old Bay's Gambling Man CD",
-    sire: "Topmast's Muddy Creek Crocker",
-    dam: "Muddy Creeks Savannah",
-    dob: "04/05/1988",
-    neutered: true,
-    rip: "",
-    owner: "Louie Mays",
-    aka: "",
-    lives: "Louie",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 87,
+    "call": "Gambler",
+    "work": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "Old Bay's Gambling Man CD",
+    "sire": "Topmast's Muddy Creek Crocker",
+    "dam": "Muddy Creeks Savannah",
+    "dob": "1988-04-05T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Louie Mays",
+    "aka": "",
+    "lives": "Louie",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CD",
       "date": "04/18/1990",
       "org": "AKC"
     }]
   }, {
-    id: 88,
-    call: "Louie",
-    toptwenty: "",
-    rom: false,
-    vn: true,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "VN CH Old Bay's Never Enuf-M-Ocean CD, DD, WRD",
-    sire: "Pouch Cove Muddycreek Chance",
-    dam: "Spillway Enuf-M-Ocean",
-    dob: "	08/11/1993",
-    neutered: true,
-    rip: "",
-    owner: "Trish Castell",
-    aka: "",
-    lives: "Trish",
-    health: "",
-    image: "",
-    Titles: [{
-      "title": "VN - Versitile Newfoundland",
+    "id": 88,
+    "call": "Louie",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": true,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "VN CH Old Bay's Never Enuf-M-Ocean CD, DD, WRD",
+    "sire": "Pouch Cove Muddycreek Chance",
+    "dam": "Spillway Enuf-M-Ocean",
+    "dob": "1993-08-11T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Trish Castell",
+    "aka": "",
+    "lives": "Trish",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
+      "title": "Versatile Newfoundland",
       "date": "10/23/1993",
       "org": "NCA"
     }, {
@@ -16916,101 +17451,105 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 89,
-    call: "Carrie",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's On A Carousel",
-    sire: "Benhil's Stillwater Gulliverr",
-    dam: "Old Bay's Bear Essentials",
-    dob: "09/25/1991",
-    neutered: true,
-    rip: "09/25/2001",
-    owner: "Kathleen M Hamilton",
-    aka: "",
-    lives: "Kathy",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 89,
+    "call": "Carrie",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's On A Carousel",
+    "sire": "Benhil's Stillwater Gulliverr",
+    "dam": "Old Bay's Bear Essentials",
+    "dob": "1991-09-25T04:00:00.000Z",
+    "neutered": true,
+    "rip": "09/25/2001",
+    "owner": "Kathleen M Hamilton",
+    "aka": "",
+    "lives": "Kathy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "07/03/1993",
       "org": "AKC"
     }]
   }, {
-    id: 90,
-    call: "Henry",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "CH Old Bay's Rorshack",
-    sire: "Topmast's Muddy Creek Crocker",
-    dam: "Muddy Creeks Savannah",
-    dob: "04/05/1988",
-    neutered: true,
-    rip: "09/25/2000",
-    owner: "Kathleen M Hamilton",
-    aka: "",
-    lives: "Kathy",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 90,
+    "call": "Henry",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay's Rorshack",
+    "sire": "Topmast's Muddy Creek Crocker",
+    "dam": "Muddy Creeks Savannah",
+    "dob": "1988-04-05T04:00:00.000Z",
+    "neutered": true,
+    "rip": "09/25/2000",
+    "owner": "Kathleen M Hamilton",
+    "aka": "",
+    "lives": "Kathy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "03/08/1992",
       "org": "AKC"
     }]
   }, {
-    id: 91,
-    call: "Chaser",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's Seabreeze Chaser",
-    sire: "Benhil's Stillwater Gulliver",
-    dam: "Old Bay's Bear Essentials",
-    dob: "04/05/1988",
-    neutered: true,
-    rip: "",
-    owner: "Pat Tilson",
-    aka: "",
-    lives: "Pat",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 91,
+    "call": "Chaser",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's Seabreeze Chaser",
+    "sire": "Benhil's Stillwater Gulliver",
+    "dam": "Old Bay's Bear Essentials",
+    "dob": "1988-04-05T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Pat Tilson",
+    "aka": "",
+    "lives": "Pat",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "11/06/1994",
       "org": "AKC"
     }]
   }, {
-    id: 92,
-    call: "Mischief",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "CH Old Bay's Start Of Mischief CD",
-    sire: "Benhil's Stillwater Gulliver",
-    dam: "Old Bay's Bear Essentials",
-    dob: "04/05/1988",
-    neutered: true,
-    rip: "",
-    owner: "Cheryl Reed",
-    aka: "",
-    lives: "Cheryl",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 92,
+    "call": "Mischief",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Old Bay's Start Of Mischief CD",
+    "sire": "Benhil's Stillwater Gulliver",
+    "dam": "Old Bay's Bear Essentials",
+    "dob": "1988-04-05T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Cheryl Reed",
+    "aka": "",
+    "lives": "Cheryl",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "12/18/1994",
       "org": "AKC"
@@ -17020,26 +17559,32 @@ var initState = {
       "org": "AKC"
     }]
   }, {
-    id: 93,
-    call: "Bacardi",
-    toptwenty: "",
-    rom: false,
-    vn: true,
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "VN CH Old Bays Bacardi Of Top Shelf CD, CDX, DD, TDD, WD, WRD",
-    sire: "Pouch Cove's All American Amity",
-    dam: "Old Bay's Bear Essentials",
-    dob: "06/14/1993",
-    neutered: true,
-    rip: "",
-    owner: "Debra Wigal",
-    aka: "",
-    lives: "Debra",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 93,
+    "call": "Bacardi",
+    "work": true,
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": true,
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "VN CH Old Bays Bacardi Of Top Shelf CD, CDX, DD, TDD, WD, WRD",
+    "sire": "Pouch Cove's All American Amity",
+    "dam": "Old Bay's Bear Essentials",
+    "dob": "1993-06-14T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Debra Wigal",
+    "aka": "",
+    "lives": "Deb",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Bacardi.jpg */ "./images/info/Bacardi.jpg"),
+    "Titles": [{
+      "title": "Versatile Newfoundland",
+      "date": "09/07/1997",
+      "org": "NCA"
+    }, {
       "title": "CD",
       "date": "07/16/1994",
       "org": "AKC"
@@ -17077,283 +17622,285 @@ var initState = {
       "org": "NCA"
     }]
   }, {
-    id: 94,
-    call: "Bret",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "Old Bays Bret Harte CD",
-    sire: "Muddycrk Miles Of Sunvalley",
-    dam: "Muddycreek Old Bays Moonbeam",
-    dob: "11/04/1997",
-    neutered: true,
-    rip: "",
-    owner: "Dr. Lawrence S Lerner & Dr. Narcinda R Lerner",
-    aka: "",
-    lives: "Dr. Lawrence S Lerner & Dr. Narcinda R Lerner",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 94,
+    "call": "Bret",
+    "work": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "Old Bays Bret Harte CD",
+    "sire": "Muddycrk Miles Of Sunvalley",
+    "dam": "Muddycreek Old Bays Moonbeam",
+    "dob": "1997-11-04T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Dr. Lawrence S Lerner & Dr. Narcinda R Lerner",
+    "aka": "",
+    "lives": "Dr. Lawrence S Lerner & Dr. Narcinda R Lerner",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CD",
       "date": "08/19/2000",
       "org": "AKC"
     }]
   }, {
-    id: 95,
-    call: "Bentley",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    stud: false,
-    sex: "male",
-    name: "CH Sir Bentley Of Old Bay",
-    sire: "Pouch Cove's Statesman",
-    dam: "Old Bay's On A Carousel",
-    dob: "11/02/1993",
-    neutered: true,
-    rip: "",
-    owner: "Steven & Mary Stein",
-    aka: "",
-    lives: "Steven",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 95,
+    "call": "Bentley",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Sir Bentley Of Old Bay",
+    "sire": "Pouch Cove's Statesman",
+    "dam": "Old Bay's On A Carousel",
+    "dob": "1993-11-02T05:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Steven & Mary Stein",
+    "aka": "",
+    "lives": "Steven",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "02/17/1996",
       "org": "AKC"
     }]
   }, {
-    id: 96,
-    call: "Tai-Tai",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: true,
-    stud: false,
-    sex: "male",
-    name: "CH Top Shelf Mai-Tai Of Old Bay",
-    sire: "Blackstone's Percyful James",
-    dam: "Old Bays Bacardi Of Top Shelf",
-    dob: "11/02/1993",
-    neutered: true,
-    rip: "11/02/2003",
-    owner: "Kathleen Hamilton & Pat Tilson",
-    aka: "",
-    lives: "Kathy & Pat",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 96,
+    "call": "Tai-Tai",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Top Shelf Mai-Tai Of Old Bay",
+    "sire": "Blackstone's Percyful James",
+    "dam": "Old Bays Bacardi Of Top Shelf",
+    "dob": "1993-11-02T05:00:00.000Z",
+    "neutered": true,
+    "rip": "11/02/2003",
+    "owner": "Kathleen Hamilton & Pat Tilson",
+    "aka": "",
+    "lives": "Kathy & Pat",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "02/20/2000",
       "org": "AKC"
     }]
   }, {
-    id: 97,
-    call: "Mason",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: true,
-    stud: false,
-    sex: "male",
-    name: "CH Allegiance Carved N Stone Oldbay",
-    sire: "CH Top Shelf's On The Rocks ROM",
-    dam: "CH Darbydales Zoo Two",
-    dob: "	09/14/2006",
-    neutered: true,
-    rip: "",
-    owner: "Kathleen Hamilton",
-    aka: "",
-    lives: "Jim",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 97,
+    "call": "Mason",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": true,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Allegiance Carved N Stone Oldbay",
+    "sire": "CH Top Shelf's On The Rocks ROM",
+    "dam": "CH Darbydales Zoo Two",
+    "dob": "2006-09-14T04:00:00.000Z",
+    "neutered": true,
+    "rip": "",
+    "owner": "Kathleen Hamilton",
+    "aka": "",
+    "lives": "Jim",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Mason.jpg */ "./images/info/Mason.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "07/06/2008",
       "org": "AKC"
     }]
   }, {
-    id: 98,
-    call: "Nash",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: false,
-    stud: false,
-    sex: "male",
-    name: "CH Dreamhavens Sum It Up With Old Bay WD",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "	11/10/2018",
-    neutered: false,
-    rip: "",
-    owner: "Sue Lynn Morton and Robin Love",
-    aka: "",
-    lives: "Sue Lynn and Robin",
-    health: "",
-    image: "",
-    Titles: [{
+    "id": 98,
+    "call": "Nash",
+    "ch": true,
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Dreamhavens Sum It Up With Old Bay WD",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCHB Old Bay's Keep It Simple ROM",
+    "dob": "2018-11-10T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Sue Lynn Morton and Robin Love",
+    "aka": "",
+    "lives": "Sue Lynn and Robin",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Nash.jpg */ "./images/info/Nash.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "07/06/2008",
       "org": "AKC"
     }]
   }, {
-    id: 99,
-    call: "Cricket",
-    toptwenty: "",
-    rom: false,
-    vn: false,
-    ours: false,
-    coown: false,
-    stud: false,
-    sex: "female",
-    name: "Dreamhavens Wish Upon A Star With Old Bay",
-    sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "	11/10/2018",
-    neutered: false,
-    rip: "",
-    owner: "Andrea Jung and Cindy Flowers",
-    aka: "",
-    lives: "Andrea",
-    health: "",
-    image: "",
-    Titles: [{
-      "title": "CH",
-      "date": "07/06/2008",
-      "org": "AKC"
-    }]
+    "id": 99,
+    "call": "Cricket",
+    "toptwenty": "",
+    "rom": false,
+    "vn": false,
+    "ours": false,
+    "coown": false,
+    "stud": false,
+    "sex": "female",
+    "name": "Dreamhavens Wish Upon A Star With Old Bay",
+    "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
+    "dam": "GCHB Old Bay's Keep It Simple ROM",
+    "dob": "2018-11-10T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Andrea Jung and Cindy Flowers",
+    "aka": "",
+    "lives": "Andrea",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Cricket.jpg */ "./images/info/Cricket.jpg"),
+    "Titles": []
   }, {
-    id: 100,
-    call: "Radar",
-    toptwenty: "",
-    ours: false,
-    coown: true,
-    sex: "male",
-    stud: false,
-    name: "CH Sun Valley's Steady Beacon",
-    sire: "GCHB Old Bay's Perfect Timing",
-    dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "June 23, 2017",
-    neutered: false,
-    rip: "",
-    owner: "Kathy and Mike Holshey and Cindy Flowers",
-    aka: "",
-    lives: "Mike and Kathy",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Radar.jpg */ "./images/info/Radar.jpg"),
-    Titles: [{
+    "id": 100,
+    "call": "Radar",
+    "ch": true,
+    "toptwenty": "",
+    "ours": false,
+    "coown": true,
+    "sex": "male",
+    "stud": false,
+    "name": "CH Sun Valley's Steady Beacon",
+    "sire": "GCHB Old Bay's Perfect Timing",
+    "dam": "GCHB Old Bay's Keep It Simple ROM",
+    "dob": "2017-06-23T04:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Kathy and Mike Holshey and Cindy Flowers",
+    "aka": "",
+    "lives": "Mike and Kathy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Radar.jpg */ "./images/info/Radar.jpg"),
+    "Titles": [{
       "title": "CH",
       "date": "03/11/2018",
       "org": "AKC"
     }]
   }, {
-    id: 101,
-    call: "Latte",
-    toptwenty: "",
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "Old Bay's A Whole Lotta Latte at Starbucks ",
-    sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
-    dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "December 3, 2008",
-    neutered: false,
-    rip: "January 2018",
-    owner: "	The Speck Family",
-    aka: "Spark, Sparky, Sparkly, Sparkly-Darkly-Dog",
-    lives: "	The Speck Family",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Latte.jpg */ "./images/info/Latte.jpg"),
-    Titles: []
+    "id": 101,
+    "call": "Latte",
+    "toptwenty": "",
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "Old Bay's A Whole Lotta Latte at Starbucks ",
+    "sire": "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
+    "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
+    "dob": "2010-12-25T05:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "\tThe Speck Family",
+    "aka": "Spark, Sparky, Sparkly, Sparkly-Darkly-Dog",
+    "lives": "\tThe Speck Family",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Latte.jpg */ "./images/info/Latte.jpg"),
+    "Titles": []
   }, {
-    id: 102,
-    call: "Linus",
-    toptwenty: "",
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "OLD BAY MAKE N HEAD LINES",
-    sire: "CH Allegiance Rock The Boat Old Bay",
-    dam: "CH Waterford Frontpage ",
-    dob: "June 24, 2010",
-    neutered: false,
-    rip: "January 2018",
-    owner: "The Speck Family",
-    aka: "",
-    lives: "The Speck Family",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Linus.jpg */ "./images/info/Linus.jpg"),
-    Titles: []
+    "id": 102,
+    "call": "Linus",
+    "toptwenty": "",
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "OLD BAY MAKE N HEAD LINES",
+    "sire": "CH Allegiance Rock The Boat Old Bay",
+    "dam": "CH Waterford Frontpage ",
+    "dob": "2010-01-07T04:00:00.000Z",
+    "neutered": false,
+    "rip": "January 2018",
+    "owner": "The Speck Family",
+    "aka": "",
+    "lives": "The Speck Family",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Linus.jpg */ "./images/info/Linus.jpg"),
+    "Titles": []
   }, {
-    id: 103,
-    call: "Bridget",
-    toptwenty: "",
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "Old BAY BRIDGE TO WATERFORD",
-    sire: "CH Allegiance Rock The Boat Old Bay",
-    dam: "CH Waterford Frontpage ",
-    dob: "June 24, 2010",
-    neutered: false,
-    rip: "January 2018",
-    owner: "Jenni and David Arnett",
-    aka: "",
-    lives: "Jenni and David Arnett",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Bridget.jpg */ "./images/info/Bridget.jpg"),
-    Titles: []
+    "id": 103,
+    "call": "Bridget",
+    "toptwenty": "",
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "Old BAY BRIDGE TO WATERFORD",
+    "sire": "CH Allegiance Rock The Boat Old Bay",
+    "dam": "CH Waterford Frontpage ",
+    "dob": "2010-01-07T04:00:00.000Z",
+    "neutered": false,
+    "rip": "January 2018",
+    "owner": "Jenni and David Arnett",
+    "aka": "",
+    "lives": "Jenni and David Arnett",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Bridget.jpg */ "./images/info/Bridget.jpg"),
+    "Titles": []
   }, {
-    id: 104,
-    call: "Tyler",
-    toptwenty: "",
-    ours: false,
-    stud: false,
-    sex: "female",
-    name: "Old Bays Tip A Canoe And Tyler Too",
-    sire: "CH Allegiance Rock The Boat Old Bay",
-    dam: "CH Waterford Frontpage ",
-    dob: "June 24, 2010",
-    neutered: false,
-    rip: "January 2018",
-    owner: "Ray & Linda Boswell & Cindy Flowers",
-    aka: "",
-    lives: "Ray & Linda",
-    health: "",
-    image: __webpack_require__(/*! ../../images/info/Tyler.jpg */ "./images/info/Tyler.jpg"),
-    Titles: []
+    "id": 104,
+    "call": "Tyler",
+    "toptwenty": "",
+    "ours": false,
+    "stud": false,
+    "sex": "female",
+    "name": "Old Bays Tip A Canoe And Tyler Too",
+    "sire": "CH Allegiance Rock The Boat Old Bay",
+    "dam": "CH Waterford Frontpage ",
+    "dob": "2010-01-07T04:00:00.000Z",
+    "neutered": false,
+    "rip": "January 2018",
+    "owner": "Ray & Linda Boswell & Cindy Flowers",
+    "aka": "",
+    "lives": "Ray & Linda",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Tyler.jpg */ "./images/info/Tyler.jpg"),
+    "Titles": []
   }],
   litters: [{
-    id: 0,
+    id: 1,
     parents: "Rhone and Kiss",
     breeders: "Old Bay Newfs - Cindy Flowers and Kathy Hamilton",
     sire: "GCH Chateaunewf'N Nakiska's Legend Of The Stones",
     dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "November 8, 2019",
+    dob: "2019-11-08T08:00:00Z",
     boys: 0,
     girls: 1,
     puppies: ["Sing"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Rhone.jpg */ "./images/litters/Rhone.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Kiss.jpg */ "./images/litters/Kiss.jpg"),
     pupimg: __webpack_require__(/*! ../../images/info/Sing.jpg */ "./images/info/Sing.jpg")
   }, {
-    id: 1,
+    id: 30,
     parents: "Xander and Snowball",
-    breeders: "",
-    sire: "",
-    dam: "",
-    dob: "",
+    breeders: "Dreamhaven Newfs - Andrea Jung, Cindy Flowers and Kathy Hamilton",
+    sire: "GCHS Oceano Darbydale’s Xecutive Decision",
+    dam: "GCHB Old Bay's Snowballs Chance CD",
+    dob: "2019-07-01T08:00:00Z",
     boys: 3,
     girls: 0,
-    puppies: [],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    puppies: ["London", "River", "Bosun"],
+    sireimg: __webpack_require__(/*! ../../images/litters/Xander.jpg */ "./images/litters/Xander.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Snowball.jpg */ "./images/litters/Snowball.jpg")
   }, {
     id: 2,
@@ -17361,7 +17908,7 @@ var initState = {
     breeders: "Dreamhaven Newfs - Andrea Jung, Cindy Flowers and Kathy Hamilton",
     sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "",
+    dob: "2018-11-10T08:00:00Z",
     boys: 2,
     girls: 6,
     puppies: ["Charlie", "Cricket", "Essi", "Gossip", "Kindle", "Nash", "Soleil", "Tilly"],
@@ -17372,8 +17919,8 @@ var initState = {
     parents: "Rolex and Snowball",
     breeders: "Dreamhaven Newfs - Andrea Jung, Cindy Flowers and Kathy Hamilton",
     sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
-    dam: "GCHB Old Bay's Snowballs Chance CD",
-    dob: "January 11, 2018",
+    dam: "GCH Old Bay's Snowballs Chance CD",
+    dob: "2018-01-11T08:00:00Z",
     boys: 1,
     girls: 2,
     puppies: ["Ellsa", "Fable", "Maestro"],
@@ -17385,11 +17932,11 @@ var initState = {
     breeders: "Dreamhaven Newfs - Andrea Jung, Cindy Flowers and Kathy Hamilton",
     sire: "CH. GOLDCOASTS KEEPER OF THE WATCH",
     dam: "GCHB Old Bay's Snowballs Chance CD",
-    dob: "",
+    dob: "2017-07-29T08:00:00Z",
     boys: 2,
     girls: 0,
     puppies: ["Obi", "Finn"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/JonSnow.jpg */ "./images/litters/JonSnow.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Snowball.jpg */ "./images/litters/Snowball.jpg")
   }, {
     id: 5,
@@ -17397,7 +17944,7 @@ var initState = {
     breeders: "Sunvalley Newfs - Lou Ann Lenner and Cindy Flowers",
     sire: "GCHB Old Bay's Perfect Timing",
     dam: "GCHB Old Bay's Keep It Simple ROM",
-    dob: "January 11, 2018",
+    dob: "2018-01-11T08:00:00Z",
     boys: 7,
     girls: 3,
     puppies: ["Maestro", "Radar"],
@@ -17409,7 +17956,7 @@ var initState = {
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "GCH Old Bay's Let's Get Sirius CGC, TDI (HE/L/P/HrC/Cn/Cerf/DNC)",
     dam: "CH Old Bay's Ragin' Infurno  (HG/L/HrC/P/DNA)",
-    dob: "February 24, 2015",
+    dob: "2015-02-24T08:00:00Z",
     boys: 3,
     girls: 2,
     puppies: ["Jet - lime boy - Lezli and Bennett Alford", "Karma - raspberry girl - Rose Miller", "Thunder - red boy - Jolene Maschuck Smith (PA)", "Torben- silver boy - Ardys and Lincoln (MD)", "Nessie - purple girl - Rose Miller (VA)"],
@@ -17421,7 +17968,7 @@ var initState = {
     breeders: "Cindy Flowers and Sue Faulkner",
     sire: "CH Old Bay's Lead Me To Temptation  ",
     dam: "Old Bay's Seasoned with Spice  ROM",
-    dob: "February 23, 2015",
+    dob: "2015-02-23T08:00:00Z",
     boys: 5,
     girls: 1,
     puppies: ["Rolex - purple boy - Cindy Flowers", "Bunbury - RainBest of Winners boy - James Kallmerten (NY)", "Jupiter - gray boy - Colette Chipman - (VA)", "Charlie - green boy - David Leever and Sharon Yost (MD)", "Walter - gold boy - Terri Lewin Gilbert (PA)", "Gracie - Pink girl - Mary Jeanne Levitt (MN)"],
@@ -17433,7 +17980,7 @@ var initState = {
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN  ",
-    dob: "February 4, 2015",
+    dob: "2015-02-04T08:00:00Z",
     boys: 4,
     girls: 3,
     puppies: ["Flash - purple boy - Anne Nored (NC)", "Sailor - blue boy - (VA)", "Teddy - orange boy - Shawna Rogers-Curns (VA)", "Max - burgundy boy - Jeff and Jane Brueckner Totten (VA)", "Ellie - green girl - John and Juli Paladino (MD)", "Cayenne - yellow girl - Tom and Joan Locker-Thuring (Long Island)", "Snowball - Snowball - Cindy Flowers and Andrea Jung)"],
@@ -17445,11 +17992,11 @@ var initState = {
     breeders: "Cindy and John Flowers and Rose Miller",
     sire: "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
     dam: "GCH Old Bay's Please Don't Squeeze The Charm'n CGC, TDI (HF/L/P/CrC/Cn/Cerf/DNA)",
-    dob: "November 25, 2014",
+    dob: "2014-11-25T08:00:00Z",
     boys: 3,
     girls: 1,
     puppies: ["Kiss - Cindy and John", "Soloman - black boy - Sue and Andrew", "Frankie - gray boy with white - Judith Janasik (WI)", "Mr. Whipple - Mr. Whipple (LA)"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Todd.jpg */ "./images/litters/Todd.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Charm.jpg */ "./images/litters/Charm.jpg")
   }, {
     id: 10,
@@ -17457,7 +18004,7 @@ var initState = {
     breeders: "Cindy Flowers and Julia and Don Sharkey and Sue Faulkner",
     sire: "CH Powder Ridge's Dreams Come True, WD (HG/L/P/DNA)",
     dam: "Old Bay's Seasoned with Spice (HG/L/HrC/P/Eyes/DNA) ",
-    dob: "June 1, 2014",
+    dob: "2014-06-01T08:00:00Z",
     boys: 2,
     girls: 0,
     puppies: ["Vail Cruiser - Glenn Lesher", "Spinnaker - blue boy - Christie Smith (VA)"],
@@ -17465,23 +18012,23 @@ var initState = {
     damimg: __webpack_require__(/*! ../../images/litters/Nutmeg.jpg */ "./images/litters/Nutmeg.jpg")
   }, {
     id: 11,
-    parents: "Raisin and Todd",
+    parents: "Todd and Raisin",
     breeders: "Kathy Hamilton and John Borklund and Cindy Flowers",
     sire: "GCHS Sunvalley's Its As Simple As Abc ROM (HG/L/P/HrC/Cn/Cerf)",
     dam: "CH Old Bay's Ragin' Infurno (HG/L/HrC/P/DNA)",
-    dob: "April 17, 2014",
+    dob: "2014-04-17T08:00:00Z",
     boys: 4,
     girls: 0,
     puppies: ["Evan", "Hank", "Justin", "Sirius II"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Todd.jpg */ "./images/litters/Todd.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Raisin.jpg */ "./images/litters/Raisin.jpg")
   }, {
     id: 12,
-    parents: "Charm and Sirius",
+    parents: "Sirius and Charm",
     breeders: "Cindy and John Flowers and Rose Miller",
     sire: "GCH Old Bay's Let's Get Sirius CGC, TDI",
     dam: "GCH CH Old Bay's Please Don't Squeeze The Charm'n ",
-    dob: "December 5, 2013",
+    dob: "2013-12-05T08:00:00Z",
     boys: 1,
     girls: 1,
     puppies: ["Tiffany", "Sunny"],
@@ -17489,35 +18036,35 @@ var initState = {
     damimg: __webpack_require__(/*! ../../images/litters/Charm.jpg */ "./images/litters/Charm.jpg")
   }, {
     id: 13,
-    parents: "Miss Flash and Atlas",
+    parents: "Atlas and Miss Flash",
     breeders: "Celtic Cross - Rose Miller and Cindy Flowers and Barbara Plasse",
     sire: "CH Old Bay's Here At Last, WRD",
     dam: "CH Celtic Cross Mischief Managed At Old Bay RN, RA, WD",
-    dob: "October 17, 2013",
+    dob: "2013-10-17T08:00:00Z",
     boys: 1,
     girls: 2,
     puppies: [],
     sireimg: __webpack_require__(/*! ../../images/litters/Atlas.jpg */ "./images/litters/Atlas.jpg"),
-    damimg: __webpack_require__(/*! ../../images/litters/Dam.jpg */ "./images/litters/Dam.jpg")
+    damimg: __webpack_require__(/*! ../../images/litters/Flash.jpg */ "./images/litters/Flash.jpg")
   }, {
     id: 14,
     parents: "Izzy and Nutmeg",
     breeders: "Cindy and John Flowers",
     sire: "CH Top Shelfs Israel Kamakawiwoole CD, DD, CGC, RN",
     dam: "Old Bay's Seasoned with Spice ",
-    dob: "May 12, 2013",
+    dob: "2013-05-12T08:00:00Z",
     boys: 2,
     girls: 3,
     puppies: ["Emma", "Fred", "Kasey", "Parker", "Ruby"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Izzy.jpg */ "./images/litters/Izzy.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Nutmeg.jpg */ "./images/litters/Nutmeg.jpg")
   }, {
     id: 15,
-    parents: "Lucy and Bravo",
+    parents: "Bravo and Lucy",
     breeders: " Kathy Hamilton and Cindy Flowers",
     sire: "VN GCHS Bear N Mind’s Stand Up and Cheer CD, RA, DD1, WRD, CGC",
     dam: "GCH CH Old Bay's Lucy Fur ",
-    dob: "December 9, 2012",
+    dob: "2012-12-09T08:00:00Z",
     boys: 5,
     girls: 3,
     puppies: ["Tate", "Snickers", "Bennie", "Jayden", "Sophie"],
@@ -17525,23 +18072,23 @@ var initState = {
     damimg: __webpack_require__(/*! ../../images/litters/Lucy.jpg */ "./images/litters/Lucy.jpg")
   }, {
     id: 16,
-    parents: "Lucy and Mick",
+    parents: "Mick and Lucy",
     breeders: "Kathy Hamilton and John Borkland and Cindy Flowers",
     sire: "Ch. Cypress Bay Imat Cornerbrook CGC, TDI",
     dam: "GCH Old Bay's Lucy Fur ROM ",
-    dob: "September 10, 2011",
+    dob: "2011-09-10T08:00:00Z",
     boys: 2,
     girls: 6,
     puppies: ["Raisin"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Mick.jpg */ "./images/litters/Mick.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Lucy.jpg */ "./images/litters/Lucy.jpg")
   }, {
     id: 17,
-    parents: "Sparkle and Potter",
+    parents: "Potter and Sparkle",
     breeders: "Cindy and John Flowers and Rose Miller",
     sire: "GCH Old Bay's Potter As In Harry BN, CD, CGC, RN, RA'",
     dam: "CH Old Bay's Sparks Are Flyin', RN, WD",
-    dob: "September 6, 2011",
+    dob: "2011-09-06T08:00:00Z",
     boys: 4,
     girls: 8,
     puppies: ["General Lee", "Oliver", "Cutter", "Hagrid", "Liebe", "Luna", "Ms. Flash", "Chloe", "Sophie", "Charm", "Maggie"],
@@ -17549,59 +18096,59 @@ var initState = {
     damimg: __webpack_require__(/*! ../../images/litters/Sparkle.jpg */ "./images/litters/Sparkle.jpg")
   }, {
     id: 18,
-    parents: "Allie x Lincoln",
+    parents: "Lincoln x Allie",
     breeders: "Powder Ridge Newfs - Julia and Don Sharkey and Kathy Hamilton",
     sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND ROM",
     dam: "CH Old Bay Get My Drift At Powder Ridge  ",
-    dob: "June 24, 2011",
+    dob: "2011-06-24T08:00:00Z",
     boys: 6,
     girls: 1,
     puppies: [],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Lincoln.jpg */ "./images/litters/Lincoln.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Allie.jpg */ "./images/litters/Allie.jpg")
   }, {
     id: 19,
-    parents: "Spice and Travis",
+    parents: "Travis and Spice",
     breeders: "Cindy and John Flowers",
     sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
     dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "December 25, 2010",
+    dob: "2010-12-25T08:00:00Z",
     boys: 4,
     girls: 4,
     puppies: ["Blitzen", "Brenden", "Dasher", "Dory", "Nutmeg", "Gus", "Latte", "Dancer"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Travis.jpg */ "./images/litters/Travis.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Spice.jpg */ "./images/litters/Spice.jpg")
   }, {
     id: 20,
-    parents: "Pharrah and Travis",
+    parents: "Travis and Pharrah",
     breeders: "Cindy Flowers and Dirk Daelmans",
     sire: "GCH Bear N Mind's Maritime Traveler CD, WD1",
     dam: "CH Waterford FrontPage",
-    dob: "October 26, 2010",
+    dob: "2010-10-26T08:00:00Z",
     boys: 4,
     girls: 1,
     puppies: ["Atlas", "Heffalump", "Party", "Sirius", "Sonar"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Travis.jpg */ "./images/litters/Travis.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Pharrah.jpg */ "./images/litters/Pharrah.jpg")
   }, {
     id: 21,
-    parents: "Chilly and Jimmy",
+    parents: "Jimmy and Chilly",
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "Select Ch Council Cup's Star of Kodiak Acres RN DD CGC TDI",
     dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "April 10, 2010",
+    dob: "2010-04-10T08:00:00Z",
     boys: 1,
     girls: 0,
     puppies: ["Guiness"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Jimmy.jpg */ "./images/litters/Jimmy.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Chilly.jpg */ "./images/litters/Chilly.jpg")
   }, {
     id: 22,
-    parents: "Pharrah and Dexter",
+    parents: "Dexter and Pharrah",
     breeders: "Cindy Flowers and Dirk Daelman",
     sire: "CH Allegiance Rock The Boat Old Bay",
     dam: "CH Waterford Frontpage ",
-    dob: "June 24, 2010",
+    dob: "2010-06-24T08:00:00Z",
     boys: 2,
     girls: 2,
     puppies: ["Bridget", "Raven", "Linus", "Tyler"],
@@ -17609,35 +18156,35 @@ var initState = {
     damimg: __webpack_require__(/*! ../../images/litters/Pharrah.jpg */ "./images/litters/Pharrah.jpg")
   }, {
     id: 23,
-    parents: "Cosmo and Carson",
+    parents: "Carson and Cosmo",
     breeders: "Cindy Flowers and Deb Wigal",
     sire: "Muddy Creek's Carson",
     dam: "CH Top Shelf's Cosmopolitan",
-    dob: "June 2, 2009",
+    dob: "2009-06-02T08:00:00Z",
     boys: 3,
     girls: 2,
     puppies: ["Happy", "Muddy", "Reba", "Rudd", "Miss Sunny"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Carson.jpg */ "./images/litters/Carson.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Cosmo.jpg */ "./images/litters/Cosmo.jpg")
   }, {
     id: 24,
-    parents: "Chilly and Carson",
+    parents: "Carson and Chilly",
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "Muddy Creek's Carson",
     dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "June 9, 2009",
+    dob: "2009-06-09T08:00:00Z",
     boys: 2,
     girls: 1,
     puppies: ["Lucy", "Luke", "Tux"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Carson.jpg */ "./images/litters/Carson.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Chilly.jpg */ "./images/litters/Chilly.jpg")
   }, {
     id: 25,
-    parents: "Spice and Bruce",
+    parents: "Bruce and Spice",
     breeders: "John and Cindy Flowers",
     sire: "CH Top Shelf Troubles A Brewin CD, RN, DD, WD",
     dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "December 3, 2008",
+    dob: "2008-12-03T08:00:00Z",
     boys: 5,
     girls: 2,
     puppies: ["Annie", "Cormack", "Jayne", "Maximus", "Mickey", "Nanaimo", "Sparkle"],
@@ -17645,50 +18192,51 @@ var initState = {
     damimg: __webpack_require__(/*! ../../images/litters/Spice.jpg */ "./images/litters/Spice.jpg")
   }, {
     id: 26,
-    parents: "Chilly and Christopher",
+    parents: "Christopher and Chilly",
     breeders: "Kathy Hamilton and Cindy Flowers",
     sire: "BISS CH SUNVALLEY PETITIONS POUCH COVE, ROM",
     dam: "GCH OLD BAY'S HELLFROZOVER TOPSHELF THDN ROM",
-    dob: "April 10, 2008",
+    dob: "2008-04-10T08:00:00Z",
     boys: 4,
     girls: 1,
     puppies: ["Allie", "Burnie", "Canyon", "Potter", "Sampson"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Christopher.jpg */ "./images/litters/Christopher.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Chilly.jpg */ "./images/litters/Chilly.jpg")
   }, {
     id: 27,
-    parents: "Spice and Lincoln",
+    parents: "Lincoln and Spice",
     breeders: "John and Cindy Flowers",
     sire: "BIS, BISS, GCH SKIPPER'S EMINENCE KING OF HELLULAND ROM",
     dam: "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
-    dob: "March 10, 2008",
+    dob: "2008-03-10T08:00:00Z",
     boys: 0,
     girls: 1,
     puppies: ["Sporty"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Lincoln.jpg */ "./images/litters/Lincoln.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Spice.jpg */ "./images/litters/Spice.jpg")
   }, {
     id: 28,
-    parents: "Party and Rrrocky",
+    parents: "Rocky and Party",
     breeders: "Top Shelf - Deb Wigal, Cindy Flowers and Kathy Hamilton",
     sire: "CH TOP SHELF'S ON THE ROCKS, ROM",
     dam: "CH TOP SHELF'S WILD NIGHT OUT, ROM",
-    dob: "September 26, 2005",
+    dob: "2005-09-26T08:00:00Z",
     boys: 6,
     girls: 4,
     puppies: ["Izzy", "Chilly", "Cosmo", "Jagger", "Ice"],
     sireimg: __webpack_require__(/*! ../../images/litters/Rocky.jpg */ "./images/litters/Rocky.jpg"),
-    damimg: __webpack_require__(/*! ../../images/litters/Dam.jpg */ "./images/litters/Dam.jpg")
+    damimg: __webpack_require__(/*! ../../images/litters/Party.jpg */ "./images/litters/Party.jpg")
   }, {
     id: 29,
-    breeders: " Cindy Flowers, John Flowers, Nancy Beres and Deb Wigal",
-    sire: "",
-    dam: "",
-    dob: "May 16, 2002",
+    parents: "Harrison and Daisy",
+    breeders: "Cindy Flowers, John Flowers, Nancy Beres and Deb Wigal",
+    sire: "BISS CH Numa's Had to Be Pouch Cove ROM",
+    dam: "VN CH TOP SHELF'S STAR DAISY, CD, DD, WRD ROM",
+    dob: "2002-05-16T08:00:00Z",
     boys: 4,
     girls: 1,
     puppies: ["Opie - Cindy and John", "Rocky - Kathy Hamilton", "Simon - Cindy and John", "Sid - Deb Wigal", "Frankie - Amy Lane"],
-    sireimg: __webpack_require__(/*! ../../images/litters/sire.jpg */ "./images/litters/sire.jpg"),
+    sireimg: __webpack_require__(/*! ../../images/litters/Harrison.jpg */ "./images/litters/Harrison.jpg"),
     damimg: __webpack_require__(/*! ../../images/litters/Daisy.jpg */ "./images/litters/Daisy.jpg")
   }],
   awards: [{
@@ -19441,7 +19989,15 @@ function byDate(a, b) {
   return 0;
 }
 
+function byDOB(a, b) {
+  if (a.dob < b.dob) return 1;
+  if (a.dob > b.dob) return -1;
+  return 0;
+}
+
 initState.awards.sort(byDate);
+initState.litters.sort(byDOB);
+initState.dogs.sort(byDOB);
 
 var cartReducer = function cartReducer() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initState;
