@@ -2033,6 +2033,28 @@ module.exports = "/_next/static/images/Nash8Months-f6b43c6014ce87c8bfec1b9217137
 
 /***/ }),
 
+/***/ "./images/specialties/NashSENC2019.jpg":
+/*!*********************************************!*\
+  !*** ./images/specialties/NashSENC2019.jpg ***!
+  \*********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/NashSENC2019-92fafba68b5199cf98ee9f7fb8a471ec.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/NashSENC2019BOW.png":
+/*!************************************************!*\
+  !*** ./images/specialties/NashSENC2019BOW.png ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/NashSENC2019BOW-98fa2a367565b3e02cea1a4cf6b49b2d.png";
+
+/***/ }),
+
 /***/ "./images/specialties/NemoBearMountainSweepsBOS.jpg":
 /*!**********************************************************!*\
   !*** ./images/specialties/NemoBearMountainSweepsBOS.jpg ***!
@@ -14165,7 +14187,7 @@ var initState = {
     name: "GCHB Old Bay's Perfect Timing",
     sire: "CH Old Bay's Lead Me To Temptation ",
     dam: "Old Bay's Seasoned with Spice ROM",
-    dob: "February 23, 2014",
+    dob: "February 23, 2015",
     neutered: false,
     rip: "",
     owner: "Cindy Flowers and Kathy Hamilton",
@@ -14185,15 +14207,6 @@ var initState = {
       "title": "NCA Select",
       "date": "2018",
       "org": "AKC"
-    }],
-    Awards: [{
-      "award": "NCA Select",
-      "date": "2018",
-      "show": "National Specialty"
-    }, {
-      "award": "NCA Top Twenty",
-      "date": "2017",
-      "show": "National Specialty"
     }]
   }, {
     id: 5,
@@ -14217,19 +14230,6 @@ var initState = {
       "title": "CH",
       "date": "05/26/2018",
       "org": "AKC"
-    }],
-    Awards: [{
-      "award": "1st 9-12 Dog",
-      "date": "2018",
-      "show": "National Specialty"
-    }, {
-      "award": "1st 9-12 Puppy Sweeps",
-      "date": "2018",
-      "show": "National Specialty"
-    }, {
-      "award": "Best of Opposite in Sweepstakes",
-      "date": "2018",
-      "show": "National Specialty"
     }]
   }, {
     id: 6,
@@ -14338,15 +14338,6 @@ var initState = {
       "title": "Register of Merit",
       "date": "12/31/2019",
       "org": "NCA"
-    }],
-    Awards: [{
-      "award": "Top Twenty",
-      "date": "2018",
-      "show": "National Specialty"
-    }, {
-      "award": "NCA Register of Merit",
-      "date": "2019",
-      "show": "National Specialty"
     }]
   }, {
     id: 10,
@@ -14359,7 +14350,7 @@ var initState = {
     name: "GCH Old Bay's Snowball's Chance CD",
     sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
-    dob: "February 4, 2014",
+    dob: "February 4, 2015",
     neutered: false,
     rip: "",
     owner: "Andrea Jung and Cindy Flowers and Kathy Hamilton",
@@ -14391,7 +14382,7 @@ var initState = {
     name: "GCHS CH Old Bay's Big Bang CGC",
     sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCH CH Old Bay's Lucy Fur CGC, TDI, THDN",
-    dob: "February 4, 2014",
+    dob: "February 4, 2015",
     neutered: false,
     rip: "",
     owner: "Anne and David Nored and Cindy Flowers",
@@ -14419,11 +14410,6 @@ var initState = {
       "title": "GCHS",
       "date": "06/01/2019",
       "org": "AKC"
-    }],
-    Awards: [{
-      "award": "Top Twenty",
-      "date": "2018",
-      "show": "National Specialty"
     }]
   }, {
     id: 12,
@@ -14460,11 +14446,6 @@ var initState = {
       "title": "Register of Merit",
       "date": "04/07/2015",
       "org": "AKC"
-    }],
-    Awards: [{
-      "award": "Best of Breed",
-      "date": "2015",
-      "show": "National Specialty"
     }]
   }, {
     id: 13,
@@ -14576,19 +14557,6 @@ var initState = {
       "title": "Register of Merit",
       "date": "12/31/2016",
       "org": "NCA"
-    }],
-    Awards: [{
-      "award": "Top Twenty",
-      "date": "2010",
-      "show": "National Specialty"
-    }, {
-      "award": "Top Show Bitch",
-      "date": "2010",
-      "show": "NCA"
-    }, {
-      "award": "Top Twenty",
-      "date": "2012",
-      "show": "National Specialty"
     }]
   }, {
     id: 16,
@@ -14937,15 +14905,6 @@ var initState = {
       "title": "CH",
       "date": "10/26/2003",
       "org": "AKC"
-    }],
-    Awards: [{
-      "award": "Top Twenty",
-      "date": "2004",
-      "show": "Honored at the 2005 National"
-    }, {
-      "award": "Top Twenty",
-      "date": "2005",
-      "show": "Honored at the 2006 National"
     }]
   }, {
     id: 25,
@@ -15112,11 +15071,6 @@ var initState = {
       "title": "Register of Merit",
       "date": "12/31/2009",
       "org": "NCA"
-    }],
-    Awards: [{
-      "award": "Top Twenty",
-      "date": "2006",
-      "show": "Honored at the 2007 National"
     }]
   }, {
     id: 30,
@@ -15341,7 +15295,7 @@ var initState = {
     ours: false,
     stud: false,
     sex: "male",
-    name: "CH Dreamhaven's Sum It Up With Old Bay WD, CGC",
+    name: "CH Dreamhaven's Sum It Up With Old Bay CGC, TKN, WD",
     sire: "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     dam: "GCHB Old Bay's Keep It Simple ROM",
     dob: "11/10/2018",
@@ -15354,6 +15308,10 @@ var initState = {
     image: "",
     Titles: [{
       "title": "CGC",
+      "date": "07/13/2019",
+      "org": "AKC"
+    }, {
+      "title": "TKN",
       "date": "07/13/2019",
       "org": "AKC"
     }, {
@@ -17734,12 +17692,175 @@ var initState = {
     damimg: __webpack_require__(/*! ../../images/litters/Daisy.jpg */ "./images/litters/Daisy.jpg")
   }],
   awards: [{
+    rom: true,
+    award: "Register of Merit",
+    show: "Honored at the 2017 National",
+    date: "2016-12-31T08:00:00Z",
+    dog: "Nutmeg",
+    id: 64,
+    image: __webpack_require__(/*! ../../images/info/Nutmeg.jpg */ "./images/info/Nutmeg.jpg")
+  }, {
+    rom: true,
+    award: "Register of Merit",
+    show: "Honored at the 20010 National",
+    date: "2009-12-31T08:00:00Z",
+    dog: "Rocky",
+    id: 29,
+    image: __webpack_require__(/*! ../../images/info/Rocky.jpg */ "./images/info/Rocky.jpg")
+  }, {
+    rom: true,
+    award: "Register of Merit",
+    show: "Honored at the 2017 National",
+    date: "2016-12-31T08:00:00Z",
+    dog: "Daisy",
+    id: 21,
+    image: __webpack_require__(/*! ../../images/info/Daisy.jpg */ "./images/info/Daisy.jpg")
+  }, {
+    rom: true,
+    award: "Register of Merit",
+    show: "Honored at the 2013 National",
+    date: "2012-12-31T08:00:00Z",
+    dog: "Chilly",
+    id: 18,
+    image: __webpack_require__(/*! ../../images/info/Chilly.jpg */ "./images/info/Chilly.jpg")
+  }, {
+    rom: true,
+    award: "Register of Merit",
+    show: "Honored at the 2016 National",
+    date: "2015-12-31T08:00:00Z",
+    dog: "Carson",
+    id: 15,
+    image: __webpack_require__(/*! ../../images/info/Carson.jpg */ "./images/info/Carson.jpg")
+  }, {
+    rom: true,
+    award: "Register of Merit",
+    show: "Honored at the 2017 National",
+    date: "2016-12-31T08:00:00Z",
+    dog: "Lucy",
+    id: 9,
+    image: __webpack_require__(/*! ../../images/info/Lucy.jpg */ "./images/info/Lucy.jpg")
+  }, {
+    toptwenty: true,
+    award: "2017 Top Twenty",
+    show: "Honored at the 2018 National",
+    date: "2017-12-31T08:00:00Z",
+    dog: "Rolex",
+    id: 4,
+    image: __webpack_require__(/*! ../../images/info/Rolex.jpg */ "./images/info/Rolex.jpg")
+  }, {
+    award: "2018 Top Twenty",
+    toptwenty: true,
+    show: "Honored at the 2019 National",
+    date: "2018-12-31T08:00:00Z",
+    dog: "Kiss",
+    id: 9,
+    image: __webpack_require__(/*! ../../images/info/Kiss.jpg */ "./images/info/Kiss.jpg")
+  }, {
+    rom: true,
+    award: "Register of Merit *Pending",
+    show: "To Be Honored at the 2020 National",
+    date: "2019-12-31T08:00:00Z",
+    dog: "Kiss",
+    id: 9,
+    image: __webpack_require__(/*! ../../images/info/Kiss.jpg */ "./images/info/Kiss.jpg")
+  }, {
+    toptwenty: true,
+    award: "2018 Top Twenty",
+    show: "Honored at the 2019 National",
+    date: "2018-12-31T08:00:00Z",
+    dog: "Flash",
+    id: 11,
+    image: __webpack_require__(/*! ../../images/info/Flash.jpg */ "./images/info/Flash.jpg")
+  }, {
+    award: "Best of Breed",
+    show: "2015 National",
+    date: "2015-12-31T08:00:00Z",
+    dog: "Carson",
+    id: 12,
+    image: __webpack_require__(/*! ../../images/info/Carson.jpg */ "./images/info/Carson.jpg")
+  }, {
+    rom: true,
+    award: "Register of Merit",
+    show: "Honored at the 2017 National",
+    date: "2016-12-31T08:00:00Z",
+    dog: "Spice",
+    id: 15,
+    image: __webpack_require__(/*! ../../images/info/Spice.jpg */ "./images/info/Spice.jpg")
+  }, {
+    toptwenty: true,
+    award: "2010 Top Twenty",
+    show: "Honored at the 2011 National",
+    date: "2010-12-31T08:00:00Z",
+    dog: "Spice",
+    id: 15,
+    image: __webpack_require__(/*! ../../images/info/Spice.jpg */ "./images/info/Spice.jpg")
+  }, {
+    award: "2010 Top Show Bitch",
+    show: "Honored at the 2011 National",
+    date: "2010-12-31T08:00:00Z",
+    dog: "Spice",
+    id: 15,
+    image: __webpack_require__(/*! ../../images/info/Spice.jpg */ "./images/info/Spice.jpg")
+  }, {
+    toptwenty: true,
+    award: "2012 Top Twenty",
+    show: "Honored at the 2013 National",
+    date: "2012-12-31T08:00:00Z",
+    dog: "Spice",
+    id: 15,
+    image: __webpack_require__(/*! ../../images/info/Spice.jpg */ "./images/info/Spice.jpg")
+  }, {
+    toptwenty: true,
+    award: "2004 Top Twenty",
+    show: "Honored at the 2005 National",
+    date: "2004-12-31T08:00:00Z",
+    dog: "Opie",
+    id: 24,
+    image: __webpack_require__(/*! ../../images/info/Opie.jpg */ "./images/info/Opie.jpg")
+  }, {
+    toptwenty: true,
+    award: "2005 Top Twenty",
+    show: "Honored at the 2006 National",
+    date: "2005-12-31T08:00:00Z",
+    dog: "Opie",
+    id: 24,
+    image: __webpack_require__(/*! ../../images/info/Opie.jpg */ "./images/info/Opie.jpg")
+  }, {
+    toptwenty: true,
+    award: "2006 Top Twenty",
+    show: "Honored at the 2007 National",
+    date: "2006-12-31T08:00:00Z",
+    dog: "Rocky",
+    id: 29,
+    image: __webpack_require__(/*! ../../images/info/Rocky.jpg */ "./images/info/Rocky.jpg")
+  }, {
     image: __webpack_require__(/*! ../../images/specialties/Flash2019AKCChampionship.jpg */ "./images/specialties/Flash2019AKCChampionship.jpg"),
     award: "Award of Exellence",
     show: "AKC Royal Canin National Dog Show",
     date: "2019-12-15T08:00:00Z",
     dog: "Flash",
     id: 11
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/NashSENC2019.jpg */ "./images/specialties/NashSENC2019.jpg"),
+    award: "Best of Winners, 1st 9-12 puppy",
+    show: "2019 SENC Regional",
+    date: "2019-07-28T08:00:00Z",
+    dog: "Nash",
+    id: 98
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/NashSENC2019BOW.png */ "./images/specialties/NashSENC2019BOW.png"),
+    award: "Best of Winners, 1st 9-12 puppy",
+    show: "2019 SENC Regional",
+    date: "2019-07-27T08:00:00Z",
+    dog: "Nash",
+    id: 98
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/Nash2019AKCChampionship.jpg */ "./images/specialties/Nash2019AKCChampionship.jpg"),
+    award: "Best of Winners, 1st 12-18 dog",
+    show: " AKC Royal Canin National Dog Show",
+    date: "2019-12-15T08:00:00Z",
+    dog: "Nash",
+    id: 98
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Nash2019AKCChampionship.jpg */ "./images/specialties/Nash2019AKCChampionship.jpg"),
     award: "Best of Winners, 1st 12-18 dog",
@@ -17814,7 +17935,7 @@ var initState = {
     image: __webpack_require__(/*! ../../images/specialties/FlashBOS2019SENC.jpg */ "./images/specialties/FlashBOS2019SENC.jpg"),
     award: "Best of Opposite Sex",
     show: "SENC Regional",
-    date: "2019-07-27T08:00:00Z",
+    date: "2019-07-28T08:00:00Z",
     dog: "Flash",
     id: 11
   }, {
@@ -19313,52 +19434,6 @@ var initState = {
 //GCH CH Old Bay's Get My Drift At Powder Ridge
 //GCH CH Old Bay's Please Don'T Squeeze The Charm'N
 //GCH CH Old Bay's "Potter As In Harry" CD BN RA CGC
-
-Date.prototype.setISO8601 = function (string) {
-  var regexp = "([0-9]{4})(-([0-9]{2})(-([0-9]{2})" + "(T([0-9]{2}):([0-9]{2})(:([0-9]{2})(\.([0-9]+))?)?" + "(Z|(([-+])([0-9]{2}):([0-9]{2})))?)?)?)?";
-  var d = string.match(new RegExp(regexp));
-  var offset = 0;
-  var date = new Date(d[1], 0, 1);
-
-  if (d[3]) {
-    date.setMonth(d[3] - 1);
-  }
-
-  if (d[5]) {
-    date.setDate(d[5]);
-  }
-
-  if (d[7]) {
-    date.setHours(d[7]);
-  }
-
-  if (d[8]) {
-    date.setMinutes(d[8]);
-  }
-
-  if (d[10]) {
-    date.setSeconds(d[10]);
-  }
-
-  if (d[12]) {
-    date.setMilliseconds(Number("0." + d[12]) * 1000);
-  }
-
-  if (d[14]) {
-    offset = Number(d[16]) * 60 + Number(d[17]);
-    offset *= d[15] == '-' ? 1 : -1;
-  }
-
-  offset -= date.getTimezoneOffset();
-  var time = Number(date) + offset * 60 * 1000;
-  this.setTime(Number(time));
-};
-
-function sortByDate(obj1, obj2) {
-  var date1 = new Date().setISO8601(obj1.date);
-  var date2 = new Date().setISO8601(obj2.date);
-  return date2 > date1 ? 1 : -1;
-}
 
 function byDate(a, b) {
   if (a.date < b.date) return 1;

@@ -1451,38 +1451,40 @@ Modal CSS
 Main Banner Area CSS
 =================================================*/
 .main-banner {
-  height: 600px;
+  height: 500px;
   position: relative;
   z-index: 1;
-  background-color: #959595;
-  background-size: cover;
   background-repeat: no-repeat;
-  background-position: center center;
+  background-position: top center;
 }
 
 .main-banner.item-bg1 {
-  background-image: url(/_next/static/images/main-banner1-796673c6b997704f4c4c18b39c160bce.jpg);
+  background-image: url(/_next/static/images/banner1-7948c0b50c5b8611439aa4b39248f1d3.jpg);
 }
 
 .main-banner.item-bg2 {
-  background-image: url(/_next/static/images/main-banner2-7fc7103840035f5abae92a4be115cb98.jpg);
+  background-image: url(/_next/static/images/banner2-829df428735e5ddfc6033b80044fbdf6.jpg);
 }
 
 .main-banner.item-bg3 {
-  background-image: url(/_next/static/images/main-banner3-79a0016d1236143bc949e17f25595817.jpg);
-}
-
-.main-banner.item-bg4 {
-  background-image: url(/_next/static/images/main-banner4-0950cf667ade174b4030e276d54b4347.jpg);
+  background-image: url(/_next/static/images/banner3-c981775caa76a3c6ddb1612889a10740.jpg);
 }
 
 .main-banner-content {
-  max-width: 520px;
+  margin-left: 30px;
+  margin-right: 30px;
+  margin-top: 15px;
+}
+
+.main-banner .btn {
+  display: block;
+  padding: 14px 25px;
+  margin-top: 15px;
 }
 
 .main-banner-content span {
   font-size: 14px;
-  color: #dadada;
+  color: #4e4e4e;
   display: block;
 }
 
@@ -1498,13 +1500,13 @@ Main Banner Area CSS
   text-transform: uppercase;
   margin-top: 8px;
   margin-bottom: 15px;
-  color: #eeeeee;
+  color: #222222;
 }
 
 .main-banner-content p {
   line-height: initial;
   font-size: 18px;
-  color: #eeeeee;
+  color: #222222;
   margin-bottom: 35px;
 }
 
@@ -1528,6 +1530,64 @@ Main Banner Area CSS
   background-color: #222222;
   color: #ffffff;
   border-color: #222222;
+}
+
+.main-banner-nav {
+  padding-left: 0;
+  list-style-type: none;
+  margin-bottom: 0;
+}
+
+.main-banner-nav li {
+  display: inline-block;
+  position: relative;
+  margin-right: 17px;
+  line-height: initial;
+}
+
+.main-banner-nav li a {
+  color: #222222;
+  font-size: 18px;
+  line-height: initial;
+  position: relative;
+}
+
+.main-banner-nav li a::before {
+  content: '';
+  position: absolute;
+  bottom: 0;
+  left: 0;
+  width: 0;
+  height: 1px;
+  background: #222222;
+  -webkit-transition: 0.5s;
+  transition: 0.5s;
+}
+
+.main-banner-nav li a:hover, .main-banner-nav li a:focus {
+  color: #222222;
+}
+
+.main-banner-nav li a:hover::before, .main-banner-nav li a:focus::before {
+  width: 100%;
+}
+
+.main-banner-nav li::before {
+  content: '';
+  position: absolute;
+  right: -9px;
+  top: 0.5px;
+  width: 1px;
+  height: 12px;
+  background: #888888;
+}
+
+.main-banner-nav li:last-child {
+  margin-right: 0;
+}
+
+.main-banner-nav li:last-child::before {
+  display: none;
 }
 
 .home-slides.owl-theme .owl-nav {
