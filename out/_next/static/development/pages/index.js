@@ -19989,7 +19989,7 @@ var removeItemFromCompare = function removeItemFromCompare(id) {
 
 /***/ }),
 
-/***/ 11:
+/***/ 9:
 /*!*************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F&absolutePagePath=C%3A%5CProjects%5CPortfolio%5Coldbaynewfoundlands%5Cpages%5Cindex.js ***!
   \*************************************************************************************************************************************/
@@ -20012,5 +20012,5 @@ module.exports = dll_1d49248b1ae4b0ff3f2c;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js"]]]);
+},[[9,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=index.js.map
