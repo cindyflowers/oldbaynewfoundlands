@@ -912,21 +912,156 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142
+          lineNumber: 143
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 143
+          lineNumber: 144
+        },
+        __self: this
+      }, "Award Type"), __jsx("ul", {
+        className: "megamenu-submenu",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 146
+        },
+        __self: this
+      }, __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 147
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/specialties",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 148
+        },
+        __self: this
+      }, __jsx("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 149
+        },
+        __self: this
+      }, "Specialties"))), __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 153
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/topTwenty",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 154
+        },
+        __self: this
+      }, __jsx("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 155
+        },
+        __self: this
+      }, "Top Twenty"))), __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 159
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/rom",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 160
+        },
+        __self: this
+      }, __jsx("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 161
+        },
+        __self: this
+      }, "Register of Merit"))), __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 165
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/vn",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 166
+        },
+        __self: this
+      }, __jsx("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 167
+        },
+        __self: this
+      }, "Versatile Newfoundland"))), __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 171
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/champions",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 172
+        },
+        __self: this
+      }, __jsx("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 173
+        },
+        __self: this
+      }, "Champions"))), __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 177
+        },
+        __self: this
+      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
+        href: "/working",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 178
+        },
+        __self: this
+      }, __jsx("a", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 179
+        },
+        __self: this
+      }, "Working"))))), __jsx("div", {
+        className: "col",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 184
+        },
+        __self: this
+      }, __jsx("h6", {
+        className: "submenu-title",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 185
         },
         __self: this
       }, "Register of Merit"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 187
         },
         __self: this
       }, rom.map(function (data, idx) {
@@ -934,14 +1069,14 @@ function (_Component) {
           href: "/about",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 147
+            lineNumber: 189
           },
           __self: this
         }, __jsx("li", {
           key: data.id,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 148
+            lineNumber: 190
           },
           __self: this
         }, __jsx("a", {
@@ -952,7 +1087,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 149
+            lineNumber: 191
           },
           __self: this
         }, __jsx("img", {
@@ -960,146 +1095,11 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 151
+            lineNumber: 193
           },
           __self: this
         }))));
       }))), __jsx("div", {
-        className: "col",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 158
-        },
-        __self: this
-      }, __jsx("h6", {
-        className: "submenu-title",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 159
-        },
-        __self: this
-      }, "Award Type"), __jsx("ul", {
-        className: "megamenu-submenu",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 161
-        },
-        __self: this
-      }, __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 162
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/specialties",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 163
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 164
-        },
-        __self: this
-      }, "Specialties"))), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 168
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/topTwenty",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 169
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 170
-        },
-        __self: this
-      }, "Top Twenty"))), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 174
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/rom",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 175
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 176
-        },
-        __self: this
-      }, "Register of Merit"))), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 180
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/vn",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 181
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 182
-        },
-        __self: this
-      }, "Versatile Newfoundland"))), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 186
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/champions",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 187
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 188
-        },
-        __self: this
-      }, "Champions"))), __jsx("li", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 192
-        },
-        __self: this
-      }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-        href: "/working",
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 193
-        },
-        __self: this
-      }, __jsx("a", {
-        __source: {
-          fileName: _jsxFileName,
-          lineNumber: 194
-        },
-        __self: this
-      }, "Working"))))), __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
@@ -18912,7 +18912,7 @@ var removeItemFromCompare = function removeItemFromCompare(id) {
 
 /***/ }),
 
-/***/ 9:
+/***/ 8:
 /*!********************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2F_error&absolutePagePath=C%3A%5CProjects%5CPortfolio%5Coldbaynewfoundlands%5Cpages%5C_error.js ***!
   \********************************************************************************************************************************************/
@@ -18935,5 +18935,5 @@ module.exports = dll_1d49248b1ae4b0ff3f2c;
 
 /***/ })
 
-},[[9,"static/runtime/webpack.js"]]]);
+},[[8,"static/runtime/webpack.js"]]]);
 //# sourceMappingURL=_error.js.map
