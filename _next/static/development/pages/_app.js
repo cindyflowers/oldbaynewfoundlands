@@ -1923,6 +1923,28 @@ module.exports = "/_next/static/images/FredBestInSweeps-8931c8d2470c0dd8aa4c7fc7
 
 /***/ }),
 
+/***/ "./images/specialties/GracieLaci.jpg":
+/*!*******************************************!*\
+  !*** ./images/specialties/GracieLaci.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/GracieLaci-e18a43c612efc79edce7f7804a1808b6.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/GracieLisa.jpg":
+/*!*******************************************!*\
+  !*** ./images/specialties/GracieLisa.jpg ***!
+  \*******************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/GracieLisa-82cc6e524e33b15c4a5ae36435c99f16.jpg";
+
+/***/ }),
+
 /***/ "./images/specialties/GracieObedience.jpg":
 /*!************************************************!*\
   !*** ./images/specialties/GracieObedience.jpg ***!
@@ -15098,7 +15120,7 @@ var initState = {
     "health": "http://www.offa.org/display.html?appnum=1096035#animal",
     "image": __webpack_require__(/*! ../../images/info/Simon.jpg */ "./images/info/Simon.jpg"),
     "Titles": [{
-      "title": "AJP",
+      "title": "",
       "date": "12/07/2007",
       "org": "AKC"
     }, {
@@ -15742,6 +15764,7 @@ var initState = {
   }, {
     "id": 35,
     "call": "Tilly",
+    "work": true,
     "ch": true,
     "toptwenty": "",
     "rom": false,
@@ -16810,7 +16833,7 @@ var initState = {
     "coown": true,
     "stud": false,
     "sex": "male",
-    "name": "CH Old Bay's Paniolo Bruddah At Ohana",
+    "name": "CH Old Bay's Paniolo Bruddah At Ohana WD",
     "sire": "CH Topshelfs Israel Kamakawiwoole",
     "dam": "Old Bay's Seasoned With Spice ROM",
     "dob": "2012-12-09T05:00:00.000Z",
@@ -18537,6 +18560,20 @@ var initState = {
     award: "2nd Beginner Novice A, 2nd Novice A, 3rd Novice A, 1st Beginner Novice A",
     show: "2019 National",
     date: "2019-04-30T08:00:00Z",
+    dog: "Gracie",
+    id: 63
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/GracieLaci.jpg */ "./images/specialties/GracieLaci.jpg"),
+    award: "BOS/WB (morning), Select & Best Junior Handler with Laci Peterson (afternoon)",
+    show: "Specialty",
+    date: "2017-12-18T08:00:00Z",
+    dog: "Gracie",
+    id: 63
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/GracieLisa.jpg */ "./images/specialties/GracieLisa.jpg"),
+    award: "BOS/WB (morning), Select (afternoon)",
+    show: "Specialty",
+    date: "2017-12-17T08:00:00Z",
     dog: "Gracie",
     id: 63
   }, {
