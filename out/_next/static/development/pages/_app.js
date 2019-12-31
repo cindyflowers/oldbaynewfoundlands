@@ -867,6 +867,17 @@ module.exports = "/_next/static/images/Tiffany-a9bd15965ea4f91a790f711b71cc6a35.
 
 /***/ }),
 
+/***/ "./images/info/Tilly.jpg":
+/*!*******************************!*\
+  !*** ./images/info/Tilly.jpg ***!
+  \*******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Tilly-b4ba8c8c75af45bf0977883214c04a41.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Tommy.jpg":
 /*!*******************************!*\
   !*** ./images/info/Tommy.jpg ***!
@@ -1072,7 +1083,7 @@ module.exports = "/_next/static/images/Izzy-de1d075890d539188ea3073b057c3759.jpg
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = "/_next/static/images/Jimmy-2f40f4787b93ae89ca16d09325ba4d1e.jpg";
+module.exports = "/_next/static/images/Jimmy-b487d152dc9d61dbe6f74364bca18394.jpg";
 
 /***/ }),
 
@@ -2536,6 +2547,17 @@ module.exports = "/_next/static/images/NemoTenn-e610abf810df3107a7a629f0edf782d3
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/NutmegPenOhio-e9ea14a65cee687faadda8c5cc8d1af8.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/ObiAndSnowball2019Brace.jpg":
+/*!********************************************************!*\
+  !*** ./images/specialties/ObiAndSnowball2019Brace.jpg ***!
+  \********************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/ObiAndSnowball2019Brace-0bb8a331de50e1d16d1f9527b16e101b.jpg";
 
 /***/ }),
 
@@ -14535,6 +14557,8 @@ var constants__WEBPACK_IMPORTED_MODULE_12___namespace = /*#__PURE__*/__webpack_r
 
 
 
+var _ref, _ref2;
+
 function ownKeys(object, enumerableOnly) { var keys = _babel_runtime_corejs2_core_js_object_keys__WEBPACK_IMPORTED_MODULE_5___default()(object); if (_babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default.a) { var symbols = _babel_runtime_corejs2_core_js_object_get_own_property_symbols__WEBPACK_IMPORTED_MODULE_4___default()(object); if (enumerableOnly) symbols = symbols.filter(function (sym) { return _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(object, sym).enumerable; }); keys.push.apply(keys, symbols); } return keys; }
 
 function _objectSpread(target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i] != null ? arguments[i] : {}; if (i % 2) { ownKeys(Object(source), true).forEach(function (key) { Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(target, key, source[key]); }); } else if (_babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default.a) { _babel_runtime_corejs2_core_js_object_define_properties__WEBPACK_IMPORTED_MODULE_1___default()(target, _babel_runtime_corejs2_core_js_object_get_own_property_descriptors__WEBPACK_IMPORTED_MODULE_2___default()(source)); } else { ownKeys(Object(source)).forEach(function (key) { _babel_runtime_corejs2_core_js_object_define_property__WEBPACK_IMPORTED_MODULE_0___default()(target, key, _babel_runtime_corejs2_core_js_object_get_own_property_descriptor__WEBPACK_IMPORTED_MODULE_3___default()(source, key)); }); } } return target; }
@@ -15725,7 +15749,7 @@ var initState = {
     "ours": false,
     "stud": false,
     "sex": "female",
-    "name": "CH Dreamhaven's Cascading Waterfalls At Old Bay CGC",
+    "name": "CH Dreamhaven's Cascading Waterfalls At Old Bay CGC, TKN, TKI, TKA",
     "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     "dam": "GCHB Old Bay's Keep It Simple ROM'",
     "dob": "2018-11-10T05:00:00.000Z",
@@ -15735,7 +15759,7 @@ var initState = {
     "aka": "",
     "lives": "Wendy",
     "health": "",
-    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "image": __webpack_require__(/*! ../../images/info/Tilly.jpg */ "./images/info/Tilly.jpg"),
     "Titles": [{
       "title": "CGC",
       "date": "04/09/2019",
@@ -15743,6 +15767,18 @@ var initState = {
     }, {
       "title": "CH",
       "date": "11/09/2019",
+      "org": "AKC"
+    }, {
+      "title": "TKN",
+      "date": "11/19/2019",
+      "org": "AKC"
+    }, {
+      "title": "TKI",
+      "date": "11/20/2019",
+      "org": "AKC"
+    }, {
+      "title": "TKA",
+      "date": "11/21/2019",
       "org": "AKC"
     }]
   }, {
@@ -16032,189 +16068,158 @@ var initState = {
       "date": "01/22/2011",
       "org": "AKC"
     }]
-  }, {
+  }, (_ref = {
     "id": 45,
     "call": "Sonar",
+    "wa": true,
     "work": true,
     "toptwenty": "",
     "rom": false,
-    "vn": false,
-    "wa": true,
-    "ours": false,
-    "stud": false,
-    "sex": "male",
-    "name": "WA Old Bay Sonic Wave AXP, CD, CDX, NAP, NJP, OAP, OJP, UD, DD, DDX, TDD3, TDDX, WD, WRD5, WRDX ",
-    "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
-    "dam": "CH Waterford Frontpage",
-    "dob": "2009-06-02T04:00:00.000Z",
-    "neutered": false,
-    "rip": "",
-    "owner": "Christie Smith",
-    "aka": "",
-    "lives": "Christie Smith",
-    "health": "",
-    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
-    "Titles": [{
-      "title": "AXP",
-      "date": "10/26/2013",
-      "org": "AKC"
-    }, {
-      "title": "CD",
-      "date": " 05/05/2012",
-      "org": "AKC"
-    }, {
-      "title": "CDX",
-      "date": "02/10/2013",
-      "org": "AKC"
-    }, {
-      "title": "NAP",
-      "date": "11/03/2012",
-      "org": "AKC"
-    }, {
-      "title": "NJP",
-      "date": "02/15/2013",
-      "org": "AKC"
-    }, {
-      "title": "OAP",
-      "date": "03/16/2013",
-      "org": "AKC"
-    }, {
-      "title": "OJP",
-      "date": "12/15/2013",
-      "org": "AKC"
-    }, {
-      "title": "UD",
-      "date": "02/07/2015",
-      "org": "AKC"
-    }, {
-      "title": "DD",
-      "date": "11/17/2012",
-      "org": "NCA"
-    }, {
-      "title": "DDX",
-      "date": "04/08/2016",
-      "org": "NCA"
-    }, {
-      "title": "TDD",
-      "date": "03/23/2013",
-      "org": "NCA"
-    }, {
-      "title": "TDD",
-      "date": "11/14/2015",
-      "org": "NCA"
-    }, {
-      "title": "TDD",
-      "date": "11/06/2016",
-      "org": "NCA"
-    }, {
-      "title": "TDDX",
-      "date": "11/04/2018",
-      "org": "NCA"
-    }, {
-      "title": "WD",
-      "date": "08/27/2011",
-      "org": "NCA"
-    }, {
-      "title": "WRD",
-      "date": "08/11/2012",
-      "org": "NCA"
-    }, {
-      "title": "WRD",
-      "date": "08/12/2012",
-      "org": "NCA"
-    }, {
-      "title": "WRD",
-      "date": "08/25/2012",
-      "org": "NCA"
-    }, {
-      "title": "WRD",
-      "date": "08/26/2012",
-      "org": "NCA"
-    }, {
-      "title": "WRD",
-      "date": "08/24/2013",
-      "org": "NCA"
-    }, {
-      "title": "WRDX",
-      "date": "08/23/2014",
-      "org": "NCA"
-    }]
+    "vn": false
+  }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "wa", true), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "ours", false), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "stud", false), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "sex", "male"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "name", "WA Old Bay Sonic Wave AXP, CD, CDX, NAP, NJP, OAP, OJP, UD, DD, DDX, TDD3, TDDX, WD, WRD5, WRDX "), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "sire", "GCH Bear N Mind's Maritime Traveler CD, WD1"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "dam", "CH Waterford Frontpage"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "dob", "2009-06-02T04:00:00.000Z"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "neutered", false), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "rip", ""), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "owner", "Christie Smith"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "aka", ""), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "lives", "Christie Smith"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "health", ""), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "image", __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg")), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref, "Titles", [{
+    "title": "AXP",
+    "date": "10/26/2013",
+    "org": "AKC"
   }, {
+    "title": "CD",
+    "date": " 05/05/2012",
+    "org": "AKC"
+  }, {
+    "title": "CDX",
+    "date": "02/10/2013",
+    "org": "AKC"
+  }, {
+    "title": "NAP",
+    "date": "11/03/2012",
+    "org": "AKC"
+  }, {
+    "title": "NJP",
+    "date": "02/15/2013",
+    "org": "AKC"
+  }, {
+    "title": "OAP",
+    "date": "03/16/2013",
+    "org": "AKC"
+  }, {
+    "title": "OJP",
+    "date": "12/15/2013",
+    "org": "AKC"
+  }, {
+    "title": "UD",
+    "date": "02/07/2015",
+    "org": "AKC"
+  }, {
+    "title": "DD",
+    "date": "11/17/2012",
+    "org": "NCA"
+  }, {
+    "title": "DDX",
+    "date": "04/08/2016",
+    "org": "NCA"
+  }, {
+    "title": "TDD",
+    "date": "03/23/2013",
+    "org": "NCA"
+  }, {
+    "title": "TDD",
+    "date": "11/14/2015",
+    "org": "NCA"
+  }, {
+    "title": "TDD",
+    "date": "11/06/2016",
+    "org": "NCA"
+  }, {
+    "title": "TDDX",
+    "date": "11/04/2018",
+    "org": "NCA"
+  }, {
+    "title": "WD",
+    "date": "08/27/2011",
+    "org": "NCA"
+  }, {
+    "title": "WRD",
+    "date": "08/11/2012",
+    "org": "NCA"
+  }, {
+    "title": "WRD",
+    "date": "08/12/2012",
+    "org": "NCA"
+  }, {
+    "title": "WRD",
+    "date": "08/25/2012",
+    "org": "NCA"
+  }, {
+    "title": "WRD",
+    "date": "08/26/2012",
+    "org": "NCA"
+  }, {
+    "title": "WRD",
+    "date": "08/24/2013",
+    "org": "NCA"
+  }, {
+    "title": "WRDX",
+    "date": "08/23/2014",
+    "org": "NCA"
+  }]), _ref), (_ref2 = {
     "id": 46,
     "call": "Spinnaker",
+    "wa": true,
     "work": true,
     "toptwenty": "",
-    "rom": false,
-    "wa": true,
-    "vn": false,
-    "ours": false,
-    "stud": false,
-    "sex": "male",
-    "name": "WA Old Bay Spinnaker Flyin CD, CDX, RA, RN, DD, DDX, TDD, TDDX, WD, WRD3",
-    "sire": "CH Powder Ridge's Dreams Come True",
-    "dam": "Old Bay's Seasoned With Spice ROM",
-    "dob": "2014-06-01T04:00:00.000Z",
-    "neutered": true,
-    "rip": "",
-    "owner": "Christie Smith",
-    "aka": "",
-    "lives": "Christie",
-    "health": "",
-    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
-    "Titles": [{
-      "title": "CD",
-      "date": "03/15/2015",
-      "org": "AKC"
-    }, {
-      "title": "CDX",
-      "date": "11/20/2016",
-      "org": "AKC"
-    }, {
-      "title": "RA",
-      "date": "10/27/2018",
-      "org": "AKC"
-    }, {
-      "title": "RN",
-      "date": "05/05/2018",
-      "org": "AKC"
-    }, {
-      "title": "DD",
-      "date": "11/05/2016",
-      "org": "NCA"
-    }, {
-      "title": "DDX",
-      "date": "03/24/2017",
-      "org": "NCA"
-    }, {
-      "title": "TDD",
-      "date": "11/06/2016",
-      "org": "NCA"
-    }, {
-      "title": "TDDX",
-      "date": "11/04/2018",
-      "org": "NCA"
-    }, {
-      "title": "WD",
-      "date": "08/07/2015",
-      "org": "NCA"
-    }, {
-      "title": "WRD",
-      "date": "07/24/2016",
-      "org": "NCA"
-    }, {
-      "title": "WRD",
-      "date": "08/19/2016",
-      "org": "NCA"
-    }, {
-      "title": "WRD",
-      "date": "08/04/2017",
-      "org": "NCA"
-    }, {
-      "title": "WRD",
-      "date": "08/06/2017",
-      "org": "NCA"
-    }]
+    "rom": false
+  }, Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "wa", true), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "vn", false), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "ours", false), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "stud", false), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "sex", "male"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "name", "WA Old Bay Spinnaker Flyin CD, CDX, RA, RN, DD, DDX, TDD, TDDX, WD, WRD3"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "sire", "CH Powder Ridge's Dreams Come True"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "dam", "Old Bay's Seasoned With Spice ROM"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "dob", "2014-06-01T04:00:00.000Z"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "neutered", true), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "rip", ""), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "owner", "Christie Smith"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "aka", ""), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "lives", "Christie"), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "health", ""), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "image", __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg")), Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_7__["default"])(_ref2, "Titles", [{
+    "title": "CD",
+    "date": "03/15/2015",
+    "org": "AKC"
   }, {
+    "title": "CDX",
+    "date": "11/20/2016",
+    "org": "AKC"
+  }, {
+    "title": "RA",
+    "date": "10/27/2018",
+    "org": "AKC"
+  }, {
+    "title": "RN",
+    "date": "05/05/2018",
+    "org": "AKC"
+  }, {
+    "title": "DD",
+    "date": "11/05/2016",
+    "org": "NCA"
+  }, {
+    "title": "DDX",
+    "date": "03/24/2017",
+    "org": "NCA"
+  }, {
+    "title": "TDD",
+    "date": "11/06/2016",
+    "org": "NCA"
+  }, {
+    "title": "TDDX",
+    "date": "11/04/2018",
+    "org": "NCA"
+  }, {
+    "title": "WD",
+    "date": "08/07/2015",
+    "org": "NCA"
+  }, {
+    "title": "WRD",
+    "date": "07/24/2016",
+    "org": "NCA"
+  }, {
+    "title": "WRD",
+    "date": "08/19/2016",
+    "org": "NCA"
+  }, {
+    "title": "WRD",
+    "date": "08/04/2017",
+    "org": "NCA"
+  }, {
+    "title": "WRD",
+    "date": "08/06/2017",
+    "org": "NCA"
+  }]), _ref2), {
     "id": 47,
     "call": "Annie",
     "toptwenty": "",
@@ -18516,9 +18521,15 @@ var initState = {
     dog: "Nash",
     id: 98
   }, {
-    image: __webpack_require__(/*! ../../images/specialties/AtlasAndObiBrace2019.jpg */ "./images/specialties/AtlasAndObiBrace2019.jpg"),
+    image: __webpack_require__(/*! ../../images/specialties/ObiAndSnowball2019Brace.jpg */ "./images/specialties/ObiAndSnowball2019Brace.jpg"),
     award: "3rd Brace",
     show: "2019 National",
+    date: "2019-04-30T08:00:00Z",
+    dog: "Obi and Snowball"
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/AtlasAndObiBrace2019.jpg */ "./images/specialties/AtlasAndObiBrace2019.jpg"),
+    award: "3rd Brace",
+    show: "2014 National",
     date: "2014-04-05T08:00:00Z",
     dog: "Atlas and Obi"
   }, {
