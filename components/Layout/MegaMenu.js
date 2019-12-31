@@ -89,9 +89,9 @@ class MegaMenu extends Component {
         //let cogirls = this.props.dogs.filter(dog => dog.sex == "female" && dog.coown == true  && dog.rip == "" );
         let past1to10 = this.props.dogs.filter(dog =>  dog.rip != "" && dog.id <= 20 );
         let past10andOver = this.props.dogs.filter(dog =>  dog.rip != "" && dog.id > 20);
-        let litters1to10 = this.props.litters.filter(litter => litter.id < 11);
-        let litters11to20 = this.props.litters.filter(litter => litter.id >10 && litter.id < 21);
-        let litters21andOver = this.props.litters.filter(litter => litter.id >20);
+        let litters1to10 = this.props.litters.slice(0,9);
+        let litters11to20 = this.props.litters.slice(10,19);
+        let litters21andOver = this.props.litters.slice(20);
         let toptwenty = this.props.dogs.filter(dog => dog.toptwenty != "");
         let rom = this.props.dogs.filter(dog => dog.rom == true);
         return (
@@ -139,6 +139,53 @@ class MegaMenu extends Component {
                                                 <li className="nav-item" role="presentation">
                                                     <div className="container">
                                                         <div className="row">
+                                                        
+                                                        <div className="col">
+                                                            <h6 className="submenu-title">Award Type</h6>
+
+                                                            <ul className="megamenu-submenu">
+                                                                <li>
+                                                                    <Link href="/specialties">
+                                                                        <a>Specialties</a>
+                                                                    </Link>
+                                                                </li>
+
+                                                                <li>
+                                                                    <Link href="/top20">
+                                                                        <a>Top Twenty</a>
+                                                                    </Link>
+                                                                </li>
+
+                                                                <li>
+                                                                    <Link href="/rom">
+                                                                        <a>Register of Merit</a>
+                                                                    </Link>
+                                                                </li>
+
+                                                                <li>
+                                                                    <Link href="/vn">
+                                                                        <a>Versatile Newfoundland</a>
+                                                                    </Link>
+                                                                </li>
+
+                                                                <li>
+                                                                    <Link href="/champions">
+                                                                        <a>Champions</a>
+                                                                    </Link>
+                                                                </li>
+
+                                                                <li>
+                                                                    <Link href="/working">
+                                                                        <a>Working</a>
+                                                                    </Link>
+                                                                </li>
+                                                                <li>
+                                                                    <Link href="/titled">
+                                                                        <a>Titled</a>
+                                                                    </Link>
+                                                                </li>
+                                                            </ul>
+                                                        </div>
                                                         <div className="col">
                                                                 <h6 className="submenu-title">Register of Merit</h6>
 
@@ -154,65 +201,23 @@ class MegaMenu extends Component {
                                                                     ))}
 
                                                                 </ul>
-                                                            </div>
-                                                            <div className="col">
-                                                                <h6 className="submenu-title">Award Type</h6>
+                                                        </div>
+                                                        <div className="col">
+                                                            <h6 className="submenu-title">NCA Top Twenty</h6>
 
-                                                                <ul className="megamenu-submenu">
-                                                                    <li>
-                                                                        <Link href="/specialties">
-                                                                            <a>Specialties</a>
-                                                                        </Link>
-                                                                    </li>
+                                                            <ul className="megamenu-submenu top-brands">
+                                                                {toptwenty.map((data, idx) => (
+                                                                    <Link href="/about">
+                                                                        <li key={data.id}>
+                                                                            <a data-tip={data.call + ' (' + data.toptwenty + ')'} data-place="left" onClick={(e) => {
+                                                                                this.handleSetCurrentDog(data.id)
+                                                                            }}><img src={data.image} alt="image" /></a>
+                                                                        </li>
+                                                                    </Link>
+                                                                ))}
 
-                                                                    <li>
-                                                                        <Link href="/topTwenty">
-                                                                            <a>Top Twenty</a>
-                                                                        </Link>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <Link href="/rom">
-                                                                            <a>Register of Merit</a>
-                                                                        </Link>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <Link href="/vn">
-                                                                            <a>Versatile Newfoundland</a>
-                                                                        </Link>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <Link href="/champions">
-                                                                            <a>Champions</a>
-                                                                        </Link>
-                                                                    </li>
-
-                                                                    <li>
-                                                                        <Link href="/working">
-                                                                            <a>Working</a>
-                                                                        </Link>
-                                                                    </li>
-                                                                </ul>
-                                                            </div>
-                                                            
-                                                            <div className="col">
-                                                                <h6 className="submenu-title">NCA Top Twenty</h6>
-
-                                                                <ul className="megamenu-submenu top-brands">
-                                                                    {toptwenty.map((data, idx) => (
-                                                                        <Link href="/about">
-                                                                            <li key={data.id}>
-                                                                                <a data-tip={data.call + ' (' + data.toptwenty + ')'} data-place="left" onClick={(e) => {
-                                                                                    this.handleSetCurrentDog(data.id)
-                                                                                }}><img src={data.image} alt="image" /></a>
-                                                                            </li>
-                                                                        </Link>
-                                                                    ))}
-
-                                                                </ul>
-                                                            </div>
+                                                            </ul>
+                                                        </div>
                                                         </div>
                                                     </div>
                                                 </li>

@@ -31,17 +31,6 @@ class DogCard extends Component {
     render() {
         let { awards } = this.props;
         const { modalOpen } = this.state;
-        // awards.sort(function(a, b) {
-        //     if (b == null) {
-        //         alert ("null found");
-        //         return -1;
-        //     }
-        //     if (a == null) {
-        //         alert ("null found");
-        //         return -1;
-        //     }
-        //     return b.date > a.date;
-        //   });
         return (
             <React.Fragment>
                 <ReactTooltip  />

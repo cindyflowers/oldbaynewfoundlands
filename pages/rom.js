@@ -1,0 +1,54 @@
+import React, { Component } from 'react';
+import Navbar from '../components/Layout/Navbar';
+import Footer from '../components/Layout/Footer';
+import Breadcrumb from '../components/Common/Breadcrumb';
+import DogFilterOptions from '../components/DogFilterOptions';
+import DogRomCard from '../components/DogRomCard';
+
+class Rom extends Component {
+
+    state = {
+        gridClass: 'products-col-four'
+    }
+
+    handleGrid = (e) => {
+        this.setState({
+            gridClass: e
+        });
+    }
+    
+    render() {
+        let { gridClass } = this.state;
+        return (
+            <React.Fragment>
+                <Navbar />
+                <Breadcrumb title="Register of Merit" />
+
+                <section className="products-collections-area ptb-60">
+                    <div className="container">
+                        <div className="section-title">
+                            <h2>Register of Merit</h2>
+                        </div>
+                    </div>
+
+                    <div className="container-fluid">
+                        <div className="row">
+                            <div className="col-lg-12 col-md-12">
+                                <DogFilterOptions onClick={this.handleGrid} />
+
+                                <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
+                                    <DogRomCard />
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    
+                </section>
+
+                <Footer />
+            </React.Fragment>
+        );
+    }
+}
+
+export default Rom;

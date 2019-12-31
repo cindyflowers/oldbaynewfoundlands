@@ -6,6 +6,7 @@ import Breadcrumb from '../components/Common/Breadcrumb';
 import dynamic from 'next/dynamic';
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
 import ReactTooltip from 'react-tooltip'
+import Moment from 'react-moment'
 
 // id: 1,
 // parents: "Rhone and Kiss",
@@ -33,6 +34,15 @@ const options = {
     ]
 }
 
+function getIndex (litters, id) {
+    for (var i = 0; i < litters.length; ++i) {
+     if (litters[i].id === id) {
+       return i;
+     }
+    }
+    return -1;
+  }
+
 class Index extends Component {
     state = { 
         display: false,
@@ -42,7 +52,8 @@ class Index extends Component {
         this.setState({ display: true}) 
     }
     render() {
-        options.startPosition = this.props.currentLitter - 1;
+
+        options.startPosition = getIndex(this.props.litters, this.props.currentLitter);
         return (
             
             <React.Fragment>
@@ -62,7 +73,7 @@ class Index extends Component {
                                         <table className="table table-striped">
                                             <tr>
                                                 <td>Born</td>
-                                                <td>{data.dob}</td>
+                                                <td><Moment format="MMMM DD, YYYY">{data.dob}</Moment></td>
                                             </tr>
                                             
                                             <tr>

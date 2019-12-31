@@ -22,12 +22,13 @@ class Index extends Component {
         return (
             <React.Fragment>
                 <Navbar />
-                <Breadcrumb title="Men's" />
+                <Breadcrumb title="Specialty Awards" />
 
                 <section className="products-collections-area ptb-60">
                     <div className="container">
                         <div className="section-title">
-                            <h2>Specialties</h2>
+                            <h2>Specialty Awards</h2>
+                            <p>The following awards were received by dogs bred, co-bred or owned by Old Bay Newfoundlands.</p>
                         </div>
                     </div>
 

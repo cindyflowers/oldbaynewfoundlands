@@ -1,8 +1,11 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import Link from 'next/link';
 import VisibilitySensor from "react-visibility-sensor";
 import dynamic from 'next/dynamic';
 const OwlCarousel = dynamic(import('react-owl-carousel3'));
+import moment from 'moment';
+
 
 const options = {
     loop: true,
@@ -18,6 +21,7 @@ const options = {
     ]
 }
 
+
 class Banner extends Component {
     state = { 
         display: false,
@@ -27,184 +31,102 @@ class Banner extends Component {
     componentDidMount(){ 
         this.setState({ display: true }) 
     }
+
+    // handleSaveJson = (dogs) => {
+    //     for (var i = 0; i < dogs.length; ++i) {
+    //         let dob = moment(dogs[i].dob).toISOString();
+    //         dogs[i].dob = dob;
+    //     }
+    //     let myDogs = JSON.stringify(dogs);
+    // }
     render() {
         return (
             <React.Fragment>
-            {this.state.display ? <OwlCarousel 
-                className="home-slides owl-carousel owl-theme"
-                {...options}
-            >
-                <div className="main-banner item-bg2">
-                    <div className="main-banner-d-table">
-                        <div className="main-banner-d-table-cell">
-                            <div className="container">
-                                <VisibilitySensor>
-                                    {({ isVisible }) => (
-                                        <div className="main-banner-content">
-                                            <span
-                                                className={
-                                                    isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
-                                                }
-                                            >
-                                                Established in 1988
-                                            </span>
-                                            <h1
-                                                className={
-                                                    isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
-                                                }
-                                            >
-                                                OLD BAY NEWFOUNDLANDS
-                                            </h1>
-                                            <p
-                                                className={
-                                                    isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
-                                                }
-                                            >
-                                                Dedicated to perserving the future of purebred Newfoundlands
-                                            </p>
-                                            
-                                            <Link href="#">
-                                                <a 
-                                                    className={
-                                                        `btn btn-primary ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
-                                                    }
-                                                >
-                                                    THE BOYS
-                                                </a>
-                                            </Link>
-
-                                            <Link href="#">
-                                                <a 
-                                                    className={
-                                                        `btn btn-primary ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
-                                                    }
-                                                >
-                                                    THE GIRLS
+            {/* <div className="main-banner">
+                <div className="">*/}
+            <div className="main-banner-content">
+                <div className="row"> 
+                            <div className="col-lg-4 col-sm-12 col-md-5 col-12">
+                                <div className="main-banner-content">
+                                    <span>
+                                        Established in 1988
+                                    </span>
+                                    <h1>
+                                        OLD BAY NEWFOUNDLANDS
+                                    </h1>
+                                    <p>
+                                        Dedicated to perserving the future of purebred Newfoundlands
+                                    </p>
+                                    <p> 
+                                        <ul className="main-banner-nav">
+                                            <li> 
+                                                <Link href="https://www.NewfPuppy.com" >
+                                                    <a target="_blank"><i className="fas fa-dog"></i> www.NewfPuppy.com <i className="fas fa-dog"></i></a>
+                                                </Link>
+                                            </li> 
+                                        </ul>can help you decide if a Newfoundland is the right breed of dog for you.
+                                    </p>
+                                    <div className="row">
+                                        <div className="col-lg-6 col-sm-6 col-xs-6 col-md-6 col-12">
+                                            <Link href="specialties">
+                                                <a className="btn btn-primary">
+                                                    Specialty Awards
                                                 </a>
                                             </Link>
                                         </div>
-                                    )}
-                                </VisibilitySensor>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div className="main-banner item-bg1">
-                    <div className="main-banner-d-table">
-                        <div className="main-banner-d-table-cell">
-                            <div className="container">
-                                <VisibilitySensor>
-                                    {({ isVisible }) => (
-                                        <div className="main-banner-content">
-                                            <span
-                                                className={
-                                                    isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
-                                                }
-                                            >
-                                                Established in 1988
-                                            </span>
-                                            <h1
-                                                className={
-                                                    isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
-                                                }
-                                            >
-                                                OLD BAY NEWFOUNDLANDS
-                                            </h1>
-                                            <p
-                                                className={
-                                                    isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'
-                                                }
-                                            >
-                                                Dedicated to perserving the future of purebred Newfoundlands
-                                            </p>
-                                            
-                                            <Link href="#">
-                                                <a 
-                                                    className={
-                                                        `btn btn-primary ${isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'}`
-                                                    }
-                                                >
-                                                    THE BOYS
-                                                </a>
-                                            </Link>
-
-                                            <Link href="#">
-                                                <a 
-                                                    className={
-                                                        `btn btn-primary ${isVisible ? "animated fadeInUp slow opacityOne" : 'opacityZero'}`
-                                                    }
-                                                >
-                                                    THE GIRLS
+                                        <div className="col-lg-6 col-sm-6 col-xs-6 col-md-6 col-12">
+                                            <Link  href="rom">
+                                                <a className="btn btn-primary">
+                                                    Register of Merit
                                                 </a>
                                             </Link>
                                         </div>
-                                    )}
-                                </VisibilitySensor>
+
+                                    </div>
+                                    {/* <Link href="#">
+                                        <a 
+                                            data-tip="Save Json" 
+                                            data-place="left" 
+                                            onClick={e => {
+                                                    e.preventDefault(); 
+                                                    this.handleSaveJson(this.props.dogs);
+                                                }
+                                            }
+                                        >
+                                            Save Json
+                                        </a>
+                                    </Link> */}
+                                </div>
                             </div>
-                        </div>
+                        {/* </div>
+                    </div> */}
+                    <div className="col-lg-8 col-sm-12 col-md-7 col-12"> 
+                    {this.state.display ? <OwlCarousel 
+                            className="home-slides owl-carousel owl-theme"
+                            {...options}
+                        >
+                            <div className="main-banner item-bg2">
+                            </div>
+
+                            <div className="main-banner item-bg1">
+                            </div>
+
+                            <div className="main-banner item-bg3">
+                            </div>
+                        </OwlCarousel>  : ''}
                     </div>
                 </div>
-
-                <div className="main-banner item-bg3">
-                    <div className="main-banner-d-table">
-                        <div className="main-banner-d-table-cell">
-                            <div className="container">
-                                <VisibilitySensor>
-                                    {({ isVisible }) => (
-                                        <div className="main-banner-content">
-                                            <span
-                                                className={
-                                                    isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
-                                                }
-                                            >
-                                                Established in 1988
-                                            </span>
-                                            <h1
-                                                className={
-                                                    isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
-                                                }
-                                            >
-                                                OLD BAY NEWFOUNDLANDS
-                                            </h1>
-                                            <p
-                                                className={
-                                                    isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'
-                                                }
-                                            >
-                                                Dedicated to perserving the future of purebred Newfoundlands
-                                            </p>
-                                            
-                                            <Link href="#">
-                                                <a 
-                                                    className={
-                                                        `btn btn-primary ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
-                                                    }
-                                                >
-                                                    THE BOYS
-                                                </a>
-                                            </Link>
-
-                                            <Link href="#">
-                                                <a 
-                                                    className={
-                                                        `btn btn-primary ${isVisible ? "animated fadeInUp opacityOne" : 'opacityZero'}`
-                                                    }
-                                                >
-                                                    THE GIRLS
-                                                </a>
-                                            </Link>
-                                        </div>
-                                    )}
-                                </VisibilitySensor>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </OwlCarousel> : ''}
+            </div> 
             </React.Fragment>
         );
     }
 }
+const mapStateToProps = (state) => {
+    return {
+        dogs: state.dogs
+    }
+}
 
-export default Banner;
+export default connect(
+    mapStateToProps,
+)(Banner);
