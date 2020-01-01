@@ -1245,8 +1245,8 @@ function (_Component) {
       var past10andOver = this.props.dogs.filter(function (dog) {
         return dog.rip != "" && dog.id > 20;
       });
-      var litters1to10 = this.props.litters.slice(0, 9);
-      var litters11to20 = this.props.litters.slice(10, 19);
+      var litters1to10 = this.props.litters.slice(0, 10);
+      var litters11to20 = this.props.litters.slice(10, 20);
       var litters21andOver = this.props.litters.slice(20);
       var toptwenty = this.props.dogs.filter(function (dog) {
         return dog.toptwenty != "";
