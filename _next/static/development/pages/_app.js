@@ -141,6 +141,17 @@ function (_React$Component) {
 
 /***/ }),
 
+/***/ "./images/dogs/Dory/image1.jpeg":
+/*!**************************************!*\
+  !*** ./images/dogs/Dory/image1.jpeg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/image1-8d1fc9b0cf26f7a6dc43177c0d9a9f1a.jpeg";
+
+/***/ }),
+
 /***/ "./images/img-hover1.jpg":
 /*!*******************************!*\
   !*** ./images/img-hover1.jpg ***!
@@ -336,17 +347,6 @@ module.exports = "/_next/static/images/Dasher-a1e5b49ce6e996db8762b9944a51e1a8.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Dexter-33bc0e7e1a38c4024d7b3c44d3bc4e0b.jpg";
-
-/***/ }),
-
-/***/ "./images/info/Dory.jpg":
-/*!******************************!*\
-  !*** ./images/info/Dory.jpg ***!
-  \******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/Dory-f0a09e74c1c8b0f2355d9c2e8c2c77bd.jpg";
 
 /***/ }),
 
@@ -1711,6 +1711,17 @@ module.exports = "/_next/static/images/Dory3-1c306eaa359a675f3a00845a97167c92.jp
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/DoryVeteran-e3d42f07470e38a45670660363a00e41.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/Elsa 9mo new CH.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/Elsa 9mo new CH.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Elsa 9mo new CH-077c1f1dc9930c65d8a114ab84c5fcf0.jpg";
 
 /***/ }),
 
@@ -14651,7 +14662,7 @@ var initState = {
     "neutered": true,
     "rip": "",
     "owner": "Cindy and John Flowers",
-    "aka": "\tBennie Boo Boo Bear",
+    "aka": "Bennie Boo Boo Bear",
     "lives": "Kathy Hamilton",
     "health": "http://www.offa.org/display.html?appnum=1565055#animal",
     "image": __webpack_require__(/*! ../../images/info/Bennie.jpg */ "./images/info/Bennie.jpg"),
@@ -15040,7 +15051,7 @@ var initState = {
     "neutered": false,
     "rip": "April 2017",
     "owner": "Cindy and John Flowers",
-    "aka": "\tSpicy, Spice Girl, Licky, Licky Mill, Spice Cake, Cakes",
+    "aka": "Spicy, Spice Girl, Licky, Licky Mill, Spice Cake, Cakes",
     "lives": "Cindy and John Flowers",
     "health": "http://www.offa.org/display.html?appnum=1240326#animal",
     "image": __webpack_require__(/*! ../../images/info/Spice.jpg */ "./images/info/Spice.jpg"),
@@ -15085,7 +15096,7 @@ var initState = {
     "neutered": false,
     "rip": "September 18, 2014",
     "owner": "Kathy Hamilton",
-    "aka": "\tDex, Dexi, Dex-a-trim, Walking Head",
+    "aka": "Dex, Dexi, Dex-a-trim, Walking Head",
     "lives": "Kathy Hamilton",
     "health": "http://www.offa.org/display.html?appnum=1240326#animal",
     "image": __webpack_require__(/*! ../../images/info/Dexter.jpg */ "./images/info/Dexter.jpg"),
@@ -15348,7 +15359,7 @@ var initState = {
     "neutered": false,
     "rip": "September 28, 2010",
     "owner": "Kathy Hamilton",
-    "aka": "\tFly, Fly Paper, Fly me to the moon",
+    "aka": "Fly, Fly Paper, Fly me to the moon",
     "lives": "Kathy Hamilton",
     "health": "",
     "image": __webpack_require__(/*! ../../images/info/Flyer.jpg */ "./images/info/Flyer.jpg"),
@@ -15558,7 +15569,7 @@ var initState = {
     "sex": "female",
     "name": "MUDDY CREEK OLD BAYS MOONBEAM ",
     "sire": "Ledgelights Muddy Creek Caruso",
-    "dam": "\tMuddy Creeks Mercedes",
+    "dam": "Muddy Creeks Mercedes",
     "dob": null,
     "neutered": false,
     "rip": "2007",
@@ -15825,7 +15836,7 @@ var initState = {
     "aka": "",
     "lives": "Andrea",
     "health": "",
-    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "image": __webpack_require__(/*! ../../images/specialties/Elsa 9mo new CH.jpg */ "./images/specialties/Elsa 9mo new CH.jpg"),
     "Titles": [{
       "title": "CH",
       "date": "11/04/2018",
@@ -16025,7 +16036,7 @@ var initState = {
     "image": __webpack_require__(/*! ../../images/info/Sampson.jpg */ "./images/info/Sampson.jpg"),
     "Titles": [{
       "title": "CH",
-      "date": "\t11/22/2009",
+      "date": "11/22/2009",
       "org": "AKC"
     }, {
       "title": "RN",
@@ -16045,7 +16056,7 @@ var initState = {
     "ours": false,
     "stud": false,
     "sex": "male",
-    "name": "\tOld Bay Irish Maritime Navigator CGC, CGCA",
+    "name": "Old Bay Irish Maritime Navigator CGC, CGCA",
     "sire": "GCH Bear N Mind's Maritime Traveler CD, WD1",
     "dam": "BISS GCH CH TOP SHELF SPICED WITH OLD BAY, NJP, RN, DD, ROM",
     "dob": "2010-12-25T05:00:00.000Z",
@@ -16753,7 +16764,7 @@ var initState = {
     "stud": false,
     "sex": "male",
     "name": "CH Old Bay's Muddy Waters",
-    "sire": "\tMuddy Creek's Carson",
+    "sire": "Muddy Creek's Carson",
     "dam": "CH Top Shelfs Cosmopolitan",
     "dob": "2012-12-09T05:00:00.000Z",
     "neutered": true,
@@ -16781,7 +16792,7 @@ var initState = {
     "name": "CH Top Shelfs Cosmopolitan",
     "sire": "CH Top Shelf's On The Rocks ROM",
     "dam": "CH Top Shelfs Wild Night Out ROM",
-    "dob": "2012-12-09T05:00:00.000Z",
+    "dob": "2005-09-26T08:00:00Z",
     "neutered": true,
     "rip": "10/9/2016",
     "owner": "Cindy Flowers",
@@ -17154,7 +17165,7 @@ var initState = {
     "aka": "",
     "lives": "Stephanie",
     "health": "",
-    "image": __webpack_require__(/*! ../../images/info/Dory.jpg */ "./images/info/Dory.jpg"),
+    "image": __webpack_require__(/*! ../../images/dogs/Dory/image1.jpeg */ "./images/dogs/Dory/image1.jpeg"),
     "Titles": [{
       "title": "BN",
       "date": "01/18/2016",
@@ -17842,9 +17853,9 @@ var initState = {
     "dob": "2010-12-25T05:00:00.000Z",
     "neutered": false,
     "rip": "",
-    "owner": "\tThe Speck Family",
+    "owner": "The Speck Family",
     "aka": "Spark, Sparky, Sparkly, Sparkly-Darkly-Dog",
-    "lives": "\tThe Speck Family",
+    "lives": "The Speck Family",
     "health": "",
     "image": __webpack_require__(/*! ../../images/info/Latte.jpg */ "./images/info/Latte.jpg"),
     "Titles": []
