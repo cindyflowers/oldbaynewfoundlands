@@ -68,7 +68,11 @@ class DogRomCard extends Component {
 
                             <div className="product-content">
                             
-                                <h3><a href="awards">{data.dog}</a></h3>
+                                <h3><a onClick={e => {
+                                        e.preventDefault(); 
+                                        this.openModal();
+                                        this.handleModalData(data.image,data.id)
+                                    }}>{data.dog}</a></h3>
                                 {data.award}
                                 <br></br>{data.show} 
                                 <br></br><Moment format="MMMM DD, YYYY">{data.date}</Moment>

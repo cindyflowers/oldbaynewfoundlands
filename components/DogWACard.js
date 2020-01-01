@@ -6,7 +6,7 @@ import { ToastContainer, toast, Slide } from 'react-toastify';
 import QuickView from './Modal/QuickView';
 import Moment from 'react-moment'
 
-class DogCard extends Component {
+class DogWACard extends Component {
     state = {
         modalOpen: false,
         modalImage: '',
@@ -29,13 +29,13 @@ class DogCard extends Component {
     }
 
     render() {
-        let { awards } = this.props;
+        let { dogs } = this.props;
         const { modalOpen } = this.state;
         return (
             <React.Fragment>
                 <ReactTooltip  />
                 <ToastContainer transition={Slide} />
-                {awards.map((data, idx) => (
+                {dogs.filter(dog => dog.wa == true).map((data, idx) => (
                     <div className="col-lg-4 col-sm-6 col-md-4 col-6 products-col-item" key={idx}>
                         <div className="single-product-box">
                             <div className="product-image">
@@ -68,14 +68,9 @@ class DogCard extends Component {
 
                             <div className="product-content">
                             
-                                <h3><a onClick={e => {
-                                        e.preventDefault(); 
-                                        this.openModal();
-                                        this.handleModalData(data.image,data.id)
-                                    }}>{data.dog}</a></h3>
-                                {data.award}
-                                <br></br>{data.show} 
-                                <br></br><Moment format="MMMM DD, YYYY">{data.date}</Moment>
+                                <h3>{data.call}</h3>
+                                {data.name}
+                                <br></br>{data.owner} 
                             </div>
                         </div>
                     </div>
@@ -93,10 +88,10 @@ class DogCard extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        awards: state.awards
+        dogs: state.dogs
     }
 }
 
 export default connect(
     mapStateToProps,
-)(DogCard)
+)(DogWACard)

@@ -66,23 +66,37 @@ class Banner extends Component {
                                             </li> 
                                         </ul>can help you decide if a Newfoundland is the right breed of dog for you.
                                     </p>
-                                    <div className="row">
-                                        <div className="col-lg-6 col-sm-6 col-xs-6 col-md-6 col-12">
-                                            <Link href="specialties">
-                                                <a className="btn btn-primary">
-                                                    Specialty Awards
-                                                </a>
-                                            </Link>
-                                        </div>
-                                        <div className="col-lg-6 col-sm-6 col-xs-6 col-md-6 col-12">
-                                            <Link  href="rom">
-                                                <a className="btn btn-primary">
-                                                    Register of Merit
-                                                </a>
-                                            </Link>
-                                        </div>
 
+                                    <div className="main-banner-button-row">
+                                        <Link href="/specialties">
+                                            <a className="btn btn-primary">
+                                                Specialty Awards
+                                            </a>
+                                        </Link>
                                     </div>
+                                    <div className="main-banner-button-row">
+                                        <Link  href="/rom">
+                                            <a className="btn btn-primary">
+                                                Register of Merit
+                                            </a>
+                                        </Link>
+                                    </div>
+                                    <div className="main-banner-button-row">
+
+                                        <Link  href="/aboutUs">
+                                            <a className="btn btn-primary">
+                                                About Old Bay
+                                            </a>
+                                        </Link>
+                                    </div>
+                                    <div className=" main-banner-button-row">
+                                        <Link  href="/contactUs">
+                                            <a className="btn btn-primary">
+                                                Contact Us
+                                            </a>
+                                        </Link>
+                                    </div>
+                                    
                                     {/* <Link href="#">
                                         <a 
                                             data-tip="Save Json" 

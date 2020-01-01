@@ -65,13 +65,13 @@ class Index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Breadcrumb title={dog[0].sex == "male" ? "The Boys" : "The Girls"} />
-                <section className="about-area ptb-60">
+                <section className="aboutDog-area ptb-60">
                     {this.state.display ? <OwlCarousel className="litter-slides owl-carousel owl-theme" {...options} >
                         {myDogs.map((data, idx) => (
                             <div className="container">
                                 <div className="row">
                                         <div className="col-xxl-4 col-md-6" key={data.id}>
-                                            <div className="about-content">
+                                            <div className="aboutDog-content">
                                             <h2><b>{data.call}</b> - {data.name}</h2>
                                             <div className="table-responsive">
                                                 <table className="table table-striped">
@@ -127,7 +127,7 @@ class Index extends Component {
                                         </div>
                                     </div>
                                     <div className="col-xxl-8 col-md-6">
-                                            <img src={data.image} className="about-img2" alt="image" />
+                                            <img src={data.image} className="aboutDog-img2" alt="image" />
                                     </div>
                                 </div>
                                 {this.state.display > 0 ? (

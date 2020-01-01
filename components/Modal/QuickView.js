@@ -43,7 +43,7 @@ class QuickView extends Component {
                                                 <tbody>
                                                 <tr>
                                                     <td>Born</td>
-                                                    <td>{data.dob}</td>
+                                                    <td><Moment format="MMMM DD, YYYY">{data.dob}</Moment></td>
                                                 </tr>
                                                 <tr>
                                                     <td>Sire</td>
@@ -61,7 +61,6 @@ class QuickView extends Component {
                                                     <td>Lives With</td>
                                                     <td>{data.lives}</td>
                                                 </tr> 
-                                                        
                                                 <tr>
                                                     <td>AKA</td>
                                                     <td>{data.aka}</td>
@@ -73,6 +72,26 @@ class QuickView extends Component {
                                 ) : ""}
                             </div>
                         </div>
+                        {this.state.display && data.Titles.length > 0 ? (
+                            <div className="table-responsive">
+                                <table className="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>Title</th><th>Date</th><th>Organization</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    {data.Titles.map((data, idx) => (
+                                        <tr>
+                                            <td>{data.title}</td>
+                                            <td><Moment format="MMMM DD, YYYY">{data.date}</Moment></td>
+                                            <td>{data.org}</td>
+                                        </tr>
+                                    ))} 
+                                </tbody>
+                                </table>
+                            </div>
+                            ) : ""}
                         {this.state.display && awards.length > 0 ? (
                             <div className="table-responsive">
                                 <table className="table table-striped">

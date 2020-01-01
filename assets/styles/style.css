@@ -1531,6 +1531,7 @@ Main Banner Area CSS
   position: relative;
   margin-right: 17px;
   line-height: initial;
+  width: 100%;
 }
 
 .main-banner-nav li a {
@@ -1538,6 +1539,10 @@ Main Banner Area CSS
   font-size: 18px;
   line-height: initial;
   position: relative;
+  
+}
+.main-banner-button-row {
+  text-align: center;
 }
 
 .main-banner-nav li a::before {
@@ -1559,6 +1564,7 @@ Main Banner Area CSS
 .main-banner-nav li a:hover::before, .main-banner-nav li a:focus::before {
   width: 100%;
 }
+
 
 .main-banner-nav li::before {
   content: '';
@@ -1667,18 +1673,16 @@ Main Banner Area CSS
 }
 
 /*================================================
-About Area CSS
+About Us Area CSS
 =================================================*/
 .about-area {
   position: relative;
-  text-transform: uppercase;
   z-index: 1;
 }
 
 .about-content h2 {
-  font-size: 22px;
+  font-size: 24px;
   margin-bottom: 15px;
-  text-transform: uppercase;
 }
 
 .about-content .signature {
@@ -1687,31 +1691,65 @@ About Area CSS
 
 .about-image {
   position: relative;
-  padding-bottom: 160px;
+  padding-bottom: 1200px;
 }
 
 .about-image .about-img1 {
   position: relative;
+  right: -140px;
+}
+
+.about-image .about-img2 {
+  position: absolute;
+  left: 20px;
+  bottom: 1100px;
+}
+/*================================================
+About Dog Area CSS
+=================================================*/
+.aboutDog-area {
+  position: relative;
+  text-transform: uppercase;
+  z-index: 1;
+}
+
+.aboutDog-content h2 {
+  font-size: 22px;
+  margin-bottom: 15px;
+  text-transform: uppercase;
+}
+
+.aboutDog-content .signature {
+  margin-top: 35px;
+}
+
+.aboutDog-image {
+  position: relative;
+  padding-bottom: 160px;
+}
+
+.aboutDog-image .aboutDog-img1 {
+  position: relative;
   right: -100px;
 }
 
-.about-img2 {
+.aboutDog-img2 {
   position: relative;
   left: 20px;
   max-width: 400px;
   bottom: 0;
 }
 
-.about-slides.owl-theme .owl-nav [class*=owl-]:hover, .about-slides.owl-theme .owl-nav [class*=owl-]:focus {
+.aboutDog-slides.owl-theme .owl-nav [class*=owl-]:hover, .aboutDog-slides.owl-theme .owl-nav [class*=owl-]:focus {
   background-color: #222222;
 }
 
-.about-slides.owl-theme .owl-nav [class*=owl-].owl-next {
+.aboutDog-slides.owl-theme .owl-nav [class*=owl-].owl-next {
   left: auto;
   right: 160px;
 }
 
-.about-slides.owl-theme:hover .owl-nav [class*=owl-] {
+.aboutDog-slides.owl-theme:hover .owl-nav [class*=owl-] {
   opacity: 1;
   visibility: visible;
   left: 140px;
@@ -1719,12 +1757,12 @@ About Area CSS
   transition: 0.5s;
 }
 
-.about-slides.owl-theme:hover .owl-nav [class*=owl-].owl-next {
+.aboutDog-slides.owl-theme:hover .owl-nav [class*=owl-].owl-next {
   left: auto;
   right: 140px;
 }
 
-.about-slides.owl-theme .owl-dots {
+.aboutDog-slides.owl-theme .owl-dots {
   position: absolute;
   left: 0;
   right: 0;

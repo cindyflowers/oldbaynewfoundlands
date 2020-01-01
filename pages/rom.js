@@ -28,6 +28,7 @@ class Rom extends Component {
                     <div className="container">
                         <div className="section-title">
                             <h2>Register of Merit</h2>
+                            <p>A ROM is a Newfoundland that has been admitted to the Newfoundland Club of America's Register of Merit for producing multiple ROMs, Champions, and performance (suffix) titled offspring.</p>
                         </div>
                     </div>
 

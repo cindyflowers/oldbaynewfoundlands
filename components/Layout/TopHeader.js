@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import Link from 'next/link';
-//import Wishlist from '../Modal/Wishlist';
+import ReactTooltip from 'react-tooltip'
 
 class TopHeader extends Component {
 
@@ -19,13 +19,14 @@ class TopHeader extends Component {
     render() {
         return (
             <React.Fragment>
+                <ReactTooltip  />
                 <div className="top-header">
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-7 col-md-6">
                                 <ul className="top-header-nav">
-                                    <li><Link href="/"><a>About</a></Link></li>
-                                    <li><Link href="/"><a>Contact</a></Link></li>
+                                    <li><Link href="/aboutUs"><a  data-tip="About Old Bay Newfoundlands" data-place="left" >About</a></Link></li>
+                                    <li><Link href="/contactUs"><a data-tip="Contact Old Bay Newfoundlands" data-place="left">Contact</a></Link></li>
                                 </ul>
                             </div>
 
@@ -33,22 +34,32 @@ class TopHeader extends Component {
                                 <ul className="top-header-right-nav">
                                     <li>
                                         <Link href="https://www.akc.org/dog-breeds/newfoundland/" >
-                                                <a target="_blank">AKC <i className="fas fa-dog"></i></a>
+                                                <a data-tip="American Kennel Club" 
+                                                data-place="left"  target="_blank">AKC <i className="fas fa-dog"></i></a>
                                         </Link>
                                     </li>
                                     <li>
                                         <Link href="http://www.ncanewfs.org/">
-                                            <a target="_blank">NCA <i className="fas fa-paw"></i></a>
+                                            <a data-tip="Newfoundland Club of America" 
+                                                data-place="left" target="_blank">NCA <i className="fas fa-paw"></i></a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="http://cncnewfs.com/">
-                                            <a target="_blank">CNC <i className="fas fa-dog"></i></a>
+                                        <Link  href="http://cncnewfs.com/">
+                                            <a  data-tip="Colonial Newfoundland Club" 
+                                                data-place="left" target="_blank">CNC <i className="fas fa-dog"></i></a>
                                         </Link>
                                     </li>
                                     <li>
-                                        <Link href="http://www.middleburgkc.com/index.html/">
-                                            <a target="_blank">MKC <i className="fas fa-paw"></i></a>
+                                        <Link href="https://www.ofa.org/" >
+                                                <a data-tip="Canine Health Information Center" 
+                                                data-place="left"  target="_blank">OFA <i className="fas fa-paw"></i></a>
+                                        </Link>
+                                    </li>
+                                    <li>
+                                        <Link  href="http://www.middleburgkc.com/index.html/">
+                                            <a  data-tip="Middleburg Kennel Club" 
+                                                data-place="left" target="_blank">MKC <i className="fas fa-dog"></i></a>
                                         </Link>
                                     </li>
                                 </ul>

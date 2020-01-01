@@ -623,7 +623,7 @@ const initState = {
         "image": require('../../images/info/Simon.jpg'),
         "Titles": [
           {
-            "title": "AJP",
+            "title": "",
             "date": "12/07/2007",
             "org": "AKC"
           },
@@ -1365,6 +1365,7 @@ const initState = {
       {
         "id": 35,
         "call": "Tilly",
+        "work": true,
         "ch": true,
         "toptwenty": "",
         "rom": false,
@@ -1372,7 +1373,7 @@ const initState = {
         "ours": false,
         "stud": false,
         "sex": "female",
-        "name": "CH Dreamhaven's Cascading Waterfalls At Old Bay CGC",
+        "name": "CH Dreamhaven's Cascading Waterfalls At Old Bay CGC, TKN, TKI, TKA",
         "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
         "dam": "GCHB Old Bay's Keep It Simple ROM'",
         "dob": "2018-11-10T05:00:00.000Z",
@@ -1382,7 +1383,7 @@ const initState = {
         "aka": "",
         "lives": "Wendy",
         "health": "",
-        "image": require('../../images/info/NewfJump.jpg'),
+        "image": require('../../images/info/Tilly.jpg'),
         "Titles": [
           {
             "title": "CGC",
@@ -1392,6 +1393,21 @@ const initState = {
           {
             "title": "CH",
             "date": "11/09/2019",
+            "org": "AKC"
+          },
+          {
+            "title": "TKN",
+            "date": "11/19/2019",
+            "org": "AKC"
+          },
+          {
+            "title": "TKI",
+            "date": "11/20/2019",
+            "org": "AKC"
+          },
+          {
+            "title": "TKA",
+            "date": "11/21/2019",
             "org": "AKC"
           }
         ]
@@ -1725,6 +1741,7 @@ const initState = {
       {
         "id": 45,
         "call": "Sonar",
+        "wa": true,
         "work": true,
         "toptwenty": "",
         "rom": false,
@@ -1855,6 +1872,7 @@ const initState = {
       {
         "id": 46,
         "call": "Spinnaker",
+        "wa": true,
         "work": true,
         "toptwenty": "",
         "rom": false,
@@ -2606,7 +2624,7 @@ const initState = {
         "coown": true,
         "stud": false,
         "sex": "male",
-        "name": "CH Old Bay's Paniolo Bruddah At Ohana",
+        "name": "CH Old Bay's Paniolo Bruddah At Ohana WD",
         "sire": "CH Topshelfs Israel Kamakawiwoole",
         "dam": "Old Bay's Seasoned With Spice ROM",
         "dob": "2012-12-09T05:00:00.000Z",
@@ -4619,6 +4637,7 @@ const initState = {
         date: "2019-04-30T08:00:00Z",  
         dog: "Kindle", id: 31,
       },
+      
       {
         image: require('../../images/specialties/Nash2019NationalBOSPuppy.jpg'),
         award: "Best Opposite Sex Baby Puppy",
@@ -4627,9 +4646,16 @@ const initState = {
         dog: "Nash", id: 98,
       },
       {
-        image: require('../../images/specialties/AtlasAndObiBrace2019.jpg'),
+        image: require('../../images/specialties/ObiAndSnowball2019Brace.jpg'),
         award: "3rd Brace",
         show: "2019 National",
+        date: "2019-04-30T08:00:00Z",  
+        dog: "Obi and Snowball",
+      },
+      {
+        image: require('../../images/specialties/AtlasAndObiBrace2019.jpg'),
+        award: "3rd Brace",
+        show: "2014 National",
         date: "2014-04-05T08:00:00Z",   
         dog: "Atlas and Obi",
       },
@@ -4638,6 +4664,20 @@ const initState = {
         award: "2nd Beginner Novice A, 2nd Novice A, 3rd Novice A, 1st Beginner Novice A",
         show: "2019 National",
         date: "2019-04-30T08:00:00Z",  
+        dog: "Gracie", id: 63,
+      },
+      {
+        image: require('../../images/specialties/GracieLaci.jpg'),
+        award: "BOS/WB (morning), Select & Best Junior Handler with Laci Peterson (afternoon)",
+        show: "Specialty",
+        date: "2017-12-18T08:00:00Z",  
+        dog: "Gracie", id: 63,
+      },
+      {
+        image: require('../../images/specialties/GracieLisa.jpg'),
+        award: "BOS/WB (morning), Select (afternoon)",
+        show: "Specialty",
+        date: "2017-12-17T08:00:00Z",  
         dog: "Gracie", id: 63,
       },
       {

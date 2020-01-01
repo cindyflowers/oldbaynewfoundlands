@@ -3,6 +3,7 @@ import { connect } from 'react-redux'
 import { setCurrentDog, setCurrentLitter } from '../../store/actions/cartActions';
 import Link from 'next/link';
 import ReactTooltip from 'react-tooltip'
+import Moment from 'react-moment'
 
 class MegaMenu extends Component {
 
@@ -102,7 +103,7 @@ class MegaMenu extends Component {
                     <div className="container">
                         <nav className="navbar navbar-expand-md navbar-light">
                             <Link href="/">
-                                <a className="navbar-brand">
+                                <a data-tip="Go to Home Page" data-place="left" className="navbar-brand">
                                     <img src={require("../../images/logo.jpg")} alt="Old Bay Newfoundlands" />
                                 </a>
                             </Link>
@@ -146,42 +147,46 @@ class MegaMenu extends Component {
                                                             <ul className="megamenu-submenu">
                                                                 <li>
                                                                     <Link href="/specialties">
-                                                                        <a>Specialties</a>
+                                                                        <a  data-tip="Specialty Awards" data-place="left"  >Specialties</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
                                                                     <Link href="/top20">
-                                                                        <a>Top Twenty</a>
+                                                                        <a data-tip="Top Twenty Dogs" data-place="left" >Top Twenty</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
                                                                     <Link href="/rom">
-                                                                        <a>Register of Merit</a>
+                                                                        <a  data-tip="Register of Merit Dogs" data-place="left" >Register of Merit</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
                                                                     <Link href="/vn">
-                                                                        <a>Versatile Newfoundland</a>
+                                                                        <a data-tip="Versatile Newfoundland Dogs" data-place="left" >Versatile Newfoundland</a>
                                                                     </Link>
                                                                 </li>
-
+                                                                <li>
+                                                                    <Link href="/wa">
+                                                                        <a data-tip="Working Acheivement Dogs" data-place="left" >Working Acheivement</a>
+                                                                    </Link>
+                                                                </li>
                                                                 <li>
                                                                     <Link href="/champions">
-                                                                        <a>Champions</a>
+                                                                        <a data-tip="Champion Dogs" data-place="left" >Champions</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
                                                                     <Link href="/working">
-                                                                        <a>Working</a>
+                                                                        <a data-tip="Working Dogs" data-place="left" >Working</a>
                                                                     </Link>
                                                                 </li>
                                                                 <li>
                                                                     <Link href="/titled">
-                                                                        <a>Titled</a>
+                                                                        <a data-tip="Titled Dogs" data-place="left" >Titled</a>
                                                                     </Link>
                                                                 </li>
                                                             </ul>
@@ -191,7 +196,7 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {rom.map((data, idx) => (
-                                                                        <Link href="/about">
+                                                                        <Link href="/aboutDog">
                                                                             <li key={data.id}>
                                                                                 <a data-tip={data.call} data-place="left" onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
@@ -207,7 +212,7 @@ class MegaMenu extends Component {
 
                                                             <ul className="megamenu-submenu top-brands">
                                                                 {toptwenty.map((data, idx) => (
-                                                                    <Link href="/about">
+                                                                    <Link href="/aboutDog">
                                                                         <li key={data.id}>
                                                                             <a data-tip={data.call + ' (' + data.toptwenty + ')'} data-place="left" onClick={(e) => {
                                                                                 this.handleSetCurrentDog(data.id)
@@ -240,7 +245,7 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {coboys.map((data, idx) => (
-                                                                        <Link href="/about">
+                                                                        <Link href="/aboutDog">
                                                                             <li key={idx}>
                                                                                 <a onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
@@ -256,9 +261,9 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {boys.map((data, idx) => (
-                                                                        <Link href="/about">
+                                                                        <Link href="/aboutDog">
                                                                             <li key={idx}>
-                                                                                <a onClick={(e) => {
+                                                                                <a data-tip={data.call} data-place="left"   onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
                                                                                 }}>{data.call}</a>
                                                                             </li>
@@ -274,7 +279,7 @@ class MegaMenu extends Component {
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {studs.map((data, idx) => (
                                                                         <li>
-                                                                            <Link href="/about">
+                                                                            <Link href="/aboutDog">
                                                                                 <a data-tip={data.call} data-place="left" onClick={(e) => {this.handleSetCurrentDog(data.id)}}>
                                                                                     <img src={data.image} alt="image" />
                                                                                 </a>
@@ -305,7 +310,7 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {cogirls.map((data, idx) => (
-                                                                        <Link href="/about">
+                                                                        <Link href="/aboutDog">
                                                                             <li key={data.id}>
                                                                                 <a onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
@@ -321,9 +326,9 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {girls.map((data, idx) => (
-                                                                        <Link href="/about">
+                                                                        <Link href="/aboutDog">
                                                                             <li key={data.id}>
-                                                                                <a onClick={(e) => {
+                                                                                <a  data-tip={data.call} data-place="left"  onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
                                                                                 }}>{data.call}</a>
                                                                             </li>
@@ -339,7 +344,7 @@ class MegaMenu extends Component {
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {dams.map((data, idx) => (
                                                                         <li>
-                                                                            <Link href="/about">
+                                                                            <Link href="/aboutDog">
                                                                                 <a data-tip={data.call} data-place="left" onClick={(e) => {this.handleSetCurrentDog(data.id)}}>
                                                                                     <img src={data.image} alt="image" />
                                                                                 </a>
@@ -372,7 +377,7 @@ class MegaMenu extends Component {
                                                                     
                                                                     <Link href="/litter">
                                                                         <li key={idx}>
-                                                                            <a data-tip={data.parents + ' Born: ' + data.dob} data-place="left" onClick={(e) => {
+                                                                            <a data-tip={data.parents} data-place="left" onClick={(e) => {
                                                                                 this.handleSetCurrentLitter(data.id)
                                                                             }}>{data.parents}</a>
                                                                         </li>
@@ -388,7 +393,7 @@ class MegaMenu extends Component {
                                                                 {litters11to20.map((data, idx) => (
                                                                         <Link href="/litter">
                                                                             <li key={idx}>
-                                                                                <a data-tip={data.parents + ' Born: ' + data.dob} data-place="left" onClick={(e) => {
+                                                                                <a data-tip={data.parents} data-place="left" onClick={(e) => {
                                                                                     this.handleSetCurrentLitter(data.id)
                                                                                 }}>{data.parents}</a>
                                                                             </li>
@@ -404,7 +409,7 @@ class MegaMenu extends Component {
                                                                 {litters21andOver.map((data, idx) => (
                                                                     <Link href="/litter">
                                                                         <li key={idx}>
-                                                                            <a data-tip={data.parents + ' Born: ' + data.dob} data-place="left" onClick={(e) => {
+                                                                            <a data-tip={data.parents} data-place="left" onClick={(e) => {
                                                                                 this.handleSetCurrentLitter(data.id)
                                                                             }}>{data.parents}</a>
                                                                         </li>
@@ -433,9 +438,9 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {past1to10.map((data, idx) => (
-                                                                        <Link href="/about">
+                                                                        <Link href="/aboutDog">
                                                                             <li key={idx}>
-                                                                                <a onClick={(e) => {
+                                                                                <a data-tip={data.call} data-place="left"  onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
                                                                                 }}>{data.call}</a>
                                                                             </li>
@@ -449,9 +454,9 @@ class MegaMenu extends Component {
                                                                 
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {past1to10.map((data, idx) => (
-                                                                        <Link href="/about">
+                                                                        <Link href="/aboutDog">
                                                                             <li key={idx}>
-                                                                                <a data-tip={data.call + ' (' + data.dob + ' - ' + data.rip + ')'} data-place="left" onClick={(e) => {
+                                                                                <a data-tip={data.call} data-place="left" onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
                                                                                 }}><img src={data.image} alt="image" /></a>
                                                                             </li>
@@ -465,9 +470,9 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {past10andOver.map((data, idx) => (
-                                                                        <Link href="/about">
+                                                                        <Link href="/aboutDog">
                                                                             <li key={idx}>
-                                                                                <a onClick={(e) => {
+                                                                                <a data-tip={data.call} data-place="left"  onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
                                                                                 }}>{data.call}</a>
                                                                             </li>
@@ -482,9 +487,9 @@ class MegaMenu extends Component {
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {past10andOver.map((data, idx) => (
                                                                         data.image != "" ? (
-                                                                        <Link href="/about">
+                                                                        <Link href="/aboutDog">
                                                                             <li key={idx}>
-                                                                                <a data-tip={data.call + ' (' + data.dob + ' - ' + data.rip + ')'} data-place="left" onClick={(e) => {
+                                                                                <a data-tip={data.call} data-place="left" onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
                                                                                 }}><img src={data.image} alt="image" /></a>
                                                                             </li>

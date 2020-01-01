@@ -31,6 +31,20 @@ class Index extends Component {
                     <div className="container">
                         <div className="section-title">
                             <h2>AKC Performance and NCA Working Titles</h2>
+                            <p>
+                                <br></br>
+                                <h2>52 - AKC Obedience and Rally Titles</h2> <br></br>
+                                19 Companion Dogs, 3 Companion Dog Excellant, 1 Utiltiy Dog, 4 Beginner Novice,  12 Rally Novice, 5 Rally Advanced, 
+                                1 Rally Excellant, 4 Trick Dog Novice, 2 Trick Dog Intermediate, 1 Trick Dog Advanced
+                            </p>
+                            <p>
+                                <h2>13 - AKC Agility Titles</h2><br></br>
+                                4 Novice Agility Preferred, 3 Novice Jumpers Preferred, 2 Open Agility Prreferred, 2 Open Jumpers Preferred, 1 Agility Excellent Preferred, 1 Agility Jumpers Excellent Preffered
+                            </p>
+                            <p>
+                                <h2>75 - NCA Working Titles/Requalifications</h2><br></br>
+                                20 Water Dog, 25 Water Rescue Dog, 1 Water Rescue Dog Excellant, 16 Draft Dog, 2 Draft Dog Excellant, 9 Team Draft Dogs, 2 Team Draft Dog Excellant
+                            </p>
                             <p>The following AKC Performance and NCA Working Titles titles were received by dogs bred, co-bred or owned by Old Bay Newfoundlands.</p>
 
                         </div>

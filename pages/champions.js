@@ -26,21 +26,18 @@ class Index extends Component {
             <React.Fragment>
                 <Navbar />
                 <Breadcrumb title="Champions" />
-
                 <section className="products-collections-area ptb-60">
                     <div className="container">
                         <div className="section-title">
-                            <h2>AKC Champions</h2>
+                            <h2>92 - AKC Championship Titles</h2>
+                            <p>71 Champions, 17 Grand Champions, 3 Grand Champion Bronze, 1 Grand Champion Silver</p> 
                             <p>The following AKC Champion titles were received by dogs bred, co-bred or owned by Old Bay Newfoundlands.</p>
-
                         </div>
                     </div>
-
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
                                 <DogFilterOptions onClick={this.handleGrid} />
-
                                 <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
                                     <DogChampionCard />
                                 </div>
