@@ -20,13 +20,13 @@ class Index extends Component {
                                         came from Phyllis and Jamie Welch (Spillway) and Brenda and Rick Santiago (Muddy Creek) .
                                     </p>
                                     
-                                    <p>Cindy purchased her first Newf, BETTY, in 1992 and quickly became enamored with Newfoundlands.  Mentored by members of Colonial
-                                        Newfoundland Club, Kathy and Mike Paxton, Karen and Gene Perry and Kathy Hamilton she quickly jumped into learning about the
+                                    <p>Cindy purchased her first Newf BETTY in 1992 and quickly became enamored with Newfoundlands.  Mentored by members of Colonial
+                                        Newfoundland Club, Kathy and Mike Paxton (Bear's Den), Karen and Gene Perry (Olde Mill) and Kathy Hamilton (Old Bay) she quickly jumped into learning about the
                                         breed and was soon participating in working events and volunteering for the club.
                                     </p> 
                                         
                                     <p> Fast forward to 1998, the year John and Cindy brought
-                                        two more Newfs into their lives, YOGI from Jean and Steve McAdams (Shadrack) and DAISY from Deb Wigal (Top Shelf). In 2001 Cindy and John 
+                                        two more Newfs into their lives, YOGI from Jean and Steve McAdams (Shadrack) and DAISY from Deb Wigal (Top Shelf). In 2002 Cindy and John 
                                         co-bred a litter with Deb Wigal. Kathy Hamilton helped whelp the litter and in return she was given ROCKY, a great-grandson of a dog she had 
                                         bred in 1993. Almost all current Old Bay Newfs can trace their pedigree back to BACARDI - VN CH Old Bays Bacardi Of Top Shelf CDX, TDD, WRD
                                         owned by Deb Wigal and bred by Kathy Hamilton.  

@@ -90,8 +90,8 @@ class MegaMenu extends Component {
         //let cogirls = this.props.dogs.filter(dog => dog.sex == "female" && dog.coown == true  && dog.rip == "" );
         let past1to10 = this.props.dogs.filter(dog =>  dog.rip != "" && dog.id <= 20 );
         let past10andOver = this.props.dogs.filter(dog =>  dog.rip != "" && dog.id > 20);
-        let litters1to10 = this.props.litters.slice(0,9);
-        let litters11to20 = this.props.litters.slice(10,19);
+        let litters1to10 = this.props.litters.slice(0,10);
+        let litters11to20 = this.props.litters.slice(10,20);
         let litters21andOver = this.props.litters.slice(20);
         let toptwenty = this.props.dogs.filter(dog => dog.toptwenty != "");
         let rom = this.props.dogs.filter(dog => dog.rom == true);
