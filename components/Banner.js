@@ -81,7 +81,7 @@ class Banner extends Component {
                                             </a>
                                         </Link>
                                     </div>
-                                    <div className="main-banner-button-row">
+{/*                                     <div className="main-banner-button-row">
 
                                         <Link  href="/aboutUs">
                                             <a className="btn btn-primary">
@@ -95,7 +95,7 @@ class Banner extends Component {
                                                 Contact Us
                                             </a>
                                         </Link>
-                                    </div>
+                                    </div> */}
                                     
                                     {/* <Link href="#">
                                         <a 
