@@ -4371,7 +4371,7 @@ const initState = {
         award: "Register of Merit",
         show: "Honored at the 2017 National",
         date: "2016-12-31T08:00:00Z",  
-        dog: "Nutmeg", id: 64,
+        dog: "Nutmeg", id: 74,
         image: require('../../images/info/Nutmeg.jpg'),
       },
       {

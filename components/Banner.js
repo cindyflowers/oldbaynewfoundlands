@@ -67,19 +67,21 @@ class Banner extends Component {
                                         </ul>can help you decide if a Newfoundland is the right breed of dog for you.
                                     </p>
 
-                                    <div className="main-banner-button-row">
-                                        <Link href="/specialties">
-                                            <a className="btn btn-primary">
-                                                Specialty Awards
-                                            </a>
-                                        </Link>
-                                    </div>
-                                    <div className="main-banner-button-row">
-                                        <Link  href="/rom">
-                                            <a className="btn btn-primary">
-                                                Register of Merit
-                                            </a>
-                                        </Link>
+                                    <div className="row">
+                                        <div class="col-lg-6">
+                                            <Link href="/specialties">
+                                                <a className="btn btn-primary">
+                                                    Specialty Awards
+                                                </a>
+                                            </Link>
+                                        </div>
+                                        <div class="col-lg-6">
+                                            <Link  href="/rom">
+                                                <a className="btn btn-primary">
+                                                    Register of Merit
+                                                </a>
+                                            </Link>
+                                        </div>
                                     </div>
 {/*                                     <div className="main-banner-button-row">
 

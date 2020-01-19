@@ -2,7 +2,9 @@ import React, { Component } from 'react';
 import { connect } from 'react-redux'
 import { setCurrentDog, setCurrentLitter } from '../../store/actions/cartActions';
 import Link from 'next/link';
-import ReactTooltip from 'react-tooltip'
+import Router from 'next/router';
+import ReactTooltip from 'react-tooltip';
+import QuickView from '../Modal/QuickView';
 import Moment from 'react-moment'
 
 class MegaMenu extends Component {
@@ -15,7 +17,10 @@ class MegaMenu extends Component {
         isBoysOpen: false,
         isGirlsOpen: false,
         isPuppiesOpen: false,
-        isPastOpen: false
+        isPastOpen: false,
+        modalOpen: false,
+        modalImage: '',
+        idd: null
     };
 
     handleSetCurrentDog = (id) => {
@@ -24,6 +29,21 @@ class MegaMenu extends Component {
 
     handleSetCurrentLitter = (id) => {
         this.props.setCurrentLitter(id); 
+    }
+
+    openModal = () => {
+        this.setState({ modalOpen: true });
+    }
+
+    closeModal = () => {
+        this.setState({ modalOpen: false });
+    }
+
+    handleModalData = (image,  id) => {
+        this.setState({ 
+            modalImage: image, 
+            idd: id
+        });
     }
 
     handleSearchForm = () => {
@@ -73,6 +93,7 @@ class MegaMenu extends Component {
         const { isGirlsOpen } = this.state;
         const { isPuppiesOpen } = this.state;
         const { isPastOpen } = this.state;
+        const { modalOpen } = this.state;
         
         const classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
         const classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
@@ -95,6 +116,13 @@ class MegaMenu extends Component {
         let litters21andOver = this.props.litters.slice(20);
         let toptwenty = this.props.dogs.filter(dog => dog.toptwenty != "");
         let rom = this.props.dogs.filter(dog => dog.rom == true);
+        // if (this.state.toPageUrl != '') {
+        //     let myPage = this.state.toPageUrl;
+        //     this.setState({ 
+        //         toPageUrl: ''
+        //     });
+        //     Router.push()
+        // }
         return (
             <React.Fragment>
             <div className="navbar-area">
@@ -196,10 +224,13 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {rom.map((data, idx) => (
-                                                                        <Link href="/aboutDog">
+                                                                        <Link href="/rom">
                                                                             <li key={data.id}>
-                                                                                <a data-tip={data.call} data-place="left" onClick={(e) => {
-                                                                                    this.handleSetCurrentDog(data.id)
+                                                                                <a data-tip={data.call} data-place="left" 
+                                                                                onClick={e => {
+                                                                                    e.preventDefault(); 
+                                                                                    this.openModal();
+                                                                                    this.handleModalData(data.image,data.id)
                                                                                 }}><img src={data.image} alt="image" /></a>
                                                                             </li>
                                                                         </Link>
@@ -212,10 +243,13 @@ class MegaMenu extends Component {
 
                                                             <ul className="megamenu-submenu top-brands">
                                                                 {toptwenty.map((data, idx) => (
-                                                                    <Link href="/aboutDog">
+                                                                    <Link href="/top20">
                                                                         <li key={data.id}>
-                                                                            <a data-tip={data.call + ' (' + data.toptwenty + ')'} data-place="left" onClick={(e) => {
-                                                                                this.handleSetCurrentDog(data.id)
+                                                                            <a data-tip={data.call + ' (' + data.toptwenty + ')'} data-place="left" 
+                                                                            onClick={e => {
+                                                                                e.preventDefault();
+                                                                                this.openModal();
+                                                                                this.handleModalData(data.image,data.id);
                                                                             }}><img src={data.image} alt="image" /></a>
                                                                         </li>
                                                                     </Link>
@@ -512,6 +546,12 @@ class MegaMenu extends Component {
                     </div>
                 </div>
             </div>
+            { modalOpen ? <QuickView 
+                    closeModal={this.closeModal} 
+                    idd={this.state.idd}
+                    image={this.state.modalImage} 
+                    price={this.state.price}
+                /> : '' }
             </React.Fragment>
         );
     }
@@ -528,7 +568,8 @@ const mapStateToProps = (state)=>{
 const mapDispatchToProps= (dispatch) => {
     return {
         setCurrentDog: (id) => { dispatch(setCurrentDog(id)) },
-        setCurrentLitter: (id) => { dispatch(setCurrentLitter(id)) }
+        setCurrentLitter: (id) => { dispatch(setCurrentLitter(id)) },
+        setCurrentModal: (id) => { dispatch(setCurrentModal(id)) }
     }
 }
 
