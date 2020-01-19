@@ -23,7 +23,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\Common\\Breadcrumb.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\Common\\Breadcrumb.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
@@ -132,7 +132,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\DogCard.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\DogCard.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -401,7 +401,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\DogFilterOptions.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\DogFilterOptions.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -868,7 +868,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\Layout\\Footer.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\Layout\\Footer.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
@@ -1061,10 +1061,13 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony import */ var _store_actions_cartActions__WEBPACK_IMPORTED_MODULE_9__ = __webpack_require__(/*! ../../store/actions/cartActions */ "./store/actions/cartActions.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10__ = __webpack_require__(/*! next/link */ "./node_modules/next/link.js");
 /* harmony import */ var next_link__WEBPACK_IMPORTED_MODULE_10___default = /*#__PURE__*/__webpack_require__.n(next_link__WEBPACK_IMPORTED_MODULE_10__);
-/* harmony import */ var react_tooltip__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! react-tooltip */ "./node_modules/react-tooltip/dist/index.js");
-/* harmony import */ var react_tooltip__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(react_tooltip__WEBPACK_IMPORTED_MODULE_11__);
-/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-moment */ "./node_modules/react-moment/dist/index.js");
-/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_moment__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_11__ = __webpack_require__(/*! next/router */ "./node_modules/next/dist/client/router.js");
+/* harmony import */ var next_router__WEBPACK_IMPORTED_MODULE_11___default = /*#__PURE__*/__webpack_require__.n(next_router__WEBPACK_IMPORTED_MODULE_11__);
+/* harmony import */ var react_tooltip__WEBPACK_IMPORTED_MODULE_12__ = __webpack_require__(/*! react-tooltip */ "./node_modules/react-tooltip/dist/index.js");
+/* harmony import */ var react_tooltip__WEBPACK_IMPORTED_MODULE_12___default = /*#__PURE__*/__webpack_require__.n(react_tooltip__WEBPACK_IMPORTED_MODULE_12__);
+/* harmony import */ var _Modal_QuickView__WEBPACK_IMPORTED_MODULE_13__ = __webpack_require__(/*! ../Modal/QuickView */ "./components/Modal/QuickView.js");
+/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_14__ = __webpack_require__(/*! react-moment */ "./node_modules/react-moment/dist/index.js");
+/* harmony import */ var react_moment__WEBPACK_IMPORTED_MODULE_14___default = /*#__PURE__*/__webpack_require__.n(react_moment__WEBPACK_IMPORTED_MODULE_14__);
 
 
 
@@ -1072,8 +1075,10 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\Layout\\MegaMenu.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\Layout\\MegaMenu.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
+
+
 
 
 
@@ -1107,7 +1112,10 @@ function (_Component) {
       isBoysOpen: false,
       isGirlsOpen: false,
       isPuppiesOpen: false,
-      isPastOpen: false
+      isPastOpen: false,
+      modalOpen: false,
+      modalImage: '',
+      idd: null
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleSetCurrentDog", function (id) {
@@ -1116,6 +1124,25 @@ function (_Component) {
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleSetCurrentLitter", function (id) {
       _this.props.setCurrentLitter(id);
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "openModal", function () {
+      _this.setState({
+        modalOpen: true
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "closeModal", function () {
+      _this.setState({
+        modalOpen: false
+      });
+    });
+
+    Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleModalData", function (image, id) {
+      _this.setState({
+        modalImage: image,
+        idd: id
+      });
     });
 
     Object(_babel_runtime_corejs2_helpers_esm_defineProperty__WEBPACK_IMPORTED_MODULE_6__["default"])(Object(_babel_runtime_corejs2_helpers_esm_assertThisInitialized__WEBPACK_IMPORTED_MODULE_4__["default"])(_this), "handleSearchForm", function () {
@@ -1218,6 +1245,7 @@ function (_Component) {
       var isGirlsOpen = this.state.isGirlsOpen;
       var isPuppiesOpen = this.state.isPuppiesOpen;
       var isPastOpen = this.state.isPastOpen;
+      var modalOpen = this.state.modalOpen;
       var classOne = collapsed ? 'collapse navbar-collapse' : 'collapse navbar-collapse show';
       var classTwo = collapsed ? 'navbar-toggler navbar-toggler-right collapsed' : 'navbar-toggler navbar-toggler-right';
       var ddAwardClass = "dropdown-menu".concat(isAwardsOpen ? " show" : "");
@@ -1253,24 +1281,31 @@ function (_Component) {
       });
       var rom = this.props.dogs.filter(function (dog) {
         return dog.rom == true;
-      });
+      }); // if (this.state.toPageUrl != '') {
+      //     let myPage = this.state.toPageUrl;
+      //     this.setState({ 
+      //         toPageUrl: ''
+      //     });
+      //     Router.push()
+      // }
+
       return __jsx(react__WEBPACK_IMPORTED_MODULE_7___default.a.Fragment, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 99
+          lineNumber: 127
         },
         __self: this
       }, __jsx("div", {
         className: "navbar-area",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 100
+          lineNumber: 128
         },
         __self: this
-      }, __jsx(react_tooltip__WEBPACK_IMPORTED_MODULE_11___default.a, {
+      }, __jsx(react_tooltip__WEBPACK_IMPORTED_MODULE_12___default.a, {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 101
+          lineNumber: 129
         },
         __self: this
       }), __jsx("div", {
@@ -1278,28 +1313,28 @@ function (_Component) {
         className: "comero-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 102
+          lineNumber: 130
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 103
+          lineNumber: 131
         },
         __self: this
       }, __jsx("nav", {
         className: "navbar navbar-expand-md navbar-light",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 104
+          lineNumber: 132
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 105
+          lineNumber: 133
         },
         __self: this
       }, __jsx("a", {
@@ -1308,7 +1343,7 @@ function (_Component) {
         className: "navbar-brand",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 106
+          lineNumber: 134
         },
         __self: this
       }, __jsx("img", {
@@ -1316,7 +1351,7 @@ function (_Component) {
         alt: "Old Bay Newfoundlands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 107
+          lineNumber: 135
         },
         __self: this
       }))), __jsx("button", {
@@ -1330,14 +1365,14 @@ function (_Component) {
         "aria-label": "Toggle navigation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 111
+          lineNumber: 139
         },
         __self: this
       }, __jsx("span", {
         className: "navbar-toggler-icon",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 119
+          lineNumber: 147
         },
         __self: this
       })), __jsx("div", {
@@ -1345,35 +1380,35 @@ function (_Component) {
         id: "navbarSupportedContent",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 122
+          lineNumber: 150
         },
         __self: this
       }, __jsx("ul", {
         className: "navbar-nav",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 123
+          lineNumber: 151
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item p-relative",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 124
+          lineNumber: 152
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 125
+          lineNumber: 153
         },
         __self: this
       }, __jsx("a", {
         className: "nav-link active",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 126
+          lineNumber: 154
         },
         __self: this
       }, "Home"))), __jsx("div", {
@@ -1382,21 +1417,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 131
+          lineNumber: 159
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 132
+          lineNumber: 160
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 133
+          lineNumber: 161
         },
         __self: this
       }, __jsx("a", {
@@ -1406,14 +1441,14 @@ function (_Component) {
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 134
+          lineNumber: 162
         },
         __self: this
       }, "Awards ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 135
+          lineNumber: 163
         },
         __self: this
       }))), __jsx("ul", {
@@ -1422,7 +1457,7 @@ function (_Component) {
         "aria-labelledby": "ddAwards",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 138
+          lineNumber: 166
         },
         __self: this
       }, __jsx("li", {
@@ -1430,55 +1465,55 @@ function (_Component) {
         role: "presentation",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 140
+          lineNumber: 168
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 141
+          lineNumber: 169
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 142
+          lineNumber: 170
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 144
+          lineNumber: 172
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 145
+          lineNumber: 173
         },
         __self: this
       }, "Award Type"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 147
+          lineNumber: 175
         },
         __self: this
       }, __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 148
+          lineNumber: 176
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/specialties",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 149
+          lineNumber: 177
         },
         __self: this
       }, __jsx("a", {
@@ -1486,20 +1521,20 @@ function (_Component) {
         "data-place": "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 150
+          lineNumber: 178
         },
         __self: this
       }, "Specialties"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 154
+          lineNumber: 182
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/top20",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 155
+          lineNumber: 183
         },
         __self: this
       }, __jsx("a", {
@@ -1507,20 +1542,20 @@ function (_Component) {
         "data-place": "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 156
+          lineNumber: 184
         },
         __self: this
       }, "Top Twenty"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 160
+          lineNumber: 188
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/rom",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 161
+          lineNumber: 189
         },
         __self: this
       }, __jsx("a", {
@@ -1528,20 +1563,20 @@ function (_Component) {
         "data-place": "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 162
+          lineNumber: 190
         },
         __self: this
       }, "Register of Merit"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 166
+          lineNumber: 194
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/vn",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 167
+          lineNumber: 195
         },
         __self: this
       }, __jsx("a", {
@@ -1549,20 +1584,20 @@ function (_Component) {
         "data-place": "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 168
+          lineNumber: 196
         },
         __self: this
       }, "Versatile Newfoundland"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 171
+          lineNumber: 199
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/wa",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 172
+          lineNumber: 200
         },
         __self: this
       }, __jsx("a", {
@@ -1570,20 +1605,20 @@ function (_Component) {
         "data-place": "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 173
+          lineNumber: 201
         },
         __self: this
       }, "Working Acheivement"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 176
+          lineNumber: 204
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/champions",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 177
+          lineNumber: 205
         },
         __self: this
       }, __jsx("a", {
@@ -1591,20 +1626,20 @@ function (_Component) {
         "data-place": "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 178
+          lineNumber: 206
         },
         __self: this
       }, "Champions"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 182
+          lineNumber: 210
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/working",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 183
+          lineNumber: 211
         },
         __self: this
       }, __jsx("a", {
@@ -1612,20 +1647,20 @@ function (_Component) {
         "data-place": "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 184
+          lineNumber: 212
         },
         __self: this
       }, "Working"))), __jsx("li", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 187
+          lineNumber: 215
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/titled",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 188
+          lineNumber: 216
         },
         __self: this
       }, __jsx("a", {
@@ -1633,54 +1668,58 @@ function (_Component) {
         "data-place": "left",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 189
+          lineNumber: 217
         },
         __self: this
       }, "Titled"))))), __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 194
+          lineNumber: 222
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 195
+          lineNumber: 223
         },
         __self: this
       }, "Register of Merit"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 197
+          lineNumber: 225
         },
         __self: this
       }, rom.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-          href: "/aboutDog",
+          href: "/rom",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 199
+            lineNumber: 227
           },
           __self: this
         }, __jsx("li", {
           key: data.id,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 200
+            lineNumber: 228
           },
           __self: this
         }, __jsx("a", {
           "data-tip": data.call,
           "data-place": "left",
           onClick: function onClick(e) {
-            _this2.handleSetCurrentDog(data.id);
+            e.preventDefault();
+
+            _this2.openModal();
+
+            _this2.handleModalData(data.image, data.id);
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 201
+            lineNumber: 229
           },
           __self: this
         }, __jsx("img", {
@@ -1688,7 +1727,7 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 203
+            lineNumber: 234
           },
           __self: this
         }))));
@@ -1696,47 +1735,51 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 210
+          lineNumber: 241
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 211
+          lineNumber: 242
         },
         __self: this
       }, "NCA Top Twenty"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 213
+          lineNumber: 244
         },
         __self: this
       }, toptwenty.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
-          href: "/aboutDog",
+          href: "/top20",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 215
+            lineNumber: 246
           },
           __self: this
         }, __jsx("li", {
           key: data.id,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 216
+            lineNumber: 247
           },
           __self: this
         }, __jsx("a", {
           "data-tip": data.call + ' (' + data.toptwenty + ')',
           "data-place": "left",
           onClick: function onClick(e) {
-            _this2.handleSetCurrentDog(data.id);
+            e.preventDefault();
+
+            _this2.openModal();
+
+            _this2.handleModalData(data.image, data.id);
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 217
+            lineNumber: 248
           },
           __self: this
         }, __jsx("img", {
@@ -1744,7 +1787,7 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 219
+            lineNumber: 253
           },
           __self: this
         }))));
@@ -1754,21 +1797,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 232
+          lineNumber: 266
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 233
+          lineNumber: 267
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 234
+          lineNumber: 268
         },
         __self: this
       }, __jsx("a", {
@@ -1778,63 +1821,63 @@ function (_Component) {
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 235
+          lineNumber: 269
         },
         __self: this
       }, "The Boys ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 236
+          lineNumber: 270
         },
         __self: this
       }))), __jsx("ul", {
         className: ddBoysClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 239
+          lineNumber: 273
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 240
+          lineNumber: 274
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 241
+          lineNumber: 275
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 242
+          lineNumber: 276
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 259
+          lineNumber: 293
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 260
+          lineNumber: 294
         },
         __self: this
       }, "Old Bay Boys"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 262
+          lineNumber: 296
         },
         __self: this
       }, boys.map(function (data, idx) {
@@ -1842,14 +1885,14 @@ function (_Component) {
           href: "/aboutDog",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 264
+            lineNumber: 298
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 265
+            lineNumber: 299
           },
           __self: this
         }, __jsx("a", {
@@ -1860,7 +1903,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 266
+            lineNumber: 300
           },
           __self: this
         }, data.call)));
@@ -1868,35 +1911,35 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 276
+          lineNumber: 310
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 277
+          lineNumber: 311
         },
         __self: this
       }, "The Studs"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 279
+          lineNumber: 313
         },
         __self: this
       }, studs.map(function (data, idx) {
         return __jsx("li", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 281
+            lineNumber: 315
           },
           __self: this
         }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 282
+            lineNumber: 316
           },
           __self: this
         }, __jsx("a", {
@@ -1907,7 +1950,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 283
+            lineNumber: 317
           },
           __self: this
         }, __jsx("img", {
@@ -1915,7 +1958,7 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 284
+            lineNumber: 318
           },
           __self: this
         }))));
@@ -1925,21 +1968,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 297
+          lineNumber: 331
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 298
+          lineNumber: 332
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 299
+          lineNumber: 333
         },
         __self: this
       }, __jsx("a", {
@@ -1949,63 +1992,63 @@ function (_Component) {
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 300
+          lineNumber: 334
         },
         __self: this
       }, "The Girls ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 301
+          lineNumber: 335
         },
         __self: this
       }))), __jsx("ul", {
         className: ddGirlsClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 304
+          lineNumber: 338
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 305
+          lineNumber: 339
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 306
+          lineNumber: 340
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 307
+          lineNumber: 341
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 324
+          lineNumber: 358
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 325
+          lineNumber: 359
         },
         __self: this
       }, "Old Bay Girls"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 327
+          lineNumber: 361
         },
         __self: this
       }, girls.map(function (data, idx) {
@@ -2013,14 +2056,14 @@ function (_Component) {
           href: "/aboutDog",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 329
+            lineNumber: 363
           },
           __self: this
         }, __jsx("li", {
           key: data.id,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 330
+            lineNumber: 364
           },
           __self: this
         }, __jsx("a", {
@@ -2031,7 +2074,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 331
+            lineNumber: 365
           },
           __self: this
         }, data.call)));
@@ -2039,35 +2082,35 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 341
+          lineNumber: 375
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 342
+          lineNumber: 376
         },
         __self: this
       }, "The Dams"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 344
+          lineNumber: 378
         },
         __self: this
       }, dams.map(function (data, idx) {
         return __jsx("li", {
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 346
+            lineNumber: 380
           },
           __self: this
         }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 347
+            lineNumber: 381
           },
           __self: this
         }, __jsx("a", {
@@ -2078,7 +2121,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 348
+            lineNumber: 382
           },
           __self: this
         }, __jsx("img", {
@@ -2086,7 +2129,7 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 349
+            lineNumber: 383
           },
           __self: this
         }))));
@@ -2096,21 +2139,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 362
+          lineNumber: 396
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 363
+          lineNumber: 397
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 364
+          lineNumber: 398
         },
         __self: this
       }, __jsx("a", {
@@ -2120,56 +2163,56 @@ function (_Component) {
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 365
+          lineNumber: 399
         },
         __self: this
       }, "Puppies ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 366
+          lineNumber: 400
         },
         __self: this
       }))), __jsx("ul", {
         className: ddPuppiesClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 369
+          lineNumber: 403
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 370
+          lineNumber: 404
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 371
+          lineNumber: 405
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 372
+          lineNumber: 406
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 373
+          lineNumber: 407
         },
         __self: this
       }, "Past Litters "), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 375
+          lineNumber: 409
         },
         __self: this
       }, litters1to10.map(function (data, idx) {
@@ -2177,14 +2220,14 @@ function (_Component) {
           href: "/litter",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 378
+            lineNumber: 412
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 379
+            lineNumber: 413
           },
           __self: this
         }, __jsx("a", {
@@ -2195,7 +2238,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 380
+            lineNumber: 414
           },
           __self: this
         }, data.parents)));
@@ -2203,21 +2246,21 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 389
+          lineNumber: 423
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 390
+          lineNumber: 424
         },
         __self: this
       }, "Past Litters (continued)"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 392
+          lineNumber: 426
         },
         __self: this
       }, litters11to20.map(function (data, idx) {
@@ -2225,14 +2268,14 @@ function (_Component) {
           href: "/litter",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 394
+            lineNumber: 428
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 395
+            lineNumber: 429
           },
           __self: this
         }, __jsx("a", {
@@ -2243,7 +2286,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 396
+            lineNumber: 430
           },
           __self: this
         }, data.parents)));
@@ -2251,21 +2294,21 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 405
+          lineNumber: 439
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 406
+          lineNumber: 440
         },
         __self: this
       }, "Past Litters (continued)"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 408
+          lineNumber: 442
         },
         __self: this
       }, litters21andOver.map(function (data, idx) {
@@ -2273,14 +2316,14 @@ function (_Component) {
           href: "/litter",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 410
+            lineNumber: 444
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 411
+            lineNumber: 445
           },
           __self: this
         }, __jsx("a", {
@@ -2291,7 +2334,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 412
+            lineNumber: 446
           },
           __self: this
         }, data.parents)));
@@ -2301,21 +2344,21 @@ function (_Component) {
         },
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 425
+          lineNumber: 459
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item megamenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 426
+          lineNumber: 460
         },
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 427
+          lineNumber: 461
         },
         __self: this
       }, __jsx("a", {
@@ -2325,63 +2368,63 @@ function (_Component) {
         "data-toggle": "dropdown",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 428
+          lineNumber: 462
         },
         __self: this
       }, "Our Past ", __jsx("i", {
         className: "fas fa-chevron-down",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 429
+          lineNumber: 463
         },
         __self: this
       }))), __jsx("ul", {
         className: ddPastClass,
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 432
+          lineNumber: 466
         },
         __self: this
       }, __jsx("li", {
         className: "nav-item",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 433
+          lineNumber: 467
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 434
+          lineNumber: 468
         },
         __self: this
       }, __jsx("div", {
         className: "row",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 435
+          lineNumber: 469
         },
         __self: this
       }, __jsx("div", {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 436
+          lineNumber: 470
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 437
+          lineNumber: 471
         },
         __self: this
       }, "Our Past"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 439
+          lineNumber: 473
         },
         __self: this
       }, past1to10.map(function (data, idx) {
@@ -2389,14 +2432,14 @@ function (_Component) {
           href: "/aboutDog",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 441
+            lineNumber: 475
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 442
+            lineNumber: 476
           },
           __self: this
         }, __jsx("a", {
@@ -2407,7 +2450,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 443
+            lineNumber: 477
           },
           __self: this
         }, data.call)));
@@ -2415,21 +2458,21 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 452
+          lineNumber: 486
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 453
+          lineNumber: 487
         },
         __self: this
       }, "Our Past"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 455
+          lineNumber: 489
         },
         __self: this
       }, past1to10.map(function (data, idx) {
@@ -2437,14 +2480,14 @@ function (_Component) {
           href: "/aboutDog",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 457
+            lineNumber: 491
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 458
+            lineNumber: 492
           },
           __self: this
         }, __jsx("a", {
@@ -2455,7 +2498,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 459
+            lineNumber: 493
           },
           __self: this
         }, __jsx("img", {
@@ -2463,7 +2506,7 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 461
+            lineNumber: 495
           },
           __self: this
         }))));
@@ -2471,21 +2514,21 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 468
+          lineNumber: 502
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 469
+          lineNumber: 503
         },
         __self: this
       }, "Our Past"), __jsx("ul", {
         className: "megamenu-submenu",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 471
+          lineNumber: 505
         },
         __self: this
       }, past10andOver.map(function (data, idx) {
@@ -2493,14 +2536,14 @@ function (_Component) {
           href: "/aboutDog",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 473
+            lineNumber: 507
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 474
+            lineNumber: 508
           },
           __self: this
         }, __jsx("a", {
@@ -2511,7 +2554,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 475
+            lineNumber: 509
           },
           __self: this
         }, data.call)));
@@ -2519,21 +2562,21 @@ function (_Component) {
         className: "col",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 484
+          lineNumber: 518
         },
         __self: this
       }, __jsx("h6", {
         className: "submenu-title",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 485
+          lineNumber: 519
         },
         __self: this
       }, "Our Past"), __jsx("ul", {
         className: "megamenu-submenu top-brands",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 487
+          lineNumber: 521
         },
         __self: this
       }, past10andOver.map(function (data, idx) {
@@ -2541,14 +2584,14 @@ function (_Component) {
           href: "/aboutDog",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 490
+            lineNumber: 524
           },
           __self: this
         }, __jsx("li", {
           key: idx,
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 491
+            lineNumber: 525
           },
           __self: this
         }, __jsx("a", {
@@ -2559,7 +2602,7 @@ function (_Component) {
           },
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 492
+            lineNumber: 526
           },
           __self: this
         }, __jsx("img", {
@@ -2567,11 +2610,21 @@ function (_Component) {
           alt: "image",
           __source: {
             fileName: _jsxFileName,
-            lineNumber: 494
+            lineNumber: 528
           },
           __self: this
         })))) : "";
-      }))))))))))))))));
+      }))))))))))))))), modalOpen ? __jsx(_Modal_QuickView__WEBPACK_IMPORTED_MODULE_13__["default"], {
+        closeModal: this.closeModal,
+        idd: this.state.idd,
+        image: this.state.modalImage,
+        price: this.state.price,
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 549
+        },
+        __self: this
+      }) : '');
     }
   }]);
 
@@ -2593,7 +2646,20 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
     },
     setCurrentLitter: function setCurrentLitter(id) {
       dispatch(Object(_store_actions_cartActions__WEBPACK_IMPORTED_MODULE_9__["setCurrentLitter"])(id));
-    }
+    },
+    setCurrentModal: function (_setCurrentModal) {
+      function setCurrentModal(_x) {
+        return _setCurrentModal.apply(this, arguments);
+      }
+
+      setCurrentModal.toString = function () {
+        return _setCurrentModal.toString();
+      };
+
+      return setCurrentModal;
+    }(function (id) {
+      dispatch(setCurrentModal(id));
+    })
   };
 };
 
@@ -2625,7 +2691,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\Layout\\Navbar.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\Layout\\Navbar.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_5___default.a.createElement;
 
 
@@ -2710,7 +2776,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\Layout\\TopHeader.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\Layout\\TopHeader.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -3049,7 +3115,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\Layout\\TopPanel.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\Layout\\TopPanel.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_8___default.a.createElement;
 
 
@@ -3288,7 +3354,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\Modal\\LeftFilter.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\Modal\\LeftFilter.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -4763,7 +4829,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\components\\Modal\\QuickView.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\components\\Modal\\QuickView.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -28256,12 +28322,12 @@ var e,t=(e=__webpack_require__(/*! querystring */ "./node_modules/querystring-es
 
 /***/ "./node_modules/next/dist/build/polyfills/object-assign.js":
 /*!***********************************************************************************************************************!*\
-  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_1d49248b1ae4b0ff3f2c ***!
+  !*** delegated ./node_modules/next/dist/build/polyfills/object-assign.js from dll-reference dll_5db81e51244af5011127 ***!
   \***********************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_1d49248b1ae4b0ff3f2c */ "dll-reference dll_1d49248b1ae4b0ff3f2c"))("./node_modules/next/dist/build/polyfills/object-assign.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_5db81e51244af5011127 */ "dll-reference dll_5db81e51244af5011127"))("./node_modules/next/dist/build/polyfills/object-assign.js");
 
 /***/ }),
 
@@ -28277,10 +28343,10 @@ var assign=Object.assign.bind(Object);function g(){return assign;}Object.defineP
 
 /***/ }),
 
-/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5CPortfolio%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js!./":
-/*!**************************************************************************************************************************************************************************************************!*\
-  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5CPortfolio%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js ***!
-  \**************************************************************************************************************************************************************************************************/
+/***/ "./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js!./":
+/*!**************************************************************************************************************************************************************************************!*\
+  !*** ./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js ***!
+  \**************************************************************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
@@ -32347,12 +32413,12 @@ exports.encode = exports.stringify = __webpack_require__(/*! ./encode */ "./node
 
 /***/ "./node_modules/react-dom/index.js":
 /*!***********************************************************************************************!*\
-  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_1d49248b1ae4b0ff3f2c ***!
+  !*** delegated ./node_modules/react-dom/index.js from dll-reference dll_5db81e51244af5011127 ***!
   \***********************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_1d49248b1ae4b0ff3f2c */ "dll-reference dll_1d49248b1ae4b0ff3f2c"))("./node_modules/react-dom/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_5db81e51244af5011127 */ "dll-reference dll_5db81e51244af5011127"))("./node_modules/react-dom/index.js");
 
 /***/ }),
 
@@ -41990,12 +42056,12 @@ module.exports = ReactPropTypesSecret;
 
 /***/ "./node_modules/react/index.js":
 /*!*******************************************************************************************!*\
-  !*** delegated ./node_modules/react/index.js from dll-reference dll_1d49248b1ae4b0ff3f2c ***!
+  !*** delegated ./node_modules/react/index.js from dll-reference dll_5db81e51244af5011127 ***!
   \*******************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = (__webpack_require__(/*! dll-reference dll_1d49248b1ae4b0ff3f2c */ "dll-reference dll_1d49248b1ae4b0ff3f2c"))("./node_modules/react/index.js");
+module.exports = (__webpack_require__(/*! dll-reference dll_5db81e51244af5011127 */ "dll-reference dll_5db81e51244af5011127"))("./node_modules/react/index.js");
 
 /***/ }),
 
@@ -43756,7 +43822,7 @@ __webpack_require__.r(__webpack_exports__);
 
 
 
-var _jsxFileName = "C:\\Projects\\Portfolio\\oldbaynewfoundlands\\pages\\specialties.js";
+var _jsxFileName = "C:\\Projects\\oldbaynewfoundlands\\pages\\specialties.js";
 var __jsx = react__WEBPACK_IMPORTED_MODULE_7___default.a.createElement;
 
 
@@ -44044,28 +44110,28 @@ var removeItemFromCompare = function removeItemFromCompare(id) {
 
 /***/ }),
 
-/***/ 11:
-/*!******************************************************************************************************************************************************!*\
-  !*** multi next-client-pages-loader?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5CPortfolio%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js ***!
-  \******************************************************************************************************************************************************/
+/***/ 10:
+/*!******************************************************************************************************************************************!*\
+  !*** multi next-client-pages-loader?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js ***!
+  \******************************************************************************************************************************************/
 /*! no static exports found */
 /***/ (function(module, exports, __webpack_require__) {
 
-module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5CPortfolio%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5CPortfolio%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js!./");
+module.exports = __webpack_require__(/*! next-client-pages-loader?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js! */"./node_modules/next/dist/build/webpack/loaders/next-client-pages-loader.js?page=%2Fspecialties&absolutePagePath=C%3A%5CProjects%5Coldbaynewfoundlands%5Cpages%5Cspecialties.js!./");
 
 
 /***/ }),
 
-/***/ "dll-reference dll_1d49248b1ae4b0ff3f2c":
+/***/ "dll-reference dll_5db81e51244af5011127":
 /*!*******************************************!*\
-  !*** external "dll_1d49248b1ae4b0ff3f2c" ***!
+  !*** external "dll_5db81e51244af5011127" ***!
   \*******************************************/
 /*! no static exports found */
 /***/ (function(module, exports) {
 
-module.exports = dll_1d49248b1ae4b0ff3f2c;
+module.exports = dll_5db81e51244af5011127;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]);
+},[[10,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=specialties.js.map
