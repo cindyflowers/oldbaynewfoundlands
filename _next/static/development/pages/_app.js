@@ -14515,7 +14515,7 @@ function (_App) {
 /*!****************************************************!*\
   !*** ./store/actions/action-types/cart-actions.js ***!
   \****************************************************/
-/*! exports provided: ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING, ADD_QUANTITY_WITH_NUMBER, ORDER_FORM, CHECKOUT_CHARGE, RESET_CART, ADD_TO_COMPARE, REMOVE_ITEM_FROM_COMPARE, SET_CURRENT_DOG, SET_CURRENT_LITTER */
+/*! exports provided: ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING, ADD_QUANTITY_WITH_NUMBER, ORDER_FORM, CHECKOUT_CHARGE, RESET_CART, ADD_TO_COMPARE, REMOVE_ITEM_FROM_COMPARE, SET_CURRENT_DOG, SET_CURRENT_LITTER, SORT_AWARDS */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -14533,6 +14533,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "REMOVE_ITEM_FROM_COMPARE", function() { return REMOVE_ITEM_FROM_COMPARE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SET_CURRENT_DOG", function() { return SET_CURRENT_DOG; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SET_CURRENT_LITTER", function() { return SET_CURRENT_LITTER; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SORT_AWARDS", function() { return SORT_AWARDS; });
 //Types should be in const to avoid typos and duplication since it's a string and could be easily miss spelled
 var ADD_TO_CART = 'ADD_TO_CART';
 var REMOVE_ITEM = 'REMOVE_ITEM';
@@ -14547,6 +14548,7 @@ var ADD_TO_COMPARE = 'ADD_TO_COMPARE';
 var REMOVE_ITEM_FROM_COMPARE = 'REMOVE_ITEM_FROM_COMPARE';
 var SET_CURRENT_DOG = 'SET_CURRENT_DOG';
 var SET_CURRENT_LITTER = 'SET_CURRENT_LITTER';
+var SORT_AWARDS = 'SORT_AWARDS';
 
 /***/ }),
 
@@ -14610,10 +14612,26 @@ var initState = {
     imageHover: __webpack_require__(/*! ../../images/img-hover1.jpg */ "./images/img-hover1.jpg"),
     quickView: __webpack_require__(/*! ../../images/quick-view-img.jpg */ "./images/quick-view-img.jpg")
   }],
-  addedItems: [],
-  addedItemsToCompare: [],
   total: 0,
   shipping: 0,
+  addedItems: [],
+  addedItemsToCompare: [],
+  titledSort: "1",
+  titled: [],
+  specialtiesSort: "1",
+  specialties: [],
+  topTwentySort: "1",
+  topTwenty: [],
+  registerOfMeritSort: "1",
+  registerOfMerit: [],
+  versitileNewfoundlandSort: "1",
+  versitileNewfoundland: [],
+  workingAchievementSort: "1",
+  workingAchievement: [],
+  championsSort: "1",
+  champions: [],
+  workingSort: "1",
+  working: [],
   currentDog: 1,
   currentLitter: 1,
   dogs: [{
@@ -18618,7 +18636,7 @@ var initState = {
   }, {
     image: __webpack_require__(/*! ../../images/specialties/DoryVeteran.jpg */ "./images/specialties/DoryVeteran.jpg"),
     award: "Best Veteran",
-    show: "High County Newfoundland Club",
+    show: "High County Newfoundland Club Regional",
     date: "2018-11-08T08:00:00Z",
     dog: "Dory",
     id: 79
@@ -19707,21 +19725,21 @@ var initState = {
   }, {
     image: __webpack_require__(/*! ../../images/specialties/PotterAOM.jpg */ "./images/specialties/PotterAOM.jpg"),
     award: "Award of Merit",
-    show: "New Pen Del - Morris & Essex",
+    show: "New Pen Del Regional Specialty - Morris & Essex",
     date: "2010-10-04T08:00:00Z",
     dog: "Potter",
     id: 70
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Linus.jpg */ "./images/specialties/Linus.jpg"),
     award: "Best of Opposite in Sweeps/ 1st 6-9 Sweeps / 1st 6-9 Dog",
-    show: "New Pen Del - Morris & Essex",
+    show: "New Pen Del Regional Specialty - Morris & Essex",
     date: "2010-10-04T08:00:00Z",
     dog: "Linus",
     id: 102
   }, {
     image: __webpack_require__(/*! ../../images/specialties/Bridget.JPG */ "./images/specialties/Bridget.JPG"),
     award: "1st 6-9 Sweeps / 2nd 6-9 Bitch",
-    show: "New Pen Del - Morris & Essex",
+    show: "New Pen Del Regional Specialty - Morris & Essex",
     date: "2010-10-04T08:00:00Z",
     dog: "Bridget",
     id: 103
@@ -20034,30 +20052,131 @@ var initState = {
     dog: "Daisy",
     id: 21
   }]
-}; //GCH CH Old Bay's Theodorable Spicy Altatude CD BN RA CGC
-//GCH CH Old Bay's Son Of The Sea
-//GCH CH Old Bays Voyage To Nitestar BN CGCA TKI
-//GCH CH Old Bay's Cool Hand Luke At Belle Harbour
-//GCHB CH Emalani Of Old Bay RN CGC
-//GCH CH Old Bay's Get My Drift At Powder Ridge
-//GCH CH Old Bay's Please Don'T Squeeze The Charm'N
-//GCH CH Old Bay's "Potter As In Harry" CD BN RA CGC
+};
+initState.awards.sort(byDateDesc);
+initState.litters.sort(byDOBDesc);
+initState.dogs.sort(byDOBDesc);
+initState.specialties = initState.awards.slice();
+initState.topTwenty = initState.awards.slice();
+initState.topTwenty = initState.topTwenty.filter(function (dog) {
+  return dog.toptwenty == true;
+});
+initState.registerOfMerit = initState.awards.slice();
+initState.registerOfMerit = initState.registerOfMerit.filter(function (dog) {
+  return dog.rom == true;
+});
+initState.versitileNewfoundland = initState.dogs.slice();
+initState.versitileNewfoundland = initState.versitileNewfoundland.filter(function (dog) {
+  return dog.vn == true;
+});
+initState.workingAchievement = initState.dogs.slice();
+initState.workingAchievement = initState.workingAchievement.filter(function (dog) {
+  return dog.wa == true;
+});
+initState.champions = initState.dogs.slice();
+initState.champions = initState.champions.filter(function (dog) {
+  return dog.ch == true;
+});
+initState.working = initState.dogs.slice();
+initState.working = initState.working.filter(function (dog) {
+  return dog.work == true;
+});
+initState.titled = initState.dogs.slice();
+initState.titled = initState.titled.filter(function (dog) {
+  return dog.Titles.length > 0;
+});
 
-function byDate(a, b) {
-  if (a.date < b.date) return 1;
-  if (a.date > b.date) return -1;
+function byDOBAsc(a, b) {
+  if (b.dob < a.dob) return 1;
+  if (b.dob > a.dob) return -1;
   return 0;
 }
 
-function byDOB(a, b) {
+function byDOBDesc(a, b) {
   if (a.dob < b.dob) return 1;
   if (a.dob > b.dob) return -1;
   return 0;
 }
 
-initState.awards.sort(byDate);
-initState.litters.sort(byDOB);
-initState.dogs.sort(byDOB);
+function byDateDesc(a, b) {
+  if (a.date < b.date) return 1;
+  if (a.date > b.date) return -1;
+  return 0;
+}
+
+function byDateAsc(a, b) {
+  if (b.date < a.date) return 1;
+  if (b.date > a.date) return -1;
+  return 0;
+}
+
+function byDogDesc(a, b) {
+  if (a.dog < b.dog) return 1;
+  if (a.dog > b.dog) return -1;
+  return 0;
+}
+
+function byDogAsc(a, b) {
+  if (b.dog < a.dog) return 1;
+  if (b.dog > a.dog) return -1;
+  return 0;
+}
+
+function byCallDesc(a, b) {
+  if (a.call < b.call) return 1;
+  if (a.call > b.call) return -1;
+  return 0;
+}
+
+function byCallAsc(a, b) {
+  if (b.call < a.call) return 1;
+  if (b.call > a.call) return -1;
+  return 0;
+}
+
+function getSortFunction(awardType, value) {
+  var sortFunction = byDateDesc;
+
+  if (awardType === "specialties" || awardType === "topTwenty" || awardType === "registerOfMerit") {
+    switch (value) {
+      case "1":
+        sortFunction = byDateDesc;
+        break;
+
+      case "2":
+        sortFunction = byDateAsc;
+        break;
+
+      case "3":
+        sortFunction = byDogDesc;
+        break;
+
+      case "4":
+        sortFunction = byDogAsc;
+        break;
+    }
+  } else {
+    switch (value) {
+      case "1":
+        sortFunction = byDOBDesc;
+        break;
+
+      case "2":
+        sortFunction = byDOBAsc;
+        break;
+
+      case "3":
+        sortFunction = byCallDesc;
+        break;
+
+      case "4":
+        sortFunction = byCallAsc;
+        break;
+    }
+  }
+
+  return sortFunction;
+}
 
 var cartReducer = function cartReducer() {
   var state = arguments.length > 0 && arguments[0] !== undefined ? arguments[0] : initState;
@@ -20073,6 +20192,68 @@ var cartReducer = function cartReducer() {
     return _objectSpread({}, state, {
       currentLitter: action.id
     });
+  }
+
+  if (action.type === _actions_action_types_cart_actions__WEBPACK_IMPORTED_MODULE_11__["SORT_AWARDS"]) {
+    var sortFunction = getSortFunction(action.awardType, action.value);
+
+    switch (action.awardType) {
+      case "specialties":
+        state.specialties.sort(sortFunction);
+        return _objectSpread({}, state, {
+          specialties: Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__["default"])(state.specialties),
+          specialtiesSort: action.value
+        });
+
+      case "topTwenty":
+        state.topTwenty.sort(sortFunction);
+        return _objectSpread({}, state, {
+          topTwenty: Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__["default"])(state.topTwenty),
+          topTwentySort: action.value
+        });
+
+      case "registerOfMerit":
+        state.registerOfMerit.sort(sortFunction);
+        return _objectSpread({}, state, {
+          registerOfMerit: Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__["default"])(state.registerOfMerit),
+          registerOfMeritSort: action.value
+        });
+
+      case "versitileNewfoundland":
+        state.versitileNewfoundland.sort(sortFunction);
+        return _objectSpread({}, state, {
+          versitileNewfoundland: Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__["default"])(state.versitileNewfoundland),
+          versitileNewfoundlandSort: action.value
+        });
+
+      case "workingAchievement":
+        state.workingAchievement.sort(sortFunction);
+        return _objectSpread({}, state, {
+          workingAchievement: Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__["default"])(state.workingAchievement),
+          workingAchievementSort: action.value
+        });
+
+      case "champions":
+        state.champions.sort(sortFunction);
+        return _objectSpread({}, state, {
+          champions: Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__["default"])(state.champions),
+          championsSort: action.value
+        });
+
+      case "working":
+        state.working.sort(sortFunction);
+        return _objectSpread({}, state, {
+          working: Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__["default"])(state.working),
+          workingSort: action.value
+        });
+
+      case "titled":
+        state.titled.sort(sortFunction);
+        return _objectSpread({}, state, {
+          titled: Object(_babel_runtime_corejs2_helpers_esm_toConsumableArray__WEBPACK_IMPORTED_MODULE_6__["default"])(state.titled),
+          titledSort: action.value
+        });
+    }
   }
 
   if (action.type === _actions_action_types_cart_actions__WEBPACK_IMPORTED_MODULE_11__["ADD_TO_CART"]) {
