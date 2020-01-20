@@ -1899,20 +1899,7 @@ var mapDispatchToProps = function mapDispatchToProps(dispatch) {
     },
     setCurrentLitter: function setCurrentLitter(id) {
       dispatch(Object(_store_actions_cartActions__WEBPACK_IMPORTED_MODULE_9__["setCurrentLitter"])(id));
-    },
-    setCurrentModal: function (_setCurrentModal) {
-      function setCurrentModal(_x) {
-        return _setCurrentModal.apply(this, arguments);
-      }
-
-      setCurrentModal.toString = function () {
-        return _setCurrentModal.toString();
-      };
-
-      return setCurrentModal;
-    }(function (id) {
-      dispatch(setCurrentModal(id));
-    })
+    }
   };
 };
 
@@ -42086,7 +42073,7 @@ var mapStateToProps = function mapStateToProps(state) {
 /*!****************************************************!*\
   !*** ./store/actions/action-types/cart-actions.js ***!
   \****************************************************/
-/*! exports provided: ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING, ADD_QUANTITY_WITH_NUMBER, ORDER_FORM, CHECKOUT_CHARGE, RESET_CART, ADD_TO_COMPARE, REMOVE_ITEM_FROM_COMPARE, SET_CURRENT_DOG, SET_CURRENT_LITTER */
+/*! exports provided: ADD_TO_CART, REMOVE_ITEM, SUB_QUANTITY, ADD_QUANTITY, ADD_SHIPPING, ADD_QUANTITY_WITH_NUMBER, ORDER_FORM, CHECKOUT_CHARGE, RESET_CART, ADD_TO_COMPARE, REMOVE_ITEM_FROM_COMPARE, SET_CURRENT_DOG, SET_CURRENT_LITTER, SORT_AWARDS */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
@@ -42104,6 +42091,7 @@ __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "REMOVE_ITEM_FROM_COMPARE", function() { return REMOVE_ITEM_FROM_COMPARE; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SET_CURRENT_DOG", function() { return SET_CURRENT_DOG; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SET_CURRENT_LITTER", function() { return SET_CURRENT_LITTER; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "SORT_AWARDS", function() { return SORT_AWARDS; });
 //Types should be in const to avoid typos and duplication since it's a string and could be easily miss spelled
 var ADD_TO_CART = 'ADD_TO_CART';
 var REMOVE_ITEM = 'REMOVE_ITEM';
@@ -42118,6 +42106,7 @@ var ADD_TO_COMPARE = 'ADD_TO_COMPARE';
 var REMOVE_ITEM_FROM_COMPARE = 'REMOVE_ITEM_FROM_COMPARE';
 var SET_CURRENT_DOG = 'SET_CURRENT_DOG';
 var SET_CURRENT_LITTER = 'SET_CURRENT_LITTER';
+var SORT_AWARDS = 'SORT_AWARDS';
 
 /***/ }),
 
@@ -42125,12 +42114,13 @@ var SET_CURRENT_LITTER = 'SET_CURRENT_LITTER';
 /*!**************************************!*\
   !*** ./store/actions/cartActions.js ***!
   \**************************************/
-/*! exports provided: setCurrentDog, setCurrentLitter, addToCart, removeItem, subtractQuantity, addQuantity, addQuantityWithNumber, resetCart, addToCompare, removeItemFromCompare */
+/*! exports provided: setCurrentDog, sortAwards, setCurrentLitter, addToCart, removeItem, subtractQuantity, addQuantity, addQuantityWithNumber, resetCart, addToCompare, removeItemFromCompare */
 /***/ (function(module, __webpack_exports__, __webpack_require__) {
 
 "use strict";
 __webpack_require__.r(__webpack_exports__);
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setCurrentDog", function() { return setCurrentDog; });
+/* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "sortAwards", function() { return sortAwards; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "setCurrentLitter", function() { return setCurrentLitter; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "addToCart", function() { return addToCart; });
 /* harmony export (binding) */ __webpack_require__.d(__webpack_exports__, "removeItem", function() { return removeItem; });
@@ -42147,6 +42137,14 @@ var setCurrentDog = function setCurrentDog(id) {
   return {
     type: _action_types_cart_actions__WEBPACK_IMPORTED_MODULE_0__["SET_CURRENT_DOG"],
     id: id
+  };
+}; //add cart action
+
+var sortAwards = function sortAwards(awardType, value) {
+  return {
+    type: _action_types_cart_actions__WEBPACK_IMPORTED_MODULE_0__["SORT_AWARDS"],
+    awardType: awardType,
+    value: value
   };
 }; //add cart action
 
@@ -42215,7 +42213,7 @@ var removeItemFromCompare = function removeItemFromCompare(id) {
 
 /***/ }),
 
-/***/ 11:
+/***/ 8:
 /*!************************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FaboutDog&absolutePagePath=C%3A%5CProjects%5Coldbaynewfoundlands%5Cpages%5CaboutDog.js ***!
   \************************************************************************************************************************************/
@@ -42238,5 +42236,5 @@ module.exports = dll_5db81e51244af5011127;
 
 /***/ })
 
-},[[11,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=aboutDog.js.map
