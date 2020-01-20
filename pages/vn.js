@@ -20,7 +20,7 @@ class vn extends Component {
     
     render() {
         let { gridClass } = this.state;
-        let { versitileNewfoundlandSort } = this.props;
+        let { versitileNewfoundlandSort, length } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
@@ -42,7 +42,7 @@ class vn extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
-                                <DogFilterOptions onClick={this.handleGrid}  sort={versitileNewfoundlandSort} awardType="versitileNewfoundland"/>
+                                <DogFilterOptions onClick={this.handleGrid}  sort={versitileNewfoundlandSort} awardType="versitileNewfoundland" total={length}/>
 
                                 <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
                                     <DogVNCard />
@@ -61,7 +61,8 @@ class vn extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        versitileNewfoundlandSort: state.versitileNewfoundlandSort
+        versitileNewfoundlandSort: state.versitileNewfoundlandSort,
+        length: state.versitileNewfoundland.length
     }
 }
 

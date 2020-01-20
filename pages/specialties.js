@@ -20,7 +20,7 @@ class Index extends Component {
     
     render() {
         let { gridClass} = this.state;
-        let { specialtiesSort } = this.props;
+        let { specialtiesSort, length } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
@@ -37,7 +37,7 @@ class Index extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
-                                <DogFilterOptions onClick={this.handleGrid} sort={specialtiesSort} awardType="specialties" />
+                                <DogFilterOptions onClick={this.handleGrid} sort={specialtiesSort} awardType="specialties" total={length}/>
 
                                 <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
                                     <DogCard />
@@ -56,7 +56,8 @@ class Index extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        specialtiesSort: state.specialtiesSort
+        specialtiesSort: state.specialtiesSort,
+        length: state.specialties.length
     }
 }
 

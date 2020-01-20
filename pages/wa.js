@@ -20,7 +20,7 @@ class wa extends Component {
     
     render() {
         let { gridClass } = this.state;
-        let { workingAchievementSort } = this.props;
+        let { workingAchievementSort, length } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
@@ -88,7 +88,7 @@ class wa extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
-                                <DogFilterOptions onClick={this.handleGrid} sort={workingAchievementSort} awardType="workingAchievement"/>
+                                <DogFilterOptions onClick={this.handleGrid} sort={workingAchievementSort} awardType="workingAchievement"  total={length}/>
 
                                 <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
                                     <DogWACard />
@@ -107,7 +107,8 @@ class wa extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        workingAchievementSort: state.workingAchievementSort
+        workingAchievementSort: state.workingAchievementSort,
+        length: state.workingAchievement.length
     }
 }
 

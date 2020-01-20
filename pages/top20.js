@@ -29,7 +29,7 @@ class Top20 extends Component {
     
     render() {
         let { gridClass, myAwards } = this.state;
-        let { topTwentySort } = this.props;
+        let { topTwentySort, length } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
@@ -52,7 +52,7 @@ class Top20 extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
-                                <DogFilterOptions onClick={this.handleGrid} sort={topTwentySort} awardType="topTwenty"/>
+                                <DogFilterOptions onClick={this.handleGrid} sort={topTwentySort} awardType="topTwenty" total={length}/>
                                 <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
                                     <DogTop20Card />
                                 </div>
@@ -70,7 +70,8 @@ class Top20 extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        topTwentySort: state.topTwentySort
+        topTwentySort: state.topTwentySort,
+        length: state.topTwenty.length
     }
 }
 

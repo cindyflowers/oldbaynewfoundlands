@@ -20,7 +20,7 @@ class Rom extends Component {
     
     render() {
         let { gridClass } = this.state;
-        let { registerOfMeritSort } = this.props;
+        let { registerOfMeritSort, length } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
@@ -37,7 +37,7 @@ class Rom extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
-                                <DogFilterOptions onClick={this.handleGrid} sort={registerOfMeritSort} awardType="registerOfMerit"/>
+                                <DogFilterOptions onClick={this.handleGrid} sort={registerOfMeritSort} awardType="registerOfMerit" total={length}/>
 
                                 <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
                                     <DogRomCard />
@@ -56,7 +56,9 @@ class Rom extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        registerOfMeritSort: state.registerOfMeritSort
+        registerOfMeritSort: state.registerOfMeritSort,
+        length: state.registerOfMerit.length
+
     }
 }
 

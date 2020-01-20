@@ -34,7 +34,7 @@ class Index extends Component {
                                     <h3>Drop Us A Line</h3>
                                     <p>We’re happy to answer any questions you have. Just send us a message in the form below.</p>
 
-                                    <form id="contactForm">
+                                    <form id="contactForm" action="https://formspree.io/xbjgqbzz" method="POST">
                                         <div className="row">
                                             <div className="col-lg-12 col-md-12">
                                                 <div className="form-group">
