@@ -9,6 +9,7 @@ import {
     REMOVE_ITEM_FROM_COMPARE,
     SET_CURRENT_DOG,
     SET_CURRENT_LITTER,
+    SORT_AWARDS,
 } from './action-types/cart-actions'
 
 //add cart action
@@ -16,6 +17,15 @@ export const setCurrentDog = (id) => {
     return {
         type: SET_CURRENT_DOG,
         id
+    }
+}
+
+//add cart action
+export const sortAwards = (awardType, value) => {
+    return {
+        type: SORT_AWARDS,
+        awardType,
+        value
     }
 }
 //add cart action

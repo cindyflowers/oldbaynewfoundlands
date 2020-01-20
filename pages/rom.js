@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import Navbar from '../components/Layout/Navbar';
 import Footer from '../components/Layout/Footer';
 import Breadcrumb from '../components/Common/Breadcrumb';
@@ -19,6 +20,7 @@ class Rom extends Component {
     
     render() {
         let { gridClass } = this.state;
+        let { registerOfMeritSort } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
@@ -35,7 +37,7 @@ class Rom extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
-                                <DogFilterOptions onClick={this.handleGrid} />
+                                <DogFilterOptions onClick={this.handleGrid} sort={registerOfMeritSort} awardType="registerOfMerit"/>
 
                                 <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
                                     <DogRomCard />
@@ -52,4 +54,12 @@ class Rom extends Component {
     }
 }
 
-export default Rom;
+const mapStateToProps = (state) => {
+    return {
+        registerOfMeritSort: state.registerOfMeritSort
+    }
+}
+
+export default connect(
+    mapStateToProps,
+)(Rom)

@@ -569,7 +569,6 @@ const mapDispatchToProps= (dispatch) => {
     return {
         setCurrentDog: (id) => { dispatch(setCurrentDog(id)) },
         setCurrentLitter: (id) => { dispatch(setCurrentLitter(id)) },
-        setCurrentModal: (id) => { dispatch(setCurrentModal(id)) }
     }
 }
 

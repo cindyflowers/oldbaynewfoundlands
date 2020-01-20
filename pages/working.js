@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import Navbar from '../components/Layout/Navbar';
 import Footer from '../components/Layout/Footer';
 import Breadcrumb from '../components/Common/Breadcrumb';
@@ -6,7 +7,7 @@ import DogFilterOptions from '../components/DogFilterOptions';
 import DogWorkingCard from '../components/DogWorkingCard';
 import Link from 'next/link';
 
-class Index extends Component {
+class working extends Component {
 
     state = {
         gridClass: 'products-col-four'
@@ -22,10 +23,11 @@ class Index extends Component {
     
     render() {
         let { gridClass } = this.state;
+        let { workingSort, length } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
-                <Breadcrumb title="Champions" />
+                <Breadcrumb title="Working" />
 
                 <section className="products-collections-area ptb-60">
                     <div className="container">
@@ -53,7 +55,7 @@ class Index extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
-                                <DogFilterOptions onClick={this.handleGrid} />
+                                <DogFilterOptions onClick={this.handleGrid} sort={workingSort} awardType="working" total={length}/>
 
                                 <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
                                     <DogWorkingCard />
@@ -71,5 +73,13 @@ class Index extends Component {
 }
 
 
+const mapStateToProps = (state) => {
+    return {
+        workingSort: state.workingSort,
+        length: state.working.length
+    }
+}
 
-export default Index;
+export default connect(
+    mapStateToProps,
+)(working)

@@ -29,13 +29,13 @@ class DogVNCard extends Component {
     }
 
     render() {
-        let { dogs } = this.props;
+        let { versitileNewfoundland } = this.props;
         const { modalOpen } = this.state;
         return (
             <React.Fragment>
                 <ReactTooltip  />
                 <ToastContainer transition={Slide} />
-                {dogs.filter(dog => dog.vn == true).map((data, idx) => (
+                {versitileNewfoundland.map((data, idx) => (
                     <div className="col-lg-4 col-sm-6 col-md-4 col-6 products-col-item" key={idx}>
                         <div className="single-product-box">
                             <div className="product-image">
@@ -88,7 +88,7 @@ class DogVNCard extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        dogs: state.dogs
+        versitileNewfoundland: state.versitileNewfoundland
     }
 }
 

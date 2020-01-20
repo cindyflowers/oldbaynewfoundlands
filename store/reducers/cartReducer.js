@@ -5,6 +5,7 @@ import thunkMiddleware from 'redux-thunk';
 import { 
     SET_CURRENT_DOG,
     SET_CURRENT_LITTER,
+    SORT_AWARDS,
     ADD_TO_CART,
     REMOVE_ITEM,
     SUB_QUANTITY,
@@ -28,10 +29,26 @@ const initState = {
             quickView: require('../../images/quick-view-img.jpg')
         },
     ],
-    addedItems:[],
-    addedItemsToCompare:[],
     total: 0,
     shipping: 0,
+    addedItems:[],
+    addedItemsToCompare:[],
+    titledSort: "1",
+    titled: [],
+    specialtiesSort: "1",
+    specialties: [],
+    topTwentySort: "1",
+    topTwenty: [],
+    registerOfMeritSort: "1",
+    registerOfMerit: [],
+    versitileNewfoundlandSort: "1",
+    versitileNewfoundland: [],
+    workingAchievementSort: "1",
+    workingAchievement: [],
+    championsSort: "1",
+    champions: [],
+    workingSort: "1",
+    working: [],
     currentDog: 1,
     currentLitter: 1,
     dogs: 
@@ -4711,7 +4728,7 @@ const initState = {
       {
         image: require('../../images/specialties/DoryVeteran.jpg'),
         award: "Best Veteran",
-        show: "High County Newfoundland Club",
+        show: "High County Newfoundland Club Regional",
         date: "2018-11-08T08:00:00Z",  
         dog: "Dory", id: 79,
       },
@@ -5805,21 +5822,21 @@ const initState = {
       {
         image: require('../../images/specialties/PotterAOM.jpg'),
         award: "Award of Merit",
-        show: "New Pen Del - Morris & Essex",
+        show: "New Pen Del Regional Specialty - Morris & Essex",
         date: "2010-10-04T08:00:00Z",   
         dog: "Potter", id: 70,
       },
       {
         image: require('../../images/specialties/Linus.jpg'),
         award: "Best of Opposite in Sweeps/ 1st 6-9 Sweeps / 1st 6-9 Dog",
-        show: "New Pen Del - Morris & Essex",
+        show: "New Pen Del Regional Specialty - Morris & Essex",
         date: "2010-10-04T08:00:00Z",   
         dog: "Linus", id: 102,
       },
       {
         image: require('../../images/specialties/Bridget.JPG'),
         award: "1st 6-9 Sweeps / 2nd 6-9 Bitch",
-        show: "New Pen Del - Morris & Essex",
+        show: "New Pen Del Regional Specialty - Morris & Essex",
         date: "2010-10-04T08:00:00Z",   
         dog: "Bridget", id: 103,
       },
@@ -6133,29 +6150,112 @@ const initState = {
       },
   ]
 }
-//GCH CH Old Bay's Theodorable Spicy Altatude CD BN RA CGC
-//GCH CH Old Bay's Son Of The Sea
-//GCH CH Old Bays Voyage To Nitestar BN CGCA TKI
-//GCH CH Old Bay's Cool Hand Luke At Belle Harbour
-//GCHB CH Emalani Of Old Bay RN CGC
-//GCH CH Old Bay's Get My Drift At Powder Ridge
-//GCH CH Old Bay's Please Don'T Squeeze The Charm'N
-//GCH CH Old Bay's "Potter As In Harry" CD BN RA CGC
 
-function byDate (a, b) {
-  if (a.date < b.date) return 1; 
-  if (a.date > b.date) return -1; 
+
+initState.awards.sort(byDateDesc);
+initState.litters.sort(byDOBDesc);
+initState.dogs.sort(byDOBDesc);
+
+initState.specialties = initState.awards.slice();
+initState.topTwenty = initState.awards.slice();
+initState.topTwenty = initState.topTwenty.filter(dog => dog.toptwenty == true);
+initState.registerOfMerit = initState.awards.slice();
+initState.registerOfMerit = initState.registerOfMerit.filter(dog => dog.rom == true);
+
+initState.versitileNewfoundland = initState.dogs.slice();
+initState.versitileNewfoundland = initState.versitileNewfoundland.filter(dog => dog.vn == true);
+initState.workingAchievement = initState.dogs.slice();
+initState.workingAchievement = initState.workingAchievement.filter(dog => dog.wa == true);
+initState.champions = initState.dogs.slice();
+initState.champions = initState.champions.filter(dog => dog.ch == true);
+initState.working = initState.dogs.slice();
+initState.working = initState.working.filter(dog => dog.work == true);
+initState.titled = initState.dogs.slice();
+initState.titled = initState.titled.filter(dog => dog.Titles.length > 0);
+
+function byDOBAsc (a, b) {
+  if (b.dob < a.dob) return 1; 
+  if (b.dob > a.dob) return -1; 
   return 0;  
 }
-function byDOB (a, b) {
+
+function byDOBDesc (a, b) {
   if (a.dob < b.dob) return 1; 
   if (a.dob > b.dob) return -1; 
   return 0;  
 }
-initState.awards.sort(byDate);
-initState.litters.sort(byDOB);
-initState.dogs.sort(byDOB);
 
+function byDateDesc (a, b) {
+  if (a.date < b.date) return 1; 
+  if (a.date > b.date) return -1; 
+  return 0;  
+}
+
+function byDateAsc (a, b) {
+  if (b.date < a.date) return 1; 
+  if (b.date > a.date) return -1; 
+  return 0;  
+}
+
+function byDogDesc (a, b) {
+  if (a.dog < b.dog) return 1; 
+  if (a.dog > b.dog) return -1; 
+  return 0;  
+}
+
+function byDogAsc (a, b) {
+  if (b.dog < a.dog) return 1; 
+  if (b.dog > a.dog) return -1; 
+  return 0;  
+}
+
+function byCallDesc (a, b) {
+  if (a.call < b.call) return 1; 
+  if (a.call > b.call) return -1; 
+  return 0;  
+}
+
+function byCallAsc (a, b) {
+  if (b.call < a.call) return 1; 
+  if (b.call > a.call) return -1; 
+  return 0;  
+}
+
+function getSortFunction (awardType, value) {
+  let sortFunction = byDateDesc;
+  if (awardType === "specialties" || awardType === "topTwenty" || awardType === "registerOfMerit") {
+    switch (value) {
+      case "1":
+        sortFunction = byDateDesc;
+        break;
+      case "2":
+        sortFunction = byDateAsc;
+        break;
+      case "3":
+        sortFunction = byDogDesc;
+        break;
+      case "4":
+        sortFunction = byDogAsc;
+        break;
+    }
+  } else {
+    switch (value) {
+      case "1":
+        sortFunction = byDOBDesc;
+        break;
+      case "2":
+        sortFunction = byDOBAsc;
+        break;
+      case "3":
+        sortFunction = byCallDesc;
+        break;
+      case "4":
+        sortFunction = byCallAsc;
+        break;
+    }
+  }
+  return sortFunction;
+}
 
 const cartReducer = (state = initState, action) => {
 
@@ -6171,6 +6271,69 @@ const cartReducer = (state = initState, action) => {
             ...state,
             currentLitter : action.id
         }
+    }
+
+    if(action.type === SORT_AWARDS){
+      let sortFunction = getSortFunction(action.awardType, action.value)
+      switch (action.awardType) {
+        case "specialties":
+          state.specialties.sort(sortFunction);
+          return {
+            ...state,
+            specialties: [...state.specialties],
+            specialtiesSort: action.value
+          }
+        case "topTwenty":
+          state.topTwenty.sort(sortFunction);
+          return {
+            ...state,
+            topTwenty: [...state.topTwenty],
+            topTwentySort: action.value
+          }
+        case "registerOfMerit":
+          state.registerOfMerit.sort(sortFunction);
+          return {
+            ...state,
+            registerOfMerit: [...state.registerOfMerit],
+            registerOfMeritSort: action.value
+          }
+        case "versitileNewfoundland":
+          state.versitileNewfoundland.sort(sortFunction);
+          return {
+            ...state,
+            versitileNewfoundland: [...state.versitileNewfoundland],
+            versitileNewfoundlandSort: action.value
+          }        
+          case "workingAchievement":
+          state.workingAchievement.sort(sortFunction);
+          return {
+            ...state,
+            workingAchievement: [...state.workingAchievement],
+            workingAchievementSort: action.value
+          }
+          case "champions":
+          state.champions.sort(sortFunction);
+          return {
+            ...state,
+            champions: [...state.champions],
+            championsSort: action.value
+          }
+          case "working":
+            state.working.sort(sortFunction);
+            return {
+              ...state,
+              working: [...state.working],
+              workingSort: action.value
+            }
+          case "titled":
+            state.titled.sort(sortFunction);
+            return {
+              ...state,
+              titled: [...state.titled],
+              titledSort: action.value
+            }            
+      }
+
     }
    
     if(action.type === ADD_TO_CART){

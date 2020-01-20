@@ -1,11 +1,14 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
+import { sortAwards } from '../store/actions/cartActions';
 import Link from 'next/link';
 import LeftFilter from './Modal/LeftFilter';
 
 class DogFilterOptions extends Component {
 
     state = {
-        display: false
+        display: false,
+
     };
 
     handleGrid = (evt, e) => {
@@ -18,6 +21,10 @@ class DogFilterOptions extends Component {
         }
 
         evt.currentTarget.className += " active";
+    }
+
+    handleSort = (evt) => {
+        this.props.sortAwards(this.props.awardType, evt.target.value);
     }
 
     handleLeftFilter = () => {
@@ -111,34 +118,28 @@ class DogFilterOptions extends Component {
                     </div>
 
                     <div className="col d-flex justify-content-center">
-                        <p>Showing 22 of 102 results</p>
+                        <p>Showing {this.props.total} results</p>
                     </div>
 
                     <div className="col d-flex">
-                        <span>Show:</span>
-
-                        <div className="show-products-number">
-                            <select>
-                                <option value="1">22</option>
-                                <option value="2">32</option>
-                                <option value="3">42</option>
-                                <option value="4">52</option>
-                                <option value="5">62</option>
-                            </select>
-                        </div>
-
                         <span>Sort:</span>
-
                         <div className="products-ordering-list">
-                            <select>
-                                <option value="1">Featured</option>
-                                <option value="2">Best Selling</option>
-                                <option value="3">Price Ascending</option>
-                                <option value="4">Price Descending</option>
-                                <option value="5">Date Ascending</option>
-                                <option value="6">Date Descending</option>
-                                <option value="7">Name Ascending</option>
-                                <option value="8">Name Descending</option>
+                            <select value={this.props.sort} onChange={e => {
+                                        e.preventDefault();
+                                        this.handleSort(e)
+                                    }}>
+                                <option value="1" >
+                                    Date Descending
+                                </option>
+                                <option value="2" >
+                                    Date Ascending
+                                </option>
+                                <option value="3">
+                                    Name Descending
+                                </option>
+                                <option value="4">
+                                    Name Ascending
+                                </option> 
                             </select>
                         </div>
                     </div>
@@ -150,4 +151,18 @@ class DogFilterOptions extends Component {
     }
 }
 
-export default DogFilterOptions;
+const mapStateToProps = (state) => {
+
+}
+
+const mapDispatchToProps= (dispatch) => {
+    return {
+        sortAwards: (awardType, value) => { dispatch(sortAwards(awardType, value)) }
+    }
+}
+
+export default connect(
+    mapStateToProps,
+    mapDispatchToProps
+)(DogFilterOptions)
+

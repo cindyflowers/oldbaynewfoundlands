@@ -29,13 +29,13 @@ class DogRomCard extends Component {
     }
 
     render() {
-        let { awards } = this.props;
+        let { registerOfMerit } = this.props;
         const { modalOpen } = this.state;
         return (
             <React.Fragment>
                 <ReactTooltip  />
                 <ToastContainer transition={Slide} />
-                {awards.filter(dog => dog.rom == true).map((data, idx) => (
+                {registerOfMerit.map((data, idx) => (
                     <div className="col-lg-4 col-sm-6 col-md-4 col-6 products-col-item" key={idx}>
                         <div className="single-product-box">
                             <div className="product-image">
@@ -93,7 +93,7 @@ class DogRomCard extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        awards: state.awards
+        registerOfMerit: state.registerOfMerit
     }
 }
 

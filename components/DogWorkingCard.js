@@ -29,13 +29,13 @@ class DogWorkingCard extends Component {
     }
 
     render() {
-        let { dogs } = this.props;
+        let { working } = this.props;
         const { modalOpen } = this.state;
         return (
             <React.Fragment>
                 <ReactTooltip  />
                 <ToastContainer transition={Slide} />
-                {dogs.filter(dog => dog.work == true).map((data, idx) => (
+                {working.map((data, idx) => (
                     <div className="col-lg-4 col-sm-6 col-md-4 col-6 products-col-item" key={idx}>
                         <div className="single-product-box">
                             <div className="product-image">
@@ -88,7 +88,7 @@ class DogWorkingCard extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        dogs: state.dogs
+        working: state.working
     }
 }
 

@@ -6,7 +6,7 @@ import { ToastContainer, toast, Slide } from 'react-toastify';
 import QuickView from './Modal/QuickView';
 import Moment from 'react-moment'
 
-class DogRomCard extends Component {
+class DogTop20Card extends Component {
     state = {
         modalOpen: false,
         modalImage: '',
@@ -29,13 +29,13 @@ class DogRomCard extends Component {
     }
 
     render() {
-        let { awards } = this.props;
+        let { topTwenty} = this.props;
         const { modalOpen } = this.state;
         return (
             <React.Fragment>
                 <ReactTooltip  />
                 <ToastContainer transition={Slide} />
-                {awards.filter(dog => dog.toptwenty == true).map((data, idx) => (
+                {topTwenty.map((data, idx) => (
                     <div className="col-lg-4 col-sm-6 col-md-4 col-6 products-col-item" key={idx}>
                         <div className="single-product-box">
                             <div className="product-image">
@@ -93,10 +93,10 @@ class DogRomCard extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        awards: state.awards
+        topTwenty: state.topTwenty
     }
 }
 
 export default connect(
     mapStateToProps,
-)(DogRomCard)
+)(DogTop20Card)

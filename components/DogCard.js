@@ -29,13 +29,13 @@ class DogCard extends Component {
     }
 
     render() {
-        let { awards } = this.props;
+        let { specialties } = this.props;
         const { modalOpen } = this.state;
         return (
             <React.Fragment>
                 <ReactTooltip  />
                 <ToastContainer transition={Slide} />
-                {awards.map((data, idx) => (
+                {specialties.map((data, idx) => (
                     <div className="col-lg-4 col-sm-6 col-md-4 col-6 products-col-item" key={idx}>
                         <div className="single-product-box">
                             <div className="product-image">
@@ -93,7 +93,7 @@ class DogCard extends Component {
 
 const mapStateToProps = (state) => {
     return {
-        awards: state.awards
+        specialties: state.specialties
     }
 }
 

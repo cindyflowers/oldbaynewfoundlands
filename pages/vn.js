@@ -1,11 +1,12 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import Navbar from '../components/Layout/Navbar';
 import Footer from '../components/Layout/Footer';
 import Breadcrumb from '../components/Common/Breadcrumb';
 import DogFilterOptions from '../components/DogFilterOptions';
 import DogVNCard from '../components/DogVNCard';
 
-class Index extends Component {
+class vn extends Component {
 
     state = {
         gridClass: 'products-col-four'
@@ -19,6 +20,7 @@ class Index extends Component {
     
     render() {
         let { gridClass } = this.state;
+        let { versitileNewfoundlandSort } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
@@ -40,7 +42,7 @@ class Index extends Component {
                     <div className="container-fluid">
                         <div className="row">
                             <div className="col-lg-12 col-md-12">
-                                <DogFilterOptions onClick={this.handleGrid} />
+                                <DogFilterOptions onClick={this.handleGrid}  sort={versitileNewfoundlandSort} awardType="versitileNewfoundland"/>
 
                                 <div id="products-filter" className={`products-collections-listing row ${gridClass}`}>
                                     <DogVNCard />
@@ -57,4 +59,12 @@ class Index extends Component {
     }
 }
 
-export default Index;
+const mapStateToProps = (state) => {
+    return {
+        versitileNewfoundlandSort: state.versitileNewfoundlandSort
+    }
+}
+
+export default connect(
+    mapStateToProps,
+)(vn)
