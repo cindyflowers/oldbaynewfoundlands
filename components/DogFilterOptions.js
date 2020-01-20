@@ -42,7 +42,7 @@ class DogFilterOptions extends Component {
                 <div className="row align-items-center">
                     <div className="col d-flex">
                     
-                        <span>
+                        {/* <span>
                             <Link href="#">
                                 <a 
                                     onClick={e => {
@@ -53,7 +53,7 @@ class DogFilterOptions extends Component {
                                     <i className="fas fa-filter"></i> Filter
                                 </a>
                             </Link>
-                        </span>
+                        </span> */}
 
                         <span>View:</span>
 
