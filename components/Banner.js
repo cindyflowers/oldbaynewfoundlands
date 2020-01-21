@@ -69,14 +69,14 @@ class Banner extends Component {
 
                                     <div className="row">
                                         <div class="col-lg-6">
-                                            <Link href="/specialties" as={ process.env.ASSET_PREFIX + '/specialties'}>
+                                            <Link href="/specialties" as={ process.env.ASSET_PREFIX + '/'}>
                                                 <a className="btn btn-primary">
                                                     Specialty Awards
                                                 </a>
                                             </Link>
                                         </div>
                                         <div class="col-lg-6">
-                                            <Link  href="/rom" as={ process.env.ASSET_PREFIX + '/rom'}>
+                                            <Link  href="/rom" as={ process.env.ASSET_PREFIX + '/'}>
                                                 <a className="btn btn-primary">
                                                     Register of Merit
                                                 </a>
