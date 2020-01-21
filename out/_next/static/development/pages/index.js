@@ -460,41 +460,63 @@ function (_Component) {
           lineNumber: 22
         },
         __self: this
-      }, " Contact Us"))))))), __jsx("div", {
+      }, " Contact Us")), __jsx("li", {
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 23
+        },
+        __self: this
+      })))))), __jsx("div", {
         className: "copyright-area",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 29
+          lineNumber: 32
         },
         __self: this
       }, __jsx("div", {
         className: "container",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 30
+          lineNumber: 33
         },
         __self: this
       }, __jsx("div", {
         className: "row align-items-center",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 31
+          lineNumber: 34
         },
         __self: this
       }, __jsx("div", {
         className: "col-lg-12 col-md-12",
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 32
+          lineNumber: 35
         },
         __self: this
       }, __jsx("p", {
         __source: {
           fileName: _jsxFileName,
-          lineNumber: 33
+          lineNumber: 36
         },
         __self: this
-      }, "Copyright @ 2019 Old Bay Newfoundlands. All Rights Reserved."))))));
+      }, "Copyright @ 2019 Old Bay Newfoundlands. All Rights Reserved.", __jsx("span", {
+        id: "siteseal",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 37
+        },
+        __self: this
+      }, __jsx("script", {
+        async: true,
+        type: "text/javascript",
+        src: "https://seal.godaddy.com/getSeal?sealID=6pCVTnwD2GuDZmHGQLaZml5obAG8Jnq8p8DPhyCmzRoZGKfLOvUIsTX3y0jn",
+        __source: {
+          fileName: _jsxFileName,
+          lineNumber: 38
+        },
+        __self: this
+      }))))))));
     }
   }]);
 
