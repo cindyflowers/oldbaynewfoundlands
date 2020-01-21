@@ -70,6 +70,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_6___default.a, {
         href: "/",
+        as: "" + '/',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 11
@@ -273,6 +274,7 @@ function (_Component) {
           __self: this
         }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
           href: "#",
+          as: "" + '#',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 51
@@ -515,6 +517,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
+        as: "" + '#',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 62
@@ -546,6 +549,7 @@ function (_Component) {
         __self: this
       }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
+        as: "" + '#',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 75
@@ -583,6 +587,7 @@ function (_Component) {
         __self: this
       }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
+        as: "" + '#',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 89
@@ -626,6 +631,7 @@ function (_Component) {
         __self: this
       }))), __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "#",
+        as: "" + '#',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 104
@@ -1243,6 +1249,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/",
+        as: "" + '/',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 133
@@ -1310,6 +1317,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/#",
+        as: "" + '/#',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 153
@@ -1422,6 +1430,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/specialties",
+        as: "" + '/specialties',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 177
@@ -1443,6 +1452,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/top20",
+        as: "" + '/top20',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 183
@@ -1464,6 +1474,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/rom",
+        as: "" + '/rom',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 189
@@ -1485,6 +1496,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/vn",
+        as: "" + '/vn',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 195
@@ -1506,6 +1518,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/wa",
+        as: "" + '/wa',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 200
@@ -1527,6 +1540,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/champions",
+        as: "" + '/champions',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 205
@@ -1548,6 +1562,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/working",
+        as: "" + '/working',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 211
@@ -1569,6 +1584,7 @@ function (_Component) {
         __self: this
       }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
         href: "/titled",
+        as: "" + '/titled',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 216
@@ -1606,6 +1622,7 @@ function (_Component) {
       }, rom.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/rom",
+          as: "" + '/rom',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 227
@@ -1666,6 +1683,7 @@ function (_Component) {
       }, toptwenty.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/top20",
+          as: "" + '/top20',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 246
@@ -1794,6 +1812,7 @@ function (_Component) {
       }, boys.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
+          as: "" + '/aboutDog',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 298
@@ -1848,6 +1867,7 @@ function (_Component) {
           __self: this
         }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
+          as: "" + '/aboutDog',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 316
@@ -1965,6 +1985,7 @@ function (_Component) {
       }, girls.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
+          as: "" + '/aboutDog',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 363
@@ -2019,6 +2040,7 @@ function (_Component) {
           __self: this
         }, __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
+          as: "" + '/aboutDog',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 381
@@ -2129,6 +2151,7 @@ function (_Component) {
       }, litters1to10.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/litter",
+          as: "" + '/litter',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 412
@@ -2177,6 +2200,7 @@ function (_Component) {
       }, litters11to20.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/litter",
+          as: "" + '/litter',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 428
@@ -2225,6 +2249,7 @@ function (_Component) {
       }, litters21andOver.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/litter",
+          as: "" + '/litter',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 444
@@ -2341,6 +2366,7 @@ function (_Component) {
       }, past1to10.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
+          as: "" + '/aboutDog',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 475
@@ -2389,6 +2415,7 @@ function (_Component) {
       }, past1to10.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
+          as: "" + '/aboutDog',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 491
@@ -2445,6 +2472,7 @@ function (_Component) {
       }, past10andOver.map(function (data, idx) {
         return __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
+          as: "" + '/aboutDog',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 507
@@ -2493,6 +2521,7 @@ function (_Component) {
       }, past10andOver.map(function (data, idx) {
         return data.image != "" ? __jsx(next_link__WEBPACK_IMPORTED_MODULE_10___default.a, {
           href: "/aboutDog",
+          as: "" + '/aboutDog',
           __source: {
             fileName: _jsxFileName,
             lineNumber: 524
@@ -3129,6 +3158,7 @@ function (_Component) {
         __self: this
       }, "SING has arrived!"), " born on November 8, 2019 ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "litter",
+        as: "" + '/litter',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 43
@@ -3161,6 +3191,7 @@ function (_Component) {
         __self: this
       }, "SING has arrived!"), " born on November 8 2019 ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "litter",
+        as: "" + '/litter',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 47
@@ -3193,6 +3224,7 @@ function (_Component) {
         __self: this
       }, "SING has arrived!"), " born on November 8 2019 ", __jsx(next_link__WEBPACK_IMPORTED_MODULE_9___default.a, {
         href: "litter",
+        as: "" + '/litter',
         __source: {
           fileName: _jsxFileName,
           lineNumber: 51
