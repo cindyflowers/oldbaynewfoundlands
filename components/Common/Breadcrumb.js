@@ -8,7 +8,7 @@ class Breadcrumb extends Component {
                 <div className="container">
                     <ul>
                         <li>
-                            <Link href="/">
+                            <Link href="/" as={ process.env.ASSET_PREFIX + '/'}>
                                 <a>Home</a>
                             </Link>
                         </li>

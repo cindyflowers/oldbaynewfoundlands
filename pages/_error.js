@@ -25,7 +25,7 @@ class Error extends Component {
                             <h3>{this.props.statusCode} Page Not Found</h3>
                             <p>The page you are looking for might have been removed had its name changed or is temporarily unavailable.</p>
 
-                            <Link href="/">
+                            <Link href="/"  as={ process.env.ASSET_PREFIX + '/'}>
                                 <a className="btn btn-light">Go to Home</a>
                             </Link>
                         </div>

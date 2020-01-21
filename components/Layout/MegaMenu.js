@@ -130,7 +130,7 @@ class MegaMenu extends Component {
                 <div id="navbar" className="comero-nav">
                     <div className="container">
                         <nav className="navbar navbar-expand-md navbar-light">
-                            <Link href="/">
+                            <Link href="/" as={ process.env.ASSET_PREFIX + '/'}>
                                 <a data-tip="Go to Home Page" data-place="left" className="navbar-brand">
                                     <img src={require("../../images/logo.jpg")} alt="Old Bay Newfoundlands" />
                                 </a>
@@ -150,7 +150,7 @@ class MegaMenu extends Component {
                             <div className={classOne} id="navbarSupportedContent">
                                 <ul className="navbar-nav">
                                     <li className="nav-item p-relative">
-                                        <Link href="/#">
+                                        <Link href="/#" as={ process.env.ASSET_PREFIX + '/#'}>
                                             <a className="nav-link active">
                                                 Home 
                                             </a>
@@ -174,46 +174,46 @@ class MegaMenu extends Component {
 
                                                             <ul className="megamenu-submenu">
                                                                 <li>
-                                                                    <Link href="/specialties">
+                                                                    <Link href="/specialties" as={ process.env.ASSET_PREFIX + '/specialties'}>
                                                                         <a  data-tip="Specialty Awards" data-place="left"  >Specialties</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
-                                                                    <Link href="/top20">
+                                                                    <Link href="/top20" as={ process.env.ASSET_PREFIX + '/top20'}>
                                                                         <a data-tip="Top Twenty Dogs" data-place="left" >Top Twenty</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
-                                                                    <Link href="/rom">
+                                                                    <Link href="/rom" as={ process.env.ASSET_PREFIX + '/rom'}>
                                                                         <a  data-tip="Register of Merit Dogs" data-place="left" >Register of Merit</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
-                                                                    <Link href="/vn">
+                                                                    <Link href="/vn" as={ process.env.ASSET_PREFIX + '/vn'}>
                                                                         <a data-tip="Versatile Newfoundland Dogs" data-place="left" >Versatile Newfoundland</a>
                                                                     </Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/wa">
+                                                                    <Link href="/wa" as={ process.env.ASSET_PREFIX + '/wa'}>
                                                                         <a data-tip="Working Acheivement Dogs" data-place="left" >Working Acheivement</a>
                                                                     </Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/champions">
+                                                                    <Link href="/champions" as={ process.env.ASSET_PREFIX + '/champions'}>
                                                                         <a data-tip="Champion Dogs" data-place="left" >Champions</a>
                                                                     </Link>
                                                                 </li>
 
                                                                 <li>
-                                                                    <Link href="/working">
+                                                                    <Link href="/working" as={ process.env.ASSET_PREFIX + '/working'}>
                                                                         <a data-tip="Working Dogs" data-place="left" >Working</a>
                                                                     </Link>
                                                                 </li>
                                                                 <li>
-                                                                    <Link href="/titled">
+                                                                    <Link href="/titled" as={ process.env.ASSET_PREFIX + '/titled'}>
                                                                         <a data-tip="Titled Dogs" data-place="left" >Titled</a>
                                                                     </Link>
                                                                 </li>
@@ -224,7 +224,7 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {rom.map((data, idx) => (
-                                                                        <Link href="/rom">
+                                                                        <Link href="/rom" as={ process.env.ASSET_PREFIX + '/rom'}>
                                                                             <li key={data.id}>
                                                                                 <a data-tip={data.call} data-place="left" 
                                                                                 onClick={e => {
@@ -243,7 +243,7 @@ class MegaMenu extends Component {
 
                                                             <ul className="megamenu-submenu top-brands">
                                                                 {toptwenty.map((data, idx) => (
-                                                                    <Link href="/top20">
+                                                                    <Link href="/top20" as={ process.env.ASSET_PREFIX + '/top20'}>
                                                                         <li key={data.id}>
                                                                             <a data-tip={data.call + ' (' + data.toptwenty + ')'} data-place="left" 
                                                                             onClick={e => {
@@ -295,7 +295,7 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {boys.map((data, idx) => (
-                                                                        <Link href="/aboutDog">
+                                                                        <Link href="/aboutDog" as={ process.env.ASSET_PREFIX + '/aboutDog'}>
                                                                             <li key={idx}>
                                                                                 <a data-tip={data.call} data-place="left"   onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
@@ -313,7 +313,7 @@ class MegaMenu extends Component {
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {studs.map((data, idx) => (
                                                                         <li>
-                                                                            <Link href="/aboutDog">
+                                                                            <Link href="/aboutDog" as={ process.env.ASSET_PREFIX + '/aboutDog'}>
                                                                                 <a data-tip={data.call} data-place="left" onClick={(e) => {this.handleSetCurrentDog(data.id)}}>
                                                                                     <img src={data.image} alt="image" />
                                                                                 </a>
@@ -360,7 +360,7 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {girls.map((data, idx) => (
-                                                                        <Link href="/aboutDog">
+                                                                        <Link href="/aboutDog" as={ process.env.ASSET_PREFIX + '/aboutDog'}>
                                                                             <li key={data.id}>
                                                                                 <a  data-tip={data.call} data-place="left"  onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
@@ -378,7 +378,7 @@ class MegaMenu extends Component {
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {dams.map((data, idx) => (
                                                                         <li>
-                                                                            <Link href="/aboutDog">
+                                                                            <Link href="/aboutDog" as={ process.env.ASSET_PREFIX + '/aboutDog'}>
                                                                                 <a data-tip={data.call} data-place="left" onClick={(e) => {this.handleSetCurrentDog(data.id)}}>
                                                                                     <img src={data.image} alt="image" />
                                                                                 </a>
@@ -409,7 +409,7 @@ class MegaMenu extends Component {
                                                             <ul className="megamenu-submenu">
                                                                 {litters1to10.map((data, idx) => (
                                                                     
-                                                                    <Link href="/litter">
+                                                                    <Link href="/litter" as={ process.env.ASSET_PREFIX + '/litter'}>
                                                                         <li key={idx}>
                                                                             <a data-tip={data.parents} data-place="left" onClick={(e) => {
                                                                                 this.handleSetCurrentLitter(data.id)
@@ -425,7 +425,7 @@ class MegaMenu extends Component {
 
                                                             <ul className="megamenu-submenu">
                                                                 {litters11to20.map((data, idx) => (
-                                                                        <Link href="/litter">
+                                                                        <Link href="/litter" as={ process.env.ASSET_PREFIX + '/litter'}>
                                                                             <li key={idx}>
                                                                                 <a data-tip={data.parents} data-place="left" onClick={(e) => {
                                                                                     this.handleSetCurrentLitter(data.id)
@@ -441,7 +441,7 @@ class MegaMenu extends Component {
 
                                                             <ul className="megamenu-submenu">
                                                                 {litters21andOver.map((data, idx) => (
-                                                                    <Link href="/litter">
+                                                                    <Link href="/litter" as={ process.env.ASSET_PREFIX + '/litter'}>
                                                                         <li key={idx}>
                                                                             <a data-tip={data.parents} data-place="left" onClick={(e) => {
                                                                                 this.handleSetCurrentLitter(data.id)
@@ -472,7 +472,7 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {past1to10.map((data, idx) => (
-                                                                        <Link href="/aboutDog">
+                                                                        <Link href="/aboutDog" as={ process.env.ASSET_PREFIX + '/aboutDog'}>
                                                                             <li key={idx}>
                                                                                 <a data-tip={data.call} data-place="left"  onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
@@ -488,7 +488,7 @@ class MegaMenu extends Component {
                                                                 
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {past1to10.map((data, idx) => (
-                                                                        <Link href="/aboutDog">
+                                                                        <Link href="/aboutDog" as={ process.env.ASSET_PREFIX + '/aboutDog'}>
                                                                             <li key={idx}>
                                                                                 <a data-tip={data.call} data-place="left" onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
@@ -504,7 +504,7 @@ class MegaMenu extends Component {
 
                                                                 <ul className="megamenu-submenu">
                                                                     {past10andOver.map((data, idx) => (
-                                                                        <Link href="/aboutDog">
+                                                                        <Link href="/aboutDog" as={ process.env.ASSET_PREFIX + '/aboutDog'}>
                                                                             <li key={idx}>
                                                                                 <a data-tip={data.call} data-place="left"  onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)
@@ -521,7 +521,7 @@ class MegaMenu extends Component {
                                                                 <ul className="megamenu-submenu top-brands">
                                                                     {past10andOver.map((data, idx) => (
                                                                         data.image != "" ? (
-                                                                        <Link href="/aboutDog">
+                                                                        <Link href="/aboutDog" as={ process.env.ASSET_PREFIX + '/aboutDog'}>
                                                                             <li key={idx}>
                                                                                 <a data-tip={data.call} data-place="left" onClick={(e) => {
                                                                                     this.handleSetCurrentDog(data.id)

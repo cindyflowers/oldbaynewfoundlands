@@ -43,7 +43,7 @@ class DogFilterOptions extends Component {
                     <div className="col d-flex">
                     
                         {/* <span>
-                            <Link href="#">
+                            <Link href="#" as={ process.env.ASSET_PREFIX + '#'}>
                                 <a 
                                     onClick={e => {
                                         e.preventDefault();
@@ -59,7 +59,7 @@ class DogFilterOptions extends Component {
 
                         <div className="view-list-row">
                             <div className="view-column">
-                                <Link href="#">
+                                <Link href="#" as={ process.env.ASSET_PREFIX + '#'}>
                                     <a 
                                         className="icon-view-two"
                                         onClick={e => {
@@ -72,7 +72,7 @@ class DogFilterOptions extends Component {
                                     </a>
                                 </Link>
 
-                                <Link href="#">
+                                <Link href="#" as={ process.env.ASSET_PREFIX + '#'}>
                                     <a 
                                         className="icon-view-three"
                                         onClick={e => {
@@ -86,7 +86,7 @@ class DogFilterOptions extends Component {
                                     </a>
                                 </Link>
 
-                                <Link href="#">
+                                <Link href="#" as={ process.env.ASSET_PREFIX + '#'}>
                                     <a 
                                         className="icon-view-four active"
                                         onClick={e => {
@@ -101,7 +101,7 @@ class DogFilterOptions extends Component {
                                     </a>
                                 </Link>
 
-                                <Link href="#">
+                                <Link href="#" as={ process.env.ASSET_PREFIX + '#'}>
                                     <a 
                                         className="view-grid-switch"
                                         onClick={e => {

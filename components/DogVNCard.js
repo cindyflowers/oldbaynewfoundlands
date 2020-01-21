@@ -48,7 +48,7 @@ class DogVNCard extends Component {
                                 </a>
                                 <ul>
                                     <li>
-                                        <Link href="#">
+                                        <Link href="#" as={ process.env.ASSET_PREFIX + '#'}>
                                             <a 
                                                 data-tip="Quick View" 
                                                 data-place="left" 
