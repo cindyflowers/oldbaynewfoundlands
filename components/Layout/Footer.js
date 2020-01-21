@@ -20,6 +20,9 @@ class Footer extends Component {
                                 <ul className="footer-contact-info">
                                     <li><i className="fas fa-map-marker-alt"></i> Location: Purcellville, VA - USA</li>
                                     <li><i className="far fa-envelope"></i><a href="/contactUs"> Contact Us</a></li>
+                                    <li>
+
+                                    </li>
                                 </ul>
                             </div>
                         </div>
@@ -30,7 +33,12 @@ class Footer extends Component {
                     <div className="container">
                         <div className="row align-items-center">
                             <div className="col-lg-12 col-md-12">
-                                <p>Copyright @ 2019 Old Bay Newfoundlands. All Rights Reserved.</p>
+                                <p>Copyright @ 2019 Old Bay Newfoundlands. All Rights Reserved. 
+                                    <span id="siteseal">
+                                    <script async type="text/javascript" 
+                                    src="https://seal.godaddy.com/getSeal?sealID=6pCVTnwD2GuDZmHGQLaZml5obAG8Jnq8p8DPhyCmzRoZGKfLOvUIsTX3y0jn"></script>
+                                    </span>
+                                </p>
                             </div> 
                         </div>
                     </div>
