@@ -35,7 +35,7 @@ export default withRedux(initStore)(
                         openGraph={{
                             type: 'website',
                             locale: 'en_IE',
-                            url: 'https://cindyflowers.github.io/oldbaynewfoundlands/',
+                            url: 'www.oldbaynewfoundlands.com/',
                             site_name: 'Old Bay Newfoundlands',
                         }}
                     />
