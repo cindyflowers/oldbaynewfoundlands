@@ -12,7 +12,7 @@ class Index extends Component {
                 <Breadcrumb title="About Us" />
                 <section className="about-area ptb-60">
                     <div className="container">
-                        <div className="row align-items-center">y
+                        <div className="row align-items-center">
                             <div className="col-lg-6 col-md-12">
                                 <div className="about-content">
                                     <h2>About Old Bay Newfoundlands</h2>
