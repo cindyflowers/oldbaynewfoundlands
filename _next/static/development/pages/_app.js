@@ -1406,17 +1406,6 @@ module.exports = "/_next/static/images/Atlas2013Natioanl-80630f5ef20b0ce4f864afa
 
 /***/ }),
 
-/***/ "./images/specialties/AtlasAndObiBrace2019.jpg":
-/*!*****************************************************!*\
-  !*** ./images/specialties/AtlasAndObiBrace2019.jpg ***!
-  \*****************************************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/AtlasAndObiBrace2019-ccf6f7fbaddcd78ca671457685ced2a3.jpg";
-
-/***/ }),
-
 /***/ "./images/specialties/AtlasMaturity2012.jpg":
 /*!**************************************************!*\
   !*** ./images/specialties/AtlasMaturity2012.jpg ***!
@@ -2910,6 +2899,17 @@ module.exports = "/_next/static/images/Ruby-6a0201a737dfcbc8929e6a732e3c257d.jpg
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Sailor-bb91234404c597c6f0cd925ac8bc6a19.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/SampsonAndAtlas.jpg":
+/*!************************************************!*\
+  !*** ./images/specialties/SampsonAndAtlas.jpg ***!
+  \************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/SampsonAndAtlas-c877b6748935dba8c3036fa6d7abb30b.jpg";
 
 /***/ }),
 
@@ -18577,13 +18577,15 @@ var initState = {
     award: "3rd Brace",
     show: "2019 National",
     date: "2019-04-30T08:00:00Z",
-    dog: "Obi and Snowball"
+    dog: "Obi and Snowball",
+    id: 78
   }, {
-    image: __webpack_require__(/*! ../../images/specialties/AtlasAndObiBrace2019.jpg */ "./images/specialties/AtlasAndObiBrace2019.jpg"),
+    image: __webpack_require__(/*! ../../images/specialties/SampsonAndAtlas.jpg */ "./images/specialties/SampsonAndAtlas.jpg"),
     award: "3rd Brace",
     show: "2014 National",
     date: "2014-04-05T08:00:00Z",
-    dog: "Atlas and Obi"
+    dog: "Atlas and Sampson",
+    id: 59
   }, {
     image: __webpack_require__(/*! ../../images/specialties/GracieObedience.jpg */ "./images/specialties/GracieObedience.jpg"),
     award: "2nd Beginner Novice A, 2nd Novice A, 3rd Novice A, 1st Beginner Novice A",
