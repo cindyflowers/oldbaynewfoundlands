@@ -41698,7 +41698,7 @@ function (_Component) {
           lineNumber: 15
         },
         __self: this
-      }, "y", __jsx("div", {
+      }, __jsx("div", {
         className: "col-lg-6 col-md-12",
         __source: {
           fileName: _jsxFileName,
@@ -42075,7 +42075,7 @@ var removeItemFromCompare = function removeItemFromCompare(id) {
 
 /***/ }),
 
-/***/ 13:
+/***/ 8:
 /*!**********************************************************************************************************************************!*\
   !*** multi next-client-pages-loader?page=%2FaboutUs&absolutePagePath=C%3A%5CProjects%5Coldbaynewfoundlands%5Cpages%5CaboutUs.js ***!
   \**********************************************************************************************************************************/
@@ -42098,5 +42098,5 @@ module.exports = dll_5db81e51244af5011127;
 
 /***/ })
 
-},[[13,"static/runtime/webpack.js","styles"]]]);
+},[[8,"static/runtime/webpack.js","styles"]]]);
 //# sourceMappingURL=aboutUs.js.map
