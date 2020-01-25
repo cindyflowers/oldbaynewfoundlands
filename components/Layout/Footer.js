@@ -19,7 +19,10 @@ class Footer extends Component {
 
                                 <ul className="footer-contact-info">
                                     <li><i className="fas fa-map-marker-alt"></i> Location: Purcellville, VA - USA</li>
-                                    <li><i className="far fa-envelope"></i><a href="/contactUs"> Contact Us</a></li>
+                                    <li><i className="far fa-envelope"></i><Link href="/contactUs" as={ process.env.ASSET_PREFIX + '/contactUs'}>
+                                        <a href="/contactUs"  as={ process.env.ASSET_PREFIX + '/contactUs'}> Contact Us</a>
+                                        </Link>
+                                    </li>
                                     <li>
 
                                     </li>

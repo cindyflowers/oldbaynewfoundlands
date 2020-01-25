@@ -4667,14 +4667,14 @@ const initState = {
         award: "3rd Brace",
         show: "2019 National",
         date: "2019-04-30T08:00:00Z",  
-        dog: "Obi and Snowball",
+        dog: "Obi and Snowball", id: 78,
       },
       {
-        image: require('../../images/specialties/AtlasAndObiBrace2019.jpg'),
+        image: require('../../images/specialties/SampsonAndAtlas.jpg'),
         award: "3rd Brace",
         show: "2014 National",
         date: "2014-04-05T08:00:00Z",   
-        dog: "Atlas and Obi",
+        dog: "Atlas and Sampson", id: 59, 
       },
       {
         image: require('../../images/specialties/GracieObedience.jpg'),
