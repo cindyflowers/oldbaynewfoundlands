@@ -500,7 +500,7 @@ function (_Component) {
           lineNumber: 36
         },
         __self: this
-      }, "Copyright @ 2019 Old Bay Newfoundlands. All Rights Reserved.", __jsx("span", {
+      }, __jsx("span", {
         id: "siteseal",
         __source: {
           fileName: _jsxFileName,
@@ -516,7 +516,7 @@ function (_Component) {
           lineNumber: 38
         },
         __self: this
-      }))))))));
+      })), "  Copyright @ 2019 Old Bay Newfoundlands. All Rights Reserved."))))));
     }
   }]);
 
