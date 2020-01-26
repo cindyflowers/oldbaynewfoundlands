@@ -207,6 +207,17 @@ module.exports = "/_next/static/images/Bacardi-85d32a7ca2e685d736319a2f23944563.
 
 /***/ }),
 
+/***/ "./images/info/Bearie1989.jpg":
+/*!************************************!*\
+  !*** ./images/info/Bearie1989.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Bearie1989-d6c4ee8a2d7b9bf86f15985d96e46d63.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Bennie.jpg":
 /*!********************************!*\
   !*** ./images/info/Bennie.jpg ***!
@@ -262,6 +273,17 @@ module.exports = "/_next/static/images/Canyon-b8d2043d20355a4555dce6b857e6b974.j
 
 /***/ }),
 
+/***/ "./images/info/Carrie1993.jpg":
+/*!************************************!*\
+  !*** ./images/info/Carrie1993.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Carrie1993-84e2d84b9307314ea5fcb78ec7774f25.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Carson.jpg":
 /*!********************************!*\
   !*** ./images/info/Carson.jpg ***!
@@ -281,6 +303,17 @@ module.exports = "/_next/static/images/Carson-d7620b1b468ffa12013f60a7b9694fc1.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Charm-0ea395d3d769f22a0f35dc8a3ad5b32e.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Chaser1992.jpg":
+/*!************************************!*\
+  !*** ./images/info/Chaser1992.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Chaser1992-59b798e87f0673230e6b344a2043198c.jpg";
 
 /***/ }),
 
@@ -424,6 +457,17 @@ module.exports = "/_next/static/images/Fred-8931c8d2470c0dd8aa4c7fc7f22cdf03.jpg
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Gracie-1e6c329bc213ad405aea81f4696cd30e.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Henry1991.jpg":
+/*!***********************************!*\
+  !*** ./images/info/Henry1991.jpg ***!
+  \***********************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Henry1991-1da15bd7222dbfc1a741e7edd2a0a8b6.jpg";
 
 /***/ }),
 
@@ -680,6 +724,17 @@ module.exports = "/_next/static/images/Raisin-2323c6c610a9c51a3366f7917825538f.j
 
 /***/ }),
 
+/***/ "./images/info/Reagan1987.jpg":
+/*!************************************!*\
+  !*** ./images/info/Reagan1987.jpg ***!
+  \************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Reagan1987-487ea2b8fa140cdf38aeed74b9d3df56.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Rocky.jpg":
 /*!*******************************!*\
   !*** ./images/info/Rocky.jpg ***!
@@ -732,6 +787,17 @@ module.exports = "/_next/static/images/Sailor-bb91234404c597c6f0cd925ac8bc6a19.j
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Sampson-00cc55ecb46ae81a6400ab36babdd3cb.jpg";
+
+/***/ }),
+
+/***/ "./images/info/Savannah1988.jpg":
+/*!**************************************!*\
+  !*** ./images/info/Savannah1988.jpg ***!
+  \**************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Savannah1988-a2ada62f7828bf52736739baf8373ad1.jpg";
 
 /***/ }),
 
@@ -886,17 +952,6 @@ module.exports = "/_next/static/images/Tilly-b4ba8c8c75af45bf0977883214c04a41.jp
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Tommy-c1b4e07935ccf06e22275ab2635fc3b6.jpg";
-
-/***/ }),
-
-/***/ "./images/info/Tyler.jpg":
-/*!*******************************!*\
-  !*** ./images/info/Tyler.jpg ***!
-  \*******************************/
-/*! no static exports found */
-/***/ (function(module, exports) {
-
-module.exports = "/_next/static/images/Tyler-a90d2ad5a64203d155a16ae1fae43264.jpg";
 
 /***/ }),
 
@@ -1425,6 +1480,17 @@ module.exports = "/_next/static/images/AtlasMaturity2012-71dd41dc4628e58d915eed9
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Bridget-98d26d7233fd4471efb8988be45e2d6d.JPG";
+
+/***/ }),
+
+/***/ "./images/specialties/Carrie1993NationalAmBred4thPlace.jpg":
+/*!*****************************************************************!*\
+  !*** ./images/specialties/Carrie1993NationalAmBred4thPlace.jpg ***!
+  \*****************************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Carrie1993NationalAmBred4thPlace-c4e1be355c68c05a59ee814f4ed7c3e8.jpg";
 
 /***/ }),
 
@@ -15149,7 +15215,7 @@ var initState = {
     "health": "http://www.offa.org/display.html?appnum=1096035#animal",
     "image": __webpack_require__(/*! ../../images/info/Simon.jpg */ "./images/info/Simon.jpg"),
     "Titles": [{
-      "title": "",
+      "title": "AJP",
       "date": "12/07/2007",
       "org": "AKC"
     }, {
@@ -17387,23 +17453,24 @@ var initState = {
   }, {
     "id": 85,
     "call": "Bearie",
+    "ch": true,
     "toptwenty": "",
     "rom": false,
     "vn": false,
-    "ours": false,
+    "ours": true,
     "stud": false,
     "sex": "female",
     "name": "CH Old Bay's Bear Essentials",
-    "sire": "Peter Kagan Of Pouch Cove",
-    "dam": "Spillway Enuf-M-Ocean",
-    "dob": "1993-08-11T04:00:00.000Z",
+    "sire": "CH Peter Kagan Of Pouch Cove",
+    "dam": "CH Spillway Enuf-M-Ocean",
+    "dob": "1989-02-11T04:00:00.000Z",
     "neutered": true,
     "rip": "",
     "owner": "Kathleen Hamilton",
     "aka": "",
     "lives": "Kathy",
     "health": "",
-    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "image": __webpack_require__(/*! ../../images/info/Bearie1989.jpg */ "./images/info/Bearie1989.jpg"),
     "Titles": [{
       "title": "CH",
       "date": "11/04/1990",
@@ -17528,7 +17595,7 @@ var initState = {
     "aka": "",
     "lives": "Kathy",
     "health": "",
-    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "image": __webpack_require__(/*! ../../images/info/Carrie1993.jpg */ "./images/info/Carrie1993.jpg"),
     "Titles": [{
       "title": "CH",
       "date": "07/03/1993",
@@ -17554,7 +17621,7 @@ var initState = {
     "aka": "",
     "lives": "Kathy",
     "health": "",
-    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "image": __webpack_require__(/*! ../../images/info/Henry1991.jpg */ "./images/info/Henry1991.jpg"),
     "Titles": [{
       "title": "CH",
       "date": "03/08/1992",
@@ -17580,7 +17647,7 @@ var initState = {
     "aka": "",
     "lives": "Pat",
     "health": "",
-    "image": __webpack_require__(/*! ../../images/info/NewfJump.jpg */ "./images/info/NewfJump.jpg"),
+    "image": __webpack_require__(/*! ../../images/info/Chaser1992.jpg */ "./images/info/Chaser1992.jpg"),
     "Titles": [{
       "title": "CH",
       "date": "11/06/1994",
@@ -17628,8 +17695,8 @@ var initState = {
     "stud": false,
     "sex": "female",
     "name": "VN CH Old Bays Bacardi Of Top Shelf CD, CDX, DD, TDD, WD, WRD",
-    "sire": "Pouch Cove's All American Amity",
-    "dam": "Old Bay's Bear Essentials",
+    "sire": "CH Pouch Cove's All American Amity",
+    "dam": "CH Old Bay's Bear Essentials",
     "dob": "1993-06-14T04:00:00.000Z",
     "neutered": true,
     "rip": "",
@@ -17787,6 +17854,7 @@ var initState = {
   }, {
     "id": 98,
     "call": "Nash",
+    "work": true,
     "ch": true,
     "toptwenty": "",
     "rom": false,
@@ -17808,8 +17876,12 @@ var initState = {
     "image": __webpack_require__(/*! ../../images/info/Nash.jpg */ "./images/info/Nash.jpg"),
     "Titles": [{
       "title": "CH",
-      "date": "07/06/2008",
+      "date": "11/06/2019",
       "org": "AKC"
+    }, {
+      "title": "WD",
+      "date": "08/06/2019",
+      "org": "NCA"
     }]
   }, {
     "id": 99,
@@ -17917,23 +17989,57 @@ var initState = {
     "Titles": []
   }, {
     "id": 104,
-    "call": "Tyler",
+    "call": "Savannah",
     "toptwenty": "",
-    "ours": false,
+    "ours": true,
+    "ch": true,
     "stud": false,
     "sex": "female",
-    "name": "Old Bays Tip A Canoe And Tyler Too",
-    "sire": "CH Allegiance Rock The Boat Old Bay",
-    "dam": "CH Waterford Frontpage ",
-    "dob": "2010-01-07T04:00:00.000Z",
+    "work": true,
+    "name": "CH Muddy Creeks Savannah CD",
+    "sire": "Abbyacres Typhoon Terry",
+    "dam": "Muddy Creek's Gabrielle",
+    "dob": "1985-11-07T04:00:00.000Z",
     "neutered": false,
-    "rip": "",
-    "owner": "Ray & Linda Boswell & Cindy Flowers",
+    "rip": "11/05/1998",
+    "owner": "Kathleen M Hamilton & Rick Santiago",
     "aka": "",
-    "lives": "Ray & Linda",
+    "lives": "Kathy",
     "health": "",
-    "image": __webpack_require__(/*! ../../images/info/Tyler.jpg */ "./images/info/Tyler.jpg"),
-    "Titles": []
+    "image": __webpack_require__(/*! ../../images/info/Savannah1988.jpg */ "./images/info/Savannah1988.jpg"),
+    "Titles": [{
+      "title": "CH",
+      "date": "12/18/1988",
+      "org": "AKC"
+    }, {
+      "title": "CD",
+      "date": "12/11/1987",
+      "org": "AKC"
+    }]
+  }, {
+    "id": 105,
+    "call": "Reagan",
+    "ch": true,
+    "toptwenty": "",
+    "ours": true,
+    "stud": false,
+    "sex": "female",
+    "name": "CH Spillway Enuf-M-Ocean",
+    "sire": "Highland Bear Of Pouch Cove",
+    "dam": "Spillways Deep-M-Ocean",
+    "dob": "1985-10-28T04:00:00.000Z",
+    "neutered": false,
+    "rip": "11/05/1998",
+    "owner": "Kathleen M Hamilton",
+    "aka": "",
+    "lives": "Kathy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Reagan1987.jpg */ "./images/info/Reagan1987.jpg"),
+    "Titles": [{
+      "title": "CH",
+      "date": "11/05/1988",
+      "org": "AKC"
+    }]
   }],
   litters: [{
     id: 1,
@@ -20053,6 +20159,13 @@ var initState = {
     date: "2000-04-27T08:00:00Z",
     dog: "Daisy",
     id: 21
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/Carrie1993NationalAmBred4thPlace.jpg */ "./images/specialties/Carrie1993NationalAmBred4thPlace.jpg"),
+    award: "4th Am-Bred",
+    show: "1993 National",
+    date: "1993-04-27T08:00:00Z",
+    dog: "Carrie",
+    id: 89
   }]
 };
 initState.awards.sort(byDateDesc);
