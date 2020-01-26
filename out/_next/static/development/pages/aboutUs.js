@@ -41795,7 +41795,7 @@ function (_Component) {
           lineNumber: 51
         },
         __self: this
-      }, "92 - AKC Championship Titles"), "71 Champions, 17 Grand Champions, 3 Grand Champion Bronze, 1 Grand Champion Silver"), __jsx("p", {
+      }, "97 - AKC Championship Titles"), "75 Champions, 18 Grand Champions, 3 Grand Champion Bronze, 1 Grand Champion Silver"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 54
@@ -41855,7 +41855,7 @@ function (_Component) {
           lineNumber: 72
         },
         __self: this
-      }, "75 - NCA Working Titles/Requalifications"), "20 Water Dog, 25 Water Rescue Dog, 1 Water Rescue Dog Excellant, 16 Draft Dog, 2 Draft Dog Excellant, 9 Team Draft Dogs, 2 Team Draft Dog Excellant"), __jsx("p", {
+      }, "76 - NCA Working Titles/Requalifications"), "21 Water Dog, 25 Water Rescue Dog, 1 Water Rescue Dog Excellant, 16 Draft Dog, 2 Draft Dog Excellant, 9 Team Draft Dogs, 2 Team Draft Dog Excellant"), __jsx("p", {
         __source: {
           fileName: _jsxFileName,
           lineNumber: 75
