@@ -49,7 +49,7 @@ class Banner extends Component {
                             <div className="col-lg-4 col-sm-12 col-md-5 col-12">
                                 <div className="main-banner-content">
                                     <span>
-                                        Established in 1988
+                                        Established in 1986
                                     </span>
                                     <h1>
                                         OLD BAY NEWFOUNDLANDS

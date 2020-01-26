@@ -31,8 +31,8 @@ class champions extends Component {
                 <section className="products-collections-area ptb-60">
                     <div className="container">
                         <div className="section-title">
-                            <h2>92 - AKC Championship Titles</h2>
-                            <p>71 Champions, 17 Grand Champions, 3 Grand Champion Bronze, 1 Grand Champion Silver</p> 
+                            <h2>97 - AKC Championship Titles</h2>
+                            <p>75 Champions, 18 Grand Champions, 3 Grand Champion Bronze, 1 Grand Champion Silver</p>
                             <p>The following AKC Champion titles were received by dogs bred, co-bred or owned by Old Bay Newfoundlands.</p>
                         </div>
                     </div>

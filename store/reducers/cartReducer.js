@@ -640,7 +640,7 @@ const initState = {
         "image": require('../../images/info/Simon.jpg'),
         "Titles": [
           {
-            "title": "",
+            "title": "AJP",
             "date": "12/07/2007",
             "org": "AKC"
           },
@@ -3240,23 +3240,24 @@ const initState = {
       {
         "id": 85,
         "call": "Bearie",
+        "ch": true,
         "toptwenty": "",
         "rom": false,
         "vn": false,
-        "ours": false,
+        "ours": true,
         "stud": false,
         "sex": "female",
         "name": "CH Old Bay's Bear Essentials",
-        "sire": "Peter Kagan Of Pouch Cove",
-        "dam": "Spillway Enuf-M-Ocean",
-        "dob": "1993-08-11T04:00:00.000Z",
+        "sire": "CH Peter Kagan Of Pouch Cove",
+        "dam": "CH Spillway Enuf-M-Ocean",
+        "dob": "1989-02-11T04:00:00.000Z",
         "neutered": true,
         "rip": "",
         "owner": "Kathleen Hamilton",
         "aka": "",
         "lives": "Kathy",
         "health": "",
-        "image": require('../../images/info/NewfJump.jpg'),
+        "image": require('../../images/info/Bearie1989.jpg'),
         "Titles": [
           {
             "title": "CH",
@@ -3398,7 +3399,7 @@ const initState = {
         "aka": "",
         "lives": "Kathy",
         "health": "",
-        "image": require('../../images/info/NewfJump.jpg'),
+        "image": require('../../images/info/Carrie1993.jpg'),
         "Titles": [
           {
             "title": "CH",
@@ -3427,7 +3428,7 @@ const initState = {
         "aka": "",
         "lives": "Kathy",
         "health": "",
-        "image": require('../../images/info/NewfJump.jpg'),
+        "image": require('../../images/info/Henry1991.jpg'),
         "Titles": [
           {
             "title": "CH",
@@ -3456,7 +3457,7 @@ const initState = {
         "aka": "",
         "lives": "Pat",
         "health": "",
-        "image": require('../../images/info/NewfJump.jpg'),
+        "image": require('../../images/info/Chaser1992.jpg'),
         "Titles": [
           {
             "title": "CH",
@@ -3511,8 +3512,8 @@ const initState = {
         "stud": false,
         "sex": "female",
         "name": "VN CH Old Bays Bacardi Of Top Shelf CD, CDX, DD, TDD, WD, WRD",
-        "sire": "Pouch Cove's All American Amity",
-        "dam": "Old Bay's Bear Essentials",
+        "sire": "CH Pouch Cove's All American Amity",
+        "dam": "CH Old Bay's Bear Essentials",
         "dob": "1993-06-14T04:00:00.000Z",
         "neutered": true,
         "rip": "",
@@ -3694,6 +3695,7 @@ const initState = {
       {
         "id": 98,
         "call": "Nash",
+        "work": true,
         "ch": true,
         "toptwenty": "",
         "rom": false,
@@ -3716,8 +3718,13 @@ const initState = {
         "Titles": [
           {
             "title": "CH",
-            "date": "07/06/2008",
+            "date": "11/06/2019",
             "org": "AKC"
+          },
+          {
+            "title": "WD",
+            "date": "08/06/2019",
+            "org": "NCA"
           }
         ]
       },
@@ -3835,23 +3842,61 @@ const initState = {
       },
       {
         "id": 104,
-        "call": "Tyler",
+        "call": "Savannah",
         "toptwenty": "",
-        "ours": false,
+        "ours": true,
+        "ch": true,
         "stud": false,
         "sex": "female",
-        "name": "Old Bays Tip A Canoe And Tyler Too",
-        "sire": "CH Allegiance Rock The Boat Old Bay",
-        "dam": "CH Waterford Frontpage ",
-        "dob": "2010-01-07T04:00:00.000Z",
+        "work": true,
+        "name": "CH Muddy Creeks Savannah CD",
+        "sire": "Abbyacres Typhoon Terry",
+        "dam": "Muddy Creek's Gabrielle",
+        "dob": "1985-11-07T04:00:00.000Z",
         "neutered": false,
-        "rip": "",
-        "owner": "Ray & Linda Boswell & Cindy Flowers",
+        "rip": "11/05/1998",
+        "owner": "Kathleen M Hamilton & Rick Santiago",
         "aka": "",
-        "lives": "Ray & Linda",
+        "lives": "Kathy",
         "health": "",
-        "image": require('../../images/info/Tyler.jpg'),
-        "Titles": []
+        "image": require('../../images/info/Savannah1988.jpg'),
+        "Titles": [          {
+          "title": "CH",
+          "date": "12/18/1988",
+          "org": "AKC"
+        },
+        {
+          "title": "CD",
+          "date": "12/11/1987",
+          "org": "AKC"
+        }]
+
+      },
+      {
+        "id": 105,
+        "call": "Reagan",
+        "ch": true,
+        "toptwenty": "",
+        "ours": true,
+        "stud": false,
+        "sex": "female",
+        "name": "CH Spillway Enuf-M-Ocean",
+        "sire": "Highland Bear Of Pouch Cove",
+        "dam": "Spillways Deep-M-Ocean",
+        "dob": "1985-10-28T04:00:00.000Z",
+        "neutered": false,
+        "rip": "11/05/1998",
+        "owner": "Kathleen M Hamilton",
+        "aka": "",
+        "lives": "Kathy",
+        "health": "",
+        "image": require('../../images/info/Reagan1987.jpg'),
+        "Titles": [          {
+          "title": "CH",
+          "date": "11/05/1988",
+          "org": "AKC"
+        }]
+        
       }
     ],
     litters: [
@@ -6148,6 +6193,14 @@ const initState = {
         date: "2000-04-27T08:00:00Z",   
         dog: "Daisy", id: 21,
       },
+      {
+        image: require('../../images/specialties/Carrie1993NationalAmBred4thPlace.jpg'),
+        award: "4th Am-Bred",
+        show: "1993 National",
+        date: "1993-04-27T08:00:00Z",   
+        dog: "Carrie", id: 89,
+      },
+
   ]
 }
 

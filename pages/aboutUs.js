@@ -48,8 +48,8 @@ class Index extends Component {
                                     <p>Old Bay is extremely proud of the achievements of the dogs they own and the owners of dogs they bred or co-bred.  
                                         Here are some statistics:</p>
                                         <p>
-                                            <h2>92 - AKC Championship Titles</h2>
-                                            71 Champions, 17 Grand Champions, 3 Grand Champion Bronze, 1 Grand Champion Silver
+                                            <h2>97 - AKC Championship Titles</h2>
+                                            75 Champions, 18 Grand Champions, 3 Grand Champion Bronze, 1 Grand Champion Silver
                                         </p>
                                         <p>
                                             <h2>52 - AKC Obedience and Rally Titles</h2>
@@ -57,7 +57,7 @@ class Index extends Component {
                                             1 Rally Excellant, 4 Trick Dog Novice, 2 Trick Dog Intermediate, 1 Trick Dog Advanced
                                         </p>
                                         <p>
-                                            <h2>13 - AKC Agility Titles</h2>
+                                        <h2>13 - AKC Agility Titles</h2>
                                             4 Novice Agility Preferred, 3 Novice Jumpers Preferred, 2 Open Agility Prreferred, 2 Open Jumpers Preferred, 1 Agility Excellent Preferred, 1 Agility Jumpers Excellent Preffered
                                         </p>
                                         <p>
@@ -69,8 +69,8 @@ class Index extends Component {
                                             18 Canine Good Citizen, 3 Canine Good Citizen Advanced
                                         </p>
                                         <p>
-                                            <h2>75 - NCA Working Titles/Requalifications</h2>
-                                            20 Water Dog, 25 Water Rescue Dog, 1 Water Rescue Dog Excellant, 16 Draft Dog, 2 Draft Dog Excellant, 9 Team Draft Dogs, 2 Team Draft Dog Excellant
+                                            <h2>76 - NCA Working Titles/Requalifications</h2>
+                                            21 Water Dog, 25 Water Rescue Dog, 1 Water Rescue Dog Excellant, 16 Draft Dog, 2 Draft Dog Excellant, 9 Team Draft Dogs, 2 Team Draft Dog Excellant
                                         </p>
                                         <p>
                                             <h2>23 - NCA Special Awards</h2>
