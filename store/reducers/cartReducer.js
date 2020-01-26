@@ -2956,7 +2956,7 @@ const initState = {
         "ours": false,
         "stud": false,
         "sex": "female",
-        "name": "CH Old Bay's The Force Is Strong At Dreamhaven CGC",
+        "name": "GCH CH Old Bay's The Force Is Strong At Dreamhaven CGC",
         "sire": "CH Goldcoast's Keeper Of The Watch",
         "dam": "GCH Old Bay's Snowball's Chance CD",
         "dob": "2017-07-29T04:00:00.000Z",
@@ -2976,6 +2976,11 @@ const initState = {
           {
             "title": "CH",
             "date": "10/27/2018",
+            "org": "AKC"
+          },
+          {
+            "title": "GCH",
+            "date": "01/15/2018",
             "org": "AKC"
           }
         ]
