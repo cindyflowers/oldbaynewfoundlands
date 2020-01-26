@@ -3909,7 +3909,7 @@ const initState = {
         "name": "CH Old Bay Dreamhaven Great Xpectations @ Acqua Terra",
         "sire": "GCHP C Oceano Darbydale's Xecutive Decision",
         "dam": "GCH CH Old Bay's Snowball's Chance CD",
-        "dob": "2020-07-01T04:00:00.000Z",
+        "dob": "2019-07-01T08:00:00.000Z",
         "neutered": false,
         "rip": "",
         "owner": "Kathy Wortham, Cindy Flowers, Andrea Jung, Gigi Kim Griffith",
