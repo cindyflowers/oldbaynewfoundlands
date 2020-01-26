@@ -3897,6 +3897,32 @@ const initState = {
           "org": "AKC"
         }]
         
+      },
+      {
+        "id": 106,
+        "call": "Tedi",
+        "ch": true,
+        "toptwenty": "",
+        "ours": false,
+        "stud": false,
+        "sex": "male",
+        "name": "CH Old Bay Dreamhaven Great Xpectations @ Acqua Terra",
+        "sire": "GCHP C Oceano Darbydale's Xecutive Decision",
+        "dam": "GCH CH Old Bay's Snowball's Chance CD",
+        "dob": "2020-07-01T04:00:00.000Z",
+        "neutered": false,
+        "rip": "",
+        "owner": "Kathy Wortham, Cindy Flowers, Andrea Jung, Gigi Kim Griffith",
+        "aka": "Tedilicious, Tedinator, London, Barnacle, Barney",
+        "lives": "Kathy",
+        "health": "",
+        "image": require('../../images/info/Tedi.jpg'),
+        "Titles": [          {
+          "title": "CH",
+          "date": "01/22/2020",
+          "org": "AKC"
+        }]
+        
       }
     ],
     litters: [
@@ -6200,7 +6226,20 @@ const initState = {
         date: "1993-04-27T08:00:00Z",   
         dog: "Carrie", id: 89,
       },
-
+      {
+        image: require('../../images/specialties/TediBestInSweeps1-2020.jpg'),
+        award: "Best in Sweepstakes",
+        show: "2020 Regional",
+        date: "2020-01-22T08:00:00Z",   
+        dog: "Tedi", id: 106,
+      },
+      {
+        image: require('../../images/specialties/TediBOW2020.jpg'),
+        award: "Best of Winners",
+        show: "2020 Regional",
+        date: "2020-01-22T08:00:00Z",   
+        dog: "Tedi", id: 106,
+      },
   ]
 }
 
