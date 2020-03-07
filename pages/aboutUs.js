@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { connect } from 'react-redux';
 import Navbar from '../components/Layout/Navbar';
 import Footer from '../components/Layout/Footer';
 import Breadcrumb from '../components/Common/Breadcrumb';
@@ -6,6 +7,48 @@ import Link from "next/link";
 
 class Index extends Component {
     render() {
+        let { 
+               
+            GCHTitles,
+            CHTitles,
+            GCHBTitles,
+            GCHSTitles,
+            CDTitles,
+            CDXTitles,
+            UDTitles,
+            AXPTitles,
+            AJPTitles,
+            NAPTitles,
+            NJPTitles,
+            OAPTitles,
+            OJPTitles,
+            DDTitles,
+            DDXTitles,
+            WDTitles,
+            WRDTitles,
+            WRDXTitles,
+            TDDTitles,
+            TDDXTitls,
+            VNTitles,
+            WATitles,
+            ROMTitles,
+            THDNTitles,
+            RNTitles,
+            RATitles,
+            RETitles,
+            CGCTitles,
+            CGCATitles,
+            TopTwentyTitles, 
+            BNTitles,
+            TKNTitles,
+            TKITitles,
+            TKATitles,
+            AllCHTitles = GCHTitles + CHTitles + GCHBTitles + GCHSTitles, 
+            ALLOBEDTitles = CDTitles + CDXTitles + UDTitles + RNTitles + RATitles + RETitles + BNTitles + TKNTitles + TKITitles + TKATitles,
+            ALLAjilityTitles = NAPTitles + NJPTitles + OAPTitles + OJPTitles + AXPTitles + AJPTitles,
+            ALLCGCTitles = CGCATitles + CGCTitles,
+            ALLWorkingTitles = WDTitles + WRDXTitles + DDTitles + DDXTitles + TDDTitles + TDDXTitls,
+            AllSpecialTitles = ROMTitles + VNTitles + WATitles + TopTwentyTitles    } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
@@ -48,33 +91,33 @@ class Index extends Component {
                                     <p>Old Bay is extremely proud of the achievements of the dogs they own and the owners of dogs they bred or co-bred.  
                                         Here are some statistics:</p>
                                         <p>
-                                            <h2>97 - AKC Championship Titles</h2>
-                                            75 Champions, 18 Grand Champions, 3 Grand Champion Bronze, 1 Grand Champion Silver
+                                            <h2>{AllCHTitles} - AKC Championship Titles</h2>
+                                            {CHTitles} Champions, {GCHBTitles} Grand Champions, {GCHBTitles} Grand Champion Bronze, {GCHSTitles} Grand Champion Silver
                                         </p>
                                         <p>
-                                            <h2>52 - AKC Obedience and Rally Titles</h2>
-                                            19 Companion Dogs, 3 Companion Dog Excellant, 1 Utiltiy Dog, 4 Beginner Novice,  12 Rally Novice, 5 Rally Advanced, 
-                                            1 Rally Excellant, 4 Trick Dog Novice, 2 Trick Dog Intermediate, 1 Trick Dog Advanced
+                                            <h2>{ALLOBEDTitles} - AKC Obedience and Rally Titles</h2>
+                                            {CDTitles} Companion Dogs, {CDXTitles} Companion Dog Excellant, {UDTitles} Utiltiy Dog, {BNTitles} Beginner Novice,  {RNTitles} Rally Novice, 5 Rally Advanced, 
+                                            {RETitles} Rally Excellant, {TKNTitles} Trick Dog Novice, {TKITitles} Trick Dog Intermediate, {TKATitles} Trick Dog Advanced
                                         </p>
                                         <p>
-                                        <h2>13 - AKC Agility Titles</h2>
-                                            4 Novice Agility Preferred, 3 Novice Jumpers Preferred, 2 Open Agility Prreferred, 2 Open Jumpers Preferred, 1 Agility Excellent Preferred, 1 Agility Jumpers Excellent Preffered
+                                        <h2>{ALLAjilityTitles} - AKC Agility Titles</h2>
+                                            {NAPTitles} Novice Agility Preferred, {NJPTitles} Novice Jumpers Preferred, {OAPTitles} Open Agility Prreferred, {OJPTitles} Open Jumpers Preferred, {AXPTitles} Agility Excellent Preferred, {AJPTitles} Agility Jumpers Excellent Preffered
                                         </p>
                                         <p>
-                                            <h2>2 - AKC Therapy Dog Titles</h2>
-                                            2 Therapy Dogs
+                                            <h2>{THDNTitles} - AKC Therapy Dog Titles</h2>
+                                            {THDNTitles} Therapy Dogs
                                         </p>
                                         <p>
-                                            <h2>21 - AKC Canine Good Citizen Titles</h2>
-                                            18 Canine Good Citizen, 3 Canine Good Citizen Advanced
+                                            <h2>{ALLCGCTitles} - AKC Canine Good Citizen Titles</h2>
+                                            {CGCTitles} Canine Good Citizen, {CGCATitles} Canine Good Citizen Advanced
                                         </p>
                                         <p>
-                                            <h2>76 - NCA Working Titles/Requalifications</h2>
-                                            21 Water Dog, 25 Water Rescue Dog, 1 Water Rescue Dog Excellant, 16 Draft Dog, 2 Draft Dog Excellant, 9 Team Draft Dogs, 2 Team Draft Dog Excellant
+                                            <h2>{ALLWorkingTitles} - NCA Working Titles/Requalifications</h2>
+                                            {WDTitles} Water Dog, {WRDTitles} Water Rescue Dog, {WRDXTitles} Water Rescue Dog Excellant, {DDTitles} Draft Dog, {DDXTitles} Draft Dog Excellant, {TDDTitles} Team Draft Dogs, {TDDXTitls} Team Draft Dog Excellant
                                         </p>
                                         <p>
-                                            <h2>23 - NCA Special Awards</h2>
-                                            8 Register of Merit, 5 Versitile Newfoundlands, 2 Working Achievements, 8 times in Top Twenty
+                                            <h2>{AllSpecialTitles} - NCA Special Awards</h2>
+                                            {ROMTitles} Register of Merit, {VNTitles} Versitile Newfoundlands, {WATitles} Working Achievements, {TopTwentyTitles} times in Top Twenty
                                         </p>
                                     
 
@@ -99,5 +142,45 @@ class Index extends Component {
         );
     }
 }
+const mapStateToProps = (state) => {
+    return {
+        GCHTitles: state.GCHTitles,
+        CHTitles: state.CHTitles,
+        GCHBTitles: state.GCHBTitles,
+        GCHSTitles: state.GCHSTitles,
+        CDTitles: state.CDTitles,
+        CDXTitles: state.CDXTitles,
+        UDTitles: state.UDTitles,
+        AXPTitles: state.AXPTitles,
+        AJPTitles: state.AJPTitles,
+        NAPTitles: state.NAPTitles,
+        NJPTitles: state.NJPTitles,
+        OAPTitles: state.OAPTitles,
+        OJPTitles: state.OJPTitles,
+        DDTitles: state.DDTitles,
+        DDXTitles: state.DDXTitles,
+        WDTitles: state.WDTitles,
+        WRDTitles: state.WRDTitles,
+        WRDXTitles: state.WRDXTitles,
+        TDDTitles: state.TDDTitles,
+        TDDXTitls: state.TDDXTitls,
+        VNTitles: state.VNTitles,
+        WATitles: state.WATitles,
+        ROMTitles: state.ROMTitles,
+        THDNTitles: state.THDNTitles,
+        RNTitles: state.RNTitles,
+        RATitles: state.RATitles,
+        RETitles: state.RETitles,
+        CGCTitles: state.CGCTitles,
+        CGCATitles: state.CGCATitles,
+        TopTwentyTitles: state.TopTwentyTitles,
+        BNTitles: state.BNTitles,
+        TKNTitles: state.TKNTitles,
+        TKITitles: state.TKITitles,
+        TKATitles: state.TKATitles,
+    }
+}
 
-export default Index;
+export default connect(
+    mapStateToProps,
+)(Index)

@@ -74,13 +74,17 @@ const initState = {
     VNTitles: 5,
     WATitles: 2,
     ROMTitles: 8,
-    THDNTitles: 1,
+    THDNTitles: 2,
     RNTitles: 12,
     RATitles: 5,
     RETitles: 1,
     CGCTitles: 18,
     CGCATitles: 3,
     TopTwentyTitles: 8,
+    BNTitles: 4,
+    TKNTitles: 4,
+    TKITitles: 2,
+    TKATitles: 1,
     dogs: 
     [
       {

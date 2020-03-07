@@ -23,7 +23,13 @@ class champions extends Component {
     
     render() {
         let { gridClass } = this.state;
-        let { championsSort, length } = this.props;
+        let { championsSort, length,  
+                GCHTitles,
+                CHTitles,
+                GCHBTitles,
+                GCHSTitles, 
+                AllCHTitles = GCHTitles + CHTitles + GCHBTitles + GCHSTitles,
+            } = this.props;
         return (
             <React.Fragment>
                 <Navbar />
@@ -31,8 +37,8 @@ class champions extends Component {
                 <section className="products-collections-area ptb-60">
                     <div className="container">
                         <div className="section-title">
-                            <h2>97 - AKC Championship Titles</h2>
-                            <p>75 Champions, 18 Grand Champions, 3 Grand Champion Bronze, 1 Grand Champion Silver</p>
+                            <h2>{AllCHTitles} - AKC Championship Titles</h2>
+                            <p>{CHTitles} Champions, {GCHSTitles} Grand Champions, {GCHBTitles} Grand Champion Bronze, {GCHSTitles} Grand Champion Silver</p>
                             <p>The following AKC Champion titles were received by dogs bred, co-bred or owned by Old Bay Newfoundlands.</p>
                         </div>
                     </div>
@@ -59,7 +65,11 @@ class champions extends Component {
 const mapStateToProps = (state) => {
     return {
         championsSort: state.championsSort,
-        length: state.champions.length
+        length: state.champions.length,
+        GCHTitles: state.GCHTitles,
+        CHTitles: state.CHTitles,
+        GCHBTitles: state.GCHBTitles,
+        GCHSTitles: state.GCHSTitles,
     }
 }
 

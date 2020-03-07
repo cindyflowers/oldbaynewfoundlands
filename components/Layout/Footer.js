@@ -40,7 +40,7 @@ class Footer extends Component {
                                     <span id="siteseal">
                                     <script async type="text/javascript" 
                                     src="https://seal.godaddy.com/getSeal?sealID=6pCVTnwD2GuDZmHGQLaZml5obAG8Jnq8p8DPhyCmzRoZGKfLOvUIsTX3y0jn"></script>
-                                    </span>  Copyright @ 2019 Old Bay Newfoundlands. All Rights Reserved. 
+                                    </span>  Copyright @ 2020 Old Bay Newfoundlands. All Rights Reserved. 
 
                                 </p>
                             </div> 
