@@ -922,6 +922,17 @@ module.exports = "/_next/static/images/Tate-d320608ea1a2e941f3bc5314faa8cd9c.jpg
 
 /***/ }),
 
+/***/ "./images/info/Tedi.jpg":
+/*!******************************!*\
+  !*** ./images/info/Tedi.jpg ***!
+  \******************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/Tedi-46db17547addd5fa3242a127162e4bd4.jpg";
+
+/***/ }),
+
 /***/ "./images/info/Tiffany.JPG":
 /*!*********************************!*\
   !*** ./images/info/Tiffany.JPG ***!
@@ -3438,6 +3449,28 @@ module.exports = "/_next/static/images/SpiceYounger-db199a1f9678f57182cb649f61d2
 /***/ (function(module, exports) {
 
 module.exports = "/_next/static/images/Team-2004-National-b42a6ec97c8163a965fc3aef4e480aca.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/TediBOW2020.jpg":
+/*!********************************************!*\
+  !*** ./images/specialties/TediBOW2020.jpg ***!
+  \********************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/TediBOW2020-8554303e5f6d84c4bad2f3b721d8e5a7.jpg";
+
+/***/ }),
+
+/***/ "./images/specialties/TediBestInSweeps1-2020.jpg":
+/*!*******************************************************!*\
+  !*** ./images/specialties/TediBestInSweeps1-2020.jpg ***!
+  \*******************************************************/
+/*! no static exports found */
+/***/ (function(module, exports) {
+
+module.exports = "/_next/static/images/TediBestInSweeps1-2020-702c7da31a74c28284b6049f37a66940.jpg";
 
 /***/ }),
 
@@ -14700,6 +14733,36 @@ var initState = {
   working: [],
   currentDog: 1,
   currentLitter: 1,
+  GCHTitles: 20,
+  CHTitles: 76,
+  GCHBTitles: 3,
+  GCHSTitles: 1,
+  CDTitles: 20,
+  CDXTitles: 3,
+  UDTitles: 1,
+  AXPTitles: 1,
+  AJPTitles: 1,
+  NAPTitles: 4,
+  NJPTitles: 3,
+  OAPTitles: 2,
+  OJPTitles: 2,
+  DDTitles: 16,
+  DDXTitles: 2,
+  WDTitles: 21,
+  WRDTitles: 25,
+  WRDXTitles: 1,
+  TDDTitles: 9,
+  TDDXTitls: 2,
+  VNTitles: 5,
+  WATitles: 2,
+  ROMTitles: 8,
+  THDNTitles: 1,
+  RNTitles: 12,
+  RATitles: 5,
+  RETitles: 1,
+  CGCTitles: 18,
+  CGCATitles: 3,
+  TopTwentyTitles: 8,
   dogs: [{
     "id": 1,
     "call": "Sirius",
@@ -15744,7 +15807,7 @@ var initState = {
     "ours": true,
     "stud": false,
     "sex": "female",
-    "name": "CH Old Bay's Light My Fire With Dreamhaven",
+    "name": "GCH CH Old Bay's Light My Fire With Dreamhaven",
     "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
     "dam": "GCHB Old Bay's Keep It Simple ROM",
     "dob": "2018-11-10T05:00:00.000Z",
@@ -15758,6 +15821,10 @@ var initState = {
     "Titles": [{
       "title": "CH",
       "date": "10/30/2019",
+      "org": "AKC"
+    }, {
+      "title": "GCH",
+      "date": "2/15/2020",
       "org": "AKC"
     }]
   }, {
@@ -17207,7 +17274,7 @@ var initState = {
     "ours": false,
     "stud": false,
     "sex": "female",
-    "name": "CH Old Bay's The Force Is Strong At Dreamhaven CGC",
+    "name": "GCH CH Old Bay's The Force Is Strong At Dreamhaven CGC",
     "sire": "CH Goldcoast's Keeper Of The Watch",
     "dam": "GCH Old Bay's Snowball's Chance CD",
     "dob": "2017-07-29T04:00:00.000Z",
@@ -17225,6 +17292,10 @@ var initState = {
     }, {
       "title": "CH",
       "date": "10/27/2018",
+      "org": "AKC"
+    }, {
+      "title": "GCH",
+      "date": "01/15/2018",
       "org": "AKC"
     }]
   }, {
@@ -18038,6 +18109,30 @@ var initState = {
     "Titles": [{
       "title": "CH",
       "date": "11/05/1988",
+      "org": "AKC"
+    }]
+  }, {
+    "id": 106,
+    "call": "Tedi",
+    "ch": true,
+    "toptwenty": "",
+    "ours": false,
+    "stud": false,
+    "sex": "male",
+    "name": "CH Old Bay Dreamhaven Great Xpectations @ Acqua Terra",
+    "sire": "GCHP C Oceano Darbydale's Xecutive Decision",
+    "dam": "GCH CH Old Bay's Snowball's Chance CD",
+    "dob": "2019-07-01T08:00:00.000Z",
+    "neutered": false,
+    "rip": "",
+    "owner": "Kathy Wortham, Cindy Flowers, Andrea Jung, Gigi Kim Griffith",
+    "aka": "Tedilicious, Tedinator, London, Barnacle, Barney",
+    "lives": "Kathy",
+    "health": "",
+    "image": __webpack_require__(/*! ../../images/info/Tedi.jpg */ "./images/info/Tedi.jpg"),
+    "Titles": [{
+      "title": "CH",
+      "date": "01/22/2020",
       "org": "AKC"
     }]
   }],
@@ -20166,6 +20261,20 @@ var initState = {
     date: "1993-04-27T08:00:00Z",
     dog: "Carrie",
     id: 89
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/TediBestInSweeps1-2020.jpg */ "./images/specialties/TediBestInSweeps1-2020.jpg"),
+    award: "Best in Sweepstakes",
+    show: "2020 Regional",
+    date: "2020-01-22T08:00:00Z",
+    dog: "Tedi",
+    id: 106
+  }, {
+    image: __webpack_require__(/*! ../../images/specialties/TediBOW2020.jpg */ "./images/specialties/TediBOW2020.jpg"),
+    award: "Best of Winners",
+    show: "2020 Regional",
+    date: "2020-01-22T08:00:00Z",
+    dog: "Tedi",
+    id: 106
   }]
 };
 initState.awards.sort(byDateDesc);
