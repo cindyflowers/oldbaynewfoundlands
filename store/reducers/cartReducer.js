@@ -51,6 +51,36 @@ const initState = {
     working: [],
     currentDog: 1,
     currentLitter: 1,
+    GCHTitles: 20,
+    CHTitles: 76,
+    GCHBTitles: 3,
+    GCHSTitles: 1,
+    CDTitles: 20,
+    CDXTitles: 3,
+    UDTitles: 1,
+    AXPTitles: 1,
+    AJPTitles: 1,
+    NAPTitles: 4,
+    NJPTitles: 3,
+    OAPTitles: 2,
+    OJPTitles: 2,
+    DDTitles: 16,
+    DDXTitles: 2,
+    WDTitles: 21,
+    WRDTitles: 25,
+    WRDXTitles: 1,
+    TDDTitles: 9,
+    TDDXTitls: 2,
+    VNTitles: 5,
+    WATitles: 2,
+    ROMTitles: 8,
+    THDNTitles: 1,
+    RNTitles: 12,
+    RATitles: 5,
+    RETitles: 1,
+    CGCTitles: 18,
+    CGCATitles: 3,
+    TopTwentyTitles: 8,
     dogs: 
     [
       {
@@ -1252,7 +1282,7 @@ const initState = {
         "ours": true,
         "stud": false,
         "sex": "female",
-        "name": "CH Old Bay's Light My Fire With Dreamhaven",
+        "name": "GCH CH Old Bay's Light My Fire With Dreamhaven",
         "sire": "VN GCH Southwind's Pouch Cove Dark Star CD, RE, TDD, WRD3",
         "dam": "GCHB Old Bay's Keep It Simple ROM",
         "dob": "2018-11-10T05:00:00.000Z",
@@ -1267,6 +1297,11 @@ const initState = {
           {
             "title": "CH",
             "date": "10/30/2019",
+            "org": "AKC"
+          },
+          {
+            "title": "GCH",
+            "date": "2/15/2020",
             "org": "AKC"
           }
         ]

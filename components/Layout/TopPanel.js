@@ -40,15 +40,15 @@ class TopPanel extends Component {
                             {...options}
                         >
                             <div className="single-item-box">
-                                <p><strong>SING has arrived!</strong> born on November 8, 2019 <Link href="/litter"  as={ process.env.ASSET_PREFIX + '/litter'}><a>Read More</a></Link></p>
+                                <p><strong>January 2020 - Obi #6 and Kindle #7! </strong><Link href="http://caninechronicle.com/new-statistics/?type=breed&b_year=2020&cat=Working+Group&breed=619"   ><a target="_blank">Canine Chronicle Statistics</a></Link></p>
                             </div>
 
                             <div className="single-item-box">
-                                <p><strong>SING has arrived!</strong> born on November 8 2019 <Link href="/litter" as={ process.env.ASSET_PREFIX + '/litter'}><a>Read More</a></Link></p>
+                                <p><strong>January 2020 - Obi #6 and Kindle #7! </strong><Link href="http://caninechronicle.com/new-statistics/?type=breed&b_year=2020&cat=Working+Group&breed=619"  ><a target="_blank">Canine Chronicle Statistics</a></Link></p>
                             </div>
 
                             <div className="single-item-box">
-                                <p><strong>SING has arrived!</strong> born on November 8 2019 <Link href="litter" as={ process.env.ASSET_PREFIX + '/litter'}><a>Read More</a></Link></p>
+                                <p><strong>January 2020 - Obi #6 and Kindle #7! </strong><Link href="http://caninechronicle.com/new-statistics/?type=breed&b_year=2020&cat=Working+Group&breed=619" ><a target="_blank">Canine Chronicle Statistics</a></Link></p>
                             </div>
                         </OwlCarousel> : ''}
 
