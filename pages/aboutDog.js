@@ -78,7 +78,7 @@ class Index extends Component {
                                                     <tbody>
                                                     <tr>
                                                         <td>Born</td>
-                                                        <td>{data.dob}</td>
+                                                        <td><Moment format="MMMM DD, YYYY">{data.dob}</Moment></td>
                                                     </tr>
                                                     <tr>
                                                         <td>Sire</td>

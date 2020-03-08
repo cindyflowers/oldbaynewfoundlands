@@ -38,7 +38,7 @@ class champions extends Component {
                     <div className="container">
                         <div className="section-title">
                             <h2>{AllCHTitles} - AKC Championship Titles</h2>
-                            <p>{CHTitles} Champions, {GCHSTitles} Grand Champions, {GCHBTitles} Grand Champion Bronze, {GCHSTitles} Grand Champion Silver</p>
+                            <p>{CHTitles} Champions, {GCHTitles} Grand Champions, {GCHBTitles} Grand Champion Bronze, {GCHSTitles} Grand Champion Silver</p>
                             <p>The following AKC Champion titles were received by dogs bred, co-bred or owned by Old Bay Newfoundlands.</p>
                         </div>
                     </div>
