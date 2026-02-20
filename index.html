@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Old Bay Newfoundlands</title>
+    <meta name="description" content="Old Bay Newfoundlands - Dedicated to preserving the future of purebred Newfoundlands since 1986." />
+
+    <!-- Stylesheets (same files you already have) -->
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/styles/animate.min.css" />
+    <link rel="stylesheet" href="assets/styles/slick.css" />
+    <link rel="stylesheet" href="assets/styles/slick-theme.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+
+    <!-- Carousel styles (replaces OwlCarousel) -->
+    <link rel="stylesheet" href="assets/styles/carousel.css" />
+
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+
+    <script>
+        // Auto-detect: empty string for local dev, GitHub Pages path for production
+        window.ASSET_PREFIX = (window.location.hostname === "localhost" ||
+                               window.location.hostname === "127.0.0.1")
+                               ? "" : "/oldbaynewfoundlands";
+    </script>
+</head>
+<body>
+
+    <!-- NAVBAR -->
+    <div id="navbar-container"></div>
+
+    <!-- BANNER -->
+    <div class="main-banner-content">
+        <div class="row">
+            <div class="col-lg-4 col-sm-12 col-md-5 col-12">
+                <div class="main-banner-content">
+                    <span>Established in 1986</span>
+                    <h1>OLD BAY NEWFOUNDLANDS</h1>
+                    <p>Dedicated to perserving the future of purebred Newfoundlands</p>
+                    <p>
+                        <ul class="main-banner-nav">
+                            <li>
+                                <a href="https://www.NewfPuppy.com" target="_blank">
+                                    <i class="fas fa-dog"></i> www.NewfPuppy.com <i class="fas fa-dog"></i>
+                                </a>
+                            </li>
+                        </ul>
+                        can help you decide if a Newfoundland is the right breed of dog for you.
+                    </p>
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <a class="btn btn-primary" href="specialties.html">Specialty Awards</a>
+                        </div>
+                        <div class="col-lg-6">
+                            <a class="btn btn-primary" href="rom.html">Register of Merit</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- BANNER CAROUSEL -->
+            <div class="col-lg-8 col-sm-12 col-md-7 col-12">
+                <div id="bannerCarousel" class="home-slides">
+                    <div class="carousel-slide active">
+                        <div class="main-banner item-bg2"></div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="main-banner item-bg1"></div>
+                    </div>
+                    <div class="carousel-slide">
+                        <div class="main-banner item-bg3"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- FOOTER -->
+    <div id="footer-container"></div>
+
+    <!-- MODAL -->
+    <div id="modal-container"></div>
+
+    <!-- Scripts -->
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script>
+        initPage(null); // no breadcrumb on home page
+        initCarousel('bannerCarousel');
+
+        // Auto-rotate banner every 4 seconds
+        setInterval(() => carouselNext('bannerCarousel'), 4000);
+    </script>
+</body>
+</html>

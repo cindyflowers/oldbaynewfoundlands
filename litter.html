@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Litters - Old Bay Newfoundlands</title>
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+    <link rel="stylesheet" href="assets/styles/carousel.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script>
+        // Auto-detect: empty string for local dev, GitHub Pages path for production
+        window.ASSET_PREFIX = (window.location.hostname === "localhost" ||
+                               window.location.hostname === "127.0.0.1")
+                               ? "" : "/oldbaynewfoundlands";
+    </script>
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <div id="breadcrumb-container"></div>
+
+    <section class="litter-area ptb-60">
+        <div id="litterCarousel" class="litter-slides"></div>
+    </section>
+
+    <div id="footer-container"></div>
+    <div id="modal-container"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script>
+        const params = new URLSearchParams(window.location.search);
+        const litterId = parseInt(params.get('id')) || 1;
+
+        initPage('Litters');
+
+        const litters = window.LITTERS || [];
+        const startIdx = Math.max(0, litters.findIndex(l => l.id === litterId));
+
+        const slides = litters.map(data => {
+            const puppyList = (data.puppies || []).map(p => `<div>${p}</div>`).join('');
+            return `
+            <div class="carousel-slide">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-xxl-4 col-md-6">
+                            <div class="litter-content">
+                                <h2><b>${data.parents}</b></h2>
+                                <div class="table-responsive">
+                                    <table class="table table-striped">
+                                        <tr><td>Born</td><td>${formatDate(data.dob)}</td></tr>
+                                        <tr><td>Sire</td><td>${data.sire||''}</td></tr>
+                                        <tr><td>Dam</td><td>${data.dam||''}</td></tr>
+                                        <tr><td>Boys</td><td>${data.boys||0}</td></tr>
+                                        <tr><td>Girls</td><td>${data.girls||0}</td></tr>
+                                        <tr><td>Puppies</td><td>${puppyList}</td></tr>
+                                    </table>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-xxl-4 col-md-3">
+                            <h2><b>Sire</b></h2>
+                            <img src="${data.sireimg||''}" title="${data.sire||''}" class="litter-image" alt="Sire" />
+                        </div>
+                        <div class="col-xxl-4 col-md-3">
+                            <h2><b>Dam</b></h2>
+                            <img src="${data.damimg||''}" title="${data.dam||''}" class="litter-image" alt="Dam" />
+                        </div>
+                    </div>
+                    ${data.pupimg ? `
+                    <div class="row">
+                        <div class="col-xxl-8 col-md-6">
+                            <h2><b>Puppies</b></h2>
+                            <img src="${data.pupimg}" class="litter-img2" alt="Puppies" />
+                        </div>
+                    </div>` : ''}
+                </div>
+            </div>`;
+        });
+
+        document.getElementById('litterCarousel').innerHTML = slides.join('');
+        document.getElementById('litterCarousel').dataset.start = startIdx;
+        initCarousel('litterCarousel');
+    </script>
+</body>
+</html>

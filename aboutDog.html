@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Dog Profile - Old Bay Newfoundlands</title>
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+    <link rel="stylesheet" href="assets/styles/carousel.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script>
+        // Auto-detect: empty string for local dev, GitHub Pages path for production
+        window.ASSET_PREFIX = (window.location.hostname === "localhost" ||
+                               window.location.hostname === "127.0.0.1")
+                               ? "" : "/oldbaynewfoundlands";
+    </script>
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <div id="breadcrumb-container"></div>
+
+    <section class="aboutDog-area ptb-60">
+        <div id="dogCarousel" class="aboutDog-slides"></div>
+    </section>
+
+    <div id="footer-container"></div>
+    <div id="modal-container"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script>
+        // Get dog id from URL query string: aboutDog.html?id=4
+        const params = new URLSearchParams(window.location.search);
+        const dogId = parseInt(params.get('id')) || 1;
+        const dog = (window.DOGS || []).find(d => d.id === dogId);
+
+        const pageTitle = dog ? (dog.sex === 'male' ? 'The Boys' : 'The Girls') : 'Dog Profile';
+        initPage(pageTitle);
+
+        if (dog) {
+            document.title = `${dog.call} - Old Bay Newfoundlands`;
+
+            // Build the group to carousel through (same sex, same living/deceased status)
+            const living = !dog.rip;
+            const myDogs = window.DOGS.filter(d =>
+                d.ours === true &&
+                (living ? !d.rip : !!d.rip) &&
+                d.sex === dog.sex
+            );
+
+            const startIdx = myDogs.findIndex(d => d.id === dogId);
+
+            const slides = myDogs.map(data => {
+                const awards = (window.AWARDS || []).filter(a => a.id === data.id);
+                const titlesHtml = data.Titles && data.Titles.length ? `
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead><tr><th>Title</th><th>Organization</th><th>Date</th></tr></thead>
+                            <tbody>${data.Titles.map(t => `<tr><td>${t.title}</td><td>${t.org}</td><td>${formatDate(t.date)}</td></tr>`).join('')}</tbody>
+                        </table>
+                    </div>` : '';
+                const awardsHtml = awards.length ? `
+                    <div class="table-responsive">
+                        <table class="table table-striped">
+                            <thead><tr><th>Award</th><th>Show</th><th>Date</th></tr></thead>
+                            <tbody>${awards.map(a => `<tr><td>${a.award}</td><td>${a.show}</td><td>${formatDate(a.date)}</td></tr>`).join('')}</tbody>
+                        </table>
+                    </div>` : '';
+
+                return `
+                <div class="carousel-slide">
+                    <div class="container">
+                        <div class="row">
+                            <div class="col-xxl-4 col-md-6">
+                                <div class="aboutDog-content">
+                                    <h2><b>${data.call}</b> - ${data.name}</h2>
+                                    <div class="table-responsive">
+                                        <table class="table table-striped">
+                                            <tbody>
+                                                <tr><td>Born</td><td>${formatDate(data.dob)}</td></tr>
+                                                <tr><td>Sire</td><td>${data.sire||''}</td></tr>
+                                                <tr><td>Dam</td><td>${data.dam||''}</td></tr>
+                                                <tr><td>Owner</td><td>${data.owner||''}</td></tr>
+                                                <tr><td>Lives With</td><td>${data.lives||''}</td></tr>
+                                                <tr><td>AKA</td><td>${data.aka||''}</td></tr>
+                                            </tbody>
+                                        </table>
+                                    </div>
+                                    ${titlesHtml}
+                                </div>
+                            </div>
+                            <div class="col-xxl-8 col-md-6">
+                                <img src="${data.image||''}" class="aboutDog-img2" alt="${data.call}" />
+                            </div>
+                        </div>
+                        ${awardsHtml}
+                    </div>
+                </div>`;
+            });
+
+            document.getElementById('dogCarousel').innerHTML = slides.join('');
+            document.getElementById('dogCarousel').dataset.start = startIdx;
+            initCarousel('dogCarousel');
+        } else {
+            document.getElementById('dogCarousel').innerHTML = '<p class="container">Dog not found.</p>';
+        }
+    </script>
+</body>
+</html>

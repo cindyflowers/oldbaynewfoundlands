@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Champions - Old Bay Newfoundlands</title>
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/styles/animate.min.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+    <link rel="stylesheet" href="assets/styles/carousel.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script>
+        // Auto-detect: empty string for local dev, GitHub Pages path for production
+        window.ASSET_PREFIX = (window.location.hostname === "localhost" ||
+                               window.location.hostname === "127.0.0.1")
+                               ? "" : "/oldbaynewfoundlands";
+    </script>
+</head>
+<body>
+
+    <div id="navbar-container"></div>
+    <div id="breadcrumb-container"></div>
+
+    <section class="products-collections-area ptb-60">
+        <div class="container">
+            <div class="section-title">
+                <h2 id="champTitle"></h2>
+                <p id="champSubtitle"></p>
+                <p>The following AKC Champion titles were received by dogs bred, co-bred or owned by Old Bay Newfoundlands.</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div id="filterBar"></div>
+                    <div id="products-filter" class="products-collections-listing row products-col-four">
+                        <!-- cards rendered by JS -->
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+    <div id="modal-container"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script>
+        initPage('Champions');
+
+        // Compute title counts
+        const champs = window.CHAMPIONS || [];
+        const GCH  = champs.filter(d => d.name && d.name.startsWith('GCH ')).length;
+        const CH   = champs.filter(d => d.name && d.name.startsWith('CH ')).length;
+        const GCHB = champs.filter(d => d.name && d.name.startsWith('GCHB ')).length;
+        const GCHS = champs.filter(d => d.name && d.name.startsWith('GCHS ')).length;
+        const total = champs.length;
+
+        document.getElementById('champTitle').textContent = `${total} - AKC Championship Titles`;
+        document.getElementById('champSubtitle').textContent =
+            `${CH} Champions, ${GCH} Grand Champions, ${GCHB} Grand Champion Bronze, ${GCHS} Grand Champion Silver`;
+
+        // Sort state
+        let sortValue = 1;
+        let currentData = [...champs];
+
+        function sortData(val) {
+            sortValue = parseInt(val);
+            switch(sortValue) {
+                case 1: currentData.sort((a,b) => new Date(b.dob) - new Date(a.dob)); break;
+                case 2: currentData.sort((a,b) => new Date(a.dob) - new Date(b.dob)); break;
+                case 3: currentData.sort((a,b) => (b.call||'').localeCompare(a.call||'')); break;
+                case 4: currentData.sort((a,b) => (a.call||'').localeCompare(b.call||'')); break;
+            }
+            renderCards();
+        }
+
+        function handleSort(val) { sortData(val); }
+
+        function renderCards() {
+            document.getElementById('products-filter').innerHTML =
+                currentData.map(d => renderDogCard(d, 'dog')).join('');
+        }
+
+        // Initial render
+        document.getElementById('filterBar').innerHTML = renderFilterBar(total, sortValue);
+        sortData(1);
+    </script>
+</body>
+</html>

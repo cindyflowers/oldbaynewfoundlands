@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>About Us - Old Bay Newfoundlands</title>
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+    <link rel="stylesheet" href="assets/styles/carousel.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script>
+        // Auto-detect: empty string for local dev, GitHub Pages path for production
+        window.ASSET_PREFIX = (window.location.hostname === "localhost" ||
+                               window.location.hostname === "127.0.0.1")
+                               ? "" : "/oldbaynewfoundlands";
+    </script>
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <div id="breadcrumb-container"></div>
+
+    <section class="about-area ptb-60">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-content">
+                        <h2>About Old Bay Newfoundlands</h2>
+                        <p>Kathy Hamilton bred her first Newfoundland litter in 1988 under the Old Bay prefix. Her first Newfs came from Phyllis and Jamie Welch (Spillway) and Brenda and Rick Santiago (Muddy Creek).</p>
+                        <p>Cindy purchased her first Newf BETTY in 1992 and quickly became enamored with Newfoundlands. Mentored by members of Colonial Newfoundland Club, Kathy and Mike Paxton (Bear's Den), Karen and Gene Perry (Olde Mill) and Kathy Hamilton (Old Bay) she quickly jumped into learning about the breed and was soon participating in working events and volunteering for the club.</p>
+                        <p>Fast forward to 1998, the year John and Cindy brought two more Newfs into their lives, YOGI from Jean and Steve McAdams (Shadrack) and DAISY from Deb Wigal (Top Shelf). In 2002 Cindy and John co-bred a litter with Deb Wigal. Kathy Hamilton helped whelp the litter and in return she was given ROCKY, a great-grandson of a dog she had bred in 1993. Almost all current Old Bay Newfs can trace their pedigree back to BACARDI - VN CH Old Bays Bacardi Of Top Shelf CDX, TDD, WRD owned by Deb Wigal and bred by Kathy Hamilton.</p>
+                        <p>Old Bay has a long history of breeding health tested dogs. In 2020 you will find almost 100 Old Bay Newfs in the <a href="https://www.ofa.org/" target="_blank">Orthopedic Foundation for Animals <i class="fas fa-paw"></i></a> web site.</p>
+                        <p>Old Bay is extremely proud of the achievements of the dogs they own and the owners of dogs they bred or co-bred. Here are some statistics:</p>
+                        <div id="stats-container"></div>
+                        <div class="signature mb-0">
+                            <img src="images/AKCBreederOfMeritBanner.jpg" alt="AKC Breeder of Merit" />
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-6 col-md-12">
+                    <div class="about-image">
+                        <img src="images/Kathy3.jpg" class="about-img1" alt="Kathy Hamilton" />
+                        <img src="images/CindyAndJohn2.jpg" class="about-img2" alt="Cindy and John Flowers" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <div id="footer-container"></div>
+    <div id="modal-container"></div>
+
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script>
+        initPage('About Us');
+
+        const t = window.TITLE_COUNTS;
+        const AllCH = t.GCHTitles + t.CHTitles + t.GCHBTitles + t.GCHSTitles;
+        const AllObed = t.CDTitles + t.CDXTitles + t.UDTitles + t.RNTitles + t.RATitles + t.RETitles + t.BNTitles + t.TKNTitles + t.TKITitles + t.TKATitles;
+        const AllAgility = t.NAPTitles + t.NJPTitles + t.OAPTitles + t.OJPTitles + t.AXPTitles + t.AJPTitles;
+        const AllCGC = t.CGCATitles + t.CGCTitles;
+        const AllWorking = t.WDTitles + t.WRDXTitles + t.DDTitles + t.DDXTitles + t.TDDTitles + t.TDDXTitles;
+        const AllSpecial = t.ROMTitles + t.VNTitles + t.WATitles + t.TopTwentyTitles;
+
+        document.getElementById('stats-container').innerHTML = `
+            <p><h2>${AllCH} - AKC Championship Titles</h2>
+            ${t.CHTitles} Champions, ${t.GCHTitles} Grand Champions, ${t.GCHBTitles} Grand Champion Bronze, ${t.GCHSTitles} Grand Champion Silver</p>
+            <p><h2>${AllObed} - AKC Obedience and Rally Titles</h2>
+            ${t.CDTitles} Companion Dogs, ${t.CDXTitles} Companion Dog Excellent, ${t.UDTitles} Utility Dog, ${t.BNTitles} Beginner Novice, ${t.RNTitles} Rally Novice, ${t.RATitles} Rally Advanced, ${t.RETitles} Rally Excellent, ${t.TKNTitles} Trick Dog Novice, ${t.TKITitles} Trick Dog Intermediate, ${t.TKATitles} Trick Dog Advanced</p>
+            <p><h2>${AllAgility} - AKC Agility Titles</h2>
+            ${t.NAPTitles} Novice Agility Preferred, ${t.NJPTitles} Novice Jumpers Preferred, ${t.OAPTitles} Open Agility Preferred, ${t.OJPTitles} Open Jumpers Preferred, ${t.AXPTitles} Agility Excellent Preferred, ${t.AJPTitles} Agility Jumpers Excellent Preferred</p>
+            <p><h2>${t.THDNTitles} - AKC Therapy Dog Titles</h2>${t.THDNTitles} Therapy Dogs</p>
+            <p><h2>${AllCGC} - AKC Canine Good Citizen Titles</h2>
+            ${t.CGCTitles} Canine Good Citizen, ${t.CGCATitles} Canine Good Citizen Advanced</p>
+            <p><h2>${AllWorking} - NCA Working Titles/Requalifications</h2>
+            ${t.WDTitles} Water Dog, ${t.WRDTitles} Water Rescue Dog, ${t.WRDXTitles} Water Rescue Dog Excellent, ${t.DDTitles} Draft Dog, ${t.DDXTitles} Draft Dog Excellent, ${t.TDDTitles} Team Draft Dogs, ${t.TDDXTitles} Team Draft Dog Excellent</p>
+            <p><h2>${AllSpecial} - NCA Special Awards</h2>
+            ${t.ROMTitles} Register of Merit, ${t.VNTitles} Versatile Newfoundlands, ${t.WATitles} Working Achievements, ${t.TopTwentyTitles} times in Top Twenty</p>`;
+    </script>
+</body>
+</html>

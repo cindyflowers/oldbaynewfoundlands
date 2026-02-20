@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" />
+    <title>Specialty Awards - Old Bay Newfoundlands</title>
+    <link rel="stylesheet" href="assets/styles/bootstrap.min.css" />
+    <link rel="stylesheet" href="assets/styles/fontawesome.min.css" />
+    <link rel="stylesheet" href="assets/styles/style.css" />
+    <link rel="stylesheet" href="assets/styles/responsive.css" />
+    <link rel="stylesheet" href="assets/styles/carousel.css" />
+    <link rel="icon" type="image/png" href="images/favicon.png" />
+    <script>
+        // Auto-detect: empty string for local dev, GitHub Pages path for production
+        window.ASSET_PREFIX = (window.location.hostname === "localhost" ||
+                               window.location.hostname === "127.0.0.1")
+                               ? "" : "/oldbaynewfoundlands";
+    </script>
+</head>
+<body>
+    <div id="navbar-container"></div>
+    <div id="breadcrumb-container"></div>
+    <section class="products-collections-area ptb-60">
+        <div class="container">
+            <div class="section-title">
+                <h2>Specialty Awards</h2>
+                <p>The following awards were received by dogs bred, co-bred or owned by Old Bay Newfoundlands.</p>
+            </div>
+        </div>
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-lg-12 col-md-12">
+                    <div id="filterBar"></div>
+                    <div id="products-filter" class="products-collections-listing row products-col-four"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <div id="footer-container"></div>
+    <div id="modal-container"></div>
+    <script src="js/data.js"></script>
+    <script src="js/components.js"></script>
+    <script>
+        initPage('Specialty Awards');
+        let currentData = [...(window.SPECIALTIES || [])];
+        let sortValue = 1;
+        const cardType = 'award';
+        const sortField = 'date';
+
+        function sortData(val) {
+            sortValue = parseInt(val);
+            const nameField = cardType === 'award' ? 'dog' : 'call';
+            switch(sortValue) {
+                case 1: currentData.sort((a,b) => (b[sortField]||'') > (a[sortField]||'') ? 1 : -1); break;
+                case 2: currentData.sort((a,b) => (a[sortField]||'') > (b[sortField]||'') ? 1 : -1); break;
+                case 3: currentData.sort((a,b) => (b[nameField]||'') > (a[nameField]||'') ? 1 : -1); break;
+                case 4: currentData.sort((a,b) => (a[nameField]||'') > (b[nameField]||'') ? 1 : -1); break;
+            }
+            renderCards();
+        }
+        function handleSort(val) { sortData(val); }
+        function renderCards() {
+            document.getElementById('products-filter').innerHTML =
+                currentData.map(d => renderDogCard(d, cardType)).join('');
+        }
+        document.getElementById('filterBar').innerHTML = renderFilterBar(currentData.length, sortValue);
+        sortData(1);
+    </script>
+</body>
+</html>

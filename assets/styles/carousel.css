@@ -1,0 +1,55 @@
+/* ============================================================
+   Old Bay Newfs - Carousel (replaces react-owl-carousel3)
+   ============================================================ */
+
+.carousel-slide { display: none; }
+.carousel-slide.active { display: block; }
+
+.carousel-nav {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-top: 12px;
+    gap: 12px;
+}
+
+.carousel-prev,
+.carousel-next {
+    background: none;
+    border: 1px solid rgba(255,255,255,0.4);
+    color: #fff;
+    border-radius: 50%;
+    width: 36px;
+    height: 36px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: background 0.2s;
+}
+.carousel-prev:hover,
+.carousel-next:hover { background: rgba(255,255,255,0.2); }
+
+.carousel-dots { display: flex; gap: 6px; align-items: center; }
+.carousel-dot {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    background: rgba(255,255,255,0.4);
+    cursor: pointer;
+    transition: background 0.2s;
+}
+.carousel-dot.active { background: #fff; }
+
+/* Dog/Litter detail carousels (darker nav for light backgrounds) */
+.litter-slides .carousel-prev,
+.litter-slides .carousel-next,
+.aboutDog-slides .carousel-prev,
+.aboutDog-slides .carousel-next {
+    border-color: rgba(0,0,0,0.3);
+    color: #333;
+}
+.litter-slides .carousel-dot,
+.aboutDog-slides .carousel-dot { background: rgba(0,0,0,0.25); }
+.litter-slides .carousel-dot.active,
+.aboutDog-slides .carousel-dot.active { background: #333; }

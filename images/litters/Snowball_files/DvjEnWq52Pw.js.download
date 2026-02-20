@@ -1,0 +1,3 @@
+if (self.CavalryLogger) { CavalryLogger.start_js(["ZKMg5"]); }
+
+__d("XPaymentsRedirectController",["XController"],(function(a,b,c,d,e,f){e.exports=b("XController").create("/payments/redirect/",{type:{type:"String"},instance_id:{type:"String"},change_method:{type:"Int"},checkout_token:{type:"String"}})}),null);
